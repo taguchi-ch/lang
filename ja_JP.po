@@ -36,21 +36,17 @@ msgstr "起動"
 msgid "Computer / Device"
 msgstr "コンピュータ / デバイス"
 
-#
 # File: /usr/core/src/www/widgets/widgets/traffic_graphs.widget.php, line: 173
 msgid "Out (bps)"
-msgstr ""
+msgstr "Out (bps)"
 
-#
 # File: /usr/core/src/www/widgets/widgets/traffic_graphs.widget.php, line: 163
 msgid "In (bps)"
-msgstr ""
+msgstr "In (bps)"
 
-#
 # File: /usr/core/src/www/widgets/widgets/thermal_sensors.widget.php, line: 152
-#, php-format
 msgid "You can configure a proper Thermal Sensor / Module %shere%s."
-msgstr ""
+msgstr "適正な温度センサ / モジュールは%sここ%sで構成できます。"
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 246
 msgid "Core Critical:"
@@ -68,10 +64,9 @@ msgstr "ゾーン重篤: "
 msgid "Zone Warning:"
 msgstr "ゾーン警告: "
 
-#
 # File: /usr/core/src/www/widgets/widgets/thermal_sensors.widget.php, line: 117
 msgid "Thresholds in °C (1 to 100):"
-msgstr ""
+msgstr "しきい値 °C 単位 ( 1-100 ): "
 
 # File: src/www/widgets/widgets/system_log.widget.php, line: 58
 msgid "Number of Log lines to display"
@@ -110,11 +105,9 @@ msgstr "CPU タイプ"
 msgid "Versions"
 msgstr "バージョン"
 
-#
 # File: /usr/core/src/www/widgets/widgets/system_information.widget.php, line: 50
-#, php-format
 msgid "There are %s update(s) available."
-msgstr ""
+msgstr "%s 更新が利用可能です。"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 50
 msgid "Re-check now"
@@ -169,10 +162,9 @@ msgstr ""
 msgid "Remote/Virtual IP"
 msgstr "リモート / 仮想 IP"
 
-#
 # File: /usr/core/src/www/widgets/widgets/openvpn.widget.php, line: 63
 msgid "Real/Virtual IP"
-msgstr ""
+msgstr "リアル / 仮想 IP"
 
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 192
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 245
@@ -210,10 +202,9 @@ msgstr "インタフェース: "
 msgid "Number of lines to display:"
 msgstr "表示する行数: "
 
-#
 # File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 61
 msgid "Query Time"
-msgstr ""
+msgstr "クエリ時間"
 
 # File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 87
 msgid "Unknown - relayd not running?"
@@ -272,7 +263,6 @@ msgid "Int."
 msgstr "Int."
 
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 84
-#, php-format
 msgid "No CARP Interfaces Defined. Click %shere%s to configure CARP."
 msgstr ""
 "CARP インタフェースが定義されていません。%sここ%sをクリックして CARP を構成し"
@@ -282,26 +272,22 @@ msgstr ""
 msgid "DISABLED"
 msgstr "無効"
 
-#
 # File: /usr/core/src/www/widgets/api/plugins/temperature.inc, line: 43
 msgid "Core"
-msgstr ""
+msgstr "コア"
 
-#
 # File: /usr/core/src/www/widgets/api/plugins/system.inc, line: 58
 #, php-format
 msgid "Current: %s MHz, Max: %s MHz"
-msgstr ""
+msgstr "現在: %s MHz、最大: %s MHz"
 
-#
 # File: /usr/core/src/www/widgets/api/plugins/gateway.inc, line: 53
 msgid "Packetloss"
-msgstr ""
+msgstr "パケットロス"
 
-#
 # File: /usr/core/src/www/widgets/api/plugins/gateway.inc, line: 50
 msgid "Latency"
-msgstr ""
+msgstr "遅延"
 
 # File: src/www/vpn_openvpn_server.php, line: 1749
 # File: src/www/vpn_openvpn_server.php.orig, line: 1749
@@ -317,31 +303,24 @@ msgstr "サーバの編集"
 msgid "Protocol / Port"
 msgstr "プロトコル/ポート"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1686
-#, php-format
 msgid "%s4%s -- Normal usage range."
-msgstr ""
+msgstr "%s4%s -- 標準の使用範囲"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1685
-#, php-format
 msgid "%s2,3%s -- show TLS negotiations & route info."
-msgstr ""
+msgstr "%s2,3%s -- TLS ネゴシエーション、ルート情報を表示"
 
-#
+
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1684
-#, php-format
 msgid ""
 "%s1%s -- startup info + connection initiated messages + non-fatal encryption "
 "& net errors."
-msgstr ""
+msgstr "%s1%s -- 起動情報 + 接続開始メッセージ + 致命的ではない暗号化及びネットエラー"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1683
-#, php-format
 msgid "%s0%s -- No output except fatal errors."
-msgstr ""
+msgstr "%s0%s -- 致命的なエラー以外は出力しない"
 
 msgid ""
 "Enter any additional options you would like to add to the OpenVPN server "
@@ -562,7 +541,6 @@ msgstr ""
 "スは、オプションで、クライアントの接続に割り当てることができます。( アドレス"
 "プールを参照 )"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1217
 msgid ""
 "This is the IPv4 virtual network used for private communications between "
@@ -571,6 +549,11 @@ msgid ""
 "remaining network addresses can optionally be assigned to connecting "
 "clients. (see Address Pool)"
 msgstr ""
+"このサーバとクライアントホスト間のプライベート通信に使用される IPv4 仮想ネッ"
+"トワークで CIDR ( 例: 10.0.8.0/24 ) を使用して表記します。最初のネットワークア"
+"ドレスはサーバ仮想インタフェースに割り当てられます。残りのネットワークアドレ"
+"スは、オプションで、クライアントの接続に割り当てることができます。( アドレス"
+"プールを参照 )"
 
 msgid ""
 "When authenticating users, enforce a match between the common name of the "
@@ -973,10 +956,9 @@ msgstr "サーバ CN を検証しない"
 msgid "Use tls-remote and quote the server CN"
 msgstr "tls-remote を使用してサーバ CN を引用符で囲む"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 679
 msgid "Use tls-remote (deprecated, use only on clients prior to OpenVPN 2.3)"
-msgstr ""
+msgstr "tls-remote を使用 ( 非推奨、OpenVPN 2.3 以前のクライアントでのみ使用 )"
 
 # File: src/www/vpn_openvpn_export.php, line: 689
 # File: src/www/vpn_openvpn_export.php.orig, line: 689
@@ -1126,7 +1108,6 @@ msgstr ""
 "クライアント固有の上書きに追加する、追加オプションを入力してください。セミコ"
 "ロン区切りです。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 626
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1606
 msgid ""
@@ -1134,6 +1115,8 @@ msgid ""
 "IP. The NetBIOS scope ID isolates NetBIOS traffic on a single network to "
 "only those nodes with the same NetBIOS scope ID."
 msgstr ""
+"NetBIOS スコープ ID は NetBIOS over TCP/IP に対する拡張名前サービスを提供します。"
+"NetBIOS スコープ ID は単一ネットワークの NetBIOS トラフィックを、同じ NetBIOS スコープ ID のノードのみに分離します。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 547
 # File: src/www/vpn_openvpn_server.php, line: 1595
@@ -1143,8 +1126,8 @@ msgid ""
 "(query name server, then broadcast)."
 msgstr ""
 "使用可能なオプション: b-node ( ブロードキャスト )、p-node ( WINS サーバへのポ"
-"イントツーポイント名前照会 )、m-node (ブロードキャストしてからネームサーバ照"
-"会 )、h-node ( ネームサーバ照会してからブロードキャスト )。"
+"イントツーポイント名前照会 )、m-node (ブロードキャストしてからネームサーバ照会"
+" )、h-node ( ネームサーバ照会してからブロードキャスト )。"
 
 msgid "Node Type"
 msgstr "ノードタイプ"
@@ -1307,12 +1290,11 @@ msgstr "クライアントの X.509 コモンネームを、ここに入力し�
 msgid "Common name"
 msgstr "コモンネーム"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 414
 msgid ""
 "Select the OpenVPN servers where this override applies to, leave empty for "
 "all"
-msgstr ""
+msgstr "この上書きを適用する OpenVPN サーバを選択してください。空白にすると全てに適用します。"
 
 msgid ""
 "Set this option to disable this client-specific override without removing it "
@@ -1324,10 +1306,9 @@ msgstr ""
 msgid "add csc"
 msgstr "CSC の追加"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 269
 msgid "Do you really want to delete the selected csc's?"
-msgstr ""
+msgstr "本当に選択した CSC を削除しますか？"
 
 msgid "Do you really want to delete this csc?"
 msgstr "本当にこの CSC を削除しますか？"
@@ -1338,25 +1319,23 @@ msgstr "「NTP サーバ #4」フィールドには、有効な IP アドレス�
 msgid "The field 'NTP Server #3' must contain a valid IP address"
 msgstr "「NTP サーバ #3」フィールドには、有効な IP アドレスが必要です"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 1134
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 728
 msgid "move selected items to end"
-msgstr ""
+msgstr "選択した項目を末尾に移動"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 1123
 msgid "clone client"
-msgstr ""
+msgstr "クライアントをクローン"
 
 msgid "delete client"
-msgstr "クライアントの削除"
+msgstr "クライアントを削除"
 
 #
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 1114
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 710
 msgid "move selected before this item"
-msgstr ""
+msgstr "この項目の前に選択したものを移動"
 
 # File: src/www/vpn_openvpn_client.php, line: 1015
 # File: src/www/vpn_openvpn_server.php, line: 1684
@@ -1380,13 +1359,13 @@ msgstr ""
 # File: src/www/vpn_openvpn_server.php, line: 1682
 #, php-format
 msgid "%sdefault%s-%s4%s -- Normal usage range."
-msgstr "%sデフォルト%s-%s4%s -- 標準の使用範囲です。"
+msgstr "%sデフォルト%s-%s4%s -- 標準の使用範囲"
 
 # File: src/www/vpn_openvpn_client.php, line: 1012
 # File: src/www/vpn_openvpn_server.php, line: 1681
 #, php-format
 msgid "%snone%s -- No output except fatal errors."
-msgstr "%sなし%s -- 致命的なエラー以外は出力しません。"
+msgstr "%sなし%s -- 致命的なエラー以外は出力しない"
 
 # File: src/www/vpn_openvpn_client.php, line: 1011
 # File: src/www/vpn_openvpn_server.php, line: 1680
@@ -1429,7 +1408,6 @@ msgid "Don't add/remove routes"
 msgstr "ルートを追加 / 削除しない"
 
 # File: src/www/vpn_openvpn_client.php, line: 967
-#, php-format
 msgid ""
 "Don't add or remove routes automatically. Instead pass routes to %s--route-up"
 "%s script using environmental variables"
@@ -1660,10 +1638,9 @@ msgstr ""
 "このオプションを設定すると、リストから削除せずに、このクライアントを無効にし"
 "ます"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 399
 msgid "Do you really want to delete the selected clients?"
-msgstr ""
+msgstr "本当に選択したクライアントを削除しますか？"
 
 msgid "add client"
 msgstr "クライアントの追加"
@@ -2566,10 +2543,9 @@ msgstr "フェーズ 2 エントリを削除"
 msgid "edit phase 2 entry"
 msgstr "フェーズ 2 エントリを編集"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 572
 msgid "off"
-msgstr ""
+msgstr "オフ"
 
 # File: src/www/vpn_ipsec.php, line: 463
 msgid "enable phase 2 entry"
@@ -2579,20 +2555,17 @@ msgstr "フェーズ 2 エントリを有効"
 msgid "disable phase 2 entry"
 msgstr "フェーズ 2 エントリを無効"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 498
 msgid "PFS"
-msgstr ""
+msgstr "PFS"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 497
 msgid "Authenticity Protocols"
-msgstr ""
+msgstr "認証プロトコル"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 496
 msgid "Encryption Protocols"
-msgstr ""
+msgstr "暗号化プロトコル"
 
 msgid "Remote Subnet"
 msgstr "リモートサブネット"
@@ -2600,7 +2573,6 @@ msgstr "リモートサブネット"
 msgid "Local Subnet"
 msgstr "ローカルサブネット"
 
-#, php-format
 msgid "Show %s Phase-2 entries"
 msgstr "%s フェーズ 2 エントリを表示"
 
@@ -2617,10 +2589,9 @@ msgstr "フェーズ 1 エントリを編集"
 msgid "move selected entries before this"
 msgstr "選択したエントリをこれの前に移動"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 430
 msgid "DH Group"
-msgstr ""
+msgstr "DH グループ"
 
 msgid "auto"
 msgstr "自動"
@@ -2633,10 +2604,9 @@ msgstr "フェーズ 1 エントリを有効"
 msgid "disable phase 1 entry"
 msgstr "フェーズ 1 エントリを無効"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 338
 msgid "Phase 1 Proposal"
-msgstr ""
+msgstr "フェーズ 1 プロポーザル"
 
 msgid "Remote Gateway"
 msgstr "リモートゲートウェイ"
@@ -2679,12 +2649,10 @@ msgstr "OK"
 msgid "Attempting connection to"
 msgstr "接続を試みています: "
 
-#
 # File: /usr/core/src/www/system_usermanager_settings_test.php, line: 60
 msgid "Testing LDAP settings... One moment please..."
-msgstr ""
+msgstr "LDAP 設定をテストしています... 少しお待ち下さい..."
 
-#, php-format
 msgid "Could not find settings for %s%s"
 msgstr "%s%s 設定がありません"
 
@@ -2694,15 +2662,13 @@ msgstr "認証するコンテナを選択してください: "
 msgid "Save and Test"
 msgstr "保存してテスト"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 145
 msgid "--No Fallback--"
-msgstr ""
+msgstr "-- フォールバックなし --"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 134
 msgid "Authentication Server (fallback)"
-msgstr ""
+msgstr "認証サーバ ( フォールバック )"
 
 msgid "Enter 0 to never expire sessions. NOTE: This is a security risk!"
 msgstr ""
@@ -2752,30 +2718,25 @@ msgid ""
 "Could not connect to the LDAP server. Please check your LDAP configuration."
 msgstr "LDAP サーバに接続できません。LDAP 構成を確認して下さい。"
 
-#
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 227
 msgid "Deselect all (visible)"
-msgstr ""
+msgstr "全て選択解除 ( 可視 )"
 
-#
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 223
 msgid "Select all (visible)"
-msgstr ""
+msgstr "全て選択 ( 可視 )"
 
-#
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 192
 msgid "search"
-msgstr ""
+msgstr "検索"
 
-#
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 189
 msgid "(filter)"
-msgstr ""
+msgstr "( フィルタ )"
 
-#
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 184
 msgid "Allowed"
-msgstr ""
+msgstr "許可済"
 
 msgid "System Privileges"
 msgstr "システム権限"
@@ -2815,10 +2776,9 @@ msgstr "標準ユーザ"
 msgid "Disabled User"
 msgstr "無効にしたユーザ"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 957
 msgid "System Administrator"
-msgstr ""
+msgstr "システム管理者"
 
 msgid "delete user"
 msgstr "ユーザを削除"
@@ -2835,27 +2795,23 @@ msgstr "認証鍵ファイルを、ここに貼り付けてください。"
 msgid "Authorized keys"
 msgstr "認証鍵"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 861
 msgid ""
 "When using google authenticator, the following link provides a qrcode for "
 "easy setup"
-msgstr ""
+msgstr "Google 認証システムを使用する場合は、次のリンクで簡易設定用の QR コードが提供されています。"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 852
 msgid "OTP (base32) seed to use when a one time password authenticator is used"
-msgstr ""
+msgstr "ワンタイムパスワード認証が使用されている場合に使用する OTP (base32) シード"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 850
 msgid "generate new (160bit) secret"
-msgstr ""
+msgstr "新規 ( 160 ビット ) 秘密鍵を生成"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 847
 msgid "OTP seed"
-msgstr ""
+msgstr "OTP シード"
 
 # File: src/www/system_usermanager.php, line: 896
 msgid "Redirects on save"
@@ -7337,8 +7293,8 @@ msgid ""
 msgstr ""
 "キャッシュの RRset とメッセージの生存時間の最大値を構成します。デフォルトは "
 "86400 秒 ( 1 日 ) です。内部 TTL の有効期限が切れると、キャッシュ項目も有効期"
-"限が切れます。より多くのデータを照会し、( 非常に大きい ) TTL 値を信頼しないよ"
-"う、リゾルバに強制する構成が可能です。"
+"限が切れます。これを構成することで、リゾルバにデータのクエリをより頻繁に実行させ、( 非常に大きい ) TTL 値を信頼しないよ"
+"うに強制することができます。"
 
 msgid "Maximum TTL for RRsets and messages"
 msgstr "RRset 及びメッセージの TTL 最大値"
@@ -7757,7 +7713,7 @@ msgid ""
 "to hosts knowing the community string. Use a strong value here to protect "
 "from unauthorized information disclosure."
 msgstr ""
-"コミュニティ文字列はパスワードのように、SNMP クエリーによるアクセスをコミュニ"
+"コミュニティ文字列はパスワードのように、SNMP クエリによるアクセスをコミュニ"
 "ティ文字列を知っているホストに限定します。不正な情報開示からの防御のため、強"
 "度の高い値を使用してください。"
 
@@ -8981,7 +8937,7 @@ msgstr ""
 
 msgid "An interface IP address must be specified for the DNS query source."
 msgstr ""
-"DNS 照会の送信元となる、インタフェースの IP アドレスを指定してください。"
+"DNS クエリの送信元となる、インタフェースの IP アドレスを指定してください。"
 
 #
 # File: /usr/core/src/www/services_dnsmasq_domainoverride_edit.php, line: 97
@@ -9136,10 +9092,10 @@ msgid ""
 msgstr ""
 
 msgid "Query DNS servers sequentially"
-msgstr "DNS サーバに順次照会"
+msgstr "DNS サーバに順次クエリ"
 
 msgid "DNS Query Forwarding"
-msgstr "DNS 照会転送"
+msgstr "DNS クエリ転送"
 
 #, php-format
 msgid ""
@@ -23482,7 +23438,7 @@ msgstr ""
 
 # File: lang/dynamic/helpers/models.php, line: 47
 msgid "Trust"
-msgstr "信頼"
+msgstr "セキュリティ"
 
 # File: src/www/system_advanced_sysctl.php, line: 119
 msgid "Tunables"
