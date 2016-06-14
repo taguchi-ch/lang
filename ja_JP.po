@@ -2865,10 +2865,9 @@ msgstr "CA"
 msgid "User Certificates"
 msgstr "ユーザ証明書"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 721
 msgid "edit privileges"
-msgstr ""
+msgstr "権限を編集"
 
 msgid "Inherited From"
 msgstr "次から継承: "
@@ -2876,15 +2875,13 @@ msgstr "次から継承: "
 msgid "Effective Privileges"
 msgstr "有効な権限"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 669
 msgid "Remove groups"
-msgstr ""
+msgstr "グループを削除"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 665
 msgid "Add groups"
-msgstr ""
+msgstr "グループを追加"
 
 msgid ""
 "Leave blank if the account shouldn't expire, otherwise enter the expiration "
@@ -2976,7 +2973,6 @@ msgstr "このルートを適用するゲートウェイを選択、もしくは
 msgid "Destination network for this static route"
 msgstr "この静的ルートの送信先ネットワーク"
 
-#, php-format
 msgid "This network conflicts with address configured on interface %s."
 msgstr ""
 "このネットワークは、インタフェース %s で構成されたアドレスが競合しています。"
@@ -2999,13 +2995,14 @@ msgstr "送信先ネットワークビット数"
 msgid "Destination network"
 msgstr "送信先ネットワーク"
 
-#
 # File: /usr/core/src/www/system_routes.php, line: 327
 msgid ""
 "Do not enter static routes for networks assigned on any interface of this "
 "firewall. Static routes are only used for networks reachable via a different "
 "router, and not reachable via your default gateway."
 msgstr ""
+"このファイアウォールのインタフェースに割当てられたネットワークには、静的ルートを入力しないでください。"
+"静的ルートは、デフォルトゲートウェイ経由では到達できず、異なるルータを経由することで到達可能なネットワークにのみ使用されます。"
 
 # File: src/www/system_routes.php, line: 321
 msgid "add route"
@@ -3041,7 +3038,6 @@ msgstr "ルートを有効"
 msgid "disable route"
 msgstr "ルートを無効"
 
-#, php-format
 msgid ""
 "The static route configuration has been changed.%sYou must apply the changes "
 "in order for them to take effect."
@@ -3064,26 +3060,23 @@ msgstr "ルート"
 msgid "Add route"
 msgstr "ルートを追加"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 354
 msgid ""
 "Automatically sync the Captive Portal configuration to the other HA host "
 "when changes are made."
-msgstr ""
+msgstr "変更が発生すると、キャプティブポータル構成は他の HA ホストと自動的に同期されます。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 345
 msgid ""
 "Automatically sync the TrafficShaper configuration to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、トラフィックシェイパ構成は他の HA ホストと自動的に同期されます。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 336
 msgid ""
 "Automatically sync the DNS Resolver configuration to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、DNS リゾルバ構成は他の HA ホストと自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 350
 msgid ""
@@ -3266,6 +3259,8 @@ msgid ""
 "When using XMLRPC sync to a backup machine running on another port/protocol "
 "please input the full url (example: %s)"
 msgstr ""
+"XMLRPC を使用して、他のポート / プロトコルで実行しているバックアップマシンに同期する場合は、"
+"完全な URL を入力してください ( 例: %s )"
 
 # File: src/www/system_hasync.php, line: 186
 msgid ""
@@ -3283,12 +3278,13 @@ msgstr "IP に構成を同期"
 msgid "Configuration Synchronization Settings (XMLRPC Sync)"
 msgstr "同期設定の構成 ( XMLRPC 同期 )"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 149
 msgid ""
 "Setting this option will force pfsync to synchronize its state table to this "
 "IP address. The default is directed multicast."
 msgstr ""
+"このオプション設定は、pfsync のステータステーブルをこの IP アドレスに同期するよう強制します。"
+"デフォルトはマルチキャストです。"
 
 # File: src/www/system_hasync.php, line: 145
 msgid "Synchronize Peer IP"
@@ -3307,12 +3303,11 @@ msgid ""
 msgstr ""
 "このフェイルオーバグループに参加しているマシン毎に IP を定義してください。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 136
 msgid ""
 "We recommend setting this to a interface other than LAN! A dedicated "
 "interface works the best."
-msgstr ""
+msgstr "LAN 以外のインタフェースにこれを設定することを推奨します！専用インタフェースが最もよく機能します。"
 
 # File: src/www/system_hasync.php, line: 151
 msgid ""
@@ -3364,7 +3359,6 @@ msgstr "ステータスを同期"
 msgid "State Synchronization"
 msgstr "同期のステータス"
 
-#
 # File: /usr/core/src/www/system_groupmanager.php, line: 470
 msgid ""
 "Additional webConfigurator groups can be added here. Group permissions can "
@@ -3372,11 +3366,14 @@ msgid ""
 "icon that appears grey indicates that it is a system defined object. Some "
 "system object properties can be modified but they cannot be deleted."
 msgstr ""
+"Web 設定管理画面のグループはここで追加できます。"
+"グループパーミッションも割当て可能で、グループメンバーのユーザに継承されます。"
+"グレイ表示されるアイコンはシステムが定義したオブジェクトです。"
+"一部のシステムオブジェクトプロパティは変更できますが、削除することはできません。"
 
-#
 # File: /usr/core/src/www/system_groupmanager.php, line: 463
 msgid "add group"
-msgstr ""
+msgstr "グループを追加"
 
 msgid "Member Count"
 msgstr "メンバ数"
@@ -3474,13 +3471,15 @@ msgstr ""
 msgid "Do not use the DNS Forwarder as a DNS server for the firewall"
 msgstr "ファイアウォールの DNS サーバとして、DNS フォワーダを使用しない"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 442
 msgid ""
 "If this option is set, DNS servers assigned by a DHCP/PPP server on WAN will "
 "be used for its own purposes (including the DNS forwarder). However, they "
 "will not be assigned to DHCP and PPTP VPN clients."
 msgstr ""
+"このオプションが設定されると、WAN の DHCP/PPP サーバによって割り当てられた DNS サーバは、"
+"それぞれの目的で使用されます ( DNS フォワーダを含む )。"
+"しかし DHCP 及び PPTP VPN クライアントには割り当てられません。"
 
 msgid "Allow DNS server list to be overridden by DHCP/PPP on WAN"
 msgstr "WAN の DHCP/PPP による DNS サーバリストの無効化を許可"
@@ -3511,10 +3510,9 @@ msgstr "ゲートウェイを使用"
 msgid "DNS Server"
 msgstr "DNS サーバ"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 372
 msgid "This will change the look and feel of the GUI."
-msgstr ""
+msgstr "GUI のルックアンドフィールを変更します。"
 
 msgid "Theme"
 msgstr "テーマ"
@@ -3532,7 +3530,6 @@ msgid "Time zone"
 msgstr "タイムゾーン"
 
 # File: src/www/system_general.php, line: 341
-#, php-format
 msgid "e.g. %smycorp.com, home, office, private, etc.%s"
 msgstr "例: %smycorp.com、home、office、private 等%s"
 
@@ -3551,7 +3548,6 @@ msgstr "ファイアウォール"
 msgid "Name of the firewall host, without domain part"
 msgstr "ファイアウォールホスト名、ドメイン部分は含まない"
 
-#, php-format
 msgid ""
 "You can not assign a gateway to DNS '%s' server which is on a directly "
 "connected network."
@@ -3565,23 +3561,20 @@ msgstr "ドメインには、a-z、0-9、-、. のみが使用できます。"
 msgid "The hostname may only contain the characters a-z, 0-9 and '-'."
 msgstr "ホスト名には、a-z、0-9、- のみが使用できます。"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 53
 msgid "Turkish"
-msgstr ""
+msgstr "トルコ語"
 
 msgid "Spanish"
 msgstr "スペイン語"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 51
 msgid "Russian"
-msgstr ""
+msgstr "ロシア語"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 50
 msgid "Portuguese"
-msgstr ""
+msgstr "ポルトガル語"
 
 # File: src/www/system_general.php, line: 48
 msgid "Mongolian"
@@ -3597,10 +3590,9 @@ msgstr "ドイツ語"
 msgid "French"
 msgstr "フランス語"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 45
 msgid "Dutch"
-msgstr ""
+msgstr "オランダ語"
 
 msgid "Chinese (Simplified)"
 msgstr "中国語 ( 簡体字 )"
@@ -3634,37 +3626,33 @@ msgstr ""
 "大きい値を設定すると、次のプローブで、ゲートウェイはダウンしてから再度アップ"
 "したかのように見えます。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 811
-#, php-format
 msgid ""
 "The delay (in qty of probe samples) after which loss is computed. Without "
 "this, delays longer than the probe interval would be treated as packet loss. "
 "Default is %d."
 msgstr ""
+"損失後の遅延 ( プローブサンプル数単位 ) が計算されます。これがない場合、プローブ間隔よりも長い遅延は"
+"パケットロスとして扱われます。デフォルトは %d です。"
 
 # File: src/www/system_gateways_edit.php, line: 899
 msgid "Lost Probe Delay"
 msgstr "損失プローブ遅延"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 799
-#, php-format
 msgid ""
 "How many probes should be used to compute average packet loss? Default is %d."
-msgstr ""
+msgstr "平均パケットロスを計算するプローブ数を指定してください。デフォルトは %d です。"
 
 # File: src/www/system_gateways_edit.php, line: 783
 msgid "Avg Packet Loss Probes Qty"
 msgstr "平均パケットロスプローブ数"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 787
-#, php-format
 msgid ""
 "How many replies should be used to compute average delay for controlling "
 "\"delay\" alarms? Default is %d."
-msgstr ""
+msgstr "「遅延」アラーム制御に使用する、平均遅延を計算する応答数を指定してください。デフォルトは %d です。"
 
 # File: src/www/system_gateways_edit.php, line: 882
 # File: src/www/system_gateways_edit.php, line: 894
@@ -3676,13 +3664,11 @@ msgstr "計算された値を使用します。"
 msgid "Avg Delay Replies Qty"
 msgstr "平均遅延応答数"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 776
-#, php-format
 msgid ""
 "The number of seconds of failed probes before the alarm will fire. Default "
 "is %d."
-msgstr ""
+msgstr "アラームが鳴る前にプローブに失敗する秒数。デフォルトは %d です。"
 
 msgid "Down"
 msgstr "ダウン"
@@ -3694,29 +3680,24 @@ msgstr ""
 "注意: 品質グラフは、間隔単位ではなく、秒単位の平均になっています。そのため、"
 "プローブ間隔が増加すると、品質グラフの正確さは低下します。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 766
-#, php-format
 msgid "How often that an ICMP probe will be sent in seconds. Default is %d."
-msgstr ""
+msgstr "ICPM プローブを送信する頻度を秒単位で指定してください。デフォルトは %d です。"
 
 msgid "Probe Interval"
 msgstr "プローブ間隔"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 757
 #, php-format
 msgid "Low and high thresholds for packet loss in %%. Default is %d/%d."
-msgstr ""
+msgstr "パケットロスの最低及び最大のしきい値を %% 単位で指定してください。デフォルトは  %d/%d です。"
 
 msgid "Packet Loss thresholds"
 msgstr "パケットロスしきい値"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 731
-#, php-format
 msgid "Low and high thresholds for latency in milliseconds. Default is %d/%d."
-msgstr ""
+msgstr "遅延の最低及び最大のしきい値をミリ秒単位で指定してください。デフォルトは  %d/%d です。"
 
 msgid "To"
 msgstr "To"
