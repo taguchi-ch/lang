@@ -3688,16 +3688,15 @@ msgid "Probe Interval"
 msgstr "プローブ間隔"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 757
-#, php-format
 msgid "Low and high thresholds for packet loss in %%. Default is %d/%d."
-msgstr "パケットロスの最低及び最大のしきい値を %% 単位で指定してください。デフォルトは  %d/%d です。"
+msgstr "パケットロスの最低及び最大のしきい値を %% 単位で指定してください。デフォルトは %d/%d です。"
 
 msgid "Packet Loss thresholds"
 msgstr "パケットロスしきい値"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 731
 msgid "Low and high thresholds for latency in milliseconds. Default is %d/%d."
-msgstr "遅延の最低及び最大のしきい値をミリ秒単位で指定してください。デフォルトは  %d/%d です。"
+msgstr "遅延の最低及び最大のしきい値をミリ秒単位で指定してください。デフォルトは %d/%d です。"
 
 msgid "To"
 msgstr "To"
@@ -3740,15 +3739,13 @@ msgstr "このゲートウェイが常にアップであると見なします"
 msgid "Disable Gateway Monitoring"
 msgstr "ゲートウェイ監視を無効"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 648
 msgid "This will allow the gateway to exist outside of the interface subnet."
-msgstr ""
+msgstr "インタフェースサブネットの外側に存在するゲートウェイを許可します。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 644
 msgid "Far Gateway"
-msgstr ""
+msgstr "Far Gateway"
 
 msgid "This will select the above gateway as the default gateway"
 msgstr "上記のゲートウェイを、デフォルトゲートウェイとして選択します。"
@@ -3798,28 +3795,24 @@ msgstr "平均遅延応答数は、正の値です。"
 msgid "The average delay replies qty needs to be a numeric value."
 msgstr "平均遅延応答数は、数値です。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 290
-#, php-format
 msgid ""
 "The down time setting needs to be higher than the default probe interval (%d)"
-msgstr ""
+msgstr "ダウン時間設定は、デフォルトプローブ間隔 ( %d ) よりも大きい値になります。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 286
-#, php-format
 msgid ""
 "The probe interval needs to be less than the default down time setting (%d)"
-msgstr ""
+msgstr "プローブ間隔は、デフォルトダウン時間設定 ( %d ) よりも小さい値になります。"
 
 msgid "The probe interval needs to be less than the down time setting."
-msgstr "プローブ間隔は、ダウン時間の設定よりも小さい値になります。"
+msgstr "プローブ間隔は、ダウン時間設定よりも小さい値になります。"
 
 msgid "The down time setting needs to be positive."
-msgstr "停止時間設定は、正の値です。"
+msgstr "ダウン時間設定は、正の値です。"
 
 msgid "The down time setting needs to be a numeric value."
-msgstr "停止時間設定は、数値です。"
+msgstr "ダウン時間設定は、数値です。"
 
 msgid "The probe interval needs to be positive."
 msgstr "プローブ間隔は、正の値です。"
@@ -3827,21 +3820,17 @@ msgstr "プローブ間隔は、正の値です。"
 msgid "The probe interval needs to be a numeric value."
 msgstr "プローブ間隔は、数値です。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 260
-#, php-format
 msgid ""
 "The high Packet Loss threshold needs to be higher than the default low "
 "Packet Loss threshold (%d)"
-msgstr ""
+msgstr "高パケットロスしきい値は、デフォルト低パケットロスしきい値 ( %d ) よりも高い値にしてください。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 256
-#, php-format
 msgid ""
 "The low Packet Loss threshold needs to be less than the default high Packet "
 "Loss threshold (%d)"
-msgstr ""
+msgstr "低パケットロスしきい値は、デフォルト高パケットロスしきい値 ( %d ) よりも低い値にしてください。"
 
 msgid ""
 "The high Packet Loss threshold needs to be higher than the low Packet Loss "
@@ -3849,21 +3838,17 @@ msgid ""
 msgstr ""
 "高パケットロスしきい値は、低パケットロスしきい値よりも高い値にしてください。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 246
-#, php-format
 msgid ""
 "The high latency threshold needs to be higher than the default low latency "
 "threshold (%d)"
-msgstr ""
+msgstr "高遅延しきい値は、デフォルト低遅延しきい値 ( %d ) よりも高い値にしてください。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 242
-#, php-format
 msgid ""
 "The low latency threshold needs to be less than the default high latency "
 "threshold (%d)"
-msgstr ""
+msgstr "低遅延しきい値は、デフォルト高遅延しきい値 ( %d ) よりも低い値にしてください。"
 
 msgid ""
 "The high latency threshold needs to be higher than the low latency threshold"
@@ -4165,10 +4150,9 @@ msgstr "証明書の失効"
 msgid "No Certificates Found for this CA."
 msgstr "この CA の証明書はありません"
 
-#
 # File: /usr/core/src/www/system_crlmanager.php, line: 537
 msgid "Delete this certificate from the CRL"
-msgstr ""
+msgstr "CRL からこの証明書を削除"
 
 msgid "No Certificates Found for this CRL."
 msgstr "この CRL の証明書はありません"
@@ -4215,10 +4199,9 @@ msgstr "既存の証明書失効リストをインポート"
 msgid "Create an internal Certificate Revocation List"
 msgstr "内部証明書失効リストを新規作成"
 
-#
 # File: /usr/core/src/www/system_crlmanager.php, line: 322
 msgid "Delete this certificate from the CRL?"
-msgstr ""
+msgstr "CRL からこの証明書を削除しますか？"
 
 msgid "Do you really want to delete this Certificate Revocation List?"
 msgstr "本当にこの証明書失効リストを削除しますか？"
@@ -4656,69 +4639,59 @@ msgstr "このサーバを削除"
 msgid "Server Name"
 msgstr "サーバ名"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 734
 msgid ""
 "Time in seconds in which this server and the token may differ, default is 10 "
 "seconds. Set higher for a less secure easier match."
 msgstr ""
+"このサーバとトークンが不一致でも許容する時間を秒単位で設定します。"
+"デフォルトは 10 秒です。大きい値を設定すると、セキュアではなくなりますが一致しやすくなります。"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 730
 msgid "Grace period"
-msgstr ""
+msgstr "猶予期間"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 725
 msgid ""
 "The time period in which the token will be valid, default is 30 seconds "
 "(google authenticator)"
-msgstr ""
+msgstr "トークンが有効となる期間。デフォルトは 30 秒 ( Google 認証システム )"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 721
 msgid "Time window"
-msgstr ""
+msgstr "時間枠"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 716
 msgid "Token length to use"
-msgstr ""
+msgstr "使用するトークンの長さ"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 709
 msgid "Token length"
-msgstr ""
+msgstr "トークンの長さ"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 703
 msgid "Specify alternative password length for generating vouchers"
-msgstr ""
+msgstr "生成するバウチャーの代替パスワードの長さを指定してください。"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 699
 msgid "Password length"
-msgstr ""
+msgstr "パスワードの長さ"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 694
 msgid "Specify alternative username length for generating vouchers"
-msgstr ""
+msgstr "生成するバウチャーの代替ユーザ名の長さを指定してください。"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 690
 msgid "Username length"
-msgstr ""
+msgstr "ユーザ名の長さ"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 685
 msgid "Use simple (less secure) passwords, which are easier to read"
-msgstr ""
+msgstr "シンプルな ( セキュアではない ) パスワードを使用します。読み取りやすくなります。"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 681
 msgid "Use simple passwords (less secure)"
-msgstr ""
+msgstr "シンプルパスワードを使用 ( 非セキュア )"
 
 msgid ""
 "NOTE: If you are using an interactive two-factor authentication system, "
@@ -4878,12 +4851,11 @@ msgstr "ホスト名または IP アドレス"
 msgid "Do you really want to delete this Server?"
 msgstr "本当にこのサーバを削除しますか？"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 348
 # File: /usr/core/src/www/system_usermanager.php, line: 492
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 89
 msgid "Popup blocker detected. Action aborted."
-msgstr ""
+msgstr "ポップアップブロッカーが検出されました。操作は中止されました。"
 
 msgid "Please fill the required values."
 msgstr "必要な値を入力してください"
@@ -4895,10 +4867,9 @@ msgstr "サーバを追加"
 msgid "deleted"
 msgstr "削除済"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 195
 msgid "A server name must be provided"
-msgstr ""
+msgstr "サーバ名を入力してください"
 
 msgid "RADIUS Timeout value must be numeric and positive."
 msgstr "RADIUS タイムアウト値は、正の数値です。"
@@ -4909,15 +4880,13 @@ msgstr "同じ名前の認証サーバが既に存在しています"
 msgid "The host name contains invalid characters."
 msgstr "ホスト名に無効な文字が含まれています"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 174
 msgid "password length must be a number or empty for default."
-msgstr ""
+msgstr "パスワードの長さは数値です。空白にするとデフォルトになります。"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 171
 msgid "username length must be a number or empty for default."
-msgstr ""
+msgstr "ユーザ名の長さは数値です。空白にするとデフォルトになります。"
 
 msgid "Shared Secret"
 msgstr "共有秘密鍵"
@@ -4952,20 +4921,17 @@ msgstr "ポート値"
 msgid "Descriptive name"
 msgstr "説明名"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 38
 msgid "Local + Timebased One Time Password"
-msgstr ""
+msgstr "Local + 時刻ベースワンタイムパスワード"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 36
 msgid "Radius"
-msgstr ""
+msgstr "Radius"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 35
 msgid "LDAP"
-msgstr ""
+msgstr "LDAP"
 
 msgid "Edit system tunable"
 msgstr "システム調整パラメータの編集"
