@@ -3798,15 +3798,15 @@ msgstr "平均遅延応答数は、数値です。"
 # File: /usr/core/src/www/system_gateways_edit.php, line: 290
 msgid ""
 "The down time setting needs to be higher than the default probe interval (%d)"
-msgstr "ダウン時間設定は、デフォルトプローブ間隔 ( %d ) よりも大きい値になります。"
+msgstr "ダウン時間設定は、デフォルトプローブ間隔 ( %d ) よりも大きい値にしてください。"
 
 # File: /usr/core/src/www/system_gateways_edit.php, line: 286
 msgid ""
 "The probe interval needs to be less than the default down time setting (%d)"
-msgstr "プローブ間隔は、デフォルトダウン時間設定 ( %d ) よりも小さい値になります。"
+msgstr "プローブ間隔は、デフォルトダウン時間設定 ( %d ) よりも小さい値にしてください。"
 
 msgid "The probe interval needs to be less than the down time setting."
-msgstr "プローブ間隔は、ダウン時間設定よりも小さい値になります。"
+msgstr "プローブ間隔は、ダウン時間設定よりも小さい値にしてください。"
 
 msgid "The down time setting needs to be positive."
 msgstr "ダウン時間設定は、正の値です。"
@@ -4945,12 +4945,11 @@ msgstr "調整パラメータを編集"
 msgid "Tunable Name"
 msgstr "調整パラメータ名"
 
-#
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 150
 msgid ""
 "The firewall tunables have changed. You must apply the configuration to take "
 "affect."
-msgstr ""
+msgstr "ファイアウォールの調整パラメータが変更されました。有効にするには、構成を適用してください。"
 
 msgid "Tunable"
 msgstr "調整パラメータ"
@@ -5093,12 +5092,11 @@ msgstr "Growl"
 msgid "Test SMTP"
 msgstr "SMTP をテスト"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 108
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 113
 #, php-format
 msgid "This is a test message from %s. It is safe to ignore this message."
-msgstr ""
+msgstr "これは %s からのテストメッセージです。無視して構いません。"
 
 msgid "Test Growl"
 msgstr "Growl をテスト"
@@ -5136,19 +5134,17 @@ msgstr ""
 "す。このオフロードは一部のハードウェアドライバでは動作しません。また、一部の"
 "特定の NIC とのパフォーマンスに影響する可能性があります。"
 
-#
 # File: /usr/core/src/www/system_advanced_network.php, line: 152
 msgid "Leave default"
-msgstr ""
+msgstr "デフォルトのままにする"
 
 # File: src/www/system_advanced_network.php, line: 279
 msgid "Disable VLAN Hardware Filtering"
 msgstr "VLAN ハードウェアフィルタリングを無効"
 
-#
 # File: /usr/core/src/www/system_advanced_network.php, line: 146
 msgid "Enable VLAN Hardware Filtering"
-msgstr ""
+msgstr "VLAN ハードウェアフィルタリングを有効"
 
 # File: src/www/system_advanced_network.php, line: 274
 msgid "VLAN Hardware Filtering"
@@ -5205,13 +5201,14 @@ msgstr "ハードウェアチェックサムオフロードを無効"
 msgid "Hardware CRC"
 msgstr "ハードウェア CRC"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 399
 msgid ""
 "Set this if you wish to use /tmp and /var as RAM disks (memory file system "
 "disks) on a full install rather than use the hard disk. Setting this will "
 "cause the data in /tmp and /var to be lost on reboot, including log data."
 msgstr ""
+"フルインストールする際に、ハードディスクを使用せずに /tmp と /var を RAM ディスク ( メモリファイルシステムディスク ) "
+"として使用したい場合はこれを設定してください。この設定は、再起動時に /tmp と /var にあるログデータも含むデータが失われる原因になります。"
 
 msgid "Use memory file system for /tmp and /var"
 msgstr "/tmp /var をメモリファイルシステムとして使用"
@@ -5271,62 +5268,57 @@ msgstr ""
 msgid "Use PowerD"
 msgstr "PowerD を使用"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 330
 msgid "Power Savings"
-msgstr ""
+msgstr "省電力"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 325
 msgid ""
 "This will periodically backup the NetFlow data aggregation so it can be "
 "restored automatically on the next boot."
 msgstr ""
+"NetFlow 集約データを定期的にバックアップします。次回の起動時に自動的にリストア可能になります。"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 312
 msgid "Periodic NetFlow Backup"
-msgstr ""
+msgstr "定期 NetFlow バックアップ"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 307
 msgid ""
 "This will periodically backup the DHCP leases data so it can be restored "
 "automatically on the next boot."
 msgstr ""
+"DHCP リースデータを定期的にバックアップします。次回の起動時に自動的にリストア可能になります。"
 
 msgid "Periodic DHCP Leases Backup"
 msgstr "定期 DHCP リースバックアップ"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 289
 msgid ""
 "This will periodically backup the RRD data so it can be restored "
 "automatically on the next boot."
 msgstr ""
+"RRD データを定期的にバックアップします。次回の起動時に自動的にリストア可能になります。"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 282
 # File: /usr/core/src/www/system_advanced_misc.php, line: 301
 # File: /usr/core/src/www/system_advanced_misc.php, line: 319
 msgid "1 hour"
-msgstr ""
+msgstr "1 時間"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 282
 # File: /usr/core/src/www/system_advanced_misc.php, line: 301
 # File: /usr/core/src/www/system_advanced_misc.php, line: 319
 #, php-format
 msgid "%s hours"
-msgstr ""
+msgstr "%s 時間"
 
 msgid "Periodic RRD Backup"
 msgstr "定期 RRD バックアップ"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 272
 msgid "Periodic Backups"
-msgstr ""
+msgstr "定期バックアップ"
 
 msgid ""
 "If you do not have a supported thermal sensor chip in your system, this "
@@ -5353,7 +5345,6 @@ msgstr "なし / ACPI"
 msgid "Thermal Sensors"
 msgstr "温度センサ"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 237
 msgid ""
 "Old hardware accelerators like 'safe', 'hifn' or 'ubsec' may only provide "
@@ -5363,16 +5354,19 @@ msgid ""
 "acceleration methods e.g. AES-NI. The default is to disable this device as "
 "it is likely not needed on modern systems."
 msgstr ""
+"safe、hifn、ubsec のような古いハードウェアアクセラレータは、ユーザランドアクセラレーションのみを提供可能です。"
+"例としては OpenSSL エンジンフレームワークを経由してアクセス可能な /dev/crypto インタフェースを使用している OpenVPN です。"
+"LibreSSL はこのデバイスをサポートしておらず、かわりに AES-NI 等の"
+"組込みアクセラレーションメソッドのみの対応となりますので、注意してください。"
+"モダンなシステムでは必要ではないようなので、デフォルトではこのデバイスは無効です。"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 235
 msgid "Enable old userland device for cryptographic acceleration"
-msgstr ""
+msgstr "古い暗号化アクセラレーション用ユーザランドデバイスを有効"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 232
 msgid "Use /dev/crypto"
-msgstr ""
+msgstr "/dev/crypto を使用"
 
 msgid ""
 "If you do not have a crypto chip in your system, this option will have no "
@@ -5420,25 +5414,21 @@ msgstr "Intel Core* CPU オンダイ温度センサ"
 msgid "AMD K8, K10 and K11 CPU on-die thermal sensor"
 msgstr "AMD K8、K10、K11 CPU オンダイ温度センサ"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 49
 msgid "Broadcom and BlueSteel uBsec 5x0x crypto accelerator"
-msgstr ""
+msgstr "Broadcom 及び BlueSteel uBsec 5x0x 暗号化アクセラレータ"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 48
 msgid "SafeNet Crypto Accelerator"
-msgstr ""
+msgstr "SafeNet 暗号化アクセラレータ"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 47
 msgid "Crypto and RNG in VIA C3, C7 and Eden Processors"
-msgstr ""
+msgstr "VIA C3、C7、Eden プロセッサの暗号化及び乱数生成器"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 46
 msgid "Hifn 7751/7951/7811/7955/7956 Crypto Accelerator"
-msgstr ""
+msgstr "Hifn 7751/7951/7811/7955/7956 暗号化アクセラレータ"
 
 msgid "AMD Geode LX Security Block"
 msgstr "AMD Geode LX セキュリティブロック"
@@ -5462,10 +5452,9 @@ msgstr "エイリアス URL のダウンロード時に HTTPS 証明書を検証
 msgid "Check certificate of aliases URLs"
 msgstr "エイリアス URL の証明書を確認"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 568
 msgid "Note: Leave this blank for the default (300s)."
-msgstr ""
+msgstr "注意: 空白にするとデフォルトになります ( 300 秒 )。"
 
 # File: src/www/system_advanced_firewall.php, line: 465
 msgid ""
@@ -5526,10 +5515,9 @@ msgstr "静的ルートフィルタリング"
 msgid "On your system the default size is:"
 msgstr "システムデフォルトサイズ: "
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 519
 msgid "Note: Leave this blank for the default."
-msgstr ""
+msgstr "注意: 空白にするとデフォルトになります。"
 
 msgid ""
 "Maximum number of table entries for systems such as aliases, sshlockout, "
@@ -5541,11 +5529,10 @@ msgstr ""
 msgid "Firewall Maximum Table Entries"
 msgstr "ファイアウォールテーブルエントリの最大数"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 508
 msgid ""
 "Note: Leave this blank for the default. On your system the default size is:"
-msgstr ""
+msgstr "注意: 空白にするとデフォルトになります。あなたのシステムのデフォルトサイズ: "
 
 msgid "Maximum number of connections to hold in the firewall state table."
 msgstr "ファイアウォールステータステーブルに保持する接続の最大数。"
@@ -5553,12 +5540,10 @@ msgstr "ファイアウォールステータステーブルに保持する接続
 msgid "Firewall Maximum States"
 msgstr "ファイアウォールステータスの最大値"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 497
 msgid "Note: Leave this blank for the default(0)."
-msgstr ""
+msgstr "注意: 空白にするとデフォルトになります ( 0 )。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 495
 msgid ""
 "When reaching this number of state entries, all timeout values become zero, "
@@ -5566,14 +5551,18 @@ msgid ""
 "define the scale factor, it should not actually be reached (set a lower "
 "state limit, see below)."
 msgstr ""
+"ステータスエントリの数がこれに達すると、全てのタイムアウト値は 0 になり、全てのステータスエントリを効果的に即時除去します。"
+"この値は実質的に到達しない倍率を定義するのに使用されます ( 下限ステータスを設定してください。下記を参照 )。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 493
 msgid ""
 "When the number of state entries exceeds this value, adaptive scaling "
 "begins. All timeout values are scaled linearly with factor (adaptive.end - "
 "number of states) / (adaptive.end - adaptive.start)."
 msgstr ""
+"ステータスエントリの数がこの値を超過すると、アダプティブ拡大縮小が開始されます。"
+"全てのタイムアウト値は ( adaptive.end - ステータスの数 ) / ( adaptive.end - adaptive.start ) 係数で"
+"直線的に拡大縮小されます。"
 
 msgid ""
 "Timeouts for states can be scaled adaptively as the number of state table "
@@ -5608,10 +5597,9 @@ msgstr ""
 msgid "Warning: This will also turn off NAT!"
 msgstr "警告: これは NAT もオフになります！"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 459
 msgid "Warning: This will convert into a routing-only platform!"
-msgstr ""
+msgstr "警告: これはルーティング限定プラットフォームに変換します！"
 
 msgid "Disable all packet filtering."
 msgstr "全てのパケットフィルタリングを無効"
