@@ -5626,7 +5626,7 @@ msgid ""
 "Used for high latency links, such as satellite links. Expires idle "
 "connections later than default"
 msgstr ""
-"衛星リンクのような高遅延リンクに対して使用します。アイドル接続はデフォルトよりも期限切れが遅くなります"
+"衛星リンクのような高遅延リンクに対して使用します。アイドル接続の期限切れがデフォルトよりも遅くなります"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 434
 msgid "As the name says, it is the normal optimization algorithm"
@@ -5761,7 +5761,7 @@ msgid ""
 "through the router."
 msgstr ""
 "注意: 割当てられたインタフェースに対してのみ機能します。"
-"その他のインタフェースは、ルータ経由で応答パケットを直接返信する外向き NAT ルールを、手動で作成する必要があります。"
+"その他のインタフェースは、ルータ経由で応答パケットを直接返信する外向き NAT ルールを手動で作成する必要があります。"
 
 msgid ""
 "Required for full functionality of the pure NAT mode of NAT Reflection for "
