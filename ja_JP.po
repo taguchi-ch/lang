@@ -5551,8 +5551,8 @@ msgid ""
 "define the scale factor, it should not actually be reached (set a lower "
 "state limit, see below)."
 msgstr ""
-"ステータスエントリの数がこれに達すると、全てのタイムアウト値は 0 になり、全てのステータスエントリを効果的に即時除去します。"
-"この値は実質的に到達しない倍率を定義するのに使用されます ( 下限ステータスを設定してください。下記を参照 )。"
+"このステータスエントリ数に達すると、全てのタイムアウト値は 0 になり、全てのステータスエントリを効果的に即時除去します。"
+"この値はスケール係数の定義として使用されるもので、実質的に到達されない値にすべきです( 下限ステータスを設定してください。下記を参照 )。"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 493
 msgid ""
@@ -5560,8 +5560,8 @@ msgid ""
 "begins. All timeout values are scaled linearly with factor (adaptive.end - "
 "number of states) / (adaptive.end - adaptive.start)."
 msgstr ""
-"ステータスエントリの数がこの値を超過すると、アダプティブ拡大縮小が開始されます。"
-"全てのタイムアウト値は ( adaptive.end - ステータスの数 ) / ( adaptive.end - adaptive.start ) 係数で"
+"ステータスエントリの数がこの値を超過すると、適応スケーリングが開始されます。"
+"全てのタイムアウト値は ( adaptive.end - ステータス数 ) / ( adaptive.end - adaptive.start ) 係数で"
 "直線的に拡大縮小されます。"
 
 msgid ""
@@ -5574,12 +5574,12 @@ msgstr ""
 # File: src/www/system_advanced_firewall.php, line: 366
 # File: src/www/system_advanced_firewall.php, line: 385
 msgid "end"
-msgstr "終了"
+msgstr "end"
 
 # File: src/www/system_advanced_firewall.php, line: 365
 # File: src/www/system_advanced_firewall.php, line: 383
 msgid "start"
-msgstr "開始"
+msgstr "start"
 
 msgid "Firewall Adaptive Timeouts"
 msgstr "ファイアウォール適応タイムアウト"
@@ -5607,31 +5607,30 @@ msgstr "全てのパケットフィルタリングを無効"
 msgid "Disable Firewall"
 msgstr "ファイアウォールを無効"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 446
 msgid ""
 "Tries to avoid dropping any legitimate idle connections at the expense of "
 "increased memory usage and CPU utilization."
 msgstr ""
+"全ての適正なアイドル接続を落とさないように試みます。メモリ使用量と CPU 使用率は増加します。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 442
 msgid ""
 "Expires idle connections quicker. More efficient use of CPU and memory but "
 "can drop legitimate idle connections"
 msgstr ""
+"アイドル接続をより速く期限切れにします。CPU とメモリをより効率的に使用できますが、適正なアイドル接続は落とされます。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 438
 msgid ""
 "Used for high latency links, such as satellite links. Expires idle "
 "connections later than default"
 msgstr ""
+"衛星リンクのような高遅延リンクに対して使用します。アイドル接続はデフォルトよりも期限切れが遅くなります"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 434
 msgid "As the name says, it is the normal optimization algorithm"
-msgstr ""
+msgstr "名前の通り、一般的な最適化アルゴリズムです"
 
 msgid "Select the type of state table optimization to use"
 msgstr "ステータステーブルの最適化に使用するタイプを選択してください"
@@ -5664,7 +5663,6 @@ msgstr ""
 msgid "Schedule States"
 msgstr "スケジュールステータス"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 390
 msgid ""
 "Set the source tracking timeout for sticky connections in seconds. By "
@@ -5672,12 +5670,14 @@ msgid ""
 "expires. Setting this timeout higher will cause the source/destination "
 "relationship to persist for longer periods of time."
 msgstr ""
+"スティッキー接続の送信元追跡タイムアウトを秒単位で設定します。"
+"デフォルトは 0 で、送信元追跡はステータスの有効期限が切れると削除されます。"
+"このタイムアウトを高く設定すると、送信元 / 送信先の関係はより長期間持続するようになります。"
 
 # File: src/www/system_advanced_misc.php, line: 335
 msgid "Source tracking timeout"
 msgstr "送信元追跡タイムアウト"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 380
 msgid ""
 "Successive connections will be redirected to the servers in a round-robin "
@@ -5687,11 +5687,14 @@ msgid ""
 "Further connections from that host will be redirected to the next gateway in "
 "the round-robin."
 msgstr ""
+"連続した接続は、同じ送信元が同じゲートウェイに送信している接続を、ラウンドロビン方式でサーバにリダイレクトします。"
+"このような「スティッキー接続」は、この接続を参照するステータスと同じ期間存在します。"
+"ステータスの有効期限が切れると、スティッキー接続の有効期限も切れます。"
+"そのホストからの追加的な接続は、ラウンドロビンで次のゲートウェイにリダイレクトされます。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 372
 msgid "Multi-WAN"
-msgstr ""
+msgstr "マルチ WAN"
 
 msgid ""
 "By default, when a rule has a specific gateway set, and this gateway is "
@@ -5718,10 +5721,9 @@ msgstr ""
 "セスはステータスをフラッシュします。このボックスをチェックすると、この振る舞"
 "いを無効にします。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 353
 msgid "Disable State Killing on Gateway Failure"
-msgstr ""
+msgstr "ゲートウェイ障害でステータスのキルを無効"
 
 # File: src/www/system_advanced_misc.php, line: 485
 msgid "Kill states"
@@ -5752,13 +5754,14 @@ msgstr "更新頻度"
 msgid "Bogon Networks"
 msgstr "Bogon ネットワーク"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 319
 msgid ""
 "Note: This only works for assigned interfaces. Other interfaces require "
 "manually creating the outbound NAT rules that direct the reply packets back "
 "through the router."
 msgstr ""
+"注意: 割当てられたインタフェースに対してのみ機能します。"
+"その他のインタフェースは、ルータ経由で応答パケットを直接返信する外向き NAT ルールを、手動で作成する必要があります。"
 
 msgid ""
 "Required for full functionality of the pure NAT mode of NAT Reflection for "
@@ -5774,18 +5777,18 @@ msgstr ""
 "発信元と同じサブネットに戻る直接トラフィックの内向き NAT ルールに対応する、外"
 "向き NAT ルールを自動的に作成します。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 312
 msgid "Automatic outbound NAT for Reflection"
-msgstr ""
+msgstr "リフレクションへの自動外向き NAT"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 305
 msgid ""
 "Note: Reflection on 1:1 mappings is only for the inbound component of the "
 "1:1 mappings. This functions the same as the pure NAT mode for port "
 "forwards. For more details, refer to the pure NAT mode description above."
 msgstr ""
+"注意: 1:1 マッピングのリフレクションは、1:1 マッピングの内向きコンポーネントに対してのみです。"
+"この機能は、ポートフォワードの純粋 NAT モードと同じです。詳細については、上記の純粋 NAT モードの説明を参照してください。"
 
 msgid ""
 "Enables the automatic creation of additional NAT redirect rules for access "
@@ -5795,10 +5798,9 @@ msgstr ""
 "有効な場合は、内部ネットワークの中から外部 IP アドレスの 1:1 マッピングするア"
 "クセスに対して、追加 NAT リダイレクトルールを自動的に新規作成します。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 300
 msgid "Reflection for 1:1"
-msgstr ""
+msgstr "1:1 へのリフレクション"
 
 msgid "Note: Only applies to Reflection on port forwards in NAT + proxy mode."
 msgstr ""
@@ -5818,7 +5820,6 @@ msgstr ""
 "ルール毎の基本設定で、このシステム設定を上書きするように、個々のルールを構成"
 "できます。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 282
 msgid ""
 "The pure NAT mode uses a set of NAT rules to direct packets to the target of "
@@ -5828,8 +5829,12 @@ msgid ""
 "limits to the number of ports other than the limits of the protocols. All "
 "protocols available for port forwards are supported."
 msgstr ""
+"純粋 NAT モードは、ポートフォワードのターゲットにパケットを向ける NAT ルールセットを使用します。"
+"スケーラビリティは良いですが、ルールが読み込まれるタイミングで、ターゲットとの通信に使用するインタフェース"
+"及び IP を、正確に決定可能である必要があります。"
+"プロトコルの制限以外に、固有のポート数制限はありません。"
+"ポートフォワードに対応している全てのプロトコルを使用可能です。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 280
 msgid ""
 "The NAT + proxy mode uses a helper program to send packets to the target of "
@@ -5839,6 +5844,11 @@ msgid ""
 "larger than 500 ports and will not be used for more than 1000 ports total "
 "between all port forwards. Only TCP and UDP protocols are supported."
 msgstr ""
+"NAT + プロキシモードは、ポートフォワードのターゲットにパケットを送信するヘルパープログラムを使用します。"
+"ルールが読み込まれるタイミングが正確に決定できないターゲットとの、通信に使用するインタフェース及び IP、もしくはそのどちらかの設定に便利です。"
+"リフレクションルールは、500 ポートを超える範囲には作成できません。"
+"また、全てのポートフォワードの合計が 1000 ポートを超える場合は、リフレクションルールを使用できません。"
+"TCP 及び UDP プロトコルのみに対応しています。"
 
 msgid ""
 "When enabled, this automatically creates additional NAT redirect rules for "
@@ -5937,13 +5947,15 @@ msgstr "bps"
 msgid "Serial Speed"
 msgstr "シリアル速度"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 511
 msgid ""
 "Note: This will redirect the console output and messages to the serial port. "
 "You can still access the console menu from the internal video card/keyboard. "
 "A null modem serial cable or adapter is required to use the serial console."
 msgstr ""
+"注意: コンソールの出力及びメッセージをシリアルポートへリダイレクトします。"
+"内部ビデオカード / キーボードからコンソールメニューにアクセスすることは可能です。"
+"シリアルコンソールを使用するには、ヌルモデムシリアルケーブルもしくはアダプタが必要です。"
 
 msgid ""
 "Enables the first serial port with 115200/8/N/1 by default, or another speed "
@@ -5964,13 +5976,12 @@ msgstr "空白にすると、デフォルトの 22 が設定されます。"
 msgid "SSH port"
 msgstr "SSH ポート"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 488
 #, php-format
 msgid ""
 "When disabled, authorized keys need to be configured for each %sUser%s that "
 "has been granted secure shell access."
-msgstr ""
+msgstr "無効にすると、SSH アクセスを許可された%sユーザ%s毎に認証鍵を構成する必要があります。"
 
 msgid "Permit password login"
 msgstr "パスワードログインを許可"
@@ -6001,7 +6012,6 @@ msgstr "SSH サーバ"
 msgid "Secure Shell"
 msgstr "SSH"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 451
 #, php-format
 msgid ""
@@ -6011,6 +6021,10 @@ msgid ""
 "cases such as using external scripts to interact with this system. More "
 "information on HTTP_REFERER is available from %sWikipedia%s."
 msgstr ""
+"チェックされていない場合、HTTP_REFERER リダイレクション攻撃の試みから Web 設定管理画面へのアクセスが保護されます。"
+"このシステムに影響する外部スクリプトを使用している等、明確な原因で Web 設定管理画面へのアクセスに支障が出ている場合は、"
+"このボックスをチェックすることで保護を無効にすることができます。"
+"HTTP_REFERER に関するより詳しい情報は%sウィキペディア%sを参照してください。"
 
 msgid "Disable HTTP_REFERER enforcement check"
 msgstr "HTTP_REFERER 強制確認を無効"
@@ -6032,7 +6046,6 @@ msgstr "DNS リバインディング・HTTP_REFERER 確認用代替ホスト名"
 msgid "Alternate Hostnames"
 msgstr "代替ホスト名"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 428
 #, php-format
 msgid ""
@@ -6041,6 +6054,10 @@ msgid ""
 "servers. Check this box to disable this protection if it interferes with "
 "webConfigurator access or name resolution in your environment."
 msgstr ""
+"チェックされていない場合、%sDNS リバインディング攻撃%sからシステムが保護され、"
+"あなたが構成した DNS サーバからのプライベート IP の応答を拒否します。"
+"この機能で Web 設定管理画面へのアクセスや自環境での名前解決に支障が出る場合は、"
+"このボックスをチェックすることで保護を無効にすることができます。"
 
 msgid "Disable DNS Rebinding Checks"
 msgstr "DNS リバインディング攻撃確認を無効"
@@ -6048,17 +6065,15 @@ msgstr "DNS リバインディング攻撃確認を無効"
 msgid "DNS Rebind Check"
 msgstr "DNS リバインディング攻撃確認"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 418
 msgid ""
 "Hint: the \"Set interface(s) IP address\" option in the console menu resets "
 "this setting as well."
-msgstr ""
+msgstr "ヒント: コンソールメニューの「Set interface(s) IP address」は同様にこの設定をリセットします。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 417
 msgid "WAN"
-msgstr ""
+msgstr "WAN"
 
 #, php-format
 msgid ""
@@ -6069,13 +6084,12 @@ msgid ""
 "have a firewall rule in place that allows you in, or you will lock yourself "
 "out!)"
 msgstr ""
-"これをチェックしない場合は、%s インタフェースの Web 設定管理画面へのアクセス"
-"は、常に許可されます。ユーザが定義したファイアウォールルールセットは考慮され"
+"チェックされていない場合、%s インタフェースの Web 設定管理画面へのアクセス"
+"は常に許可されます。ユーザが定義したファイアウォールルールセットは考慮され"
 "ません。このボックスをチェックすると、このような自動的なルールの追加を無効に"
 "し、Web 設定管理画面へのアクセスはユーザが定義したファイアウォールルールに"
-"よってコントロールされます ( ファイアウォールのルールがきちんと整備されている"
-"ことを確認して下さい。自分自身に内向きの通信を許可した場合、外向きの通信につ"
-"いてはロックされています！)"
+"よってコントロールされます ( あなたに in 通信を許可するファイアウォールのルールが設定されていることを"
+"確認して下さい。さもなくば、あなた自身が閉めだされてしまいます！)"
 
 msgid "Disable webConfigurator anti-lockout rule"
 msgstr "Web 設定管理画面アンチロックアウトルールを無効"
@@ -6087,7 +6101,7 @@ msgid ""
 "When this is checked, successful logins to the webConfigurator will not be "
 "logged."
 msgstr ""
-"これをチェックした場合、Web 設定管理画面へのログインに成功した場合は、ログに"
+"チェックされている場合、Web 設定管理画面へのログインに成功した場合は、ログに"
 "記録されません。"
 
 msgid "Disable logging of webConfigurator successful logins"
@@ -6096,7 +6110,6 @@ msgstr "Web 設定管理画面ログイン成功に対するロギング無効"
 msgid "WebGUI login messages"
 msgstr "WebGUI ログインメッセージ"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 389
 msgid ""
 "When this is checked, login credentials for the webConfigurator may be saved "
@@ -6105,6 +6118,9 @@ msgid ""
 "browsers will prompt to save credentials (NOTE: Some browsers do not respect "
 "this option)."
 msgstr ""
+"チェックされている場合、Web 設定管理画面へのログイン認証情報はブラウザに保存されます。便利ですが、一部のセキュリティ標準ではこの機能を無効にする必要があ"
+"ります。このボックスをチェックすると、ログインフォームでオートコンプリートが有効になり、ブラウザは認証情報を保存するよう促すようになります ( 注意: "
+"このオプションを無視するブラウザが存在します )。"
 
 msgid "Enable webConfigurator login autocomplete"
 msgstr "Web 設定管理画面ログインオートコンプリートを有効"
@@ -6112,13 +6128,14 @@ msgstr "Web 設定管理画面ログインオートコンプリートを有効"
 msgid "WebGUI Login Autocomplete"
 msgstr "WebGUI ログインオートコンプリート"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 376
 msgid ""
 "When this is unchecked, access to the webConfigurator is always permitted "
 "even on port 80, regardless of the listening port configured. Check this box "
 "to disable this automatically added redirect rule."
 msgstr ""
+"チェックされていない場合、使用するポートが 80 の場合でも Web 設定管理画面へのアクセスは常に許可されます。"
+"リスニングポートの構成は考慮されません。このボックスをチェックすると、このような自動的なリダイレクトルールの追加を無効にします。"
 
 msgid "Disable webConfigurator redirect rule"
 msgstr "Web 設定管理画面のリダイレクトルールを無効"
@@ -6150,13 +6167,12 @@ msgstr ""
 msgid "SSL Certificate"
 msgstr "SSL 証明書"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 333
 #, php-format
 msgid ""
 "No Certificates have been defined. You must %sCreate or Import%s a "
 "Certificate before SSL can be enabled."
-msgstr ""
+msgstr "証明書は定義されていません。SSL を有効にする前に、証明書の%s作成またはインポート%sを実行してください。"
 
 msgid "webConfigurator"
 msgstr "Web 設定管理画面"
@@ -6379,12 +6395,10 @@ msgstr "When"
 msgid "Ref ID"
 msgstr "RefID"
 
-#
 # File: /usr/core/src/www/status_ntpd.php, line: 152
 msgid "Network Time Protocol Status"
-msgstr ""
+msgstr "ネットワークタイムプロトコルステータス"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 477
 msgid ""
 "Using dial-on-demand will bring the connection up again if any packet "
@@ -6392,23 +6406,24 @@ msgid ""
 "prevent dial-on-demand from making connections to the outside. Don't use "
 "dial-on-demand if you want to make sure that the line is kept disconnected."
 msgstr ""
+"ダイヤルオンデマンドを使用中に、なんらかのパケットがトリガになると接続は再度アップになります。"
+"要するに、手動で切断してもダイヤルオンデマンドが外部に対して接続することを妨げられません。"
+"回線を確実に切断状態にしておきたい場合は、ダイヤルオンデマンドは使用しないでください。"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 459
 #, php-format
 msgid "%s rate"
-msgstr ""
+msgstr "%s レート"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 457
 #, php-format
 msgid "%s total"
-msgstr ""
+msgstr "%s 合計"
 
 #
 # File: /usr/core/src/www/status_interfaces.php, line: 454
 msgid "Interrupts per Second"
-msgstr ""
+msgstr "割込み / 秒"
 
 #, php-format
 msgid "Bridge (%s)"
@@ -6471,14 +6486,13 @@ msgstr "現在のセル上流"
 msgid "Cell Downstream"
 msgstr "セル下流"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 234
 # File: /usr/core/src/www/status_interfaces.php, line: 241
 # File: /usr/core/src/www/status_interfaces.php, line: 248
 # File: /usr/core/src/www/status_interfaces.php, line: 255
 #, php-format
 msgid "%s kbit/s"
-msgstr ""
+msgstr "%s kbit/s"
 
 msgid "Cell Upstream"
 msgstr "セル上流"
@@ -6495,10 +6509,9 @@ msgstr "セルモード"
 msgid "Cell Signal (RSSI)"
 msgstr "セル電波強度 (RSSI)"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 198
 msgid "Uptime (historical)"
-msgstr ""
+msgstr "稼働時間 ( 履歴 )"
 
 msgid "Uptime"
 msgstr "稼働時間"
@@ -6522,35 +6535,29 @@ msgstr "リリース"
 msgid "interface"
 msgstr "インタフェース"
 
-#
 # File: /usr/core/src/www/status_habackup.php, line: 298
 msgid "Restart all services"
-msgstr ""
+msgstr "全てのサービスを再起動"
 
-#
 # File: /usr/core/src/www/status_habackup.php, line: 290
 msgid "all (*)"
-msgstr ""
+msgstr "全て (*)"
 
-#
 # File: /usr/core/src/www/status_habackup.php, line: 277
 msgid "templates"
-msgstr ""
+msgstr "テンプレート"
 
-#
 # File: /usr/core/src/www/status_habackup.php, line: 212
 msgid "Backup services"
-msgstr ""
+msgstr "サービスをバックアップ"
 
-#
 # File: /usr/core/src/www/status_habackup.php, line: 192
 msgid "Kernel"
-msgstr ""
+msgstr "カーネル"
 
-#
 # File: /usr/core/src/www/status_habackup.php, line: 187
 msgid "Backup firewall versions"
-msgstr ""
+msgstr "ファイアウォールバージョンをバックアップ"
 
 #
 # File: /usr/core/src/www/status_habackup.php, line: 178
