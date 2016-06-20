@@ -6845,7 +6845,7 @@ msgstr "システム時間を使用"
 
 # File: /usr/core/src/www/services_upnp.php, line: 277
 msgid "Log packets handled by UPnP &amp; NAT-PMP rules?"
-msgstr "UPnP 及び NAT-PMP ルールで扱われたログをログに記録しますか？"
+msgstr "UPnP 及び NAT-PMP ルールで扱われたパケットをログに記録しますか？"
 
 # File: /usr/core/src/www/services_upnp.php, line: 273
 msgid "Log NAT-PMP"
