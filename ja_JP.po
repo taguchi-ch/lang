@@ -6397,7 +6397,7 @@ msgstr "RefID"
 
 # File: /usr/core/src/www/status_ntpd.php, line: 152
 msgid "Network Time Protocol Status"
-msgstr "ネットワークタイムプロトコルステータス"
+msgstr "NTP ステータス"
 
 # File: /usr/core/src/www/status_interfaces.php, line: 477
 msgid ""
@@ -6420,7 +6420,6 @@ msgstr "%s レート"
 msgid "%s total"
 msgstr "%s 合計"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 454
 msgid "Interrupts per Second"
 msgstr "割込み / 秒"
@@ -6559,15 +6558,13 @@ msgstr "カーネル"
 msgid "Backup firewall versions"
 msgstr "ファイアウォールバージョンをバックアップ"
 
-#
 # File: /usr/core/src/www/status_habackup.php, line: 178
 msgid "The backup firewall is not accessible (check user credentials)."
-msgstr ""
+msgstr "バックアップファイアウォールにアクセスできません( ユーザの資格情報を確認してください )。"
 
-#
 # File: /usr/core/src/www/status_habackup.php, line: 175
 msgid "The backup firewall is not accessible or not configured."
-msgstr ""
+msgstr "バックアップファイアウォールにアクセスできません。もしくは構成されていません。"
 
 msgid "Bandwidth Out"
 msgstr "出力帯域幅"
@@ -6649,10 +6646,9 @@ msgstr "フィルタのリロード"
 msgid "IPv6 Prefix"
 msgstr "IPv6 プレフィックス"
 
-#
 # File: /usr/core/src/www/status_dhcpv6_leases.php, line: 506
 msgid "Delegated Prefixes"
-msgstr ""
+msgstr "委譲されたプレフィックス"
 
 msgid "Lease Type"
 msgstr "リースタイプ"
@@ -6742,10 +6738,9 @@ msgstr ""
 msgid "Or Click the MAC address to wake up an individual device:"
 msgstr "もしくは起動する個々のデバイスの MAC アドレスをクリックしてください: "
 
-#
 # File: /usr/core/src/www/services_wol.php, line: 205
 msgid "Wake all clients at once:"
-msgstr ""
+msgstr "全てのクライアントをすぐに起動: "
 
 msgid "Send"
 msgstr "送信"
@@ -6758,10 +6753,9 @@ msgstr "MAC アドレスを%s次の形式で入力してください: xx:xx:xx:x
 msgid "Choose which interface the host to be woken up is connected to."
 msgstr "接続で起動するホストのインタフェースを選択してください。"
 
-#
 # File: /usr/core/src/www/services_wol.php, line: 130
 msgid "Result"
-msgstr ""
+msgstr "結果"
 
 # File: src/www/services_wol.php, line: 94
 #, php-format
@@ -6796,25 +6790,21 @@ msgstr ""
 msgid "Sent magic packet to %s (%s)."
 msgstr "マジックパケットを %s (%s) に送信しました。"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 343
 msgid "Set 4"
-msgstr ""
+msgstr "設定 4"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 334
 msgid "Set 3"
-msgstr ""
+msgstr "設定 3"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 325
 msgid "Set 2"
-msgstr ""
+msgstr "設定 2"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 320
 msgid "Example: allow 1024-65535 192.168.0.0/24 1024-65535"
-msgstr ""
+msgstr "例: allow 1024-65535 192.168.0.0/24 1024-65535"
 
 #
 # File: /usr/core/src/www/services_upnp.php, line: 319
@@ -6825,119 +6815,102 @@ msgid ""
 "Format: [allow or deny] [ext port or range] [int ipaddr or ipaddr/cdir] [int "
 "port or range]"
 msgstr ""
+"形式: [allow もしくは deny] [ext port もしくは range] [int ipaddr もしくは ipaddr/cdir]"
+" [int port もしくは range]"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 315
 msgid "Set 1"
-msgstr ""
+msgstr "設定 1"
 
 #
 # File: /usr/core/src/www/services_upnp.php, line: 310
 msgid "User specified permissions"
-msgstr ""
+msgstr "ユーザ指定パーミッション"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 295
 msgid "By default deny access to UPnP &amp; NAT-PMP?"
-msgstr ""
+msgstr "UPnP 及び NAT-PMP へのアクセスをデフォルトで拒否しますか？"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 291
 msgid "Default deny"
-msgstr ""
+msgstr "デフォルト拒否"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 286
 msgid "Use system uptime instead of UPnP &amp; NAT-PMP service uptime?"
-msgstr ""
+msgstr "UPnP 及び NAT-PMP サービス稼働時間の代わりにシステム稼働時間を使用しますか？"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 282
 msgid "Use system time"
-msgstr ""
+msgstr "システム時間を使用"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 277
 msgid "Log packets handled by UPnP &amp; NAT-PMP rules?"
-msgstr ""
+msgstr "UPnP 及び NAT-PMP ルールで扱われたログをログに記録しますか？"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 273
 msgid "Log NAT-PMP"
-msgstr ""
+msgstr "NAT-PMP をログに記録"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 267
 msgid "Override WAN address"
-msgstr ""
+msgstr "WAN アドレスを上書き"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 258
 msgid "Maximum Upload Speed"
-msgstr ""
+msgstr "最大アップロード速度"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 253
 # File: /usr/core/src/www/services_upnp.php, line: 262
 msgid "(Kbits/second)"
-msgstr ""
+msgstr "( Kbit / 秒 )"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 249
 msgid "Maximum Download Speed"
-msgstr ""
+msgstr "最大ダウンロード速度"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 244
 msgid "You can select multiple interfaces here."
-msgstr ""
+msgstr "ここで複数のインタフェースを選択できます。"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 233
 msgid "Localhost"
-msgstr ""
+msgstr "Localhost"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 229
 msgid "Interfaces (generally LAN)"
-msgstr ""
+msgstr "インタフェース ( 一般的には LAN )"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 224
 msgid ""
 "Select only your primary WAN interface (interface with your default route). "
 "Only one interface is allowed here, not multiple."
 msgstr ""
+"プライマリ WAN インタフェース ( デフォルトルートのインタフェース ) のみを選択してください。"
+"複数ではなく、一つのインタフェースのみが使用可能です。"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 212
 msgid "External Interface"
-msgstr ""
+msgstr "外部インタフェース"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 207
 msgid "This protocol is often used by Apple-compatible systems."
-msgstr ""
+msgstr "このプロトコルは Apple 互換システムでよく使用されます。"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 203
 msgid "Allow NAT-PMP Port Mapping"
-msgstr ""
+msgstr "NAT-PMP ポートマッピングを許可"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 198
 msgid "This protocol is often used by Microsoft-compatible systems."
-msgstr ""
+msgstr "このプロトコルは Microsoft 互換システムでよく使用されます。"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 194
 msgid "Allow UPnP Port Mapping"
-msgstr ""
+msgstr "UPnP ポートマッピングを許可"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 177
 msgid "UPnP &amp; NAT-PMP Settings"
-msgstr ""
+msgstr "UPnP 及び NAT-PMP 設定"
 
 # File: src/www/services_upnp.php, line: 208
 msgid "Modified Universal Plug and Play settings."
@@ -6999,19 +6972,17 @@ msgid "You must specify a valid ip address in the 'Override WAN address' field"
 msgstr ""
 "「WAN アドレスを上書き」フィールドに有効な IP アドレスを指定してください"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 95
 msgid "You must specify at least one internal interface."
-msgstr ""
+msgstr "1 つ以上の内部インタフェースを指定してください。"
 
 # File: src/www/services_upnp.php, line: 76
 msgid "You cannot select the external interface as an internal interface."
 msgstr "内部インタフェースとして外部インタフェースは選択できません。"
 
-#
 # File: /usr/core/src/www/services_upnp.php, line: 89
 msgid "It is a security risk to specify WAN as an internal interface."
-msgstr ""
+msgstr "内部インタフェースとして WAN を指定するのはセキュリティリスクです。"
 
 # File: src/www/services_upnp.php, line: 70
 msgid "At least one of 'UPnP' or 'NAT-PMP' must be allowed"
@@ -7100,10 +7071,9 @@ msgstr "有効な IP アドレスとポートを指定してください。例: 
 msgid "Select the log verbosity."
 msgstr "ログの詳細度を選択します。"
 
-#
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 343
 msgid "Level"
-msgstr ""
+msgstr "レベル"
 
 msgid "Log level verbosity"
 msgstr "ログ詳細度レベル"
@@ -7314,10 +7284,9 @@ msgstr ""
 "す。RRSet キャッシュは実際の RR データを格納します。デフォルトは 4 Mbyteで"
 "す。"
 
-#
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 177
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 msgid "Message Cache Size"
 msgstr "メッセージキャッシュサイズ"
@@ -7383,10 +7352,9 @@ msgstr ""
 "DNS リゾルバへのアクセスを制御するアクセスリストは、ここで定義することができ"
 "ます。"
 
-#
 # File: /usr/core/src/www/services_unbound_acls.php, line: 365
 msgid "allow"
-msgstr ""
+msgstr "許可"
 
 msgid "Internal"
 msgstr "内部"
@@ -7394,67 +7362,61 @@ msgstr "内部"
 msgid "Access List Name"
 msgstr "アクセスリスト名"
 
-#
 # File: /usr/core/src/www/services_unbound_acls.php, line: 330
 msgid "From General settings"
-msgstr ""
+msgstr "全般設定から"
 
 msgid "You may enter a description here for your reference."
 msgstr "参照用の説明を入力できます。"
 
-#
 # File: /usr/core/src/www/services_unbound_acls.php, line: 245
 msgid ""
 "Allow Snoop: This action allows recursive and nonrecursive access from hosts "
 "within the netblock defined below. Used for cache snooping and ideally "
 "should only be configured for your administrative host."
-msgstr ""
+msgstr "スヌープを許可: この操作は下記で定義されたネットブロックにあるホストからの再帰及び非再帰アクセスを許可します。"
+"キャッシュスヌーピングに使用します。理想的には管理用ホストに対してのみ構成するほうがよいでしょう。"
 
-#
 # File: /usr/core/src/www/services_unbound_acls.php, line: 244
 msgid ""
 "Allow: This action allows queries from hosts within the netblock defined "
 "below."
-msgstr ""
+msgstr "許可: この操作は下記で定義されたネットブロックにあるホストからのクエリを許可します。"
 
-#
 # File: /usr/core/src/www/services_unbound_acls.php, line: 243
 msgid ""
 "Refuse: This action also stops queries from hosts within the netblock "
 "defined below, but sends a DNS rcode REFUSED error message back to the "
 "client."
 msgstr ""
+"拒絶: この操作も下記で定義されたネットブロックにあるホストからのクエリを停止しますが、"
+"クライアントに DNS RCODE REFUSED エラーメッセージを送信します。"
 
-#
 # File: /usr/core/src/www/services_unbound_acls.php, line: 242
 msgid ""
 "Deny: This action stops queries from hosts within the netblock defined below."
-msgstr ""
+msgstr "拒否: この操作は下記で定義されたネットブロックにあるホストからのクエリを停止します。"
 
 msgid ""
 "Choose what to do with DNS requests that match the criteria specified below."
 msgstr ""
 "下記で指定された条件に一致する DNS 要求に対する実行内容を選択してください。"
 
-#
 # File: /usr/core/src/www/services_unbound_acls.php, line: 237
 msgid "Allow Snoop"
-msgstr ""
+msgstr "スヌープを許可"
 
-#
 # File: /usr/core/src/www/services_unbound_acls.php, line: 234
 msgid "Refuse"
-msgstr ""
+msgstr "拒絶"
 
-#
 # File: /usr/core/src/www/services_unbound_acls.php, line: 231
 msgid "Deny"
-msgstr ""
+msgstr "拒否"
 
-#
 # File: /usr/core/src/www/services_unbound_acls.php, line: 228
 msgid "Allow"
-msgstr ""
+msgstr "許可"
 
 msgid "Provide an Access List name."
 msgstr "アクセスリスト名を指定します。"
@@ -7485,7 +7447,6 @@ msgstr ""
 "PPP による DNS サーバリストの上書きを許可&quot; がチェックされていれば、WAN "
 "の DHCP または PPP 経由で取得したものを DNS サーバとして使用します。"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 268
 msgid ""
 "Utilize different network interface(s) that the DNS Resolver will use to "
@@ -7493,21 +7454,22 @@ msgid ""
 "all interfaces are used. Note that setting explicit outgoing interfaces only "
 "works when they are statically configured."
 msgstr ""
+"DNS リゾルバが、権威 DNS サーバへの照会の送信、及び、その応答の受信に使用するインタフェースとして、"
+"異なるネットワークインタフェースを利用します。デフォルトでは、全てのインタフェースを使用します。"
+"静的に構成されている場合は、明示的に設定した発信インタフェースのみが機能しますのでご注意ください。"
 
 msgid "Outgoing Network Interfaces"
 msgstr "発信ネットワークインタフェース"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 249
 msgid ""
 "Enter any additional options you would like to add to the DNS Resolver "
 "configuration here."
-msgstr ""
+msgstr "DNS リゾルバ構成の追加オプションを入力します。"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 245
 msgid "Custom options"
-msgstr ""
+msgstr "カスタムオプション"
 
 # File: src/www/services_unbound.php, line: 325
 msgid ""
@@ -7696,18 +7658,16 @@ msgstr "コミュニティ"
 msgid "Invalid character '#' in read community string"
 msgstr "コミュニティ文字列の読込みで無効な文字 '#' があります"
 
-#
 # File: /usr/core/src/www/services_snmp.php, line: 76
 msgid "Invalid character (non ascii) in system contact"
-msgstr ""
+msgstr "システムの連絡先に無効な文字 ( 非 ASCII ) があります"
 
 msgid "Invalid character '#' in system contact"
 msgstr "システムの連絡先に無効な文字 '#' があります"
 
-#
 # File: /usr/core/src/www/services_snmp.php, line: 70
 msgid "Invalid character (non ascii) in system location"
-msgstr ""
+msgstr "システムの位置情報に無効な文字 ( 非 ASCII ) があります"
 
 msgid "Invalid character '#' in system location"
 msgstr "システムの位置情報に無効な文字 '#' があります"
@@ -7715,41 +7675,38 @@ msgstr "システムの位置情報に無効な文字 '#' があります"
 msgid "Use same settings as DHCPv6 server"
 msgstr "DHCPv6 サーバと同じ設定を使用"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 404
 msgid ""
 "The maximum time allowed between sending unsolicited multicast router "
 "advertisements from the interface, in seconds."
 msgstr ""
+"インタフェースからの未承諾マルチキャストルータ広告送信間隔を許可する最大時間。秒単位。"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 400
 msgid "Maximum Interval"
-msgstr ""
+msgstr "最大間隔"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 395
 msgid ""
 "The minimum time allowed between sending unsolicited multicast router "
 "advertisements from the interface, in seconds."
 msgstr ""
+"インタフェースからの未承諾マルチキャストルータ広告送信間隔を許可する最小時間。秒単位。"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 391
 msgid "Minimum Interval"
-msgstr ""
+msgstr "最小間隔"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 386
 msgid ""
 "Enable the periodic sending of router advertisements and responding to "
 "router solicitations."
 msgstr ""
+"定期的なルータ広告の送信及びルータ要請への応答を有効"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 382
 msgid "RA Sending"
-msgstr ""
+msgstr "RA 送信"
 
 msgid ""
 "The RA server can optionally provide a domain search list. Use the semicolon "
@@ -7758,7 +7715,6 @@ msgstr ""
 "RA サーバは、オプションでドメイン検索リストを提供することができます。区切り文"
 "字にはセミコロンを使用してください"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 355
 msgid ""
 "Subnets are specified in CIDR format.  Select the CIDR mask that pertains to "
@@ -7767,11 +7723,14 @@ msgid ""
 "(RA) Daemon will advertise to the subnet to which the router's interface is "
 "assigned."
 msgstr ""
+"サブネットは CIDR 形式で指定します。エントリ毎に関連する CIDR マスクを選択してください。"
+"/128 で IPv6 ホスト単体を指定、/64 で通常の IPv6 ネットワークを指定、等です。"
+"サブネットをここで指定しない場合は、ルータ広告 (RA) "
+"デーモンは、ルータのインタフェースに割当てられたサブネットに広告します。"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 308
 msgid "Bits"
-msgstr ""
+msgstr "Bit"
 
 msgid "RA Subnet(s)"
 msgstr "RA サブネット"
@@ -7787,10 +7746,9 @@ msgstr "RA インタフェース"
 msgid "Select the Priority for the Router Advertisement (RA) Daemon."
 msgstr "ルータ広告 (RA) デーモンの優先度を選択してください。"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 257
 msgid "Low"
-msgstr ""
+msgstr "低"
 
 msgid "Router Priority"
 msgstr "ルータ優先度"
@@ -7818,37 +7776,31 @@ msgstr ""
 msgid "Select the Operating Mode for the Router Advertisement (RA) Daemon."
 msgstr "ルータ広告 (RA) デーモンの動作モードを選択してください。"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 242
 msgid "Assisted"
-msgstr ""
+msgstr "支援"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 239
 msgid "Managed"
-msgstr ""
+msgstr "管理"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 236
 msgid "Unmanaged"
-msgstr ""
+msgstr "非管理"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 233
 msgid "Router Only"
-msgstr ""
+msgstr "ルータのみ"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 114
 #, php-format
 msgid "Minimum interval must be between %s and %s seconds."
-msgstr ""
+msgstr "最小間隔は %s - %s 秒にしてください。"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 111
 #, php-format
 msgid "Maximum interval must be between %s and %s seconds."
-msgstr ""
+msgstr "最大間隔は %s - %s 秒にしてください。"
 
 #, php-format
 msgid "An invalid subnet or alias was specified. [%s/%s]"
@@ -10778,7 +10730,7 @@ msgid ""
 "This option causes cumulative uptime to be recorded and displayed on the "
 "Status Interfaces page."
 msgstr ""
-"このオプションは、アップタイムを累積して記録し、ステータス: インタフェース"
+"このオプションは稼働時間を累積して記録し、ステータス: インタフェース"
 "ページに表示します。"
 
 msgid "Enable persistent logging of connection uptime."
@@ -13566,10 +13518,9 @@ msgstr ""
 msgid "Disable interface scrub"
 msgstr ""
 
-#
 # File: /usr/core/src/www/firewall_scrub.php, line: 238
 msgid "General settings"
-msgstr ""
+msgstr "全般設定"
 
 msgid "Day(s)"
 msgstr "日"
@@ -14718,7 +14669,7 @@ msgstr "外向き NAT ルール生成を無効"
 
 # File: src/www/firewall_nat_out.php, line: 304
 msgid "(no automatic rules are being generated)"
-msgstr "( 自動ルールは生成されていません )"
+msgstr "( 生成された自動ルールはありません )"
 
 # File: src/www/firewall_nat_out.php, line: 303
 msgid "Manual outbound NAT rule generation"
@@ -17099,7 +17050,7 @@ msgid ""
 msgstr ""
 
 msgid "Restore configuration"
-msgstr "構成のリストア"
+msgstr "構成をリストア"
 
 msgid "Configuration file is encrypted."
 msgstr "暗号化された構成ファイル"
@@ -17116,7 +17067,7 @@ msgstr ""
 "このボタンをクリックすると、XML 形式でシステム構成をダウンロードします。"
 
 msgid "Download configuration"
-msgstr "ダウンロード構成"
+msgstr "構成をダウンロード"
 
 msgid "confirm:"
 msgstr "確認: "
@@ -17124,10 +17075,9 @@ msgstr "確認: "
 msgid "Encrypt this configuration file."
 msgstr "この構成ファイルを暗号化する"
 
-#
 # File: /usr/core/src/www/diag_backup.php, line: 530
 msgid "Do not backup RRD data."
-msgstr ""
+msgstr "RRD データをバックアップしない"
 
 msgid "ALL"
 msgstr "全て"
@@ -22850,7 +22800,7 @@ msgstr ""
 # File: src/www/services_ntpd_pps.php, line: 92
 # File: src/www/status_ntpd.php, line: 147
 msgid "Network Time"
-msgstr "ネットワーク時刻"
+msgstr "NTP"
 
 msgid "Normal View"
 msgstr "通常表示"
