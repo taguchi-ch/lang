@@ -10065,7 +10065,7 @@ msgstr ""
 "のサーバプールにリダイレクトされます。"
 
 msgid "Please add a pool on the Pools tab to use this feature."
-msgstr "この機能を使用するにはプールタブでプールを追加してください"
+msgstr "この機能を使用するにはプールタブでプールを追加してください。"
 
 msgid "Virtual Server Pool"
 msgstr "仮想サーバプール"
@@ -10082,7 +10082,7 @@ msgstr "クライアントが接続するポートです。このポートに対
 msgid ""
 "You may also specify a host alias listed in Firewall -&gt; Aliases here."
 msgstr ""
-"ファイアウォール -&gt; エイリアスでリストに登録したホストエイリアスをここ"
+"ファイアウォール -&gt; エイリアスで、リストに登録したホストエイリアスをここ"
 "に指定することもできます。"
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 218
