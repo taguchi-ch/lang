@@ -10050,8 +10050,8 @@ msgid ""
 "Redirections are translated to pf(4) rdr-to rules for stateful forwarding to "
 "a target host from a health-checked table on layer 3."
 msgstr ""
-"レイヤ 3 でヘルスチェックしたテーブルからターゲットホストにステートフル転送する"
-"リダイレクトは pf(4) rdr-to ルールに翻訳されます。"
+"リダイレクトは、レイヤ 3 でヘルスチェックしたテーブルからターゲットホストにステートフル"
+"転送する pf(4) rdr-to ルールに翻訳されます。"
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 244
 msgid "This option is NOT compatible with the DNS relay protocol."
