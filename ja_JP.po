@@ -10045,12 +10045,13 @@ msgstr ""
 "リレーに、アプリケーションレイヤロードバランシング、TLS アクセラレーション、"
 "レイヤ 7 における汎用 TCP プロキシを許可します。"
 
-#
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 297
 msgid ""
 "Redirections are translated to pf(4) rdr-to rules for stateful forwarding to "
 "a target host from a health-checked table on layer 3."
 msgstr ""
+"レイヤ 3 でヘルスチェックしたテーブルからターゲットホストにステートフル転送する"
+"リダイレクトは pf(4) rdr-to ルールに翻訳されます。"
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 244
 msgid "This option is NOT compatible with the DNS relay protocol."
@@ -10064,39 +10065,38 @@ msgstr ""
 "のサーバプールにリダイレクトされます。"
 
 msgid "Please add a pool on the Pools tab to use this feature."
-msgstr "この機能を使用するには、プールタブで、プールを追加してください"
+msgstr "この機能を使用するにはプールタブでプールを追加してください"
 
 msgid "Virtual Server Pool"
 msgstr "仮想サーバプール"
 
 msgid "If left blank, listening ports from the pool will be used."
-msgstr "空白の場合は、プールから、リスニングポートが使用されます。"
+msgstr "空白の場合は、プールからリスニングポートが使用されます。"
 
-#
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 228
 msgid ""
 "This is the port that the clients will connect to. All connections to this "
 "port will be forwarded to the pool cluster."
-msgstr ""
+msgstr "クライアントが接続するポートです。このポートに対する全ての接続はプールクラスタに転送されます。"
 
 msgid ""
 "You may also specify a host alias listed in Firewall -&gt; Aliases here."
 msgstr ""
-"ファイアウォール -&gt; エイリアスで、リストに登録した、ホストエイリアスをここ"
+"ファイアウォール -&gt; エイリアスでリストに登録したホストエイリアスをここ"
 "に指定することもできます。"
 
-#
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 218
 msgid ""
 "This is normally the WAN IP address that you would like the server to listen "
 "on. All connections to this IP and port will be forwarded to the pool "
 "cluster."
 msgstr ""
+"通常はリスンしたいサーバの WAN IP アドレスを指定します。この IP 及びポートに対する"
+"全ての接続はプールクラスタに転送されます。"
 
-#
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 194
 msgid "Add/edit - Virtual Server entry"
-msgstr ""
+msgstr "追加 / 編集 - 仮想サーバエントリ"
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 89
 msgid "You cannot select a Fall Back Pool when using the DNS relay protocol."
@@ -10118,12 +10118,11 @@ msgstr "ポートは 1-65535 の整数、ポートエイリアス、または空
 msgid "You cannot use spaces or slashes in the 'name' field."
 msgstr "「名前」フィールドに、空白やスラッシュは使用できません。"
 
-#
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 81
 msgid ""
 "This virtual server name has already been used. Virtual server names must be "
 "unique."
-msgstr ""
+msgstr "この仮想サーバ名は既に使用されています。仮想サーバ名は固有です。"
 
 msgid "Relay Protocol"
 msgstr "リレープロトコル"
@@ -10137,12 +10136,10 @@ msgstr "プール"
 msgid "The virtual server configuration has been changed"
 msgstr "仮想サーバの構成が変更されました"
 
-#
 # File: /usr/core/src/www/load_balancer_virtual_server.php, line: 125
 msgid "Load Balancer: Virtual Server Setup"
-msgstr ""
+msgstr "ロードバランサ: 仮想サーバ設定"
 
-#
 # File: /usr/core/src/www/load_balancer_setting.php, line: 159
 msgid ""
 "Successive connections will be redirected to the servers in a round-robin "
@@ -10152,6 +10149,10 @@ msgid ""
 "connection. Further connections from that host will be redirected to the "
 "next web server in the round-robin."
 msgstr ""
+"連続した接続は、同じ送信元が同じ Web サーバに送信している接続を、ラウンドロビン方式でサーバにリダイレクトします。"
+"このような「スティッキー接続」は、この接続を参照するステータスと同じ期間存在します。"
+"ステータスの有効期限が切れると、スティッキー接続の有効期限も切れます。"
+"そのホストからの追加的な接続は、ラウンドロビンで次の Web サーバにリダイレクトされます。"
 
 msgid "Use sticky connections"
 msgstr "スティッキー接続を使用"
@@ -10167,10 +10168,9 @@ msgstr ""
 "DNS プロトコルに対して relayd が使用するプロセス数です。空白の場合は、デフォ"
 "ルト値の 5 プロセスを使用します。"
 
-#
 # File: /usr/core/src/www/load_balancer_setting.php, line: 145
 msgid "Prefork"
-msgstr ""
+msgstr "prefork"
 
 msgid ""
 "Set the interval in seconds at which the member of a pool will be checked. "
@@ -10179,10 +10179,9 @@ msgstr ""
 "プールのメンバをチェックする間隔を、秒単位で設定してください。空白の場合は、"
 "デフォルト値の 10 秒を使用します。"
 
-#
 # File: /usr/core/src/www/load_balancer_setting.php, line: 136
 msgid "Interval"
-msgstr ""
+msgstr "間隔"
 
 msgid ""
 "Set the global timeout in milliseconds for checks. Leave blank to use the "
@@ -10247,10 +10246,9 @@ msgstr "手動フェイルオーバ"
 msgid "Load Balance"
 msgstr "負荷平衡"
 
-#
 # File: /usr/core/src/www/load_balancer_pool_edit.php, line: 237
 msgid "Add/edit - Pool entry"
-msgstr ""
+msgstr "追加 / 編集 - プールエントリ"
 
 msgid "Invalid monitor chosen."
 msgstr "無効な監視が選択されました"
@@ -10345,10 +10343,9 @@ msgstr "期待する文字列"
 msgid "Send string"
 msgstr "送信する文字列"
 
-#
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 229
 msgid "Edit Monitor entry"
-msgstr ""
+msgstr "監視エントリを編集"
 
 msgid "Send/Expect"
 msgstr "Send/Expect"
@@ -10377,13 +10374,12 @@ msgstr "この監視名は既に使用されています。監視名は固有で
 msgid "The load balancer configuration has been changed"
 msgstr "ロードバランサ構成が変更されました"
 
-#
 # File: /usr/core/src/www/load_balancer_monitor.php, line: 93
 # File: /usr/core/src/www/load_balancer_monitor.php, line: 110
 # File: /usr/core/src/www/load_balancer_pool.php, line: 99
 # File: /usr/core/src/www/load_balancer_pool.php, line: 116
 msgid "Load Balancer: Monitors"
-msgstr ""
+msgstr "ロードバランサ: 監視"
 
 msgid ""
 "This entry cannot be deleted because it is still referenced by at least one "
@@ -10433,18 +10429,16 @@ msgid ""
 msgstr ""
 "この無線クローンは削除できません。インタフェースとして割当てられています"
 
-#
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 201
 msgid "802.1Q VLAN tag (between 1 and 4094)"
-msgstr ""
+msgstr "802.1Q VLAN タグ ( 1 - 4094 )"
 
 msgid "Only VLAN capable interfaces will be shown."
 msgstr "VLAN 対応インタフェースのみが表示されます。"
 
-#
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 159
 msgid "Interface VLAN Edit"
-msgstr ""
+msgstr "インタフェース VLAN 編集"
 
 msgid "A QinQ VLAN exists with this tag please remove it to use this tag with."
 msgstr ""
@@ -10466,13 +10460,14 @@ msgstr "親として指定されたインタフェースは無効です"
 msgid "The VLAN tag must be an integer between 1 and 4094."
 msgstr "VLAN タグは 1 - 4094 の整数です"
 
-#
 # File: /usr/core/src/www/interfaces_vlan.php, line: 149
 msgid ""
 "Not all drivers/NICs support 802.1Q VLAN tagging properly. On cards that do "
 "not explicitly support it, VLAN tagging will still work, but the reduced MTU "
 "may cause problems."
 msgstr ""
+"全てのドライバや NIC が 802.1Q VLAN タギングに適切に対応しているわけではありません。対応を明示していないカードでは、"
+"VLAN タギングが動作しても MTU の減少が問題を引き起こす可能性があります。"
 
 msgid "VLAN tag"
 msgstr "VLAN タグ"
@@ -10524,13 +10519,14 @@ msgstr ""
 msgid "First level tag cannot be empty."
 msgstr "第 1 階層タグは空にできません"
 
-#
 # File: /usr/core/src/www/interfaces_qinq.php, line: 166
 msgid ""
 "Not all drivers/NICs support 802.1Q QinQ tagging properly. On cards that do "
 "not explicitly support it, QinQ tagging will still work, but the reduced MTU "
 "may cause problems."
 msgstr ""
+"全てのドライバや NIC が 802.1Q QinQ VLAN タギングに適切に対応しているわけではありません。対応を明示していないカードでは、"
+"QinQ タギングが動作しても MTU の減少が問題を引き起こす可能性があります。"
 
 msgid "QinQ members"
 msgstr "QinQ メンバ"
@@ -10548,29 +10544,25 @@ msgid ""
 "This QinQ cannot be deleted because it is still being used as an interface."
 msgstr "この QinQ は削除できません。インタフェースとして使用されています。"
 
-#
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 791
 msgid ""
 "MRRU: Set ONLY for MLPPP connections. MRRU will be auto-negotiated by "
 "default."
-msgstr ""
+msgstr "MRRU: MLPPP 接続に対してのみ設定してください。デフォルトでは MRRU はオートネゴシエートします。"
 
-#
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 790
 msgid "MRU: MRU will be auto-negotiated by default."
-msgstr ""
+msgstr "MRU: デフォルトでは MRU はオートネゴシエートします。"
 
-#
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 789
 msgid "MTU: MTU will default to 1492."
-msgstr ""
+msgstr "MTU: MTU のデフォルトは 1492 です。"
 
-#
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 788
 msgid ""
 "Bandwidth: Set ONLY for MLPPP connections and ONLY when links have different "
 "bandwidths."
-msgstr ""
+msgstr "帯域幅: MLPPP 接続で、なおかつ、リンクが異なる帯域幅を持つ場合のみ設定します。"
 
 msgid "MRRU"
 msgstr "MRRU"
@@ -10637,15 +10629,15 @@ msgid ""
 "option from its outgoing data."
 msgstr ""
 "このオプションは、MPD が着信及び発信 TCP SYN セグメントを調整し、要求される最"
-"大セグメントサイズを、インタフェースの MTU が許可する量よりも小さくなるように"
-"します。これは、ICMP Datagram Too Big メッセージが落ちる問題をルータが引き起"
-"こすことを回避するために、多くの設定で必要になります。このメッセージがない場"
+"大セグメントサイズをインタフェースの MTU が許可する量よりも小さくなるように"
+"します。これはルータが原因となる ICMP Datagram Too Big メッセージが落ちる問題を"
+"回避するために、多くの設定で必要になります。このメッセージがない場"
 "合はこんなことが起こります。発信元の機器が送信したデータが、いい加減なルータ"
 "を通過し、データに対して小さすぎる MTU を持つ機器にぶつかります。IP Don't "
 "Fragment オプションが設定されていたので、この機器は ICMP Datagram Too Big "
-"メッセージを発信元の機器に返して、パケットを落としました。ところが、いい加減"
+"メッセージを発信元の機器に返してパケットを落としました。ところが、いい加減"
 "なルータが ICMP メッセージを落としてしまったので、発信元の機器には、発信デー"
-"タのフラグメントサイズを小さくするか、IP Don't Fragment オプションを外す必要"
+"タのフラグメントサイズを小さくするか IP Don't Fragment オプションを外す必要"
 "があることが、決してわからなくなってしまうのです。"
 
 msgid "Disable tcpmssfix (enabled by default)."
@@ -10955,11 +10947,10 @@ msgstr "LAGG 構成"
 msgid "Protocol supplied is invalid"
 msgstr "指定されたプロトコルは無効です"
 
-#
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 115
 #, php-format
 msgid "Interface '%s' supplied as member does not exist"
-msgstr ""
+msgstr "メンバとして指定された '%s' インタフェースは存在しません"
 
 msgid "Lagg protocol"
 msgstr "Lagg プロトコル"
@@ -11877,7 +11868,6 @@ msgstr "インフラストラクチャ ( BSS )"
 msgid "Network-specific wireless configuration"
 msgstr "ネットワーク固有の無線設定"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2920
 msgid ""
 "Note: All wireless networks on this interface will be temporarily brought "
@@ -11885,6 +11875,9 @@ msgid ""
 "country codes may not be allowed by some cards. These settings may not be "
 "able to add additional channels that are not already supported."
 msgstr ""
+"注意: このインタフェースの全ての無線ネットワークは、規制設定の変更時に一時的にダウンします。"
+"一部の規制ドメイン、もしくは国コードを使用できないカードがあります。"
+"これらの設定で、現在サポートされていない追加チャンネルの追加はできません。"
 
 msgid ""
 "These settings may affect which channels are available and the maximum "
@@ -12018,11 +12011,10 @@ msgid ""
 "Common wireless configuration - Settings apply to all wireless networks on"
 msgstr "共通の無線構成 - 全ての無線ネットワークに適用されます"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2717
 #, php-format
 msgid "Enter a hexadecimal value between %x and %x here, default value is 0."
-msgstr ""
+msgstr "%x - %x の16進数の値を入力してください。デフォルトは 0 です。"
 
 msgid ""
 "The value in this field is the (Delegated) IPv6 prefix id. This determines "
@@ -12080,7 +12072,6 @@ msgstr "6RD プレフィックス"
 msgid "6RD Rapid Deployment"
 msgstr "6RD Rapid Deployment"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2612
 #, php-format
 msgid ""
@@ -12091,72 +12082,66 @@ msgid ""
 "Delimiter (space, colon, hyphen, or period) (omitted for none).%sSome ISPs "
 "may require certain options be or not be sent."
 msgstr ""
+"このフィールドの値は、DHCP クライアント構成ファイルの完全な絶対パスです。[/[ディレクトリ名/[.../]]ファイル名[.ext]]%s"
+"構成ファイルの値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD}%s"
+"C は U(大文字) もしくは L(小文字)、 D は「 :-.」、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) "
+"( 指定しない場合は省略してください )。%s"
+"一部の ISP は、送信される、もしくは送信されなくても、特定のオプションを要求することがあります。"
 
 # File: src/www/interfaces.php, line: 2704
 msgid "Configuration File Override"
 msgstr "構成ファイル上書き"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2603
 msgid "expire"
-msgstr ""
+msgstr "有効期限"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2601
 msgid "secret"
-msgstr ""
+msgstr "秘密鍵"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2599
 msgid "keyid"
-msgstr ""
+msgstr "鍵 ID"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2596
 msgid "realm"
-msgstr ""
+msgstr "レルム"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2594
 msgid "keyname"
-msgstr ""
+msgstr "鍵名"
 
 # File: src/www/interfaces.php, line: 2688
 msgid "Keyinfo"
 msgstr "鍵情報"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2587
 msgid "rdm"
-msgstr ""
+msgstr "RDM"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2585
 msgid "algorithm"
-msgstr ""
+msgstr "アルゴリズム"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2583
 msgid "protocol"
-msgstr ""
+msgstr "プロトコル"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2581
 msgid "authname"
-msgstr ""
+msgstr "認証名"
 
 msgid "Authentication"
 msgstr "認証"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2574
 msgid "sla-len"
-msgstr ""
+msgstr "sla-len"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2572
 msgid "sla-id"
-msgstr ""
+msgstr "sla-id"
 
 msgid "Prefix Interface "
 msgstr "プレフィックスインタフェース "
