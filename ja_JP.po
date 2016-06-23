@@ -10695,7 +10695,7 @@ msgid ""
 msgstr ""
 "このオプションは、インタフェースをダイヤルオンデマンドモードで動作させます。"
 "リンクを常にアップにしたい場合は、有効に「しない」でください。インタフェース"
-"は構成されますが、条件を満たす着信トラフィックを検出するまで、実際のリンク接"
+"は構成されますが、条件を満たす発信トラフィックを検出するまで、実際のリンク接"
 "続は行われません。"
 
 msgid "Enable Dial-on-Demand mode"
@@ -12150,10 +12150,9 @@ msgstr "プレフィックスインタフェース "
 msgid "Prefix Interface"
 msgstr "プレフィックスインタフェース"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2559
 msgid "ipv6-prefix"
-msgstr ""
+msgstr "IPv6 プレフィックス"
 
 msgid "Prefix"
 msgstr "プレフィックス"
@@ -12165,22 +12164,19 @@ msgstr "id-assoc pd"
 msgid "Prefix Delegation"
 msgstr "プレフィックスデリゲーション"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2547
 # File: /usr/core/src/www/interfaces.php, line: 2563
 msgid "vltime"
-msgstr ""
+msgstr "vltime"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2545
 # File: /usr/core/src/www/interfaces.php, line: 2561
 msgid "pltime"
-msgstr ""
+msgstr "pltime"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2543
 msgid "ipv6-address"
-msgstr ""
+msgstr "IPv6 アドレス"
 
 # File: src/www/interfaces.php, line: 2264
 msgid "id-assoc na"
@@ -12292,15 +12288,13 @@ msgstr "IPv4 接続リンクを経由して IPv6 プレフィックス / 情報�
 msgid "Use IPv4 connectivity"
 msgstr "IPv4 接続を使用"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2443
 msgid "Enable debug mode for DHCPv6 client"
-msgstr ""
+msgstr "DHCPv6 クライアントに対するデバッグモードを有効"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2439
 msgid "Enable debug"
-msgstr ""
+msgstr "デバッグを有効"
 
 # File: src/www/interfaces.php, line: 2520
 msgid "DHCPv6 client configuration"
@@ -12324,19 +12318,17 @@ msgstr "IPv6 アップストリームゲートウェイ"
 msgid "Static IPv6 configuration"
 msgstr "静的 IPv6 構成"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2303
 #, php-format
 msgid "%sClick here%s for advanced PPTP and L2TP configuration options."
-msgstr ""
+msgstr "詳細な PPTP・L2TP 構成オプションは%sこちらをクリック%sしてください。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2301
 #, php-format
 msgid ""
 "%sClick here%s for additional PPTP and L2TP configuration options. Save "
 "first if you made changes."
-msgstr ""
+msgstr "詳細な PPTP・L2TP 構成オプションは%sこちらをクリック%sしてください。変更した場合は、最初に保存してください。"
 
 msgid "Remote IP address"
 msgstr "リモート IP アドレス"
@@ -12347,21 +12339,19 @@ msgstr "ローカル IP アドレス"
 msgid "PPTP/L2TP configuration"
 msgstr "PPTP/L2TP 構成"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2224
 #, php-format
 msgid ""
 "%sClick here%s for advanced PPPoE configuration options and MLPPP "
 "configuration."
-msgstr ""
+msgstr "詳細な PPPoE 構成オプション及び MLPPP 構成は%sこちらをクリック%sしてください。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2220
 #, php-format
 msgid ""
 "%sClick here%s for additional PPPoE configuration options. Save first if you "
 "made changes."
-msgstr ""
+msgstr "追加 PPPoE 構成オプションは%sこちらをクリック%sしてください。変更した場合は、最初に保存してください。"
 
 msgid "Advanced and MLPPP"
 msgstr "詳細構成・MLPPP"
@@ -12377,7 +12367,6 @@ msgstr ""
 msgid "Idle timeout"
 msgstr "アイドルタイムアウト"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2203
 # File: /usr/core/src/www/interfaces.php, line: 2287
 msgid ""
@@ -12386,12 +12375,14 @@ msgid ""
 "but the actual connection of the link is delayed until qualifying outgoing "
 "traffic is detected."
 msgstr ""
+"このオプションはインタフェースをダイヤルオンデマンドモードで動作させ、「仮想常時」接続をすることを許可します。"
+"インタフェースは構成されますが、条件を満たす発信トラフィックを検出するまで実際のリンク接続は行われません。"
 
 msgid "Enable Dial-On-Demand mode"
 msgstr "ダイヤルオンデマンドモードを有効"
 
 msgid "Hint: this field can usually be left empty"
-msgstr "ヒント: このフィールドは通常、空白で構いません"
+msgstr "ヒント: このフィールドは通常空白で構いません"
 
 msgid "Service name"
 msgstr "サービス名"
@@ -12399,17 +12390,15 @@ msgstr "サービス名"
 msgid "PPPoE configuration"
 msgstr "PPPoE 構成"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2158
 #, php-format
 msgid "%sClick here%s to create a PPP configuration."
-msgstr ""
+msgstr "PPP 構成を作成するには%sこちらをクリック%sしてください。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2156
 #, php-format
 msgid "%sClick here%s to edit PPP configuration."
-msgstr ""
+msgstr "PPP 構成を編集するには%sこちらをクリック%sしてください。"
 
 msgid "Advanced PPP"
 msgstr "高度な PPP"
@@ -12435,7 +12424,6 @@ msgstr "サービスプロバイダ"
 msgid "PPP configuration"
 msgstr "PPP 構成"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2052
 msgid ""
 "The value in this field is the full absolute path to a DHCP client "
@@ -12445,19 +12433,25 @@ msgid ""
 "Delimiter (space, colon, hyphen, or period) (omitted for none). <br />Some "
 "ISPs may require certain options be or not be sent."
 msgstr ""
+"このフィールドの値は、DHCP クライアント構成ファイルの完全な絶対パスです。[/[ディレクトリ名/[.../]]ファイル名[.ext]] <br />"
+"構成ファイルの値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />"
+"C は U(大文字) もしくは L(小文字)、 D は「 :-.」、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) "
+"( 指定しない場合は省略してください )。 <br />"
+"一部の ISP は、送信される、もしくは送信されなくても、特定のオプションを要求することがあります。"
 
 # File: src/www/interfaces.php, line: 2068
 # File: src/www/interfaces.php, line: 2081
 msgid "FreeBSD manual"
 msgstr "FreeBSD マニュアル"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2041
 msgid ""
 "The values in this field are DHCP option modifiers applied to obtained DHCP "
 "lease. [modifier option declaration [, ...]] <br />modifiers: (default, "
 "supersede, prepend, append)"
 msgstr ""
+"このフィールドの値は DHCP オプション修飾子で、取り込まれた DHCP リースに適用されます。[修飾子 オプション 宣言 [, ...]] <"
+"br /> 修飾子: (default, supersede, prepend, append)"
 
 # File: src/www/interfaces.php, line: 2062
 msgid "Option Modifiers"
