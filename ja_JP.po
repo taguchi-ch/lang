@@ -10768,8 +10768,8 @@ msgid ""
 "configured if this field is empty. Check the \"Configure NULL\" box to "
 "configure a blank Service name."
 msgstr ""
-"ヒント: このフィールドは通常空白にします。このフィールドが空白の場合、サービ"
-"ス名は構成されません。空白のサービス名を構成するには「NULL の構成」チェック"
+"ヒント: このフィールドは通常空白で構いません。このフィールドが空白の場合サービ"
+"ス名は構成されません。空白のサービス名を構成するには「NULL を構成」チェック"
 "ボックスをチェックしてください。"
 
 msgid "Configure a NULL Service name"
@@ -12457,29 +12457,28 @@ msgstr ""
 msgid "Option Modifiers"
 msgstr "オプション修飾子"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2032
 msgid ""
 "The values in this field are DHCP options required by the client when "
 "requesting a DHCP lease. [option [, ...]]"
-msgstr ""
+msgstr "このフィールドの値は DHCP リースのリクエスト時にクライアントが要求する DHCP オプションです。[オプション [, ...]]"
 
 # File: src/www/interfaces.php, line: 2054
 msgid "Require Options"
 msgstr "必須オプション"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2025
 msgid ""
 "The values in this field are DHCP option 55 to be sent when requesting a "
 "DHCP lease. [option [, ...]] <br />Some ISPs may require certain options be "
 "or not be requested."
 msgstr ""
+"このフィールドの値は DHCP リースのリクエスト時に DHCP オプション 55 として送信されます。[オプション [, ...]] <br />"
+"一部の ISP は、リクエストされる、もしくは、リクエストされなくても、特定のオプションを要求することがあります。"
 
 msgid "Request Options"
 msgstr "リクエストオプション"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2016
 msgid ""
 "The values in this field are DHCP options to be sent when requesting a DHCP "
@@ -12489,29 +12488,33 @@ msgid ""
 "(omitted for none). <br />Some ISPs may require certain options be or not be "
 "sent."
 msgstr ""
+"このフィールドの値は、DHCP リースのリクエスト時に DHCP オプションとして送信されます。"
+"[オプション 宣言 [, ...]] <br />値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />"
+"C は U(大文字) もしくは L(小文字)、 D は「 :-.」、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) "
+"( 指定しない場合は省略してください )。<br />"
+"一部の DHCP サービスは、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
 
 msgid "Send Options"
 msgstr "送信オプション"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2010
 #, php-format
 msgid ""
 "More detailed information about lease requirements and requests can be found "
 "in the %sFreeBSD Manual%s."
 msgstr ""
+"リースの必要条件やリクエストに関する詳細情報は %sFreeBSD マニュアル%sで確認できます。"
 
 # File: src/www/interfaces.php, line: 2032
 msgid "Lease Requirements"
 msgstr "リースの必要条件"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2002
 #, php-format
 msgid ""
 "The values in these fields are DHCP %sprotocol timings%s used when "
 "requesting a lease."
-msgstr ""
+msgstr "これらのフィールドの値はリースのリクエスト時に使用される DHCP %sプロトコルタイミング%sです。"
 
 # File: src/www/interfaces.php, line: 2022
 msgid "Saved Cfg"
@@ -12608,12 +12611,11 @@ msgstr "基本"
 msgid "DHCP client configuration"
 msgstr "DHCP クライアント構成"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1891
 # File: /usr/core/src/www/interfaces.php, line: 2366
 #, php-format
 msgid "You can manage Gateways %shere%s."
-msgstr ""
+msgstr "ゲートウェイは%sこちら%sで管理できます。"
 
 # File: src/www/interfaces.php, line: 1776
 # File: src/www/interfaces.php, line: 1885
@@ -12645,11 +12647,10 @@ msgstr "デフォルトゲートウェイ: "
 msgid "Add new gateway"
 msgstr "新規ゲートウェイを追加"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1852
 # File: /usr/core/src/www/interfaces.php, line: 2362
 msgid "Add a new one."
-msgstr ""
+msgstr "新規で追加します。"
 
 msgid "IPv4 Upstream Gateway"
 msgstr "IPv4 アップストリームゲートウェイ"
@@ -12692,10 +12693,9 @@ msgstr ""
 "このフィールドを空白にすると、アダプタのデフォルト MTU が使用されます。通常"
 "は 1500 バイトですが、一部の環境では変更可能です。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1756
 msgid "calculated ppp mtu :"
-msgstr ""
+msgstr "計算された PPP MTU: "
 
 msgid ""
 "Enter a MAC address in the following format: xx:xx:xx:xx:xx:xx or leave blank"
@@ -12766,7 +12766,6 @@ msgstr ""
 "このオプションが設定されると、予約されている IP アドレス ( RFC 1918 以外 )、"
 "もしくは、IANA が未割当ての IP アドレスからのトラフィックを拒否します。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1681
 msgid ""
 "When set, this option blocks traffic from IP addresses that are reserved for "
@@ -12774,6 +12773,9 @@ msgid ""
 "loopback addresses (127/8). This option should only be set for WAN type "
 "interfaces that use public IP address space."
 msgstr ""
+"このオプションが設定されると、プライベートネットワークとして RFC 1918 で予約されている IP アドレス (10/8, 172.16/12, "
+"192.168/16)、及びループバックアドレス (127/8) のトラフィックを拒否します。"
+"このオプションはパブリック IP アドレス空間を使用する WAN タイプインタフェースにのみ設定します。"
 
 msgid "Enter a description (name) for the interface here."
 msgstr "ここにインタフェースの説明 ( 名前 ) を入力します。"
@@ -12997,15 +12999,13 @@ msgstr "エイリアス名 %s は存在しています"
 msgid "You have already applied your settings!"
 msgstr "設定は適用済みです！"
 
-#
 # File: /usr/core/src/www/index.php, line: 388
 msgid "Save to load widget"
-msgstr ""
+msgstr "保存してウィジェット読込み"
 
-#
 # File: /usr/core/src/www/index.php, line: 134
 msgid "To bypass the wizard, click on the logo in the upper left corner."
-msgstr ""
+msgstr "ウィザードを抜けるには、左上角のロゴをクリックしてください。"
 
 msgid ""
 "Embedded platform users: Please be patient, the wizard takes a little longer "
@@ -13017,16 +13017,14 @@ msgstr ""
 msgid "One moment while we start the initial setup wizard."
 msgstr "初期設定ウィザードの開始まで少々お待ちください"
 
-#
 # File: /usr/core/src/www/index.php, line: 131
 #, php-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "%s にようこそ！"
 
-#
 # File: /usr/core/src/www/index.php, line: 118
 msgid "Starting initial configuration!"
-msgstr ""
+msgstr "初期構成を開始します！"
 
 msgid "Widget configuration has been changed."
 msgstr "ウィジェット構成が変更されました"
