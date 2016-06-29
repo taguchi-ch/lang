@@ -14832,19 +14832,17 @@ msgstr "リダイレクトエントリの編集"
 msgid "The target port range must be an integer between 1 and 65535."
 msgstr "ターゲットポートの範囲は 1 - 65535 の整数です"
 
-#
 # File: /usr/core/src/www/firewall_nat_edit.php, line: 189
 # File: /usr/core/src/www/firewall_nat_out_edit.php, line: 202
 #, php-format
 msgid "%s is not a valid IPv6 address."
-msgstr ""
+msgstr "%s は有効な IPv6 アドレスではありません。"
 
-#
 # File: /usr/core/src/www/firewall_nat_edit.php, line: 186
 # File: /usr/core/src/www/firewall_nat_out_edit.php, line: 199
 #, php-format
 msgid "%s is not a valid IPv4 address."
-msgstr ""
+msgstr "%s は有効な IPv4 アドレスではありません。"
 
 #, php-format
 msgid ""
@@ -14901,10 +14899,9 @@ msgstr "送信先ポートへ"
 msgid "Destination port from"
 msgstr "送信先ポートから"
 
-#
 # File: /usr/core/src/www/firewall_nat_edit.php, line: 120
 msgid "redirect traffic to proxy"
-msgstr ""
+msgstr "トラフィックをプロキシにリダイレクト"
 
 msgid "Disable"
 msgstr "無効"
@@ -14967,12 +14964,11 @@ msgid ""
 msgstr ""
 "下記の内部アドレスのサブネットマスクは、この IP アドレスに適用されます。"
 
-#
 # File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 268
 msgid ""
 "Enter the external (usually on a WAN) subnet's starting address for the 1:1 "
 "mapping."
-msgstr ""
+msgstr "1:1 マッピングに使用する外部 ( 通常は WAN 上の ) サブネットの開始アドレスを入力してください。"
 
 msgid "External subnet IP"
 msgstr "外部サブネット IP"
@@ -15207,12 +15203,12 @@ msgstr "エイリアスのインポート"
 #, php-format
 msgid ""
 "%s is not an IP address or hostname. Please correct the error to continue"
-msgstr "%s は IP アドレスもしくはホスト名ではありません。継続するにはエラーを修正してください。"
+msgstr "%s は IP アドレスもしくはホスト名ではありません。継続するにはエラーを修正してください"
 
 #, php-format
 msgid "%s is not an IP address. Please correct the error to continue"
 msgstr ""
-"%s は IP アドレスではありません。継続するにはエラーを修正してください。"
+"%s は IP アドレスではありません。継続するにはエラーを修正してください"
 
 msgid "The alias name may only consist of the characters"
 msgstr "エイリアス名には文字だけが使用できます"
@@ -16736,7 +16732,7 @@ msgid ""
 "NOTE: The following links are to external services, so their reliability "
 "cannot be guaranteed."
 msgstr ""
-"注意: 以下は外部サービスへのリンクです。そのため信頼性を保証できません"
+"注意: 以下は外部サービスへのリンクです。そのため信頼性を保証できません。"
 
 msgid "More Information:"
 msgstr "その他の情報: "
