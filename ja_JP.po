@@ -17320,7 +17320,7 @@ msgid ""
 "\"downloadAct_progress\" class=\"\"></i></button>\n"
 "                        <button class=\"btn btn-primary\" id=\"ScheduleAct\" "
 "type=\"button\"><b>{{ lang._('Schedule with Cron"
-msgstr ""
+msgstr "ACL をダウンロードして適用、ACLをダウンロード、Cronでスケジュール"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 274
@@ -17455,7 +17455,7 @@ msgstr "ユーザ定義"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 436
 msgid "Removing this file will cleanup disk space, but cannot be undone."
-msgstr "このファイルの削除はディスク容量をクリーンアップしますが元に戻せません。"
+msgstr "このファイルの削除はディスク容量をクリーンアップしますが取り消せません。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 435
 msgid "Remove log file "
@@ -17617,7 +17617,7 @@ msgstr "有効期限"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 93
 msgid "Netif (name)"
-msgstr ""Netif ( 名前 )"
+msgstr "Netif ( 名前 )"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 92
 msgid "Netif"
@@ -18099,12 +18099,11 @@ msgstr "このグループに含まれる全てのバウチャーは削除され
 msgid "Remove voucher group"
 msgstr "バウチャーグループを削除"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 52
 msgid ""
 "Please setup a voucher server first (%sgoto auth servers%s)') | format('<a "
 "href=\"/system_authservers.php\">','</a>"
-msgstr ""
+msgstr "最初にバウチャーサーバを設定してください ( %s認証サーバに移動%s )"
 
 msgid "Upload"
 msgstr "アップロード"
