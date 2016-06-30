@@ -17325,12 +17325,11 @@ msgstr ""
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 274
 msgid "Edit | Delete"
-msgstr ""
+msgstr "編集 | 削除"
 
 msgid "URL"
 msgstr "URL"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 261
 msgid ""
 "\n"
@@ -17341,11 +17340,15 @@ msgid ""
 "under %sForward Proxy -> Access Control List%s.\n"
 "                    ') | e | format('<br/>','<br/>','<b>','</b>"
 msgstr ""
+"\n"
+"                    ブラックリストに登録するリモート ACL を取得して、テーブルに項目を追加します。%s\n"
+"                    ブラックリストにするリストは有効無効を選択できます。%s\n"
+"                    アクティブなブラックリストは%sプロキシ転送 -> "
+"アクセスコントロールリスト%sの下の設定とマージされます。\n"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 252
 msgid "Remote Blacklist"
-msgstr ""
+msgstr "リモートブラックリスト"
 
 # File: src/www/firewall_aliases_edit.php, line: 324
 # File: src/www/firewall_aliases_import.php, line: 165
@@ -17369,10 +17372,9 @@ msgstr ""
 msgid "full help"
 msgstr "全てのヘルプ"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 217
 msgid "Remote Access Control Lists"
-msgstr ""
+msgstr "リモートアクセスコントロールリスト"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 495
 msgid "Alert"
@@ -17386,10 +17388,9 @@ msgstr "クエリ"
 msgid "Search"
 msgstr "検索"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 540
 msgid "Info / Enabled"
-msgstr ""
+msgstr "情報 / 有効"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 446
 msgid "Message"
@@ -17406,43 +17407,40 @@ msgstr "動作"
 msgid "sid"
 msgstr "SID"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 518
 msgid ""
 "Please use \"Download & Update Rules\" to fetch your initial ruleset, "
 "automatic updating can be scheduled after the first download."
 msgstr ""
+"「ダウンロードしてルールを更新」を初期ルールセットの取得に使用してください。"
+"初回ダウンロードの後に自動アップデートがスケジュール可能になります。"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 506
 msgid "Download & Update Rules"
 msgstr "ダウンロードしてルールを更新"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 504
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 549
 msgid "Enable selected"
-msgstr ""
+msgstr "選択したものを有効"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 503
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 548
 msgid "Disable selected"
-msgstr ""
+msgstr "選択したものを無効"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 408
 msgid "Last updated"
 msgstr "最終更新"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 490
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 271
 msgid "Filename"
-msgstr ""
+msgstr "ファイル名"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 483
 msgid "Rulesets"
-msgstr ""
+msgstr "ルールセット"
 
 msgid "Schedule"
 msgstr "スケジュール"
@@ -17451,25 +17449,21 @@ msgstr "スケジュール"
 msgid "Alerts"
 msgstr "アラート"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 466
 msgid "User defined"
-msgstr ""
+msgstr "ユーザ定義"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 436
 msgid "Removing this file will cleanup disk space, but cannot be undone."
-msgstr ""
+msgstr "このファイルの削除はディスク容量をクリーンアップしますが元に戻せません。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 435
 msgid "Remove log file "
-msgstr ""
+msgstr "ログファイルを削除"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 301
 msgid "not installed"
-msgstr ""
+msgstr "未インストール"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 712
 msgid "Download as CSV"
@@ -17617,28 +17611,24 @@ msgstr "注意: "
 msgid "Name resolution"
 msgstr "名前解決"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 94
 msgid "Expire"
-msgstr ""
+msgstr "有効期限"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 93
 msgid "Netif (name)"
-msgstr ""
+msgstr ""Netif ( 名前 )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 92
 msgid "Netif"
-msgstr ""
+msgstr "Netif"
 
 msgid "MTU"
 msgstr "MTU"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 90
 msgid "Use"
-msgstr ""
+msgstr "使用パケット数"
 
 # File: src/www/services_ntpd_gps.php, line: 454
 # File: src/www/services_ntpd_pps.php, line: 159
@@ -17651,43 +17641,36 @@ msgstr "ゲートウェイ"
 msgid "Proto"
 msgstr "プロトコル"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 799
 msgid "To date"
-msgstr ""
+msgstr "終了日付"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 793
 msgid "From date"
-msgstr ""
+msgstr "開始日付"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 786
 msgid "Resolution (seconds)"
-msgstr ""
+msgstr "解像度 ( 秒 )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 779
 msgid "Collection"
-msgstr ""
+msgstr "収集"
 
 msgid "Value"
 msgstr "値"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 773
 msgid "Attribute"
-msgstr ""
+msgstr "属性"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 762
 msgid "Total (selection)"
-msgstr ""
+msgstr "合計 ( 選択 )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 754
 msgid "Last seen"
-msgstr ""
+msgstr "最終表示日"
 
 msgid "Destination"
 msgstr "送信先"
@@ -17698,39 +17681,33 @@ msgstr "送信元"
 msgid "Service"
 msgstr "サービス"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 726
 msgid "(src) Address"
-msgstr ""
+msgstr "( 送信元 ) アドレス"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 725
 msgid "(dst) Port"
-msgstr ""
+msgstr "( 送信先 ) ポート"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 723
 msgid "Date to"
-msgstr ""
+msgstr "終了日付"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 722
 msgid "Date from"
-msgstr ""
+msgstr "開始日付"
 
 msgid "Bytes"
 msgstr "バイト"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 701
 msgid "Packets"
-msgstr ""
+msgstr "パケット"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 244
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 696
 msgid "Total"
-msgstr ""
+msgstr "合計"
 
 msgid "Out"
 msgstr "Out"
@@ -17738,92 +17715,75 @@ msgstr "Out"
 msgid "In"
 msgstr "In"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 686
 msgid "click on pie for details"
-msgstr ""
+msgstr "詳細は円でクリック"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 666
 msgid "Top usage ports / sources (bytes)"
-msgstr ""
+msgstr "トップ使用状況ポート / 送信元 ( byte )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 659
 msgid "OUT"
-msgstr ""
+msgstr "OUT"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 655
 msgid "IN"
-msgstr ""
+msgstr "IN"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 651
 msgid "Interface totals (bits/sec)"
-msgstr ""
+msgstr "インタフェース合計 ( bit/秒 )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 644
 msgid "Last year, 24 hour average"
-msgstr ""
+msgstr "直近 1 年間、24 時間平均"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 643
 msgid "182 days, 24 hour average"
-msgstr ""
+msgstr "182 日、24 時間平均"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 642
 msgid "90 days, 24 hour average"
-msgstr ""
+msgstr "90 日、24 時間平均"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 641
 msgid "60 days, 24 hour average"
-msgstr ""
+msgstr "60 日、24 時間平均"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 640
 msgid "30 days, 24 hour average"
-msgstr ""
+msgstr "30 日、24 時間平均"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 639
 msgid "14 days, 1 hour average"
-msgstr ""
+msgstr "14 日、1 時間平均"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 638
 msgid "7 days, 1 hour average"
-msgstr ""
+msgstr "7 日、1 時間平均"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 637
 msgid "Last 24 hours, 5 minute average"
-msgstr ""
+msgstr "直近 24 時間、5 分平均"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 636
 msgid "Last 8 hours, 5 minute average"
-msgstr ""
+msgstr "直近 8 時間、5 分平均"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 635
 msgid "Last 2 hours, 30 second average"
-msgstr ""
+msgstr "直近 2 時間、30 秒平均"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 629
 msgid "Go to netflow configuration"
-msgstr ""
+msgstr "Netflow 構成に移動"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 627
 msgid ""
 "Local data collection is not enabled at the moment, please configure netflow "
 "first"
-msgstr ""
+msgstr "現在ローカルデータ収集は有効ではありません。最初に Netflow を構成してください"
 
 msgid "Export"
 msgstr "エクスポート"
@@ -17833,43 +17793,36 @@ msgstr "エクスポート"
 msgid "Details"
 msgstr "詳細"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 619
 msgid "Totals"
-msgstr ""
+msgstr "合計"
 
 msgid "Info"
 msgstr "情報"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 463
 msgid "(other)"
-msgstr ""
+msgstr "( その他 )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 100
 msgid "Pkts"
-msgstr ""
+msgstr "パケット"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 99
 msgid "Sources"
-msgstr ""
+msgstr "送信元"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 98
 msgid "Destinations"
-msgstr ""
+msgstr "送信先"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 96
 msgid "Flow"
-msgstr ""
+msgstr "フロー"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/netflow.volt, line: 83
 msgid "Capture"
-msgstr ""
+msgstr "キャプチャ"
 
 msgid "IPv6"
 msgstr "IPv6"
@@ -17911,20 +17864,17 @@ msgstr "IP"
 msgid "Delete"
 msgstr "削除"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 132
 msgid "Command"
-msgstr ""
+msgstr "コマンド"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 130
 msgid "Weekdays"
-msgstr ""
+msgstr "平日"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 129
 msgid "Months"
-msgstr ""
+msgstr "月"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 338
 msgid "Days"
@@ -17948,10 +17898,9 @@ msgstr "オリジン"
 msgid "Jobs"
 msgstr "ジョブ"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 448
 msgid "Change"
-msgstr ""
+msgstr "変更"
 
 # File: src/www/system_general.php, line: 584
 msgid "Firmware Flavour"
@@ -17977,19 +17926,17 @@ msgstr "パッケージ"
 msgid "Click to check for updates."
 msgstr "クリックで更新を確認します。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 394
 msgid "Check for updates"
-msgstr ""
+msgstr "更新を確認"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 207
 msgid "Upgrade now"
 msgstr "今すぐアップグレード"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 257
 msgid "Check for updates to view available plugins."
-msgstr ""
+msgstr "利用可能なプラグインを表示するために更新を確認します。"
 
 msgid "Comment"
 msgstr "コメント"
@@ -18016,15 +17963,13 @@ msgstr "デバイスを再起動しています"
 msgid "Upgrade done!"
 msgstr "アップグレードが終了しました！"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 106
 msgid "Executing..."
-msgstr ""
+msgstr "実行しています..."
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 88
 msgid "Upgrading..."
-msgstr ""
+msgstr "アップグレードしています..."
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 67
 msgid "REINSTALL"
@@ -18046,11 +17991,10 @@ msgstr "現在のバージョン"
 msgid "Package Name"
 msgstr "パッケージ名"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 39
 # File: /usr/core/src/www/widgets/widgets/system_information.widget.php, line: 67
 msgid "Checking... (may take up to 30 seconds)"
-msgstr ""
+msgstr "確認しています... ( 30 秒程かかります )"
 
 msgid "Close"
 msgstr "閉じる"
@@ -18118,10 +18062,9 @@ msgstr "バウチャーを生成"
 msgid "Create vouchers"
 msgstr "バウチャーを作成"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 293
 msgid "Drop expired vouchers"
-msgstr ""
+msgstr "有効期限の切れたバウチャーを落とす"
 
 msgid "State"
 msgstr "ステータス"
@@ -18137,15 +18080,13 @@ msgstr "有効期間の開始"
 msgid "Voucher"
 msgstr "バウチャー"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 229
 msgid "All expired vouchers within this group will be deleted"
-msgstr ""
+msgstr "このグループに含まれる有効期限の切れた全てのバウチャーは削除されます"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 228
 msgid "Remove expired vouchers"
-msgstr ""
+msgstr "有効期限の切れたバウチャーを削除"
 
 msgid "Yes"
 msgstr "はい"
@@ -18460,10 +18401,9 @@ msgstr "インタフェースのネットワークアドレスを設定できま
 msgid "Enter the new %s %s subnet bit count (1 to %s):"
 msgstr "新しい %s %s サブネットビットカウントを入力してください ( 1 - %s ): "
 
-#
 # File: /usr/core/src/etc/rc.initial.setlanip, line: 305
 msgid "Subnet masks are entered as bit counts (like CIDR notation)."
-msgstr ""
+msgstr "サブネットマスクはビットカウント ( CIDR 表記法と同様 ) として入力されています。"
 
 msgid "This IP address conflicts with another interface or a VIP"
 msgstr ""
@@ -18742,11 +18682,10 @@ msgstr "syslog を開始しています..."
 msgid "%s has been restarted."
 msgstr "%s が再起動されました"
 
-#
 # File: /usr/core/src/etc/inc/services.inc, line: 2967
 #, php-format
 msgid "Could not restart service `%s'"
-msgstr ""
+msgstr "%s サービスを再起動できませんでした"
 
 # File: src/etc/inc/service-utils.inc, line: 566
 #, php-format
@@ -18765,11 +18704,10 @@ msgstr "不明なサービス %s を停止できませんでした"
 msgid "%s has been started."
 msgstr "%s が開始されました"
 
-#
 # File: /usr/core/src/etc/inc/services.inc, line: 2896
 #, php-format
 msgid "Could not start service `%s'"
-msgstr ""
+msgstr "%s サービスを開始できませんでした"
 
 # File: src/etc/inc/service-utils.inc, line: 410
 #, php-format
@@ -18798,10 +18736,9 @@ msgstr "%s サービス"
 msgid "Running"
 msgstr "実行しています"
 
-#
 # File: /usr/core/src/etc/inc/services.inc, line: 2677
 msgid "System Configuration Daemon"
-msgstr ""
+msgstr "システム構成デーモン"
 
 msgid "Proxy server"
 msgstr "プロキシサーバ"
@@ -18843,10 +18780,9 @@ msgstr "Unbound DNS リゾルバ"
 msgid "Router Advertisement Daemon"
 msgstr "ルータ広告デーモン"
 
-#
 # File: /usr/core/src/etc/inc/services.inc, line: 2368
 msgid "Removed obsolete cron jobs"
-msgstr ""
+msgstr "現在不使用の cron ジョブを削除"
 
 # File: src/etc/inc/services.inc, line: 2268
 #, php-format
@@ -19052,15 +18988,13 @@ msgstr "0 ( なし )"
 msgid "Could not create a config to export."
 msgstr "エクスポートする設定が作成できませんでした。"
 
-#
 # File: /usr/core/src/etc/inc/openvpn-client-export.inc, line: 482
 msgid "Could not validate OpenVPN config."
-msgstr ""
+msgstr "OpenVPN 構成の検証ができませんでした。"
 
-#
 # File: /usr/core/src/etc/inc/openvpn-client-export.inc, line: 476
 msgid "Could not find matching OpenVPN architecture."
-msgstr ""
+msgstr "一致する OpenVPN アーキテクチャを見つけられませんでした。"
 
 # File: src/etc/inc/openvpn-client-export.inc, line: 209
 # File: src/etc/inc/openvpn-client-export.inc, line: 754
@@ -19252,24 +19186,21 @@ msgstr ": サーバは切断しました"
 msgid ": data access time out"
 msgstr ": データアクセスはタイムアウトしました"
 
-#
 # File: /usr/core/src/etc/inc/notices.inc, line: 331
 #, php-format
 msgid "%s (%s) - Notification"
-msgstr ""
+msgstr "%s (%s) - 通知"
 
 msgid "Starting UPnP service... "
 msgstr "UPnP サービスを開始しています... "
 
-#
 # File: /usr/core/src/etc/inc/ipsec.inc, line: 487
 msgid "Configuring IPsec VPN..."
-msgstr ""
+msgstr "IPsec VPN を構成しています..."
 
-#
 # File: /usr/core/src/etc/inc/ipsec.inc, line: 54
 msgid "NULL (no encryption)"
-msgstr ""
+msgstr "NULL ( 暗号化しない )"
 
 msgid "No history data found!"
 msgstr "履歴データはありません！"
