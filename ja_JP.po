@@ -19392,12 +19392,11 @@ msgstr "完了"
 msgid "Processing down interface states"
 msgstr "インタフェースステータスをダウンにしています"
 
-#
 # File: /usr/core/src/etc/inc/filter.inc, line: 320
 # File: /usr/core/src/etc/inc/filter.inc, line: 321
 #, php-format
 msgid "There were error(s) loading the rules: %s%s"
-msgstr ""
+msgstr "ルールの読込中にエラーが発生しました: %s%s"
 
 msgid "PF was wedged/busy and has been reset."
 msgstr "PF は反応がない、もしくはビジーのため、リセットされました"
@@ -19451,13 +19450,12 @@ msgstr ""
 msgid "Dynamic DNS updated IP Address on %s (%s) to %s"
 msgstr "ダイナミック DNS は %s (%s) の IP アドレスを %s にアップデートしました"
 
-#
 # File: /usr/core/src/etc/inc/config.lib.inc, line: 320
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Core/Config.php, line: 377
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Core/Config.php, line: 380
 #, php-format
 msgid "%s made changes"
-msgstr ""
+msgstr "%s は変更しました"
 
 msgid "Reverted to"
 msgstr "以下に戻されました: "
@@ -19557,7 +19555,6 @@ msgstr "パスワード: "
 msgid "Username:"
 msgstr "ユーザ名: "
 
-#
 # File: /usr/core/src/etc/inc/authgui.inc, line: 422
 #, php-format
 msgid ""
@@ -19565,6 +19562,8 @@ msgid ""
 "may be forwarded by NAT or other means. %sIf you did not setup this "
 "forwarding, you may be the target of a man-in-the-middle attack."
 msgstr ""
+"ローカルで構成されていない IP アドレスでこのルータにアクセスしています。NAT もしくはその他の手法で転送された可能性があります。%s"
+"このような転送設定をしていない場合、中間者攻撃のターゲットにされている恐れがあります。"
 
 msgid "Login"
 msgstr "ログイン"
@@ -19592,13 +19591,13 @@ msgstr "リダイレクトしています..."
 msgid "Redirecting to the dashboard..."
 msgstr "ダッシュボードにリダイレクトしています..."
 
-#
 # File: /usr/core/src/etc/inc/auth.inc, line: 105
 #, php-format
 msgid ""
 "A potential %sDNS Rebind attack%s has been detected.%sTry to access the "
 "router by IP address instead of by hostname."
 msgstr ""
+"%sDNS リバインディング%sと思われる攻撃を検知しました。ホスト名ではなく IP アドレスでルータにアクセスしてみてください。"
 
 msgid ""
 "If you want the user to be assigned a specific IP address, enter it here."
@@ -19610,11 +19609,10 @@ msgstr "ユーザのパスワードを変更する場合は、ここに 2 回入
 msgid "confirmation"
 msgstr "確認"
 
-#
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_users_edit.php, line: 162
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp_users_edit.php, line: 162
 msgid "Edit User"
-msgstr ""
+msgstr "ユーザを編集"
 
 msgid "The IP address entered is not valid."
 msgstr "入力した IP アドレスは無効です"
@@ -19645,13 +19643,11 @@ msgstr "PPTP 生"
 msgid "PPTP Logins"
 msgstr "PPTP ログイン"
 
-#
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 406
 msgid ""
 "Don't forget to add a firewall rule to permit traffic from PPTP clients."
-msgstr ""
+msgstr "PPTP クライアントからのトラフィックを許可するファイアウォールルールを必ず追加してください。"
 
-#
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 392
 msgid ""
 "When set, only 128-bit encryption will be accepted. Otherwise 40-bit and 56-"
@@ -19659,14 +19655,15 @@ msgid ""
 "forced on PPTP connections (i.e. unencrypted connections will not be "
 "accepted)."
 msgstr ""
+"設定すると、128 ビット暗号化のみを受け入れます。設定されていなければ、40 ビットと 56 ビットの暗号化も受け入れます。"
+"PPTP 接続で常に暗号化が強制されるようになりますので注意してください ( 非暗号化接続は受け入れなくなります )。"
 
 msgid "Require 128-bit encryption"
 msgstr "128 ビット暗号化を要求"
 
-#
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 387
 msgid "Security"
-msgstr ""
+msgstr "セキュリティ"
 
 msgid "RADIUS secondary shared secret"
 msgstr "RADIUS セカンダリ共有秘密鍵"
@@ -19699,13 +19696,12 @@ msgstr ""
 "RADIUS サーバの IP アドレス、認証ポート、アカウンティングポート ( オプショ"
 "ン ) を入力してください。"
 
-#
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 428
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 463
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 325
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 360
 msgid "AccPort"
-msgstr ""
+msgstr "アカウンティングポート"
 
 msgid "RADIUS server Primary"
 msgstr "プライマリ RADIUS サーバ"
@@ -19719,10 +19715,9 @@ msgstr "RADIUS アカウンティング更新"
 msgid "RADIUS NAS IP"
 msgstr "RADIUS NAS IP"
 
-#
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 298
 msgid "Issue IP addresses via RADIUS server."
-msgstr ""
+msgstr "RADIUS サーバ経由で IP アドレスを割当します。"
 
 msgid "RADIUS issued IPs"
 msgstr "RADIUS IP 割当"
@@ -19771,12 +19766,11 @@ msgstr "クライアントの IP アドレスサブネットの開始アドレ�
 msgid "Remote address range"
 msgstr "リモートアドレス範囲"
 
-#
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 246
 msgid ""
 "Enter the IP address the PPTP server should give to clients for use as their "
 "\"gateway\"."
-msgstr ""
+msgstr "PPTP サーバの IP アドレスを入力してください。クライアントに「ゲートウェイ」として使用するよう設定されます。"
 
 msgid "Hint: 10 is ten PPTP clients"
 msgstr "ヒント: 10 の場合は PPTP クライアント数が 10 です"
@@ -19787,10 +19781,9 @@ msgstr "PPTP ユーザ番号"
 msgid "Enable PPTP server"
 msgstr "PPTP サーバを有効"
 
-#
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 204
 msgid "PPTP settings"
-msgstr ""
+msgstr "PPTP 設定"
 
 msgid "The specified server address lies in the remote subnet."
 msgstr "指定されたサーバアドレスはリモートサブネットにあります"
@@ -19819,22 +19812,19 @@ msgstr "リモート開始アドレス"
 msgid "done"
 msgstr "完了"
 
-#
 # File: /usr/plugins/net/pptp/src/etc/inc/plugins.inc.d/if_pptp.inc, line: 234
 #, php-format
 msgid "Error: cannot open mpd.secret in if_pptp_configure()."
-msgstr ""
+msgstr "エラー: if_pptp_configure(): mpd.secret を開けません。"
 
-#
 # File: /usr/plugins/net/pptp/src/etc/inc/plugins.inc.d/if_pptp.inc, line: 120
 #, php-format
 msgid "Error: cannot open mpd.conf in if_pptp_configure()."
-msgstr ""
+msgstr "エラー: if_pptp_configure(): mpd.conf を開けません。"
 
-#
 # File: /usr/plugins/net/pptp/src/etc/inc/plugins.inc.d/if_pptp.inc, line: 110
 msgid "Configuring PPTP VPN service..."
-msgstr ""
+msgstr "PPTP VPN サービスを構成しています..."
 
 msgid "primary and secondary DNS servers assigned to L2TP clients"
 msgstr "L2TP クライアントに割当てられた、プライマリ及びセカンダリ DNS サーバ"
@@ -19899,10 +19889,9 @@ msgstr ""
 msgid "Secret"
 msgstr "秘密鍵"
 
-#
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp.php, line: 248
 msgid "Hint: 10 is ten L2TP clients"
-msgstr ""
+msgstr "ヒント: 10 の場合は L2TP クライアントの数が 10 です"
 
 msgid "Number of L2TP users"
 msgstr "L2TP ユーザ数"
@@ -19924,91 +19913,76 @@ msgstr "サーバアドレス"
 msgid "Enable L2TP server"
 msgstr "L2TP サーバを有効"
 
-#
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp.php, line: 183
 msgid "L2TP settings"
-msgstr ""
+msgstr "L2TP 設定"
 
-#
 # File: /usr/plugins/net/l2tp/src/etc/inc/plugins.inc.d/if_l2tp.inc, line: 224
 #, php-format
 msgid "Error: cannot open mpd.secret in if_l2tp_configure()."
-msgstr ""
+msgstr "エラー: if_l2tp_configure(): mpd.secret を開けません。"
 
-#
 # File: /usr/plugins/net/l2tp/src/etc/inc/plugins.inc.d/if_l2tp.inc, line: 125
 #, php-format
 msgid "Error: cannot open mpd.conf in if_l2tp_configure()."
-msgstr ""
+msgstr "エラー: if_l2tp_configure(): mpd.conf を開けません。"
 
-#
 # File: /usr/plugins/net/l2tp/src/etc/inc/plugins.inc.d/if_l2tp.inc, line: 114
 msgid "Configuring L2TP VPN service..."
-msgstr ""
+msgstr "L2TP VPN サービスを構成しています..."
 
-#
 # File: /usr/plugins/net/l2tp/src/etc/inc/plugins.inc.d/if_l2tp.inc, line: 46
 msgid "L2TP Server"
-msgstr ""
+msgstr "L2TP サーバ"
 
-#
 # File: /usr/plugins/net/haproxy/src/etc/inc/plugins.inc.d/haproxy.inc, line: 53
 msgid "HAProxy load balancer"
-msgstr ""
+msgstr "HAProxy ロードバランサ"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 167
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 239
 msgid "HAProxy config contains critical errors"
-msgstr ""
+msgstr "HAProxy 構成に重大なエラーがあります"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 168
 msgid ""
 "The HAProxy service may not be able to start due to critical errors. Try "
 "anyway?"
 msgstr ""
+"HAProxy サービスは重大なエラーのため起動することができない可能性があります。それでも実行しますか？"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 170
 msgid "Continue"
-msgstr ""
+msgstr "続行"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 177
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 206
 msgid "Error reconfiguring HAProxy"
-msgstr ""
+msgstr "HAProxy 再構成エラー"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 246
 msgid "HAProxy config contains minor errors"
-msgstr ""
+msgstr "HAProxy 構成に小さいエラーがあります"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 253
 msgid "HAProxy config test result"
-msgstr ""
+msgstr "HAProxy 構成テスト結果"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 254
 msgid "Your HAProxy config contains no errors."
-msgstr ""
+msgstr "HAProxy 構成にエラーはありません。"
 
 msgid "Ident"
 msgstr "ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 377
 msgid "Frontend ID"
-msgstr ""
+msgstr "フロントエンド ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 378
 msgid "Frontend Name"
-msgstr ""
+msgstr "フロントエンド名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 400
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 435
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 471
@@ -20018,182 +19992,150 @@ msgstr ""
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 608
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 642
 msgid "Test syntax"
-msgstr ""
+msgstr "テスト構文"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 412
 msgid "Backend ID"
-msgstr ""
+msgstr "バックエンド ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 413
 msgid "Backend Name"
-msgstr ""
+msgstr "バックエンド名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 446
 msgid "Server id"
-msgstr ""
+msgstr サーバ ID""
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 449
 msgid "Server Port"
-msgstr ""
+msgstr "サーバポート"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 482
 msgid "Health Check ID"
-msgstr ""
+msgstr "ヘルスチェック ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 483
 msgid "Health Check Name"
-msgstr ""
+msgstr "ヘルスチェック名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 516
 msgid "Action ID"
-msgstr ""
+msgstr "アクション ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 517
 msgid "Action Name"
-msgstr ""
+msgstr "アクション名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 550
 msgid "ACL id"
-msgstr ""
+msgstr "ACL ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 551
 msgid "ACL Name"
-msgstr ""
+msgstr "ACL 名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 585
 msgid "Lua ID"
-msgstr ""
+msgstr "Lua ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 586
 msgid "Lua Script Name"
-msgstr ""
+msgstr "Lua スクリプト名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 619
 msgid "Error File ID"
-msgstr ""
+msgstr "エラーファイル ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 195
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 232
 msgid "id"
-msgstr ""
+msgstr "ID"
 
 # File: lang/dynamic/helpers/models.php, line: 248
 msgid "Proxy"
 msgstr "プロキシ"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 199
 msgid "Last Change"
-msgstr ""
+msgstr "最終変更"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 202
 msgid "Downtime"
-msgstr ""
+msgstr "ダウン時間"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 233
 msgid "Backend/Frontend"
-msgstr ""
+msgstr "バックエンド / フロントエンド"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 235
 msgid "Queue"
-msgstr ""
+msgstr "Queue"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 236
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 239
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 242
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 237
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 240
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 243
 msgid "Limit"
-msgstr ""
+msgstr "Limit"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 238
 msgid "Session Rate"
-msgstr ""
+msgstr "Session Rate"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 247
 msgid "Denied Req"
-msgstr ""
+msgstr "Denied Req"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 248
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 251
 msgid "Resp"
-msgstr ""
+msgstr "Resp"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 249
 msgid "Errors Req"
-msgstr ""
+msgstr "Errors Req"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 250
 msgid "Conn"
-msgstr ""
+msgstr "Conn"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 252
 msgid "Warnings Retr"
-msgstr ""
+msgstr "Warnings Retr"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 253
 msgid "Redis"
-msgstr ""
+msgstr "Redis"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 283
 msgid "Table"
-msgstr ""
+msgstr "テーブル"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 286
 msgid "Used"
-msgstr ""
+msgstr "Used"
 
 msgid "PPPoE Server"
 msgstr "PPPoE サーバ"
 
-#
 # File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 149
 msgid "Configuring PPPoE VPN service..."
-msgstr ""
+msgstr "PPPoE VPN サービスを構成しています..."
 
-#
 # File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 161
 #, php-format
 msgid "Error: cannot open mpd.conf in if_pppoe_configure()."
-msgstr ""
+msgstr "エラー: if_pppoe_configure(): mpd.conf を開けません。"
 
-#
 # File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 265
 #, php-format
 msgid "Error: cannot open mpd.secret in if_pppoe_configure()."
-msgstr ""
+msgstr "エラー: if_pppoe_configure(): mpd.secret を開けません。"
 
 msgid "add a new pppoe instance"
 msgstr "新規 PPPoE インスタンスを追加"
@@ -20218,11 +20160,10 @@ msgstr "PPPoE インスタンスの編集"
 msgid "No password specified for username %s"
 msgstr "ユーザー名 %s にパスワードが指定されていません"
 
-#
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 115
 #, php-format
 msgid "Incorrect ip address specified for username %s"
-msgstr ""
+msgstr "ユーザ名 %s に不正な IP アドレスが指定されました"
 
 msgid "Wrong data submitted"
 msgstr "不正なデータが提出されました"
@@ -20233,12 +20174,13 @@ msgstr "PPPoE サーバ構成"
 msgid "Enable PPPoE server"
 msgstr "PPPoE サーバを有効"
 
-#
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 308
 msgid ""
 "Enter the IP address the PPPoE server should give to clients for use as "
 "their \"gateway\"."
 msgstr ""
+"PPPoE サーバの IP アドレスを入力してください。クライアントに「ゲートウェイ」と"
+"して使用するよう設定されます。"
 
 msgid "No. PPPoE users"
 msgstr "PPPoE ユーザ数"
@@ -20249,10 +20191,9 @@ msgstr "ヒント: 10 の場合は PPPoE クライアントの数が 10 です"
 msgid "Subnet netmask"
 msgstr "サブネットマスク"
 
-#
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 350
 msgid "Hint: 24 is 255.255.255.0"
-msgstr ""
+msgstr "ヒント: 24 は 255.255.255.0 です"
 
 msgid ""
 "If entered they will be given to all PPPoE clients, else LAN DNS and one WAN "
@@ -20285,11 +20226,12 @@ msgstr "RADIUS サーバ経由で IP アドレスを割り当てます。"
 msgid "User (s)"
 msgstr "ユーザ"
 
-#
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 553
 msgid ""
 "Don't forget to add a firewall rule to permit traffic from PPPoE clients."
 msgstr ""
+"PPPoE クライアントからのトラフィックを許可するファイアウォールルールを必ず追加"
+"してください。"
 
 msgid "PPPoE Logins"
 msgstr "PPPoE ログイン"
@@ -20384,10 +20326,9 @@ msgstr "AJAX: 統計の取得: ページへのアクセスを許可"
 msgid "Allow access to the 'AJAX: Service Providers' page."
 msgstr "AJAX: サービスプロバイダの取得: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 41
 msgid "Allow access to the 'Diagnostics: ARP Table' page."
-msgstr ""
+msgstr "診断: ARP テーブル: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Diagnostics: Authentication' page."
 msgstr "診断: 認証: ページへのアクセスを許可"
@@ -20447,10 +20388,9 @@ msgstr "診断: ログ: システム: ゲートウェイページへのアクセ
 msgid "Allow access to the 'Diagnostics: Logs: System: Resolver' page."
 msgstr "診断: ログ: システム: リゾルバ: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 59
 msgid "Allow access to the 'Diagnostics: NDP Table' page."
-msgstr ""
+msgstr "診断: NDP テーブル: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Diagnostics: Packet Capture' page."
 msgstr "診断: パケットキャプチャ: ページへのアクセスを許可"
@@ -20524,10 +20464,9 @@ msgid "Allow access to the 'Firewall: NAT: Port Forward: Edit' page."
 msgstr ""
 "ファイアウォール: NAT: ポートフォワード : 編集: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 83
 msgid "Allow access to the 'Firewall: Normalization' page."
-msgstr ""
+msgstr "ファイアウォール: 正規化: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Firewall: Rules' page."
 msgstr "ファイアウォール: ルール: ページへのアクセスを許可"
@@ -20541,10 +20480,9 @@ msgstr "ファイアウォール: スケジュール: ページへのアクセ�
 msgid "Allow access to the 'Firewall: Schedules: Edit' page."
 msgstr "ファイアウォール: スケジュール: 編集: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 88
 msgid "Allow access to the 'Firewall: Traffic Shaper' page."
-msgstr ""
+msgstr "ファイアウォール: トラフィックシェイパ: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Firewall: Virtual IP Address: Edit' page."
 msgstr "ファイアウォール: 仮想 IP アドレス: 編集: ページへのアクセスを許可"
@@ -20576,18 +20514,16 @@ msgstr "インタフェース: GRE: ページへのアクセスを許可"
 msgid "Allow access to the 'Interfaces: GRE: Edit' page."
 msgstr "インタフェース: GRE: 編集: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 99
 msgid "Allow access to the 'Interfaces: Groups' page."
-msgstr ""
+msgstr "インタフェース: グループ: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Interfaces: Groups: Edit' page."
 msgstr "インタフェース: グループ: 編集: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 101
 msgid "Allow access to the 'Interfaces: LAGG' page."
-msgstr ""
+msgstr "インタフェース: LAGG: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Interfaces: LAGG: Edit' page."
 msgstr "インタフェース: LAGG: 編集: ページへのアクセスを許可"
@@ -20631,10 +20567,9 @@ msgstr ""
 msgid "Allow access to the 'Service: Universal Plug and Play' page."
 msgstr "サービス: ユニバーサルプラグアンドプレイ: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 115
 msgid "Allow access to the 'Services: Captive Portal' page."
-msgstr ""
+msgstr "サービス: キャプティブポータル: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Services: DHCP Relay' page."
 msgstr "サービス: DHCP リレー: ページへのアクセスを許可"
@@ -20695,10 +20630,9 @@ msgstr "サービス: ダイナミック DNS クライアント: へのアクセ
 msgid "Allow access to the 'Services: Dynamic DNS clients' page."
 msgstr "サービス: ダイナミック DNS クライアント: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 134
 msgid "Allow access to the 'Services: HAProxy' page."
-msgstr ""
+msgstr "サービス: HAProxy: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Services: Igmpproxy' page."
 msgstr "サービス: IGMP プロキシ: ページへのアクセスを許可"
@@ -20706,10 +20640,9 @@ msgstr "サービス: IGMP プロキシ: ページへのアクセスを許可"
 msgid "Allow access to the 'Services: Igmpproxy: Edit' page."
 msgstr "サービス: IGMP プロキシ: 編集: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 137
 msgid "Allow access to the 'Services: Intrusion Detection' page."
-msgstr ""
+msgstr "サービス: ロードバランサ: 侵入検知: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Services: Load Balancer: Monitor: Edit' page."
 msgstr "サービス: ロードバランサ: 監視: 編集: ページへのアクセスを許可"
@@ -20729,10 +20662,9 @@ msgstr "サービス: PPPoE サーバ: ページへのアクセスを許可"
 msgid "Allow access to the 'Services: PPPoE Server: Edit' page."
 msgstr "サービス: PPPoE サーバ: 編集: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 144
 msgid "Allow access to the 'Services: Proxy' page."
-msgstr ""
+msgstr "サービス: プロキシ: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Services: RFC 2136 clients' page."
 msgstr "サービス: RFC 2136 クライアント: ページへのアクセスを許可"
@@ -20740,10 +20672,9 @@ msgstr "サービス: RFC 2136 クライアント: ページへのアクセス�
 msgid "Allow access to the 'Services: Router Advertisements' page."
 msgstr "サービス: ルータ広告: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 147
 msgid "Allow access to the 'Services: SMART' page."
-msgstr ""
+msgstr "サービス: SMART: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Services: SNMP' page."
 msgstr "サービス: SNMP: ページへのアクセスを許可"
@@ -20775,10 +20706,9 @@ msgstr "ステータス: ゲートウェイグループ: ページへのアク�
 msgid "Allow access to the 'Status: Gateways' page."
 msgstr "ステータス: ゲートウェイ: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 158
 msgid "Allow access to the 'Status: HA backup' page."
-msgstr ""
+msgstr "ステータス: HA バックアップ: ページへのアクセスを許可"
 
 msgid "Allow access to the 'Status: IPsec' page."
 msgstr "ステータス: IPsec: ページへのアクセスを許可"
@@ -20913,10 +20843,9 @@ msgstr "システム: 高可用性: ページへのアクセスを許可"
 msgid "Allow access to the 'System: License' page."
 msgstr "システム: ライセンス: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 202
 msgid "Allow access to the 'System: Settings: Cron' page."
-msgstr ""
+msgstr "システム: 設定: Cron: ページへのアクセスを許可"
 
 msgid "Allow access to the 'System: Static Routes' page."
 msgstr "システム: 静的ルート: ページへのアクセスを許可"
@@ -20996,10 +20925,9 @@ msgstr "ウィザードサブシステム: ページへのアクセスを許可"
 msgid "Allow access to the 'XMLRPC Library' page."
 msgstr "XMLRPC ライブラリ: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 228
 msgid "Allow access to the Hello World! module"
-msgstr ""
+msgstr "Hello World! モジュールへのアクセスを許可"
 
 # File: lang/dynamic/helpers/acl.php, line: 202
 msgid ""
