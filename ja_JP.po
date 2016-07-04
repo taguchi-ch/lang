@@ -20940,20 +20940,17 @@ msgstr ""
 msgid "Allows access to the 'Diagnostics: Limiter Info' page"
 msgstr "診断: リミッタ情報: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 231
 msgid "Allows access to the 'Diagnostics: Network Insight' page"
-msgstr ""
+msgstr "診断: ネットワーク分析: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 232
 msgid "Allows access to the 'Diagnostics: System Activity' page"
-msgstr ""
+msgstr "診断: システム稼働状況: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 233
 msgid "Allows access to the 'Diagnostics: System Health' page"
-msgstr ""
+msgstr "診断: システムヘルス: ページへのアクセスを許可"
 
 msgid "Allows access to the 'Diagnostics: pfInfo' page"
 msgstr "診断: pfInfo: ページへのアクセスを許可"
@@ -20961,10 +20958,9 @@ msgstr "診断: pfInfo: ページへのアクセスを許可"
 msgid "Allows access to the 'Diagnostics: pfTop' page"
 msgstr "診断: pfTop: ページへのアクセスを許可"
 
-#
 # File: /usr/lang/src/acl.php, line: 236
 msgid "Allows access to the Netflow configuration"
-msgstr ""
+msgstr "Netflow 構成へのアクセスを許可"
 
 # File: lang/dynamic/helpers/acl.php, line: 191
 msgid "If present, ignores requests from this user to write config.xml."
@@ -20975,44 +20971,41 @@ msgstr ""
 msgid "Indicates whether the user is able to login for example via SSH."
 msgstr "SSH 等を経由して、ユーザがログイン可能かどうかを表示します。"
 
-#
 # File: /usr/lang/src/acl.php, line: 239
 msgid "Indicates whether the user is allowed to authenticate with the proxy."
-msgstr ""
+msgstr "プロキシでの認証をユーザが許可されているかどうかを表示します。"
 
-#
 # File: /usr/lang/src/acl.php, line: 240
 msgid "Indicates whether the user is allowed to dial in via IPsec xauth."
-msgstr ""
+msgstr "IPsec xauth 経由のダイヤルをユーザが許可されているかどうかを表示します。"
 
 # File: lang/dynamic/helpers/acl.php, line: 105
 msgid "Uploads crash reports to the developers."
 msgstr "クラッシュレポートを開発者に送信"
 
-#
 # File: /usr/lang/src/controllers.php, line: 36
 msgid "Add servers to this backend. Use TAB key to complete typing."
-msgstr ""
+msgstr "このバックエンドにサーバを追加します。TAB キーを使うとタイピングをコンプリートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 37
 msgid ""
 "Add some randomness in the check interval between 0 and +/- 50%. A value "
 "between 2 and 5 seems to show good results. The default value is 0 "
 "(disabled)."
 msgstr ""
+"チェック間隔に 0 から +/- 50% の間でランダム度を追加します。"
+"2 - 5 の値だと良い結果を表示するようです。デフォルト値は 0 です ( 無効 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 38
 msgid "Adjust the server's weight relative to other servers."
-msgstr ""
+msgstr "他のサーバとの関係でサーバの重みを調整します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 39
 msgid ""
 "Allow HAProxy to automatically raise log level for non-completely successful "
 "connections to aid debugging."
 msgstr ""
+"HAProxy に完全ではない正常な接続に対して自動的にログレベルを上げることを許可しデバッグを補助します。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 104
 msgid "Avoid authentication for addresses and subnets in this list"
@@ -21022,66 +21015,63 @@ msgstr "このリストのアドレスとサブネットの認証を除外"
 msgid "Avoid authentication for physical addresses in this list"
 msgstr "このリストの物理アドレスの認証を除外"
 
-#
 # File: /usr/lang/src/controllers.php, line: 42
 msgid ""
 "Can be specified to filter outgoing messages. By default, all messages are "
 "sent. If a level is specified, only messages with a severity at least as "
 "important as this level will be sent."
 msgstr ""
+"発信メッセージのフィルタを指定できるようになります。デフォルトでは全てのメッセージを送信します。"
+"レベルを指定した場合は、最低でもこのレベルと同等の重要性のあるメッセージのみが送信されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 43
 msgid ""
 "Change the check buffer size (in bytes). Higher values may help find string "
 "or regex patterns in very large pages, though doing so may imply more memory "
 "and CPU usage. The default value is 16384."
 msgstr ""
+"確認するバッファサイズを変更します ( byte 単位 )。"
+"値を大きくすると非常に大きいページで文字列や正規表現パターンを見つけるのに便利になりますが、"
+"それの実行するにはより多くのメモリと CPU 使用率が必要になるでしょう。デフォルト値は 16384 です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 44
 msgid ""
 "Choose a TCP port to be used for the local statistics page. The default "
 "value is 8822."
-msgstr ""
+msgstr "ローカル統計ページで使用する TCP ポートを選択してください。デフォルト値は 8822 です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 45
 msgid "Choose actions to be included in this backend."
-msgstr ""
+msgstr "このバックエンドに含ませるアクションを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 46
 msgid "Choose actions to be included in this frontend."
-msgstr ""
+msgstr "このフロントエンドに含ませるアクションを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 47
 msgid "Choose an action that should be executed if the condition is true."
-msgstr ""
+msgstr "条件が真の場合に実行させるアクションを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 48
 msgid "Choose an logical operator to be used to form a condition."
-msgstr ""
+msgstr "条件フォームで使用される論理演算子を選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 49
 msgid "Choose error files to be included in this backend."
-msgstr ""
+msgstr "このバックエンドに含ませるエラーファイルを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 50
 msgid ""
 "Choose how to test. By using IF it tests if the condition evaluates to true. "
 "If you use UNLESS, the sense of the test is reversed."
 msgstr ""
+"どのようにテストするか選択してください。IF を使用すると条件が真の場合をテストします。"
+"UNLESS を使用するとテストの意味は逆になります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 51
 msgid ""
 "Choose one of the 24 standard syslog facilities. The default value is local0."
-msgstr ""
+msgstr "24 標準 syslog 機能の 1 つを選択してください。デフォルト値は local0 です。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 39
 msgid ""
@@ -21101,86 +21091,81 @@ msgstr ""
 "即時再接続は可能です。ハードタイムアウトを無効にする場合は 0 を入力してくださ"
 "い ( アイドルタイムアウトが設定されている場合を除き、非推奨 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 54
 msgid ""
 "Collect NetFlow data on this firewall, this will automatically append "
 "localhost as NetFlow target. Please keep disabled when using a RAM disk (for "
 "size and consistency reasons)."
 msgstr ""
+"このファイアウォールで NetFlow データを収集します。NetFlow ターゲットとして自動的に localhost を追加します。"
+"RAM ディスクを使用している場合は無効のままにしてください ( サイズと整合性の理由のため )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 55
 msgid ""
 "Configure listen addresses for the statistics page to enable remote access, "
 "i.e. 10.0.0.1:8080 or haproxy.example.com:8999. Use TAB key to complete "
 "typing a listen address."
 msgstr ""
+"統計ページにリモートアクセスを許可するためのリスンアドレスを構成します。"
+"10.0.0.1:8080 もしくは haproxy.example.com:8999 を使用します。"
+"TAB キーを使うとリスンアドレスのタイピングをコンプリートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 56
 msgid ""
 "Configure listen addresses for this frontend, i.e. 127.0.0.1:8080 or www."
 "example.com:443. Use TAB key to complete typing a listen address."
 msgstr ""
+"このフロントエンドのリスンアドレスを構成します。"
+"127.0.0.1:8080 もしくは www.example.com:443 を使用します。"
+"TAB キーを使うとリスンアドレスのタイピングをコンプリートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 57
 msgid ""
 "Connections coming from (src) or going to (dst) listed countries, default "
 "selects both."
 msgstr ""
+"リストされた国の ( 送信元 ) から来る、もしくは ( 送信先 )に行く接続。デフォルトでは両方を選択します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 58
 msgid ""
 "Cookie name to use for stick table (if appropiate table type is selected)."
-msgstr ""
+msgstr "スティックテーブルで使用する Cookie 名 ( 適切なテーブルタイプが選択されている場合 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 59
 msgid "Countries to alert or block using GeoIP."
-msgstr ""
+msgstr "GeoIP を使用して警告もしくは拒否する国。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "Default ttl"
-msgstr ""
+msgstr "デフォルト TTL"
 
-#
 # File: /usr/lang/src/controllers.php, line: 61
 msgid "Description for this ACL."
-msgstr ""
+msgstr "この ACL の説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 62
 msgid "Description for this Lua script."
-msgstr ""
+msgstr "この Lua スクリプトの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 63
 msgid "Description for this action."
-msgstr ""
+msgstr "このアクションの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 64
 msgid "Description for this backend."
-msgstr ""
+msgstr "このバックエンドの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 65
 msgid "Description for this error file."
-msgstr ""
+msgstr "このエラーファイルの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 66
 msgid "Description for this frontend."
-msgstr ""
+msgstr "このフロントエンドの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 67
 msgid "Description for this server."
-msgstr ""
+msgstr "このサーバの説明。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 73
 # File: lang/dynamic/helpers/controllers.php, line: 77
@@ -21191,77 +21176,65 @@ msgstr "このパイプを識別する説明"
 msgid "Description to identify this zone."
 msgstr "このゾーンを識別する説明"
 
-#
 # File: /usr/lang/src/controllers.php, line: 70
 msgid "Enable CoDel active queue management"
-msgstr ""
+msgstr "CoDel アクティブキュー管理を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 71
 msgid "Enable HAProxy's statistics page."
-msgstr ""
+msgstr "HAProxy 統計ページを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Enable SSL offloading"
-msgstr ""
+msgstr "SSL オフロードを有効"
 
 msgid "Enable access logging."
 msgstr "アクセスログを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 74
 msgid ""
 "Enable insertion of the X-Forwarded-For header to requests sent to servers."
-msgstr ""
+msgstr "サーバに送信されるリクエストに X-Forwarded-For ヘッダの挿入を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 75
 msgid "Enable intrusion detection system."
-msgstr ""
+msgstr "侵入検知システムを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 76
 msgid "Enable or disable SSL communication with this server."
-msgstr ""
+msgstr "このサーバとの SSL 通信を有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 77
 msgid ""
 "Enable or disable collecting & providing separate statistics for each socket."
-msgstr ""
+msgstr "ソケット毎に分割した統計の収集及び提供を有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 78
 msgid "Enable or disable health checking."
-msgstr ""
+msgstr "ヘルスチェックを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 79
 msgid "Enable or disable logging of connections with no data."
-msgstr ""
+msgstr "データのない接続のログを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 80
 msgid "Enable or disable logging of normal, successful connections."
-msgstr ""
+msgstr "通常の正常な接続のログを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 81
 msgid "Enable or disable session redistribution in case of connection failure."
-msgstr ""
+msgstr "接続に失敗した場合のセッション再割当てを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 82
 msgid "Enable or disable the HAProxy service."
-msgstr ""
+msgstr "HAProxy サービスを有効もしくは無効にします。"
 
 msgid "Enable or disable the proxy service."
-msgstr "プロキシサービスを有効、もしくは無効にします。"
+msgstr "プロキシサービスを有効もしくは無効にします。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 48
 msgid "Enable or disable traffic management."
-msgstr "トラフィック管理を有効、もしくは無効にします。"
+msgstr "トラフィック管理を有効もしくは無効にします。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 85
