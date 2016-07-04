@@ -21032,7 +21032,7 @@ msgid ""
 msgstr ""
 "確認するバッファサイズを変更します ( byte 単位 )。"
 "値を大きくすると非常に大きいページで文字列や正規表現パターンを見つけるのに便利になりますが、"
-"それの実行するにはより多くのメモリと CPU 使用率が必要になるでしょう。デフォルト値は 16384 です。"
+"その実行にはより多くのメモリと CPU 使用率が必要になるでしょう。デフォルト値は 16384 です。"
 
 # File: /usr/lang/src/controllers.php, line: 44
 msgid ""
@@ -21042,11 +21042,11 @@ msgstr "ローカル統計ページで使用する TCP ポートを選択して�
 
 # File: /usr/lang/src/controllers.php, line: 45
 msgid "Choose actions to be included in this backend."
-msgstr "このバックエンドに含ませるアクションを選択してください。"
+msgstr "このバックエンドに含めるアクションを選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 46
 msgid "Choose actions to be included in this frontend."
-msgstr "このフロントエンドに含ませるアクションを選択してください。"
+msgstr "このフロントエンドに含めるアクションを選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 47
 msgid "Choose an action that should be executed if the condition is true."
@@ -21058,7 +21058,7 @@ msgstr "条件フォームで使用される論理演算子を選択してくだ
 
 # File: /usr/lang/src/controllers.php, line: 49
 msgid "Choose error files to be included in this backend."
-msgstr "このバックエンドに含ませるエラーファイルを選択してください。"
+msgstr "このバックエンドに含めるエラーファイルを選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 50
 msgid ""
