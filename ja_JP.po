@@ -21314,7 +21314,7 @@ msgstr ""
 "サポートするサフィックス「d」(日)、「h」(時間)、「m」(分)、「s」(秒)、「ms」(マイクロ秒)の 1 つを"
 "後につけた数字を入力してください。"
 "これはスティックテーブルにあるエントリが最後に作成、更新、一致してからの最大期間を構成します。"
-"最大期間は 24 日間を僅かに上回ります。"
+"期間の最大は 24 日間を僅かに上回ります。"
 
 # File: /usr/lang/src/controllers.php, line: 101
 msgid ""
@@ -21380,7 +21380,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 110
 msgid "Enter the maximum size (in MB) to use for SSL certificates."
-msgstr "SSL 証明書で使用する最大数を入力してください ( MB 単位 )。"
+msgstr "SSL 証明書で使用する最大サイズを入力してください ( MB 単位 )。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 49
 msgid ""
@@ -21430,7 +21430,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 117
 msgid "Enter the number of ssl certificate workers to use (sslcrtd_children)."
-msgstr "使用する SSL 証明書 worker の数を入力してください ( sslcrtd_children )。"
+msgstr "使用する SSL 証明書ワーカーの数を入力してください ( sslcrtd_children )。"
 
 # File: /usr/lang/src/controllers.php, line: 118
 msgid "Enter the size of the preview wich is sent to the ICAP server."
@@ -21687,7 +21687,7 @@ msgstr "WAN トラフィックが使用するインタフェースを選択し�
 # File: /usr/lang/src/controllers.php, line: 165
 msgid ""
 "Select interval (in milliseconds) between two consecutive health checks."
-msgstr "2 連続するヘルスチェック間の間隔を選択してください。"
+msgstr "2 連続するヘルスチェック間の間隔を選択してください ( ms 単位 )。"
 
 # File: /usr/lang/src/controllers.php, line: 166
 msgid "Select one ore more ACLs to be used as condition for this action."
@@ -21748,14 +21748,14 @@ msgstr "接続失敗後にサーバで実行する再試行の数を設定して
 
 # File: /usr/lang/src/controllers.php, line: 179
 msgid "Set the running mode or protocol for this frontend."
-msgstr "このフロントエンドに対する動作モードもしくはプロトコルを設定してください。"
+msgstr "このフロントエンドに対する実行モードもしくはプロトコルを設定してください。"
 
 # File: /usr/lang/src/controllers.php, line: 180
 msgid ""
 "Set the running mode or protocol of the backend. Usually the frontend and "
 "the backend are in the same mode."
 msgstr ""
-"バックエンドに対する動作モードもしくはプロトコルを設定してください。通常フロントエンドとバックエンドは同じモードです。"
+"バックエンドに対する実行モードもしくはプロトコルを設定してください。通常フロントエンドとバックエンドは同じモードです。"
 
 # File: /usr/lang/src/controllers.php, line: 181
 msgid ""
@@ -22919,12 +22919,12 @@ msgstr "最大アップロードサイズを指定してください。( KB 単�
 # File: lang/dynamic/helpers/models.php, line: 218
 msgid "Specify the overall bandwidth for downloads in kilobits per second."
 msgstr ""
-"ダウンロードに対して、全体で許可する帯域幅を Kbit/second で入力してください。"
+"ダウンロードに対して、全体で許可する帯域幅を Kbit/秒 で入力してください。"
 
 # File: lang/dynamic/helpers/models.php, line: 219
 msgid "Specify the per host bandwidth for downloads in kilobits per second."
 msgstr ""
-"ダウンロードに対して、ホスト単位で許可する帯域幅を Kbit/second で入力してくだ"
+"ダウンロードに対して、ホスト単位で許可する帯域幅を Kbit/秒 で入力してくだ"
 "さい。"
 
 # File: lang/dynamic/helpers/models.php, line: 170
