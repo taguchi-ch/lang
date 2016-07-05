@@ -21236,68 +21236,62 @@ msgstr "プロキシサービスを有効もしくは無効にします。"
 msgid "Enable or disable traffic management."
 msgstr "トラフィック管理を有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 85
 msgid ""
 "Enable or disable verbose logging. Each log line turns into a much richer "
 "format."
-msgstr ""
+msgstr "詳細ログを有効もしくは無効にします。ログ行毎によりリッチな形式に変わります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 86
 msgid ""
 "Enable promiscuous mode, for certain setups (like IPS with vlans), this is "
 "required to actually capture data on the physical interface."
 msgstr ""
+"特定の設定 ( VLAN の IPS 等 ) に対して無差別モードを有効にします。"
+"これは物理インタフェースで実際にデータをキャプチャすることを要求します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Enable ruleset"
-msgstr ""
+msgstr "ルールセットを有効"
 
 msgid "Enable store logging."
-msgstr "ログの保存を有効"
+msgstr "ログの保存を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 89
 msgid "Enable this Lua script."
-msgstr ""
+msgstr "この Lua スクリプトを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 90
 msgid "Enable this backend"
-msgstr ""
+msgstr "このバックエンドを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 91
 msgid "Enable this feature"
-msgstr ""
+msgstr "この機能を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 92
 msgid "Enable this fingerprint rule."
-msgstr ""
+msgstr "このフィンガープリントルールを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 93
 msgid "Enable this frontend"
-msgstr ""
+msgstr "このフロントエンドを有効"
 
 # File: lang/dynamic/helpers/controllers.php, line: 95
 msgid "Enable this zone"
 msgstr "このゾーンを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 95
 msgid "Enable to log health check status updates."
-msgstr ""
+msgstr "ヘルスチェックステータス更新のログを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 96
 msgid ""
 "Enable transparent ftp proxy mode to forward all requests for destination "
 "port 21 to the proxy server without any additional configuration."
 msgstr ""
+"透過 ftp プロキシモードを有効にします。"
+"ポート 21 の送信先に対する全てのリクエストを、追加構成は一切なしでプロキシサーバに転送します。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 67
 msgid "Enter a description to explain what this blacklist is intended for."
@@ -21309,7 +21303,6 @@ msgstr "このジョブの使用目的に関する説明を入力してくださ
 msgid "Enter a filename for storing the blacklist."
 msgstr "ブラックリストに保存するファイル名を入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 100
 msgid ""
 "Enter a number followed by one of the supported suffixes \"d\" (days), \"h"
@@ -21318,8 +21311,11 @@ msgid ""
 "last created, refreshed or matched. The maximum duration is slightly above "
 "24 days."
 msgstr ""
+"サポートするサフィックス「d」(日)、「h」(時間)、「m」(分)、「s」(秒)、「ms」(マイクロ秒)の 1 つを"
+"後につけた数字を入力してください。"
+"これはスティックテーブルにあるエントリが最後に作成、更新、一致してからの最大期間を構成します。"
+"最大期間は 24 日間を僅かに上回ります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 101
 msgid ""
 "Enter a number followed by one of the supported suffixes \"k\", \"m\", \"g"
@@ -21327,6 +21323,9 @@ msgid ""
 "This value directly impacts memory usage. Count approximately 50 bytes per "
 "entry, plus the size of a string if any."
 msgstr ""
+"サポートするサフィックス「k」、「m」、「g」の 1 つを後につけた数字を入力してください。"
+"これはテーブルで適合可能なエントリの最大数を構成します。この値はメモリ使用量に直接影響を与えます。"
+"エントリ毎に約 50 byte、もしあれば文字列のサイズを足して計算してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 66
 msgid "Enter an url to fetch the blacklist from."
@@ -21340,7 +21339,7 @@ msgid ""
 "Enter the allowed overall bandtwith in kilobits per second (leave empty to "
 "disable)."
 msgstr ""
-"全体で許可する帯域幅を Kbit/second で入力してください ( 空白の場合は無効にな"
+"全体で許可する帯域幅を Kbit/秒 で入力してください ( 空白の場合は無効にな"
 "ります )。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 52
@@ -21348,7 +21347,7 @@ msgid ""
 "Enter the allowed per host bandwidth in kilobits per second (leave empty to "
 "disable)."
 msgstr ""
-"ホスト単位で許可する帯域幅を Kbit/second で入力してください ( 空白の場合は無"
+"ホスト単位で許可する帯域幅を Kbit/秒 で入力してください ( 空白の場合は無"
 "効になります )。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 72
@@ -21379,10 +21378,9 @@ msgstr ""
 "ジョブの動作時間を時間単位で入力してください。カンマ区切りリスト、* (毎時)、"
 "範囲 ( 例: 10,11,12 や 10-12 ) も使用できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 110
 msgid "Enter the maximum size (in MB) to use for SSL certificates."
-msgstr ""
+msgstr "SSL 証明書で使用する最大数を入力してください ( MB 単位 )。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 49
 msgid ""
@@ -21430,49 +21428,45 @@ msgstr ""
 "ローカルキャッシュのファーストレベルサブディレクトリの数を入力してください "
 "( デフォルトは 256 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 117
 msgid "Enter the number of ssl certificate workers to use (sslcrtd_children)."
-msgstr ""
+msgstr "使用する SSL 証明書 worker の数を入力してください ( sslcrtd_children )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 118
 msgid "Enter the size of the preview wich is sent to the ICAP server."
-msgstr ""
+msgstr "ICAP サーバに送信されるプレビューのサイズを入力してください。"
 
 msgid "Enter the storage size for the local cache (default is 100)."
 msgstr ""
 "ローカルキャッシュのストレージサイズを入力してください ( デフォルトは 100 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 120
 msgid "Enter the url where the reqmod requests should be sent to."
-msgstr ""
+msgstr "reqmod リクエストが送信される URL を入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 121
 msgid "Enter the url where the respmod requests should be sent to."
-msgstr ""
+msgstr "resmod リクエストが送信される URL を入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 122
 msgid "Explicit Congestion Notification"
-msgstr ""
+msgstr "明示的輻輳通知"
 
-#
 # File: /usr/lang/src/controllers.php, line: 123
 msgid ""
 "Filter to use when downloading this ruleset, applies this action to all "
 "incoming lines."
-msgstr ""
+msgstr "このルールセットのダウンロード時に使用するフィルタで、このアクションを全ての着信行に適用します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 124
 msgid ""
 "Grant access to HAProxy statistics page. Please provide both user and "
 "password in clear text separated by a ':', i.e. john:secret123 or jdoe:"
 "anonymous. Use TAB key to complete adding a user."
 msgstr ""
+"HAProxy 統計ページへのアクセスを許可します。ユーザ名とパスワードを : 区切りの平文で入力してください。"
+"john:secret123 もしくは jdoe:anonymous のように使用します。"
+"TAB キーを使うと追加するユーザをコンプリートします。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 103
 msgid ""
@@ -21493,19 +21487,18 @@ msgid ""
 msgstr ""
 "その場合、全てのトラフィックは、盗聴を防ぐために HTTPS 接続で送信されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 127
 msgid ""
 "If set (default), Squid will include a Via header in requests and replies as "
 "required by RFC2616."
 msgstr ""
+"設定されている場合 ( デフォルト )、RFC2616 で必須となっている通り Squid はリクエストとリプライに Via ヘッダを含めます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 128
 msgid ""
 "If this checkbox is checked, you can use an ICAP server to filter or replace "
 "content."
-msgstr ""
+msgstr "チェックボックスがチェックされている場合、フィルタもしくは内容の置換に ICAP サーバを使用できます。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 101
 msgid ""
@@ -21517,135 +21510,124 @@ msgstr ""
 "ます。サブシークエントログインが無効な場合、同じユーザ名で既にログインしてい"
 "るマシンは切断されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 130
 msgid ""
 "If you enable this option, the client IP address will be sent to the ICAP "
 "server. This can be useful if you want to filter traffic based on IP "
 "addresses."
 msgstr ""
+"このオプションを有効にすると、クライアント IP アドレスは ICAP サーバに送信されます。"
+"IP アドレスベースでトラフィックをフィルタしたい場合に便利です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 131
 msgid ""
 "If you enable this option, the username of the client will be sent to the "
 "ICAP server. This can be useful if you want to filter traffic based on "
 "usernames addresses. Note, that authentication is required to use usernames."
 msgstr ""
+"このオプションを有効にすると、クライアントのユーザ名は ICAP サーバに送信されます。"
+"ユーザ名アドレスベースでトラフィックをフィルタしたい場合に便利です。"
+"ユーザ名を使用した認証が必須となりますので注意してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 132
 msgid ""
 "If you use previews, only a part of the data is sent to the ICAP server. "
 "Setting this option can improve the performance. "
 msgstr ""
+"プレビューを使用するとデータの一部のみが ICAP サーバに送信されます。"
+"このオプション設定はパフォーマンスを改善できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 133
 msgid ""
 "Indicates where to send the logs. Takes an IPv4 or IPv6 address optionally "
 "followed by a colon (':') and a UDP port, i.e. 127.0.0.1 or 10.0.0.1:514"
 msgstr ""
+"ログをどこに送信するかを示します。IPv4 もしくは IPv6 アドレスを取り、"
+"オプションでコロン (:) と UDP ポートを後につけます。127.0.0.1 もしくは 10.0.0.1:514 のように使用します。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 96
 msgid "Internal number used for this zone"
 msgstr "このゾーンで使用される内部番号"
 
-#
 # File: /usr/lang/src/controllers.php, line: 135
 msgid "Interval before dropping packets (in ms), leave empty for default"
-msgstr ""
+msgstr "パケットを落とす前の間隔 ( ms 単位 )、空白はデフォルトになります"
 
-#
 # File: /usr/lang/src/controllers.php, line: 136
 msgid ""
 "Minimum acceptable persistent queue delay (in ms), leave empty for default"
-msgstr ""
+msgstr "最低許容可能パーシステントキュー遅延 ( ms 単位 )、空白はデフォルトになります"
 
-#
 # File: /usr/lang/src/controllers.php, line: 137
 msgid "Name to identify this ACL."
-msgstr ""
+msgstr "この ACL を識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 138
 msgid "Name to identify this Lua script."
-msgstr ""
+msgstr "この Lua スクリプトを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 139
 msgid "Name to identify this action."
-msgstr ""
+msgstr "このアクションを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 140
 msgid "Name to identify this backend."
-msgstr ""
+msgstr "このバックエンドを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 141
 msgid "Name to identify this error file."
-msgstr ""
+msgstr "このエラーファイルを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 142
 msgid "Name to identify this frontend."
-msgstr ""
+msgstr "このフロントエンドを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 143
 msgid "Name to identify this server."
-msgstr ""
+msgstr "このサーバを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 144
 msgid "Number of logs to keep."
-msgstr ""
+msgstr "保持するログの数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 145
 msgid "Paste the content of your Lua script here."
-msgstr ""
+msgstr "Lua スクリプトの内容をここに貼り付けてください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 146
 msgid ""
 "Paste the content of your errorfile here. The files should not exceed the "
 "configured buffer size, which generally is 8 or 16 kB."
 msgstr ""
+"エラーファイルの内容をここに貼り付けてください。"
+"ファイルは構成されたバッファサイズを超えないほうがいいでしょう。通常は 8 もしくは 16 KB です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 147
 msgid "Provide either the FQDN or the IP address of this server."
-msgstr ""
+msgstr "このサーバの FQDN もしくは IP アドレスを入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 148
 msgid "Provide the TCP communication port for this server, i.e. 80 or 443."
-msgstr ""
+msgstr "このサーバの TCP 通信ポートを入力してください。例 80、443。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 149
 msgid "Rotate alert logs at provided interval."
-msgstr ""
+msgstr "入力した間隔で警告ログを循環します。"
 
 msgid "Select Authentication method"
 msgstr "認証方法を選択"
 
-#
 # File: /usr/lang/src/controllers.php, line: 151
 msgid "Select HTTP method for health check."
-msgstr ""
+msgstr "ヘルスチェックの HTTP メソッドを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 152
 msgid "Select HTTP version for a HTTP health check."
-msgstr ""
+msgstr "HTTP ヘルスチェックの HTTP バージョンを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 153
 msgid "Select NetFlow version to use."
-msgstr ""
+msgstr "使用する NetFlow のバージョンを選択してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 98
 msgid ""
@@ -21655,22 +21637,20 @@ msgstr ""
 "使用する認証方法を選択してください。認証が必要ではない場合は空白にしてくださ"
 "い。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 155
 msgid ""
 "Select destinations to send NetFlow data to (ip address:port, eg "
 "192.168.0.1:2550)."
 msgstr ""
+"NetFlow データを送信する送信先を選択してください ( IP アドレス:ポート、例 192.168.0.1:2550 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 156
 msgid "Select health check expression."
-msgstr ""
+msgstr "ヘルスチェック式を選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 157
 msgid "Select health check for servers in this backend."
-msgstr ""
+msgstr "このバックエンドのサーバに対するヘルスチェックを選択してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 64
 # File: lang/dynamic/helpers/controllers.php, line: 85
@@ -21683,119 +21663,104 @@ msgstr "ftp プロキシをバインドするインタフェースを選択し�
 msgid "Select interface(s) the proxy will bind to."
 msgstr "プロキシをバインドするインタフェースを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 161
 msgid "Select interface(s) to enable NetFlow on."
-msgstr ""
+msgstr "NetFlow を有効にするインタフェースを選択してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 97
 msgid "Select interface(s) to enable for captive portal."
 msgstr "キャプティブポータルを有効にするインタフェースを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 163
 msgid ""
 "Select interface(s) to use. When enabling IPS, only use physical interfaces "
 "here (no vlans etc)."
 msgstr ""
+"使用するインタフェースを選択してください。"
+"IPS が有効な場合はここに物理インタフェースのみを使用してください ( VLAN 等は不可 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 164
 msgid ""
 "Select interfaces used for WAN traffic to avoid counting NAT traffic twice."
-msgstr ""
+msgstr "WAN トラフィックが使用するインタフェースを選択してください。NAT トラフィックが 2 回カウントされるのを避けます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 165
 msgid ""
 "Select interval (in milliseconds) between two consecutive health checks."
-msgstr ""
+msgstr "2 連続するヘルスチェック間の間隔を選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 166
 msgid "Select one ore more ACLs to be used as condition for this action."
-msgstr ""
+msgstr "このアクションに対する条件として使用される 1 つ以上の ACL を選択してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 91
 msgid "Select the command that needs to be executed at given time frame."
 msgstr "指定された期間に実行する必要があるコマンドを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 168
 msgid "Select type of health check."
-msgstr ""
+msgstr "ヘルスチェックのタイプを選択してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 41
 msgid "Select what to do with X-Forwarded for header."
 msgstr "ヘッダの X-Forwarded をどうするか、選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 170
 msgid "Set action to perform here, only used when in IPS mode."
-msgstr ""
+msgstr "実行するアクションを設定してください。IPS モード時のみ使用されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 171
 msgid "Set the default backend to use for this frontend."
-msgstr ""
+msgstr "このフロントエンドに対して使用するデフォルトバックエンドを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 172
 msgid "Set the maximum inactivity time (in milliseconds) on the client side."
-msgstr ""
+msgstr "クライアント側の最大非アクティブ時間を設定してください ( ms 単位 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 173
 msgid "Set the maximum inactivity time (in milliseconds) on the server side."
-msgstr ""
+msgstr "サーバ側の最大非アクティブ時間を設定してください ( ms 単位 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 174
 msgid "Set the maximum number of concurrent connections for this frontend."
-msgstr ""
+msgstr "このフロントエンドに対する同時接続の最大数を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 175
 msgid "Set the maximum object size (default 4MB when left empty)."
-msgstr ""
+msgstr "最大オブジェクトサイズを設定してください ( 空白の場合はデフォルトの 4MB )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 176
 msgid ""
 "Set the maximum time (in milliseconds) to wait for a connection attempt to a "
 "server to succeed."
-msgstr ""
+msgstr "サーバへの接続の試みが成功するのを待つ最大時間を設定してください ( ms 単位 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 177
 msgid ""
 "Set the number of retries to perform on a server after a connection failure "
 "(default is 3)."
-msgstr ""
+msgstr "接続失敗後にサーバで実行する再試行の数を設定してください ( デフォルトは 3 です )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 178
 msgid ""
 "Set the number of retries to perform on a server after a connection failure."
-msgstr ""
+msgstr "接続失敗後にサーバで実行する再試行の数を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 179
 msgid "Set the running mode or protocol for this frontend."
-msgstr ""
+msgstr "このフロントエンドに対する動作モードもしくはプロトコルを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 180
 msgid ""
 "Set the running mode or protocol of the backend. Usually the frontend and "
 "the backend are in the same mode."
 msgstr ""
+"バックエンドに対する動作モードもしくはプロトコルを設定してください。通常フロントエンドとバックエンドは同じモードです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 181
 msgid ""
 "Sets the interval (in milliseconds) for running health checks on the server."
-msgstr ""
+msgstr "サーバでのヘルスチェックの実行に対する間隔を設定してください ( ms 単位 )。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 182
