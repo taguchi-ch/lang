@@ -21255,7 +21255,7 @@ msgid "Enable ruleset"
 msgstr "ルールセットを有効"
 
 msgid "Enable store logging."
-msgstr "ログの保存を有効にします。"
+msgstr "ログの保管を有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 89
 msgid "Enable this Lua script."
@@ -21543,7 +21543,7 @@ msgid ""
 "followed by a colon (':') and a UDP port, i.e. 127.0.0.1 or 10.0.0.1:514"
 msgstr ""
 "ログをどこに送信するかを示します。IPv4 もしくは IPv6 アドレスを取り、"
-"オプションでコロン (:) と UDP ポートを後につけます。127.0.0.1 もしくは 10.0.0.1:514 のように使用します。"
+"オプションでコロン (:) と UDP ポートを後につけます。例 127.0.0.1、10.0.0.1:514"
 
 # File: lang/dynamic/helpers/controllers.php, line: 96
 msgid "Internal number used for this zone"
@@ -21608,7 +21608,7 @@ msgstr "このサーバの FQDN もしくは IP アドレスを入力してく�
 
 # File: /usr/lang/src/controllers.php, line: 148
 msgid "Provide the TCP communication port for this server, i.e. 80 or 443."
-msgstr "このサーバの TCP 通信ポートを入力してください。例 80、443。"
+msgstr "このサーバの TCP 通信ポートを入力してください。例 80、443"
 
 # File: /usr/lang/src/controllers.php, line: 149
 msgid "Rotate alert logs at provided interval."
@@ -21762,7 +21762,6 @@ msgid ""
 "Sets the interval (in milliseconds) for running health checks on the server."
 msgstr "サーバでのヘルスチェックの実行に対する間隔を設定してください ( ms 単位 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 182
 msgid ""
 "Sets the maximum amount of RAM in megabytes per process usable by Lua. By "
@@ -21770,33 +21769,29 @@ msgid ""
 "ensure that a bug in a script will not result in the system running out of "
 "memory."
 msgstr ""
+"Lua で使用可能な RAM の最大量を MB/プロセス 単位で設定してください。デフォルトでは 0 で無制限を意味します。"
+"スクリプトのバグがシステムが動作するメモリの範囲外で発生しないことを保証するために、限度を設定するのは重要です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 183
 msgid "Sets the operation mode to use for this server."
-msgstr ""
+msgstr "このサーバに使用する操作モードを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 184
 msgid "Specify HTTP host to use for health check. Requires HTTP/1.1."
-msgstr ""
+msgstr "ヘルスチェックに使用する HTTP ホストを指定してください。HTTP/1.1 が必須です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 185
 msgid "Specify HTTP request URI for health check."
-msgstr ""
+msgstr "ヘルスチェックの HTTP リクエスト URI を指定してください。" 
 
-#
 # File: /usr/lang/src/controllers.php, line: 186
 msgid "Specify a value to match with the action."
-msgstr ""
+msgstr "アクションで一致する値を指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 187
 msgid "Specify a value to match with the expression."
-msgstr ""
+msgstr "式で一致する値を指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 188
 msgid ""
 "Specify an optional maximum line length. Log lines larger than this value "
@@ -21804,74 +21799,68 @@ msgid ""
 "differently on log line length. All servers support the default value of "
 "1024, but some servers simply drop larger lines while others do log them."
 msgstr ""
+"オプションで最大行の長さを指定してください。この値よりも大きいログ行は送信される前に切り詰められます。"
+"syslog サーバがログ行の長さで異なる動作をするためです。全てのサーバはデフォルト値の 1024 に対応しています。"
+"しかし一部のサーバは、他のサーバがそれらをログに記録している間、単純に大きい行を落とします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 189
 msgid "Specify the TCP port used for agent checks."
-msgstr ""
+msgstr "エージェントチェックに使用する TCP ポートを指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 190
 msgid ""
 "Specify the domain name to present to the server for SMTP/ESMTP health "
 "checks."
-msgstr ""
+msgstr "SMTP/ESMTP ヘルスチェックでサーバに提示するドメイン名を指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 191
 msgid "Specify the scheduling algorithm to use"
-msgstr ""
+msgstr "使用するスケジューリングアルゴリズムを指定してください"
 
-#
 # File: /usr/lang/src/controllers.php, line: 192
 msgid "Specify the username to be used for database health checks."
-msgstr ""
+msgstr "データベースヘルスチェックで使用されるユーザ名を指定してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 42
 msgid ""
 "Suppress Squid version string info in HTTP headers and HTML error pages."
 msgstr "HTTP ヘッダと HTML エラーページで Squid バージョン情報を表示しない。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 194
 msgid ""
 "The SSL fingerprint, for example \"B5:E1:B3:70:5E:7C:FF:EB:92:C4:29:E5:5B:"
 "AC:2F:AE:70:17:E9:9E\"."
-msgstr ""
+msgstr "SSL フィンガープリント。例 B5:E1:B3:70:5E:7C:FF:EB:92:C4:29:E5:5B:AC:2F:AE:70:17:E9:9E"
 
-#
 # File: /usr/lang/src/controllers.php, line: 195
 msgid ""
 "The hard size limit of all queues managed by this instance, leave empty for "
 "defaults"
-msgstr ""
+msgstr "このインスタンスに管理される全てのキューのハードサイズ制限、空白にするとデフォルトになります"
 
-#
 # File: /usr/lang/src/controllers.php, line: 196
 msgid ""
 "The header which should be used to send the username to the ICAP server."
-msgstr ""
+msgstr "ICAP サーバにユーザ名を送信するのに使用されるヘッダ。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 197
 msgid ""
 "The maximum number of characters that will be stored in the stick table (if "
 "appropiate table type is selected)."
-msgstr ""
+msgstr "スティックテーブルに保管される文字の最大数 ( 適切なテーブルタイプが選択されている場合 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 198
 msgid ""
 "The number of bytes a queue can serve before being moved to the tail of old "
 "queues list (bytes), leave empty for defaults"
 msgstr ""
+"古いキューリストの末尾に移動される前に保持可能なキューのバイト数 ( byte )、空白にするとデフォルトになります"
 
-#
 # File: /usr/lang/src/controllers.php, line: 199
 msgid ""
 "The number of flow queues that are created and managed, leave empty for "
 "defaults"
-msgstr ""
+msgstr "作成及び管理されるフローキューの数、空白にするとデフォルトになります"
 
 # File: lang/dynamic/helpers/controllers.php, line: 36
 msgid ""
@@ -21883,12 +21872,11 @@ msgstr ""
 "白にしてください ( デフォルト )。ICP の標準 UDP ポートは 3130 です。"
 
 msgid "The port the proxy service will listen to."
-msgstr "プロキシサービスがリスンしているポートです。"
+msgstr "プロキシサービスがリスンするポート。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 202
 msgid "The port the ssl proxy service will listen to."
-msgstr ""
+msgstr "SSL プロキシサービスがリスンするポート。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 64
 msgid "The prompt will be displayed in the authentication request window."
@@ -21898,15 +21886,13 @@ msgstr "認証リクエストウィンドウにプロンプトが表示されま
 msgid "The total number of authenticator processes to spawn."
 msgstr "生成する認証プロセスの合計数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 205
 msgid "This is the email address displayed in error messages to the users."
-msgstr ""
+msgstr "ユーザへのエラーメッセージで表示される電子メールアドレス。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 206
 msgid "This is the hostname to be displayed in proxy server error messages."
-msgstr ""
+msgstr "プロキシサーバエラーメッセージで表示されるホスト名。"
 
 msgid "Total bandwidth for this pipe"
 msgstr "このパイプの合計帯域幅"
@@ -21915,15 +21901,13 @@ msgstr "このパイプの合計帯域幅"
 msgid "Use custom template package for user login"
 msgstr "ユーザログインにカスタムテンプレートパッケージを使用"
 
-#
 # File: /usr/lang/src/controllers.php, line: 209
 msgid "Use this option if your usernames need to be encoded."
-msgstr ""
+msgstr "あなたのユーザ名にエンコードが必要な場合はこのオプションを使用してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 210
 msgid "Use this to invert the meaning of the expression."
-msgstr ""
+msgstr "これを使用すると式の意味を反転します。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 76
 msgid ""
@@ -21960,10 +21944,9 @@ msgstr "このパイプと関連するキュー及びルールを有効"
 msgid "enable this queue and it's related rules"
 msgstr "このキュー及び関連ルールを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 218
 msgid "ip address of the mail host"
-msgstr ""
+msgstr "メールホストの IP アドレス"
 
 # File: lang/dynamic/helpers/controllers.php, line: 87
 msgid "matches incoming or outgoing packets or both (default)"
@@ -21977,19 +21960,19 @@ msgstr "動的キューの数。空白でデフォルト"
 msgid "order in which the rule will be evaluated (lowest first)"
 msgstr "ルールが評価される順序 ( 一番下が最初です )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 222
 msgid ""
 "secondary interface, matches packets traveling to/from interface (1) to/from "
 "interface (2). can be combined with direction."
 msgstr ""
+"セカンダリインタフェース。インタフェース (1) から、もしくはインタフェース (1) 宛に"
+"インタフェース (2) から、もしくはインタフェース (2) 宛に移動するパケットと一致します。方向と結合可能です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 223
 msgid ""
 "select categories to use, leave empty for all. Categories are visible after "
 "initial download."
-msgstr ""
+msgstr "使用するカテゴリを選択してください。空白にすると全てになります。カテゴリは初期ダウンロード後に表示可能になります。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 79
 msgid "source ip or network, examples 10.0.0.0/24, 10.0.0.1"
@@ -22004,21 +21987,18 @@ msgstr ""
 msgid "target pipe or queue"
 msgstr "対象となるパイプもしくはキュー"
 
-#
 # File: /usr/lang/src/models.php, line: 36
 msgid "A SSL fingerprint should be a 59 character long hex value."
-msgstr ""
+msgstr "SSL フィンガープリントは 59 文字長の 16 進値です。"
 
-#
 # File: /usr/lang/src/models.php, line: 37
 msgid "ACL"
-msgstr ""
+msgstr "ACL"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 349
 # File: /usr/lang/src/models.php, line: 38
 msgid "ACLs"
-msgstr ""
+msgstr "ACL"
 
 msgid "ARP Table"
 msgstr "ARP テーブル"
@@ -22054,20 +22034,18 @@ msgstr "全て"
 msgid "Assignments"
 msgstr "割当て"
 
-#
 # File: /usr/lang/src/models.php, line: 49
 msgid "Auth"
-msgstr ""
+msgstr "認証"
 
 # File: lang/dynamic/helpers/models.php, line: 41
 msgid "Authorities"
 msgstr "認証局"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 345
 # File: /usr/lang/src/models.php, line: 51
 msgid "Backends"
-msgstr ""
+msgstr "バックエンド"
 
 # File: lang/dynamic/helpers/models.php, line: 47
 msgid "Backups"
@@ -22099,15 +22077,13 @@ msgstr "クライアントのエクスポート"
 msgid "Client Specific Overrides"
 msgstr "クライアント固有の上書き"
 
-#
 # File: /usr/lang/src/models.php, line: 61
 msgid "Clients"
-msgstr ""
+msgstr "クライアント"
 
-#
 # File: /usr/lang/src/models.php, line: 62
 msgid "Commercial Support"
-msgstr ""
+msgstr "コマーシャルサポート"
 
 # File: lang/dynamic/helpers/models.php, line: 51
 msgid "Configuration"
@@ -22118,19 +22094,17 @@ msgstr "構成"
 msgid "Connection Status"
 msgstr "接続ステータス"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 161
 # File: /usr/lang/src/models.php, line: 65
 msgid "Counters"
-msgstr ""
+msgstr "カウンター"
 
 msgid "Credentials TTL needs to be an integer value above 0"
 msgstr "資格情報 TTL は 0 以上の整数です。"
 
-#
 # File: /usr/lang/src/models.php, line: 67
 msgid "Cron"
-msgstr ""
+msgstr "Cron"
 
 msgid "DHCP"
 msgstr "DHCP"
@@ -22151,23 +22125,20 @@ msgstr "DNS ツール"
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
-#
 # File: /usr/lang/src/models.php, line: 74
 msgid "Defaults"
-msgstr ""
+msgstr "デフォルト"
 
 msgid "Description should be a string between 1 and 255 characters"
 msgstr "説明は 1 - 255 文字の文字列です"
 
-#
 # File: /usr/lang/src/models.php, line: 76
 msgid "Description should be a string between 1 and 255 characters."
-msgstr ""
+msgstr "説明は 1 - 255 文字の文字列です。"
 
-#
 # File: /usr/lang/src/models.php, line: 77
 msgid "Detault Parameters"
-msgstr ""
+msgstr "デフォルトパラメータ"
 
 # File: lang/dynamic/helpers/models.php, line: 124
 # File: lang/dynamic/helpers/models.php, line: 128
@@ -22180,12 +22151,11 @@ msgstr "診断"
 msgid "Documentation"
 msgstr "ドキュメント"
 
-#
 # File: /usr/lang/src/models.php, line: 81
 msgid ""
 "Does not look like a valid cookie name (most special characters are not "
 "allowed)."
-msgstr ""
+msgstr "有効な cookie 名ではないようです ( ほとんどの特殊文字は使用できません )。"
 
 # File: lang/dynamic/helpers/models.php, line: 214
 msgid "DynDNS"
@@ -22200,10 +22170,9 @@ msgstr "編集"
 msgid "Enter a description."
 msgstr "説明を入力してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 86
 msgid "Enter a valid number of logs to save"
-msgstr ""
+msgstr "有効な保存するログ数を入力してください。"
 
 # File: lang/dynamic/helpers/models.php, line: 248
 msgid ""
@@ -22212,16 +22181,14 @@ msgstr ""
 "選択したコマンドに対する有効なパラメータを入力してください ( 無効な文字が検出"
 "されました )。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 351
 # File: /usr/lang/src/models.php, line: 88
 msgid "Error Files"
-msgstr ""
+msgstr "エラーファイル"
 
-#
 # File: /usr/lang/src/models.php, line: 89
 msgid "FTP"
-msgstr ""
+msgstr "FTP"
 
 msgid "FTP Proxy port needs to be an integer value between 1 and 65535"
 msgstr "FTP プロキシポートは、1 - 65535 の整数です"
@@ -22246,16 +22213,14 @@ msgstr "ファイアウォール"
 msgid "Firmware"
 msgstr "ファームウェア"
 
-#
 # File: /usr/lang/src/models.php, line: 97
 msgid "Forward"
-msgstr ""
+msgstr "転送"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 344
 # File: /usr/lang/src/models.php, line: 98
 msgid "Frontends"
-msgstr ""
+msgstr "フロントエンド"
 
 msgid "GIF"
 msgstr "GIF"
@@ -22272,10 +22237,9 @@ msgstr "ゲートウェイ"
 msgid "General"
 msgstr "全般"
 
-#
 # File: /usr/lang/src/models.php, line: 104
 msgid "Global Parameters"
-msgstr ""
+msgstr "グローバルパラメータ"
 
 msgid "Group"
 msgstr "グループ"
@@ -22287,10 +22251,9 @@ msgstr "グループステータス"
 msgid "Groups"
 msgstr "グループ"
 
-#
 # File: /usr/lang/src/models.php, line: 108
 msgid "HAProxy"
-msgstr ""
+msgstr "HAProxy"
 
 # File: lang/dynamic/helpers/models.php, line: 291
 msgid "Hard timeout must be between 0(no timeout) and 10080 (a week)"
@@ -22301,16 +22264,14 @@ msgstr ""
 msgid "Health"
 msgstr "ヘルス"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 347
 # File: /usr/lang/src/models.php, line: 111
 msgid "Health Checks"
-msgstr ""
+msgstr "ヘルスチェック"
 
-#
 # File: /usr/lang/src/models.php, line: 112
 msgid "Hello World!"
-msgstr ""
+msgstr "Hello World!"
 
 msgid "Help"
 msgstr "ヘルプ"
@@ -22321,10 +22282,9 @@ msgstr "高可用性"
 msgid "History"
 msgstr "履歴"
 
-#
 # File: /usr/lang/src/models.php, line: 116
 msgid "ICAP"
-msgstr ""
+msgstr "ICAP"
 
 msgid "ICP port needs to be an integer value between 1 and 65535"
 msgstr "ICP ポートは、1 - 65535 の整数です"
@@ -22345,10 +22305,9 @@ msgstr ""
 msgid "Import"
 msgstr "インポート"
 
-#
 # File: /usr/lang/src/models.php, line: 122
 msgid "Insight"
-msgstr ""
+msgstr "分析"
 
 msgid "Interfaces"
 msgstr "インタフェース"
@@ -22414,29 +22373,25 @@ msgstr "ログファイル"
 msgid "Log Files"
 msgstr "ログファイル"
 
-#
 # File: /usr/lang/src/models.php, line: 134
 msgid "Logging"
-msgstr ""
+msgstr "ログ"
 
-#
 # File: /usr/lang/src/models.php, line: 135
 msgid "Logging Configuration"
-msgstr ""
+msgstr "ログ構成"
 
 msgid "Logout"
 msgstr "ログアウト"
 
-#
 # File: /usr/lang/src/models.php, line: 137
 msgid "Lookup"
-msgstr ""
+msgstr "ルックアップ"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 350
 # File: /usr/lang/src/models.php, line: 138
 msgid "Lua Scripts"
-msgstr ""
+msgstr "Lua スクリプト"
 
 # File: lang/dynamic/helpers/models.php, line: 289
 msgid "Maximum number of zones reached"
@@ -22463,10 +22418,9 @@ msgstr "NDP テーブル"
 msgid "NPT (IPv6)"
 msgstr "NPT (IPv6)"
 
-#
 # File: /usr/lang/src/models.php, line: 146
 msgid "NetFlow"
-msgstr ""
+msgstr "NetFlow"
 
 # File: lang/dynamic/helpers/models.php, line: 238
 # File: src/www/services_ntpd.php, line: 161
@@ -22479,10 +22433,9 @@ msgstr "NTP"
 msgid "Normal View"
 msgstr "通常表示"
 
-#
 # File: /usr/lang/src/models.php, line: 149
 msgid "Normalization"
-msgstr ""
+msgstr "正規化"
 
 msgid "Notifications"
 msgstr "通知"
@@ -22490,10 +22443,9 @@ msgstr "通知"
 msgid "Number of children needs to be an integer value above 0"
 msgstr "子の数は 0 以上の整数です。"
 
-#
 # File: /usr/lang/src/models.php, line: 152
 msgid "One-to-One"
-msgstr ""
+msgstr "一対一"
 
 msgid "OpenVPN"
 msgstr "OpenVPN"
@@ -22502,10 +22454,9 @@ msgstr "OpenVPN"
 msgid "Origin should be regular text of max 30 characters"
 msgstr "オリジンは最大 30 文字の文字列です"
 
-#
 # File: /usr/lang/src/models.php, line: 155
 msgid "Origin should be regular text of max 30 characters."
-msgstr ""
+msgstr "オリジンは最大 30 文字の文字列です。"
 
 # File: lang/dynamic/helpers/models.php, line: 122
 msgid "Other Types"
@@ -22552,10 +22503,9 @@ msgstr "パイプ"
 msgid "Plain View"
 msgstr "プレーン表示"
 
-#
 # File: /usr/lang/src/models.php, line: 169
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "有効な電子メールアドレスを入力してください。"
 
 # File: lang/dynamic/helpers/models.php, line: 293
 msgid "Please enter a valid servername, ip address or leave this option blank"
@@ -22563,15 +22513,15 @@ msgstr ""
 "有効なサーバ名、IP アドレスを入力してください。もしくはこのオプションを空白の"
 "ままにしてください"
 
-#
 # File: /usr/lang/src/models.php, line: 171
 msgid "Please enter a valid servername, ip address or leave this option blank."
 msgstr ""
+"有効なサーバ名、IP アドレスを入力してください。もしくはこのオプションを空白の"
+"ままにしてください。"
 
-#
 # File: /usr/lang/src/models.php, line: 172
 msgid "Please enter ip addresses or domain names here"
-msgstr ""
+msgstr "ここに IP アドレスもしくはドメイン名を入力してください"
 
 # File: lang/dynamic/helpers/models.php, line: 294
 msgid "Please enter valid addresses"
@@ -22581,128 +22531,105 @@ msgstr "有効なアドレスを入力してください"
 msgid "Please enter valid mac addresses"
 msgstr "有効な MAC アドレスを入力してください"
 
-#
 # File: /usr/lang/src/models.php, line: 175
 msgid "Please enter valid targets (e.g. 192.168.0.1:2055)."
-msgstr ""
+msgstr "有効なターゲットを入力してください ( 例 192.168.0.1:2055 )。"
 
-#
 # File: /usr/lang/src/models.php, line: 176
 msgid ""
 "Please provide a valid listen address, i.e. 10.0.0.1:8080 or haproxy.example."
 "com:8999."
-msgstr ""
+msgstr "有効なリスンアドレスを入力してください。例 10.0.0.1:8080、haproxy.example.com:8999"
 
-#
 # File: /usr/lang/src/models.php, line: 177
 msgid ""
 "Please provide a valid listen address, i.e. 127.0.0.1:8080 or www.example."
 "com:443."
-msgstr ""
+msgstr "有効なリスンアドレスを入力してください。例 127.0.0.1:8080、www.example.com:443"
 
-#
 # File: /usr/lang/src/models.php, line: 178
 msgid "Please provide a valid user and password, i.e. user:secret123."
-msgstr ""
+msgstr "有効なユーザとパスワードを入力してください。例 user:secret123"
 
 # File: lang/dynamic/helpers/models.php, line: 292
 msgid "Please select a valid certificate from the list"
 msgstr "リストから有効な証明書を選択してください"
 
-#
 # File: /usr/lang/src/models.php, line: 180
 msgid "Please select a valid certificate from the list."
-msgstr ""
+msgstr "リストから有効な証明書を選択してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 181
 msgid "Please select a valid rotation"
-msgstr ""
+msgstr "有効な回転を選択してください"
 
-#
 # File: /usr/lang/src/models.php, line: 182
 msgid "Please specify a valid servername or IP address."
-msgstr ""
+msgstr "有効なサーバ名もしくは IP アドレスを指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 183
 msgid "Please specify a value between 0 and 1024."
-msgstr ""
+msgstr "0 - 1024 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 184
 msgid "Please specify a value between 0 and 256."
-msgstr ""
+msgstr "0 - 256 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 185
 msgid "Please specify a value between 0 and 50."
-msgstr ""
+msgstr "0 - 50 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 186
 msgid "Please specify a value between 1 and 100."
-msgstr ""
+msgstr "1 - 100 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 187
 msgid "Please specify a value between 1 and 10000."
-msgstr ""
+msgstr "1 - 10000 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 188
 msgid "Please specify a value between 1 and 1000000."
-msgstr ""
+msgstr "1 - 1000000 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 189
 msgid "Please specify a value between 1 and 128."
-msgstr ""
+msgstr "1 - 128 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 190
 msgid "Please specify a value between 1 and 500000."
-msgstr ""
+msgstr "1 - 500000 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 191
 msgid "Please specify a value between 1 and 65535."
-msgstr ""
+msgstr "1 - 65535 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 192
 msgid "Please specify a value between 100 and 1000000."
-msgstr ""
+msgstr "100 - 1000000 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 193
 msgid "Please specify a value between 1024 and 1048576."
-msgstr ""
+msgstr "1024 - 1048576 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 194
 msgid "Please specify a value between 1024 and 16384."
-msgstr ""
+msgstr "1024 - 16384 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 195
 msgid "Please specify a value between 1024 and 65535."
-msgstr ""
+msgstr "1024 - 65535 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 196
 msgid "Please specify a value between 250 and 1000000."
-msgstr ""
+msgstr "250 - 1000000 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 197
 msgid "Please specify a value between 500 and 100000."
-msgstr ""
+msgstr "500 - 100000 の値を指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 198
 msgid "Please specify a value between 64 and 65535."
-msgstr ""
+msgstr "64 - 65535 の値を指定してください。"
 
 # File: lang/dynamic/helpers/models.php, line: 126
 msgid "Point-to-Point"
@@ -22721,10 +22648,9 @@ msgstr "プールのステータス"
 msgid "Port Forward"
 msgstr "ポートフォワード"
 
-#
 # File: /usr/lang/src/models.php, line: 203
 msgid "Power Off"
-msgstr ""
+msgstr "電源オフ"
 
 msgid "Pre-Shared Keys"
 msgstr "事前共有鍵"
@@ -22753,17 +22679,15 @@ msgid "Reboot"
 msgstr "再起動"
 
 msgid "Related cron not found"
-msgstr "関連する cron が見つかりませんでした"
+msgstr "関連する cron が見つかりません"
 
-#
 # File: /usr/lang/src/models.php, line: 213
 msgid "Related cron not found."
-msgstr ""
+msgstr "関連する cron が見つかりません。"
 
-#
 # File: /usr/lang/src/models.php, line: 214
 msgid "Related item not found"
-msgstr ""
+msgstr "関連する項目が見つかりません"
 
 msgid "Related pipe not found"
 msgstr "関連するパイプが見つかりません"
@@ -22781,20 +22705,17 @@ msgstr "関連するテンプレートが見つかりません"
 msgid "Relay"
 msgstr "リレー"
 
-#
 # File: /usr/lang/src/models.php, line: 219
 msgid "RemoteACL"
-msgstr ""
+msgstr "リモート ACL"
 
-#
 # File: /usr/lang/src/models.php, line: 220
 msgid "Reporter"
-msgstr ""
+msgstr "報告者"
 
-#
 # File: /usr/lang/src/models.php, line: 221
 msgid "Reporting"
-msgstr ""
+msgstr "レポート"
 
 # File: lang/dynamic/helpers/models.php, line: 43
 msgid "Revocation"
@@ -22806,18 +22727,16 @@ msgstr "ルート"
 msgid "Rules"
 msgstr "ルール"
 
-#
 # File: /usr/lang/src/models.php, line: 225
 msgid "SMART"
-msgstr ""
+msgstr "SMART"
 
 msgid "SNMP"
 msgstr "SNMP"
 
-#
 # File: /usr/lang/src/models.php, line: 227
 msgid "SSL Proxy port needs to be an integer value between 1 and 65535"
-msgstr ""
+msgstr "SSL プロキシポートは 1 - 65535 の整数値です"
 
 msgid "Schedules"
 msgstr "スケジュール"
@@ -22842,10 +22761,9 @@ msgstr "サーバ"
 msgid "Servers"
 msgstr "サーバ"
 
-#
 # File: /usr/lang/src/models.php, line: 234
 msgid "Service Settings"
-msgstr ""
+msgstr "サービス設定"
 
 msgid "Services"
 msgstr "サービス"
@@ -22860,37 +22778,34 @@ msgstr "設定"
 msgid "Shared Key Export"
 msgstr "共有鍵のエクスポート"
 
-#
 # File: /usr/lang/src/models.php, line: 239
 msgid ""
 "Should be a number between 1 and 5 characters followed by either \"d\", \"h"
 "\", \"m\", \"s\" or \"ms\"."
 msgstr ""
+"d、h、m、s、ms のいずれかを後につけた 1 - 5 文字の数字を入力してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 240
 msgid ""
 "Should be a number between 1 and 5 characters followed by either \"k\", \"m"
 "\" or \"g\"."
 msgstr ""
+"k、m、g のいずれかを後につけた 1 - 5 文字の数字を入力してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 241
 msgid "Should be a string between 1 and 255 characters."
-msgstr ""
+msgstr "1 - 255 文字の文字列です。"
 
-#
 # File: /usr/lang/src/models.php, line: 242
 msgid "Sid should be a number."
-msgstr ""
+msgstr "Sid は数字です。"
 
 msgid "Sockets"
 msgstr "ソケット"
 
-#
 # File: /usr/lang/src/models.php, line: 244
 msgid "Specify a maximum object size. (number of MB's)"
-msgstr ""
+msgstr "最大オブジェクトサイズを指定してください。( MB 単位 )"
 
 # File: lang/dynamic/helpers/models.php, line: 213
 msgid "Specify a positive cache size. (number of MB's)"
@@ -22938,15 +22853,13 @@ msgstr "ステータスリセット"
 msgid "States Summary"
 msgstr "ステータス概要"
 
-#
 # File: /usr/lang/src/models.php, line: 256
 msgid "Statistics"
-msgstr ""
+msgstr "統計"
 
-#
 # File: /usr/lang/src/models.php, line: 257
 msgid "Statistics Configuration"
-msgstr ""
+msgstr 統計構成""
 
 msgid "Status"
 msgstr "ステータス"
@@ -22957,11 +22870,10 @@ msgstr "ステータス"
 msgid "Status Overview"
 msgstr "ステータス概要"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 162
 # File: /usr/lang/src/models.php, line: 260
 msgid "Stick Tables"
-msgstr ""
+msgstr "スティックテーブル"
 
 msgid "Summary View"
 msgstr "概要表示"
@@ -22997,10 +22909,9 @@ msgstr "トラフィックグラフ"
 msgid "Traffic Shaper"
 msgstr "トラフィックシェーパ"
 
-#
 # File: /usr/lang/src/models.php, line: 271
 msgid "TrafficManagement"
-msgstr ""
+msgstr "トラフィック管理"
 
 # File: lang/dynamic/helpers/models.php, line: 47
 msgid "Trust"
@@ -23036,40 +22947,43 @@ msgstr "VLAN"
 msgid "VPN"
 msgstr "VPN"
 
-#
 # File: /usr/lang/src/models.php, line: 281
 msgid ""
 "Value needs to be between 0 and 23; multiple values, ranges, steps and "
 "asterisk are supported (ex. 1,2,8 or 0-8)."
 msgstr ""
+"値の範囲は 0 - 23 です。複数の値、範囲、ステップ、アスタリスクも使用できます ( 例: 1,2,8 もしくは 0-8 )。"
 
-#
 # File: /usr/lang/src/models.php, line: 282
 msgid ""
 "Value needs to be between 0 and 59; multiple values, ranges, steps and "
 "asterisk are supported (ex. 1,10,20,30 or 1-30)."
 msgstr ""
+"値の範囲は 0 - 59 です。複数の値、範囲、ステップ、アスタリスクも使用できます ( 例: 1,10,20,30 もしくは 1-30 )。"
 
-#
 # File: /usr/lang/src/models.php, line: 283
 msgid ""
 "Value needs to be between 0 and 7 (Sunday to Sunday), multiple values, "
 "ranges, steps and asterisk are supported (ex. 1,2,4 or 0-4)."
 msgstr ""
+"値の範囲は 0 - 7 ( 日曜日 - 日曜日 ) です。複数の値、範囲、"
+"ステップ、アスタリスクも使用できます ( 例: 1,2,4 もしくは 0-4 )。"
 
-#
 # File: /usr/lang/src/models.php, line: 284
 msgid ""
 "Value needs to be between 1 and 12 or JAN to DEC, multiple values, ranges, "
 "steps and asterisk are supported (ex. JAN,2,10 or 3-8)."
 msgstr ""
+"値の範囲は 1 - 12 もしくは JAN - DEC です。複数の値、範囲、"
+"ステップ、アスタリスクも使用できます。( 例: JAN,2,10 もしくは 3-8 )"
 
-#
 # File: /usr/lang/src/models.php, line: 285
 msgid ""
 "Value needs to be between 1 and 31; multiple values, ranges, L (last day of "
 "month), steps and asterisk are supported (ex. 1,2,8 or 1-28)."
 msgstr ""
+"値の範囲は 1 - 31 です。複数の値、範囲、L ( 月の最終日 )、"
+"ステップ、アスタリスクも使用できます。( 例: 1,2,8 もしくは 1-28 )"
 
 msgid "View"
 msgstr "表示"
@@ -23103,10 +23017,9 @@ msgstr "無線"
 msgid "Wizard"
 msgstr "ウィザード"
 
-#
 # File: /usr/lang/src/models.php, line: 295
 msgid "max size needs to be an integer value between 1 and 65535"
-msgstr ""
+msgstr "最大サイズは 1 - 65535 の整数値です"
 
 # File: lang/dynamic/helpers/models.php, line: 207
 msgid "menu"
@@ -23129,10 +23042,9 @@ msgstr "PF テーブル"
 msgid "pfTop"
 msgstr "pfTop"
 
-#
 # File: /usr/lang/src/models.php, line: 301
 msgid "please specify a valid email address"
-msgstr ""
+msgstr "有効な電子メールアドレスを指定してください"
 
 # File: lang/dynamic/helpers/models.php, line: 238
 msgid "provide a valid sequence for sorting"
@@ -23142,8 +23054,7 @@ msgstr "ソートの有効なシーケンスを指定してください"
 msgid "queue size should be between 2...100"
 msgstr "キューサイズは 2 - 100 です"
 
-#
 # File: /usr/lang/src/models.php, line: 304
 msgid ""
 "the number of sslrtd children needs to be an integer value between 1 and 32"
-msgstr ""
+msgstr "sslrtd 子の数は 1 - 32 の整数値です"
