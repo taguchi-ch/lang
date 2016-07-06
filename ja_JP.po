@@ -21782,7 +21782,7 @@ msgstr "ヘルスチェックに使用する HTTP ホストを指定してくだ
 
 # File: /usr/lang/src/controllers.php, line: 185
 msgid "Specify HTTP request URI for health check."
-msgstr "ヘルスチェックの HTTP リクエスト URI を指定してください。" 
+msgstr "ヘルスチェックの HTTP リクエスト URI を指定してください。"
 
 # File: /usr/lang/src/controllers.php, line: 186
 msgid "Specify a value to match with the action."
@@ -21965,7 +21965,7 @@ msgid ""
 "secondary interface, matches packets traveling to/from interface (1) to/from "
 "interface (2). can be combined with direction."
 msgstr ""
-"セカンダリインタフェース。インタフェース (1) から、もしくはインタフェース (1) 宛に"
+"セカンダリインタフェース。インタフェース (1) から、もしくはインタフェース (1) 宛に、"
 "インタフェース (2) から、もしくはインタフェース (2) 宛に移動するパケットと一致します。方向と結合可能です。"
 
 # File: /usr/lang/src/controllers.php, line: 223
@@ -22172,7 +22172,7 @@ msgstr "説明を入力してください。"
 
 # File: /usr/lang/src/models.php, line: 86
 msgid "Enter a valid number of logs to save"
-msgstr "有効な保存するログ数を入力してください。"
+msgstr "有効な保存するログ数を入力してください"
 
 # File: lang/dynamic/helpers/models.php, line: 248
 msgid ""
@@ -22561,7 +22561,7 @@ msgstr "リストから有効な証明書を選択してください。"
 
 # File: /usr/lang/src/models.php, line: 181
 msgid "Please select a valid rotation"
-msgstr "有効な回転を選択してください"
+msgstr "有効なローテーションを選択してください"
 
 # File: /usr/lang/src/models.php, line: 182
 msgid "Please specify a valid servername or IP address."
@@ -22859,7 +22859,7 @@ msgstr "統計"
 
 # File: /usr/lang/src/models.php, line: 257
 msgid "Statistics Configuration"
-msgstr 統計構成""
+msgstr "統計構成"
 
 msgid "Status"
 msgstr "ステータス"
@@ -22975,7 +22975,7 @@ msgid ""
 "steps and asterisk are supported (ex. JAN,2,10 or 3-8)."
 msgstr ""
 "値の範囲は 1 - 12 もしくは JAN - DEC です。複数の値、範囲、"
-"ステップ、アスタリスクも使用できます。( 例: JAN,2,10 もしくは 3-8 )"
+"ステップ、アスタリスクも使用できます ( 例: JAN,2,10 もしくは 3-8 )。"
 
 # File: /usr/lang/src/models.php, line: 285
 msgid ""
@@ -22983,7 +22983,7 @@ msgid ""
 "month), steps and asterisk are supported (ex. 1,2,8 or 1-28)."
 msgstr ""
 "値の範囲は 1 - 31 です。複数の値、範囲、L ( 月の最終日 )、"
-"ステップ、アスタリスクも使用できます。( 例: 1,2,8 もしくは 1-28 )"
+"ステップ、アスタリスクも使用できます ( 例: 1,2,8 もしくは 1-28 )。"
 
 msgid "View"
 msgstr "表示"
