@@ -765,155 +765,131 @@ msgstr ""
 "「win6」Windows インストーラには Windows Vista 以降でのみ動作する、新 tap-"
 "windows6 ドライバが含まれます。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 707
 msgid "Configuration archive"
-msgstr ""
+msgstr "構成アーカイブ"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 698
 msgid "Other Shared Key OS Client"
-msgstr ""
+msgstr "その他の共有鍵 OS クライアント"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 666
 msgid "Authentication Only (No Cert)"
-msgstr ""
+msgstr "認証のみ ( 証明書なし )"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 654
 msgid "SNOM SIP Handset"
-msgstr ""
+msgstr "SNOM SIP Handset"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 653
 msgid "T38G (2)"
-msgstr ""
+msgstr "T38G (2)"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 652
 msgid "T38G (1)"
-msgstr ""
+msgstr "T38G (1)"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 651
 msgid "T28"
-msgstr ""
+msgstr "T28"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 650
 msgid "Yealink SIP Handsets"
-msgstr ""
+msgstr "Yealink SIP Handsets"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 623
 msgid "Certificate with External Auth"
-msgstr ""
+msgstr "外部認証の証明書"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 623
 msgid "Certificate (SSL/TLS, no Auth)"
-msgstr ""
+msgstr "証明書 ( SSL/TLS, 認証なし )"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 614
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 646
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 689
 msgid "Viscosity Bundle"
-msgstr ""
+msgstr "Viscosity Bundle"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 613
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 645
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 688
 msgid "Mac OSX"
-msgstr ""
+msgstr "Mac OSX"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 611
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 643
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 686
 msgid "x64-win6"
-msgstr ""
+msgstr "x64-win6"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 610
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 642
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 685
 msgid "x86-win6"
-msgstr ""
+msgstr "x86-win6"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 609
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 641
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 684
 msgid "x64-xp"
-msgstr ""
+msgstr "x64-xp"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 608
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 640
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 683
 msgid "x86-xp"
-msgstr ""
+msgstr "x86-xp"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 607
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 639
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 682
 #, php-format
 msgid "Windows Installers (%s-Ix%s)"
-msgstr ""
+msgstr "Windows インストーラ (%s-Ix%s)"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 605
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 637
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 680
 msgid "Others"
-msgstr ""
+msgstr "その他"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 604
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 636
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 679
 msgid "OpenVPN Connect (iOS/Android)"
-msgstr ""
+msgstr "OpenVPN Connect (iOS/Android)"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 603
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 635
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 678
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 602
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 634
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 677
 msgid "Inline Configurations"
-msgstr ""
+msgstr "インライン構成"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 600
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 632
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 675
 msgid "File Only"
-msgstr ""
+msgstr "ファイルのみ"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 599
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 631
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 674
 msgid "Archive"
-msgstr ""
+msgstr "アーカイブ"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 598
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 630
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 673
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 705
 msgid "Standard Configurations"
-msgstr ""
+msgstr "標準構成"
 
 # File: src/www/vpn_openvpn_export.php, line: 793
 # File: src/www/vpn_openvpn_export.php.orig, line: 793
@@ -2359,12 +2335,12 @@ msgstr "「自分の識別子」の keyid タグを入力してください"
 msgid "Please enter an address for 'My Identifier'"
 msgstr "「自分の識別子」のアドレスを入力してください"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 251
 msgid ""
 "Please select an identifier (My Identifier) other then 'any' when selecting "
 "'Any' interface"
 msgstr ""
+"「任意」インタフェースを選択している場合は、「自分の識別子」に「任意」以外の識別子を選択してください。"
 
 msgid "There is a Phase 2 using IPv4, you cannot use IPv6."
 msgstr "フェーズ 2 では IPv4 を使用しています。IPv6 は使用できません。"
@@ -3681,10 +3657,9 @@ msgstr "ホスト名には、a-z、0-9、- のみが使用できます。"
 msgid "Turkish"
 msgstr "トルコ語"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 53
 msgid "Swedish"
-msgstr ""
+msgstr "スウェーデン語"
 
 msgid "Spanish"
 msgstr "スペイン語"
@@ -3704,10 +3679,9 @@ msgstr "モンゴル語"
 msgid "Japanese"
 msgstr "日本語"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 47
 msgid "Italian"
-msgstr ""
+msgstr "イタリア語"
 
 msgid "German"
 msgstr "ドイツ語"
@@ -5363,24 +5337,22 @@ msgstr "ハードウェアチェックサムオフロードを無効"
 msgid "Hardware CRC"
 msgstr "ハードウェア CRC"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 416
 msgid ""
 "Set this if you wish to use /tmp as a RAM disk (memory file system disk) "
 "rather than use the hard disk."
 msgstr ""
+"ハードディスクを使用するのではなく /tmp を RAM ディスク ( メモリファイルシステムディスク ) "
+"として使用したい場合はこれを設定してください。"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 414
 msgid "Use memory file system for /tmp"
-msgstr ""
+msgstr "/tmp をメモリファイルシステムとして使用"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 411
 msgid "/tmp RAM disk"
-msgstr ""
+msgstr "/tmp RAM ディスク"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 405
 msgid ""
 "Set this if you wish to use /tmp and /var as RAM disks (memory file system "
@@ -7916,10 +7888,9 @@ msgstr ""
 "RA サーバは、オプションでドメイン検索リストを提供することができます。区切り文"
 "字にはセミコロンを使用してください"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 367
 msgid "Use the DNS settings of the DHCPv6 server"
-msgstr ""
+msgstr "DHCPv6 サーバの DNS 設定を使用"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 350
 msgid ""
@@ -8015,13 +7986,14 @@ msgstr "最大間隔は %s - %s 秒にしてください。"
 msgid "An invalid subnet or alias was specified. [%s/%s]"
 msgstr "無効なサブネットまたはエイリアスが指定されました。[%s/%s]"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 40
 msgid ""
 "Router Advertisements can only be enabled on interfaces configured with "
 "static IP addresses. Only interfaces configured with a static IP will be "
 "shown."
 msgstr ""
+"ルータ広告は静的 IP アドレスで構成されたインタフェースでのみ有効にできます。"
+"静的 IP で構成されたインタフェースのみが表示されます。"
 
 msgid "Save &amp; Force Update"
 msgstr "保存 &amp; 強制更新"
@@ -9345,7 +9317,6 @@ msgstr "DUID"
 msgid "DHCPv6 Static Mappings for this interface."
 msgstr "このインタフェースの DHCPv6 静的マッピング"
 
-#
 # File: /usr/core/src/www/services_dhcpv6.php, line: 754
 #, php-format
 msgid ""
@@ -9353,6 +9324,8 @@ msgid ""
 "include in the DHCP lease information. For a list of available options "
 "please visit this %sURL%s"
 msgstr ""
+"DHCP リース情報に含める DHCP オプション番号と、その項目の値を入力してくださ"
+"い。利用可能なオプションのリストは、この %sURL%s を参照してください。"
 
 msgid "Additional BOOTP/DHCP Options"
 msgstr "BOOTP/DHCP 追加オプション"
@@ -9379,7 +9352,7 @@ msgstr ""
 "全ての DHCPv6 インタフェースのリース時間に適用されます。"
 
 msgid "Change DHCPv6 display lease time from UTC to local time."
-msgstr "DHCPv6 リースの時間表示を、UTC から現地時間に変更します。"
+msgstr "DHCPv6 リースの時間表示を UTC から現地時間に変更します。"
 
 msgid ""
 "The DHCP server can optionally provide a domain search list. Use the "
@@ -9388,13 +9361,15 @@ msgstr ""
 "DHCP サーバは、オプションでドメイン検索リストを提供することができます。区切り"
 "文字にはセミコロンを使用してください"
 
-#
 # File: /usr/core/src/www/services_dhcpv6.php, line: 560
 msgid ""
 "Leave blank to use the system default DNS servers - this interface's IP if "
 "DNS forwarder is enabled, otherwise the servers configured on the General "
 "page."
 msgstr ""
+"システムデフォルトの DNS サーバを使用する場合は空白にしてください - "
+"DNS フォワーダが有効な場合はこのインタフェースの IP です。それ以外の場合は"
+"全般ページで構成されたサーバです。"
 
 # File: /usr/core/src/www/services_dhcpv6.php, line: 549
 msgid ""
@@ -10135,11 +10110,10 @@ msgstr "有効なドメイン検索リストを指定してください"
 msgid "You must specify both a valid domain key and key name."
 msgstr "有効なドメイン認証鍵と鍵名を指定してください。"
 
-#
 # File: /usr/core/src/www/services_dhcp.php, line: 287
 # File: /usr/core/src/www/services_dhcpv6.php, line: 172
 msgid "You must specify a Base64-encoded domain key."
-msgstr ""
+msgstr "Base64 エンコードのドメイン鍵を指定してください。"
 
 msgid ""
 "A valid primary domain name server IP address must be specified for the "
@@ -11795,10 +11769,9 @@ msgstr "このブリッジは削除できません。インタフェースとし
 msgid "add selected interface"
 msgstr "選択したインタフェースを追加"
 
-#
 # File: /usr/core/src/www/interfaces_assign.php, line: 437
 msgid "New interface:"
-msgstr ""
+msgstr "新規インタフェース: "
 
 msgid "delete interface"
 msgstr "インタフェースの削除"
@@ -12521,17 +12494,16 @@ msgstr ""
 msgid "DHCPv6 Prefix Delegation size"
 msgstr "DHCPv6 プレフィックスデリゲーションサイズ"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2471
 msgid ""
 "In case the ISP requires a SOLICIT message for authentication, select this "
 "option to prevent indefinite waiting for a router advertisement."
 msgstr ""
+"ISP が認証に SOLICIT メッセージを要求する場合は、このオプションを選択してルータ広告を無期限に待つことを防ぎます。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2467
 msgid "Directly send SOLICIT"
-msgstr ""
+msgstr "SOLICIT を直接送信"
 
 # File: src/www/interfaces.php, line: 2195
 msgid "Only request a IPv6 prefix, do not request a IPv6 address"
@@ -16317,10 +16289,9 @@ msgstr "無効なアドレスファミリです"
 msgid "Invalid interface."
 msgstr "無効なインタフェースです"
 
-#
 # File: /usr/core/src/www/diag_logs_template.inc, line: 78
 msgid "Search for a specific message..."
-msgstr ""
+msgstr "特定のメッセージを検索しています..."
 
 # File: /usr/core/src/www/diag_logs_settings.php, line: 527
 msgid ""
@@ -17409,11 +17380,10 @@ msgstr "ブリッジデバイス"
 msgid "OPNsense Additions"
 msgstr "OPNsense 追加機能"
 
-#
 # File: /usr/core/src/www/diag_backup.php, line: 83
 #, php-format
 msgid "Restored %s of config file"
-msgstr ""
+msgstr "構成ファイルの %s をリストアしました"
 
 msgid "Test"
 msgstr "テスト"
@@ -17693,18 +17663,16 @@ msgstr "SID"
 msgid "Alert"
 msgstr "アラート"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 576
 msgid "Drop"
-msgstr ""
+msgstr "ドロップ"
 
 msgid "Action"
 msgstr "動作"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 570
 msgid "Classtype"
-msgstr ""
+msgstr "Classtype"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 518
 msgid ""
@@ -17761,10 +17729,9 @@ msgstr ""
 msgid "Remove log file "
 msgstr "ログファイルを削除"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 454
 msgid "Changes will be active after apply (rules tab)"
-msgstr ""
+msgstr "変更は適用後にアクティブになります ( ルールタブ )"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 301
 msgid "not installed"
@@ -18204,12 +18171,13 @@ msgstr "オリジン"
 msgid "Jobs"
 msgstr "ジョブ"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 451
 msgid ""
 "In order to apply these settings a firmware update must be performed after "
 "save, which can include a reboot of the system."
 msgstr ""
+"これらの設定を適用するためには、保存後にファームウェアの更新を実行する必要があります。"
+"システムの再起動も含めることができます。"
 
 msgid "Save"
 msgstr "保存"
@@ -21394,10 +21362,9 @@ msgstr ""
 msgid "Countries to alert or block using GeoIP."
 msgstr "GeoIP を使用して警告もしくは拒否する国。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "Default option for all server entries."
-msgstr ""
+msgstr "全てのサーバエントリに対するデフォルトオプションです。"
 
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "Default ttl"
@@ -21440,12 +21407,13 @@ msgstr "このパイプを識別する説明"
 msgid "Description to identify this zone."
 msgstr "このゾーンを識別する説明"
 
-#
 # File: /usr/lang/src/controllers.php, line: 71
 msgid ""
 "Don't use port on server, use the same port as frontend receive. If check "
 "enable, require port check in server."
 msgstr ""
+"サーバでポートを使用しないでください。フロントエンドが受信する場合と同じポートを使用してください。"
+"チェックを有効にすると、サーバのポートチェックを要求します。"
 
 # File: /usr/lang/src/controllers.php, line: 70
 msgid "Enable CoDel active queue management"
@@ -21891,10 +21859,9 @@ msgstr "このサーバの FQDN もしくは IP アドレスを入力してく�
 msgid "Provide the TCP communication port for this server, i.e. 80 or 443."
 msgstr "このサーバの TCP 通信ポートを入力してください。例 80、443"
 
-#
 # File: /usr/lang/src/controllers.php, line: 151
 msgid "Provide the TCP communication port to use during check, i.e. 80 or 443."
-msgstr ""
+msgstr "チェック中に使用する TCP 通信ポートを入力してください。例 80、443"
 
 # File: /usr/lang/src/controllers.php, line: 149
 msgid "Rotate alert logs at provided interval."
@@ -21988,10 +21955,9 @@ msgstr ""
 msgid "Select the command that needs to be executed at given time frame."
 msgstr "指定された期間に実行する必要があるコマンドを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 171
 msgid "Select the multi-pattern matcher algorithm to use."
-msgstr ""
+msgstr "使用する multi-pattern matcher アルゴリズムを選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 168
 msgid "Select type of health check."
@@ -22001,10 +21967,9 @@ msgstr "ヘルスチェックのタイプを選択してください。"
 msgid "Select what to do with X-Forwarded for header."
 msgstr "ヘッダの X-Forwarded をどうするか、選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 174
 msgid "Send log data to."
-msgstr ""
+msgstr "ログデータを送信します。"
 
 # File: /usr/lang/src/controllers.php, line: 170
 msgid "Set action to perform here, only used when in IPS mode."
@@ -22087,17 +22052,15 @@ msgstr ""
 msgid "Sets the operation mode to use for this server."
 msgstr "このサーバに使用する操作モードを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 189
 msgid ""
 "Sets the source address which will be used when connecting to the server(s)."
-msgstr ""
+msgstr "サーバに接続している時に使用される送信元アドレスを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 190
 msgid ""
 "Sets the source address which will be used when connecting to the server."
-msgstr ""
+msgstr "サーバに接続している時に使用される送信元アドレスを設定してください。"
 
 # File: /usr/lang/src/controllers.php, line: 184
 msgid "Specify HTTP host to use for health check. Requires HTTP/1.1."
@@ -22361,10 +22324,9 @@ msgstr "詳細設定"
 msgid "Advanced Settings"
 msgstr "詳細設定"
 
-#
 # File: /usr/lang/src/models.php, line: 46
 msgid "Advertisements"
-msgstr ""
+msgstr "広告"
 
 msgid "Aliases"
 msgstr "エイリアス"
@@ -22906,10 +22868,9 @@ msgstr "リストから有効な証明書を選択してください"
 msgid "Please select a valid certificate from the list."
 msgstr "リストから有効な証明書を選択してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 182
 msgid "Please select a valid pattern matcher algorithm"
-msgstr ""
+msgstr "有効な pattern matcher アルゴリズムを選択してください。"
 
 # File: /usr/lang/src/models.php, line: 181
 msgid "Please select a valid rotation"
@@ -22919,12 +22880,13 @@ msgstr "有効なローテーションを選択してください"
 msgid "Please specify a valid servername or IP address."
 msgstr "有効なサーバ名もしくは IP アドレスを指定してください。"
 
-#
 # File: /usr/lang/src/models.php, line: 185
 msgid ""
 "Please specify a valid source address, i.e. 10.0.0.1 or loadbalancer.example."
 "com:50000. Port range as start-end, i.e. 10.0.0.1:50000-60000."
 msgstr ""
+"有効な送信元アドレスを指定してください。例 10.0.0.1、loadbalancer.example.com:50000。"
+"ポート範囲は「先頭-末尾」として書きます。例 10.0.0.1:50000-60000。"
 
 # File: /usr/lang/src/models.php, line: 183
 msgid "Please specify a value between 0 and 1024."
@@ -23007,10 +22969,9 @@ msgstr "プールのステータス"
 msgid "Port Forward"
 msgstr "ポートフォワード"
 
-#
 # File: /usr/lang/src/models.php, line: 206
 msgid "Power"
-msgstr ""
+msgstr "電源"
 
 # File: /usr/lang/src/models.php, line: 203
 msgid "Power Off"
