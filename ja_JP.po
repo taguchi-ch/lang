@@ -577,7 +577,7 @@ msgid ""
 "this depth. Useful for denying certificates made with intermediate CAs "
 "generated from the same CA as the server."
 msgstr ""
-"証明書ベースのクライアントがログインする時に、この深さ以下の証明書を受け入れ"
+"証明書ベースのクライアントがログインする時に、この階層以下の証明書を受け入れ"
 "ません。サーバと同じ CA から生成された、中間 CA が作成した証明書を拒否する場"
 "合に便利です。"
 
@@ -606,7 +606,7 @@ msgid "Do Not Check"
 msgstr "確認しない"
 
 msgid "Certificate Depth"
-msgstr "証明書の深さ"
+msgstr "証明書の階層"
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 957
 msgid ""
@@ -803,7 +803,7 @@ msgstr "外部認証の証明書"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 623
 msgid "Certificate (SSL/TLS, no Auth)"
-msgstr "証明書 ( SSL/TLS, 認証なし )"
+msgstr "証明書 ( SSL/TLS、認証なし )"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 614
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 646
@@ -11085,7 +11085,6 @@ msgstr ""
 "ハッシュにはイーサネットの送信元及び送信先アドレス、及び利用可能であれば、"
 "VLAN タグや、IP 送信元アドレス及び IP 送信先アドレスを含みます。"
 
-
 msgid "loadbalance"
 msgstr "ロードバランス"
 
@@ -11100,13 +11099,11 @@ msgid ""
 "in physical connectivity, Link Aggregation will quickly converge to a new "
 "configuration."
 msgstr ""
-"IEEE 802.3ad リンクアグリゲーションコントロールプロトコル (LACP) 及び、マー"
-"カープロトコルに対応しています。LACP は、1 セットに集約可能なピアとのリンク"
-"を、1 つ以上のリンク集約グループにネゴシエートします。どの LAG も同じ速度の"
-"ポートで構成され、全二重通信に設定されます。トラフィックは LAG の合計速度が最"
-"大になるようにポート全体でバランスが調整されます。通常は、全ポートで 1 つの "
-"LAG のみを構成します。物理的な接続に変更が発生すると、リンクアグリゲーション"
-"は、すぐさま、新しい構成に収束します。"
+"IEEE 802.3ad リンクアグリゲーションコントロールプロトコル (LACP) 及び、マーカープロトコルに対応しています。"
+"LACP は、1 セットに集約可能なピアとのリンクを、1 つ以上のリンク集約グループにネゴシエートします。"
+"どの LAG も同じ速度のポートで構成され、全二重通信に設定されます。トラフィックは LAG に含まれるポート全体で"
+"合計速度が最大になるようにバランスが調整されます。通常は全ポートで 1 つの LAG のみを構成します。"
+"物理的な接続に変更が発生すると、リンクアグリゲーションはすぐさま新しい構成に収束します。"
 
 msgid "lacp"
 msgstr "LACP"
