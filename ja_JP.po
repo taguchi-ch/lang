@@ -247,30 +247,25 @@ msgstr ""
 msgid "DISABLED"
 msgstr "無効"
 
-#
 # File: /usr/core/src/www/widgets/include/wake_on_lan.inc, line: 3
 msgid "Wake On Lan"
-msgstr ""
+msgstr "Wake-on-LAN"
 
-#
 # File: /usr/core/src/www/widgets/include/system_log.inc, line: 3
 msgid "System Log"
-msgstr ""
+msgstr "システムログ"
 
-#
 # File: /usr/core/src/www/widgets/include/log.inc, line: 3
 msgid "Firewall Logs"
-msgstr ""
+msgstr "ファイアウォールログ"
 
-#
 # File: /usr/core/src/www/widgets/include/interface_statistics.inc, line: 3
 msgid "Interface Statistics"
-msgstr ""
+msgstr "インタフェース統計"
 
-#
 # File: /usr/core/src/www/widgets/include/carp_status.inc, line: 3
 msgid "CARP"
-msgstr ""
+msgstr "CARP"
 
 # File: /usr/core/src/www/widgets/api/plugins/temperature.inc, line: 43
 msgid "Core"
@@ -303,7 +298,6 @@ msgstr "サーバの編集"
 msgid "Protocol / Port"
 msgstr "プロトコル/ポート"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1553
 #, php-format
 msgid ""
@@ -312,11 +306,13 @@ msgid ""
 "because your password is not valid anymore.%sSet to 0 to disable, remember "
 "to change your client as well."
 msgstr ""
+"n 秒後 ( デフォルトは 3600 ) にデータチャンネル鍵を再ネゴシエートします。"
+"%sワンタイムパスワードを使用している場合、パスワードが無効になるため接続が自動的に落ちることになるため注意してください。%s"
+"無効にするには 0 を設定し、クライアントも同じように変更してください。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1548
 msgid "Renegotiate time"
-msgstr ""
+msgstr "再ネゴシエート時間"
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1686
 #, php-format
@@ -348,17 +344,16 @@ msgstr ""
 "OpenVPN サーバ構成に追加する、追加オプションをここに入力してください。セミコ"
 "ロン区切りです。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1495
 msgid ""
 "When using a client certificate, use certificate common name for indexing "
 "purposes instead of username"
 msgstr ""
+"クライアント証明書を使用する場合、インデックスの用途としてユーザ名ではなく証明書のコモンネームを使用します。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1490
 msgid "Use common name"
-msgstr ""
+msgstr "コモンネームを使用"
 
 # File: src/www/vpn_openvpn_server.php, line: 1898
 msgid ""
@@ -563,12 +558,12 @@ msgstr ""
 "レスは、オプションで、クライアントの接続に割り当てることができます。( アドレ"
 "スプールを参照 )"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1031
 msgid ""
 "When authenticating users, enforce a match between the Common Name of the "
 "client certificate and the username given at login."
 msgstr ""
+"ユーザの認証時に、クライアント証明書のコモンネームとログイン時に入力するユーザ名が一致するよう強制します。"
 
 msgid "Strict User/CN Matching"
 msgstr "厳格なユーザ / CN マッチング"
@@ -654,10 +649,9 @@ msgstr "本当にこのサーバを削除しますか？"
 msgid "add server"
 msgstr "サーバを追加"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 322
 msgid "Renegotiate time should contain a valid number of seconds."
-msgstr ""
+msgstr "再ネゴシエート時間は有効な数字を秒単位で指定してください。"
 
 msgid "The Server Bridge DHCP range is invalid (start higher than end)."
 msgstr ""
@@ -745,24 +739,21 @@ msgstr "OpenVPN For Android"
 msgid "OpenVPN Community Client"
 msgstr "OpenVPN コミュニティクライアント"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1506
 msgid "Binaries for Windows, Source for other platforms."
-msgstr ""
+msgstr "Windows 用はバイナリ、その他のプラットフォーム用はソースコードです。"
 
 # File: src/www/vpn_openvpn_export.php, line: 960
 msgid "Viscosity"
 msgstr "Viscosity"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1505
 msgid "Recommended client for Mac OSX and Windows"
-msgstr ""
+msgstr "Mac OSX 及び Windows の推奨クライアント"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1503
 msgid "Links to OpenVPN clients"
-msgstr ""
+msgstr "OpenVPN クライアントへのリンク"
 
 # File: src/www/vpn_openvpn_export.php, line: 948
 msgid ""
@@ -814,26 +805,23 @@ msgstr "外部認証の証明書"
 msgid "Certificate (SSL/TLS, no Auth)"
 msgstr "証明書 ( SSL/TLS、認証なし )"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1403
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1430
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1468
 msgid "Viscosity Bundle (Windows)"
-msgstr ""
+msgstr "Viscosity Bundle (Windows)"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1402
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1429
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1467
 msgid "Viscosity Bundle (OSX)"
-msgstr ""
+msgstr "Viscosity Bundle (OSX)"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1401
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1428
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1466
 msgid "Mac OSX / Windows"
-msgstr ""
+msgstr "Mac OSX / Windows"
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 605
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 637
