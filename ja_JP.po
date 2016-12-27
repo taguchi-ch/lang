@@ -390,9 +390,8 @@ msgid ""
 "Android). Others may break if it is present, such as older versions of "
 "OpenVPN or clients such as Yealink phones."
 msgstr ""
-"一部のクライアントでは、OpenVPN 接続等で IPv6 を使用する際にも必要"
-"となります。(iOS/Android)現時点では、その他の場合、OpenVPN の古いバージョン"
-"や、Yealink 製携帯電話機のようなクライアントでは動作しません。"
+"一部のクライアントでは、OpenVPN 接続等で IPv6 を使用する際にも必要となります(iOS/Android)。"
+"現時点では、OpenVPN の古いバージョンや Yealink 製携帯電話機のようなクライアント等の場合は動作しません。"
 
 msgid ""
 "Relevant when supplying a virtual adapter IP address to clients when using "
@@ -1778,7 +1777,7 @@ msgid ""
 "The field 'Server host or address' must contain a valid IP address or domain "
 "name."
 msgstr ""
-"「サーバホストもしくはアドレスフィールド」には有効な IP アドレスもしくはドメイ"
+"「サーバホストもしくはアドレス」フィールドには有効な IP アドレスもしくはドメイ"
 "ン名を設定してください。"
 
 msgid "The specified 'Local port' is in use. Please select another value"
@@ -4512,7 +4511,7 @@ msgstr "このタイプの subjectAltName にはメールアドレスを入力�
 
 # File: src/www/system_certmanager.php, line: 334
 msgid "IP subjectAltName values must be valid IP Addresses"
-msgstr "IP subjectAltName 値は、有効な IP アドレスである必要があります"
+msgstr "IP subjectAltName 値は有効な IP アドレスである必要があります"
 
 # File: src/www/system_certmanager.php, line: 329
 msgid "DNS subjectAltName values must be valid hostnames or FQDNs"
