@@ -1796,14 +1796,14 @@ msgid ""
 "An IPv6 protocol was selected, but the selected interface has no IPv6 "
 "address."
 msgstr ""
-"IPv6 プロトコルが選択されましたが、選択したインタフェースは IPv6 アドレスでは"
+"IPv6 プロトコルが選択されましたが、選択したインタフェースに割り当てられているアドレスは IPv6 では"
 "ありません。"
 
 msgid ""
 "An IPv4 protocol was selected, but the selected interface has no IPv4 "
 "address."
 msgstr ""
-"IPv4 プロトコルが選択されましたが、選択したインタフェースは IPv4 アドレスでは"
+"IPv4 プロトコルが選択されましたが、選択したインタフェースに割り当てられているアドレスは IPv4 では"
 "ありません。"
 
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 202
@@ -2728,10 +2728,10 @@ msgid "failed"
 msgstr "失敗しました"
 
 msgid "Organization units found"
-msgstr "組織単位が見つかりました"
+msgstr "部門名が見つかりました"
 
 msgid "Attempting to fetch Organizational Units from"
-msgstr "組織単位の取得を試みています: "
+msgstr "部門名の取得を試みています: "
 
 # File: src/www/widgets/widgets/smart_status.widget.php, line: 58
 msgid "OK"
@@ -4429,7 +4429,7 @@ msgstr "IT 部門"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1069
 msgid "Organizational Unit"
-msgstr "組織単位"
+msgstr "部門名"
 
 msgid "External Signing Request"
 msgstr "外部署名要求"
