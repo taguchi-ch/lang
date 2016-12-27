@@ -390,7 +390,7 @@ msgid ""
 "Android). Others may break if it is present, such as older versions of "
 "OpenVPN or clients such as Yealink phones."
 msgstr ""
-"一部のクライアントでは、OpenVPN 接続のような場合で IPv6 を使用する際にも必要"
+"一部のクライアントでは、OpenVPN 接続等で IPv6 を使用する際にも必要"
 "となります。(iOS/Android)現時点では、その他の場合、OpenVPN の古いバージョン"
 "や、Yealink 製携帯電話機のようなクライアントでは動作しません。"
 
@@ -672,7 +672,7 @@ msgstr ""
 msgid ""
 "Using a tunnel network and server bridge settings together is not allowed."
 msgstr ""
-"トンネルネットワーク、及び、サーバブリッジ設定を、併せて使用することはできま"
+"トンネルネットワーク及びサーバブリッジ設定を併せて使用することはできま"
 "せん。"
 
 msgid "Tunnel network"
@@ -887,7 +887,6 @@ msgstr ""
 msgid "Additional configuration options"
 msgstr "追加構成オプション"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1353
 msgid ""
 "This will change the generated .ovpn configuration to allow for usage of the "
@@ -895,11 +894,13 @@ msgid ""
 "administrator users. This is also useful for Windows systems where elevated "
 "permissions are needed to add routes to the system."
 msgstr ""
+"生成された .ovpn 構成を、管理インタフェースの使用を許可するように変更します。"
+"この設定を使用すると、OpenVPN を管理者ではないユーザでも使用することができます。"
+"システムにルートを追加するのに権限の昇格が必要な Windows システムでも有用です。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1349
 msgid "Management Interface OpenVPN Manager"
-msgstr ""
+msgstr "OpenVPN Manager 管理インタフェース"
 
 # File: src/www/vpn_openvpn_export.php, line: 748
 # File: src/www/vpn_openvpn_export.php.orig, line: 748
@@ -1046,15 +1047,13 @@ msgstr ""
 msgid "Installation hostname"
 msgstr "インストールホスト名"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1237
 msgid "Automatic Multi-WAN dynamic DNS Hostnames (port forward targets)"
-msgstr ""
+msgstr "マルチ WAN ダイナミック DNS ホスト名を自動化 ( ポートフォワードの対象です )"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 1236
 msgid "Automatic Multi-WAN IPs (port forward targets)"
-msgstr ""
+msgstr "マルチ WAN IP を自動化 ( ポートフォワードの対象です )"
 
 # File: src/www/vpn_openvpn_export.php, line: 653
 # File: src/www/vpn_openvpn_export.php.orig, line: 653
@@ -1090,10 +1089,9 @@ msgstr "プロキシユーザにパスワードを指定してください。"
 msgid "You need to specify a username with the proxy config."
 msgstr "プロキシ構成でユーザ名を指定してください。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 958
 msgid "You need to specify a port for the proxy IP."
-msgstr ""
+msgstr "プロキシ IP にポートを指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 163
 # File: src/www/vpn_openvpn_export_shared.php, line: 88
@@ -1170,7 +1168,6 @@ msgstr ""
 "クライアント固有の上書きに追加する、追加オプションを入力してください。セミコ"
 "ロン区切りです。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 643
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1445
 msgid ""
@@ -1178,6 +1175,10 @@ msgid ""
 "IP. The NetBIOS Scope ID isolates NetBIOS traffic on a single network to "
 "only those nodes with the same NetBIOS Scope ID."
 msgstr ""
+"NetBIOS スコープ ID は NetBIOS over TCP/IP に対する拡張名前サービスを提供しま"
+"す。NetBIOS スコープ ID は単一ネットワークの NetBIOS トラフィックを、同じ "
+"NetBIOS スコープ ID のノードのみに分離します。"
+
 
 # File: src/www/vpn_openvpn_csc.php, line: 547
 # File: src/www/vpn_openvpn_server.php, line: 1595
@@ -1305,11 +1306,10 @@ msgstr ""
 "この特定のクライアントからアクセス可能になる IPv6 ネットワークです。1 つ以上"
 "の IP/PREFIX ネットワークのカンマ区切りリストとして表記します。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 499
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1171
 msgid "IPv6 Local Network"
-msgstr ""
+msgstr "IPv6 ローカルネットワーク"
 
 # File: src/www/vpn_openvpn_csc.php, line: 454
 # File: src/www/vpn_openvpn_csc.php, line: 464
@@ -1328,11 +1328,10 @@ msgstr ""
 "この特定のクライアントからアクセス可能になる IPv4 ネットワークです。1 つ以上"
 "の CIDR 範囲のカンマ区切りリストとして表記します。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 487
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1157
 msgid "IPv4 Local Network"
-msgstr ""
+msgstr "IPv4 ローカルネットワーク"
 
 msgid ""
 "This is the IPv6 virtual network used for private communications between "
@@ -1551,12 +1550,11 @@ msgstr ""
 "ト LAN をここに入力してください。他のクライアントとの通信しか行わない場合は、"
 "空白にしてください。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 927
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 527
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1200
 msgid "IPv6 Remote Network"
-msgstr ""
+msgstr "IPv6 リモートネットワーク"
 
 msgid ""
 "These are the IPv4 networks that will be routed through the tunnel, so that "
@@ -1571,12 +1569,11 @@ msgstr ""
 "ト LAN をここに入力してください。他のクライアントとの通信しか行わない場合は、"
 "空白にしてください。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 912
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 511
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1185
 msgid "IPv4 Remote Network"
-msgstr ""
+msgstr "IPv4 リモートネットワーク"
 
 msgid ""
 "This is the IPv6 virtual network used for private communications between "
@@ -1584,15 +1581,14 @@ msgid ""
 "network address is assumed to be the server address and the second network "
 "address will be assigned to the client virtual interface"
 msgstr ""
-"このクライアントとサーバ間の、プライベート通信に使用される IPv6 仮想ネット"
+"このクライアントとサーバ間のプライベート通信に使用される IPv6 仮想ネット"
 "ワークで、CIDR ( 例: fe80::/64 ) を使用して表記します。最初のネットワークアド"
-"レスは、サーバアドレスと見なされ、2 番目のネットワークアドレスは、クライアン"
+"レスはサーバアドレスと見なされ、2 番目のネットワークアドレスは、クライアン"
 "トの仮想インタフェースに割当てられます。"
 
 msgid "IPv6 Tunnel Network"
 msgstr "IPv6 トンネルネットワーク"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 886
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 461
 msgid ""
@@ -1601,6 +1597,10 @@ msgid ""
 "network address is assumed to be the server address and the second network "
 "address will be assigned to the client virtual interface"
 msgstr ""
+"このクライアントとサーバ間のプライベート通信に使用される IPv4 仮想ネッ"
+"トワークで、CIDR ( 例: 10.0.8.0/24 ) を使用して表記します。"
+"最初のネットワークアドレスはサーバアドレスと見なされ、2 番目のネットワークアドレスは、クライアン"
+"トの仮想インタフェースに割当てられます。"
 
 msgid "IPv4 Tunnel Network"
 msgstr "IPv4 トンネルネットワーク"
@@ -1751,41 +1751,46 @@ msgstr "帯域幅制限は、正の数値です"
 msgid "User name and password are required for proxy with authentication."
 msgstr "認証付きプロキシには、ユーザ名とパスワードが必要です。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 230
 msgid ""
 "The field 'Proxy port' must contain a valid port, ranging from 0 to 65535."
 msgstr ""
+"「プロキシポート」フィールドには有効なポートを設定してください。範囲は 0 - "
+"65535 です。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 227
 msgid ""
 "The field 'Proxy host or address' must contain a valid IP address or domain "
 "name."
 msgstr ""
+"「プロキシホストもしくはアドレス」フィールドには有効な IP アドレスもしくはドメ"
+"イン名を設定してください。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 222
 msgid ""
 "The field 'Server port' must contain a valid port, ranging from 0 to 65535."
 msgstr ""
+"「サーバポート」フィールドには有効なポートを設定してください。範囲は 0 - 65535 "
+"です。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 218
 msgid ""
 "The field 'Server host or address' must contain a valid IP address or domain "
 "name."
 msgstr ""
+"「サーバホストもしくはアドレスフィールド」には有効な IP アドレスもしくはドメイ"
+"ン名を設定してください。"
 
 msgid "The specified 'Local port' is in use. Please select another value"
 msgstr ""
 "指定された「ローカルポート」は使用されています。別の値を選択してください"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 210
 msgid ""
 "The field 'Local port' must contain a valid port, ranging from 0 to 65535."
 msgstr ""
+"「ローカルポート」フィールドには有効なポートを設定してください。範囲は 0 - "
+"65535 です。"
 
 msgid ""
 "An IPv6 protocol was selected, but the selected interface has no IPv6 "
@@ -1801,31 +1806,33 @@ msgstr ""
 "IPv4 プロトコルが選択されましたが、選択したインタフェースは IPv4 アドレスでは"
 "ありません。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 202
 msgid ""
 "Protocol and IP address families do not match. You cannot select an IPv4 "
 "protocol and an IPv6 address."
 msgstr ""
+"プロトコルと IP アドレスファミリが一致しません。IPv4 プロトコルと IPv6 ア"
+"ドレスは選択できません。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 200
 msgid ""
 "Protocol and IP address families do not match. You cannot select an IPv6 "
 "protocol and an IPv4 address."
 msgstr ""
+"プロトコルと IP アドレスファミリが一致しません。IPv6 プロトコルと IPv4 ア"
+"ドレスは選択できません。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 173
 msgid ""
 "Launch IPsec in debug mode so that more verbose logs will be generated to "
 "aid in troubleshooting."
 msgstr ""
+"IPsec をデバッグモードで起動し、トラブルシューティングに役立つより詳細なロ"
+"グを生成させます。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 155
 msgid "Start IPsec in debug mode based on sections selected"
-msgstr ""
+msgstr "IPsec を選択したセクションに基づいたデバックモードで起動"
 
 msgid "IPsec Debug"
 msgstr "IPsec デバッグ"
@@ -1835,8 +1842,8 @@ msgid ""
 "least 30 seconds old. Select this option to always prefer old SAs over new "
 "ones."
 msgstr ""
-"デフォルトでは、複数の SA が一致した場合、30 秒以上経過している SA の中で一番"
-"新しいものが優先されます。このオプションを選択すると、新しいものではなく、常"
+"デフォルトでは、複数の SA が一致した場合 30 秒以上経過している SA の中で一番"
+"新しいものが優先されます。このオプションを選択すると、新しいものではなく常"
 "に古い SA を優先します。"
 
 msgid "Prefer older IPsec SAs"
@@ -1852,13 +1859,14 @@ msgstr "全ての自動追加 VPN ルールを無効"
 msgid "Disable Auto-added VPN rules"
 msgstr "自動追加 VPN ルールを無効"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 127
 msgid ""
 "By default, if IPsec is enabled negating SPD are inserted to provide "
 "protection. This behaviour can be changed by enabling this setting which "
 "will prevent installing these SPDs."
 msgstr ""
+"デフォルトでは、IPsec が有効な場合、保護を提供するために否定の SPD が挿入され"
+"ます。この設定を有効にすると、この振る舞いを変更し、これらの SPD のインストールを防ぎます。"
 
 # File: src/www/vpn_ipsec_settings.php, line: 175
 msgid "Do not install LAN SPD"
@@ -1868,10 +1876,9 @@ msgstr "LAN SPD をインストールしない"
 msgid "LAN security associations"
 msgstr "LAN セキュリティアソシエーション"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 115
 msgid "IPsec Advanced Settings"
-msgstr ""
+msgstr "IPsec 詳細設定"
 
 msgid "Automatically ping host"
 msgstr "自動的に ping をするホスト"
@@ -2096,17 +2103,16 @@ msgstr "強制"
 msgid "NAT Traversal"
 msgstr "NAT トラバーサル"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 930
 msgid ""
 "This option will create a tunnel for each phase 2 entry for IKEv2 "
 "interoperability with e.g. FortiGate devices."
 msgstr ""
+"このオプションは IKEv2 の相互運用用途でフェーズ 2 毎にトンネルを作成します。例 FortiGate デバイス"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 926
 msgid "Tunnel Isolation"
-msgstr ""
+msgstr "トンネルの分離"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 994
 msgid ""
@@ -2229,12 +2235,13 @@ msgstr ""
 msgid "Key Exchange version"
 msgstr "鍵交換バージョン"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 540
 msgid ""
 "Choose the connect behaviour here, when using CARP you might want to "
 "consider the 'Respond only' option here (wait for the other side to connect)."
 msgstr ""
+"接続の振る舞いをここで選択します。CARP を使用している場合は「応答の"
+"み」オプションを検討したいかもしれません ( 接続する相手方を待ちます )。"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 613
 msgid "Start immediate"
@@ -2531,22 +2538,20 @@ msgstr "ユーザ認証元"
 msgid "Group Authentication Source"
 msgstr "グループ認証元"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_keys_edit.php, line: 164
 msgid "EAP"
-msgstr ""
+msgstr "EAP"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_keys_edit.php, line: 163
 msgid "PSK"
-msgstr ""
+msgstr "PSK"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_keys_edit.php, line: 149
 msgid ""
 "This can be either an IP address, fully qualified domain name or an email "
 "address."
 msgstr ""
+"IP アドレス、完全修飾ドメイン名、もしくはメールアドレスのいずれかが使用可能です。"
 
 msgid "Added"
 msgstr "追加済"
@@ -2902,17 +2907,16 @@ msgstr "保存でリダイレクト"
 msgid "Click to create a user certificate."
 msgstr "クリックすると、ユーザ証明書を作成します。"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 809
 msgid ""
 "Manage API keys here for machine to machine interaction using this user's "
 "credentials."
 msgstr ""
+"このユーザの資格情報を使用したマシン間相互通信の API 鍵を管理します。"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 800
 msgid "Create API key"
-msgstr ""
+msgstr "API 鍵を作成"
 
 # File: src/www/system_usermanager.php, line: 907
 msgid "delete API key"
@@ -2951,16 +2955,14 @@ msgstr "ユーザ証明書"
 msgid "edit privileges"
 msgstr "権限を編集"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 681
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 213
 msgid "GUI"
-msgstr ""
+msgstr "GUI"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 669
 msgid "Inherited from"
-msgstr ""
+msgstr "継承元"
 
 msgid "Effective Privileges"
 msgstr "有効な権限"
@@ -3020,10 +3022,9 @@ msgstr "そのユーザ名は、システムに予約されています"
 msgid "Another entry with the same username already exists."
 msgstr "同じユーザ名のエントリは既に存在しています"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 240
 msgid "You cannot disable yourself."
-msgstr ""
+msgstr "自分自身を無効にすることはできません。"
 
 msgid "The passwords do not match."
 msgstr "パスワードが一致しません"
@@ -3035,28 +3036,24 @@ msgstr "ユーザ名が 16 文字を超えています"
 msgid "No API key found"
 msgstr "API 鍵が見つかりません"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 207
 #, php-format
 msgid "The API key \"%s\" was successfully removed."
-msgstr ""
+msgstr "API 鍵「%s」の削除に成功しました。"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 185
 #, php-format
 msgid "The certificate association \"%s\" was successfully removed."
-msgstr ""
+msgstr "証明書の関連付け「%s」の削除に成功しました。"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 175
 #, php-format
 msgid "The user \"%s\" was successfully removed."
-msgstr ""
+msgstr "ユーザ「%s」の削除に成功しました。"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 169
 msgid "You cannot delete yourself."
-msgstr ""
+msgstr "自分自身を削除することはできません。"
 
 msgid ""
 "Set this option to disable this static route without removing it from the "
@@ -3550,10 +3547,9 @@ msgstr ""
 "使用されます。そのため、検索の実行にローカル DNS サービスを使用できます。この"
 "ボックスをチェックすると、DNS サーバのリストから localhost を削除します。"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 447
 msgid "Do not use the DNS Forwarder/Resolver as a DNS server for the firewall"
-msgstr ""
+msgstr "ファイアウォールに DNS フォワーダ / リゾルバを DNS サーバとして使用しない"
 
 # File: /usr/core/src/www/system_general.php, line: 442
 msgid ""
@@ -4327,11 +4323,10 @@ msgstr "証明書と CRL の CA が一致しません。失効できません。
 msgid "Both the Certificate and CRL must be specified."
 msgstr "証明書と CRL を両方とも指定してください"
 
-#
 # File: /usr/core/src/www/system_crlmanager.php, line: 188
 #, php-format
 msgid "Failed to delete certificate %s from CRL %s"
-msgstr ""
+msgstr "証明書 %s は CRL %s から削除できませんでした"
 
 #, php-format
 msgid "Certificate Revocation List %s is in use and cannot be deleted"
@@ -4428,15 +4423,13 @@ msgstr "既存の証明書"
 msgid "Choose an Existing Certificate"
 msgstr "既存の証明書を選択"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1075
 msgid "IT department"
-msgstr ""
+msgstr "IT 部門"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1069
 msgid "Organizational Unit"
-msgstr ""
+msgstr "組織単位"
 
 msgid "External Signing Request"
 msgstr "外部署名要求"
@@ -4507,21 +4500,19 @@ msgstr "未確認の subjectAltName タイプです。"
 
 # File: src/www/system_certmanager.php, line: 348
 msgid "URI subjectAltName types must be a valid URI"
-msgstr "URI subjectAltName タイプは、有効な URI です"
+msgstr "URI subjectAltName タイプは有効な URI である必要があります"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 366
 msgid "The email provided in a subjectAltName contains invalid characters."
-msgstr ""
+msgstr "subjectAltName の メールアドレスに無効な文字が含まれています。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 363
 msgid "You must provide an email address for this type of subjectAltName"
-msgstr ""
+msgstr "このタイプの subjectAltName にはメールアドレスを入力してください"
 
 # File: src/www/system_certmanager.php, line: 334
 msgid "IP subjectAltName values must be valid IP Addresses"
-msgstr "IP subjectAltName 値は、有効な IP アドレスです"
+msgstr "IP subjectAltName 値は、有効な IP アドレスである必要があります"
 
 # File: src/www/system_certmanager.php, line: 329
 msgid "DNS subjectAltName values must be valid hostnames or FQDNs"
@@ -4678,10 +4669,9 @@ msgid ""
 msgstr ""
 "本当にこの認証局、CRL、及び、参照されていない関連証明書全てを削除しますか？"
 
-#
 # File: /usr/core/src/www/system_camanager.php, line: 415
 msgid "Add or import CA"
-msgstr ""
+msgstr "CA を追加もしくはインポート"
 
 # File: src/www/system_camanager.php, line: 381
 # File: src/www/system_camanager.php, line: 395
@@ -4789,12 +4779,11 @@ msgstr "認証とアカウンティング"
 msgid "Services offered"
 msgstr "提供するサービス"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 609
 msgid ""
 "Typically \"cn\" (OpenLDAP, Novell eDirectory), \"sAMAccountName"
 "\" (Microsoft AD)"
-msgstr ""
+msgstr "通常は「cn」( OpenLDAP、Novell eDirectory )、「sAMAccountName」( Microsoft AD )"
 
 msgid "User naming attribute"
 msgstr "ユーザネーミング属性"
