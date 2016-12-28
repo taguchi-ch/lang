@@ -4805,12 +4805,11 @@ msgstr "初期テンプレート"
 msgid "Extended Query"
 msgstr "拡張クエリ"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 576
 msgid ""
 "Semicolon-separated list of distinguished names optionally containing DC= "
 "components."
-msgstr ""
+msgstr "識別名のリストはセミコロン区切りです。オプションで DC= コンポーネントを含められます。"
 
 msgid "Select"
 msgstr "選択"
@@ -4818,10 +4817,9 @@ msgstr "選択"
 msgid "Authentication containers"
 msgstr "認証コンテナ"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 562
 msgid "Base DN"
-msgstr ""
+msgstr "ベース DN"
 
 # File: src/www/system_authservers.php, line: 539
 msgid "Entire Subtree"
@@ -5015,50 +5013,42 @@ msgstr "起動 / シャットダウン音"
 msgid "System Sounds"
 msgstr "システム音"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 282
 msgid "Enter the email address password for SMTP authentication."
-msgstr ""
+msgstr "SMTP 認証用にメールアドレスのパスワードを入力してください。"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 277
 msgid "Email auth password"
-msgstr ""
+msgstr "電子メールパスワード認証"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 272
 msgid "Enter the email address username for SMTP authentication."
-msgstr ""
+msgstr "SMTP 認証用にメールアドレスのユーザ名を入力してください。"
 
 msgid "(optional)"
 msgstr "( オプション )"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 267
 msgid "Email auth username"
-msgstr ""
+msgstr "電子メールユーザ名認証"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 262
 msgid ""
 "Enter the email address that you would like email notifications sent to."
-msgstr ""
+msgstr "通知メールを送信するメールアドレスを入力してください。"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 258
 msgid "Recipient address"
-msgstr ""
+msgstr "受信アドレス"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 253
 msgid ""
 "This is the email address that will appear as the email notification sender."
-msgstr ""
+msgstr "このメールアドレスは通知メールの送信者として表示されます。"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 249
 msgid "Sender address"
-msgstr ""
+msgstr "送信者アドレス"
 
 # File: src/www/system_advanced_notifications.php, line: 287
 msgid "Enable STARTTLS"
@@ -5071,29 +5061,29 @@ msgstr "SMTP over SSL/TLS を有効"
 msgid "Secure SMTP Connection"
 msgstr "セキュア SMTP 接続"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 235
 msgid ""
 "This is the port of the SMTP Email server, typically 25, 587 (submission) or "
 "465 (smtps)"
 msgstr ""
+"これは SMTP メールサーバのポートです。通常は 25、587 ( サブミッション )、もし"
+"くは 465 ( smtps ) です。"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 231
 msgid "SMTP Port of Email server"
-msgstr ""
+msgstr "メールサーバの SMTP ポート"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 226
 msgid ""
 "This is the FQDN or IP address of the SMTP Email server to which "
 "notifications will be sent."
 msgstr ""
+"通知を送信する SMTP メールサーバの FQDN もしくは IP アドレスを入力してくださ"
+"い。"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 222
 msgid "Email server"
-msgstr ""
+msgstr "メールサーバ"
 
 # File: src/www/system_advanced_notifications.php, line: 260
 msgid ""
@@ -5108,10 +5098,9 @@ msgstr ""
 msgid "Disable SMTP Notifications"
 msgstr "SMTP 通知を無効"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 210
 msgid "SMTP Email"
-msgstr ""
+msgstr "SMTP メール"
 
 msgid "Enter the password of the remote growl notification device."
 msgstr "リモート Growl 通知デバイスのパスワードを入力してください。"
@@ -5259,12 +5248,13 @@ msgstr "ハードウェアチェックサムオフロードを無効"
 msgid "Hardware CRC"
 msgstr "ハードウェア CRC"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 446
 msgid ""
 "Set this if you wish to use /tmp as a RAM disk (memory file system disk) "
 "rather than using the hard disk."
 msgstr ""
+"ハードディスクを使用するのではなく /tmp を RAM ディスク ( メモリファイルシステムディスク ) "
+"として使用したい場合はこれを設定してください。"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 414
 msgid "Use memory file system for /tmp"
@@ -5274,38 +5264,37 @@ msgstr "/tmp をメモリファイルシステムとして使用"
 msgid "/tmp RAM disk"
 msgstr "/tmp RAM ディスク"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 435
 msgid ""
 "Set this if you wish to use /var as a RAM disk (memory file system disks) "
 "rather than using the hard disk. Setting this will cause the data /var to be "
 "lost on reboot, including log data."
 msgstr ""
+"ハードディスクを使用するのではなく /var を RAM ディスク ( メモリファイルシステムディスク ) "
+"として使用したい場合はこれを設定してください。"
+"この設定は再起動時に /var にあるログデータも含むデータが失われる原因になります。"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 433
 msgid "Use memory file system for /var"
-msgstr ""
+msgstr "/var をメモリファイルシステムとして使用"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 430
 msgid "/var RAM disk"
-msgstr ""
+msgstr "/var RAM ディスク"
 
 msgid "RAM Disk Settings (Reboot to Apply Changes)"
 msgstr "RAM ディスク設定 ( 再起動で変更を適用します )"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 422
 msgid ""
 "If the powerd utility can not determine the power state it uses \"normal\" "
 "for control."
 msgstr ""
+"powerd ユーティリティが電源の状態を判別できない場合、「通常」をコントロールに使用します。"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 405
 msgid "On Normal Power Mode"
-msgstr ""
+msgstr "通常電源モードをオン"
 
 msgid "On Battery Power Mode"
 msgstr "バッテリ電源モードをオン"
