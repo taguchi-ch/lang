@@ -5019,7 +5019,7 @@ msgstr "SMTP 認証用にメールアドレスのパスワードを入力して�
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 277
 msgid "Email auth password"
-msgstr "電子メールパスワード認証"
+msgstr "電子メール認証パスワード"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 272
 msgid "Enter the email address username for SMTP authentication."
@@ -5030,7 +5030,7 @@ msgstr "( オプション )"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 267
 msgid "Email auth username"
-msgstr "電子メールユーザ名認証"
+msgstr "電子メール認証ユーザ名"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 262
 msgid ""
@@ -5601,17 +5601,15 @@ msgstr "ファイアウォールテーブルエントリの最大数"
 msgid "Note: Leave this blank for the default."
 msgstr "注意: 空白にするとデフォルトになります。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 496
 msgid ""
 "Sets the maximum number of entries in the memory pool used for fragment "
 "reassembly."
-msgstr ""
+msgstr "フラグメント再構成に使用する、メモリプールの最大エントリ数を設定してください。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 492
 msgid "Firewall Maximum Fragments"
-msgstr ""
+msgstr "ファイアウォール最大フラグメント"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 508
 msgid ""
@@ -5954,13 +5952,12 @@ msgstr "ファイアウォールテーブルエントリの最大値は整数で
 msgid "The Aliases Hostname Resolve Interval value must be an integer."
 msgstr "エイリアスホスト名解決間隔値は整数です。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 88
 msgid "The Firewall Maximum Frags value must be an integer."
-msgstr ""
+msgstr "ファイアウォールフラグの最大値は整数です。"
 
 msgid "The Firewall Maximum States value must be an integer."
-msgstr "ファイアウォールステータスの最大値は整数です"
+msgstr "ファイアウォールステータスの最大値は整数です。"
 
 msgid "The Firewall Adaptive End value must be an integer."
 msgstr "ファイアウォール適応終了値は整数です。"
@@ -5971,32 +5968,28 @@ msgstr "ファイアウォール適応開始値は整数です。"
 msgid "The Firewall Adaptive values must be set together."
 msgstr "ファイアウォール適応値を、併せて設定してください。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 573
 msgid ""
 "Disable OPNsense integrated authentication module for console access, "
 "falling back to normal unix authentication."
 msgstr ""
+"コンソールアクセスに対する OPNsense 統合認証モジュールを無効にする場合、通常の UNIX 認証が適用されます。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 571
 msgid "Disable integrated authentication"
-msgstr ""
+msgstr "統合認証を無効"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 568
 msgid "Integrated authentication"
-msgstr ""
+msgstr "統合認証"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 564
 msgid "Allow administrators to use the Sudo utility"
-msgstr ""
+msgstr "管理者に Sudo ユーティリティの使用を許可"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 561
 msgid "Sudo usage"
-msgstr ""
+msgstr "Sudo の使用"
 
 msgid "Password protect the console menu"
 msgstr "コンソールメニューをパスワードで保護"
@@ -6004,30 +5997,26 @@ msgstr "コンソールメニューをパスワードで保護"
 msgid "Console menu"
 msgstr "コンソールメニュー"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 548
 msgid "Select the secondary console if multiple consoles are present."
-msgstr ""
+msgstr "複数のコンソールが存在する場合、セカンダリコンソールを選択してください。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 539
 msgid "Secondary Console"
-msgstr ""
+msgstr "セカンダリコンソール"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 534
 # File: /usr/core/src/www/system_advanced_admin.php, line: 549
 msgid ""
 "All consoles display OS boot messages, console messages, and the console "
 "menu."
-msgstr ""
+msgstr "全てのコンソールに OS ブートメッセージ、コンソールメッセージ、コンソールメニューを表示します。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 533
 msgid ""
 "Select the primary console. This preferred console will show boot script "
 "output."
-msgstr ""
+msgstr "プライマリコンソールを選択してください。ここで選択されたコンソールにブートスクリプトの出力が表示されます。"
 
 # File: src/www/system_advanced_admin.php, line: 606
 msgid "Primary Console"
@@ -6702,10 +6691,9 @@ msgstr "RTT"
 msgid "Gathering data"
 msgstr "データを収集しています"
 
-#
 # File: /usr/core/src/www/status_gateway_groups.php, line: 112
 msgid "Monitoring disabled"
-msgstr ""
+msgstr "監視は無効化されています"
 
 msgid "Warning, Latency"
 msgstr "警告: 遅延"
@@ -7139,11 +7127,10 @@ msgstr "有効な IP アドレスとポートを指定してください。例: 
 msgid "Select the log verbosity."
 msgstr "ログの詳細度を選択します。"
 
-#
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 334
 #, php-format
 msgid "Level %s"
-msgstr ""
+msgstr "レベル %s"
 
 msgid "Log level verbosity"
 msgstr "ログ詳細度レベル"
@@ -7188,10 +7175,9 @@ msgstr "無効"
 msgid "Unwanted Reply Threshold"
 msgstr "望まない応答のしきい値"
 
-#
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 307
 msgid "Number of hosts for which information is cached. The default is 10000."
-msgstr ""
+msgstr "情報をキャッシュするホストの数。デフォルトは 10000 です。"
 
 msgid "Number of Hosts to cache"
 msgstr "キャッシュするホスト数"
@@ -7318,11 +7304,10 @@ msgstr ""
 "す。RRSet キャッシュは実際の RR データを格納します。デフォルトは 4 Mbyteで"
 "す。"
 
-#
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 185
 #, php-format
 msgid "%s MB"
-msgstr ""
+msgstr "%s MB"
 
 msgid "Message Cache Size"
 msgstr "メッセージキャッシュサイズ"
@@ -7380,10 +7365,9 @@ msgstr "識別子を非表示"
 msgid "Advanced Resolver Options"
 msgstr "詳細リゾルバオプション"
 
-#
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 118
 msgid "The configuration of the DNS Resolver, has been changed."
-msgstr ""
+msgstr "DNS リゾルバの構成は変更されました。"
 
 msgid "Access Lists to control access to the DNS Resolver can be defined here."
 msgstr ""
@@ -7531,27 +7515,27 @@ msgid ""
 "domain in %sSystem: General setup%s to the proper value."
 msgstr ""
 "このオプションが設定されている場合は、DHCP 静的マッピングは DNS リゾルバに登"
-"録され、名前解決できるようになります。%sシステム: 全般設定%s で、ドメインにも"
+"録されるため、名前解決できるようになります。%sシステム: 全般設定%s で、ドメインにも"
 "適切な値を設定してください。"
 
 msgid "Register DHCP static mappings in the DNS Resolver"
 msgstr "DNS リゾルバに DHCP 静的マッピングを登録"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 216
 msgid ""
 "If this option is set, then machines that specify their hostname when "
 "requesting a DHCP lease will be registered in the DNS Resolver, so that "
 "their name can be resolved."
 msgstr ""
+"このオプションが設定されている場合は、ホスト名が指定された機器は DHCP リース"
+"の要求時に DNS リゾルバに登録されるため、名前解決できるようになります。"
 
 msgid "Register DHCP leases in the DNS Resolver"
 msgstr "DNS リゾルバで DHCP リースを登録"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 206
 msgid "The configured system nameservers will be used to forward queries to."
-msgstr ""
+msgstr "構成されたシステムネームサーバはクエリを転送するのに使用されます。"
 
 msgid "Enable Forwarding Mode"
 msgstr "転送モードを有効"
@@ -7940,13 +7924,13 @@ msgstr "OpenDNS を使用して DNS リクエストをフィルタする"
 msgid "OpenDNS Setup"
 msgstr "OpenDNS 設定"
 
-#
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 202
 #, php-format
 msgid ""
 "At least 3 additional time sources should be configured under %sServices: NTP"
 "%s to reliably supply the time of each PPS pulse."
 msgstr ""
+"信頼できる PPS パルス単位の時間を得るためには、最低でも 3 つの追加タイムソースを%sサービス: NTP%s で構成すると良いでしょう。"
 
 # File: src/www/services_ntpd_pps.php, line: 130
 msgid ""
@@ -8096,11 +8080,10 @@ msgstr "GPS 初期化"
 msgid "This may be used to change the GPS Clock ID"
 msgstr "GPS Clock ID の変更に使用されます"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 492
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 183
 msgid "(1 to 4 characters)"
-msgstr ""
+msgstr "( 1 - 4 文字 )"
 
 # File: src/www/services_ntpd_gps.php, line: 524
 # File: src/www/services_ntpd_pps.php, line: 197
@@ -8135,12 +8118,13 @@ msgstr ""
 msgid "Enable PPS signal processing (default: enabled)."
 msgstr "PPS 信号処理を有効 ( デフォルト: 有効 )。"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 441
 msgid ""
 "NTP should not use this clock, it will be displayed for reference only "
 "(default: disabled)."
 msgstr ""
+"NTP はこの時計を使用せず、参照用としてのみ表示されるようになりま"
+"す ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 491
 msgid "NTP should prefer this clock (default: enabled)."
@@ -8536,10 +8520,9 @@ msgstr ""
 "フェースは許可するプロキシでも構いません。「上流」インタフェースとして構成で"
 "きるのは 1 つだけです。"
 
-#
 # File: /usr/core/src/www/services_igmpproxy.php, line: 128
 msgid "Edit this IGMP entry"
-msgstr ""
+msgstr "この IGMP エントリを編集"
 
 msgid ""
 "Do you really want to delete this igmp entry? All elements that still use it "
@@ -8548,10 +8531,9 @@ msgstr ""
 "本当にこの IGMP エントリを削除しますか？それを使用している全ての要素は無効に"
 "なります ( 例: フィルタルール )！"
 
-#
 # File: /usr/core/src/www/services_igmpproxy.php, line: 61
 msgid "Add a new IGMP entry"
-msgstr ""
+msgstr "新規のIGMP エントリを追加"
 
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 406
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 242
@@ -8581,12 +8563,13 @@ msgstr ""
 "タブ (\\t)、改行 (\\n)、キャリッジリターン (\\r) が、返される結果の先頭、もし"
 "くは、末尾にある場合は、比較する前に削除されます。"
 
-#
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 370
 msgid ""
 "If you need to include multiple possible values, separate them with a |. If "
 "your provider includes a |, escape it with \\|"
 msgstr ""
+"とり得る値を複数使用する必要がある場合は | で区切ってください。プロバイダが "
+"| を値に含めている場合は \\| でエスケープしてください。"
 
 # File: src/www/services_dyndns_edit.php, line: 407
 msgid ""
@@ -8830,10 +8813,9 @@ msgid "An interface IP address must be specified for the DNS query source."
 msgstr ""
 "DNS クエリの送信元となる、インタフェースの IP アドレスを指定してください。"
 
-#
 # File: /usr/core/src/www/services_dnsmasq_domainoverride_edit.php, line: 96
 msgid "A valid port number must be specified."
-msgstr ""
+msgstr "有効なポート番号を指定してください。"
 
 msgid ""
 "A valid IP address must be specified, or # for an exclusion or ! to not "
@@ -9029,7 +9011,6 @@ msgstr "DNS フォワーダに DHCP 静的マッピングを登録"
 msgid "Static DHCP"
 msgstr "静的 DHCP"
 
-#
 # File: /usr/core/src/www/services_dnsmasq.php, line: 265
 # File: /usr/core/src/www/services_unbound.php, line: 227
 msgid ""
@@ -9038,20 +9019,24 @@ msgid ""
 "same domain. If this is undesired, static DHCP lease registration is able to "
 "provide coherent mappings."
 msgstr ""
+"DHCP ホスト名登録で使用されるドメイン名です。空の場合、デフォルトシステムドメインが使用されます。"
+"全ての DHCP リースに同じドメインが割り当てられますのでご注意ください。静的 DHCP リースの登録には"
+"コヒーレントマッピングを提供可能です。"
 
-#
 # File: /usr/core/src/www/services_dnsmasq.php, line: 261
 # File: /usr/core/src/www/services_unbound.php, line: 223
 msgid "DHCP Domain Override"
-msgstr ""
+msgstr "DHCP ドメイン上書き"
 
-#
 # File: /usr/core/src/www/services_dnsmasq.php, line: 254
 msgid ""
 "If this option is set, then machines that specify their hostname when "
 "requesting a DHCP lease will be registered in the DNS forwarder, so that "
 "their name can be resolved."
 msgstr ""
+"このオプションが設定されている場合、DHCP リースのリクエスト時にホスト名が指定"
+"されている機器を DNS フォワーダに登録するため、ホストの名前解決が可能になりま"
+"す。"
 
 msgid "Register DHCP leases in DNS forwarder"
 msgstr "DNS フォワーダに DHCP リースを登録"
