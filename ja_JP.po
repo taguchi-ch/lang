@@ -7515,7 +7515,7 @@ msgid ""
 "domain in %sSystem: General setup%s to the proper value."
 msgstr ""
 "このオプションが設定されている場合は、DHCP 静的マッピングは DNS リゾルバに登"
-"録されるため、名前解決できるようになります。%sシステム: 全般設定%s で、ドメインにも"
+"録されるため、名前解決できるようになります。%sシステム: 全般設定%s でドメインにも"
 "適切な値を設定してください。"
 
 msgid "Register DHCP static mappings in the DNS Resolver"
@@ -8533,7 +8533,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_igmpproxy.php, line: 61
 msgid "Add a new IGMP entry"
-msgstr "新規のIGMP エントリを追加"
+msgstr "新規の IGMP エントリを追加"
 
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 406
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 242
@@ -9002,7 +9002,7 @@ msgid ""
 "domain in %sSystem: General setup%s to the proper value."
 msgstr ""
 "このオプションが設定されると、DNS フォワーダに DHCP 静的マッピングが登録さ"
-"れ、名前解決ができるようになります。%sシステム: 全般設定%sで、ドメインにも適"
+"れ、名前解決できるようになります。%sシステム: 全般設定%sでドメインにも適"
 "切な値を設定してください。"
 
 msgid "Register DHCP static mappings in DNS forwarder"
@@ -9034,9 +9034,8 @@ msgid ""
 "requesting a DHCP lease will be registered in the DNS forwarder, so that "
 "their name can be resolved."
 msgstr ""
-"このオプションが設定されている場合、DHCP リースのリクエスト時にホスト名が指定"
-"されている機器を DNS フォワーダに登録するため、ホストの名前解決が可能になりま"
-"す。"
+"このオプションが設定されている場合は、ホスト名が指定された機器は DHCP リースの要求時に"
+" DNS フォワーダに登録されるため、名前解決できるようになります。"
 
 msgid "Register DHCP leases in DNS forwarder"
 msgstr "DNS フォワーダに DHCP リースを登録"
@@ -9110,10 +9109,9 @@ msgstr ""
 "DHCPv6 サーバは現在有効になっています。DHCPv6 サーバが有効になっているインタ"
 "フェースがある場合は DHCPv6 リレーを有効にできません。"
 
-#
 # File: /usr/core/src/www/services_dhcpv6_relay.php, line: 64
 msgid "A valid Destination Server IPv6 address must be specified."
-msgstr ""
+msgstr "送信先サーバに有効な IPv6 アドレスを指定してください。"
 
 # File: src/www/services_dhcpv6_edit.php, line: 222
 msgid "Netboot filename"
@@ -9231,7 +9229,7 @@ msgstr "ネットワークブートファイルに有効な URL を指定して�
 msgid ""
 "A valid IPv6 address must be specified for the primary/secondary NTP servers."
 msgstr ""
-"プライマリ / セカンダリ NTP サーバに、有効な IPv6 アドレスを指定してください"
+"プライマリ / セカンダリ NTP サーバに有効な IPv6 アドレスを指定してください。"
 
 msgid ""
 "A valid primary domain name server IPv4 address must be specified for the "
@@ -9243,13 +9241,13 @@ msgstr ""
 msgid ""
 "A valid IPv6 address must be specified for the primary/secondary DNS servers."
 msgstr ""
-"プライマリ / セカンダリ DNS サーバに、有効な IPv6 アドレスを指定してください"
+"プライマリ / セカンダリ DNS サーバに有効な IPv6 アドレスを指定してください。"
 
 msgid "A valid IPv6 address must be specified for the gateway."
-msgstr "ゲートウェイに、有効な IPv6 アドレスを指定してください"
+msgstr "ゲートウェイに有効な IPv6 アドレスを指定してください。"
 
 msgid "A valid prefix range must be specified."
-msgstr "有効なプレフィックス範囲を指定してください"
+msgstr "有効なプレフィックス範囲を指定してください。"
 
 # File: src/www/services_dhcpv6.php, line: 50
 msgid ""
@@ -9436,7 +9434,6 @@ msgstr ""
 "%sシステム: 全般設定%sでで入力された DNS サーバ ( もしくは有効なら %sDNS フォ"
 "ワーダ%s ) は DHCP サーバによってクライアントに割り当てられます。"
 
-#
 # File: /usr/core/src/www/services_dhcp.php, line: 1090
 # File: /usr/core/src/www/services_dhcpv6.php, line: 742
 #, php-format
@@ -9445,6 +9442,8 @@ msgid ""
 "include in the DHCP lease information. For a list of available options "
 "please visit this %sURL%s."
 msgstr ""
+"DHCP リース情報に含める DHCP オプション番号とそれぞれの項目の値を入力してくださ"
+"い。利用可能なオプションのリストは、こちらの %sURL%s を参照してください。"
 
 msgid "IP address or host"
 msgstr "IP アドレス / ホスト"
@@ -9999,20 +9998,17 @@ msgstr ""
 msgid "Only interfaces configured with a static IP will be shown."
 msgstr "静的 IP で構成されたインタフェースのみが表示されます。"
 
-#
 # File: /usr/core/src/www/reporting_settings.php, line: 202
 msgid "flush report"
-msgstr ""
+msgstr "レポートの初期化"
 
-#
 # File: /usr/core/src/www/reporting_settings.php, line: 194
 msgid "Reports"
-msgstr ""
+msgstr "レポート"
 
-#
 # File: /usr/core/src/www/reporting_settings.php, line: 191
 msgid "Collected reports"
-msgstr ""
+msgstr "収集したレポート"
 
 msgid ""
 "Graphs will not be allowed to be recreated within a 1 minute interval, "
@@ -10021,10 +10017,9 @@ msgstr ""
 "グラフは 1 分以内に再作成することはできません。スタイル変更後はこの点を考慮し"
 "てください。"
 
-#
 # File: /usr/core/src/www/reporting_settings.php, line: 173
 msgid "Reset Netflow Data"
-msgstr ""
+msgstr "Netflow データをリセット"
 
 msgid "Reset RRD Data"
 msgstr "RRD データをリセット"
@@ -10040,42 +10035,37 @@ msgstr "ラウンドロビンデータベース"
 msgid "Reporting Database Options"
 msgstr "データベースオプションレポート"
 
-#
 # File: /usr/core/src/www/reporting_settings.php, line: 123
 msgid "Do you really want to reset the selected graph?"
-msgstr ""
+msgstr "本当に選択したグラフをリセットしますか？"
 
-#
 # File: /usr/core/src/www/reporting_settings.php, line: 103
 msgid ""
 "Do you really want to reset the netflow data? This will erase all Insight "
 "graph data."
 msgstr ""
+"本当にNetflow データをリセットしますか？全ての分析グラフデータが消去されます。"
 
-#
 # File: /usr/core/src/www/reporting_settings.php, line: 102
 msgid "Netflow/Insight"
-msgstr ""
+msgstr "Netflow / 分析"
 
 msgid ""
 "Do you really want to reset the RRD graphs? This will erase all graph data."
 msgstr ""
 "本当に RRD グラフをリセットしますか？全てのグラフデータが消去されます。"
 
-#
 # File: /usr/core/src/www/reporting_settings.php, line: 82
 msgid "RRD"
-msgstr ""
+msgstr "RRD"
 
-#
 # File: /usr/core/src/www/reporting_settings.php, line: 50
 msgid "All local netflow data has been cleared."
-msgstr ""
+msgstr "全てのローカル netflow データは消去されました。"
 
-#
 # File: /usr/core/src/www/reporting_settings.php, line: 47
 msgid "RRD report has been cleared."
-msgstr ""
+msgstr "RRD レポートは消去されました。"
 
 # File: src/www/status_rrd_graph_settings.php, line: 40
 msgid "RRD data has been cleared."
@@ -10423,10 +10413,9 @@ msgstr "HTTP"
 msgid "The path to monitor must be set."
 msgstr "監視するパスを設定してください"
 
-#
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 142
 msgid "HTTP(S) codes must be from RFC 2616."
-msgstr ""
+msgstr "HTTP(S) ステータスコードは RFC 2616 に記載されているものにしてください。"
 
 msgid "The hostname can only contain the characters A-Z, 0-9 and '-'."
 msgstr "ホスト名には、A-Z、0-9、- のみが使用できます。"
@@ -10434,10 +10423,9 @@ msgstr "ホスト名には、A-Z、0-9、- のみが使用できます。"
 msgid "You cannot use spaces in the 'name' field."
 msgstr "「名前」フィールドにスペースを使用できません"
 
-#
 # File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 125
 msgid "This monitor name has already been used. Monitor names must be unique."
-msgstr ""
+msgstr "この監視名は既に使用されています。監視名は固有です。"
 
 msgid "The load balancer configuration has been changed"
 msgstr "ロードバランサ構成が変更されました"
@@ -10544,13 +10532,12 @@ msgstr "VLAN タグ"
 msgid "Do you really want to delete this VLAN?"
 msgstr "本当にこの VLAN を削除しますか？"
 
-#
 # File: /usr/core/src/www/interfaces_vlan.php, line: 59
 #, php-format
 msgid ""
 "This VLAN cannot be deleted because it is still being used as an interface "
 "(%s)."
-msgstr ""
+msgstr "この VLAN は削除できません。インタフェース ( %s ) として使用されています。"
 
 msgid ""
 "This is the first level VLAN tag. On top of this are stacked the member "
@@ -10929,15 +10916,13 @@ msgstr ""
 "このポイントツーポイントリンクは削除できません。インタフェースとして使用され"
 "ています。"
 
-#
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 282
 msgid "Enable lacp fast-timeout on the interface."
-msgstr ""
+msgstr "インタフェースで LACP ファストタイムアウトを有効にします。"
 
-#
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 278
 msgid "Fast timeout"
-msgstr ""
+msgstr "ファストタイムアウト"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 245
 msgid ""
@@ -11082,10 +11067,9 @@ msgstr "グループ名"
 msgid "Interface Groups Edit"
 msgstr "インタフェースグループの編集"
 
-#
 # File: /usr/core/src/www/interfaces_groups_edit.php, line: 78
 msgid "At least one group member must be specified."
-msgstr ""
+msgstr "最低でも 1 つのグループメンバを指定してください。"
 
 # File: src/www/interfaces_groups_edit.php, line: 71
 msgid ""
@@ -11110,15 +11094,13 @@ msgstr ""
 "たルールを適用することができます。インタフェースグループからメンバを削除すれ"
 "ば、そのインタフェースにはグループルールが適用されなくなります"
 
-#
 # File: /usr/core/src/www/interfaces_groups.php, line: 136
 msgid "Remove this group"
-msgstr ""
+msgstr "このグループを削除"
 
-#
 # File: /usr/core/src/www/interfaces_groups.php, line: 133
 msgid "Edit this group"
-msgstr ""
+msgstr "このグループを編集"
 
 msgid ""
 "Do you really want to delete this group? All elements that still use it will "
@@ -11127,10 +11109,9 @@ msgstr ""
 "本当にこのグループを削除しますか？全ての要素は、まだ使用中であっても無効にな"
 "ります ( 例: フィルタルール ) ！"
 
-#
 # File: /usr/core/src/www/interfaces_groups.php, line: 63
 msgid "Add a new group"
-msgstr ""
+msgstr "新規グループを追加"
 
 # File: src/www/interfaces_gre_edit.php, line: 235
 msgid ""
@@ -11769,13 +11750,14 @@ msgstr "デフォルトの 1812 ポートの場合は空白にします。"
 msgid "802.1X Server Port"
 msgstr "802.1X サーバポート"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 3184
 # File: /usr/core/src/www/interfaces.php, line: 3209
 msgid ""
 "Enter the IP address of the 802.1X Authentication Server. This is commonly a "
 "Radius server (FreeRadius, Internet Authentication Services, etc.)"
 msgstr ""
+"802.1X 認証サーバの IP アドレスを入力してください。通常は Radius サーバです "
+"( FreeRadius、インターネット認証サービス等 )"
 
 # File: src/www/interfaces.php, line: 3275
 msgid "802.1X Server IP Address"
@@ -11903,12 +11885,12 @@ msgstr "WEP を有効"
 msgid "WEP"
 msgstr "WEP"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 3028
 msgid ""
 "Setting this option will force the card to NOT broadcast its SSID (this "
 "might create problems for some clients)."
 msgstr ""
+"このオプション設定は SSID をブロードキャストしないようカードに強制します ( 一部のクライアントでは問題が発生する可能性があります )。"
 
 msgid "Enable Hide SSID"
 msgstr "SSID の非表示を有効"
@@ -11987,7 +11969,6 @@ msgstr "インフラストラクチャ ( BSS )"
 msgid "Network-specific wireless configuration"
 msgstr "ネットワーク固有の無線設定"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2937
 msgid ""
 "All wireless networks on this interface will be temporarily brought down "
@@ -11995,14 +11976,19 @@ msgid ""
 "codes may not be allowed by some cards. These settings may not be able to "
 "add additional channels that are not already supported."
 msgstr ""
+"このインタフェースの全ての無線ネットワークは、規制設定の変更時に一時的"
+"にダウンします。一部の規制ドメインもしくは国コードを使用できないカードがあ"
+"ります。これらの設定で現在サポートされていない追加チャンネルの追加はできま"
+"せん。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2935
 msgid ""
 "These settings may affect which channels are available and the maximum "
 "transmit power allowed on those channels. Using the correct settings to "
 "comply with local regulatory requirements is recommended."
 msgstr ""
+"これらの設定は、利用可能なチャンネル及びチャンネルに許可される最大電波出"
+"力に影響します。地域の規制要件に適合する正しい設定での使用を推奨します。"
 
 msgid "Anywhere"
 msgstr "どこでも"
@@ -12063,12 +12049,13 @@ msgstr "ダイバーシティ"
 msgid "Antenna settings"
 msgstr "アンテナ設定"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2833
 msgid ""
 "Not all channels may be supported by your card. Auto may override the "
 "wireless standard selected above."
 msgstr ""
+"全てのチャンネルが無線カードでサポートされているわけではありません。"
+"「自動」を選択すると上記で選択した無線規格を上書きします。"
 
 msgid ""
 "Legend: wireless standards - channel # (frequency @ max TX power / TX power "
@@ -12083,13 +12070,15 @@ msgstr "自動"
 msgid "Channel"
 msgstr "チャンネル"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2809
 msgid ""
 "Typically only a few discreet power settings are available and the driver "
 "will use the setting closest to the specified value. Not all adapters "
 "support changing the transmit power setting."
 msgstr ""
+"一般的にはいくつかの控えめな出力設定のみが利用可能です。ドライバは指"
+"定された値に最も近い設定を使用します。全てのアダプタが電波出力設定の変更をサ"
+"ポートしているわけではありません。"
 
 msgid "Transmit power"
 msgstr "電波出力"
@@ -12285,12 +12274,13 @@ msgstr "非一時アドレス割当て"
 msgid "Identity Association"
 msgstr "ID 関連付け"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2546
 msgid ""
 "The value in this field is the absolute path to a script invoked on certain "
 "conditions including when a reply message is received."
 msgstr ""
+"このフィールドの値は、応答メッセージを受信した場合も含む特定の条件で起動す"
+"るスクリプトの絶対パスです。"
 
 # File: src/www/interfaces.php, line: 2247
 msgid "Script"
@@ -12306,7 +12296,6 @@ msgstr ""
 "エストされる、もしくは、リクエストされなくても、特定のオプションを要求するこ"
 "とがあります。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2528
 msgid ""
 "The values in this field are DHCP send options to be sent when requesting a "
@@ -12316,13 +12305,17 @@ msgid ""
 "hyphen, or period) (omitted for none). <br />Some DHCP services may require "
 "certain options be or not be sent."
 msgstr ""
+"このフィールドの値は DHCP リースのリクエスト時に DHCP 送信オプションとして"
+"送信されます。[オプション 宣言 [, ...]] <br />値の代入: {interface}, "
+"{hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />C は U(大文字) もしく"
+"は L(小文字)、 D は「 :-.」、区切り文字 ( スペース、コロン、ハイフン、ピリオ"
+"ド ) ( 指定しない場合は省略してください )。<br />一部の DHCP サービスは送信"
+"されるか否かに関わらず、特定のオプションを要求することがあります。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2521
 msgid "Source: FreeBSD man page"
-msgstr ""
+msgstr "情報源: FreeBSD man ページ"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2516
 msgid ""
 "This statement specifies dhcp6c to only exchange informational configuration "
@@ -12330,6 +12323,10 @@ msgid ""
 "such parameters. This statement is useful when the client does not need "
 "stateful configuration parameters such as IPv6 addresses or prefixes."
 msgstr ""
+"このステートメントは、サーバとの情報構成パラメータの交換でのみ dhcp6c に指定"
+"されます。DNS サーバリストのアドレスはそのようなパラメータの一例です。このス"
+"テートメントはクライアントが IPv6 アドレスやプレフィックスのようなステートフ"
+"ル構成パラメータを必要としない場合に便利です。"
 
 msgid "Information Only"
 msgstr "情報のみ"
