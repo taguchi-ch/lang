@@ -10044,7 +10044,7 @@ msgid ""
 "Do you really want to reset the netflow data? This will erase all Insight "
 "graph data."
 msgstr ""
-"本当にNetflow データをリセットしますか？全ての分析グラフデータが消去されます。"
+"本当に Netflow データをリセットしますか？全ての分析グラフデータが消去されます。"
 
 # File: /usr/core/src/www/reporting_settings.php, line: 102
 msgid "Netflow/Insight"
@@ -10061,7 +10061,7 @@ msgstr "RRD"
 
 # File: /usr/core/src/www/reporting_settings.php, line: 50
 msgid "All local netflow data has been cleared."
-msgstr "全てのローカル netflow データは消去されました。"
+msgstr "全てのローカル Netflow データは消去されました。"
 
 # File: /usr/core/src/www/reporting_settings.php, line: 47
 msgid "RRD report has been cleared."
@@ -12997,7 +12997,7 @@ msgstr ""
 "この IPv6 アドレスは、別のインタフェース、または VIP で使用されています。"
 
 msgid "A valid IPv6 address must be specified."
-msgstr "有効な IPv6 アドレスを指定してください"
+msgstr "有効な IPv6 アドレスを指定してください。"
 
 msgid "This IPv4 address conflicts with a Static Route."
 msgstr "静的ルートで、この IPv4 アドレスが競合しています。"
