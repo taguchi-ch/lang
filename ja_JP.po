@@ -12291,10 +12291,9 @@ msgid ""
 "a DHCP lease.  [option [, ...]] <br />Some DHCP services may require certain "
 "options be or not be requested. "
 msgstr ""
-"このフィールドの値は、DHCP リースのリクエスト時に、DHCP リクエストオプション"
-"として送信されます。  [オプション [, ...]] <br />一部の DHCP サービスは、リク"
-"エストされる、もしくは、リクエストされなくても、特定のオプションを要求するこ"
-"とがあります。"
+"このフィールドの値は DHCP リースのリクエスト時に DHCP リクエストオプション"
+"として送信されます。[オプション [, ...]] <br />一部の DHCP サービスはリク"
+"エストされるか否かに関わらず、特定のオプションを要求することがあります。"
 
 # File: /usr/core/src/www/interfaces.php, line: 2528
 msgid ""
@@ -12522,13 +12521,12 @@ msgstr "サービスプロバイダ"
 msgid "PPP configuration"
 msgstr "PPP 構成"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2061
 # File: /usr/core/src/www/interfaces.php, line: 2630
 msgid ""
 "The value in this field is the full absolute path to a DHCP client "
 "configuration file."
-msgstr ""
+msgstr "このフィールドの値は DHCP クライアント構成ファイルの完全な絶対パスです。"
 
 # File: src/www/interfaces.php, line: 2704
 msgid "Configuration File Override"
@@ -12567,8 +12565,8 @@ msgid ""
 "or not be requested."
 msgstr ""
 "このフィールドの値は DHCP リースのリクエスト時に DHCP オプション 55 として送"
-"信されます。[オプション [, ...]] <br />一部の ISP は、リクエストされる、もし"
-"くは、リクエストされなくても、特定のオプションを要求することがあります。"
+"信されます。[オプション [, ...]] <br />一部の ISP はリクエストされるか否かに関わらず、"
+"特定のオプションを要求することがあります。"
 
 msgid "Request Options"
 msgstr "リクエストオプション"
@@ -12582,12 +12580,12 @@ msgid ""
 "(omitted for none). <br />Some ISPs may require certain options be or not be "
 "sent."
 msgstr ""
-"このフィールドの値は、DHCP リースのリクエスト時に DHCP オプションとして送信さ"
+"このフィールドの値は DHCP リースのリクエスト時に DHCP オプションとして送信さ"
 "れます。[オプション 宣言 [, ...]] <br />値の代入: {interface}, {hostname}, "
 "{mac_addr_asciiCD}, {mac_addr_hexCD} <br />C は U(大文字) もしくは L(小文"
 "字)、 D は「 :-.」、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ( 指"
-"定しない場合は省略してください )。<br />一部の ISP は、送信される、もしくは、"
-"送信されなくても、特定のオプションを要求することがあります。"
+"定しない場合は省略してください )。<br />一部の ISP は送信されるか否かに関わらず、"
+"特定のオプションを要求することがあります。"
 
 msgid "Send Options"
 msgstr "送信オプション"
@@ -12695,29 +12693,29 @@ msgstr ""
 "ホスト名として送信されます。一部の ISP はこの値を ( クライアント識別子とし"
 "て ) 要求します。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1934
 # File: /usr/core/src/www/interfaces.php, line: 2444
 msgid ""
 "The configuration file override mode may point to a fully customised file on "
 "the system instead."
 msgstr ""
+"構成ファイル上書きモードは、システムの完全にカスタマイズされたファイルを代わりに提示します。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1933
 # File: /usr/core/src/www/interfaces.php, line: 2443
 msgid ""
 "The advanced mode does not provide any default values, you will need to fill "
 "out any values you would like to use."
 msgstr ""
+"詳細モードはデフォルト値は一切提供されません。使用したい値は全て自分で記入する必要があります。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1932
 # File: /usr/core/src/www/interfaces.php, line: 2442
 msgid ""
 "The basic mode auto-configures DHCP using default values and optional user "
 "input."
 msgstr ""
+"基本モードはデフォルト値及びオプションでユーザが入力した値を使用して DHCP を自動構成します。"
 
 # File: src/www/interfaces.php, line: 1945
 # File: src/www/interfaces.php, line: 2073
@@ -12730,11 +12728,10 @@ msgstr "構成ファイルを上書き"
 msgid "Basic"
 msgstr "基本"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1915
 # File: /usr/core/src/www/interfaces.php, line: 2425
 msgid "Configuration Mode"
-msgstr ""
+msgstr "構成モード"
 
 msgid "DHCP client configuration"
 msgstr "DHCP クライアント構成"
@@ -12926,19 +12923,21 @@ msgstr "適用後に、必要であれば DHCP サーバの範囲を調整して
 msgid "The length of the passphrase should be between 8 and 63 characters."
 msgstr "パスフレーズの長さは 8 - 63 文字です"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 916
 msgid ""
 "Invalid WEP key size. Sizes should be 40 (64) bit keys or 104 (128) bit."
 msgstr ""
+"WEP 鍵サイズが無効です。有効なサイズは 40 (64) ビット鍵、もしくは 104 (128) "
+"ビット鍵です。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 880
 #, php-format
 msgid ""
 "Unable to change mode to %s. You may already have the maximum number of "
 "wireless clones supported in this mode."
 msgstr ""
+"モードを %s に変更できません。既にこのモードでサポートされている無線クローン"
+"の最大数を使用しています。"
 
 msgid "SSID"
 msgstr "SSID"
@@ -13038,11 +13037,10 @@ msgstr ""
 "このインタフェースは IPv6 VIP から参照されています。インタフェースの設定を"
 "「なし」に構成する前に、参照を削除してください。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 663
 #, php-format
 msgid "The DHCPv6 override file \"%s\" does not exist."
-msgstr ""
+msgstr "DHCPv6 上書きファイル「%s」は存在していません。"
 
 msgid "IPv6 address"
 msgstr "IPv6 アドレス"
@@ -13089,11 +13087,10 @@ msgstr "電話番号"
 msgid "Modem Port"
 msgstr "モデムポート"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 616
 #, php-format
 msgid "The DHCP override file \"%s\" does not exist."
-msgstr ""
+msgstr "DHCP 上書きファイル「%s」は存在していません。"
 
 #, php-format
 msgid "You have to reassign the interface to be able to configure as %s."
@@ -13199,24 +13196,22 @@ msgstr ""
 msgid "The changes have been applied successfully."
 msgstr "変更は正常に適用されました。"
 
-#
 # File: /usr/core/src/www/guiconfig.inc, line: 270
 msgid "SSH remote login is disabled."
-msgstr ""
+msgstr "SSH リモートログインは無効です。"
 
-#
 # File: /usr/core/src/www/guiconfig.inc, line: 269
 msgid ""
 "SSH remote login is enabled for the users \"root\" and \"installer\" using "
 "the same password."
 msgstr ""
+"SSH リモートログインは「root」及び同じパスワードを使用している「installer」ユーザが可能です。"
 
-#
 # File: /usr/core/src/www/guiconfig.inc, line: 268
 msgid ""
 "You are currently running in LiveCD mode. A reboot will reset the "
 "configuration."
-msgstr ""
+msgstr "現在 LiveCD モードで動作しています。再起動すると構成はリセットされます。"
 
 # File: src/www/guiconfig.inc, line: 259
 #, php-format
@@ -13242,21 +13237,21 @@ msgstr "フィールド %s は必須です。"
 msgid "The field %s contains invalid characters."
 msgstr "フィールド %s に無効な文字があります。"
 
-#
 # File: /usr/core/src/www/foot.inc, line: 63
 msgid "Please wait..."
-msgstr ""
+msgstr "しばらくお待ち下さい..."
 
 msgid "Available Widgets"
 msgstr "利用可能なウィジェット"
 
-#
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 438
 msgid ""
 "The frequency that this machine will advertise. 0 usually means master. "
 "Otherwise the lowest combination of both values in the cluster determines "
 "the master."
 msgstr ""
+"この機器が広告する周期。0 は通常マスタを意味します。もしくはクラスタで最も低"
+"い値の組み合わせがマスタを決定します。"
 
 # File: src/www/firewall_virtual_ip_edit.php, line: 441
 msgid "Skew"
