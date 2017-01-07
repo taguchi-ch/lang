@@ -13789,7 +13789,7 @@ msgid ""
 "from spoofed TCP SYN floods. This option includes the functionality of keep "
 "state and modulate state combined."
 msgstr ""
-"%sSYN proxy state%s 着信する TCP 接続にプロキシを使用し、IP スプーフィング や SYN flood 攻撃からサーバを"
+"%sSYN proxy state%s 着信する TCP 接続にプロキシを使用し、IP スプーフィング SYN flood 攻撃からサーバを"
 "防御する支援をします。このオプションには keep state と modulate state を組"
 "み合わせた機能を含んでいます。"
 
