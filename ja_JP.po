@@ -13205,7 +13205,7 @@ msgid ""
 "SSH remote login is enabled for the users \"root\" and \"installer\" using "
 "the same password."
 msgstr ""
-"SSH リモートログインは「root」及び同じパスワードを使用している「installer」ユーザが可能です。"
+"SSH リモートログインが可能なのは「root」及び同じパスワードを使用している「installer」ユーザです。"
 
 # File: /usr/core/src/www/guiconfig.inc, line: 268
 msgid ""
@@ -13251,7 +13251,7 @@ msgid ""
 "the master."
 msgstr ""
 "この機器が広告する周期。0 は通常マスタを意味します。もしくはクラスタで最も低"
-"い値の組み合わせがマスタを決定します。"
+"い値の組み合わせでマスタを決定します。"
 
 # File: src/www/firewall_virtual_ip_edit.php, line: 441
 msgid "Skew"
@@ -13409,13 +13409,12 @@ msgstr "本当に選択した仮想 IP を削除しますか？"
 msgid "Do you really want to delete this entry?"
 msgstr "本当にこのエントリを削除しますか？"
 
-#
 # File: /usr/core/src/www/firewall_virtual_ip.php, line: 110
 #, php-format
 msgid ""
 "This entry cannot be deleted because it is still referenced by a CARP IP "
 "with the description %s."
-msgstr ""
+msgstr "このエントリは削除できません。説明 %s で CARP IP に参照されています。"
 
 msgid ""
 "This entry cannot be deleted because it is still referenced by at least one "
@@ -13706,11 +13705,10 @@ msgstr "本当にこのスケジュールを削除しますか？"
 msgid "Add a new schedule"
 msgstr "新規スケジュールを追加"
 
-#
 # File: /usr/core/src/www/firewall_schedule.php, line: 63
 #, php-format
 msgid "Cannot delete Schedule. Currently in use by %s"
-msgstr ""
+msgstr "スケジュールを削除できません。現在 %s で使用されています"
 
 msgid "September"
 msgstr "9 月"
@@ -13769,13 +13767,11 @@ msgstr "月"
 msgid "Fri"
 msgstr "金"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1381
 #, php-format
 msgid "Source and more information can be found %shere%s."
-msgstr ""
+msgstr "ソースコードと詳しい情報は%sこちら%sにあります。"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1379
 #, php-format
 msgid ""
@@ -13783,8 +13779,9 @@ msgid ""
 "you're doing advanced queueing in certain situations. Please check the "
 "documentation."
 msgstr ""
+"%sなし%s: 記録目的でステート機能を使用しないでください。この機能が有用なのは、"
+"特定の状況で高度なキュー操作を行うような場合だけです。ドキュメントを確認してください。"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1378
 #, php-format
 msgid ""
@@ -13792,31 +13789,34 @@ msgid ""
 "from spoofed TCP SYN floods. This option includes the functionality of keep "
 "state and modulate state combined."
 msgstr ""
+"%sSYN proxy state%s 着信する TCP 接続にプロキシを使用し、IP スプーフィング や SYN flood 攻撃からサーバを"
+"防御する支援をします。このオプションには keep state と modulate state を組"
+"み合わせた機能を含んでいます。"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1377
 #, php-format
 msgid ""
 "%sSloppy state%s works like keep state, but it does not check sequence "
 "numbers. Use it when the firewall does not see all packets."
 msgstr ""
+"%ssloppy state%s keep state と同様の動作をしますが、シーケンス番号をチェックしません。"
+"ファイアウォールが全てのパケットを参照しない場合に使用してください。"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1376
 #, php-format
 msgid "%sKeep state%s is used for stateful connection tracking."
-msgstr ""
+msgstr "%skeep state%s ステートフル接続の追跡に使用されます。"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1378
 msgid ""
 "Hint: Select which type of state tracking mechanism you would like to use. "
 "If in doubt, use keep state."
 msgstr ""
-"ヒント: 使用したいステータス追跡メカニズムのタイプを選択してください。迷った"
+"ヒント: 使用したいステート追跡機能のタイプを選択してください。迷った"
 "場合は keep state を使用してください。"
 
 msgid "synproxy state"
-msgstr "synproxy state"
+msgstr "SYN proxy state"
 
 msgid "sloppy state"
 msgstr "sloppy state"
@@ -13832,7 +13832,7 @@ msgstr ""
 "成されないようにします。"
 
 msgid "State Type"
-msgstr "ステータスタイプ"
+msgstr "ステートタイプ"
 
 # File: src/www/firewall_rules_edit.php, line: 1376
 msgid "NO pfsync"
@@ -14362,20 +14362,21 @@ msgstr "許可"
 msgid "select category"
 msgstr "カテゴリを選択"
 
-#
 # File: /usr/core/src/www/firewall_rules.php, line: 630
 msgid ""
 "No interfaces rules are currently defined. All incoming connections on this "
 "interface will be blocked until you add a pass rule."
 msgstr ""
+"現在インタフェースにルールが定義されていません。このインタフェースへの全ての着信接続は許可ルールを追加するまで全て拒否されます。"
 
-#
 # File: /usr/core/src/www/firewall_rules.php, line: 626
 msgid ""
 "No floating rules are currently defined. Floating rules are not bound to a "
 "single interface and can therefore be used to span policies over multiple "
 "networks at the same time."
 msgstr ""
+"現在フローティングルールが定義されていません。フローティングルールは単一のインタフェースに適用されるものでないため、"
+"同時に複数のネットワークに渡って適用されるポリシーとして使用可能です。"
 
 # File: src/www/firewall_rules.php, line: 569
 # File: src/www/firewall_schedule.php, line: 235
