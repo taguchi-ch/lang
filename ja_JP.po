@@ -5636,7 +5636,7 @@ msgid ""
 msgstr ""
 "このステートエントリ数に達すると、全てのタイムアウト値は 0 になり、全てのステート"
 "エントリを効果的に即時除去します。この値はスケール係数の定義として使"
-"用されるもので、実質的に到達されない値にすべきです( 下限ステータスを設定して"
+"用されるもので、実質的に到達されない値にすべきです( 下限ステートを設定して"
 "ください。下記を参照 )。"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 493
@@ -5775,9 +5775,9 @@ msgid ""
 "Further connections from that host will be redirected to the next gateway in "
 "the round-robin."
 msgstr ""
-"連続した接続は、同じ送信元が同じゲートウェイに送信している接続を、ラウンドロ"
+"連続した接続は、同じ送信元が同じゲートウェイに送信している接続をラウンドロ"
 "ビン方式でサーバにリダイレクトします。このような「スティッキー接続」は、この"
-"接続を参照するステータスと同じ期間存在します。ステートの有効期限が切れる"
+"接続を参照するステートと同じ期間存在します。ステートの有効期限が切れる"
 "と、スティッキー接続の有効期限も切れます。そのホストからの追加的な接続は、ラ"
 "ウンドロビンで次のゲートウェイにリダイレクトされます。"
 
@@ -5807,7 +5807,7 @@ msgid ""
 "this box is not checked. Check this box to disable this behavior."
 msgstr ""
 "このボックスがチェックされていない場合、ゲートウェイがダウンする時に監視プロ"
-"セスはステートをフラッシュします。このボックスをチェックすると、この振る舞"
+"セスはステートをフラッシュします。このボックスをチェックするとこの振る舞"
 "いを無効にします。"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 353
@@ -7777,9 +7777,9 @@ msgid ""
 "(a) DHCPv6 Server, \"Assisted\" for DHCPv6 Server assignment combined with "
 "Stateless Autoconfig"
 msgstr ""
-"「ルータのみ」を使用すると、ルータ広告のみを行います。「非管理」はステートレ"
-"スな自動構成のルータ広告、「管理」は DHCPv6 サーバ経由の割当て、「支援」はス"
-"テートレスな自動構成と DHCPv6 サーバ割当てを組み合わせたものです。"
+"「ルータのみ」を使用するとこのルータの広告のみを行います。「非管理」はステートレ"
+"スな自動構成のルータ広告、「管理」は DHCPv6 サーバ経由の割当て、"
+"「支援」は DHCPv6 サーバ割当てにステートレスな自動構成を組み合わせます。"
 
 #, php-format
 msgid "Select the Operating Mode for the Router Advertisement (RA) Daemon."
@@ -8317,7 +8317,7 @@ msgid ""
 "Deny state modifications (i.e. run time configuration) by ntpq and ntpdc "
 "(default: enabled)."
 msgstr ""
-"ntpq 及び ntpdc による状態変更 ( ランタイム構成 ) を拒否 ( デフォルト: 有"
+"ntpq 及び ntpdc によるステート変更 ( ランタイム構成 ) を拒否します ( デフォルト: 有"
 "効 )。"
 
 # File: src/www/services_ntpd.php, line: 359
@@ -10201,9 +10201,9 @@ msgid ""
 "connection. Further connections from that host will be redirected to the "
 "next web server in the round-robin."
 msgstr ""
-"連続した接続は、同じ送信元が同じ Web サーバに送信している接続を、ラウンドロビ"
+"連続した接続は、同じ送信元が同じ Web サーバに送信している接続をラウンドロビ"
 "ン方式でサーバにリダイレクトします。このような「スティッキー接続」は、この接"
-"続を参照するステータスと同じ期間存在します。ステートの有効期限が切れると、"
+"続を参照するステートと同じ期間存在します。ステートの有効期限が切れると、"
 "スティッキー接続の有効期限も切れます。そのホストからの追加的な接続は、ラウン"
 "ドロビンで次の Web サーバにリダイレクトされます。"
 
@@ -14015,7 +14015,7 @@ msgstr "ICMP タイプ"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 779
 msgid "Hint: in most cases, you should specify TCP here."
-msgstr "ヒント: ほとんどの場合、TCP を指定すべきです。"
+msgstr "ヒント: 通常は TCP を指定するといいでしょう。"
 
 msgid "Choose on which interface packets must come in to match this rule."
 msgstr ""
@@ -14136,7 +14136,7 @@ msgid ""
 "You cannot specify the maximum state entries per host (advanced option) if "
 "statetype is none."
 msgstr ""
-"ステートタイプがなしの場合は、ホスト毎の最大ステータスエントリを指定できま"
+"ステートタイプがなしの場合は、ホスト毎の最大ステートエントリを指定できま"
 "せん。( 詳細オプション )"
 
 msgid ""
@@ -14165,7 +14165,7 @@ msgstr ""
 msgid ""
 "You can only specify the state timeout (advanced option) for Pass type rules."
 msgstr ""
-"許可タイプルールにはステートタイムアウトのみが指定可能です。( 詳細オプ"
+"許可タイプルールには、ステートタイムアウトのみが指定可能です。( 詳細オプ"
 "ション )"
 
 # File: src/www/firewall_rules_edit.php, line: 489
@@ -14646,7 +14646,7 @@ msgid "This Firewall (self)"
 msgstr "このファイアウォール ( 本機 )"
 
 msgid "Hint: in most cases, you won't use this option."
-msgstr "ヒント: 通常は、このオプションは使用しません。"
+msgstr "ヒント: 通常はこのオプションは使用しません。"
 
 msgid ""
 "Enabling this option will disable NAT for traffic matching this rule and "
@@ -14963,7 +14963,7 @@ msgid "TCP/IP Version"
 msgstr "TCP/IP バージョン"
 
 msgid "Hint: in most cases, you'll want to use WAN here."
-msgstr "ヒント: 通常は、ここで使用するのは WAN です。"
+msgstr "ヒント: 通常はここで使用するのは WAN です。"
 
 msgid "Choose which interface this rule applies to."
 msgstr "このルールを適用するインタフェースを選択してください。"
@@ -14973,7 +14973,7 @@ msgid ""
 "you're doing."
 msgstr ""
 "ヒント: このオプションが必要になることはめったにありません。何をしているのか"
-"よくわからないなら使用しないでください。"
+"よくわからない場合は使用しないでください。"
 
 msgid ""
 "Enabling this option will disable redirection for traffic matching this rule."
@@ -15134,7 +15134,7 @@ msgid "External subnet IP"
 msgstr "外部サブネット IP"
 
 msgid "Hint: in most cases, you'll want to use WAN here"
-msgstr "ヒント: 通常はここで WAN を使用します。"
+msgstr "ヒント: 通常はここで使用するのは WAN です"
 
 msgid "Choose which interface this rule applies to"
 msgstr "このルールを適用するインタフェースを選択してください。"
@@ -18059,7 +18059,7 @@ msgstr "クリックして変更ログ履歴を全て表示します。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 418
 msgid "Check for updates to view changelog history."
-msgstr "変更ログ履歴の表示して更新を確認します。"
+msgstr "変更ログ履歴を表示して更新を確認します。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 404
 msgid "installed"
@@ -19224,13 +19224,13 @@ msgid "it was not previously established a SMTP connection"
 msgstr "前回確立した SMTP 接続ではありません"
 
 msgid "connection is not in the sending data state"
-msgstr "接続ステートは、データ送信中ではありません"
+msgstr "接続はデータ送信ステートではありません"
 
 msgid "connection is not in the start sending data state"
-msgstr "接続ステートは、データ送信開始ではありません"
+msgstr "接続はデータ送信開始ステートではありません"
 
 msgid "connection is not in the recipient setting state"
-msgstr "接続ステートは、受信者設定ではありません"
+msgstr "接続は受信者設定ステートではありません"
 
 msgid "connection is already established and the recipient is already set"
 msgstr "接続は確立しており、受信者も設定されています"
@@ -19243,7 +19243,7 @@ msgid "it was not specified a valid direct recipient"
 msgstr "有効な直接受信者に指定されていません"
 
 msgid "connection is not in the initial state"
-msgstr "接続ステートは初期状態ではありません"
+msgstr "接続は初期ステートではありません"
 
 msgid ""
 "direct delivery connection is already established and sender is already set"
