@@ -18876,15 +18876,13 @@ msgstr ""
 "%s警告: フィルタルールが削除されました ( インタフェース '%s' は現在存在しませ"
 "ん )"
 
-#
 # File: /usr/core/src/etc/inc/system.inc, line: 1690
 msgid "Mute Console"
-msgstr ""
+msgstr "コンソールをミュート"
 
-#
 # File: /usr/core/src/etc/inc/system.inc, line: 1689
 msgid "EFI Console"
-msgstr ""
+msgstr "EFI コンソール"
 
 # File: src/www/system_advanced_admin.php, line: 560
 msgid "Serial Console"
@@ -18938,10 +18936,9 @@ msgstr "オランダ語"
 msgid "Chinese (Simplified)"
 msgstr "中国語 ( 簡体字 )"
 
-#
 # File: /usr/core/src/etc/inc/system.inc, line: 240
 msgid "Czech"
-msgstr ""
+msgstr "チェコ語"
 
 msgid "English"
 msgstr "英語"
@@ -19053,25 +19050,21 @@ msgstr "ダイナミック DNS クライアントを起動しています..."
 msgid "Server load balancing daemon"
 msgstr "サーバ負荷分散デーモン"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/pf.inc, line: 37
 msgid "Packet Filter"
-msgstr ""
+msgstr "パケットフィルタ"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/ntpd.inc, line: 48
 msgid "Network Time Daemon"
-msgstr ""
+msgstr "ネットワークタイムデーモン"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/netflow.inc, line: 45
 msgid "NetFlow Capture"
-msgstr ""
+msgstr "NetFlow キャプチャ"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/miniupnpd.inc, line: 56
 msgid "Univeral Plug and Play"
-msgstr ""
+msgstr "ユニバーサルプラグアンドプレイ"
 
 msgid "IPsec VPN"
 msgstr "IPSec VPN"
@@ -19079,11 +19072,10 @@ msgstr "IPSec VPN"
 msgid "SNMP Service"
 msgstr "SNMP サービス"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc, line: 198
 #, php-format
 msgid "Synchronize %s settings to backup"
-msgstr ""
+msgstr "%s 設定を同期してバックアップ"
 
 #, php-format
 msgid "OpenVPN %s wizard"
@@ -19571,10 +19563,9 @@ msgstr "SCRUB 情報の設定"
 msgid "Setting up logging information"
 msgstr "ログ情報の設定"
 
-#
 # File: /usr/core/src/etc/inc/filter.inc, line: 441
 msgid "Filter is disabled. Not loading rules."
-msgstr ""
+msgstr "フィルタは無効になっています。ルールはロードされません。"
 
 msgid "Loading filter rules"
 msgstr "フィルタルールの読み込み"
@@ -19741,20 +19732,17 @@ msgstr ""
 msgid "RADIUS Shared Secret"
 msgstr "RADIUS 共有秘密鍵"
 
-#
 # File: /usr/plugins/security/tinc/src/opnsense/mvc/app/views/OPNsense/Tinc/index.volt, line: 73
 msgid "Error reconfiguring Tinc"
-msgstr ""
+msgstr "Tinc 再構成エラー"
 
-#
 # File: /usr/plugins/security/tinc/src/opnsense/mvc/app/controllers/OPNsense/Tinc/IndexController.php, line: 41
 msgid "Tinc VPN"
-msgstr ""
+msgstr "Tinc VPN"
 
-#
 # File: /usr/plugins/security/tinc/src/etc/inc/plugins.inc.d/tinc.inc, line: 70
 msgid "Tinc VPN Server"
-msgstr ""
+msgstr "Tinc VPN サーバ"
 
 msgid "Number of L2TP users"
 msgstr "L2TP ユーザ数"
@@ -20326,36 +20314,30 @@ msgstr "HAProxy 構成に重大なエラーがあります"
 msgid "HAProxy load balancer"
 msgstr "HAProxy ロードバランサ"
 
-#
 # File: /usr/plugins/net/ftp-proxy/src/etc/inc/plugins.inc.d/ftpproxy.inc, line: 62
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/controllers/OPNsense/FtpProxy/IndexController.php, line: 45
 msgid "FTP Proxy Server"
-msgstr ""
+msgstr "FTP プロキシサーバ"
 
-#
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 83
 msgid "FTP Proxies"
-msgstr ""
+msgstr "FTP プロキシ"
 
-#
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 92
 msgid "Listen Address"
-msgstr ""
+msgstr "リスンアドレス"
 
-#
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 95
 msgid "Reverse Address"
-msgstr ""
+msgstr "リバースアドレス"
 
-#
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 96
 msgid "Reverse Port"
-msgstr ""
+msgstr "リバースポート"
 
-#
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 97
 msgid "Maximum Sessions"
-msgstr ""
+msgstr "最大セッション"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 482
 msgid "Health Check ID"
@@ -20489,25 +20471,21 @@ msgstr "認証タイプ"
 msgid "Warning: this will terminate all current l2tp sessions!"
 msgstr "警告: 現在の L2TP セッションは、全て終了します！"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/SSOProxyAD/IndexController.php, line: 35
 msgid "SSO Proxy Active Directory"
-msgstr ""
+msgstr "SSO プロキシアクティブディレクトリ"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/library/OPNsense/Auth/SSOProxyAD.php, line: 50
 msgid "SSO Proxy AD"
-msgstr ""
+msgstr "SSO プロキシ AD"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 81
 msgid "Join Domain"
-msgstr ""
+msgstr "ドメインに参加"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 82
 msgid "Update Domain"
-msgstr ""
+msgstr "ドメインを更新"
 
 msgid "Info"
 msgstr "情報"
@@ -20522,26 +20500,27 @@ msgid ""
 "             It is best to use only those ciphers which support CBC mode\n"
 "      "
 msgstr ""
+" 対称暗号化アルゴリズムは UDP パケットの暗号化に使用されていました。\n"
+"             LibreSSL や OpenSSL でサポートされているいずれの暗号も認証されます。\n"
+"             また「なし」を指定している場合は、パケットの暗号化は行われません。\n"
+"             CBC モードをサポートしている暗号のみを使用するのがお勧めです。\n"
+"      "
 
-#
 # File: /usr/lang/src/controllers.php, line: 41
 msgid "(FQ-)CoDel ECN"
-msgstr ""
+msgstr "(FQ-)CoDel ECN"
 
-#
 # File: /usr/lang/src/controllers.php, line: 42
 msgid "(FQ-)CoDel interval"
-msgstr ""
+msgstr "(FQ-)CoDel 間隔"
 
-#
 # File: /usr/lang/src/controllers.php, line: 43
 msgid "(FQ-)CoDel target"
-msgstr ""
+msgstr "(FQ-)CoDel 対象"
 
-#
 # File: /usr/lang/src/controllers.php, line: 44
 msgid "(optional) user credentials."
-msgstr ""
+msgstr "( オプション ) ユーザ資格情報"
 
 msgid "Action"
 msgstr "動作"
@@ -20549,35 +20528,29 @@ msgstr "動作"
 msgid "Actions"
 msgstr "動作"
 
-#
 # File: /usr/lang/src/controllers.php, line: 47
 msgid "Actions (ACLs)"
-msgstr ""
+msgstr "アクション (ACL)"
 
-#
 # File: /usr/lang/src/controllers.php, line: 48
 msgid "Active Directory Domain Controller"
-msgstr ""
+msgstr "アクティブディレクトリドメインコントローラ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 49
 msgid "Active Directory Domain Name"
-msgstr ""
+msgstr "アクティブディレクトリドメイン名"
 
-#
 # File: /usr/lang/src/controllers.php, line: 50
 msgid "Active Directory Domain Password"
-msgstr ""
+msgstr "アクティブディレクトリドメインパスワード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 51
 msgid "Active Directory Domain User"
-msgstr ""
+msgstr "アクティブディレクトリドメインユーザ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 52
 msgid "Active Directory Domain Version"
-msgstr ""
+msgstr "アクティブディレクトリドメインバージョン"
 
 # File: /usr/lang/src/controllers.php, line: 36
 msgid "Add servers to this backend. Use TAB key to complete typing."
@@ -20594,54 +20567,48 @@ msgstr ""
 "チェック間隔に 0 から +/- 50% の間でランダム度を追加します。2 - 5 の値だと良"
 "い結果を表示するようです。デフォルト値は 0 です ( 無効 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 55
 msgid ""
 "Address where the proxy will listen for redirected control connections. The "
 "default is 127.0.0.1."
 msgstr ""
+"プロキシがリダイレクトされた制御接続をリスンするアドレスです。デフォルトは 127.0.0.1 です。"
 
 # File: /usr/lang/src/controllers.php, line: 38
 msgid "Adjust the server's weight relative to other servers."
 msgstr "他のサーバとの関係でサーバの重みを調整します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 57
 msgid "Administrator's Email"
-msgstr ""
+msgstr "管理者のメール"
 
-#
 # File: /usr/lang/src/controllers.php, line: 58
 msgid "Advanced Bind Options"
-msgstr ""
+msgstr "詳細 Bind オプション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 59
 msgid "Advanced SSL options"
-msgstr ""
+msgstr "詳細 SSL オプション"
 
 # File: src/www/interfaces_bridge_edit.php, line: 452
 msgid "Advanced options"
 msgstr "詳細オプション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 61
 msgid "Advanced settings"
-msgstr ""
+msgstr "詳細設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 62
 msgid "Agent port"
-msgstr ""
+msgstr "エージェントポート"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 495
 msgid "Alert"
 msgstr "アラート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 64
 msgid "Alert action / sid"
-msgstr ""
+msgstr "アラートアクション/ sid"
 
 # File: /usr/lang/src/controllers.php, line: 39
 msgid ""
@@ -20651,30 +20618,25 @@ msgstr ""
 "HAProxy に完全ではない正常な接続に対して自動的にログレベルを上げることを許可"
 "しデバッグを補助します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 66
 msgid "Allow interface subnets"
-msgstr ""
+msgstr "インタフェースサブネットを許可"
 
-#
 # File: /usr/lang/src/controllers.php, line: 67
 msgid "Allowed MAC addresses"
-msgstr ""
+msgstr "許可済 MAC アドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 68
 msgid "Allowed SSL ports"
-msgstr ""
+msgstr "許可済 SSL ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 69
 msgid "Allowed Subnets"
-msgstr ""
+msgstr "許可済サブネット"
 
-#
 # File: /usr/lang/src/controllers.php, line: 70
 msgid "Allowed addresses"
-msgstr ""
+msgstr "許可済アドレス"
 
 #
 # File: /usr/lang/src/controllers.php, line: 71
