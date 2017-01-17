@@ -20671,7 +20671,7 @@ msgstr "このリストの物理アドレスの認証を除外"
 
 # File: /usr/lang/src/controllers.php, line: 79
 msgid "Balancing Algorithm"
-msgstr "バランシングアルゴリズム"
+msgstr "分散アルゴリズム"
 
 # File: /usr/lang/src/controllers.php, line: 80
 msgid "Banned host IP addresses"
@@ -20695,7 +20695,7 @@ msgstr "この FTP プロキシの簡単な説明"
 
 # File: /usr/lang/src/controllers.php, line: 85
 msgid "Buffer size"
-msgstr "バッファ・サイズ"
+msgstr "バッファサイズ"
 
 # File: /usr/lang/src/controllers.php, line: 86
 msgid "CA to use"
@@ -20735,15 +20735,15 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 92
 msgid "Check Interval"
-msgstr "間隔を確認"
+msgstr "確認間隔"
 
 # File: /usr/lang/src/controllers.php, line: 93
 msgid "Check interval"
-msgstr "間隔を確認"
+msgstr "確認間隔"
 
 # File: /usr/lang/src/controllers.php, line: 94
 msgid "Check type"
-msgstr "タイプを確認"
+msgstr "確認タイプ"
 
 # File: /usr/lang/src/controllers.php, line: 44
 msgid ""
@@ -21674,7 +21674,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 282
 msgid "Ignore SSL certificate validation (for self-signed certificates)"
-msgstr "SSL 証明書検証を無視 ( 自己署名証明書に対して )"
+msgstr "SSL 証明書検証を無視 ( 自己署名証明書用 )"
 
 # File: /usr/lang/src/controllers.php, line: 283
 msgid "Ignore hosts in access.log"
@@ -21733,74 +21733,64 @@ msgstr "ログ接続"
 
 # File: /usr/lang/src/controllers.php, line: 296
 msgid "Log target"
-msgstr "ログターゲット"
+msgstr "ログ対象"
 
 # File: /usr/lang/src/controllers.php, line: 297
 msgid "Logging Options"
 msgstr "ロギングオプション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 298
 msgid "Logical operator (for ACLs)"
-msgstr ""
+msgstr "論理演算子 ( ACL 用 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 299
 msgid "Max sessions"
-msgstr ""
+msgstr "最大セッション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 300
 msgid "Max. Connections"
-msgstr ""
+msgstr "最大接続"
 
-#
 # File: /usr/lang/src/controllers.php, line: 301
 msgid "Max. line length"
-msgstr ""
+msgstr "行の最大長"
 
-#
 # File: /usr/lang/src/controllers.php, line: 302
 msgid "Maximum RAM per LUA process"
-msgstr ""
+msgstr "LUA プロセス毎の最大 RAM"
 
-#
 # File: /usr/lang/src/controllers.php, line: 303
 msgid "Maximum SSL DH Size"
-msgstr ""
+msgstr "最大 SSL DH サイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 304
 msgid "Maximum connections"
-msgstr ""
+msgstr "最大接続"
 
-#
 # File: /usr/lang/src/controllers.php, line: 305
 msgid "Maximum download size (kB)"
-msgstr ""
+msgstr "最大ダウンロードサイズ ( KB )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 306
 msgid ""
 "Maximum number of concurrent FTP sessions.  When the proxy reaches this "
 "limit, new connections are denied. The default is 100 sessions. The limit "
 "can be lowered to a minimum of 1, or raised to a maximum of 500."
 msgstr ""
+"同時 FTP セッションの最大数。プロキシがこの制限に達すると、新規の接続は拒否されます。"
+"デフォルトは 100 セッションです。この制限値の最低は 1 で最大 500 まで上げることができます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 307
 msgid "Maximum object size (MB)"
-msgstr ""
+msgstr "最大オブジェクトサイズ ( MB )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 308
 msgid "Maximum upload size (kB)"
-msgstr ""
+msgstr "最大アップロードサイズ ( KB )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 309
 msgid "Memory Cache size in Megabytes"
-msgstr ""
+msgstr "メモリキャッシュサイズ ( MB )"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 446
 msgid "Message"
@@ -21823,26 +21813,28 @@ msgstr "モード"
 msgid "Months"
 msgstr "月"
 
-#
 # File: /usr/lang/src/controllers.php, line: 315
 msgid ""
 "NOTE: Define default parameters for ALL Frontends, Backends and Servers "
 "here. They may still be overriden elsewhere."
 msgstr ""
+"注意: 全てのフロントエンド、バックエンド、サーバのデフォルトパラメータはここで定義します。"
+"この設定は他の場所で上書きされる可能性があります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 316
 msgid ""
 "NOTE: Define global parameters for the HAProxy service. They cannot be "
 "overriden."
 msgstr ""
+"注意: HAProxy サービスのグローバルパラメータはここで定義します。"
+"この設定は上書きできません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 317
 msgid ""
 "NOTE: You need to configure frontends, backends and servers before enabling "
 "HAProxy."
 msgstr ""
+"注意: HAProxy を有効にする前に、フロントエンド、バックエンド、サーバを構成してください。"
 
 msgid "Name"
 msgstr "名前"
@@ -21875,49 +21867,41 @@ msgstr "このフロントエンドを識別する名前です。"
 msgid "Name to identify this server."
 msgstr "このサーバを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 326
 msgid "Name used for this network"
-msgstr ""
+msgstr "このネットワークで使用する名前"
 
-#
 # File: /usr/lang/src/controllers.php, line: 327
 msgid "Name/Identifier"
-msgstr ""
+msgstr "名前 / 識別子"
 
-#
 # File: /usr/lang/src/controllers.php, line: 328
 msgid "Negate condition"
-msgstr ""
+msgstr "否定条件"
 
 msgid "Network"
 msgstr "ネットワーク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 330
 msgid "Network Name"
-msgstr ""
+msgstr "ネットワーク名"
 
-#
 # File: /usr/lang/src/controllers.php, line: 331
 msgid "Non-HTTP check options"
-msgstr ""
+msgstr "Non-HTTP チェックオプション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 332
 msgid "Number of first-level subdirectories"
-msgstr ""
+msgstr "ファーストレベルサブディレクトリの数"
 
 # File: /usr/lang/src/controllers.php, line: 144
 msgid "Number of logs to keep."
 msgstr "保持するログの数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 334
 msgid "Number of second-level subdirectories"
-msgstr ""
+msgstr "セカンドレベルサブディレクトリの数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 335
 msgid ""
 "Number of seconds that the control connection can be idle, before the proxy "
@@ -21925,26 +21909,25 @@ msgid ""
 "not set this too low, because the control connection is usually idle when "
 "large data transfers are taking place."
 msgstr ""
+"制御接続がアイドルになってからプロキシが切断するまでの秒数。"
+"最大は 86400 秒でこれがデフォルトです。あまり低い値を設定しないようにしてください。"
+"通常、制御接続はサイズが大きいデータ転送が行われている時はアイドル状態だからです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 336
 msgid "Option pass-through"
-msgstr ""
+msgstr "オプションパススルー"
 
-#
 # File: /usr/lang/src/controllers.php, line: 337
 msgid "Optional parameters"
-msgstr ""
+msgstr "オプションパラメータ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 338
 msgid "Overall bandwidth throttling (kbps)"
-msgstr ""
+msgstr "全体の帯域制限 ( kbps )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 339
 msgid "Parameters"
-msgstr ""
+msgstr "パラメータ"
 
 # File: /usr/lang/src/controllers.php, line: 145
 msgid "Paste the content of your Lua script here."
@@ -21958,50 +21941,44 @@ msgstr ""
 "エラーファイルの内容をここに貼り付けてください。ファイルは構成されたバッファ"
 "サイズを超えないほうがいいでしょう。通常は 8 もしくは 16 KB です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 342
 msgid "Pattern matcher"
-msgstr ""
+msgstr "パターンマッチャー"
 
-#
+
 # File: /usr/lang/src/controllers.php, line: 343
 msgid "Per host bandwidth throttling (kbps)"
-msgstr ""
+msgstr "ホスト毎の帯域制限 ( kbps )"
 
 msgid "Port"
 msgstr "ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 345
 msgid "Port to check"
-msgstr ""
+msgstr "確認するポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 346
 msgid ""
 "Port where the proxy will listen for redirected connections. The default is "
 "port 8021."
 msgstr ""
+"プロキシがリダイレクトされた接続をリスンするポートです。デフォルトは 8021 です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 347
 msgid "Preview Size"
-msgstr ""
+msgstr "プレビューサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 348
 msgid "Private key"
-msgstr ""
+msgstr "秘密鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 349
 msgid "Private key for this host in the network (leave empty to generate)"
-msgstr ""
+msgstr "ネットワークで使用するこのホストの秘密鍵 ( 空白にすると生成します )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 350
 msgid "Promiscuous mode"
-msgstr ""
+msgstr "プロミスキャスモード"
 
 # File: /usr/lang/src/controllers.php, line: 147
 msgid "Provide either the FQDN or the IP address of this server."
@@ -22015,194 +21992,160 @@ msgstr "このサーバの TCP 通信ポートを入力してください。例 
 msgid "Provide the TCP communication port to use during check, i.e. 80 or 443."
 msgstr "チェック中に使用する TCP 通信ポートを入力してください。例 80、443"
 
-#
 # File: /usr/lang/src/controllers.php, line: 354
 msgid "Proxy interfaces"
-msgstr ""
+msgstr "プロキシインタフェース"
 
 msgid "Proxy port"
 msgstr "プロキシポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 356
 msgid "Public key"
-msgstr ""
+msgstr "公開鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 357
 msgid "Public key for this host in the network"
-msgstr ""
+msgstr "ネットワークで使用するこのホストの公開鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 358
 msgid "Public key for this host in the network (leave empty to generate)"
-msgstr ""
+msgstr "ネットワークで使用するこのホストの公開鍵 ( 空白にすると生成します )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 359
 msgid "Query Backend"
-msgstr ""
+msgstr "バックエンドを照会"
 
-#
 # File: /usr/lang/src/controllers.php, line: 360
 msgid "Raise Log Level"
-msgstr ""
+msgstr "ログレベルを上げる"
 
-#
 # File: /usr/lang/src/controllers.php, line: 361
 msgid "Reference"
-msgstr ""
+msgstr "参照"
 
-#
 # File: /usr/lang/src/controllers.php, line: 362
 msgid "Remote listen addresses"
-msgstr ""
+msgstr "リモートリスンアドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 363
 msgid "Request Modify URL"
-msgstr ""
+msgstr "URL 変更要求"
 
-#
 # File: /usr/lang/src/controllers.php, line: 364
 msgid "Request URI"
-msgstr ""
+msgstr "URI 要求"
 
-#
 # File: /usr/lang/src/controllers.php, line: 365
 msgid "Response Modify URL"
-msgstr ""
+msgstr "URL 変更応答"
 
-#
 # File: /usr/lang/src/controllers.php, line: 366
 msgid "Retries"
-msgstr ""
+msgstr "再試行"
 
-#
 # File: /usr/lang/src/controllers.php, line: 367
 msgid "Reverse address"
-msgstr ""
+msgstr "リバースアドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 368
 msgid "Reverse port"
-msgstr ""
+msgstr "リバースポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 369
 msgid "Revision"
-msgstr ""
+msgstr "リビジョン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 370
 msgid "Rewrite source port"
-msgstr ""
+msgstr "送信元ポートを再書込み"
 
-#
 # File: /usr/lang/src/controllers.php, line: 371
 msgid ""
 "Rewrite sourceport to 20 in active mode to suit ancient clients that insist "
 "on this RFC property."
 msgstr ""
+"アクティブモードで送信元ポートを 20 に再書込みすると、"
+"この RFC のプロパティを要求する古いクライアントに適合します。"
 
 # File: /usr/lang/src/controllers.php, line: 149
 msgid "Rotate alert logs at provided interval."
 msgstr "入力した間隔で警告ログを循環します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 373
 msgid "Rotate log"
-msgstr ""
+msgstr "循環ログ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 374
 msgid "Run as root"
-msgstr ""
+msgstr "root として実行"
 
-#
 # File: /usr/lang/src/controllers.php, line: 375
 msgid "SMTP domain"
-msgstr ""
+msgstr "SMTP ドメイン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 376
 msgid "SMTPHost"
-msgstr ""
+msgstr "SMTP ホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 377
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
-#
 # File: /usr/lang/src/controllers.php, line: 378
 msgid "SSL Client Certificate"
-msgstr ""
+msgstr "SSL クライアント証明書"
 
-#
 # File: /usr/lang/src/controllers.php, line: 379
 msgid "SSL Domain/IP only"
-msgstr ""
+msgstr "SSL ドメイン / IP のみ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 380
 msgid "SSL Offloading"
-msgstr ""
+msgstr "SSL オフローディング"
 
-#
 # File: /usr/lang/src/controllers.php, line: 381
 msgid "SSL Proxy port"
-msgstr ""
+msgstr "SSL プロキシポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 382
 msgid "SSL Verify CA"
-msgstr ""
+msgstr "SSL CA を検証"
 
-#
 # File: /usr/lang/src/controllers.php, line: 383
 msgid "SSL Verify CRL"
-msgstr ""
+msgstr "SSL CRL を検証"
 
-#
 # File: /usr/lang/src/controllers.php, line: 384
 msgid "SSL cache size"
-msgstr ""
+msgstr "SSL キャッシュサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 385
 msgid "SSL cert workers"
-msgstr ""
+msgstr "SSL 証明書ワーカー"
 
-#
 # File: /usr/lang/src/controllers.php, line: 386
 msgid "SSL certificate"
-msgstr ""
+msgstr "SSL 証明書"
 
-#
 # File: /usr/lang/src/controllers.php, line: 387
 msgid "SSL no bump sites"
-msgstr ""
+msgstr "SSL bump を使用しないサイト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 388
 msgid "SSL/Fingerprint"
-msgstr ""
+msgstr "SSL / フィンガープリント"
 
-#
 # File: /usr/lang/src/controllers.php, line: 389
 msgid "Save logs"
-msgstr ""
+msgstr "ログを保存"
 
-#
 # File: /usr/lang/src/controllers.php, line: 390
 msgid "Scheduler type"
-msgstr ""
+msgstr "スケジューラタイプ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 391
 msgid "Select ACLs"
-msgstr ""
+msgstr "ACL を選択"
 
 msgid "Select Authentication method"
 msgstr "認証方法を選択"
@@ -24229,629 +24172,4 @@ msgstr "sslrtd 子の数は 1 - 32 の整数値です"
 # File: /usr/lang/src/models.php, line: 328
 msgid "workAround"
 msgstr ""
-
-# File: /usr/core/src/www/widgets/widgets/system_information.widget.php, line: 50
-
-# File: src/www/widgets/widgets/system_information.widget.php, line: 50
-
-
-# File: src/www/widgets/widgets/system_information.widget.php, line: 49
-
-
-
-
-
-# File: src/www/vpn_openvpn_server.php, line: 1508
-
-
-# File: src/www/vpn_openvpn_export.php, line: 960
-
-# File: src/www/vpn_openvpn_export.php, line: 956
-
-# File: src/www/vpn_openvpn_export.php, line: 951
-
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 719
-
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 614
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 646
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 689
-
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 613
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 645
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 688
-
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 611
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 643
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 686
-
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 610
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 642
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 685
-
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 609
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 641
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 684
-
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 608
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 640
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 683
-
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 607
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 639
-# File: /usr/core/src/www/vpn_openvpn_export.php, line: 682
-
-# File: src/www/vpn_openvpn_export.php, line: 775
-# File: src/www/vpn_openvpn_export.php.orig, line: 775
-
-# File: src/www/vpn_openvpn_export.php, line: 771
-# File: src/www/vpn_openvpn_export.php.orig, line: 771
-
-# File: src/www/vpn_openvpn_export.php, line: 767
-# File: src/www/vpn_openvpn_export.php.orig, line: 767
-
-# File: src/www/vpn_openvpn_export.php, line: 656
-
-# File: src/www/vpn_openvpn_export.php, line: 654
-# File: src/www/vpn_openvpn_export.php.orig, line: 654
-
-# File: src/www/vpn_openvpn_export.php, line: 168
-# File: src/www/vpn_openvpn_export_shared.php, line: 93
-
-# File: /usr/core/src/www/vpn_openvpn_csc.php, line: 626
-# File: /usr/core/src/www/vpn_openvpn_server.php, line: 1606
-
-
-
-
-
-
-# File: src/www/vpn_openvpn_client.php, line: 198
-
-# File: src/www/vpn_openvpn_client.php, line: 195
-# File: src/www/vpn_openvpn_client.php.orig, line: 195
-
-# File: src/www/vpn_openvpn_client.php, line: 190
-
-# File: src/www/vpn_openvpn_client.php, line: 186
-# File: src/www/vpn_openvpn_client.php.orig, line: 186
-
-# File: src/www/vpn_openvpn_client.php, line: 178
-
-# File: src/www/vpn_ipsec_settings.php, line: 233
-
-# File: src/www/vpn_ipsec_settings.php, line: 231
-
-# File: src/www/vpn_ipsec_settings.php, line: 226
-
-
-# File: src/www/vpn_ipsec_settings.php, line: 197
-
-# File: src/www/vpn_ipsec_settings.php, line: 177
-
-
-# File: src/www/vpn_ipsec_phase1.php, line: 616
-
-# File: src/www/vpn_ipsec_keys_edit.php, line: 146
-
-# File: src/www/vpn_ipsec_keys.php, line: 129
-
-
-
-# File: src/www/system_usermanager.php, line: 930
-
-# File: src/www/system_usermanager.php, line: 921
-
-
-# File: src/www/system_usermanager.php, line: 228
-
-# File: src/www/system_usermanager.php, line: 227
-
-
-
-
-
-
-# File: src/www/system_certmanager.php, line: 342
-
-# File: src/www/system_certmanager.php, line: 339
-
-
-
-
-
-
-# File: /usr/core/src/www/system_authservers.php, line: 174
-
-# File: /usr/core/src/www/system_authservers.php, line: 171
-
-
-# File: src/www/system_advanced_notifications.php, line: 276
-
-
-# File: src/www/system_advanced_notifications.php, line: 266
-
-
-# File: src/www/system_advanced_notifications.php, line: 257
-
-
-
-
-
-
-
-
-# File: /usr/core/src/www/system_advanced_misc.php, line: 416
-
-# File: /usr/core/src/www/system_advanced_misc.php, line: 405
-
-
-# File: /usr/core/src/www/system_advanced_misc.php, line: 400
-
-
-
-
-
-# File: /usr/core/src/www/system_advanced_firewall.php, line: 280
-
-
-
-# File: src/www/system_advanced_admin.php, line: 616
-
-# File: src/www/system_advanced_admin.php, line: 549
-
-# File: /usr/core/src/www/system_advanced_admin.php, line: 511
-
-# File: /usr/core/src/www/system_advanced_admin.php, line: 504
-
-
-
-# File: src/www/services_upnp.php, line: 208
-
-# File: /usr/core/src/www/services_unbound_advanced.php, line: 343
-
-
-# File: src/www/services_unbound_advanced.php, line: 365
-
-# File: src/www/services_unbound_advanced.php, line: 364
-
-# File: src/www/services_unbound_advanced.php, line: 363
-
-# File: src/www/services_unbound_advanced.php, line: 362
-
-# File: src/www/services_unbound_advanced.php, line: 361
-
-
-
-# File: /usr/core/src/www/services_unbound_advanced.php, line: 177
-
-
-
-# File: /usr/core/src/www/services_router_advertisements.php, line: 350
-
-# File: /usr/core/src/www/services_router_advertisements.php, line: 308
-
-
-
-
-# File: src/www/services_ntpd_pps.php, line: 132
-
-# File: src/www/services_ntpd_pps.php, line: 132
-
-# File: src/www/services_ntpd_gps.php, line: 548
-# File: src/www/services_ntpd_pps.php, line: 205
-
-# File: src/www/services_ntpd_gps.php, line: 499
-
-
-# File: /usr/core/src/www/services_igmpproxy.php, line: 101
-
-
-
-# File: /usr/core/src/www/services_dnsmasq_domainoverride_edit.php, line: 97
-
-
-
-# File: /usr/core/src/www/services_dhcpv6.php, line: 754
-
-
-
-
-
-
-
-
-
-
-# File: /usr/core/src/www/interfaces.php, line: 2920
-
-
-
-
-# File: /usr/core/src/www/interfaces.php, line: 2612
-
-# File: src/www/interfaces.php, line: 2250
-
-# File: src/www/interfaces.php, line: 2234
-
-# File: src/www/interfaces.php, line: 2598
-
-# File: src/www/interfaces.php, line: 2593
-
-# File: /usr/core/src/www/interfaces.php, line: 2052
-
-# File: src/www/interfaces.php, line: 2068
-# File: src/www/interfaces.php, line: 2081
-
-
-
-
-# File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 455
-
-
-
-
-
-
-# File: /usr/core/src/www/firewall_rules.php, line: 637
-
-
-
-
-# File: src/www/firewall_nat_npt.php, line: 91
-
-# File: src/www/firewall_nat_1to1.php, line: 90
-
-# File: src/www/firewall_aliases_edit.php, line: 459
-
-# File: src/www/firewall_aliases_edit.php, line: 456
-
-
-
-# File: src/www/diag_confbak.php, line: 42
-
-
-
-
-
-
-# File: /usr/core/src/www/diag_backup.php, line: 83
-
-
-# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 217
-
-# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 146
-
-# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 67
-
-# File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 64
-
-# File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 89
-
-# File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 68
-
-# File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 60
-
-# File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 57
-
-# File: src/etc/rc.initial.setlanip, line: 451
-
-
-# File: src/etc/rc.bootup, line: 143
-
-
-
-
-
-
-
-
-
-
-
-
-# File: src/etc/inc/services.inc, line: 2476
-
-# File: /usr/core/src/etc/inc/services.inc, line: 2368
-
-
-
-
-
-
-
-
-
-
-# File: src/etc/inc/openvpn-client-export.inc, line: 502
-
-# File: /usr/core/src/etc/inc/openvpn-client-export.inc, line: 482
-
-# File: /usr/core/src/etc/inc/openvpn-client-export.inc, line: 476
-
-
-# File: /usr/core/src/etc/inc/ipsec.inc, line: 487
-
-# File: src/etc/inc/interfaces.inc, line: 2934
-
-
-
-
-
-
-
-
-
-
-
-
-
-# File: src/etc/inc/config.lib.inc, line: 143
-
-
-
-
-
-
-# File: /usr/lang/src/acl.php, line: 41
-
-
-
-
-
-
-
-# File: lang/dynamic/helpers/acl.php, line: 177
-
-# File: lang/dynamic/helpers/acl.php, line: 127
-
-# File: lang/dynamic/helpers/acl.php, line: 155
-
-# File: lang/dynamic/helpers/acl.php, line: 134
-
-# File: lang/dynamic/helpers/acl.php, line: 123
-
-# File: lang/dynamic/helpers/acl.php, line: 220
-
-# File: lang/dynamic/helpers/acl.php, line: 154
-
-
-
-
-
-# File: /usr/lang/src/acl.php, line: 59
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# File: lang/dynamic/helpers/acl.php, line: 150
-
-
-
-
-
-# File: /usr/lang/src/acl.php, line: 83
-
-
-
-
-
-# File: /usr/lang/src/acl.php, line: 88
-
-
-
-
-
-
-
-
-
-
-
-# File: /usr/lang/src/acl.php, line: 99
-
-
-# File: /usr/lang/src/acl.php, line: 101
-
-
-# File: lang/dynamic/helpers/acl.php, line: 74
-
-
-
-
-
-
-
-
-
-
-
-# File: lang/dynamic/helpers/acl.php, line: 66
-
-# File: /usr/lang/src/acl.php, line: 115
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# File: /usr/lang/src/acl.php, line: 134
-
-
-
-# File: /usr/lang/src/acl.php, line: 137
-
-
-
-
-
-
-
-# File: /usr/lang/src/acl.php, line: 144
-
-
-
-# File: /usr/lang/src/acl.php, line: 147
-
-
-
-
-
-
-
-
-
-
-
-# File: /usr/lang/src/acl.php, line: 158
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# File: lang/dynamic/helpers/acl.php, line: 99
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# File: /usr/lang/src/acl.php, line: 202
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# File: lang/dynamic/helpers/acl.php, line: 156
-
-
-# File: /usr/lang/src/acl.php, line: 228
-
-# File: lang/dynamic/helpers/acl.php, line: 202
-
-
-# File: /usr/lang/src/acl.php, line: 231
-
-# File: /usr/lang/src/acl.php, line: 232
-
-# File: /usr/lang/src/acl.php, line: 233
-
-
-
-# File: /usr/lang/src/acl.php, line: 236
-
-# File: lang/dynamic/helpers/acl.php, line: 191
-
-
-# File: /usr/lang/src/acl.php, line: 239
-
-# File: /usr/lang/src/acl.php, line: 240
-
-# File: lang/dynamic/helpers/acl.php, line: 105
-
-# File: /usr/lang/src/controllers.php, line: 54
-
-# File: /usr/lang/src/controllers.php, line: 174
-
-# File: /usr/lang/src/controllers.php, line: 172
-
-# File: /usr/lang/src/controllers.php, line: 173
-
-# File: /usr/lang/src/controllers.php, line: 176
-
-# File: /usr/lang/src/controllers.php, line: 188
-
-# File: lang/dynamic/helpers/models.php, line: 228
-
-# File: lang/dynamic/helpers/models.php, line: 291
-
-# File: lang/dynamic/helpers/models.php, line: 290
-
-# File: /usr/lang/src/models.php, line: 188
-
-# File: /usr/lang/src/models.php, line: 192
-
-
-# File: lang/dynamic/helpers/models.php, line: 276
-
-# File: lang/dynamic/helpers/models.php, line: 277
 
