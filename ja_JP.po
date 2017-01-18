@@ -12789,9 +12789,9 @@ msgid ""
 "speed) unless the port this interface connects to has its speed and duplex "
 "forced."
 msgstr ""
-"このインタフェースに対して速度と双方向通信モードを明示的に設定できます。警告:"
+"このインタフェースに対して速度とデュプレックス通信モードを明示的に設定できます。警告:"
 "「必ず」自動選択を設定してください ( 速度を自動的にネゴシエートします )。但"
-"し、このインタフェースが、速度と通信モードを強制されたポートに接続する場合を"
+"し、このインタフェースが速度とデュプレックスを強制されたポートに接続する場合を"
 "除きます。"
 
 # File: src/www/interfaces.php, line: 1802
@@ -12799,7 +12799,7 @@ msgid "Default (no preference, typically autoselect)"
 msgstr "デフォルト ( 優先なし、通常は自動選択 )"
 
 msgid "Speed and duplex"
-msgstr "速度と双方向通信"
+msgstr "速度とデュプレックス"
 
 msgid ""
 "If you enter a value in this field, then MSS clamping for TCP connections to "
