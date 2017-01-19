@@ -21285,7 +21285,7 @@ msgid ""
 "24 days."
 msgstr ""
 "サポートするサフィックス d ( 日 )、h ( 時間 )、m ( 分 )、s ( 秒 )、ms "
-"( マイクロ秒 )の 1 つを後につけた数字を入力してください。これはスティックテーブ"
+"( ミリ秒 ) の 1 つを後につけた数字を入力してください。これはスティックテーブ"
 "ルにあるエントリが最後に作成、更新、一致してからの最大期間を構成します。期間"
 "の最大は 24 日間を僅かに上回ります。"
 
@@ -22461,7 +22461,7 @@ msgstr "スプレッドチェック"
 
 # File: /usr/lang/src/controllers.php, line: 454
 msgid "Stats enabled"
-msgstr "有効な統計"
+msgstr "統計を有効"
 
 # File: /usr/lang/src/controllers.php, line: 455
 msgid "Stats users"
@@ -22876,7 +22876,7 @@ msgstr "シーケンス"
 
 # File: /usr/lang/src/controllers.php, line: 547
 msgid "set debug output for this tinc network."
-msgstr "この Tinc ネットワークのデバッグ出力を設定"
+msgstr "この Tinc ネットワークのデバッグ出力を設定します。"
 
 # File: /usr/lang/src/controllers.php, line: 548
 msgid "source"
@@ -23783,7 +23783,7 @@ msgid ""
 "Should be a number between 1 and 8 characters, optionally followed by either "
 "\"d\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
-"d、h、m、s、ms、us のいずれかを後につけた 1 - 8 文字の数字を入力してください。"
+"1 - 8 文字の数字を入力してください。オプションで d、h、m、s、ms、us  のいずれかを後につけます。"
 
 # File: /usr/lang/src/models.php, line: 241
 msgid "Should be a string between 1 and 255 characters."
