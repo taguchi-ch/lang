@@ -2774,7 +2774,6 @@ msgstr "許可済"
 msgid "System Privileges"
 msgstr "システム権限"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 966
 msgid ""
 "Additional users can be added here. User permissions for accessing the web "
@@ -2783,6 +2782,11 @@ msgid ""
 "object. Some system object properties can be modified but they cannot be "
 "deleted."
 msgstr ""
+"ここでユーザを追加できます。web GUI もしくはその他のサブシステムにアクセスするユーザの"
+"パーミッションを、直接割り当てるかグループメンバシップから継承させることができま"
+"す。グレー表示されるアイコンはシステムが定義したオブジェクトです。一部のシ"
+"ステムオブジェクトプロパティを変更することはできますが、削除することはできま"
+"せん。"
 
 # File: src/www/system_usermanager.php, line: 983
 msgid "import users"
@@ -3194,12 +3198,13 @@ msgstr ""
 msgid "Users and Groups"
 msgstr "ユーザとグループ"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 204
 msgid ""
 "Enter the web GUI password of the system entered above for synchronizing "
 "your configuration."
 msgstr ""
+"あなたの構成を同期するには、上で入力したシステムの web GUI パスワー"
+"ドを入力してください。"
 
 # File: src/www/system_hasync.php, line: 207
 msgid "Remote System Password"
@@ -3213,12 +3218,13 @@ msgstr ""
 "バックアップクラスタメンバに、IP に構成を同期、及び、ユーザ名オプションを使用"
 "しないでください！"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 192
 msgid ""
 "Enter the web GUI username of the system entered above for synchronizing "
 "your configuration."
 msgstr ""
+"あなたの構成を同期するには、上で入力したシステムの web GUI ユーザ名"
+"を入力してください。"
 
 # File: src/www/system_hasync.php, line: 196
 msgid "Remote System Username"
@@ -3341,7 +3347,6 @@ msgstr "ステートを同期"
 msgid "State Synchronization"
 msgstr "ステート同期"
 
-#
 # File: /usr/core/src/www/system_groupmanager.php, line: 424
 msgid ""
 "Additional groups can be added here. Group permissions can be assigned which "
@@ -3349,6 +3354,10 @@ msgid ""
 "grey indicates that it is a system defined object. Some system object "
 "properties can be modified but they cannot be deleted."
 msgstr ""
+"ここでグループを追加できます。"
+"グループパーミッションは、グループのメンバであるユーザに継承して割当てることができます。"
+"グレー表示されるアイコンはシステムが定義したオブジェクトです。"
+"一部のシステムオブジェクトプロパティを変更することはできますが、削除することはできません。"
 
 # File: /usr/core/src/www/system_groupmanager.php, line: 463
 msgid "add group"
@@ -3500,10 +3509,9 @@ msgstr "GUI のルックアンドフィールを変更します。"
 msgid "Theme"
 msgstr "テーマ"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 322
 msgid "Choose a language for the web GUI."
-msgstr ""
+msgstr "web GUI の言語を選択してください。"
 
 msgid "Select the location closest to you"
 msgstr "最も近い場所を選択してください"
@@ -5154,7 +5162,7 @@ msgstr ""
 "フォーマンスの低下でより大きな省電力を可能にする、ほど良いバランスを提供しま"
 "す。高適応モードは適応モードに似ていますが、システムのパフォーマンスと応答性"
 "が電力消費よりも重要であるシステム向けに調整されています。周波数が高速に上"
-"がったら、低速に落として CPU 負荷が低い状態を 2 倍継続します。"
+"がったら、低速に落とし CPU 負荷を半分下げた状態を継続します。"
 
 msgid "Use PowerD"
 msgstr "PowerD を使用"
@@ -5790,20 +5798,17 @@ msgstr "ファイアウォール適応開始値は整数です。"
 msgid "The Firewall Adaptive values must be set together."
 msgstr "ファイアウォール適応値を、併せて設定してください。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 621
 msgid "No password"
-msgstr ""
+msgstr "パスワードなし"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 620
 msgid "Ask password"
-msgstr ""
+msgstr "パスワードを確認する"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 619
 msgid "Disallow"
-msgstr ""
+msgstr "許可しない"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 561
 msgid "Sudo usage"
@@ -5867,15 +5872,13 @@ msgstr ""
 msgid "Primary Console"
 msgstr "プライマリコンソール"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 550
 msgid "Use the virtual terminal driver (vt)"
-msgstr ""
+msgstr "仮想ターミナルドライバを使用 ( vt )"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 547
 msgid "Console driver"
-msgstr ""
+msgstr "コンソールドライバ"
 
 msgid "Console Options"
 msgstr "コンソールオプション"
@@ -5924,7 +5927,6 @@ msgstr "SSH サーバ"
 msgid "Secure Shell"
 msgstr "SSH"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 492
 #, php-format
 msgid ""
@@ -5934,6 +5936,11 @@ msgid ""
 "such as using external scripts to interact with this system. More "
 "information on HTTP_REFERER is available from %sWikipedia%s."
 msgstr ""
+"チェックされていない場合、HTTP_REFERER リダイレクション攻撃の試みから web GUI "
+"へのアクセスが保護されます。このシステムに影響する外部スクリプトを"
+"使用している等、明確な原因で web GUI へのアクセスに支障が出ている場合"
+"は、このボックスをチェックすることで保護を無効にすることができます。"
+"HTTP_REFERER に関するより詳しい情報は%sウィキペディア%sを参照してください。"
 
 msgid "Disable HTTP_REFERER enforcement check"
 msgstr "HTTP_REFERER 強制確認を無効"
@@ -5955,7 +5962,6 @@ msgstr "DNS リバインディング・HTTP_REFERER 確認用代替ホスト名"
 msgid "Alternate Hostnames"
 msgstr "代替ホスト名"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 469
 #, php-format
 msgid ""
@@ -5964,6 +5970,10 @@ msgid ""
 "servers. Check this box to disable this protection if it interferes with web "
 "GUI access or name resolution in your environment."
 msgstr ""
+"チェックされていない場合、%sDNS リバインディング攻撃%sからシステムが保護さ"
+"れ、あなたが構成した DNS サーバからのプライベート IP の応答を拒否します。この"
+"機能で web GUI へのアクセスや自環境での名前解決に支障が出る場合は、こ"
+"のボックスをチェックすることで保護を無効にすることができます。"
 
 msgid "Disable DNS Rebinding Checks"
 msgstr "DNS リバインディング攻撃確認を無効"
@@ -5983,7 +5993,6 @@ msgstr ""
 msgid "WAN"
 msgstr "WAN"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 452
 #, php-format
 msgid ""
@@ -5993,11 +6002,17 @@ msgid ""
 "controlled by the user-defined firewall rules (ensure you have a firewall "
 "rule in place that allows you in, or you will lock yourself out!)"
 msgstr ""
+"チェックされていない場合、%s インタフェースの web GUI へのアクセスは"
+"常に許可され、ユーザが定義したファイアウォールルールセットは考慮されませ"
+"ん。このボックスをチェックすると、このような自動的なルールの追加を無効にし、"
+"web GUI へのアクセスはユーザが定義したファイアウォールルールによって"
+"コントロールされます ( 自分に in 通信を許可するファイアウォールのルールが設"
+"定されていることを確認して下さい。さもなくば、自分自身が閉めだされてしまい"
+"ます！)"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 450
 msgid "Disable web GUI anti-lockout rule"
-msgstr ""
+msgstr "web GUI アンチロックアウトルールを無効"
 
 msgid "Anti-lockout"
 msgstr "アンチロックアウト"
