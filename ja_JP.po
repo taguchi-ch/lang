@@ -2200,17 +2200,17 @@ msgstr ""
 msgid "Disable this phase1 entry"
 msgstr "このフェーズ 1 エントリを無効"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 539
 msgid ""
 "Clone related phase 2 entries as well, remember to change the networks. All "
 "phase 2 entries will be added in disabled state"
 msgstr ""
+"関連するフェーズ 2 エントリをクローンし、ネットワークに変更を記憶させます。"
+"全てのフェーズ 2 エントリは無効済ステートに追加されます"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 535
 msgid "Clone phase2"
-msgstr ""
+msgstr "フェーズ 2 をクローン"
 
 msgid "General information"
 msgstr "全般情報"
@@ -3203,7 +3203,7 @@ msgid ""
 "Enter the web GUI password of the system entered above for synchronizing "
 "your configuration."
 msgstr ""
-"あなたの構成を同期するには、上で入力したシステムの web GUI パスワー"
+"構成を同期するため、上で入力したシステムの web GUI パスワー"
 "ドを入力してください。"
 
 # File: src/www/system_hasync.php, line: 207
@@ -3223,7 +3223,7 @@ msgid ""
 "Enter the web GUI username of the system entered above for synchronizing "
 "your configuration."
 msgstr ""
-"あなたの構成を同期するには、上で入力したシステムの web GUI ユーザ名"
+"構成を同期するため、上で入力したシステムの web GUI ユーザ名"
 "を入力してください。"
 
 # File: src/www/system_hasync.php, line: 196
