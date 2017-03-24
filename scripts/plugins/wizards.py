@@ -1,5 +1,5 @@
 """
-    Copyright (c) 2015 Deciso B.V.
+    Copyright (c) 2017 Smart-Soft
     All rights reserved.
 
     Redistribution and use in source and binary forms, with or without
@@ -28,25 +28,22 @@
     package : translate
     function: collect controller translatable text
 """
-__author__ = 'Ad Schellevis'
+__author__ = 'Alexander Shursha'
 
-def recursiveParseForm(xmlNode):
+def recursiveParseWizard(xmlNode):
     for childNode in xmlNode:
-        for tag in recursiveParseForm(childNode):
+        for tag in recursiveParseWizard(childNode):
             yield tag
 
-    if xmlNode.tag in ['help', 'label']:
+    if xmlNode.tag in ['description', 'title', 'name', 'displayname', 'message'] and xmlNode.text is not None:
         yield xmlNode.text
 
-    if xmlNode.tag in ['tab', 'subtab']:
-        yield xmlNode.attrib['description']
 
 def getTranslations(root):
     import os
     import xml.etree.ElementTree as ET
 
-    rootpath='%s/opnsense/mvc/app/controllers/'%root
-
+    rootpath = '%s/wizard/'%root
 
     for rootdir, dirs, files in os.walk(rootpath, topdown=False):
         for name in files:
@@ -54,6 +51,6 @@ def getTranslations(root):
                 filename = '%s/%s'%(rootdir,name)
                 tree = ET.parse(filename)
                 rootObj = tree.getroot()
-                if rootObj.tag == 'form':
-                    for tag in recursiveParseForm(rootObj):
+                if rootObj.tag == 'opnsensewizard':
+                    for tag in recursiveParseWizard(rootObj):
                         yield tag
