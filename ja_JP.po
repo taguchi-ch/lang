@@ -2205,7 +2205,7 @@ msgid ""
 "Clone related phase 2 entries as well, remember to change the networks. All "
 "phase 2 entries will be added in disabled state"
 msgstr ""
-"関連するフェーズ 2 エントリをクローンし、ネットワークに変更を記憶させます。"
+"関連するフェーズ 2 エントリをクローンし、ネットワークの変更を記憶させます。"
 "全てのフェーズ 2 エントリは無効済ステートに追加されます"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 535
@@ -5937,7 +5937,7 @@ msgid ""
 "information on HTTP_REFERER is available from %sWikipedia%s."
 msgstr ""
 "チェックされていない場合、HTTP_REFERER リダイレクション攻撃の試みから web GUI "
-"へのアクセスが保護されます。このシステムに影響する外部スクリプトを"
+"へのアクセスが保護されます。このシステムに連携する外部スクリプトを"
 "使用している等、明確な原因で web GUI へのアクセスに支障が出ている場合"
 "は、このボックスをチェックすることで保護を無効にすることができます。"
 "HTTP_REFERER に関するより詳しい情報は%sウィキペディア%sを参照してください。"
@@ -6017,21 +6017,20 @@ msgstr "web GUI アンチロックアウトルールを無効"
 msgid "Anti-lockout"
 msgstr "アンチロックアウト"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 441
 msgid ""
 "When this is checked, successful logins to the web GUI will not be logged."
 msgstr ""
+"チェックされている場合、web GUI へログイン成功した場合はログに"
+"記録されません。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 439
 msgid "Disable logging of web GUI successful logins"
-msgstr ""
+msgstr "web GUI ログイン成功に対するロギング無効"
 
 msgid "WebGUI login messages"
-msgstr "WebGUI ログインメッセージ"
+msgstr "web GUI ログインメッセージ"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 429
 msgid ""
 "When this is checked, login credentials for the web GUI may be saved by the "
@@ -6040,58 +6039,65 @@ msgid ""
 "browsers will prompt to save credentials (NOTE: Some browsers do not respect "
 "this option)."
 msgstr ""
+"チェックされている場合、web GUI へのログイン認証情報はブラウザに保存"
+"されます。便利ですが、一部のセキュリティ標準ではこの機能を無効にする必要があ"
+"ります。このボックスをチェックすると、ログインフォームでオートコンプリートが"
+"有効になり、ブラウザは認証情報を保存するよう促すようになります ( 注意: このオ"
+"プションを無視するブラウザが存在します )。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 427
 msgid "Enable web GUI login autocomplete"
-msgstr ""
+msgstr "web GUI ログインオートコンプリートを有効"
 
 msgid "WebGUI Login Autocomplete"
-msgstr "WebGUI ログインオートコンプリート"
+msgstr "web GUI ログインオートコンプリート"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 416
 msgid ""
 "When this is unchecked, access to the web GUI is always permitted even on "
 "port 80, regardless of the listening port configured. Check this box to "
 "disable this automatically added redirect rule."
 msgstr ""
+"チェックされていない場合、web GUI へのアクセスはポート 80 であれば常に許可され、
+"リスニングポートの構成は考慮されません。"
+"このボックスをチェックすると、このような自動的なリダイレクトルールの追加を無効にしま"
+"す。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 414
 msgid "Disable web GUI redirect rule"
-msgstr ""
+msgstr "web GUI リダイレクトルールを無効"
 
 msgid "WebGUI redirect"
-msgstr "WebGUI リダイレクト"
+msgstr "web GUI リダイレクト"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 404
 msgid ""
 "Enter a custom port number for the web GUI above if you want to override the "
 "default (80 for HTTP, 443 for HTTPS). Changes will take effect immediately "
 "after save."
 msgstr ""
+"デフォルト ( HTTP: 80, HTTPS: 443 ) を上書きしたい場合は、上記で web GUI"
+" のカスタムポート番号を入力してください。保存すると、すぐに変更は有効になりま"
+"す。"
 
 msgid "TCP port"
 msgstr "TCP ポート"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 395
 msgid ""
 "Limit SSL cipher selection in case the system defaults are undesired. Note "
 "that restrictive use may lead to an inaccessible web GUI."
 msgstr ""
+"システムデフォルトの場合は SSL 暗号制限を選択することは望ましくありません。"
+"そのような制約を使用すると web GUI にアクセスできなくなる可能性があります。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 384
 msgid "System defaults"
-msgstr ""
+msgstr "システムデフォルト"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 382
 msgid "SSL Ciphers"
-msgstr ""
+msgstr "SSL 暗号"
 
 # File: src/www/system_advanced_admin.php, line: 379
 #, php-format
@@ -6120,11 +6126,10 @@ msgstr "HTTPS"
 msgid "HTTP"
 msgstr "HTTP"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 337
 # File: /usr/core/src/www/system_certmanager.php, line: 1276
 msgid "Web GUI"
-msgstr ""
+msgstr "web GUI"
 
 #, php-format
 msgid "One moment...redirecting to %s in 20 seconds."
@@ -6134,10 +6139,9 @@ msgstr "少しお待ちください...20 秒で %s にリダイレクトしま�
 msgid "Alternate hostname %s is not a valid hostname."
 msgstr "代替ホスト名 %s は有効なホスト名ではありません"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 72
 msgid "You must specify a valid web GUI port number"
-msgstr ""
+msgstr "有効な web GUI ポート番号を指定してください"
 
 # File: src/www/status_wireless.php, line: 192
 msgid ""
@@ -7513,7 +7517,6 @@ msgstr ""
 msgid "NTP PPS Configuration"
 msgstr "NTP PPS 構成"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 526
 #, php-format
 msgid ""
@@ -7523,6 +7526,10 @@ msgid ""
 "may only use values from the unsynchronized local clock when providing time "
 "to clients."
 msgstr ""
+"最善の結果を出すには NTP は少なくても 3 つの時間のソースを必要とします。"
+"そのため、最も良いのは最低 2 つのサーバを%sサービス: NTP%s で構成することで、"
+"GPS データが時間と共に有効ではなくなる場合に時間のずれを最小化します。"
+"さもなくば ntpd は時刻をクライアントに提供する際に、非同期のローカル時計の値のみを使用します。"
 
 # File: src/www/services_ntpd_gps.php, line: 356
 msgid ""
@@ -7543,10 +7550,9 @@ msgstr "NMEA チェックサムを計算します"
 msgid "checksum"
 msgstr "チェックサム"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 509
 msgid "Enter the text between \"$\" and \"*\" of a NMEA command string:"
-msgstr ""
+msgstr "NMEA コマンド文字列の「$」と「*」の間にテキストを入力してください: "
 
 # File: src/www/services_ntpd_gps.php, line: 561
 msgid "NMEA checksum calculator"
@@ -7569,10 +7575,9 @@ msgstr "GPS 初期化コマンドを表示"
 msgid "GPS Initialization"
 msgstr "GPS 初期化"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 494
 msgid "This may be used to change the GPS Clock ID (default: GPS)."
-msgstr ""
+msgstr "これは GPS Clock ID を変更するのに使用されます。( デフォルト: GPS )"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 492
 # File: /usr/core/src/www/services_ntpd_pps.php, line: 183
@@ -7584,48 +7589,48 @@ msgstr "( 1 - 4 文字 )"
 msgid "Clock ID"
 msgstr "Clock ID"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 482
 msgid ""
 "Enabling this will rapidly fill the log, but is useful for tuning Fudge time "
 "2."
 msgstr ""
+"これを有効にするとログがすぐにいっぱいになりますが Fudge time 2 を調整するのには便利です。"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 481
 msgid ""
 "Log the sub-second fraction of the received time stamp (default: Not logged)."
 msgstr ""
+"受信したタイムスタンプの 1 秒未満の端数もログに記録します。( デフォルト: ログに記録しない )"
 
 # File: src/www/services_ntpd_gps.php, line: 531
 msgid "Obscure location in timestamp (default: unobscured)."
-msgstr "タイムスタンプの位置情報を表示しない ( デフォルト: 表示する )。"
+msgstr "タイムスタンプの位置情報を表示しないようにします。( デフォルト: 表示する )"
 
 # File: src/www/services_ntpd_gps.php, line: 523
 msgid "Enable kernel PPS clock discipline (default: enabled)."
-msgstr "カーネル PPS 時計統制を有効 ( デフォルト: 有効 )。"
+msgstr "カーネル PPS 時計統制を有効にします。( デフォルト: 有効 )"
 
 # File: src/www/services_ntpd_gps.php, line: 515
 # File: src/www/services_ntpd_pps.php, line: 180
 msgid "Enable falling edge PPS signal processing (default: rising edge)."
 msgstr ""
-"PPS 信号処理に立ち下がりエッジを有効 ( デフォルト: 立ち上がりエッジ )。"
+"PPS 信号処理に立ち下がりエッジを有効にします。( デフォルト: 立ち上がりエッジ )"
 
 # File: src/www/services_ntpd_gps.php, line: 507
 msgid "Enable PPS signal processing (default: enabled)."
-msgstr "PPS 信号処理を有効 ( デフォルト: 有効 )。"
+msgstr "PPS 信号処理を有効にします。( デフォルト: 有効 )"
 
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 441
 msgid ""
 "NTP should not use this clock, it will be displayed for reference only "
 "(default: disabled)."
 msgstr ""
-"NTP はこの時計を使用せず、参照用としてのみ表示されるようになります ( デフォル"
-"ト: 無効 )。"
+"NTP はこの時計を使用せず、参照用としてのみ表示されるようになります。( デフォル"
+"ト: 無効 )"
 
 # File: src/www/services_ntpd_gps.php, line: 491
 msgid "NTP should prefer this clock (default: enabled)."
-msgstr "NTP にこの時計を優先させます ( デフォルト: 有効 )。"
+msgstr "NTP にこの時計を優先させます。( デフォルト: 有効 )"
 
 # File: src/www/services_ntpd_gps.php, line: 481
 # File: src/www/services_ntpd_pps.php, line: 170
@@ -7633,12 +7638,13 @@ msgid ""
 "Normally there should be no need to change these options from the defaults."
 msgstr "通常は、これらのオプションをデフォルトから変更する必要はありません。"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 415
 msgid ""
 "This may be used to change the GPS Clock stratum (default: 0). This may be "
 "useful if, for some reason, you want ntpd to prefer a different clock"
 msgstr ""
+"これは GPS Clock stratum を変更するのに使用されます。( デフォルト: 0 )"
+"なんらかの理由で ntpd に他の時計を優先させたい場合に便利です。"
 
 # File: src/www/services_ntpd_gps.php, line: 472
 # File: src/www/services_ntpd_pps.php, line: 161
@@ -7648,26 +7654,22 @@ msgstr "(0-16)"
 msgid "Stratum"
 msgstr "Stratum"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 405
 msgid "Fudge time 2 is used to specify the GPS time offset (default: 0.0)."
-msgstr ""
+msgstr "Fudge time 2 は GPS 時間オフセットを指定するのに使用されます。( デフォルト: 0.0 )"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 401
 msgid "Fudge time 2 (seconds)"
-msgstr ""
+msgstr "Fudge time 2 ( 秒 )"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 397
 msgid ""
 "Fudge time 1 is used to specify the GPS PPS signal offset (default: 0.0)."
-msgstr ""
+msgstr "Fudge time 1 は GPS PPS シグナルオフセットを指定するのに使用されます。( デフォルト: 0.0 )"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 393
 msgid "Fudge time 1 (seconds)"
-msgstr ""
+msgstr "Fudge time 1 ( 秒 )"
 
 # File: src/www/services_ntpd_gps.php, line: 454
 msgid ""
