@@ -7723,12 +7723,12 @@ msgstr ""
 msgid "Serial port"
 msgstr "シリアルポート"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 334
 msgid ""
 "The predefined configurations assume your GPS has already been set to NMEA "
 "mode."
 msgstr ""
+"事前に定義されている構成は、あなたの GPS が既に NMEA モードに設定されていることを前提にしています。"
 
 # File: src/www/services_ntpd_gps.php, line: 400
 msgid "Select Generic if your GPS is not listed."
@@ -13934,12 +13934,13 @@ msgstr "ポートにマッピングするサーバの内部 IP アドレスを�
 msgid "Single host"
 msgstr "単一ホスト"
 
-#
 # File: /usr/core/src/www/firewall_nat_edit.php, line: 832
 msgid ""
 "When using the TCP or UDP protocols, specify the port or port range for the "
 "destination of the packet for this mapping."
 msgstr ""
+"TCP もしくは UDP プロトコルを使用する場合は、このマッピングのパケットに対して送信先となる"
+"ポートもしくはポート範囲を指定してください。"
 
 msgid "Destination port range"
 msgstr "送信先ポート範囲"
@@ -13956,12 +13957,13 @@ msgstr "ランダム"
 msgid "This is usually"
 msgstr "通常は"
 
-#
 # File: /usr/core/src/www/firewall_nat_edit.php, line: 688
 msgid ""
 "When using the TCP or UDP protocols, specify the source port or port range "
 "for this rule"
 msgstr ""
+"TCP もしくは UDP プロトコルを使用する場合は、"
+"このルールの送信元ポートもしくはポート範囲を指定してください。"
 
 msgid "any"
 msgstr "任意"
@@ -17600,15 +17602,13 @@ msgstr "VGA コンソール"
 msgid "Russian"
 msgstr "ロシア語"
 
-#
 # File: /usr/core/src/etc/inc/system.inc, line: 247
 msgid "Portuguese (Portugal)"
-msgstr ""
+msgstr "ポルトガル語 ( ポルトガル )"
 
-#
 # File: /usr/core/src/etc/inc/system.inc, line: 246
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "ポルトガル語 ( ブラジル )"
 
 msgid "Japanese"
 msgstr "日本語"
@@ -17746,13 +17746,13 @@ msgstr "NetFlow キャプチャ"
 msgid "IPsec VPN"
 msgstr "IPSec VPN"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc, line: 194
 #, php-format
 msgid ""
 "Automatically synchronize the %s configuration to the other HA host when "
 "changes are made."
 msgstr ""
+"変更が行われると %s 構成は他の HA ホストへ自動的に同期されます。"
 
 #, php-format
 msgid "OpenVPN %s wizard"
@@ -18220,15 +18220,13 @@ msgstr "完了"
 msgid "Processing down interface states"
 msgstr "インタフェースステートをダウンにしています"
 
-#
 # File: /usr/core/src/etc/inc/filter.inc, line: 608
 msgid "Flushing schedule state"
-msgstr ""
+msgstr "スケジュールステートを書き込みしています"
 
-#
 # File: /usr/core/src/etc/inc/filter.inc, line: 585
 msgid "Reloading filterdns daemon"
-msgstr ""
+msgstr "filterdns デーモンをリロードしています"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 320
 # File: /usr/core/src/etc/inc/filter.inc, line: 321
@@ -18244,21 +18242,19 @@ msgstr "PF は反応がない、もしくはビジーのため、リセットさ
 msgid "The line in question reads [%d]: %s"
 msgstr "問題の行を読み込みます [%d]: %s"
 
-#
 # File: /usr/core/src/etc/inc/filter.inc, line: 515
 msgid "Executing packet filter reload"
-msgstr ""
+msgstr "パケットフィルタのリロードを実行しています"
 
-#
 # File: /usr/core/src/etc/inc/filter.inc, line: 503
 msgid "Generating rules"
-msgstr ""
+msgstr "ルールを生成しています"
 
 msgid "Setting up SCRUB information"
-msgstr "SCRUB 情報の設定"
+msgstr "SCRUB 情報を設定しています"
 
 msgid "Setting up logging information"
-msgstr "ログ情報の設定"
+msgstr "ログ情報を設定しています"
 
 # File: /usr/core/src/etc/inc/filter.inc, line: 441
 msgid "Filter is disabled. Not loading rules."
@@ -18365,71 +18361,62 @@ msgstr "Tinc VPN サーバ"
 msgid "Lua ID"
 msgstr "Lua ID"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 195
 msgid "Test Config"
-msgstr ""
+msgstr "構成をテスト"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 185
 msgid "Update Schedule"
-msgstr ""
+msgstr "スケジュールを更新"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 172
 msgid "Your acme-client config contains no errors."
-msgstr ""
+msgstr "ACME クライアント構成にはエラーがありません。"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 171
 msgid "acme-client config test result"
-msgstr ""
+msgstr "ACME クライアント構成テスト結果"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 164
 msgid "acme-client config contains minor errors"
-msgstr ""
+msgstr "ACME クライアント構成には小さいエラーがあります。"
 
 msgid "Abort"
 msgstr "中止"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 84
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 117
 msgid "Error reconfiguring acme-client"
-msgstr ""
+msgstr "ACME クライアント再構成エラー"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 170
 msgid "Continue"
 msgstr "続行"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 75
 msgid ""
 "The acme-client service may not be able to start due to critical errors. Try "
 "anyway?"
 msgstr ""
+"ACME クライアントサービスは重大なエラーにより起動できない可能性があります。"
+"どうしても実行しますか？"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 74
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 157
 msgid "acme-client config contains critical errors"
-msgstr ""
+msgstr "ACME クライアント構成には重大なエラーがあります"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 356
 msgid "Issue/Renew Certificates Now"
-msgstr ""
+msgstr "証明書を今すぐ発行 / 更新"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 335
 msgid "Multi-Domain (SAN)"
-msgstr ""
+msgstr "マルチドメイン ( SAN )"
 
-#
 # File: /usr/plugins/security/acme-client/src/etc/inc/plugins.inc.d/acmeclient.inc, line: 62
 msgid "Let's Encrypt client"
-msgstr ""
+msgstr "Let's Encrypt クライアント"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 413
 msgid "Backend Name"
@@ -18884,11 +18871,10 @@ msgid ""
 "pool."
 msgstr "このエントリは削除できません。1 つ以上のプールから参照されています"
 
-#
 # File: /usr/plugins/net/relayd/src/etc/inc/plugins.inc.d/relayd.inc, line: 58
 # File: /usr/plugins/net/relayd/src/etc/inc/plugins.inc.d/relayd.inc, line: 71
 msgid "Relayd Load Balancer"
-msgstr ""
+msgstr "Relayd ロードバランサ"
 
 msgid "Threshold"
 msgstr "しきい値"
@@ -19107,10 +19093,9 @@ msgstr "FTP プロキシサーバ"
 msgid "HAProxy load balancer"
 msgstr "HAProxy ロードバランサ"
 
-#
 # File: /usr/plugins/net/haproxy/src/etc/inc/plugins.inc.d/haproxy.inc, line: 81
 msgid "HAProxy Load Balancer"
-msgstr ""
+msgstr "HAProxy ロードバランサ"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 168
 msgid ""
@@ -20017,25 +20002,21 @@ msgstr "(FQ-)CoDel target"
 msgid "(optional) user credentials."
 msgstr "( オプション ) ユーザ資格情報"
 
-#
 # File: /usr/lang/src/controllers.php, line: 41
 msgid "API URL"
-msgstr ""
+msgstr "API URL"
 
-#
 # File: /usr/lang/src/controllers.php, line: 42
 msgid "AWS ID"
-msgstr ""
+msgstr "AWS ID"
 
-#
 # File: /usr/lang/src/controllers.php, line: 43
 msgid "AWS Secret"
-msgstr ""
+msgstr "AWS 秘密鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 44
 msgid "Access Control List"
-msgstr ""
+msgstr "アクセスコントロールリスト"
 
 msgid "Action"
 msgstr "動作"
@@ -20158,20 +20139,17 @@ msgstr "許可済アドレス"
 msgid "Allowed destination TCP port"
 msgstr "許可済送信先 TCP ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Alt Names"
-msgstr ""
+msgstr "代替名"
 
-#
 # File: /usr/lang/src/controllers.php, line: 73
 msgid "Application Key"
-msgstr ""
+msgstr "アプリケーション鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 74
 msgid "Application Secret"
-msgstr ""
+msgstr "アプリケーション秘密鍵"
 
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Authenticate using"
@@ -20181,10 +20159,9 @@ msgstr "使用している認証"
 msgid "Authentication Prompt"
 msgstr "認証プロンプト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 77
 msgid "Authentication Settings"
-msgstr ""
+msgstr "認証設定"
 
 # File: /usr/lang/src/controllers.php, line: 74
 msgid "Authentication TTL (hours)"
@@ -20197,10 +20174,9 @@ msgstr "認証方法"
 msgid "Authentication processes"
 msgstr "認証プロセス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 81
 msgid "Auto Renewal"
-msgstr ""
+msgstr "自動更新"
 
 # File: lang/dynamic/helpers/controllers.php, line: 104
 msgid "Avoid authentication for addresses and subnets in this list"
@@ -20238,29 +20214,25 @@ msgstr "この FTP プロキシの簡単な説明"
 msgid "Buffer size"
 msgstr "バッファサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 91
 msgid "CA Account"
-msgstr ""
+msgstr "CA アカウント"
 
 # File: /usr/lang/src/controllers.php, line: 86
 msgid "CA to use"
 msgstr "使用する CA"
 
-#
 # File: /usr/lang/src/controllers.php, line: 93
 msgid "CF E-Mail"
-msgstr ""
+msgstr "CF E-Mail"
 
-#
 # File: /usr/lang/src/controllers.php, line: 94
 msgid "CF Key"
-msgstr ""
+msgstr "CF 鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 95
 msgid "Cache directory location"
-msgstr ""
+msgstr "キャッシュディレクトリの場所"
 
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Cache size in Megabytes"
@@ -20301,10 +20273,9 @@ msgstr ""
 msgid "Check Interval"
 msgstr "確認間隔"
 
-#
 # File: /usr/lang/src/controllers.php, line: 103
 msgid "Check Timeout"
-msgstr ""
+msgstr "確認タイムアウト"
 
 # File: /usr/lang/src/controllers.php, line: 93
 msgid "Check interval"
@@ -20452,10 +20423,9 @@ msgstr ""
 "リストされた国の ( 送信元 ) から来る、もしくは ( 送信先 )に行く接続。デフォル"
 "トでは両方を選択します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 131
 msgid "Consumer Key"
-msgstr ""
+msgstr "コンシューマ鍵"
 
 # File: /usr/lang/src/controllers.php, line: 120
 msgid "Content"
@@ -20484,10 +20454,9 @@ msgstr "GeoIP を使用して警告もしくは拒否する国。"
 msgid "Custom HTTP check"
 msgstr "カスタム HTTP チェック"
 
-#
 # File: /usr/lang/src/controllers.php, line: 138
 msgid "Custom TCP check"
-msgstr ""
+msgstr "カスタム TCP チェック"
 
 # File: /usr/core/src/www/services_unbound.php, line: 245
 msgid "Custom options"
@@ -20501,85 +20470,69 @@ msgstr "カスタムテンプレート"
 msgid "DB user"
 msgstr "DB ユーザ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 142
 msgid "DNS Service"
-msgstr ""
+msgstr "DNS サービス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 143
 msgid "DNS-01"
-msgstr ""
+msgstr "DNS-01"
 
-#
 # File: /usr/lang/src/controllers.php, line: 144
 msgid "DNS-01/AWS Route53"
-msgstr ""
+msgstr "DNS-01 / AWS Route53"
 
-#
 # File: /usr/lang/src/controllers.php, line: 145
 msgid "DNS-01/Alwaysdata"
-msgstr ""
+msgstr "DNS-01 / Alwaysdata"
 
-#
 # File: /usr/lang/src/controllers.php, line: 146
 msgid "DNS-01/CloudXNS"
-msgstr ""
+msgstr "DNS-01 / CloudXNS"
 
-#
 # File: /usr/lang/src/controllers.php, line: 147
 msgid "DNS-01/Cloudflare"
-msgstr ""
+msgstr "DNS-01 / Cloudflare"
 
-#
 # File: /usr/lang/src/controllers.php, line: 148
 msgid "DNS-01/DNSMadeEasy"
-msgstr ""
+msgstr "DNS-01 / DNS Made Easy"
 
-#
 # File: /usr/lang/src/controllers.php, line: 149
 msgid "DNS-01/DNSPod"
-msgstr ""
+msgstr "DNS-01 / DNSPod"
 
-#
 # File: /usr/lang/src/controllers.php, line: 150
 msgid "DNS-01/GoDaddy"
-msgstr ""
+msgstr "DNS-01 / GoDaddy"
 
-#
 # File: /usr/lang/src/controllers.php, line: 151
 msgid "DNS-01/IPSConfig"
-msgstr ""
+msgstr "DNS-01 / IPSConfig"
 
-#
 # File: /usr/lang/src/controllers.php, line: 152
 msgid "DNS-01/LuaDNS"
-msgstr ""
+msgstr "DNS-01 / LuaDNS"
 
-#
 # File: /usr/lang/src/controllers.php, line: 153
 msgid "DNS-01/OVH"
-msgstr ""
+msgstr "DNS-01 / OVH"
 
-#
 # File: /usr/lang/src/controllers.php, line: 154
 msgid "DNS-01/PowerDNS"
-msgstr ""
+msgstr "DNS-01 / PowerDNS"
 
-#
 # File: /usr/lang/src/controllers.php, line: 155
 msgid "DNS-01/aliyun"
-msgstr ""
+msgstr "DNS-01 / Aliyun"
 
-#
 # File: /usr/lang/src/controllers.php, line: 156
 msgid "DNS-01/lexicon"
-msgstr ""
+msgstr "DNS-01 / lexicon"
 
-#
 # File: /usr/lang/src/controllers.php, line: 157
 msgid "DNS-01/nsupdate"
-msgstr ""
+msgstr "DNS-01 / nsupdate"
 
 # File: /usr/lang/src/controllers.php, line: 129
 msgid "Day of the month"
@@ -20613,10 +20566,9 @@ msgstr "デフォルトバックエンド"
 msgid "Default Options TTL"
 msgstr "デフォルトオプション TTL"
 
-#
 # File: /usr/lang/src/controllers.php, line: 165
 msgid "Default Parameters"
-msgstr ""
+msgstr "デフォルトパラメータ"
 
 # File: /usr/lang/src/controllers.php, line: 136
 msgid "Default certificate"
@@ -20645,10 +20597,9 @@ msgstr "この ACL の説明。"
 msgid "Description for this Lua script."
 msgstr "この Lua スクリプトの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 173
 msgid "Description for this account."
-msgstr ""
+msgstr "このアカウントの説明。"
 
 # File: /usr/lang/src/controllers.php, line: 63
 msgid "Description for this action."
@@ -20658,10 +20609,9 @@ msgstr "このアクションの説明。"
 msgid "Description for this backend."
 msgstr "このバックエンドの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 176
 msgid "Description for this certificate."
-msgstr ""
+msgstr "この証明書の説明。"
 
 # File: /usr/lang/src/controllers.php, line: 65
 msgid "Description for this error file."
@@ -20675,19 +20625,18 @@ msgstr "このフロントエンドの説明。"
 msgid "Description for this server."
 msgstr "このサーバの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 180
 msgid "Description for this validation."
-msgstr ""
+msgstr "この検証の説明。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 73
 # File: lang/dynamic/helpers/controllers.php, line: 77
 msgid "Description to identify this pipe."
-msgstr "このパイプを識別する説明"
+msgstr "このパイプを識別する説明。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 107
 msgid "Description to identify this zone."
-msgstr "このゾーンを識別する説明"
+msgstr "このゾーンを識別する説明。"
 
 msgid "Destination IP"
 msgstr "送信先 IP"
@@ -20704,10 +20653,9 @@ msgstr "送信先"
 msgid "Detailed Logging"
 msgstr "詳細なログ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 187
 msgid "Disable SSL Verification"
-msgstr ""
+msgstr "SSL 検証を無効"
 
 # File: /usr/lang/src/controllers.php, line: 154
 msgid "Do not filter content, only domains and addresses"
@@ -20730,21 +20678,18 @@ msgstr ""
 "トを使用してください。チェックを有効にすると、サーバのポートチェックを要求し"
 "ます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 192
 msgid "Down Interval"
-msgstr ""
+msgstr "ダウン間隔"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 66
 # File: /usr/lang/src/controllers.php, line: 193
 msgid "E-Mail"
-msgstr ""
+msgstr "メール"
 
-#
 # File: /usr/lang/src/controllers.php, line: 194
 msgid "E-Mail Address"
-msgstr ""
+msgstr "メールアドレス"
 
 # File: /usr/lang/src/controllers.php, line: 158
 msgid "Egress only"
@@ -20782,15 +20727,13 @@ msgstr "HAProxy 統計ページを有効にします。"
 msgid "Enable ICAP"
 msgstr "ICAP を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 204
 msgid "Enable Let's Encrypt plugin"
-msgstr ""
+msgstr "Let's Encrypt プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 205
 msgid "Enable Plugin"
-msgstr ""
+msgstr "プラグインを有効"
 
 # File: /usr/lang/src/controllers.php, line: 167
 msgid "Enable Preview"
@@ -20823,15 +20766,13 @@ msgstr "アクセスログを有効にします。"
 msgid "Enable authentication"
 msgstr "認証を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 214
 msgid "Enable automatic renewal for certificates to prevent expiration."
-msgstr ""
+msgstr "証明書の期限切れを防ぐために自動更新を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 215
 msgid "Enable automatic renewal for this certificate to prevent expiration."
-msgstr ""
+msgstr "この証明書の期限切れを防ぐために自動更新を有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 74
 msgid ""
@@ -20876,13 +20817,15 @@ msgstr "接続に失敗した場合のセッション再割当てを有効もし
 msgid "Enable or disable the HAProxy service."
 msgstr "HAProxy サービスを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 226
 msgid ""
 "Enable or disable the local cache. Only UFS directory cache type is "
 "supported. Do not enable on embedded systems with SD or CF cards without "
 "the /var MFS option as this will wear down your drive."
 msgstr ""
+"ローカルキャッシュを有効もしくは無効にします。UFS ディレクトリキャッシュタイプのみが対応しています。"
+"この設定はドライブを徐々に摩滅するため、/var MFS オプションを使用していない SD もしくは CF カードの"
+"組込みシステムでは有効にしないでください。"
 
 msgid "Enable or disable the proxy service."
 msgstr "プロキシサービスを有効もしくは無効にします。"
@@ -20945,19 +20888,17 @@ msgstr ""
 msgid "Enable this Lua script."
 msgstr "この Lua スクリプトを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 240
 msgid "Enable this account"
-msgstr ""
+msgstr "このアカウントを有効"
 
 # File: /usr/lang/src/controllers.php, line: 90
 msgid "Enable this backend"
 msgstr "このバックエンドを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 242
 msgid "Enable this certificate"
-msgstr ""
+msgstr "この証明書を有効"
 
 # File: /usr/lang/src/controllers.php, line: 91
 msgid "Enable this feature"
@@ -20975,10 +20916,9 @@ msgstr "このフロントエンドを有効"
 msgid "Enable this network"
 msgstr "このネットワークを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 247
 msgid "Enable this validation"
-msgstr ""
+msgstr "この検証を有効"
 
 # File: lang/dynamic/helpers/controllers.php, line: 95
 msgid "Enable this zone"
@@ -21009,10 +20949,9 @@ msgstr "有効"
 msgid "Encode Username"
 msgstr "ユーザ名をエンコード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 254
 msgid "Endpoint"
-msgstr ""
+msgstr "エンドポイント"
 
 # File: lang/dynamic/helpers/controllers.php, line: 67
 msgid "Enter a description to explain what this blacklist is intended for."
@@ -21072,10 +21011,9 @@ msgstr ""
 "ホスト単位で許可する帯域幅を Kbit/秒 で入力してください ( 空白の場合は無効に"
 "なります )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 264
 msgid "Enter the cache memory size to use or zero to disable completely."
-msgstr ""
+msgstr "使用するキャッシュメモリサイズを入力してください。完全に無効にする場合は 0 を入力してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 88
 msgid ""
@@ -21171,15 +21109,13 @@ msgid "Enter the storage size for the local cache (default is 100)."
 msgstr ""
 "ローカルキャッシュのストレージサイズを入力してください ( デフォルトは 100 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 279
 msgid "Enter the url where the REQMOD requests should be sent to."
-msgstr ""
+msgstr "REQMOD リクエストが送信される URL を入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 280
 msgid "Enter the url where the RESPMOD requests should be sent to."
-msgstr ""
+msgstr "RESPMOD リクエストが送信される URL を入力してください。"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 351
 # File: /usr/lang/src/models.php, line: 88
@@ -21210,10 +21146,9 @@ msgstr "式"
 msgid "Ext. Address"
 msgstr "拡張アドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 288
 msgid "Ext. Port"
-msgstr ""
+msgstr "拡張ポート"
 
 # File: /usr/lang/src/controllers.php, line: 241
 msgid "FQ-CoDel flows"
@@ -21231,10 +21166,9 @@ msgstr "FQ-CoDel quantum"
 msgid "FQDN or IP"
 msgstr "FQDN もしくは IP"
 
-#
 # File: /usr/lang/src/controllers.php, line: 293
 msgid "FTP Proxy Settings"
-msgstr ""
+msgstr "FTP プロキシ設定"
 
 # File: /usr/lang/src/controllers.php, line: 245
 msgid "FTP proxy interfaces"
@@ -21290,25 +21224,21 @@ msgstr "HTTP トラフィックを透過プロキシに転送"
 msgid "Forward HTTPS traffic to transparent proxy"
 msgstr "HTTPS トラフィックを透過プロキシに転送"
 
-#
 # File: /usr/lang/src/controllers.php, line: 304
 msgid "Forward Proxy"
-msgstr ""
+msgstr "フォワードプロキシ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 305
 msgid "General Forward Settings"
-msgstr ""
+msgstr "全般転送設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 306
 msgid "General Proxy Settings"
-msgstr ""
+msgstr "全般プロキシ設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 307
 msgid "General Settings"
-msgstr ""
+msgstr "全般設定"
 
 # File: /usr/lang/src/controllers.php, line: 255
 msgid "GeoIP/Country"
@@ -21340,10 +21270,9 @@ msgstr "グループ ID"
 msgid "HAProxy processes"
 msgstr "HAProxy プロセス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 314
 msgid "HTTP Service"
-msgstr ""
+msgstr "HTTP サービス"
 
 # File: /usr/lang/src/controllers.php, line: 260
 msgid "HTTP check options"
@@ -21361,15 +21290,13 @@ msgstr "HTTP メソッド"
 msgid "HTTP version"
 msgstr "HTTP バージョン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 319
 msgid "HTTP-01"
-msgstr ""
+msgstr "HTTP-01"
 
-#
 # File: /usr/lang/src/controllers.php, line: 320
 msgid "HTTP-01/OPNsense"
-msgstr ""
+msgstr "HTTP-01 / OPNsense"
 
 # File: /usr/lang/src/controllers.php, line: 264
 msgid "Hard timeout (minutes)"
@@ -21406,10 +21333,9 @@ msgstr ""
 msgid "Hours"
 msgstr "時間"
 
-#
 # File: /usr/lang/src/controllers.php, line: 328
 msgid "ICAP Settings"
-msgstr ""
+msgstr "ICAP 設定"
 
 # File: /usr/lang/src/controllers.php, line: 271
 msgid "ICP port"
@@ -21418,15 +21344,13 @@ msgstr "ICP ポート"
 msgid "ID"
 msgstr "ID"
 
-#
 # File: /usr/lang/src/controllers.php, line: 331
 msgid "IP Addresses"
-msgstr ""
+msgstr "IP アドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 332
 msgid "IP Auto-Discovery"
-msgstr ""
+msgstr "IP オートディスカバリ"
 
 # File: /usr/lang/src/controllers.php, line: 272
 msgid "IPS mode"
@@ -21536,10 +21460,9 @@ msgstr "パケットを落とす前の間隔 ( ms 単位 )、空白はデフォ�
 msgid "Key"
 msgstr "鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 352
 msgid "Let's Encrypt Environment"
-msgstr ""
+msgstr "Let's Encrypt 環境"
 
 # File: /usr/lang/src/controllers.php, line: 289
 msgid "Listen Addresses"
@@ -21553,15 +21476,13 @@ msgstr "リスンアドレス"
 msgid "Listen port"
 msgstr "リスンポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 356
 msgid "Local Cache Settings"
-msgstr ""
+msgstr "ローカルキャッシュ設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 357
 msgid "Local HTTP Port"
-msgstr ""
+msgstr "ローカル HTTP ポート"
 
 # File: /usr/lang/src/controllers.php, line: 292
 msgid "Local stats TCP port"
@@ -21595,15 +21516,13 @@ msgstr "ロギングオプション"
 msgid "Logical operator (for ACLs)"
 msgstr "論理演算子 ( ACL 用 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 366
 msgid "Match pattern"
-msgstr ""
+msgstr "パターンに一致"
 
-#
 # File: /usr/lang/src/controllers.php, line: 367
 msgid "Match response"
-msgstr ""
+msgstr "応答に一致"
 
 # File: /usr/lang/src/controllers.php, line: 299
 msgid "Max sessions"
@@ -21711,10 +21630,9 @@ msgstr "この ACL を識別する名前です。"
 msgid "Name to identify this Lua script."
 msgstr "この Lua スクリプトを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 390
 msgid "Name to identify this account."
-msgstr ""
+msgstr "このアカウントを識別する名前です。"
 
 # File: /usr/lang/src/controllers.php, line: 139
 msgid "Name to identify this action."
@@ -21724,10 +21642,9 @@ msgstr "このアクションを識別する名前です。"
 msgid "Name to identify this backend."
 msgstr "このバックエンドを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 393
 msgid "Name to identify this certificate."
-msgstr ""
+msgstr "この証明書を識別する名前です。"
 
 # File: /usr/lang/src/controllers.php, line: 141
 msgid "Name to identify this error file."
@@ -21741,10 +21658,9 @@ msgstr "このフロントエンドを識別する名前です。"
 msgid "Name to identify this server."
 msgstr "このサーバを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 397
 msgid "Name to identify this validation."
-msgstr ""
+msgstr "この検証を識別する名前です。"
 
 # File: /usr/lang/src/controllers.php, line: 326
 msgid "Name used for this network"
@@ -21792,19 +21708,17 @@ msgstr ""
 msgid "Option pass-through"
 msgstr "オプションパススルー"
 
-#
 # File: /usr/lang/src/controllers.php, line: 408
 msgid "Optional e-mail address for this account."
-msgstr ""
+msgstr "このアカウントのオプションのメールアドレスです。"
 
 # File: /usr/lang/src/controllers.php, line: 337
 msgid "Optional parameters"
 msgstr "オプションパラメータ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 410
 msgid "Other check options"
-msgstr ""
+msgstr "その他の確認オプション"
 
 # File: /usr/lang/src/controllers.php, line: 338
 msgid "Overall bandwidth throttling (kbps)"
@@ -21837,10 +21751,9 @@ msgstr "パターンマッチャー"
 msgid "Per host bandwidth throttling (kbps)"
 msgstr "ホスト毎の帯域制限 ( kbps )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 418
 msgid "PingTimeout"
-msgstr ""
+msgstr "Ping タイムアウト"
 
 msgid "Port"
 msgstr "ポート"
@@ -21885,10 +21798,9 @@ msgstr "このサーバの TCP 通信ポートを入力してください。例 
 msgid "Provide the TCP communication port to use during check, i.e. 80 or 443."
 msgstr "チェック中に使用する TCP 通信ポートを入力してください。例 80、443"
 
-#
 # File: /usr/lang/src/controllers.php, line: 429
 msgid "Provider"
-msgstr ""
+msgstr "プロバイダ"
 
 # File: /usr/lang/src/controllers.php, line: 354
 msgid "Proxy interfaces"
@@ -21925,10 +21837,9 @@ msgstr "参照"
 msgid "Remote listen addresses"
 msgstr "リモートリスンアドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 439
 msgid "Renewal Interval"
-msgstr ""
+msgstr "更新間隔"
 
 # File: /usr/lang/src/controllers.php, line: 363
 msgid "Request Modify URL"
@@ -22049,10 +21960,9 @@ msgstr "スケジューラタイプ"
 msgid "Secret"
 msgstr "秘密鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 469
 msgid "Secret Key"
-msgstr ""
+msgstr "秘密鍵"
 
 # File: /usr/lang/src/controllers.php, line: 391
 msgid "Select ACLs"
@@ -22097,10 +22007,9 @@ msgstr "ヘルスチェック式を選択してください。"
 msgid "Select health check for servers in this backend."
 msgstr "このバックエンドのサーバに対するヘルスチェックを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 479
 msgid "Select how to look for a specific pattern in the response."
-msgstr ""
+msgstr "応答の中で特定のパターンを探す手法を選択してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 64
 # File: lang/dynamic/helpers/controllers.php, line: 85
