@@ -21031,12 +21031,12 @@ msgstr ""
 "ジョブの動作期間を週の曜日で入力してください。カンマ区切りリスト、* (毎日)、"
 "範囲 ( 例: 1,2,3 や 1-3 ) も使用できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 267
 msgid ""
 "Enter the directory location for thee local cache (default is /var/squid/"
 "cache)."
 msgstr ""
+"ローカルキャッシュのディレクトリの場所を入力してください。( デフォルトは /var/squid/cache )"
 
 # File: lang/dynamic/helpers/controllers.php, line: 87
 msgid ""
@@ -22009,7 +22009,7 @@ msgstr "このバックエンドのサーバに対するヘルスチェックを
 
 # File: /usr/lang/src/controllers.php, line: 479
 msgid "Select how to look for a specific pattern in the response."
-msgstr "応答の中で特定のパターンを探す手法を選択してください。"
+msgstr "応答の中で特定のパターンを検索する手法を選択してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 64
 # File: lang/dynamic/helpers/controllers.php, line: 85
@@ -22056,10 +22056,9 @@ msgstr ""
 "このアクションに対する条件として使用される 1 つ以上の ACL を選択してくださ"
 "い。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 489
 msgid "Select the certificate authority for this account."
-msgstr ""
+msgstr "このアカウントの認証局を選択してください。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 91
 msgid "Select the command that needs to be executed at given time frame."
@@ -22073,10 +22072,9 @@ msgstr "使用する multi-pattern matcher アルゴリズムを選択してく�
 msgid "Select type of health check."
 msgstr "ヘルスチェックのタイプを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 493
 msgid "Select what to do with X-Forwarded-For header."
-msgstr ""
+msgstr "X-Forwarded-For ヘッダで何をするのか選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 413
 msgid "Send Client IP"
@@ -22086,10 +22084,9 @@ msgstr "クライアント IP を送信"
 msgid "Send Username"
 msgstr "ユーザ名を送信"
 
-#
 # File: /usr/lang/src/controllers.php, line: 496
 msgid "Send data"
-msgstr ""
+msgstr "データを送信"
 
 # File: /usr/lang/src/controllers.php, line: 415
 msgid "Send log data to the selected target."
@@ -22099,15 +22096,13 @@ msgstr "選択した対象にログデータを送信します。"
 msgid "Separate Statistics"
 msgstr "統計を分割"
 
-#
 # File: /usr/lang/src/controllers.php, line: 499
 msgid "Server (FQDN)"
-msgstr ""
+msgstr "サーバ ( FQDN )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 500
 msgid "Server ID"
-msgstr ""
+msgstr "サーバ ID"
 
 # File: /usr/lang/src/controllers.php, line: 417
 msgid "Server Timeout"
@@ -22136,20 +22131,17 @@ msgstr ""
 "FTP プロキシに委任された pf ルールに「ログ」フラグを設定します。デフォルトで"
 "は pf ルールはログを記録しません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 507
 msgid "Set the CA account to use for this certificate."
-msgstr ""
+msgstr "この証明書で使用する CA アカウントを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 508
 msgid "Set the Let's Encrypt validation method for this certificate."
-msgstr ""
+msgstr "この証明書の Let's Encrypt 検証メソッドを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 509
 msgid "Set the Let's Encrypt validation method."
-msgstr ""
+msgstr "Let's Encrypt 検証メソッドを設定してください。"
 
 # File: /usr/lang/src/controllers.php, line: 171
 msgid "Set the default backend to use for this frontend."
@@ -22222,27 +22214,29 @@ msgstr ""
 msgid "Set value"
 msgstr "値を設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 521
 msgid ""
 "Sets an additional read timeout for running health checks on a server. "
 "Defaults to milliseconds. Optionally the unit may be specified as either \"d"
 "\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"サーバで実行するヘルスチェックの追加読込みタイムアウトを設定します。デフォルトではミリ秒になります。"
+"オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 522
 msgid ""
 "Sets the interval (in milliseconds) for running health checks on the server "
 "when the server state is DOWN. If it is not set HAProxy uses the check "
 "interval."
 msgstr ""
+"サーバステートがダウンの場合に、サーバで実行するヘルスチェックの間隔を設定してください ( ms 単位 )。"
+"設定されていない場合は HAProxy は確認間隔を使用します。"
 
 # File: /usr/lang/src/controllers.php, line: 181
 msgid ""
 "Sets the interval (in milliseconds) for running health checks on the server."
 msgstr ""
-"サーバでのヘルスチェックの実行に対する間隔を設定してください ( ms 単位 )。"
+"サーバで実行するヘルスチェックの間隔を設定してください ( ms 単位 )。"
 
 # File: /usr/lang/src/controllers.php, line: 182
 msgid ""
@@ -22276,10 +22270,9 @@ msgstr "署名 ID"
 msgid "Size"
 msgstr "サイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 530
 msgid "Sleep Time"
-msgstr ""
+msgstr "スリープタイム"
 
 msgid "Source"
 msgstr "送信元"
@@ -22295,10 +22288,9 @@ msgstr "送信元アドレス"
 msgid "Source port"
 msgstr "送信元ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 535
 msgid "Specifies the days to renew the cert. The max value is 60 days."
-msgstr ""
+msgstr "証明書を更新する日数を指定してください。最大値は 60 日です。"
 
 # File: /usr/lang/src/controllers.php, line: 184
 msgid "Specify HTTP host to use for health check. Requires HTTP/1.1."
@@ -22330,20 +22322,18 @@ msgstr ""
 "るためです。全てのサーバはデフォルト値である 1024 文字に対応しています。しか"
 "し一部のサーバは、他のサーバがログに記録している長い行をそのまま落とします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 541
 msgid "Specify the Server ID of your PowerDNS server, i.e. localhost."
-msgstr ""
+msgstr "PowerDNS サーバのサーバ ID を指定してください。例: localhost"
 
 # File: /usr/lang/src/controllers.php, line: 189
 msgid "Specify the TCP port used for agent checks."
 msgstr "エージェントチェックに使用する TCP ポートを指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 543
 msgid ""
 "Specify the URL for your PowerDNS server, i.e. http://ns.example.com:8081."
-msgstr ""
+msgstr "PowerDNS サーバの URL を指定してください。例: http://ns.example.com:8081"
 
 # File: /usr/lang/src/controllers.php, line: 190
 msgid ""
@@ -22352,13 +22342,14 @@ msgid ""
 msgstr ""
 "SMTP/ESMTP ヘルスチェックでサーバに提示するドメイン名を指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 545
 msgid ""
 "Specify the pattern to look for in the response buffer. If the match is set "
 "to binary, then the pattern must be passed as a serie of hexadecimal digits "
 "in an even number."
 msgstr ""
+"応答バッファの内部を検索するパターンを指定してください。"
+"一致がバイナリに設定されている場合は、パターンは 1 個の偶数内の一連の 16 進数として許可される必要があります。"
 
 # File: /usr/lang/src/controllers.php, line: 191
 msgid "Specify the scheduling algorithm to use"
@@ -22466,7 +22457,6 @@ msgid ""
 "defaults"
 msgstr "作成及び管理されるフローキューの数、空白にするとデフォルトになります"
 
-#
 # File: /usr/lang/src/controllers.php, line: 568
 msgid ""
 "The number of seconds to wait for a response to pings or to allow meta "
@@ -22475,6 +22465,9 @@ msgid ""
 "is terminated, and the others will be notified of this.\n"
 "        "
 msgstr ""
+"ping の応答を待つ、もしくは、許可するメタ接続を拒否するまでの秒数。\n"
+"          もし相手方がこの時間内に応答しなければその接続は終了し、相手方にもそれが通知されます。\n"
+"        "
 
 # File: lang/dynamic/helpers/controllers.php, line: 36
 msgid ""
@@ -22502,12 +22495,12 @@ msgid ""
 "a server."
 msgstr "プロキシはサーバへの制御接続の送信元アドレスとしてこれを使用します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 576
 msgid ""
 "The time in seconds to wait for all the TXT records to take effect DNS API "
 "mode. Default 120 seconds."
 msgstr ""
+"DNS API モードで実行される全ての TXT レコードを待つ秒単位の時間。デフォルトは 120 秒。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 63
 msgid "The total number of authenticator processes to spawn."
@@ -22542,10 +22535,9 @@ msgstr "プロキシサーバエラーメッセージで表示されるホスト
 msgid "This machines external address to use"
 msgstr "このマシンが使用する外部アドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 583
 msgid "This machines external port to use"
-msgstr ""
+msgstr "このマシンが使用する外部ポート"
 
 # File: /usr/lang/src/controllers.php, line: 483
 msgid ""
@@ -22561,18 +22553,16 @@ msgstr "このマシンが属するネットワーク"
 msgid "Timestamp"
 msgstr "タイムスタンプ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 587
 msgid "Token"
-msgstr ""
+msgstr "トークン"
 
 msgid "Total bandwidth for this pipe"
 msgstr "このパイプの合計帯域幅"
 
-#
 # File: /usr/lang/src/controllers.php, line: 589
 msgid "Traffic Management Settings"
-msgstr ""
+msgstr "トラフィック管理設定"
 
 # File: /usr/lang/src/controllers.php, line: 487
 msgid "Transparent proxy (HTTP)"
@@ -22640,10 +22630,9 @@ msgstr "ユーザ"
 msgid "Username Header"
 msgstr "ユーザ名ヘッダ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 607
 msgid "Validation Method"
-msgstr ""
+msgstr "検証メソッド"
 
 msgid "Value"
 msgstr "値"
@@ -22682,7 +22671,6 @@ msgstr ""
 "選択したインタフェースのサブネットが有効な場合、アクセス許可リストに追加され"
 "ます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 616
 msgid ""
 "When using HTTP-01 as validation method, a local webserver is used to "
@@ -22690,6 +22678,10 @@ msgid ""
 "allows you to change the local port of this webserver in case it interferes "
 "with another local services. Defaults to port 43580."
 msgstr ""
+"検証メソッドとして HTTP-01 を使用する場合は、Let's Encrypt サーバに ACME チャレンジデータを"
+"提供するのにローカル web サーバを使用します。"
+"この設定を使用すると、それがその他のローカルサービスに干渉する場合にこの web サーバのローカルポートを"
+"変更することを許可します。デフォルトではポートを 43580 にします。"
 
 # File: /usr/lang/src/controllers.php, line: 511
 msgid "Whitelist"
@@ -22703,10 +22695,9 @@ msgstr "URI の空白処理"
 msgid "X-Forwarded-For header"
 msgstr "X-Forwarded-For ヘッダ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 620
 msgid "X-Forwarded-For header handling"
-msgstr ""
+msgstr "X-Forwarded-For ヘッダ処理"
 
 # File: /usr/lang/src/controllers.php, line: 515
 msgid "Zone number"
@@ -22907,11 +22898,10 @@ msgstr "アクセス"
 msgid "Access Lists"
 msgstr "アクセスリスト"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 56
 # File: /usr/lang/src/models.php, line: 42
 msgid "Accounts"
-msgstr ""
+msgstr "アカウント"
 
 # File: lang/dynamic/helpers/models.php, line: 215
 # File: lang/dynamic/helpers/models.php, line: 282
@@ -23246,10 +23236,9 @@ msgstr "リースステータス"
 msgid "Leases"
 msgstr "リース"
 
-#
 # File: /usr/lang/src/models.php, line: 136
 msgid "Let's Encrypt"
-msgstr ""
+msgstr "Let's Encrypt"
 
 msgid "License"
 msgstr "ライセンス"
@@ -23420,10 +23409,9 @@ msgstr "パケットキャプチャ"
 msgid "Ping"
 msgstr "Ping"
 
-#
 # File: /usr/lang/src/models.php, line: 178
 msgid "Ping timeout must be between 1...65535"
-msgstr ""
+msgstr "Ping タイムアウトは 1 - 65535 です"
 
 msgid "Pipe number must be between 1...65535"
 msgstr "パイプ数は 1 - 65535 です"
@@ -23469,10 +23457,9 @@ msgstr "有効な MAC アドレスを入力してください"
 msgid "Please enter valid targets (e.g. 192.168.0.1:2055)."
 msgstr "有効なターゲットを入力してください ( 例 192.168.0.1:2055 )。"
 
-#
 # File: /usr/lang/src/models.php, line: 189
 msgid "Please provide a valid FQDN, i.e. www.example.com or mail.example.com."
-msgstr ""
+msgstr "有効な FQDN を入力してください。例 www.example.com、mail.example.com"
 
 # File: /usr/lang/src/models.php, line: 176
 msgid ""
@@ -23611,10 +23598,9 @@ msgstr "プールのステータス"
 msgid "Port Forward"
 msgstr "ポートフォワード"
 
-#
 # File: /usr/lang/src/models.php, line: 221
 msgid "Port number must be between 1...65535"
-msgstr ""
+msgstr "ポート番号は 1 - 65535 です"
 
 # File: /usr/lang/src/models.php, line: 206
 msgid "Power"
@@ -23938,11 +23924,10 @@ msgstr "VLAN"
 msgid "VPN"
 msgstr "VPN"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/validations.volt, line: 56
 # File: /usr/lang/src/models.php, line: 307
 msgid "Validation Methods"
-msgstr ""
+msgstr "検証メソッド"
 
 # File: /usr/lang/src/models.php, line: 281
 msgid ""
@@ -24072,30 +24057,25 @@ msgstr "sslrtd 子の数は 1 - 32 の整数値です"
 msgid "workAround"
 msgstr "回避方法"
 
-#
 # File: /usr/lang/src/wizards.php, line: 36
 msgid "(leave empty for none)"
-msgstr ""
+msgstr "( なしの場合は空白 )"
 
-#
 # File: /usr/lang/src/wizards.php, line: 37
 msgid "1024 bit"
-msgstr ""
+msgstr "1024 bit"
 
-#
 # File: /usr/lang/src/wizards.php, line: 38
 msgid "2048 bit"
-msgstr ""
+msgstr "2048 bit"
 
-#
 # File: /usr/lang/src/wizards.php, line: 39
 msgid "4096 bit"
-msgstr ""
+msgstr "4096 bit"
 
-#
 # File: /usr/lang/src/wizards.php, line: 40
 msgid "512 bit"
-msgstr ""
+msgstr "512 bit"
 
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 643
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1445
@@ -24108,13 +24088,15 @@ msgstr ""
 "す。NetBIOS スコープ ID は単一ネットワークの NetBIOS トラフィックを、同じ "
 "NetBIOS スコープ ID のノードのみに分離します。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 42
 msgid ""
 "A Windows Internet Name Service (WINS) server to provide for connecting "
 "clients, which allows them to browse Windows shares. This is typically an "
 "Active Directory Domain Controller, designated WINS server, or Samba server."
 msgstr ""
+"Windows インターネットネームサービス ( WINS ) サーバは、Windows 共有の参照を許可して"
+"接続しているクライアントに対して機能を提供します。"
+"一般的には、アクティブディレクトリドメインコントローラ、指定された WINS サーバ、Samba サーバです。"
 
 #
 # File: /usr/lang/src/wizards.php, line: 43
