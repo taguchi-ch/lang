@@ -24098,129 +24098,115 @@ msgstr ""
 "接続しているクライアントに対して機能を提供します。"
 "一般的には、アクティブディレクトリドメインコントローラ、指定された WINS サーバ、Samba サーバです。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 43
 msgid ""
 "A name for this OpenVPN instance, for your reference. It can be set however "
 "you like, but is often used to distinguish the purpose of the service (e.g. "
 "\"Remote Technical Staff\")."
 msgstr ""
+"この OpenVPN インスタンスの参照用として使用する名前です。どのような名前を設定しても構いませんが、"
+"サービスの目的を識別するために頻繁に使用されます。( 例 Remote Technical Staff )"
 
-#
 # File: /usr/lang/src/wizards.php, line: 44
 msgid ""
 "A name for your reference, to identify this certificate. This is also known "
 "as the certificate's \"Common Name.\""
 msgstr ""
+"この証明書を識別する参照用として使用する名前です。証明書の「コモンネーム」としても知られています。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 45
 msgid ""
 "A name for your reference, to identify this certificate. This is the same as "
 "common-name field for other Certificates."
 msgstr ""
+"この証明書を識別する参照用として使用する名前です。他の証明書に対する common-name フィールドと同じです。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 46
 msgid ""
 "Add a rule to allow all traffic from connected clients to pass across the "
 "VPN tunnel."
 msgstr ""
+"接続したクライアントから VPN トンネルへの通過を許可するトラフィックを、全てルールに追加してください。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 47
 msgid ""
 "Add a rule to permit traffic from clients on the Internet to the OpenVPN "
 "server process."
 msgstr ""
+"インターネットにあるクライアントから OpenVPN サーバプロセスに許可するトラフィックのルールを追加してください。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 48
 msgid "Add new CA"
-msgstr ""
+msgstr "新規 CA を追加"
 
-#
 # File: /usr/lang/src/wizards.php, line: 49
 msgid "Add new Certificate"
-msgstr ""
+msgstr "新規証明書を追加"
 
-#
 # File: /usr/lang/src/wizards.php, line: 50
 msgid "Add new LDAP server"
-msgstr ""
+msgstr "新規 LDAP サーバを追加"
 
-#
 # File: /usr/lang/src/wizards.php, line: 51
 msgid "Add new RADIUS server"
-msgstr ""
+msgstr "新規 RADIUS サーバを追加"
 
-#
 # File: /usr/lang/src/wizards.php, line: 52
 msgid "Add new Server"
-msgstr ""
+msgstr "新規サーバを追加"
 
 msgid "Address Pool"
 msgstr "アドレスプール"
 
-#
 # File: /usr/lang/src/wizards.php, line: 54
 msgid "Address of the LDAP server."
-msgstr ""
+msgstr "LDAP サーバのアドレスです。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 55
 msgid "Address of the RADIUS server."
-msgstr ""
+msgstr "RADIUS サーバのアドレスです。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 56
 msgid "Admin Password"
-msgstr ""
+msgstr "管理者パスワード"
 
-#
 # File: /usr/lang/src/wizards.php, line: 57
 msgid "Admin Password AGAIN"
-msgstr ""
+msgstr "管理者パスワードを再入力"
 
-#
 # File: /usr/lang/src/wizards.php, line: 59
 msgid "Allow DNS servers to be overridden by DHCP/PPP on WAN"
-msgstr ""
+msgstr "WAN の DHCP/PPP による DNS サーバの上書きを許可"
 
-#
 # File: /usr/lang/src/wizards.php, line: 60
 msgid "Allow communication between clients connected to this server."
-msgstr ""
+msgstr "このサーバに接続するクライアント間の通信を許可します。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 61
 msgid ""
 "Allow connected clients to retain their connections if their IP address "
 "changes."
 msgstr ""
+"接続したクライアントの IP アドレスが変更された場合にも接続を維持することを許可"
 
 msgid "Auth Digest Algorithm"
 msgstr "認証ダイジェストアルゴリズム"
 
-#
 # File: /usr/lang/src/wizards.php, line: 63
 msgid "Authentication Containers"
-msgstr ""
+msgstr "認証コンテナ"
 
-#
 # File: /usr/lang/src/wizards.php, line: 64
 msgid "Authentication Port"
-msgstr ""
+msgstr "認証ポート"
 
-#
 # File: /usr/lang/src/wizards.php, line: 65
 msgid "Automatically generate a shared TLS authentication key."
-msgstr ""
+msgstr "共有 TLS 認証鍵を自動生成します。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 66
 msgid "Block RFC1918 Private Networks"
-msgstr ""
+msgstr "RFC1918 プライベートネットワークを拒否"
 
 msgid "Block bogon networks"
 msgstr "bogon ネットワークを拒否"
@@ -24228,28 +24214,24 @@ msgstr "bogon ネットワークを拒否"
 msgid "Certificate"
 msgstr "証明書"
 
-#
 # File: /usr/lang/src/wizards.php, line: 70
 msgid "Choose a Certificate Authority (CA)"
-msgstr ""
+msgstr "認証局 ( CA ) を選択"
 
-#
 # File: /usr/lang/src/wizards.php, line: 71
 msgid "Choose a Server Certificate"
-msgstr ""
+msgstr "サーバ証明書を選択"
 
 msgid "City"
 msgstr "市"
 
-#
 # File: /usr/lang/src/wizards.php, line: 73
 msgid "City or other Locality name (e.g. Middelharnis, Leipzig, Louisville)."
-msgstr ""
+msgstr "市もしくはその他の地名です。( 例 ミッデルハルニス、ライプツィヒ、ルーイビル )"
 
-#
 # File: /usr/lang/src/wizards.php, line: 74
 msgid "Click 'Reload' to reload OPNsense with new changes."
-msgstr ""
+msgstr "「リロードをクリックすると新しい変更を反映した OPNsense をリロードします。」"
 
 msgid "Client Settings"
 msgstr "クライアント設定"
@@ -24257,43 +24239,36 @@ msgstr "クライアント設定"
 msgid "Compression"
 msgstr "圧縮"
 
-#
 # File: /usr/lang/src/wizards.php, line: 77
 msgid "Concurrent Connections"
-msgstr ""
+msgstr "同時接続"
 
-#
 # File: /usr/lang/src/wizards.php, line: 78
 msgid "Configuration Complete!"
-msgstr ""
+msgstr "構成は完了しました！"
 
-#
 # File: /usr/lang/src/wizards.php, line: 79
 msgid "Configure LAN Interface"
-msgstr ""
+msgstr "LAN インタフェースを構成"
 
-#
 # File: /usr/lang/src/wizards.php, line: 80
 msgid "Configure WAN Interface"
-msgstr ""
+msgstr "WAN インタフェースを構成"
 
 msgid "Country Code"
 msgstr "国コード"
 
-#
 # File: /usr/lang/src/wizards.php, line: 82
 msgid "Create a New Certificate Authority (CA) Certificate"
-msgstr ""
+msgstr "新規認証局 ( CA ) 証明書を作成"
 
-#
 # File: /usr/lang/src/wizards.php, line: 83
 msgid "Create a New Server Certificate"
-msgstr ""
+msgstr "新規サーバ証明書を作成"
 
-#
 # File: /usr/lang/src/wizards.php, line: 84
 msgid "Create new Certificate"
-msgstr ""
+msgstr "新規証明書を作成"
 
 msgid "Cryptographic Settings"
 msgstr "暗号化設定"
@@ -24301,10 +24276,9 @@ msgstr "暗号化設定"
 msgid "DH Parameters Length"
 msgstr "DH パラメータ長"
 
-#
 # File: /usr/lang/src/wizards.php, line: 88
 msgid "DHCP Hostname"
-msgstr ""
+msgstr "DHCP ホスト名"
 
 msgid "DHCP client configuration"
 msgstr "DHCP クライアント構成"
@@ -24312,51 +24286,43 @@ msgstr "DHCP クライアント構成"
 msgid "DNS Default Domain"
 msgstr "DNS デフォルトドメイン"
 
-#
 # File: /usr/lang/src/wizards.php, line: 91
 msgid "DNS Server 1"
-msgstr ""
+msgstr "DNS サーバ 1"
 
-#
 # File: /usr/lang/src/wizards.php, line: 92
 msgid "DNS Server 2"
-msgstr ""
+msgstr "DNS サーバ 2"
 
-#
 # File: /usr/lang/src/wizards.php, line: 93
 msgid "DNS Server 3"
-msgstr ""
+msgstr "DNS サーバ 3"
 
-#
 # File: /usr/lang/src/wizards.php, line: 94
 msgid "DNS Server 4"
-msgstr ""
+msgstr "DNS サーバ 4"
 
-#
 # File: /usr/lang/src/wizards.php, line: 95
 msgid "DNS server to provide for connecting client systems."
-msgstr ""
+msgstr "接続しているクライアントシステムに名前解決を提供する DNS サーバです。"
 
 msgid "Descriptive name"
 msgstr "説明名"
 
-#
 # File: /usr/lang/src/wizards.php, line: 98
 msgid "Descriptive name for the RADIUS server, for your reference."
-msgstr ""
+msgstr "RADIUS サーバを説明する名前で、参照用です。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 99
 msgid "Descriptive server name, for your own reference."
-msgstr ""
+msgstr "サーバを説明する名前で、参照用です。"
 
 msgid "Domain"
 msgstr "ドメイン"
 
-#
 # File: /usr/lang/src/wizards.php, line: 101
 msgid "Domain name field is invalid"
-msgstr ""
+msgstr "ドメイン・ネームフィールドが無効です"
 
 msgid "Duplicate Connections"
 msgstr "重複接続"
@@ -24364,69 +24330,62 @@ msgstr "重複接続"
 msgid "Dynamic IP"
 msgstr "動的 IP"
 
-#
 # File: /usr/lang/src/wizards.php, line: 104
 msgid "EXAMPLE: mydomain.com"
-msgstr ""
+msgstr "例: mydomain.com"
 
-#
 # File: /usr/lang/src/wizards.php, line: 105
 msgid "EXAMPLE: myserver"
-msgstr ""
+msgstr "例: myserver"
 
-#
 # File: /usr/lang/src/wizards.php, line: 106
 msgid "Email"
-msgstr ""
+msgstr "メール"
 
-#
 # File: /usr/lang/src/wizards.php, line: 107
 msgid ""
 "Email address for the Certificate contact. Often the email of the person "
 "generating the certificate (i.e. You.)"
 msgstr ""
+"証明書の連絡先として使用するメールアドレスです。"
+"通常は証明書を生成した人のメールアドレスになります。(例 自分のアドレス)"
 
-#
 # File: /usr/lang/src/wizards.php, line: 108
 msgid "Enable authentication of TLS packets."
-msgstr ""
+msgstr "TLS パケットの認証を有効にします。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 109
 msgid "Encryption Algorithm"
-msgstr ""
+msgstr "暗号化アルゴリズム"
 
-#
 # File: /usr/lang/src/wizards.php, line: 110
 msgid ""
 "Enter any additional options you would like to add to the OpenVPN server "
 "configuration here, separated by a semicolon. EXAMPLE: push \"route 10.0.0.0 "
 "255.255.255.0\""
 msgstr ""
+"OpenVPN サーバに好みの追加オプションをここで入力できます。セミコロン区切りです。"
+"例 push \"route 10.0.0.0 255.255.255.0\""
 
-#
 # File: /usr/lang/src/wizards.php, line: 111
 msgid "Enter the hostname (FQDN) of the time server."
-msgstr ""
+msgstr "時間サーバのホスト名 ( FQDN ) を入力してください。"
 
 # File: src/www/system_authservers.php, line: 539
 msgid "Entire Subtree"
 msgstr "サブツリー全体"
 
-#
 # File: /usr/lang/src/wizards.php, line: 113
 msgid "Finish"
-msgstr ""
+msgstr "終了"
 
-#
 # File: /usr/lang/src/wizards.php, line: 114
 msgid "Firewall Rule"
-msgstr ""
+msgstr "ファイアウォールルール"
 
-#
 # File: /usr/lang/src/wizards.php, line: 115
 msgid "Firewall Rule Configuration"
-msgstr ""
+msgstr "ファイアウォールルール構成"
 
 #
 # File: /usr/lang/src/wizards.php, line: 116
