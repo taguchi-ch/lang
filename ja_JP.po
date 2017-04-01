@@ -24387,7 +24387,6 @@ msgstr "ファイアウォールルール"
 msgid "Firewall Rule Configuration"
 msgstr "ファイアウォールルール構成"
 
-#
 # File: /usr/lang/src/wizards.php, line: 116
 msgid ""
 "Firewall Rules control what network traffic is permitted. You must add rules "
@@ -24395,46 +24394,43 @@ msgid ""
 "traffic from connected clients through the tunnel. These rules can be "
 "automatically added here, or configured manually after completing the wizard."
 msgstr ""
+"ファイアウォールルールはどのようなネットワークトラフィックが許可されているかをコントロールします。"
+"OpenVPN サーバの IP とポートに対して許可するトラフィックのルール、及び、"
+"接続されたクライアントからトンネルの通過を許可するトラフィックについても必ず追加してください。"
+"これらのルールはここで自動的に追加することもできますし、ウィザードが終了した後に手動で構成することもできます。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 117
 msgid "Force all client generated traffic through the tunnel."
-msgstr ""
+msgstr "トラフィックを生成した全てのクライアントにトンネルを経由することを強制します。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 118
 msgid ""
 "Full State of Province name, not abbreviated (e.g. Zuid Holland, Sachsen, "
 "Kentucky)."
 msgstr ""
 
-#
 # File: /usr/lang/src/wizards.php, line: 119
 msgid "Gateway IP Address field is invalid"
-msgstr ""
+msgstr "ゲートウェイ IP アドレスフィールドは無効です"
 
-#
 # File: /usr/lang/src/wizards.php, line: 120
 msgid "General Information"
-msgstr ""
+msgstr "全般情報"
 
-#
 # File: /usr/lang/src/wizards.php, line: 121
 msgid "General OpenVPN Server Information"
-msgstr ""
+msgstr "全般 OpenVPN サーバ情報"
 
 msgid "General configuration"
 msgstr "全般構成"
 
-#
 # File: /usr/lang/src/wizards.php, line: 123
 msgid "Generate TLS Key"
-msgstr ""
+msgstr "TLS 鍵を生成"
 
-#
 # File: /usr/lang/src/wizards.php, line: 124
 msgid "Group Naming Attribute"
-msgstr ""
+msgstr "グループネーミング属性"
 
 msgid "Hardware Crypto"
 msgstr "ハードウェア暗号"
@@ -24448,22 +24444,20 @@ msgstr "ホスト名または IP アドレス"
 msgid "IP Address"
 msgstr "IP アドレス"
 
-#
 # File: /usr/lang/src/wizards.php, line: 130
 msgid "IP Address field is invalid"
-msgstr ""
+msgstr "IP アドレスフィールドは無効です"
 
-#
 # File: /usr/lang/src/wizards.php, line: 131
 msgid ""
 "If a user DN was supplied above, this password will also be used when "
 "performing a bind operation."
 msgstr ""
+"ユーザ DN が上記で提供されている場合は、このパスワードはバインド処理が実行されるときにも使用されます。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 132
 msgid "If left blank, an anonymous bind will be done."
-msgstr ""
+msgstr "空白のままにすると、匿名バインドが実行されます。"
 
 msgid ""
 "If no qualifying outgoing packets are transmitted for the specified number "
@@ -24473,7 +24467,6 @@ msgstr ""
 "対象となる発信パケットが指定された秒数で送信されなかった場合、接続はダウンし"
 "ます。この機能では、アイドルタイムアウトの 0 指定は、無効です。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 134
 msgid ""
 "If you enter a value in this field, then MSS clamping for TCP connections to "
@@ -24482,64 +24475,59 @@ msgid ""
 "for all other connection types will be assumed. This should match the above "
 "MTU value in most all cases."
 msgstr ""
+"このフィールドに値を入力する場合、TCP 接続に対する MSS クランプは"
+"実際には上記で入力した値 - 40 ( TCP/IP ヘッダサイズ ) になります。"
+"このフィールドを空白にすると、PPPoE では 1492 バイト、その他の全ての接続タイプでは 1500 バイトの MSS を"
+"前提とします。これは上記の MTU 値が殆どの場合において一致する必要があるためです。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 135
 msgid "Inter-Client Communication"
-msgstr ""
+msgstr "内部クライアント通信"
 
-#
 # File: /usr/lang/src/wizards.php, line: 137
 msgid "Invalid Hostname"
-msgstr ""
+msgstr "無効なホスト名"
 
 msgid "Key length"
 msgstr "鍵長"
 
-#
 # File: /usr/lang/src/wizards.php, line: 139
 msgid "LAN IP Address"
-msgstr ""
+msgstr "LAN IP アドレス"
 
-#
 # File: /usr/lang/src/wizards.php, line: 140
 msgid "LAN IP Address field is invalid"
-msgstr ""
+msgstr "LAN IP アドレスフィールフォは無効です"
 
 # File: /usr/core/src/www/system_authservers.php, line: 35
 msgid "LDAP"
 msgstr "LDAP"
 
-#
 # File: /usr/lang/src/wizards.php, line: 142
 msgid "LDAP Authentication Server List"
-msgstr ""
+msgstr "LDAP 認証サーバリスト"
 
-#
 # File: /usr/lang/src/wizards.php, line: 143
 msgid "LDAP Authentication Server Parameters"
-msgstr ""
+msgstr "LDAP 認証サーバパラメータ"
 
-#
 # File: /usr/lang/src/wizards.php, line: 144
 msgid "LDAP Bind Password"
-msgstr ""
+msgstr "LDAP バインドパスワード"
 
-#
 # File: /usr/lang/src/wizards.php, line: 145
 msgid "LDAP Bind User DN"
-msgstr ""
+msgstr "LDAP バインドユーザ DN"
 
-#
 # File: /usr/lang/src/wizards.php, line: 146
 msgid ""
 "LDAP Server port, leave blank for the default (389 for TCP, 636 for SSL)."
 msgstr ""
+"LDAP サーバポート、空白にするとデフォルトになります。( TCP:389、SSL:636 )"
 
-#
 # File: /usr/lang/src/wizards.php, line: 147
 msgid "LDAP servers"
-msgstr ""
+msgstr "LDAP サーバ"
 
 msgid "Language"
 msgstr "言語"
