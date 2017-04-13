@@ -24535,40 +24535,36 @@ msgstr "言語"
 msgid "Lifetime"
 msgstr "有効期間"
 
-#
 # File: /usr/lang/src/wizards.php, line: 150
 msgid "Lifetime in days. This is commonly set to 365 (Approximately 1 year.)"
-msgstr ""
+msgstr "日数単位の有効期間です。通常 365 ( 約 1 年 ) に設定します。"
 
 msgid "Local Network"
 msgstr "ローカルネットワーク"
 
-#
 # File: /usr/lang/src/wizards.php, line: 152
 msgid "Local Port"
-msgstr ""
+msgstr "ローカルポート"
 
-#
 # File: /usr/lang/src/wizards.php, line: 153
 msgid "Local User Access"
-msgstr ""
+msgstr "ローカルユーザアクセス"
 
-#
 # File: /usr/lang/src/wizards.php, line: 154
 msgid ""
 "Local port upon which OpenVPN will listen for connections. The default port "
 "is 1194. Leave this blank unless you need to use a different port."
 msgstr ""
+"OpenVPN が接続をリスンするローカルポートです。デフォルトポートは 1194 です。"
+"異なるポートを使用する必要がない場合は、空白にしてください。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 155
 msgid "MAC Address"
-msgstr ""
+msgstr "MAC アドレス"
 
-#
 # File: /usr/lang/src/wizards.php, line: 156
 msgid "MAC Address field is invalid"
-msgstr ""
+msgstr "MAC アドレスフィールドは無効です"
 
 msgid "MSS"
 msgstr "MSS"
@@ -24576,290 +24572,240 @@ msgstr "MSS"
 msgid "MTU"
 msgstr "MTU"
 
-#
 # File: /usr/lang/src/wizards.php, line: 159
 msgid "Member Naming Attribute"
-msgstr ""
+msgstr "メンバネーミング属性"
 
-#
 # File: /usr/lang/src/wizards.php, line: 160
 msgid "NTP Server"
-msgstr ""
+msgstr "NTP サーバ"
 
-#
 # File: /usr/lang/src/wizards.php, line: 161
 msgid "NTP Server 2"
-msgstr ""
+msgstr "NTP サーバ 2"
 
-#
 # File: /usr/lang/src/wizards.php, line: 163
 msgid "NetBIOS Node Type"
-msgstr ""
+msgstr "NetBIOS ノードタイプ"
 
 msgid "NetBIOS Options"
 msgstr "NetBIOS オプション"
 
-#
 # File: /usr/lang/src/wizards.php, line: 165
 msgid "NetBIOS Scope ID"
-msgstr ""
+msgstr "NetBIOS スコープ ID"
 
-#
 # File: /usr/lang/src/wizards.php, line: 166
 msgid "Network Time Protocol server to provide for connecting client systems."
-msgstr ""
+msgstr "NTP サーバは接続しているクライアントシステムに時刻を提供します。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 167
 msgid "Next"
-msgstr ""
+msgstr "次"
 
-#
 # File: /usr/lang/src/wizards.php, line: 168
 msgid "OPNsense Setup Wizard"
-msgstr ""
+msgstr "OPNsense 設定ウィザード"
 
-#
 # File: /usr/lang/src/wizards.php, line: 169
 msgid "On this screen we will configure the Local Area Network information."
-msgstr ""
+msgstr "この画面では LAN 情報を構成します。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 170
 msgid "On this screen we will configure the Wide Area Network information."
-msgstr ""
+msgstr "この画面では WAN 情報を構成します。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 171
 msgid ""
 "On this screen we will set the admin password, which is used to access the "
 "WebGUI and also SSH services if you wish to enable them."
 msgstr ""
+"この画面では管理者パスワードを設定します。"
+"web GUI へのアクセス及び SSH サービスを有効にした場合のアクセスに使用されます"
 
-#
 # File: /usr/lang/src/wizards.php, line: 172
 msgid "On this screen you will set the general OPNsense parameters."
-msgstr ""
+msgstr "この画面では OPNsense の全般的なパラメータを設定します。"
 
 # File: src/www/system_authservers.php, line: 536
 msgid "One Level"
 msgstr "1 レベル"
 
-#
 # File: /usr/lang/src/wizards.php, line: 174
 msgid "OpenVPN Remote Access Server Setup Wizard"
-msgstr ""
+msgstr "OpenVPN リモートアクセスサーバ設定ウィザード"
 
-#
 # File: /usr/lang/src/wizards.php, line: 175
 msgid "OpenVPN Wizard: Add Certificate Authority"
-msgstr ""
+msgstr "OpenVPN ウィザード: 認証局を追加"
 
-#
 # File: /usr/lang/src/wizards.php, line: 176
 msgid "OpenVPN Wizard: Add LDAP Server"
-msgstr ""
+msgstr "OpenVPN ウィザード: LDAP サーバを追加"
 
-#
 # File: /usr/lang/src/wizards.php, line: 177
 msgid "OpenVPN Wizard: Add RADIUS Server"
-msgstr ""
+msgstr "OpenVPN ウィザード: RADIUS サーバを追加"
 
-#
 # File: /usr/lang/src/wizards.php, line: 178
 msgid "OpenVPN Wizard: Add a Server Certificate"
-msgstr ""
+msgstr "OpenVPN ウィザード: サーバ証明書を追加"
 
-#
 # File: /usr/lang/src/wizards.php, line: 179
 msgid "OpenVPN Wizard: Authentication Type Selection"
-msgstr ""
+msgstr "OpenVPN ウィザード: 認証タイプ選択"
 
-#
 # File: /usr/lang/src/wizards.php, line: 180
 msgid "OpenVPN Wizard: Certificate Authority Selection"
-msgstr ""
+msgstr "OpenVPN ウィザード: 認証局選択"
 
-#
 # File: /usr/lang/src/wizards.php, line: 181
 msgid "OpenVPN Wizard: Finished!"
-msgstr ""
+msgstr "OpenVPN ウィザード: 完了しました！"
 
-#
 # File: /usr/lang/src/wizards.php, line: 182
 msgid "OpenVPN Wizard: Firewall Rule Configuration"
-msgstr ""
+msgstr "OpenVPN ウィザード: ファイアウォールルール構成"
 
-#
 # File: /usr/lang/src/wizards.php, line: 183
 msgid "OpenVPN Wizard: LDAP Server Selection"
-msgstr ""
+msgstr "OpenVPN ウィザード: LDAP サーバ選択"
 
-#
 # File: /usr/lang/src/wizards.php, line: 184
 msgid "OpenVPN Wizard: RADIUS Server Selection"
-msgstr ""
+msgstr "OpenVPN ウィザード: RADIUS サーバ選択"
 
-#
 # File: /usr/lang/src/wizards.php, line: 185
 msgid "OpenVPN Wizard: Server Certificate Selection"
-msgstr ""
+msgstr "OpenVPN ウィザード: サーバ証明書選択"
 
-#
 # File: /usr/lang/src/wizards.php, line: 186
 msgid "OpenVPN Wizard: Server Setup"
-msgstr ""
+msgstr "OpenVPN ウィザード: サーバ設定"
 
-#
 # File: /usr/lang/src/wizards.php, line: 187
 msgid "OpenVPN rule"
-msgstr ""
+msgstr "OpenVPN ルール"
 
 msgid "Organization"
 msgstr "組織"
 
-#
 # File: /usr/lang/src/wizards.php, line: 189
 msgid "Organization name, often the Company or Group name."
-msgstr ""
+msgstr "組織名、通常は会社もしくはグループの名前です。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 190
 msgid "Override DNS"
-msgstr ""
+msgstr "DNS 上書き"
 
-#
 # File: /usr/lang/src/wizards.php, line: 192
 msgid "PPPoE Dial on demand"
-msgstr ""
+msgstr "PPPoE ダイヤルオンデマンド"
 
-#
 # File: /usr/lang/src/wizards.php, line: 193
 msgid "PPPoE Idle timeout"
-msgstr ""
+msgstr "PPPoE アイドルタイムアウト"
 
-#
 # File: /usr/lang/src/wizards.php, line: 194
 msgid "PPPoE Password"
-msgstr ""
+msgstr "PPPoE パスワード"
 
-#
 # File: /usr/lang/src/wizards.php, line: 195
 msgid "PPPoE Service name"
-msgstr ""
+msgstr "PPPoE サービス名"
 
-#
 # File: /usr/lang/src/wizards.php, line: 196
 msgid "PPPoE Username"
-msgstr ""
+msgstr "PPPoE ユーザ名"
 
 msgid "PPPoE configuration"
 msgstr "PPPoE 構成"
 
-#
 # File: /usr/lang/src/wizards.php, line: 199
 msgid "PPTP Dial on demand"
-msgstr ""
+msgstr "PPTP ダイヤルオンデマンド"
 
-#
 # File: /usr/lang/src/wizards.php, line: 200
 msgid "PPTP Idle timeout"
-msgstr ""
+msgstr "PPTP アイドルタイムアウト"
 
-#
 # File: /usr/lang/src/wizards.php, line: 201
 msgid "PPTP Local IP Address"
-msgstr ""
+msgstr "PPTP ローカル IP アドレス"
 
-#
 # File: /usr/lang/src/wizards.php, line: 202
 msgid "PPTP Local IP Address field is invalid"
-msgstr ""
+msgstr "PPTP ローカル IP アドレスフィールドは無効です"
 
-#
 # File: /usr/lang/src/wizards.php, line: 203
 msgid "PPTP Password"
-msgstr ""
+msgstr "PPTP パスワード"
 
-#
 # File: /usr/lang/src/wizards.php, line: 204
 msgid "PPTP Remote IP Address"
-msgstr ""
+msgstr "PPTP リモート IP アドレス"
 
-#
 # File: /usr/lang/src/wizards.php, line: 205
 msgid "PPTP Remote IP Address field is invalid"
-msgstr ""
+msgstr "PPTP リモート IP アドレスフィールドは無効です"
 
-#
 # File: /usr/lang/src/wizards.php, line: 206
 msgid "PPTP Username"
-msgstr ""
+msgstr "PPTP ユーザ名"
 
-#
 # File: /usr/lang/src/wizards.php, line: 207
 msgid "PPTP configuration"
-msgstr ""
+msgstr "PPTP 構成"
 
-#
 # File: /usr/lang/src/wizards.php, line: 208
 msgid "Paste in a shared TLS key if one has already been generated."
-msgstr ""
+msgstr "既に生成されている場合は、共有 TLS 鍵をペーストしてください。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 209
 msgid "Please enter the time, date and time zone."
-msgstr ""
+msgstr "時間、日付、タイムゾーンを入力してください。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 211
 msgid ""
 "Port used by the RADIUS server for accepting Authentication requests, "
 "typically 1812."
 msgstr ""
+"RADIUS サーバが認証リクエストを受信するのに使用するポートです。通常は 1812 です。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 212
 msgid "Primary DNS Server"
-msgstr ""
+msgstr "プライマリ DNS サーバ"
 
-#
 # File: /usr/lang/src/wizards.php, line: 213
 msgid "Primary DNS Server field is invalid"
-msgstr ""
+msgstr "プライマリ DNS サーバフィールドは無効です"
 
 msgid "Protocol"
 msgstr "プロトコル"
 
-#
 # File: /usr/lang/src/wizards.php, line: 215
 msgid "Provide a default domain name to clients."
-msgstr ""
+msgstr "クライアントに提供するデフォルトドメイン名です。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 216
 msgid "Provide a virtual adapter IP address to clients (see Tunnel Network)."
-msgstr ""
+msgstr "クライアントに提供する仮想アダプタ IP アドレスです。( トンネルネットワークを参照 )"
 
-#
 # File: /usr/lang/src/wizards.php, line: 217
 msgid "RADIUS Authentication Server List"
-msgstr ""
+msgstr "RADIUS 認証サーバリスト"
 
-#
 # File: /usr/lang/src/wizards.php, line: 218
 msgid "RADIUS Authentication Server Parameters"
-msgstr ""
+msgstr "RADIUS 認証サーバパラメータ"
 
-#
 # File: /usr/lang/src/wizards.php, line: 219
 msgid "RADIUS servers"
-msgstr ""
+msgstr "RADIUS サーバ"
 
-#
 # File: /usr/lang/src/wizards.php, line: 220
 msgid "RFC1918 Networks"
-msgstr ""
+msgstr "RFC1918 ネットワーク"
 
 # File: /usr/core/src/www/system_authservers.php, line: 36
 msgid "Radius"
@@ -24868,67 +24814,59 @@ msgstr "Radius"
 msgid "Redirect Gateway"
 msgstr "リダイレクトゲートウェイ"
 
-#
 # File: /usr/lang/src/wizards.php, line: 223
 msgid "Reload"
-msgstr ""
+msgstr "リロード"
 
-#
 # File: /usr/lang/src/wizards.php, line: 224
 msgid "Reload configuration"
-msgstr ""
+msgstr "構成をリロード"
 
-#
 # File: /usr/lang/src/wizards.php, line: 225
 msgid "Reload in progress"
-msgstr ""
+msgstr "リロード中です"
 
 # File: src/www/system_authservers.php, line: 479
 msgid "SSL - Encrypted"
 msgstr "SSL - 暗号化"
 
-#
 # File: /usr/lang/src/wizards.php, line: 227
 msgid "Search Scope Base DN"
-msgstr ""
+msgstr "スコープベース DN を検索"
 
-#
 # File: /usr/lang/src/wizards.php, line: 228
 msgid "Search Scope Level"
-msgstr ""
+msgstr "スコープレベルを検索"
 
-#
 # File: /usr/lang/src/wizards.php, line: 229
 msgid "Secondary DNS Server"
-msgstr ""
+msgstr "セカンダリ DNS サーバ"
 
-#
 # File: /usr/lang/src/wizards.php, line: 230
 msgid "Secondary DNS Server field is invalid"
-msgstr ""
+msgstr "セカンダリ DNS サーバフィールドは無効です"
 
-#
 # File: /usr/lang/src/wizards.php, line: 231
 msgid "Select an Authentication Backend Type"
-msgstr ""
+msgstr "認証バックエンドタイプを選択"
 
-#
 # File: /usr/lang/src/wizards.php, line: 232
 msgid "SelectedType"
-msgstr ""
+msgstr "選択されたタイプ"
 
-#
 # File: /usr/lang/src/wizards.php, line: 233
 msgid "Set Admin WebGUI Password"
-msgstr ""
+msgstr "web GUI 管理者パスワードを設定"
 
-#
 # File: /usr/lang/src/wizards.php, line: 234
 msgid ""
 "Set the MTU of the WAN interface. If you leave this field blank, an MTU of "
 "1492 bytes for PPPoE and 1500 bytes for all other connection types will be "
 "assumed."
 msgstr ""
+"WAN インタフェースの MTU を設定してください。"
+"このフィールドを空白にすると、PPPoE では 1492 バイト、"
+"その他の全ての接続タイプでは 1500 バイトの MTU を前提とします。"
 
 #
 # File: /usr/lang/src/wizards.php, line: 235
