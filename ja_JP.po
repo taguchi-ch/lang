@@ -24408,6 +24408,7 @@ msgid ""
 "Full State of Province name, not abbreviated (e.g. Zuid Holland, Sachsen, "
 "Kentucky)."
 msgstr ""
+"州や県のフルネーム。省略表記はしないでください。( 例 ゾイトホラント、ザクセン、ケンタッキー )"
 
 # File: /usr/lang/src/wizards.php, line: 119
 msgid "Gateway IP Address field is invalid"
