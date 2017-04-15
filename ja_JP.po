@@ -24869,40 +24869,36 @@ msgstr ""
 "このフィールドを空白にすると、PPPoE では 1492 バイト、"
 "その他の全ての接続タイプでは 1500 バイトの MTU を前提とします。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 235
 msgid ""
 "Set the TOS IP header value of tunnel packets to match the encapsulated "
 "packet value."
 msgstr ""
+"カプセル化されたパケットの値と一致する、トンネルパケットの TOS IP ヘッダ値を設定してください。"
 
 msgid "Shared Secret"
 msgstr "共有秘密鍵"
 
-#
 # File: /usr/lang/src/wizards.php, line: 237
 msgid ""
 "Specify the maximum number of clients allowed to concurrently connect to "
 "this server."
-msgstr ""
+msgstr "このサーバに同時接続を許可するクライアントの最大数を指定してください。"
 
 msgid "State or Province"
 msgstr "都道府県"
 
-#
 # File: /usr/lang/src/wizards.php, line: 239
 msgid "Static"
-msgstr ""
+msgstr "静的"
 
-#
 # File: /usr/lang/src/wizards.php, line: 240
 msgid "Static IP Configuration"
-msgstr ""
+msgstr "静的 IP 構成"
 
-#
 # File: /usr/lang/src/wizards.php, line: 241
 msgid "Subnet Mask"
-msgstr ""
+msgstr "サブネットマスク"
 
 msgid "TCP"
 msgstr "TCP"
@@ -24914,17 +24910,15 @@ msgstr "TCP - 標準"
 msgid "TLS Authentication"
 msgstr "TLS 認証"
 
-#
 # File: /usr/lang/src/wizards.php, line: 245
 msgid "TLS Shared Key"
-msgstr ""
+msgstr "TLS 共有鍵"
 
-#
 # File: /usr/lang/src/wizards.php, line: 246
 msgid ""
 "The interface where OpenVPN will listen for incoming connections (typically "
 "WAN.)"
-msgstr ""
+msgstr "OpenVPN が着信接続をリスンするインタフェースです。( 通常 WAN )"
 
 msgid ""
 "The value in this field is sent as the DHCP client identifier and hostname "
@@ -24935,15 +24929,16 @@ msgstr ""
 "ホスト名として送信されます。一部の ISP はこの値を ( クライアント識別子とし"
 "て ) 要求します。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 248
 msgid ""
 "This field can be used to modify (\"spoof\") the MAC address of the WAN "
 "interface (may be required with some cable connections). Enter a MAC address "
 "in the following format: xx:xx:xx:xx:xx:xx or leave blank."
 msgstr ""
+"このフィールドは WAN インタフェースの MAC アドレス変更 ( なりすまし ) に使用しま"
+"す ( 一部のケーブル接続で必要になる場合があります )。"
+"次の形式で MAC アドレスを入力するか ( xx:xx:xx:xx:xx:xx )、空白にしてください。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 249
 msgid ""
 "This is the IPv4 virtual network used for private communications between "
@@ -24952,8 +24947,11 @@ msgid ""
 "virtual interface. The remaining network addresses can optionally be "
 "assigned to connecting clients. (see Address Pool)"
 msgstr ""
+"このサーバとクライアントホスト間のプライベート通信に使用される IPv4 仮想ネッ"
+"トワークで、CIDR 表記 ( 例: 10.0.8.0/24 ) を使用して記述します。"
+"最初のネットワークアドレスはサーバ仮想インタフェースに割り当てられます。"
+"残りのネットワークアドレスはオプションで接続しているクライアントに割当てられます。( アドレスプールを参照 )"
 
-#
 # File: /usr/lang/src/wizards.php, line: 250
 msgid ""
 "This is the network that will be accessible from the remote endpoint, "
@@ -24961,8 +24959,10 @@ msgid ""
 "a route to the local network through this tunnel on the remote machine. This "
 "is generally set to your LAN network."
 msgstr ""
+"リモートエンドポイントからアクセス可能となるネットワークで、CIDR 範囲で表記されます。"
+"リモートマシンにこのトンネルを経由したローカルネットワークへのルートを追加したくない場合は、"
+"空白のままにしてください。一般的には LAN ネットワークに設定します。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 251
 msgid ""
 "This option causes the interface to operate in dial-on-demand mode, allowing "
@@ -24970,31 +24970,30 @@ msgid ""
 "the actual connection of the link is delayed until qualifying outgoing "
 "traffic is detected."
 msgstr ""
+"このオプションはインタフェースをダイヤルオンデマンドモードで動作させ、"
+"仮想常時接続をすることが可能となります。"
+"インタフェースは構成されますが、条件を満たす発信トラフィックを検出するまで実際のリンク接"
+"続は行われません。"
 
-#
 # File: /usr/lang/src/wizards.php, line: 252
 msgid "Time Server Information"
-msgstr ""
+msgstr "時間サーバ情報"
 
-#
 # File: /usr/lang/src/wizards.php, line: 253
 msgid "Time server hostname"
-msgstr ""
+msgstr "時間サーバホスト名"
 
-#
 # File: /usr/lang/src/wizards.php, line: 254
 msgid "Timezone"
-msgstr ""
+msgstr "タイムゾーン"
 
-#
 # File: /usr/lang/src/wizards.php, line: 255
 msgid "Traffic from clients through VPN"
-msgstr ""
+msgstr "VPN 経由のクライアントからのトラフィック"
 
-#
 # File: /usr/lang/src/wizards.php, line: 256
 msgid "Traffic from clients to server"
-msgstr ""
+msgstr "サーバへのクライアントからのトラフィック"
 
 msgid "Transport"
 msgstr "配送"
@@ -25002,23 +25001,21 @@ msgstr "配送"
 msgid "Tunnel Network"
 msgstr "トンネルネットワーク"
 
-#
 # File: /usr/lang/src/wizards.php, line: 260
 msgid "Two-letter ISO country code (e.g. NL, DE, US)"
-msgstr ""
+msgstr "2 文字 ISO 国コード ( 例 NL、DE、US )"
 
-#
 # File: /usr/lang/src/wizards.php, line: 261
 msgid "Type of Server"
-msgstr ""
+msgstr "サーバのタイプ"
 
 msgid "Type-of-Service"
 msgstr "サービスタイプ (TOS)"
 
-#
 # File: /usr/lang/src/wizards.php, line: 263
 msgid "Typically \"cn\" (OpenLDAP, Microsoft AD, and Novell eDirectory)"
 msgstr ""
+"通常は「cn」( OpenLDAP、Microsoft AD、Novell eDirectory )"
 
 # File: /usr/core/src/www/system_authservers.php, line: 609
 msgid ""
@@ -25028,37 +25025,34 @@ msgstr ""
 "通常は「cn」( OpenLDAP、Novell eDirectory )、「sAMAccountName」( Microsoft "
 "AD )"
 
-#
 # File: /usr/lang/src/wizards.php, line: 265
 msgid ""
 "Typically \"member\" (OpenLDAP), \"memberOf\" (Microsoft AD), \"uniqueMember"
 "\" (Novell eDirectory)"
 msgstr ""
+"通常は「member」( OpenLDAP )、「memberOf」( Microsoft AD )、「uniqueMember」"
+"( Novell eDirectory )"
 
 # File: src/www/diag_packet_capture.php, line: 281
 # File: src/www/firewall_nat_out_edit.php, line: 450
 msgid "UDP"
 msgstr "UDP"
 
-#
 # File: /usr/lang/src/wizards.php, line: 267
 msgid "Upstream Gateway"
-msgstr ""
+msgstr "上流ゲートウェイ"
 
-#
 # File: /usr/lang/src/wizards.php, line: 268
 msgid "User Naming Attribute"
-msgstr ""
+msgstr "ユーザネーミング属性"
 
-#
 # File: /usr/lang/src/wizards.php, line: 269
 msgid "WINS Server 1"
-msgstr ""
+msgstr "WINS サーバ 1"
 
-#
 # File: /usr/lang/src/wizards.php, line: 270
 msgid "WINS Server 2"
-msgstr ""
+msgstr "WINS サーバ 2"
 
 #
 # File: /usr/lang/src/wizards.php, line: 271
