@@ -24,10 +24,9 @@ msgstr ""
 msgid "ERROR: Could not parse %s wizard file."
 msgstr "エラー: %s ウィザードファイルを解析できません。"
 
-#
 # File: /usr/core/src/www/wizard.php, line: 92
 msgid "ERROR: Could not find wizard file."
-msgstr ""
+msgstr "エラー: ウィザードファイルが見つかりません。"
 
 # File: /usr/core/src/www/widgets/widgets/traffic_graphs.widget.php, line: 173
 msgid "Out (bps)"
@@ -212,11 +211,10 @@ msgstr "出力パケット"
 msgid "Packets In"
 msgstr "入力パケット"
 
-#
 # File: /usr/core/src/www/widgets/widgets/dyn_dns_status.widget.php, line: 137
 # File: /usr/core/src/www/widgets/widgets/rfc2136.widget.php, line: 137
 msgid "Checking..."
-msgstr ""
+msgstr "チェックしています..."
 
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 84
 #, php-format
@@ -1962,10 +1960,10 @@ msgid "A valid NAT local network bit count must be specified."
 msgstr "有効な NAT ローカルネットワークビット数を指定してください。"
 
 msgid "has no subnet."
-msgstr "にサブネットがありません"
+msgstr "にサブネットがありません。"
 
 msgid "Invalid Local Network."
-msgstr "無効なローカルネットワークです"
+msgstr "無効なローカルネットワークです。"
 
 msgid ""
 "A valid local network IPv6 address must be specified or you need to change "
@@ -2016,15 +2014,13 @@ msgstr "DPD を有効"
 msgid "Dead Peer Detection"
 msgstr "デッドピア検知"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1030
 msgid "Disables the IKEv2 MOBIKE protocol defined by RFC 4555"
-msgstr ""
+msgstr "RFC 4555 で定義された IKEv2 MOBIKE プロトコルを無効にします"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1026
 msgid "Disable MOBIKE"
-msgstr ""
+msgstr "MOBIKE を無効"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1012
 msgid ""
@@ -2083,15 +2079,13 @@ msgstr "暗号化アルゴリズム"
 msgid "Phase 1 proposal (Algorithms)"
 msgstr "フェーズ 1 プロポーザル ( アルゴリズム )"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 879
 msgid "Select authentication servers to use."
-msgstr ""
+msgstr "使用する認証サーバを選択してください。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 865
 msgid "Radius servers"
-msgstr ""
+msgstr "RADIUS サーバ"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 884
 msgid ""
@@ -2146,13 +2140,13 @@ msgstr "アグレッシブはよりフレキシブルですが、あまりセキ
 msgid "Negotiation mode"
 msgstr "ネゴシエーションモード"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 725
 #, php-format
 msgid ""
 "If you select EAP-RADIUS, you must define your RADIUS servers on the "
 "%sServers%s page."
 msgstr ""
+"EAP-RADIUS を選択する場合は、%sサーバ%sページで RADIUS サーバを定義する必要があります。"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 753
 # File: src/www/vpn_ipsec_phase1.php, line: 932
@@ -2357,10 +2351,9 @@ msgstr "P1 有効期間は整数です"
 msgid "Remote gateway"
 msgstr "リモートゲートウェイ"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 193
 msgid "Please select radius servers to use."
-msgstr ""
+msgstr "使用する RADIUS サーバを選択肢てください。"
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 182
 #, php-format
@@ -2854,15 +2847,13 @@ msgstr "認証鍵ファイルを、ここに貼り付けてください。"
 msgid "Authorized keys"
 msgstr "認証鍵"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 861
 msgid "Scan this QR code for easy setup with external apps."
-msgstr ""
+msgstr "この QR コードをスキャンすると外部アプリを簡単に設定します。"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 854
 msgid "Click to unhide"
-msgstr ""
+msgstr "クリックして再表示"
 
 #
 # File: /usr/core/src/www/system_usermanager.php, line: 852
