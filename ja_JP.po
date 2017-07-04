@@ -2855,20 +2855,18 @@ msgstr "この QR コードをスキャンすると外部アプリを簡単に�
 msgid "Click to unhide"
 msgstr "クリックして再表示"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 852
 msgid "OTP QR code"
-msgstr ""
+msgstr "OTP QR コード"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 852
 msgid "OTP (base32) seed to use when a one time password authenticator is used"
 msgstr ""
 "ワンタイムパスワード認証が使用されている場合に使用する OTP (base32) シード"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 838
 msgid "Generate new secret (160 bit)"
-msgstr ""
+msgstr "新規秘密鍵 ( 160 ビット ) を生成"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 847
 msgid "OTP seed"
@@ -2960,11 +2958,11 @@ msgstr "ユーザの氏名 ( 自分用メモ )"
 msgid "Full name"
 msgstr "氏名"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 589
 msgid ""
 "Generate a scrambled password to prevent local database logins for this user."
 msgstr ""
+"このユーザにローカルデータベースログインを妨げるスクランブル化パスワードを生成します。"
 
 msgid "(confirmation)"
 msgstr "( 確認 )"
@@ -2997,27 +2995,24 @@ msgstr "そのユーザ名は、システムに予約されています"
 msgid "Another entry with the same username already exists."
 msgstr "同じユーザ名のエントリは既に存在しています"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 248
 msgid "A password is required."
-msgstr ""
+msgstr "パスワードは必須です。"
 
 # File: /usr/core/src/www/system_usermanager.php, line: 240
 msgid "You cannot disable yourself."
 msgstr "自分自身を無効にすることはできません。"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 235
 msgid "Cannot set random password due to explicit input."
-msgstr ""
+msgstr "明示的な入力が必要な場合はランダムパスワードを設定できません。"
 
 msgid "The passwords do not match."
 msgstr "パスワードが一致しません"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 227
 msgid "The username is longer than 32 characters."
-msgstr ""
+msgstr "ユーザ名は 32 文字以上です。"
 
 # File: src/www/system_usermanager.php, line: 230
 msgid "No API key found"
@@ -3285,12 +3280,13 @@ msgstr ""
 "バックアップクラスタメンバに、IP に構成を同期、及び、パスワードオプションを使"
 "用しないでください！"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 193
 msgid ""
 "For setting up the backup machine leave this field empty, and do not forget "
 "to allow incoming connections on the specified interface for synchronization."
 msgstr ""
+"バックアップマシンの設定でこのフィールドを空白にする場合、同期用に指定したインタフェースの着信接続を"
+"許可することを忘れないで下さい。"
 
 # File: /usr/core/src/www/system_hasync.php, line: 164
 #, php-format
@@ -3366,18 +3362,18 @@ msgstr "ループバック"
 msgid "Synchronize Interface"
 msgstr "同期するインタフェース"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 135
 msgid ""
 "When this device is configured as CARP master it will try to switch to "
 "master when powering up, this option will keep this one slave if there "
 "already is a master on the network"
 msgstr ""
+"このデバイスが CARP マスターとして設定されている場合、電源が入った時点でマスターに切り替わろうとします。"
+"このオプションを使用すると、ネットワークに既にマスターが存在する場合はこの機器をスレーブのままにします。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 131
 msgid "Disable preempt"
-msgstr ""
+msgstr "preempt を無効"
 
 # File: src/www/system_hasync.php, line: 136
 msgid ""
@@ -3474,10 +3470,9 @@ msgstr "そのグループ名は、システムに予約されています。"
 msgid "Another entry with the same group name already exists."
 msgstr "同じグループ名の別のエントリが既に存在しています"
 
-#
 # File: /usr/core/src/www/system_groupmanager.php, line: 95
 msgid "The group name is longer than 32 characters."
-msgstr ""
+msgstr "グループ名は 32 文字以上です。"
 
 msgid "The group name contains invalid characters."
 msgstr "グループ名に無効な文字が含まれています"
@@ -4588,10 +4583,9 @@ msgstr "CA を追加もしくはインポート"
 msgid "openssl library returns:"
 msgstr "OpenSSL ライブラリの戻り値: "
 
-#
 # File: /usr/core/src/www/system_camanager.php, line: 337
 msgid "The serial number must be a number greater than zero or left blank."
-msgstr ""
+msgstr "シリアルナンバーは 0 以上の数値にするか、空白のままにしてください。"
 
 msgid "Please select a valid Digest Algorithm."
 msgstr "有効なダイジェストアルゴリズムを選択してください。"
@@ -4782,10 +4776,9 @@ msgstr ""
 msgid "Peer Certificate Authority"
 msgstr "ピアの認証局"
 
-#
 # File: /usr/core/src/www/system_authservers.php, line: 498
 msgid "StartTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 # File: src/www/system_authservers.php, line: 542
 msgid ""
@@ -5233,17 +5226,16 @@ msgstr "PowerD を使用"
 msgid "Power Savings"
 msgstr "省電力"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 364
 msgid ""
 "This will periodically backup the captive portal session data so it can be "
 "restored automatically on the next boot."
 msgstr ""
+"キャプティブポータルセッションデータを定期的にバックアップします。次回の起動時に自動的にリストア可能になります。"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 351
 msgid "Periodic Captive Portal Backup"
-msgstr ""
+msgstr "キャプティブポータルを定期的にバックアップ"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 325
 msgid ""
@@ -5589,14 +5581,14 @@ msgstr "全てのパケットフィルタリングを無効"
 msgid "Disable Firewall"
 msgstr "ファイアウォールを無効"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 497
 msgid ""
 "Uses the currently loaded ruleset as a feedback profile to tailor the "
 "ordering of quick rules to actual network traffic."
 msgstr ""
+"現在フィードバックプロファイルとしてロードされているルールセットを、"
+"実際のネットワークトラフィックへのクイックルールの順番を調整するのに使用します。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 493
 msgid ""
 "(default) Basic ruleset optimization does four things to improve the "
@@ -5604,30 +5596,29 @@ msgid ""
 "that are a subset of another rule; combine multiple rules into a table when "
 "advantageous; re-order the rules to improve evaluation performance"
 msgstr ""
+"( デフォルト ) 基本ルールセット最適化は、ルールセット評価のパフォーマンスを向上させる 4 つのことを行います。"
+"他のルールのサブセットになっているルールの削除、そのほうが有効な場合は複数のルールをテーブルに統合、"
+"評価のパフォーマンスが向上するようルールの並び替え"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 489
 msgid "Disable the ruleset optimizer."
-msgstr ""
+msgstr "ルールセット最適化ツールを無効にします。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 485
 msgid "Select the type of rules optimization to use"
-msgstr ""
+msgstr "使用するルール最適化のタイプを選択肢てください"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 481
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 496
 msgid "profile"
-msgstr ""
+msgstr "プロファイル"
 
 msgid "basic"
 msgstr "基本"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 471
 msgid "Firewall Rules Optimization"
-msgstr ""
+msgstr "ファイアウォールルール最適化"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 446
 msgid ""
