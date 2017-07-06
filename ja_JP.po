@@ -5679,7 +5679,6 @@ msgstr ""
 msgid "Schedule States"
 msgstr "ステートのスケジュール"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 406
 msgid ""
 "Using policy routing in the packet filter rules causes packets to skip "
@@ -5687,18 +5686,21 @@ msgid ""
 "option enables the sharing of such forwarding decisions between all "
 "components to accomodate complex setups. Use with care."
 msgstr ""
+"パケットフィルタルールを使用したポリシールーティングは、パケットがトラフィックシェイパ及び"
+"キャプティブポータルタスクに対する処理のスキップを引き起こす原因となります。"
+"このオプションの使用は、全てのコンポーネント間でそのような転送決定の共有を有効にし、"
+"複雑な設定を調整します。注意して使用してください。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 404
 msgid ""
 "Use shared forwarding between packet filter, traffic shaper and captive "
 "portal"
 msgstr ""
+"パケットフィルタ、トラフィックシェイパ、キャプティブポータル間で転送共有を使用"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 401
 msgid "Shared forwarding"
-msgstr ""
+msgstr "転送共有"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 390
 msgid ""
@@ -5741,12 +5743,13 @@ msgstr "スティッキー接続"
 msgid "Multi-WAN"
 msgstr "マルチ WAN"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 371
 msgid ""
 "If the link where the default gateway resides fails switch the default "
 "gateway to another available one. This feature has been deprecated."
 msgstr ""
+"デフォルトゲートウェイに存在しているリンクが落ちた場合、デフォルトゲートウェイを"
+"他の利用可能なものに切り替えます。この機能は非推奨です。"
 
 msgid "Allow default gateway switching"
 msgstr "デフォルトゲートウェイの切替えを許可"
@@ -6089,21 +6092,19 @@ msgstr "HTTP_REFERER 強制確認を無効"
 msgid "HTTP_REFERER enforcement"
 msgstr "HTTP_REFERER 強制"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 510
 msgid ""
 "Transfer less data to the client for an additional cost in processing power."
 msgstr ""
+"処理能力の追加コストに対して、クライアントにより小さいデータを転送します。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 509
 msgid "Enable compression of webgui pages and dynamic content."
-msgstr ""
+msgstr "web GUI ページの圧縮及び動的コンテンツを有効にします。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 492
 msgid "WebGui Compression"
-msgstr ""
+msgstr "web GUI 圧縮"
 
 msgid ""
 "Here you can specify alternate hostnames by which the router may be queried, "
