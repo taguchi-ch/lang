@@ -6511,30 +6511,25 @@ msgstr ""
 "て接続することを妨げられません。回線を確実に切断状態にしておきたい場合は、ダ"
 "イヤルオンデマンドは使用しないでください。"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 451
 msgid "rate"
-msgstr ""
+msgstr "レート"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 450
 msgid "total"
-msgstr ""
+msgstr "合計"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 449
 msgid "device"
-msgstr ""
+msgstr "デバイス"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 448
 msgid "irq"
-msgstr ""
+msgstr "IRQ"
 
-#
 # File: /usr/core/src/www/status_interfaces.php, line: 443
 msgid "Interrupts"
-msgstr ""
+msgstr "割り込み"
 
 #, php-format
 msgid "Bridge (%s)"
@@ -7087,17 +7082,16 @@ msgstr "%s MB"
 msgid "Message Cache Size"
 msgstr "メッセージキャッシュサイズ"
 
-#
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 185
 msgid ""
 "Serve expired responses from the cache with a TTL of 0 without waiting for "
 "the actual resolution to finish."
 msgstr ""
+"実際の解決が終了するのを待たずに TTL が 0 で有効期限切れになった応答を、キャッシュから提供します。"
 
-#
 # File: /usr/core/src/www/services_unbound_advanced.php, line: 181
 msgid "Serve expired responses"
-msgstr ""
+msgstr "有効期限切れの応答を提供"
 
 msgid ""
 "DNSSEC data is required for trust-anchored zones. If such data is absent, "
@@ -7252,7 +7246,6 @@ msgstr "本当にこのアクセスリストを削除しますか？"
 msgid "DNS Resolver"
 msgstr "DNS リゾルバ"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 315
 #, php-format
 msgid ""
@@ -7263,6 +7256,12 @@ msgid ""
 "obtained via DHCP or PPP on WAN if the \"Allow DNS server list to be "
 "overridden by DHCP/PPP on WAN\" is checked."
 msgstr ""
+"DNS リゾルバが有効な場合、DHCP サービス ( 有効であれば ) は自動的に DHCP クラ"
+"イアントに、DNS サーバの LAN IP アドレスを提供し、クライアントはそのアドレス"
+"を DNS リゾルバとして使用します。フォワーディングが有効な場合は、DNS リゾルバ"
+"は %sシステム: 全般設定%s で入力されたものか、もしくは「WAN の DHCP/"
+"PPP による DNS サーバリストの上書きを許可」がチェックされていれば、WAN "
+"の DHCP または PPP 経由で取得したものを DNS サーバとして使用します。"
 
 # File: /usr/core/src/www/services_unbound.php, line: 268
 msgid ""
@@ -7297,23 +7296,23 @@ msgstr ""
 msgid "TXT Comment Support"
 msgstr "TXT コメントサポート"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 257
 msgid ""
 "If this option is unset, then IPv6 link-local addresses will not be "
 "registered in the DNS Resolver, preventing return of unreachable address "
 "from the DNS resolver when more than one listen interface is configured."
 msgstr ""
+"このオプションがセットされていない場合は、IPv6 リンクローカルアドレスは DNS リゾルバに登録されず、"
+"1 つ以上のリスンインタフェースが構成されている場合に、DNS リゾルバから到達できないアドレスが"
+"返されるのを防ぎます。"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 255
 msgid "Register IPv6 link-local addresses in the DNS Resolver"
-msgstr ""
+msgstr "DNS リゾルバに IPv6 リンクローカルアドレスを登録"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 252
 msgid "DHCP IPv6 Link-local"
-msgstr ""
+msgstr "DHCP IPv6 リンクローカル"
 
 #, php-format
 msgid ""
@@ -7328,10 +7327,9 @@ msgstr ""
 msgid "Register DHCP static mappings in the DNS Resolver"
 msgstr "DNS リゾルバに DHCP 静的マッピングを登録"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 239
 msgid "DHCP Static Mappings"
-msgstr ""
+msgstr "DHCP 静的マッピング"
 
 # File: /usr/core/src/www/services_unbound.php, line: 216
 msgid ""
@@ -7454,28 +7452,26 @@ msgstr ""
 msgid "Use the DNS settings of the DHCPv6 server"
 msgstr "DHCPv6 サーバの DNS 設定を使用"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 372
 msgid ""
 "Routes are specified in CIDR format. The prefix of a route definition should "
 "be network prefix; it can be used to advertise more specific routes to the "
 "hosts."
 msgstr ""
+"ルートは CIDR 形式で指定します。ルート定義のプレフィックスはネットワークプレフィックスにする必要があり、"
+"ホストへのより詳しいルートを広告するために使用されます。"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 343
 msgid "Remove"
-msgstr ""
+msgstr "削除"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 322
 msgid "Length"
-msgstr ""
+msgstr "長さ"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 315
 msgid "Advertise Routes"
-msgstr ""
+msgstr "ルート広告"
 
 #, php-format
 msgid "Select the Interface for the Router Advertisement (RA) Daemon."
@@ -7547,11 +7543,10 @@ msgstr "最小間隔は %s - %s 秒にしてください。"
 msgid "Maximum interval must be between %s and %s seconds."
 msgstr "最大間隔は %s - %s 秒にしてください。"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 96
 #, php-format
 msgid "An invalid subnet route was supplied: %s"
-msgstr ""
+msgstr "無効なサブネットルートが指定されました: %s"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 40
 msgid ""
@@ -7589,25 +7584,21 @@ msgstr "鍵タイプ"
 msgid "This must match the setting on the DNS server."
 msgstr "DNS サーバの設定と一致する必要があります"
 
-#
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 185
 msgid "'All' will update all available record types."
-msgstr ""
+msgstr "「全て」は全ての利用可能なレコードタイプを更新します。"
 
-#
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 183
 msgid "AAAA (IPv6)"
-msgstr ""
+msgstr "AAAA (IPv6)"
 
-#
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 182
 msgid "A (IPv4)"
-msgstr ""
+msgstr "A (IPv4)"
 
-#
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 179
 msgid "Record Type"
-msgstr ""
+msgstr "レコードタイプ"
 
 # File: src/www/services_rfc2136_edit.php, line: 169
 msgid "Fully qualified hostname of the host to be updated."
