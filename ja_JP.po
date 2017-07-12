@@ -8219,11 +8219,10 @@ msgstr ""
 "構成するか、もしくは WAN の DHCP/PPP による DNS サーバリストの上書きを許可し"
 "てください。"
 
-#
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 404
 # File: /usr/core/src/www/services_rfc2136_edit.php, line: 252
 msgid "Save and Force Update"
-msgstr ""
+msgstr "保存して強制更新"
 
 msgid "Choose TTL for your dns record."
 msgstr "DNS レコードの TTL を選択してください。"
@@ -8527,7 +8526,6 @@ msgstr "次へのエイリアス: "
 msgid "Host Overrides"
 msgstr "ホストオーバーライド"
 
-#
 # File: /usr/core/src/www/services_dnsmasq.php, line: 402
 #, php-format
 msgid ""
@@ -8540,6 +8538,14 @@ msgid ""
 "WAN), you must manually specify at least one DNS server on the %sSystem: "
 "General setup%s page."
 msgstr ""
+"DNS フォワーダが有効な場合、DHCP サービス ( 有効であれば ) は自動的にその "
+"LAN IP アドレスを DNS サーバとして DHCP クライアントに提供し、クライアントは"
+"そのアドレスを DNS フォワーダとして使用します。DNS フォワーダが使用する DNS "
+"サーバは、%sシステム: 全般設定%sで入力されたものか、もしくは「WAN の "
+"DHCP/PPP による DNS サーバリストの上書きを許可」がチェックされている場合"
+"に、WAN の DHCP もしくは PPP 経由で得られるものです。そのオプションを使用しない "
+"( もしくは WAN で 静的 IP アドレスを使用する ) 場合は、%sシステム: 全般設定%s"
+"ページで 1 つ以上の DNS サーバを手動で指定する必要があります。"
 
 msgid ""
 "Enter any additional options you would like to add to the dnsmasq "
@@ -8923,7 +8929,6 @@ msgstr ""
 "DHCPv6 サーバは静的 IP アドレスで構成されたインタフェースでのみ有効にできま"
 "す。静的 IP で構成されたインタフェースのみ表示されます。"
 
-#
 # File: /usr/core/src/www/services_dhcp_relay.php, line: 167
 msgid ""
 "These are the IP addresses of servers to which DHCP requests are relayed. "
@@ -8931,11 +8936,14 @@ msgid ""
 "\"Proxy requests to DHCP server on WAN subnet\" to relay DHCP packets to the "
 "server that was used on the WAN interface."
 msgstr ""
+"これらのサーバの IP アドレスは DHCP リクエストでリレーされるものです。"
+"カンマ区切りで、複数のサーバ IP アドレスを入力できます。"
+"「プロキシは WAN サブネットの DHCP サーバにリクエスト」を選択すると、"
+"WAN インタフェースで使用されているサーバに DHCP パケットがリレーされます。"
 
-#
 # File: /usr/core/src/www/services_dhcp_relay.php, line: 163
 msgid "Destination servers"
-msgstr ""
+msgstr "送信先サーバ"
 
 # File: /usr/core/src/www/services_dhcp_relay.php, line: 159
 msgid ""
@@ -9339,18 +9347,17 @@ msgstr ""
 msgid "Failover peer IP:"
 msgstr "フェールオーバピア IP: "
 
-#
 # File: /usr/core/src/www/services_dhcp.php, line: 866
 msgid ""
 "This option specifies the MTU to use on this interface. The minimum legal "
 "value for the MTU is 68."
 msgstr ""
+"このインタフェースで使用する MTU を指定するオプションです。MTU の最小法定値は 68 です。"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 304
 # File: /usr/core/src/www/services_dhcp.php, line: 862
 msgid "Interface MTU"
-msgstr ""
+msgstr "インタフェース MTU"
 
 msgid "The default is 86400 seconds."
 msgstr "デフォルトは 86400 秒です。"
@@ -9564,10 +9571,9 @@ msgstr ""
 msgid "Text type cannot include quotation marks."
 msgstr "text 型には、クォーテーションマークは使用できません"
 
-#
 # File: /usr/core/src/www/services_dhcp.php, line: 329
 msgid "A valid MTU value must be specified."
-msgstr ""
+msgstr "有効な MTU 値を指定してください。"
 
 # File: src/www/services_dhcp.php, line: 296
 msgid ""
@@ -9805,15 +9811,13 @@ msgid ""
 msgstr ""
 "この無線クローンは削除できません。インタフェースとして割当てられています"
 
-#
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 225
 msgid "802.1Q VLAN PCP (priority code point)"
-msgstr ""
+msgstr "802.1Q VLAN PCP ( プライオリティコードポイント )"
 
-#
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 217
 msgid "VLAN priority"
-msgstr ""
+msgstr "VLAN 優先度"
 
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 201
 msgid "802.1Q VLAN tag (between 1 and 4094)"
@@ -9843,10 +9847,9 @@ msgstr ""
 msgid "Interface supplied as parent is invalid"
 msgstr "親として指定されたインタフェースは無効です"
 
-#
 # File: /usr/core/src/www/interfaces_vlan_edit.php, line: 73
 msgid "The VLAN priority must be an integer between 0 and 7."
-msgstr ""
+msgstr "VLAN 優先度は 0 - 7 の整数です。"
 
 msgid "The VLAN tag must be an integer between 1 and 4094."
 msgstr "VLAN タグは 1 - 4094 の整数です"
@@ -9864,10 +9867,9 @@ msgstr ""
 "ません。対応を明示していないカードでは、VLAN タギングが動作しても MTU の減少"
 "が問題を引き起こす可能性があります。"
 
-#
 # File: /usr/core/src/www/interfaces_vlan.php, line: 126
 msgid "PCP"
-msgstr ""
+msgstr "PCP"
 
 msgid "Do you really want to delete this VLAN?"
 msgstr "本当にこの VLAN を削除しますか？"
