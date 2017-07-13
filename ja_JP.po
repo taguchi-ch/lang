@@ -11619,14 +11619,14 @@ msgstr ""
 msgid "Script"
 msgstr "スクリプト"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2536
 msgid ""
 "The values in this field are DHCP request options to be sent when requesting "
 "a DHCP lease. [option [, ...]]"
 msgstr ""
+"このフィールドの値は、DHCP リースのリクエスト時に、DHCP リクエストオプション"
+"として送信されます。[オプション [, ...]]"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2527
 msgid ""
 "The values in this field are DHCP send options to be sent when requesting a "
@@ -11635,6 +11635,11 @@ msgid ""
 "is U(pper) or L(ower) Case, and D is \" :-.\" Delimiter (space, colon, "
 "hyphen, or period) (omitted for none)."
 msgstr ""
+"このフィールドの値は DHCP リースのリクエスト時に DHCP 送信オプションとして送"
+"信されます。[オプション 宣言 [, ...]] <br />値の代入: {interface}, "
+"{hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />C は U(大文字) もしく"
+"は L(小文字)、 D は「 :-.」、区切り文字 ( スペース、コロン、ハイフン、ピリオ"
+"ド ) ( 指定しない場合は省略してください )。"
 
 # File: /usr/core/src/www/interfaces.php, line: 2521
 msgid "Source: FreeBSD man page"
@@ -11870,17 +11875,17 @@ msgstr ""
 msgid "Require Options"
 msgstr "必須オプション"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2035
 msgid ""
 "The values in this field are DHCP option 55 to be sent when requesting a "
 "DHCP lease. [option [, ...]]"
 msgstr ""
+"このフィールドの値は DHCP リースのリクエスト時に DHCP オプション 55 として送"
+"信されます。[オプション [, ...]]"
 
 msgid "Request Options"
 msgstr "リクエストオプション"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2027
 msgid ""
 "The values in this field are DHCP options to be sent when requesting a DHCP "
@@ -11889,6 +11894,11 @@ msgid ""
 "L(ower) Case, and D is \" :-.\" Delimiter (space, colon, hyphen, or period) "
 "(omitted for none)."
 msgstr ""
+"このフィールドの値は、DHCP リースのリクエスト時に DHCP オプションとして送信さ"
+"れます。[オプション 宣言 [, ...]] <br />値の代入: {interface}, {hostname}, "
+"{mac_addr_asciiCD}, {mac_addr_hexCD} <br />C は U(大文字) もしくは L(小文"
+"字)、 D は「 :-.」、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) ( 指"
+"定しない場合は省略してください )。"
 
 msgid "Send Options"
 msgstr "送信オプション"
@@ -12430,25 +12440,24 @@ msgstr "設定は適用済みです！"
 msgid "Save to load widget"
 msgstr "保存してウィジェット読込み"
 
-#
 # File: /usr/core/src/www/index.php, line: 143
 #, php-format
 msgid "Click to %scontinue to the dashboard%s."
-msgstr ""
+msgstr "%sダッシュボードを続ける%sをクリックしてください。"
 
-#
 # File: /usr/core/src/www/index.php, line: 140
 #, php-format
 msgid ""
 "Please consider donating to the project to help us with our overhead costs. "
 "See %sour website%s to donate or purchase available %s support services."
 msgstr ""
+"プロジェクトへの寄付をご検討お願いします。プロジェクトの諸経費の援助となります。"
+"%sWeb サイト%sにある、寄付もしくは利用可能な有料 %s サポートサービスを御覧ください。"
 
-#
 # File: /usr/core/src/www/index.php, line: 138
 #, php-format
 msgid "Congratulations! %s is now configured."
-msgstr ""
+msgstr "おめでとうございます！%s は構成されました。"
 
 # File: /usr/core/src/www/index.php, line: 134
 msgid "To bypass the wizard, click on the logo in the upper left corner."
