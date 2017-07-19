@@ -12471,10 +12471,9 @@ msgstr "初期設定ウィザードの開始まで少々お待ちください"
 msgid "Welcome to %s!"
 msgstr "%s にようこそ！"
 
-#
 # File: /usr/core/src/www/index.php, line: 118
 msgid "Finished initial configuration!"
-msgstr ""
+msgstr "初期構成は終了しました！"
 
 # File: /usr/core/src/www/index.php, line: 118
 msgid "Starting initial configuration!"
@@ -12747,10 +12746,9 @@ msgstr ""
 "な値を補正します。このオプションは、任意のフラグメント再構成後のフラグメント"
 "化していないパケットにのみ適用されます。"
 
-#
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 623
 msgid "Random ID"
-msgstr ""
+msgstr "ランダム ID"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 545
 msgid "Clears the dont-fragment bit from a matching IP packet."
@@ -12764,15 +12762,13 @@ msgstr "フラグメント化しない"
 msgid "Enforces a minimum TTL for matching IP packets."
 msgstr "一致している IP パケットに最小 TTL を強制します。"
 
-#
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 605
 msgid "Minimum TTL"
-msgstr ""
+msgstr "最小 TTL"
 
-#
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 591
 msgid "TOS / DSCP"
-msgstr ""
+msgstr "TOS / DSCP"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 500
 msgid "Enforces a maximum MSS for matching TCP packets."
@@ -12817,30 +12813,27 @@ msgstr "%s は有効なポート番号、エイリアス、範囲ではないよ
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 518
 msgid "reliability"
-msgstr "信頼性"
+msgstr "reliability"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 515
 msgid "throughput"
-msgstr "スループット"
+msgstr "throughput"
 
-#
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 43
 msgid "netcontrol"
-msgstr ""
+msgstr "netcontrol"
 
-#
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 41
 msgid "inetcontrol"
-msgstr ""
+msgstr "inetcontrol"
 
-#
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 40
 msgid "critical"
-msgstr ""
+msgstr "critical"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 512
 msgid "lowdelay"
-msgstr "低遅延"
+msgstr "lowdelay"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 509
 msgid "Do not change"
@@ -12974,24 +12967,22 @@ msgstr "無効な開始時間 - %s"
 msgid "A Schedule with this name already exists."
 msgstr "この名前のスケジュールは既に存在しています"
 
-#
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 130
 #, php-format
 msgid "The schedule name cannot be the internally reserved keyword \"%s\"."
-msgstr ""
+msgstr "スケジュール名には内部予約語である「%s」を使用できません。"
 
-#
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 128
 #, php-format
 msgid ""
 "The schedule name must be less than 32 characters long and may only consist "
 "of the following characters: %s"
 msgstr ""
+"スケジュール名は長さが 32 文字未満で次の文字のみが使用できます: %s"
 
-#
 # File: /usr/core/src/www/firewall_schedule_edit.php, line: 123
 msgid "Schedule may not use a blank name."
-msgstr ""
+msgstr "スケジュール名を空白にして使用することはできません。"
 
 msgid "Schedule may not be named WAN."
 msgstr "スケジュール名に WAN は使用できません"
@@ -13141,10 +13132,9 @@ msgstr ""
 msgid "synproxy state"
 msgstr "SYN proxy state"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1473
 msgid "modulate state"
-msgstr ""
+msgstr "modulate state"
 
 msgid "sloppy state"
 msgstr "sloppy state"
@@ -13230,22 +13220,18 @@ msgstr "このルールが作成可能な最大ステートエントリ"
 msgid "Max states"
 msgstr "最大ステート"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1318
 msgid "Match on the priority of packets."
-msgstr ""
+msgstr "パケットの優先度で一致します。"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1312
 msgid "Any priority"
-msgstr ""
+msgstr "任意の優先度"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1309
 msgid "Match priority"
-msgstr ""
+msgstr "優先度に一致"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1304
 msgid ""
 "Set the priority of packets matching this rule. If both priorities are set "
@@ -13254,31 +13240,30 @@ msgid ""
 "interface, the queueing priority will be written as the priority code point "
 "in the 802.1Q VLAN header."
 msgstr ""
+"パケットの優先度一致はこのルールで設定します。両方の優先度がここで設定された場合、"
+"「lowdelay」の TOS のパケット、もしくは データのないペイロードの TCP ACK が後者に割り当てられます。"
+"パケットが VLAN インタフェースから送信された場合は、キューの優先度は 802.1Q VLAN ヘッダにプライオリティ"
+"コードポイントとして書き込まれます。"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1295
 msgid "Use main priority"
-msgstr ""
+msgstr "メイン優先度を使用"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1287
 msgid "Keep current priority"
-msgstr ""
+msgstr "現在の優先度を維持"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1282
 msgid "Low Delay/TCP ACK"
-msgstr ""
+msgstr "Low Delay/TCP ACK"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1281
 msgid "Main"
-msgstr ""
+msgstr "メイン"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1277
 msgid "Set priority"
-msgstr ""
+msgstr "優先度を設定"
 
 msgid "This will disable auto generated reply-to for this rule."
 msgstr "このルールに対する reply-to の自動生成を無効にします。"
