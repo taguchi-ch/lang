@@ -9852,7 +9852,7 @@ msgid "The VLAN priority must be an integer between 0 and 7."
 msgstr "VLAN 優先度は 0 - 7 の整数です。"
 
 msgid "The VLAN tag must be an integer between 1 and 4094."
-msgstr "VLAN タグは 1 - 4094 の整数です"
+msgstr "VLAN タグは 1 - 4094 の整数です。"
 
 msgid "VLAN tag"
 msgstr "VLAN タグ"
@@ -13427,29 +13427,26 @@ msgstr "拒否"
 msgid "Edit Firewall rule"
 msgstr "ファイアウォールルールの編集"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 406
 msgid "Priority match must be an integer between 0 and 7."
-msgstr ""
+msgstr "優先度一致は 0 - 7 の整数です。"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 402
 msgid ""
 "Set priority for low latency and acknowledgements requires a set priority "
 "for normal packets."
 msgstr ""
+"低遅延及び受信確認優先度の設定は、通常パケットに対する優先度を設定する必要があります。"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 398
 msgid ""
 "Set priority for low latency and acknowledgements must be an integer between "
 "0 and 7."
-msgstr ""
+msgstr "低遅延及び受信確認優先度の設定は 0 - 7 の整数です。"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 394
 msgid "Set priority must be an integer between 0 and 7."
-msgstr ""
+msgstr "優先度設定は 0 - 7 の整数です。"
 
 msgid ""
 "If you specify TCP flags that should be set you should specify out of which "
@@ -14181,7 +14178,6 @@ msgstr "他のルールの前に、設定したマークでパケットを一致
 msgid "Match local tag"
 msgstr "ローカルタグと一致"
 
-#
 # File: /usr/core/src/www/firewall_nat_edit.php, line: 966
 # File: /usr/core/src/www/firewall_nat_out_edit.php, line: 732
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1327
@@ -14189,6 +14185,8 @@ msgid ""
 "You can mark a packet matching this rule and use this mark to match on other "
 "NAT/filter rules."
 msgstr ""
+"このルールに一致しているパケットをマークし、他の NAT / フィルタルールでの一致"
+"にこのマークを使用することができます。"
 
 # File: src/www/firewall_rules_edit.php, line: 1245
 msgid "Set local tag"
@@ -14437,12 +14435,13 @@ msgstr ""
 "%s は有効な開始送信元ポートではありません。ポートエイリアス、または 1 - "
 "65535 の整数を設定してください"
 
-#
 # File: /usr/core/src/www/firewall_nat_edit.php, line: 165
 #, php-format
 msgid ""
 "\"%s\" is not a valid redirect target IP address, network or host alias."
 msgstr ""
+"%s は有効なリダイレクトターゲット IP アドレス、ネットワーク、ホストエイリアスではあり"
+"ません。"
 
 msgid "Redirect target IP"
 msgstr "リダイレクトターゲット IP"
@@ -14852,16 +14851,14 @@ msgstr "同じ名前のエイリアスが既に存在します"
 msgid "Update Frequency should be a number"
 msgstr "更新頻度は数字です"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 172
 # File: /usr/core/src/www/firewall_aliases_import.php, line: 56
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 84
 # File: /usr/core/src/www/system_gateways_edit.php, line: 65
 #, php-format
 msgid "The name cannot be the internally reserved keyword \"%s\"."
-msgstr ""
+msgstr "名前には内部予約語である「%s」を使用できません。"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 170
 # File: /usr/core/src/www/firewall_aliases_import.php, line: 54
 # File: /usr/core/src/www/system_gateway_groups_edit.php, line: 82
@@ -14871,6 +14868,7 @@ msgid ""
 "The name must be less than 32 characters long and may only consist of the "
 "following characters: %s"
 msgstr ""
+"名前は長さが 32 文字未満で次の文字のみが使用できます: %s"
 
 msgid "An interface description with this name already exists."
 msgstr "この名前のインタフェースの説明は、既に存在しています。"
@@ -14879,23 +14877,20 @@ msgstr "この名前のインタフェースの説明は、既に存在してい
 msgid "Cannot use a reserved keyword as alias name %s"
 msgstr "エイリアス名 %s として予約語を使用できません"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 137
 #, php-format
 msgid "Entry \"%s\" is not a valid country code."
-msgstr ""
+msgstr "エントリ %s は有効な国コードではありません。"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 133
 #, php-format
 msgid "Entry \"%s\" is not a valid port number."
-msgstr ""
+msgstr "エントリ %s は有効なポート番号ではありません。"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 128
 #, php-format
 msgid "Entry \"%s\" is not a valid hostname or IP address."
-msgstr ""
+msgstr "エントリ %s は有効なホスト名もしくは IP アドレスではありません。"
 
 #, php-format
 msgid "Entry added %s"
@@ -15597,15 +15592,14 @@ msgid "Gateway Monitor events"
 msgstr "ゲートウェイ監視イベント"
 
 msgid "VPN (PPTP, IPsec, OpenVPN) events"
-msgstr "VPN ( PPTP 、IPsec、OpenVPN ) イベント"
+msgstr "VPN ( PPTP、IPsec、OpenVPN ) イベント"
 
 msgid "Portal Auth events"
 msgstr "ポータル認証イベント"
 
-#
 # File: /usr/core/src/www/diag_logs_settings.php, line: 513
 msgid "DNS (Unbound, Dnsmasq, Bind) events"
-msgstr ""
+msgstr "DNS ( Unbound、Dnsmasq、Bind ) イベント"
 
 msgid "DHCP service events"
 msgstr "DHCP サービスイベント"
@@ -16310,10 +16304,9 @@ msgstr "ホストには、有効なホスト名または IP アドレスが必�
 msgid "Are you sure you want to proceed?"
 msgstr "続行してもよろしいですか？"
 
-#
 # File: /usr/core/src/www/diag_defaults.php, line: 57
 msgid "Admin user name and password will be reset"
-msgstr ""
+msgstr "管理者ユーザ名及びパスワードはリセットされます"
 
 msgid ""
 "WAN interface will be set to obtain an address automatically from a DHCP "
@@ -16667,17 +16660,17 @@ msgstr "ユーザ名とパスワードを指定する必要があります。"
 msgid "is not a valid authentication server"
 msgstr "有効な認証サーバではありません"
 
-#
 # File: /usr/core/src/www/csrf.inc, line: 122
 msgid ""
 "CSRF check failed. Your form session may have expired, or you may not have "
 "cookies enabled."
 msgstr ""
+"CSRF チェックが失敗しました。フォームセッションの有効期限が切れたか、"
+"Cookie が有効になっていない可能性があります。"
 
-#
 # File: /usr/core/src/www/csrf.inc, line: 121
 msgid "CSRF check failed"
-msgstr ""
+msgstr "CSRF チェックが失敗しました"
 
 # File: src/www/crash_reporter.php, line: 170
 msgid "Report an issue"
@@ -16784,10 +16777,9 @@ msgstr ""
 "全ての仮想 IP は無効になりました。この無効化は再起動後は継続しませんのでご注"
 "意ください。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 195
 msgid "Toggle navigation"
-msgstr ""
+msgstr "ナビゲーションを切り替え"
 
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 62
 msgid "An API exception occured"
@@ -16810,20 +16802,17 @@ msgstr "変更を保存"
 msgid "advanced mode"
 msgstr "詳細モード"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 240
 msgid "Edit rule"
-msgstr ""
+msgstr "ルールを編集"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 239
 msgid "Edit queue"
-msgstr ""
+msgstr "キューを編集"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 238
 msgid "Edit pipe"
-msgstr ""
+msgstr "パイプを編集"
 
 msgid "Reset"
 msgstr "リセット"
@@ -16874,10 +16863,9 @@ msgstr "書き込み"
 msgid "Error reconfiguring trafficshaper"
 msgstr "トラフィックシェーパの再構成にエラーが発生しました"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 320
 msgid "Edit Blacklist"
-msgstr ""
+msgstr "ブラックリストを編集"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 294
 msgid "Schedule with Cron"
@@ -16895,14 +16883,14 @@ msgstr "ACL をダウンロードして適用"
 msgid "Edit | Delete"
 msgstr "編集 | 削除"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 282
 msgid ""
 "Note: after changing categories, please remember to download the ACL again "
 "to apply your new settings"
 msgstr ""
+"注意: カテゴリを変更した場合は新しい設定に適用する ACL を"
+"もう一度ダウンロードするのを忘れないで下さい。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 275
 msgid ""
 "\n"
@@ -16913,6 +16901,13 @@ msgid ""
 "under %sForward Proxy -> Access Control List%s.\n"
 "                      "
 msgstr ""
+"\n"
+"                      ブラックリストに登録するリモート ACL を取得して、テーブル"
+"に項目を追加します。%s\n"
+"                      ブラックリストにするリストは有効無効を選択できます。%s\n"
+"                      アクティブなブラックリストは%sプロキシ転送 -> アクセスコ"
+"ントロールリスト%sの下の設定とマージされます。\n"
+"                      "
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 252
 msgid "Remote Blacklist"
@@ -16944,32 +16939,27 @@ msgstr "全てのヘルプ"
 msgid "Remote Access Control Lists"
 msgstr "リモートアクセスコントロールリスト"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 106
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 126
 msgid "Error fetching remote acls"
-msgstr ""
+msgstr "リモート ACL 取得エラー"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 86
 msgid "Error reconfiguring proxy"
-msgstr ""
+msgstr "プロキシ再構成エラー"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 757
 msgid "Ruleset details"
-msgstr ""
+msgstr "ルールセット詳細"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 756
 msgid "Alert details"
-msgstr ""
+msgstr "アラート詳細"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 755
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 758
 msgid "Rule details"
-msgstr ""
+msgstr "ルール詳細"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 482
 msgid "Query"
@@ -17055,10 +17045,9 @@ msgstr "ログファイルを削除"
 msgid "Changes will be active after apply (rules tab)"
 msgstr "変更は適用後にアクティブになります ( ルールタブ )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 361
 msgid "Error reconfiguring IDS"
-msgstr ""
+msgstr "IDS 再構成エラー"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 301
 msgid "not installed"
