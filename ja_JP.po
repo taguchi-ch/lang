@@ -17190,12 +17190,12 @@ msgstr "USERNAME"
 msgid "PID"
 msgstr "PID"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 113
 msgid ""
 "Enable this to attempt to resolve names when displaying the tables. By "
 "enabling name resolution, the query may take longer."
 msgstr ""
+"有効にするとテーブルを表示する際に名前解決を試みます。名前解決を有効にするとクエリに時間がかかる可能性があります。"
 
 msgid "Name resolution"
 msgstr "名前解決"
@@ -17467,28 +17467,25 @@ msgstr ""
 msgid "Save"
 msgstr "保存"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 671
 msgid "Provide subscription key."
-msgstr ""
+msgstr "サブスクリプション鍵を入力してください。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 666
 msgid "Subscription"
 msgstr "サブスクリプション"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 659
 msgid "Select the firmware cryptography flavour."
-msgstr ""
+msgstr "ファームウェア暗号化フレイバを選択してください。"
 
 # File: src/www/system_general.php, line: 584
 msgid "Firmware Flavour"
 msgstr "ファームウェアフレイバ"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 643
 msgid "Select an alternate firmware mirror."
-msgstr ""
+msgstr "代替ファームウェアミラーを選択してください。"
 
 # File: src/www/system_general.php, line: 565
 msgid "Firmware Mirror"
@@ -17941,10 +17938,9 @@ msgstr ""
 "ファームウェアステータスチェックは内部で中止されました。もう一度試してくださ"
 "い。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 133
 msgid "upgrade"
-msgstr ""
+msgstr "アップグレード"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 117
 msgid "reinstall"
@@ -17959,10 +17955,9 @@ msgstr "N/A"
 msgid "new"
 msgstr "新"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 109
 msgid "downgrade"
-msgstr ""
+msgstr "ダウングレード"
 
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 84
 msgid "This update requires a reboot."
@@ -18161,17 +18156,15 @@ msgstr "DHCP リレー"
 msgid "Router Advertisement Daemon"
 msgstr "ルータ広告デーモン"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/rfc2136.inc, line: 214
 #, php-format
 msgid "Dynamic DNS updated IPv6 Address (AAAA) for %s on %s to %s"
-msgstr ""
+msgstr "ダイナミック DNS は %s に対する %s の IPv6 アドレス ( AAAA ) を %s に更新しました。"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/rfc2136.inc, line: 186
 #, php-format
 msgid "Dynamic DNS updated IP Address (A) for %s on %s to %s"
-msgstr ""
+msgstr "ダイナミック DNS は %s に対する %s の IP アドレス ( A ) を %s に更新しました。"
 
 # File: /usr/core/src/etc/inc/plugins.inc.d/pf.inc, line: 37
 msgid "Packet Filter"
@@ -18564,45 +18557,37 @@ msgstr ""
 "仮想 IP アドレス %s を指定されたインタフェースが存在しません。この仮想 IP ア"
 "ドレスをスキップします"
 
-#
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 149
 msgid "Network Control (7, highest)"
-msgstr ""
+msgstr "ネットワークコントロール ( 7、最高 )"
 
-#
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 148
 msgid "Internetwork Control (6)"
-msgstr ""
+msgstr "インターネットワークコントロール ( 6 )"
 
-#
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 147
 msgid "Voice (5)"
-msgstr ""
+msgstr "音声 ( 5 )"
 
-#
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 146
 msgid "Video (4)"
-msgstr ""
+msgstr "動画 ( 4 )"
 
-#
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 145
 msgid "Critical Applications (3)"
-msgstr ""
+msgstr "クリティカルアプリケーション ( 3 )"
 
-#
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 144
 msgid "Excellent Effort (2)"
-msgstr ""
+msgstr "エクセレントエフォート ( 2 )"
 
-#
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 143
 msgid "Best Effort (0, default)"
-msgstr ""
+msgstr "ベストエフォート ( 0、デフォルト )"
 
-#
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 142
 msgid "Background (1, lowest)"
-msgstr ""
+msgstr "バックグラウンド ( 1、最低 )"
 
 #, php-format
 msgid ""
@@ -18807,13 +18792,14 @@ msgid ""
 "There is something wrong in your config because user %s password is missing!"
 msgstr "設定に問題があります。ユーザ %s のパスワードが見つかりません！"
 
-#
 # File: /usr/core/src/etc/inc/auth.inc, line: 173
 #, php-format
 msgid ""
 "The HTTP_REFERER \"%s\" does not match the predefined settings. You can "
 "disable this check if needed under System: Settings: Administration."
 msgstr ""
+"HTTP_REFERER %s は事前定義された設定と一致しません。"
+"必要であれば、システム: 設定: 管理の下でこのチェックを無効にできます。"
 
 msgid "Redirecting..."
 msgstr "リダイレクトしています..."
@@ -18838,16 +18824,14 @@ msgstr ""
 "クライアントが接続するポートです。このポートに対する全ての接続はプールクラス"
 "タに転送されます。"
 
-#
 # File: /usr/plugins/security/tinc/src/opnsense/mvc/app/views/OPNsense/Tinc/index.volt, line: 157
 msgid "Edit Host"
-msgstr ""
+msgstr "ホストを編集"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 150
 # File: /usr/plugins/security/tinc/src/opnsense/mvc/app/views/OPNsense/Tinc/index.volt, line: 156
 msgid "Edit Network"
-msgstr ""
+msgstr "ネットワークを編集"
 
 # File: /usr/plugins/security/tinc/src/opnsense/mvc/app/views/OPNsense/Tinc/index.volt, line: 73
 msgid "Error reconfiguring Tinc"
@@ -18865,33 +18849,29 @@ msgstr "Tinc VPN サーバ"
 msgid "Frontend Name"
 msgstr "フロントエンド名"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/validations.volt, line: 112
 msgid "Edit Validation Method"
-msgstr ""
+msgstr "検証メソッドを編集"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 212
 msgid "This plugin includes code from the %s project."
-msgstr ""
+msgstr "このプラグインは %s プロジェクトからのコードを含んでいます。"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 212
 msgid "Licensed under GPLv3."
-msgstr ""
+msgstr "ライセンスは GPLv3 です。"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 212
 msgid ""
 "Let\"s Encrypt(tm) is a trademark of the Internet Security Research Group. "
 "All rights reserved."
 msgstr ""
+"Let's Encrypt(TM) は Internet Security Research Group のトレードマークです。All rights reserved."
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 209
 msgid ""
 "Please use the %sissue tracker%s to report bugs or request new features."
-msgstr ""
+msgstr "バグレポートもしくは新機能のリクエストには %sissue tracker%s をご利用ください。"
 
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 195
 msgid "Test Config"
@@ -18937,10 +18917,9 @@ msgstr ""
 msgid "acme-client config contains critical errors"
 msgstr "ACME クライアント構成には重大なエラーがあります"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 420
 msgid "Edit Certificate"
-msgstr ""
+msgstr "証明書を編集"
 
 #
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 414
