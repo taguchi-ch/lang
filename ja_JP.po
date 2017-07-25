@@ -18921,7 +18921,6 @@ msgstr "ACME クライアント構成には重大なエラーがあります"
 msgid "Edit Certificate"
 msgstr "証明書を編集"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 414
 msgid ""
 "Use the Issue/Renew button to let the acme client automatically issue any "
@@ -18930,80 +18929,73 @@ msgid ""
 "the Commands column. This will forcefully issue/renew the certificate, even "
 "if it is not required."
 msgstr ""
+"発行 / 更新ボタンを使用すると ACME クライアントのいかなる証明書も新しく発行され、"
+"既存の証明書を更新 ( 必要な場合のみ ) することを許可します。"
+"もし発行 / 更新のみ行いたい、もしくは単一の証明書を無効にしたい場合は、コマンド列のボタンを使用してください。"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 414
 msgid ""
 "The process may take some time and thus will run in the background, you will "
 "not get any notification in the GUI. Use the log file to monitor the "
 "progress and to see error messages."
 msgstr ""
+"処理に多少時間がかかるためバックグラウンドで実行され、GUI でなんらかの通知は受け取りません。"
+"進行状況の監視とエラーメッセージの確認にはログファイルを使用してください。"
 
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 356
 msgid "Issue/Renew Certificates Now"
 msgstr "証明書を今すぐ発行 / 更新"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 390
 msgid "Last Acme Run"
-msgstr ""
+msgstr "最新 ACME 実行"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 389
 msgid "Last Acme Status"
-msgstr ""
+msgstr "最新 ACME ステータス"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 388
 msgid "Issue/Renewal Date"
-msgstr ""
+msgstr "発行 / 更新日付"
 
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 335
 msgid "Multi-Domain (SAN)"
 msgstr "マルチドメイン ( SAN )"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 100
 msgid "internal error"
-msgstr ""
+msgstr "内部エラー"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 98
 msgid "validation failed"
-msgstr ""
+msgstr "検証に失敗しました"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 96
 msgid "configuration error"
-msgstr ""
+msgstr "構成エラー"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 94
 msgid "cert revoked"
-msgstr ""
+msgstr "証明書は無効化されました"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 85
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 90
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 102
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 109
 msgid "unknown"
-msgstr ""
+msgstr "不明"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 75
 msgid "pending"
-msgstr ""
+msgstr "保留"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/actions.volt, line: 100
 msgid "Edit Restart Action"
-msgstr ""
+msgstr "再起動アクションを編集"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 87
 msgid "Edit Account"
-msgstr ""
+msgstr "アカウントを編集"
 
 # File: /usr/plugins/security/acme-client/src/etc/inc/plugins.inc.d/acmeclient.inc, line: 62
 msgid "Let's Encrypt client"
@@ -19017,51 +19009,43 @@ msgstr "PPPoE VPN サービスを構成しています..."
 msgid "Reverse Address"
 msgstr "リバースアドレス"
 
-#
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 338
 msgid "Test Configuration"
-msgstr ""
+msgstr "構成をテスト"
 
-#
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 256
 msgid "Service Tests Settings"
-msgstr ""
+msgstr "サービステスト設定"
 
-#
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 254
 msgid "Alert Settings"
-msgstr ""
+msgstr "アラート設定"
 
-#
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/controllers/OPNsense/Monit/StatusController.php, line: 44
 msgid "Monit System Monitoring - Status"
-msgstr ""
+msgstr "Monit システム監視 - ステータス"
 
-#
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/controllers/OPNsense/Monit/IndexController.php, line: 45
 msgid "Monit System Monitoring - Settings"
-msgstr ""
+msgstr "Monit システム監視 - 設定"
 
-#
 # File: /usr/plugins/sysutils/monit/src/etc/inc/plugins.inc.d/monit.inc, line: 39
 # File: /usr/plugins/sysutils/monit/src/etc/inc/plugins.inc.d/monit.inc, line: 60
 msgid "Monit System Monitoring"
-msgstr ""
+msgstr "Monit システム監視"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 97
 msgid "Maximum Sessions"
 msgstr "最大セッション"
 
-#
 # File: /usr/plugins/net-mgmt/zabbix-agent/src/opnsense/mvc/app/controllers/OPNsense/ZabbixAgent/IndexController.php, line: 45
 msgid "Zabbix Agent Settings"
-msgstr ""
+msgstr "Zabbix エージェント設定"
 
-#
 # File: /usr/plugins/net-mgmt/zabbix-agent/src/etc/inc/plugins.inc.d/zabbixagent.inc, line: 61
 # File: /usr/plugins/net-mgmt/zabbix-agent/src/etc/inc/plugins.inc.d/zabbixagent.inc, line: 84
 msgid "Enterprise-class open source distributed monitoring agent"
-msgstr ""
+msgstr "エンタープライズクラスのオープンソースで配布されている監視エージェント"
 
 # File: /usr/plugins/net/ftp-proxy/src/etc/inc/plugins.inc.d/ftpproxy.inc, line: 62
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/controllers/OPNsense/FtpProxy/IndexController.php, line: 45
@@ -19183,13 +19167,13 @@ msgstr ""
 msgid "Submit"
 msgstr "設定"
 
-#
 # File: /usr/plugins/net/relayd/src/www/load_balancer_virtual_server_edit.php, line: 333
 #, php-format
 msgid ""
 "This is the timeout in seconds for idle sessions. The default timeout is %s, "
 "the maximum is %s (%s years)."
 msgstr ""
+"アイドルセッションのタイムアウトを秒単位で設定します。デフォルトタイムアウトは %s で最大は %s です ( %s 年 )。"
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 299
 msgid ""
@@ -19246,10 +19230,9 @@ msgstr ""
 msgid "Add/edit - Virtual Server entry"
 msgstr "追加 / 編集 - 仮想サーバエントリ"
 
-#
 # File: /usr/plugins/net/relayd/src/www/load_balancer_virtual_server_edit.php, line: 106
 msgid "The session timeout must be a number greater than zero or left blank."
-msgstr ""
+msgstr "セッションタイムアウトは 0 以上の数値にするか、空白のままにしてください。"
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 89
 msgid "You cannot select a Fall Back Pool when using the DNS relay protocol."
@@ -19930,45 +19913,37 @@ msgstr "ダウン時間"
 msgid "Last Change"
 msgstr "最終変更"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 53
 msgid "The statistics could not be fetched. Is HAProxy running?"
-msgstr ""
+msgstr "統計を取得てきませんでした。HAProxy は動作していますか？"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 657
 msgid "Edit Error File"
-msgstr ""
+msgstr "エラーファイルを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 656
 msgid "Edit Lua Script"
-msgstr ""
+msgstr "Lua スクリプトを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 655
 msgid "Edit ACL"
-msgstr ""
+msgstr "ACL を編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 654
 msgid "Edit Action"
-msgstr ""
+msgstr "アクションを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 653
 msgid "Edit Health Check"
-msgstr ""
+msgstr "ヘルスチェックを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 652
 msgid "Edit Server"
-msgstr ""
+msgstr "サーバを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 651
 msgid "Edit Backend"
-msgstr ""
+msgstr "バックエンドを編集"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 619
 msgid "Error File ID"
@@ -20066,15 +20041,13 @@ msgstr "FTP プロキシ"
 msgid "Listen Address"
 msgstr "リスンアドレス"
 
-#
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 119
 msgid "Edit Proxy"
-msgstr ""
+msgstr "プロキシを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/controllers/OPNsense/HAProxy/StatisticsController.php, line: 40
 msgid "HAProxy Load Balancer / Statistics"
-msgstr ""
+msgstr "HAProxy ロードバランサ / 統計"
 
 # File: /usr/core/src/www/services_igmpproxy.php, line: 61
 msgid "Add a new IGMP entry"
