@@ -20230,90 +20230,73 @@ msgstr "PPPoE 生"
 msgid "Edit this IGMP entry"
 msgstr "この IGMP エントリを編集"
 
-#
 # File: /usr/plugins/net/quagga/src/etc/inc/plugins.inc.d/quagga.inc, line: 37
 msgid "Quagga is a deamon to add support of various routing protocols."
-msgstr ""
+msgstr "Quagga は様々なルーティングプロトコルのサポートを追加するデーモンです。"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/BgpController.php, line: 31
 msgid "BGP Settings"
-msgstr ""
+msgstr "BGP 設定"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/DiagnosticsController.php, line: 31
 msgid "Diagnostics: BGP"
-msgstr ""
+msgstr "診断: BGP"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/DiagnosticsController.php, line: 37
 msgid "Diagnostics: OSPF"
-msgstr ""
+msgstr "診断: OSPF"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/DiagnosticsController.php, line: 42
 msgid "Diagnostics: OSPFv3"
-msgstr ""
+msgstr "診断: OSPFv3"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/DiagnosticsController.php, line: 47
 msgid "Diagnostics: General"
-msgstr ""
+msgstr "診断: 全般"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/GeneralController.php, line: 34
 msgid "Routing-Settings"
-msgstr ""
+msgstr "ルーティング設定"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/IsisController.php, line: 34
 msgid "IS-IS-Settings"
-msgstr ""
+msgstr "IS-IS 設定"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/Ospf6Controller.php, line: 31
 msgid "OSPFv3 Settings"
-msgstr ""
+msgstr "OSPFv3 設定"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/OspfController.php, line: 34
 msgid "OSPF Settings"
-msgstr ""
+msgstr "OSPF 設定"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/RipController.php, line: 34
 msgid "RIP Settings"
-msgstr ""
+msgstr "RIP 設定"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 33
 msgid "Neighbors"
-msgstr ""
+msgstr "ネイバー"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 34
 msgid "AS Path Lists"
-msgstr ""
+msgstr "AS パスリスト"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 35
 msgid "Prefix Lists"
-msgstr ""
+msgstr "プレフィックスリスト"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 36
 msgid "Route Maps"
-msgstr ""
+msgstr "ルートマップ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 54
 msgid "Neighbor Address"
-msgstr ""
+msgstr "ネイバーアドレス"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 56
 msgid "Update Source Address"
-msgstr ""
+msgstr "送信元アドレスを更新"
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 57
