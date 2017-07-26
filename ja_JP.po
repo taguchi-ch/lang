@@ -20298,107 +20298,87 @@ msgstr "ネイバーアドレス"
 msgid "Update Source Address"
 msgstr "送信元アドレスを更新"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 57
 msgid "Next Hop Self"
-msgstr ""
+msgstr "next-hop-self"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 58
 msgid "Default Originate"
-msgstr ""
+msgstr "default-originate"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 59
 msgid "Prefix List inbound"
-msgstr ""
+msgstr "プレフィックスリスト内向き"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 60
 msgid "Prefix List outbound"
-msgstr ""
+msgstr "プレフィックスリスト外向き"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 61
 msgid "Route Map inbound"
-msgstr ""
+msgstr "ルートマップ内向き"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 62
 msgid "Route Map outbound"
-msgstr ""
+msgstr "ルートマップ外向き"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 87
 msgid "AS Number"
-msgstr ""
+msgstr "AS 番号"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 111
 msgid "Secquence Number"
-msgstr ""
+msgstr "シーケンス番号"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 139
 msgid "AS Path List"
-msgstr ""
+msgstr "AS パスリスト"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 223
 msgid "Edit Neighbor"
-msgstr ""
+msgstr "ネイバーを編集"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 224
 msgid "Edit AS Paths"
-msgstr ""
+msgstr "AS パスを編集"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 225
 msgid "Edit Prefix Lists"
-msgstr ""
+msgstr "プレフィックスリストを編集"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 226
 msgid "Edit Route Maps"
-msgstr ""
+msgstr "ルートマップを編集"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 38
 msgid "Table Version"
-msgstr ""
+msgstr "テーブルバージョン"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 42
 msgid "Local Router ID"
-msgstr ""
+msgstr "ローカルルータ ID"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 51
 msgid "Next Hop"
-msgstr ""
+msgstr "ネクストホップ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 53
 msgid "LocPrf"
-msgstr ""
+msgstr "Local Preference"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 105
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 387
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 275
 msgid "Summary"
-msgstr ""
+msgstr "サマリ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 110
 msgid "loading..."
-msgstr ""
+msgstr "ロードしています..."
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 34
 msgid "Code"
-msgstr ""
+msgstr "コード"
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 36
