@@ -20380,127 +20380,104 @@ msgstr "ロードしています..."
 msgid "Code"
 msgstr "コード"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 36
 msgid "Administrative Distance"
-msgstr ""
+msgstr "アドミニストレーティブディスタンス"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 64
 msgid "Kernel Route"
-msgstr ""
+msgstr "カーネルルート"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 65
 msgid "FIB Route"
-msgstr ""
+msgstr "FIB ルート"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 66
 msgid "Connected"
-msgstr ""
+msgstr "接続済"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 67
 msgid "Selected Route"
-msgstr ""
+msgstr "選択したルート"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 70
 msgid "BGP"
-msgstr ""
+msgstr "BGP"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 121
 msgid "IPv4 Routes"
-msgstr ""
+msgstr "IPv4 ルート"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 122
 msgid "IPv6 Routes"
-msgstr ""
+msgstr "IPv6 ルート"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 123
 msgid "Running Configuration"
-msgstr ""
+msgstr "動作中の構成"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 35
 msgid "RFC2328 Conform"
-msgstr ""
+msgstr "RFC2328 準拠"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 39
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 275
 msgid "ASBR"
-msgstr ""
+msgstr "ASBR"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 47
 msgid "RFC1583 Compatibility"
-msgstr ""
+msgstr "RFC1583 互換"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 51
 msgid "Opaque Capability"
-msgstr ""
+msgstr "opaque-capability"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 55
 msgid "Initial SPF Scheduling Delay"
-msgstr ""
+msgstr "初期 SPF スケジューリング遅延"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 59
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 53
 msgid "Minimum Hold Time"
-msgstr ""
+msgstr "最小ホールドタイム"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 60
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 64
 msgid "Milliseconds"
-msgstr ""
+msgstr "ミリ秒"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 63
 msgid "Maximum Hold Time"
-msgstr ""
+msgstr "最大ホールドタイム"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 67
 msgid "Current Hold Time Multipier"
-msgstr ""
+msgstr "現在のホールドタイム乗数 ( multiplier )"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 71
 msgid "SPF Timer"
-msgstr ""
+msgstr "SPF タイマー"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 75
 msgid "Refresh Timer"
-msgstr ""
+msgstr "リフレッシュタイマー"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 79
 msgid "Areas Attached Count"
-msgstr ""
+msgstr "エリア Attached Count"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 85
 msgid "Link State Area"
-msgstr ""
+msgstr "エリアリンクステート"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 91
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 140
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 171
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 199
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 223
 msgid "Checksum"
-msgstr ""
+msgstr "チェックサム"
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 96
