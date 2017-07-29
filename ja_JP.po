@@ -20479,67 +20479,55 @@ msgstr "エリアリンクステート"
 msgid "Checksum"
 msgstr "チェックサム"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 96
 msgid "External LSA"
-msgstr ""
+msgstr "外部 LSA"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 101
 msgid "Opaque AS LSA"
-msgstr ""
+msgstr "Opaque AS LSA"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 108
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 71
 msgid "Areas"
-msgstr ""
+msgstr "エリア"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 118
 msgid "Interfaces: Total"
-msgstr ""
+msgstr "インタフェース: 合計"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 122
 msgid "Interfaces: Active"
-msgstr ""
+msgstr "インタフェース: アクティブ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 126
 msgid "Fully Adjacent Neighbour Count"
-msgstr ""
+msgstr "完全なアジャセンシーネイバー数 (Neighbor)"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 130
 msgid "SPF Execution Count"
-msgstr ""
+msgstr "SPF 実行数"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 159
 msgid "Router ID:"
-msgstr ""
+msgstr "ルータ ID:"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 161
 msgid "Router Link State Area"
-msgstr ""
+msgstr "ルータリンクステートエリア"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 167
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 195
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 219
 msgid "Link ID"
-msgstr ""
+msgstr "リンク ID"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 168
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 196
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 220
 msgid "ADV Router"
-msgstr ""
+msgstr "ADV ルータ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 170
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 198
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 222
@@ -20547,360 +20535,296 @@ msgstr ""
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 166
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 195
 msgid "Sequence Number"
-msgstr ""
+msgstr "シーケンス番号"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 172
 msgid "Link Count"
-msgstr ""
+msgstr "リンク数"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 189
 msgid "Net Link State Area"
-msgstr ""
+msgstr "ネットリンクステートエリア"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 191
 msgid "Area:"
-msgstr ""
+msgstr "エリア: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 215
 msgid "External States"
-msgstr ""
+msgstr "外部ステート"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 243
 msgid "Network Routing Table"
-msgstr ""
+msgstr "ネットワークルーティングテーブル"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 251
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 276
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 301
 msgid "Via"
-msgstr ""
+msgstr "経由"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 252
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 277
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 302
 msgid "Via interface"
-msgstr ""
+msgstr "インタフェース経由"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 268
 msgid "Router Routing Table"
-msgstr ""
+msgstr "ルータルーティングテーブル"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 293
 msgid "External Routing Table"
-msgstr ""
+msgstr "外部ルーティングテーブル"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 323
 msgid "Neighbor ID"
-msgstr ""
+msgstr "ネイバー ID"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 326
 msgid "Dead Time"
-msgstr ""
+msgstr "Dead タイム"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 364
 msgid "Hello Interval:"
-msgstr ""
+msgstr "Hello 間隔: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 365
 msgid "Dead Interval:"
-msgstr ""
+msgstr "Dead 間隔: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 366
 msgid "Wait Interval:"
-msgstr ""
+msgstr "Wait 間隔: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 367
 msgid "Retransmit Interval:"
-msgstr ""
+msgstr "Retransmit 間隔: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 385
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 273
 msgid "Router"
-msgstr ""
+msgstr "ルータ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 388
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 276
 msgid "ASBR summary"
-msgstr ""
+msgstr "ASBR サマリ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 389
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 277
 msgid "NSSA"
-msgstr ""
+msgstr "NSSA"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 390
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 278
 msgid "Directly Attached"
-msgstr ""
+msgstr "直接添付"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 391
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 279
 msgid "Full (Designated Router)"
-msgstr ""
+msgstr "Full ( 指名ルータ )"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 398
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 286
 msgid "Transmit Delay"
-msgstr ""
+msgstr "送信遅延"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 400
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 288
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 310
 msgid "Broadcast"
-msgstr ""
+msgstr "ブロードキャスト"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 401
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 289
 msgid "MTU Mismatch Detection"
-msgstr ""
+msgstr "MTU 不一致検出"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 403
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 291
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 308
 msgid "Designated Router"
-msgstr ""
+msgstr "代表ルータ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 404
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 292
 msgid "Designated Router Interface Address"
-msgstr ""
+msgstr "代表ルータインタフェースアドレス"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 405
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 293
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 309
 msgid "Backup Designated Router"
-msgstr ""
+msgstr "バックアップ代表ルータ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 406
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 294
 msgid "Multicast Group Memberships"
-msgstr ""
+msgstr "マルチキャストグループメンバシップ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 407
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 295
 msgid "Intervals"
-msgstr ""
+msgstr "間隔"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 408
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 296
 msgid "Hello Due In"
-msgstr ""
+msgstr "Hello 予定時間"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 409
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 297
 msgid "Neighbor Count"
-msgstr ""
+msgstr "ネイバー数"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 410
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 298
 msgid "Adjacent Neighbor Count"
-msgstr ""
+msgstr "アジャセンシーネイバー数"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 468
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 369
 msgid "Database"
-msgstr ""
+msgstr "データベース"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 469
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 370
 msgid "Neighbor"
-msgstr ""
+msgstr "ネイバー"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 39
 msgid "Routing Process"
-msgstr ""
+msgstr "ルーティングプロセス"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 43
 msgid "Running Time"
-msgstr ""
+msgstr "実行時間"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 47
 msgid "Initial SPF scheduling delay"
-msgstr ""
+msgstr "初期 SPF スケジューリング遅延"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 51
 msgid "Hold Time"
-msgstr ""
+msgstr "ホールドタイム"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 54
 msgid "Maximum Hold Time:"
-msgstr ""
+msgstr "最大ホールドタイム: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 58
 msgid "SPF timer"
-msgstr ""
+msgstr "SPF タイマー"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 62
 msgid "Number Of Scoped AS"
-msgstr ""
+msgstr "AS スコープの数"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 66
 msgid "Number Of Areas"
-msgstr ""
+msgstr "エリアの数"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 80
 msgid "Number Of LSAs"
-msgstr ""
+msgstr "LSA の数"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 97
 msgid "Flags 1"
-msgstr ""
+msgstr "フラグ 1"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 98
 msgid "Flags 2"
-msgstr ""
+msgstr "フラグ　2"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 122
 msgid "Scoped Link Database"
-msgstr ""
+msgstr "リンクデータベーススコープ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 130
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 163
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 192
 msgid "LS ID"
-msgstr ""
+msgstr "LS ID"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 131
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 164
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 193
 msgid "Advertising Router"
-msgstr ""
+msgstr "広告ルータ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 134
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 167
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 196
 msgid "Payload"
-msgstr ""
+msgstr "ペイロード"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 153
 msgid "Interface Scoped Link Database"
-msgstr ""
+msgstr "インタフェースリンクデータベーススコープ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 187
 msgid "AS Scpoed"
-msgstr ""
+msgstr "スコープ AS"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 229
 msgid "Hello Timer:"
-msgstr ""
+msgstr "Hello タイマー: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 230
 msgid "Dead Timer:"
-msgstr ""
+msgstr "Dead タイマー: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 231
 msgid "Wait Timer:"
-msgstr ""
+msgstr "Wait タイマー: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 232
 msgid "Retransmit Timer:"
-msgstr ""
+msgstr "Retransmit タイマー: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 299
 msgid "Timers"
-msgstr ""
+msgstr "タイマー"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 300
 msgid "Number Of Interface Scoped LSAs"
-msgstr ""
+msgstr "インタフェース LSA スコープの数"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 301
 msgid "Pending LSAs"
-msgstr ""
+msgstr "保留 LSA"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 302
 msgid "Area Cost"
-msgstr ""
+msgstr "エリアコスト"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 303
 msgid "Instance ID"
-msgstr ""
+msgstr "インスタンス ID"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 307
 msgid "Up"
-msgstr ""
+msgstr "アップ"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 312
 msgid "Point to Point"
-msgstr ""
+msgstr "ポイントツーポイント"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 313
 msgid "Loopback"
-msgstr ""
+msgstr "ループバック"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 81
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf6.volt, line: 54
 msgid "Interface Name"
-msgstr ""
+msgstr "インタフェース名"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 151
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf6.volt, line: 113
 msgid "Edit Interface"
-msgstr ""
+msgstr "インタフェースを編集"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 233
 msgid "Backend/Frontend"
@@ -21047,10 +20971,9 @@ msgstr "WAN アドレスを上書き"
 msgid "Log NAT-PMP"
 msgstr "NAT-PMP をログに記録"
 
-#
 # File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 279
 msgid "Log packets handled by UPnP and NAT-PMP rules?"
-msgstr ""
+msgstr "UPnP 及び NAT-PMP ルールで取り扱うパケットをログに記録しますか？"
 
 # File: /usr/core/src/www/services_upnp.php, line: 282
 msgid "Use system time"
@@ -21113,10 +21036,9 @@ msgstr "Int. ポート"
 msgid "all currently connected sessions"
 msgstr "現在接続している全てのセッション"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 650
 msgid "Edit Frontend"
-msgstr ""
+msgstr "フロントエンドを編集"
 
 msgid "SNMP Service"
 msgstr "SNMP サービス"
@@ -21341,24 +21263,21 @@ msgstr "( オプション ) ユーザ資格情報"
 msgid "API URL"
 msgstr "API URL"
 
-#
 # File: /usr/lang/src/controllers.php, line: 42
 msgid "AS"
-msgstr ""
+msgstr "AS"
 
-#
 # File: /usr/lang/src/controllers.php, line: 43
 msgid "AS-Path List"
-msgstr ""
+msgstr "AS パスリスト"
 
 # File: /usr/lang/src/controllers.php, line: 42
 msgid "AWS ID"
 msgstr "AWS ID"
 
-#
 # File: /usr/lang/src/controllers.php, line: 45
 msgid "AWS Route53"
-msgstr ""
+msgstr "AWS Route53"
 
 # File: /usr/lang/src/controllers.php, line: 43
 msgid "AWS Secret"
@@ -21368,10 +21287,9 @@ msgstr "AWS 秘密鍵"
 msgid "Access Control List"
 msgstr "アクセスコントロールリスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 48
 msgid "According to the service type path can be a file or a directory."
-msgstr ""
+msgstr "サービスタイプによってパスはファイルもしくはディレクトリにできます。"
 
 msgid "Action"
 msgstr "動作"
@@ -21383,15 +21301,13 @@ msgstr "動作"
 msgid "Actions (ACLs)"
 msgstr "動作 (ACL)"
 
-#
 # File: /usr/lang/src/controllers.php, line: 52
 msgid "Active Check Refresh"
-msgstr ""
+msgstr "アクティブチェック更新"
 
-#
 # File: /usr/lang/src/controllers.php, line: 53
 msgid "Active Check Servers"
-msgstr ""
+msgstr "アクティブチェックサーバ"
 
 # File: /usr/lang/src/controllers.php, line: 48
 msgid "Active Directory Domain Controller"
@@ -21463,11 +21379,10 @@ msgstr "詳細オプション"
 msgid "Advanced settings"
 msgstr "詳細設定"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 309
 # File: /usr/lang/src/controllers.php, line: 69
 msgid "Advertise Default Gateway"
-msgstr ""
+msgstr "デフォルトゲートウェイを広告"
 
 # File: /usr/lang/src/controllers.php, line: 62
 msgid "Agent port"
@@ -21517,15 +21432,13 @@ msgstr "許可済送信先 TCP ポート"
 msgid "Alt Names"
 msgstr "代替名"
 
-#
 # File: /usr/lang/src/controllers.php, line: 81
 msgid "Always Advertise Default Gateway"
-msgstr ""
+msgstr "常にデフォルトゲートウェイを広告"
 
-#
 # File: /usr/lang/src/controllers.php, line: 82
 msgid "Alwaysdata"
-msgstr ""
+msgstr "alwaysdata"
 
 # File: /usr/lang/src/controllers.php, line: 73
 msgid "Application Key"
@@ -21535,7 +21448,6 @@ msgstr "アプリケーション鍵"
 msgid "Application Secret"
 msgstr "アプリケーション秘密鍵"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 250
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 274
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 397
@@ -21544,21 +21456,19 @@ msgstr "アプリケーション秘密鍵"
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf6.volt, line: 55
 # File: /usr/lang/src/controllers.php, line: 85
 msgid "Area"
-msgstr ""
+msgstr "エリア"
 
-#
 # File: /usr/lang/src/controllers.php, line: 86
 msgid "Area in wildcard mask style like 0.0.0.0 and no decimal 0"
-msgstr ""
+msgstr "ワイルドカードマスク形式のエリア ( 0.0.0.0 のような形式で 10 進数の 0 ではない )"
 
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Authenticate using"
 msgstr "使用している認証"
 
-#
 # File: /usr/lang/src/controllers.php, line: 88
 msgid "Authentication Key"
-msgstr ""
+msgstr "認証鍵"
 
 # File: /usr/lang/src/controllers.php, line: 73
 msgid "Authentication Prompt"
