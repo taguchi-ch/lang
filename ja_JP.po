@@ -21496,13 +21496,15 @@ msgstr "認証プロセス"
 msgid "Auto Renewal"
 msgstr "自動更新"
 
-#
 # File: /usr/lang/src/controllers.php, line: 96
 msgid ""
 "Automatically inject config into the local HAProxy instance to let it serve "
 "acme challanges without service interruption. Of course, adding the "
 "configuration requires a short restart of the HAProxy service."
 msgstr ""
+"ローカル HAProxy インスタンスに自動的に構成を導入すると、サービスを中断せずに ACME チャレンジを"
+"提供することができます。"
+"もちろん、構成を追加することで HAProxy サービスを短時間再起動する必要があります。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 104
 msgid "Avoid authentication for addresses and subnets in this list"
@@ -21512,15 +21514,13 @@ msgstr "このリストのアドレスとサブネットの認証を除外"
 msgid "Avoid authentication for physical addresses in this list"
 msgstr "このリストの物理アドレスの認証を除外"
 
-#
 # File: /usr/lang/src/controllers.php, line: 99
 msgid "BGP AS Number"
-msgstr ""
+msgstr "BGP AS 番号"
 
-#
 # File: /usr/lang/src/controllers.php, line: 100
 msgid "BGP Neighbor"
-msgstr ""
+msgstr "BGP ネイバー"
 
 # File: /usr/lang/src/controllers.php, line: 79
 msgid "Balancing Algorithm"
@@ -21550,15 +21550,13 @@ msgstr "この FTP プロキシの簡単な説明"
 msgid "Buffer size"
 msgstr "バッファサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 108
 msgid "BufferSend"
-msgstr ""
+msgstr "バッファ送信"
 
-#
 # File: /usr/lang/src/controllers.php, line: 109
 msgid "BufferSize"
-msgstr ""
+msgstr "バッファサイズ"
 
 # File: /usr/lang/src/controllers.php, line: 86
 msgid "CA to use"
@@ -21600,10 +21598,9 @@ msgstr "認証局"
 msgid "Certificates"
 msgstr "証明書"
 
-#
 # File: /usr/lang/src/controllers.php, line: 119
 msgid "Challenge Type"
-msgstr ""
+msgstr "チャレンジタイプ"
 
 # File: /usr/lang/src/controllers.php, line: 43
 msgid ""
@@ -21678,7 +21675,6 @@ msgid ""
 msgstr ""
 "24 標準 syslog 機能の 1 つを選択してください。デフォルト値は local0 です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 134
 msgid ""
 "Choose the actions that should be run after certificate renewal. Basically "
@@ -21686,19 +21682,22 @@ msgid ""
 "certificate. If you don't configure a restart action, the in-memory "
 "certificate may expire and cause security warnings and other issues."
 msgstr ""
+"証明書更新後に実行させるアクションを選択してください。基本的には、全てのアプシケーションは更新された証明書を"
+"リロードするのに迅速な再起動が必要です。再起動アクションを構成しない場合は、"
+"インメモリ証明書は有効期限切れとなり、セキュリティ渓谷とその他の問題を引き起こすことになる可能性があります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 135
 msgid ""
 "Choose the local HAProxy frontends. They will automatically be configured to "
 "redirect acme challenges to the internal acme client. The HAProxy service "
 "will automatically be restarted if a certificate was renewed."
 msgstr ""
+"ローカル HAProxy フロントエンドを選択してください。ACME チャレンジを内部の ACME クライアントに"
+"リダイレクトするよう自動的に構成されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 136
 msgid "Choose your RIP version (1 or 2). 1 is classful, 2 supports CIDR."
-msgstr ""
+msgstr "RIP バージョン ( 1、2 ) を選択してください。1 はクラスフル、2 は CIDR をサポートしています。"
 
 # File: /usr/lang/src/controllers.php, line: 104
 msgid "Cipher"
@@ -21730,15 +21729,13 @@ msgstr ""
 "即時再接続は可能です。ハードタイムアウトを無効にする場合は 0 を入力してくださ"
 "い ( アイドルタイムアウトが設定されている場合を除き、非推奨 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 142
 msgid "CloudXNS"
-msgstr ""
+msgstr "CloudXNS"
 
-#
 # File: /usr/lang/src/controllers.php, line: 143
 msgid "Cloudflare"
-msgstr ""
+msgstr "Cloudflare"
 
 # File: /usr/lang/src/controllers.php, line: 109
 msgid ""
@@ -21748,10 +21745,9 @@ msgstr ""
 "このファイアウォールで分析に使用する NetFlow データを収集します。ローカル"
 "キャッシュには最新 100MB のデータのみが保持されますので注意してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 145
 msgid "Comma separated list of SMTP servers for alert delivery."
-msgstr ""
+msgstr "コンマ区切りのアラート配信用 SMTP サーバリストです。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 132
 msgid "Command"
@@ -21765,11 +21761,10 @@ msgstr "式を構成"
 msgid "Concurrent user logins"
 msgstr "同時ユーザログイン"
 
-#
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 317
 # File: /usr/lang/src/controllers.php, line: 149
 msgid "Condition"
-msgstr ""
+msgstr "条件"
 
 # File: /usr/lang/src/controllers.php, line: 113
 msgid "Conditional parameters"
@@ -21836,7 +21831,6 @@ msgstr ""
 "スティックテーブルで使用する Cookie 名 ( 適切なテーブルタイプが選択されている"
 "場合 )。"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 249
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 273
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 299
@@ -21844,7 +21838,7 @@ msgstr ""
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 281
 # File: /usr/lang/src/controllers.php, line: 162
 msgid "Cost"
-msgstr ""
+msgstr "コスト"
 
 # File: /usr/lang/src/controllers.php, line: 59
 msgid "Countries to alert or block using GeoIP."
@@ -21878,15 +21872,13 @@ msgstr "DNS サービス"
 msgid "DNS-01"
 msgstr "DNS-01"
 
-#
 # File: /usr/lang/src/controllers.php, line: 171
 msgid "DNSMadeEasy"
-msgstr ""
+msgstr "DNS Made Easy"
 
-#
 # File: /usr/lang/src/controllers.php, line: 172
 msgid "DNSPod"
-msgstr ""
+msgstr "DNSPod"
 
 # File: /usr/lang/src/controllers.php, line: 129
 msgid "Day of the month"
@@ -21896,19 +21888,17 @@ msgstr "月の日付"
 msgid "Days of the week"
 msgstr "週の日数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 175
 msgid "Dead Interval"
-msgstr ""
+msgstr "Dead 間隔"
 
 # File: /usr/lang/src/controllers.php, line: 131
 msgid "Debug"
 msgstr "デバッグ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 177
 msgid "Debug Level"
-msgstr ""
+msgstr "デバッグレベル"
 
 # File: /usr/lang/src/controllers.php, line: 132
 msgid "Debug level"
