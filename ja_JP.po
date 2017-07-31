@@ -22478,12 +22478,12 @@ msgstr ""
 "ジョブの動作期間を週の曜日で入力してください。カンマ区切りリスト、* (毎日)、"
 "範囲 ( 例: 1,2,3 や 1-3 ) も使用できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 304
 msgid ""
 "Enter the directory location for the local cache (default is /var/squid/"
 "cache)."
 msgstr ""
+"ローカルキャッシュのディレクトリの位置を入力してください。( デフォルトは /var/squid/cache )"
 
 # File: lang/dynamic/helpers/controllers.php, line: 87
 msgid ""
@@ -22564,10 +22564,9 @@ msgstr "REQMOD リクエストが送信される URL を入力してください
 msgid "Enter the url where the RESPMOD requests should be sent to."
 msgstr "RESPMOD リクエストが送信される URL を入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 318
 msgid "Enter your networks in CIDR notation like 127.0.0.0/8."
-msgstr ""
+msgstr "あなたのネットワークを 127.0.0.0/8 のような CIDR 表記で入力してください。"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 351
 # File: /usr/lang/src/models.php, line: 88
@@ -22582,11 +22581,10 @@ msgstr "エラーコード"
 msgid "Error files"
 msgstr "エラーファイル"
 
-#
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 270
 # File: /usr/lang/src/controllers.php, line: 322
 msgid "Events"
-msgstr ""
+msgstr "イベント"
 
 # File: /usr/lang/src/controllers.php, line: 237
 msgid "Expiration time"
@@ -22686,23 +22684,22 @@ msgstr "HTTPS トラフィックを透過プロキシに転送"
 msgid "Forward Proxy"
 msgstr "フォワードプロキシ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 344
 msgid ""
 "Free text field for your set, please be careful! You can set e.g. \"local-"
 "prefernce 300\" or \"community 1:1\" (http://www.nongnu.org/quagga/docs/docs-"
 "multi/Route-Map-Set-Command.html#Route-Map-Set-Command)"
 msgstr ""
+"あなたの設定に使用するフリーテキストフィールドです。注意してください！設定可能な例: 「local-prefernce 300」"
+"、「community 1:1」(http://www.nongnu.org/quagga/docs/docs-multi/Route-Map-Set-Command.html#Route-Map-Set-Command)"
 
-#
 # File: /usr/lang/src/controllers.php, line: 345
 msgid "FreeDNS"
-msgstr ""
+msgstr "FreeDNS"
 
-#
 # File: /usr/lang/src/controllers.php, line: 346
 msgid "Gandi LiveDNS"
-msgstr ""
+msgstr "Gandi LiveDNS"
 
 # File: /usr/lang/src/controllers.php, line: 305
 msgid "General Forward Settings"
@@ -22728,10 +22725,9 @@ msgstr "GeoIP / 方向"
 msgid "Global Parameters"
 msgstr "グローバルパラメータ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 353
 msgid "GoDaddy"
-msgstr ""
+msgstr "GoDaddy"
 
 # File: /usr/lang/src/controllers.php, line: 124
 msgid ""
@@ -22751,15 +22747,13 @@ msgstr "グループ ID"
 msgid "HAProxy"
 msgstr "HAProxy"
 
-#
 # File: /usr/lang/src/controllers.php, line: 357
 msgid "HAProxy Frontends"
-msgstr ""
+msgstr "HAProxy フロントエンド"
 
-#
 # File: /usr/lang/src/controllers.php, line: 358
 msgid "HAProxy Integration"
-msgstr ""
+msgstr "HAProxy インテグレーション"
 
 # File: /usr/lang/src/controllers.php, line: 259
 msgid "HAProxy processes"
@@ -22805,10 +22799,9 @@ msgstr "ヘルスチェック"
 msgid "Health check buffer size"
 msgstr "ヘルスチェックバッファサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 370
 msgid "Hello Interval"
-msgstr ""
+msgstr "Hello 間隔"
 
 msgid "Hostname"
 msgstr "ホスト名"
@@ -22829,10 +22822,9 @@ msgstr ""
 msgid "Hours"
 msgstr "時間"
 
-#
 # File: /usr/lang/src/controllers.php, line: 374
 msgid "How often list of active checks is refreshed, in seconds."
-msgstr ""
+msgstr "アクティブチェックのリストの更新頻度、秒単位です。"
 
 # File: /usr/lang/src/controllers.php, line: 328
 msgid "ICAP Settings"
@@ -22857,10 +22849,9 @@ msgstr "IP オートディスカバリ"
 msgid "IPS mode"
 msgstr "IPS モード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 381
 msgid "IPSConfig"
-msgstr ""
+msgstr "IPSConfig"
 
 msgid "Idle timeout"
 msgstr "アイドルタイムアウト"
@@ -22966,35 +22957,33 @@ msgstr "パケットを落とす前の間隔 ( ms 単位 )、空白はデフォ�
 msgid "Key"
 msgstr "鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 400
 msgid "LE Account"
-msgstr ""
+msgstr "LE アカウント"
 
 # File: /usr/lang/src/controllers.php, line: 352
 msgid "Let's Encrypt Environment"
 msgstr "Let's Encrypt 環境"
 
-#
 # File: /usr/lang/src/controllers.php, line: 402
 msgid "Linode"
-msgstr ""
+msgstr "Linode"
 
-#
 # File: /usr/lang/src/controllers.php, line: 403
 msgid ""
 "List of IP addresses (or hostnames) of Zabbix servers. Incoming connections "
 "will be accepted only from the hosts listed here."
 msgstr ""
+"Zabbix サーバの IP アドレス ( もしくはホスト名 ) のリスト。着信接続はここにリストされているホストからのみ受信されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 404
 msgid ""
 "List of IP addresses that the agent should listen on. First IP address is "
 "sent to Zabbix server if connecting to it to retrieve list of active checks."
 msgstr ""
+"エージェントがリスンすべき IP アドレスのリスト。"
+"アクティブチェックのリストを回復するために接続する場合は、最初の IP アドレスが Zabbix サーバに送信されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 405
 msgid ""
 "List of IP:port (or hostname:port) pairs of Zabbix servers for active "
@@ -23004,20 +22993,24 @@ msgid ""
 "parameter is not specified, active checks are disabled. Example: "
 "ServerActive=127.0.0.1:20051,zabbix.domain,[::1]:30051,::1,[12fc::1]"
 msgstr ""
+"アクティブチェック用 Zabbix サーバ の IP:port ( もしくは hostname:port ) をペアにしたリスト。"
+"ポートが指定されていない場合は、デフォルトポートが使用されます。"
+"そのホストのポートが指定されている場合は IPv6 アドレスを角括弧で括ってください"
+"ポートが指定されていない場合は、IPv6 アドレスを角括弧で括るかどうかはオプションです。"
+"このパラメータが指定されていない場合は、アクティブチェックは無効になります。"
+"例: ServerActive=127.0.0.1:20051,zabbix.domain,[::1]:30051,::1,[12fc::1]"
 
-#
 # File: /usr/lang/src/controllers.php, line: 406
 msgid "List with events. Leave it empty for all events."
-msgstr ""
+msgstr "イベントのリスト。全てのイベントの場合は空白にしてください。"
 
 # File: /usr/lang/src/controllers.php, line: 289
 msgid "Listen Addresses"
 msgstr "リスンアドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 408
 msgid "Listen IPs"
-msgstr ""
+msgstr "リスン IP"
 
 msgid "Listen Port"
 msgstr "リスンポート"
@@ -23042,24 +23035,21 @@ msgstr "ローカル HTTP ポート"
 msgid "Local stats TCP port"
 msgstr "ローカル統計 TCP ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 415
 msgid "Log File Size"
-msgstr ""
+msgstr "ログファイルサイズ"
 
 # File: /usr/lang/src/controllers.php, line: 293
 msgid "Log Host"
 msgstr "ログ収集ホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 417
 msgid "Log Remote Commands"
-msgstr ""
+msgstr "リモートコマンドをログに記録"
 
-#
 # File: /usr/lang/src/controllers.php, line: 418
 msgid "Log SNI information only"
-msgstr ""
+msgstr "SNI 情報のみをログに記録"
 
 # File: /usr/lang/src/controllers.php, line: 294
 msgid "Log Status Changes"
@@ -23085,41 +23075,34 @@ msgstr "ロギングオプション"
 msgid "Logical operator (for ACLs)"
 msgstr "論理演算子 ( ACL 用 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 425
 msgid "LuaDNS"
-msgstr ""
+msgstr "LuaDNS"
 
-#
 # File: /usr/lang/src/controllers.php, line: 426
 msgid "Mail Server"
-msgstr ""
+msgstr "メールサーバ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 427
 msgid "Mail Server Port"
-msgstr ""
+msgstr "メールサーバポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 428
 msgid "Mail format"
-msgstr ""
+msgstr "メールフォーマット"
 
-#
 # File: /usr/lang/src/controllers.php, line: 429
 # File: /usr/lang/src/models.php, line: 154
 msgid "Main Settings"
-msgstr ""
+msgstr "メイン設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 430
 msgid "Make sure the script is executable by the Monit service."
-msgstr ""
+msgstr "Monit サービスでそのスクリプトが実行可能か確認してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 431
 msgid "Match"
-msgstr ""
+msgstr "一致"
 
 # File: /usr/lang/src/controllers.php, line: 366
 msgid "Match pattern"
@@ -23141,10 +23124,9 @@ msgstr "最大接続"
 msgid "Max. line length"
 msgstr "行の最大長"
 
-#
 # File: /usr/lang/src/controllers.php, line: 437
 msgid "MaxLinesPerSecond"
-msgstr ""
+msgstr "秒毎の最大行"
 
 # File: /usr/lang/src/controllers.php, line: 302
 msgid "Maximum RAM per LUA process"
