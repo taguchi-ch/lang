@@ -21975,10 +21975,9 @@ msgstr "このエラーファイルの説明。"
 msgid "Description for this frontend."
 msgstr "このフロントエンドの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 196
 msgid "Description for this restart action."
-msgstr ""
+msgstr "この再起動アクションの説明。"
 
 # File: /usr/lang/src/controllers.php, line: 67
 msgid "Description for this server."
@@ -22016,20 +22015,17 @@ msgstr "詳細なログ"
 msgid "Disable SSL Verification"
 msgstr "SSL 検証を無効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 206
 msgid "Do not keep data longer than N seconds in buffer."
-msgstr ""
+msgstr "バッファに N 秒よりも長くデータを保持してはいけません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 207
 msgid "Do not send alerts for the following events but on all others."
-msgstr ""
+msgstr "次のイベントにアラートを送信してはいけませんが、他の全てのものには送信します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 208
 msgid "Domain-Offensive"
-msgstr ""
+msgstr "Domain-Offensive"
 
 # File: /usr/lang/src/controllers.php, line: 155
 msgid "Don't log normal"
@@ -22076,20 +22072,17 @@ msgstr "メール ( 宛先 )"
 msgid "Enable"
 msgstr "有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 219
 msgid "Enable / Disable"
-msgstr ""
+msgstr "有効 / 無効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 220
 msgid "Enable Active Checks"
-msgstr ""
+msgstr "アクティブチェックを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 221
 msgid "Enable Auto-Configuration"
-msgstr ""
+msgstr "自動構成を有効"
 
 # File: /usr/lang/src/controllers.php, line: 161
 msgid "Enable CoDel"
@@ -22115,10 +22108,9 @@ msgstr "HAProxy 統計ページを有効にします。"
 msgid "Enable ICAP"
 msgstr "ICAP を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 228
 msgid "Enable Let's Encrypt plugin."
-msgstr ""
+msgstr "Let's Encrypt プラグインを有効"
 
 # File: /usr/lang/src/controllers.php, line: 205
 msgid "Enable Plugin"
@@ -22128,15 +22120,13 @@ msgstr "プラグインを有効"
 msgid "Enable Preview"
 msgstr "プレビューを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 231
 msgid "Enable Remote Commands"
-msgstr ""
+msgstr "リモートコマンドを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 232
 msgid "Enable SSL inspection"
-msgstr ""
+msgstr "SSL インスペクションを有効"
 
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Enable SSL offloading"
@@ -22150,10 +22140,9 @@ msgstr "透過 HTTP プロキシを有効"
 msgid "Enable Transparent mode"
 msgstr "透過モードを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 236
 msgid "Enable Zabbix Agent service."
-msgstr ""
+msgstr "Zabbix エージェントサービスを有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 172
 msgid "Enable access logging"
@@ -22162,21 +22151,18 @@ msgstr "アクセスログを有効"
 msgid "Enable access logging."
 msgstr "アクセスログを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 239
 msgid "Enable active checks."
-msgstr ""
+msgstr "アクティブチェックを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 240
 msgid "Enable alert"
-msgstr ""
+msgstr "アラートを有効"
 
 # File: /usr/lang/src/controllers.php, line: 174
 msgid "Enable authentication"
 msgstr "認証を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 242
 msgid ""
 "Enable automatic renewal for certificates to prevent expiration. This will "
@@ -22184,15 +22170,17 @@ msgid ""
 "to your needs, because re-issueing a certificate may lead to a short "
 "downtime, depending on the selected validation method and service."
 msgstr ""
+"期限切れを防ぐために証明書の自動更新を有効にします。これはシステムに cron ジョブを追加します。"
+"cron ジョブのスケジュールを必要に応じてカスタマイズしたいかもしれません。"
+"再発行された証明書は選択した検証メソッドとサービスに応じて短時間のダウンタイムを発生させるからです。"
 
 # File: /usr/lang/src/controllers.php, line: 215
 msgid "Enable automatic renewal for this certificate to prevent expiration."
 msgstr "この証明書の期限切れを防ぐために自動更新を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 244
 msgid "Enable encryption."
-msgstr ""
+msgstr "暗号化を有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 74
 msgid ""
@@ -22208,26 +22196,25 @@ msgstr "侵入検知システムを有効にします。"
 msgid "Enable local cache (requires service restart)"
 msgstr "ローカルキャッシュを有効 ( サービスの再起動が必要です )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 248
 msgid ""
 "Enable logging of executed shell commands as warnings. Make sure to set the "
 "Debug Level accordingly."
 msgstr ""
+"実行されたシェルコマンドを警告としてログに記録することを有効にします。"
+"適切なデバッグレベルに設定されているか確認してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 249
 msgid "Enable monit"
-msgstr ""
+msgstr "monit を有効"
 
 # File: /usr/lang/src/controllers.php, line: 76
 msgid "Enable or disable SSL communication with this server."
 msgstr "このサーバとの SSL 通信を有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 251
 msgid "Enable or disable alert."
-msgstr ""
+msgstr "アラートを有効もしくは無効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 77
 msgid ""
@@ -22246,15 +22233,13 @@ msgstr "データのない接続のログを有効もしくは無効にします
 msgid "Enable or disable logging of normal, successful connections."
 msgstr "通常の正常な接続のログを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 256
 msgid "Enable or disable monit."
-msgstr ""
+msgstr "monit を有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 257
 msgid "Enable or disable service checks."
-msgstr ""
+msgstr "サービスチェックを有効もしくは無効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 81
 msgid "Enable or disable session redistribution in case of connection failure."
@@ -22313,10 +22298,9 @@ msgstr "リモートアクセスを有効"
 msgid "Enable ruleset"
 msgstr "ルールセットを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 269
 msgid "Enable service checks"
-msgstr ""
+msgstr "サービスチェックを有効"
 
 # File: /usr/lang/src/controllers.php, line: 193
 msgid "Enable store logging"
@@ -22369,10 +22353,9 @@ msgstr "このフロントエンドを有効"
 msgid "Enable this network"
 msgstr "このネットワークを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 282
 msgid "Enable this restart action."
-msgstr ""
+msgstr "この再起動アクションを有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 247
 msgid "Enable this validation"
@@ -22411,10 +22394,9 @@ msgstr "ユーザ名をエンコード"
 msgid "Endpoint"
 msgstr "エンドポイント"
 
-#
 # File: /usr/lang/src/controllers.php, line: 291
 msgid "Enforce local group"
-msgstr ""
+msgstr "ローカルグループを強制"
 
 # File: lang/dynamic/helpers/controllers.php, line: 67
 msgid "Enter a description to explain what this blacklist is intended for."
