@@ -23154,30 +23154,32 @@ msgstr ""
 "れます。デフォルトは 100 セッションです。この制限値の最低は 1 で最大 500 まで"
 "上げることができます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 443
 msgid ""
 "Maximum number of new lines the agent will send per second to Zabbix Server "
 "or Proxy processing 'log' and 'logrt' active checks."
 msgstr ""
+"Zabbix サーバもしくはプロキシの「log」及び「logrt」アクティブチェックプロセスに、"
+"エージェントが 1 秒毎に送信する新規行の最大数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 444
 msgid ""
 "Maximum number of values in a memory buffer. The agent will send all "
 "collected data to Zabbix Server or Proxy if the buffer is full."
 msgstr ""
+"メモリバッファ値の最大数。エージェントはバッファが一杯になると"
+"収集した全てのデータを Zabbix サーバもしくはプロキシに送信します。"
 
 # File: /usr/lang/src/controllers.php, line: 307
 msgid "Maximum object size (MB)"
 msgstr "最大オブジェクトサイズ ( MB )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 446
 msgid ""
 "Maximum size of log file in MB. Zabbix Agent will automatically rotate the "
 "log once this limit is reached."
 msgstr ""
+"ログファイルの MB 単位の最大数。Zabbix エージェントは一旦この限界に到達すると自動的にログをローテートします。"
 
 # File: /usr/lang/src/controllers.php, line: 308
 msgid "Maximum upload size (kB)"
@@ -23267,10 +23269,9 @@ msgstr "このエラーファイルを識別する名前です。"
 msgid "Name to identify this frontend."
 msgstr "このフロントエンドを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 466
 msgid "Name to identify this restart action."
-msgstr ""
+msgstr "この再起動アクションを識別する名前です。"
 
 # File: /usr/lang/src/controllers.php, line: 143
 msgid "Name to identify this server."
@@ -23292,50 +23293,44 @@ msgstr "名前 / 識別子"
 msgid "Negate condition"
 msgstr "否定条件"
 
-#
 # File: /usr/lang/src/controllers.php, line: 472
 msgid "Neighbor AS."
-msgstr ""
+msgstr "ネイバー AS です。"
 
 msgid "Network"
 msgstr "ネットワーク"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 54
 # File: /usr/lang/src/controllers.php, line: 474
 msgid "Network Address"
-msgstr ""
+msgstr "ネットワーク・アドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 475
 msgid "Network Mask"
-msgstr ""
+msgstr "ネットワークマスク"
 
 # File: /usr/lang/src/controllers.php, line: 330
 msgid "Network Name"
 msgstr "ネットワーク名"
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 396
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 284
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 82
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf6.volt, line: 56
 # File: /usr/lang/src/controllers.php, line: 477
 msgid "Network Type"
-msgstr ""
+msgstr "ネットワークタイプ"
 
 msgid "Networks"
 msgstr "ネットワーク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 479
 msgid "Next-Hop-Self"
-msgstr ""
+msgstr "next-hop-self"
 
-#
 # File: /usr/lang/src/controllers.php, line: 480
 msgid "Not on"
-msgstr ""
+msgstr "Not on"
 
 msgid "Number"
 msgstr "数"
@@ -23348,13 +23343,14 @@ msgstr "ファーストレベルサブディレクトリの数"
 msgid "Number of logs to keep."
 msgstr "保持するログの数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 484
 msgid ""
 "Number of pre-forked instances of zabbix_agentd that process passive checks. "
 "If set to 0, disables passive checks and the agent will not listen on any "
 "TCP port."
 msgstr ""
+"プロセスパッシブチェックをする zabbix_agentd のプレフォークされたインスタンスの数。"
+"0 を設定した場合パッシブチェックは無効になり、エージェントはどの TCP ポートもリスンしません。"
 
 # File: /usr/lang/src/controllers.php, line: 334
 msgid "Number of second-level subdirectories"
@@ -23371,20 +23367,17 @@ msgstr ""
 "これがデフォルトです。あまり低い値を設定しないようにしてください。通常、制御"
 "接続はサイズが大きいデータ転送が行われている時はアイドル状態だからです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 487
 msgid "OPNsense"
-msgstr ""
+msgstr "OPNsense"
 
-#
 # File: /usr/lang/src/controllers.php, line: 488
 msgid "OVH"
-msgstr ""
+msgstr "OVH"
 
-#
 # File: /usr/lang/src/controllers.php, line: 489
 msgid "On system boot wait before Monit starts checking services."
-msgstr ""
+msgstr "システム起動時に Monit がチェックサービスを開始するのを待ちます。"
 
 # File: /usr/lang/src/controllers.php, line: 336
 msgid "Option pass-through"
@@ -23406,24 +23399,21 @@ msgstr "その他の確認オプション"
 msgid "Overall bandwidth throttling (kbps)"
 msgstr "全体の帯域制限 ( kbps )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 495
 msgid "PID File"
-msgstr ""
+msgstr "PID ファイル"
 
 # File: /usr/lang/src/controllers.php, line: 339
 msgid "Parameters"
 msgstr "パラメータ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 497
 msgid "Partner ID"
-msgstr ""
+msgstr "パートナー ID"
 
-#
 # File: /usr/lang/src/controllers.php, line: 498
 msgid "Passive Interfaces"
-msgstr ""
+msgstr "パッシブインタフェース"
 
 msgid "Password"
 msgstr "パスワード"
@@ -23447,33 +23437,29 @@ msgstr "パス"
 msgid "Pattern matcher"
 msgstr "パターンマッチャー"
 
-#
 # File: /usr/lang/src/controllers.php, line: 504
 msgid "Peer-IP"
-msgstr ""
+msgstr "ピア IP"
 
 # File: /usr/lang/src/controllers.php, line: 343
 msgid "Per host bandwidth throttling (kbps)"
 msgstr "ホスト毎の帯域制限 ( kbps )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 506
 msgid "Physical name of the interface facing the peer"
-msgstr ""
+msgstr "ピアに面しているインタフェースの物理名"
 
 # File: /usr/lang/src/controllers.php, line: 418
 msgid "PingTimeout"
 msgstr "Ping タイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 508
 msgid "Polling Interval"
-msgstr ""
+msgstr "ポーリング間隔"
 
-#
 # File: /usr/lang/src/controllers.php, line: 509
 msgid "Polling interval in seconds"
-msgstr ""
+msgstr "ポーリング間隔 ( 秒単位 )"
 
 msgid "Port"
 msgstr "ポート"
@@ -23490,15 +23476,13 @@ msgstr ""
 "プロキシがリダイレクトされた接続をリスンするポートです。デフォルトは 8021 で"
 "す。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 513
 msgid "PowerDNS"
-msgstr ""
+msgstr "PowerDNS"
 
-#
 # File: /usr/lang/src/controllers.php, line: 514
 msgid "Pre-Forked Instances"
-msgstr ""
+msgstr "プレフォークされたインスタンス"
 
 #
 # File: /usr/lang/src/controllers.php, line: 515
