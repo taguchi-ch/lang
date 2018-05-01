@@ -1505,7 +1505,7 @@ msgstr "TLS パケット認証を有効"
 msgid ""
 "Renegotiate data channel key after n seconds (default=3600). Set to 0 to "
 "disable."
-msgstr "n 秒後にデータチャンネル鍵を再ネゴシエートします。無効にする場合は 0 を設定してください。"
+msgstr "n 秒後にデータチャンネル鍵を再ネゴシエートします ( デフォルトは 3600 )。無効にする場合は 0 を設定してください。"
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1548
 msgid "Renegotiate time"
