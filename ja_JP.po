@@ -114,10 +114,9 @@ msgstr "ウィジェットの高さ: "
 msgid "Display number of items:"
 msgstr "項目数を表示: "
 
-#
 # File: /usr/core/src/www/widgets/widgets/openvpn.widget.php, line: 156
 msgid "No OpenVPN instance defined or enabled."
-msgstr ""
+msgstr "定義済もしくは有効化されている OpenVPN インスタンスはありません。"
 
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 289
 msgid ""
@@ -165,34 +164,29 @@ msgstr "利用可能なアクティブピアがありません"
 msgid "Act"
 msgstr "動作"
 
-#
 # File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 226
 msgid "action"
-msgstr ""
+msgstr "動作"
 
-#
 # File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 226
 msgid "Filter:"
-msgstr ""
+msgstr "フィルタ: "
 
 # File: src/www/widgets/widgets/log.widget.php, line: 190
 msgid "Interfaces:"
 msgstr "インタフェース: "
 
-#
 # File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 195
 msgid "Update interval:"
-msgstr ""
+msgstr "更新間隔: "
 
-#
 # File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 183
 msgid "log entires"
-msgstr ""
+msgstr "ログエントリ"
 
-#
 # File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 183
 msgid "Quantity:"
-msgstr ""
+msgstr "数量: "
 
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 245
 msgid "Note: There are no configured IPsec Tunnels"
@@ -257,11 +251,10 @@ msgstr "ファイアウォールログ"
 msgid "Interface Statistics"
 msgstr "インタフェース統計"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 76
 # File: /usr/core/src/www/widgets/include/cpu_usage.inc, line: 3
 msgid "CPU Usage"
-msgstr ""
+msgstr "CPU 使用量"
 
 msgid "Zone"
 msgstr "ゾーン"
@@ -1358,13 +1351,12 @@ msgstr ""
 msgid "Verbosity level"
 msgstr "詳細レベル"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 1115
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1542
 msgid ""
 "Enter any additional options you would like to add to the configuration file "
 "here."
-msgstr ""
+msgstr "構成ファイルに追加したい、追加オプションは全てここに入力してください。"
 
 msgid "Advanced configuration"
 msgstr "詳細設定"
@@ -1509,12 +1501,11 @@ msgstr "自動的に共有 TLS 認証鍵を生成"
 msgid "Enable authentication of TLS packets"
 msgstr "TLS パケット認証を有効"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 792
 msgid ""
 "Renegotiate data channel key after n seconds (default=3600). Set to 0 to "
 "disable."
-msgstr ""
+msgstr "n 秒後にデータチャンネル鍵を再ネゴシエートします。無効にする場合は 0 を設定してください。"
 
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1548
 msgid "Renegotiate time"
