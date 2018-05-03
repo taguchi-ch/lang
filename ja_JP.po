@@ -1574,7 +1574,6 @@ msgstr ""
 msgid "Device mode"
 msgstr "デバイスモード"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 602
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 713
 msgid ""
@@ -1583,6 +1582,9 @@ msgid ""
 "listening to more than one specified IP address. In this case IPv4 is "
 "currently assumed."
 msgstr ""
+"使用するプロトコルファミリを選択してください。UDP/TCP で共に使用されるファミリは、OpenVPN が複数の IP アドレスを"
+"指定したリスニングをサポートしていないため、明示されたインタフェースでは動作しませんので注意してください。"
+"この場合、現在 IPv4 であると見なします。"
 
 msgid "Peer to Peer ( Shared Key )"
 msgstr "ピアツーピア ( 共有鍵 )"
@@ -1651,10 +1653,9 @@ msgstr ""
 msgid "Renegotiate time should contain a valid number of seconds."
 msgstr "再ネゴシエート時間は有効な数字を秒単位で指定してください。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 234
 msgid "At least one remote server must be specified."
-msgstr ""
+msgstr "最低でも一つのリモートサーバを指定してください。"
 
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 222
 msgid ""
@@ -1727,36 +1728,36 @@ msgstr "IPsec を選択したセクションに基づいたデバックモード
 msgid "IPsec Debug"
 msgstr "IPsec デバッグ"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 196
 msgid ""
 "By default, IPsec installs routes when a tunnel becomes active. Select this "
 "option to prevent automatically adding routes to the system routing table. "
 "See charon.install_routes"
 msgstr ""
+"デフォルトでは、IPsec はトンネルがアクティブになった時点でルートをインストールします。このオプションを"
+"選択すると、システムルーティングテーブルに自動的にルート追加することを防ぎます。"
+"charon.install_routes を参照してください。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 194
 msgid "Do not automatically install routes"
-msgstr ""
+msgstr "自動的にルートをインストールしない"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 191
 msgid "Do not install routes"
-msgstr ""
+msgstr "ルートをインストールしない"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 185
 msgid ""
 "This exempts traffic for one or more subnets from getting processed by the "
 "IPsec stack in the kernel. When sending all traffic to the remote location, "
 "you probably want to add your lan network(s) here"
 msgstr ""
+"これはカーネルの IPsec スタックによりプロセスが取得した一つ以上のサブネットに対するトラフィックを除外します。"
+"全てのトラフィックをリモートロケーションへ送信する場合は、ここに LAN ネットワークを追加するといいでしょう。" 
 
-#
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 176
 msgid "Passthrough networks"
-msgstr ""
+msgstr "ネットワークをパススルー"
 
 msgid ""
 "By default, if several SAs match, the newest one is preferred if it's at "
@@ -1784,16 +1785,14 @@ msgstr "自動追加 VPN ルールを無効"
 msgid "IPsec Advanced Settings"
 msgstr "IPsec 詳細設定"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 63
 #, php-format
 msgid "Entry \"%s\" is not a valid network."
-msgstr ""
+msgstr "エントリ %s は有効なネットワークではありません。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 736
 msgid "e.g. 192.168.1.0/24, 192.168.2.0/24"
-msgstr ""
+msgstr "例: 192.168.1.0/24、192.168.2.0/24"
 
 #
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 733
