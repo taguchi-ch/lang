@@ -2389,13 +2389,14 @@ msgstr "仮想アドレスプール"
 msgid "Client Configuration (mode-cfg)"
 msgstr "クライアント構成 (mode-cfg)"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 676
 msgid ""
 "Restrict access to users in the selected local group. Please be aware that "
 "other authentication backends will refuse to authenticate when using this "
 "option."
 msgstr ""
+"選択したローカルグループのユーザに対するアクセスを制限します。その他の認証バックエンドは"
+"このオプションの使用時に認証を拒否するようになりますので注意してください。"
 
 msgid "User Authentication"
 msgstr "ユーザ認証"
@@ -2547,15 +2548,13 @@ msgstr "フェーズ 2 エントリを編集"
 msgid "off"
 msgstr "オフ"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 494
 msgid "Enable phase 2 entry"
-msgstr ""
+msgstr "フェーズ 2 エントリを有効"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 494
 msgid "Disable phase 2 entry"
-msgstr ""
+msgstr "フェーズ 2 エントリを無効"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 498
 msgid "PFS"
@@ -2599,15 +2598,13 @@ msgstr "DH グループ"
 msgid "auto"
 msgstr "自動"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 360
 msgid "Enable phase 1 entry"
-msgstr ""
+msgstr "フェーズ 1 エントリを有効"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 360
 msgid "Disable phase 1 entry"
-msgstr ""
+msgstr "フェーズ 1 エントリを無効"
 
 # File: /usr/core/src/www/vpn_ipsec.php, line: 338
 msgid "Phase 1 Proposal"
@@ -2664,65 +2661,60 @@ msgstr "%s%s 設定がありません"
 msgid "Save and Test"
 msgstr "保存してテスト"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 215
 msgid "Require passwords to meet complexity rules"
-msgstr ""
+msgstr "複雑性規則に対応するパスワードを要求"
 
 #
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 213
 msgid "Enable complexity requirements"
-msgstr ""
+msgstr "複雑性要件を有効"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 210
 msgid "Complexity"
-msgstr ""
+msgstr "複雑性"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 205
 msgid "Sets the minimum length for a password"
-msgstr ""
+msgstr "パスワードに最低長を設定"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 189
 msgid ""
 "Password duration settings, the interval in days in which passwords stay "
 "valid. When reached, the user will be forced to change his or her password "
 "before continuing."
 msgstr ""
+"パスワード有効期間設定、パスワードが有効である間隔を日数単位で指定します。その期間が過ぎると、"
+"操作を継続する前に、ユーザは強制的にパスワードを変更させられます。"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 183
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 184
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 185
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 186
 #, php-format
 msgid "%d days"
-msgstr ""
+msgstr "%d 日"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 64
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 179
 msgid "Duration"
-msgstr ""
+msgstr "有効期間"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 173
 msgid ""
 "Harden security on local accounts, for methods other then local these will "
 "usually be configured on the respective provider (e.g. ldap/radius/..). "
 msgstr ""
+"ローカルアカウントでセキュリティを強化、ローカル以外のメソッドに対するもので、"
+"通常プロバイダが個別に設定します ( 例: ldap/radius/.. )。"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 171
 msgid "Enable password policy constraints"
-msgstr ""
+msgstr "パスワードポリシ制限を有効"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 168
 msgid "Policy"
-msgstr ""
+msgstr "ポリシ"
 
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 145
 msgid "--No Fallback--"
@@ -2763,26 +2755,22 @@ msgstr "新パスワード"
 msgid "Old password"
 msgstr "旧パスワード"
 
-#
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 126
 msgid "User Settings"
-msgstr ""
+msgstr "ユーザ設定"
 
-#
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 97
 #, php-format
 msgid "Saved settings for user \"%s\""
-msgstr ""
+msgstr "ユーザ %s の設定を保存しました"
 
-#
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 72
 msgid "Sorry, you cannot change settings for a non-local user."
-msgstr ""
+msgstr "申し訳ありませんが、あなたは非ローカルユーザの設定を変更できません。"
 
-#
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 51
 msgid "Your password has expired, please provide a new one"
-msgstr ""
+msgstr "パスワードの有効期限が切れました。新しいパスワードを入力してください"
 
 # File: src/www/system_usermanager_import_ldap.php, line: 150
 msgid "Please select users to import:"
@@ -2854,10 +2842,9 @@ msgstr "ユーザを削除"
 msgid "edit user"
 msgstr "ユーザを編集"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 948
 msgid "Save and go back"
-msgstr ""
+msgstr "保存して戻る"
 
 msgid "IPsec Pre-Shared Key"
 msgstr "IPsec 事前共有鍵"
@@ -2973,20 +2960,17 @@ msgstr ""
 msgid "Expiration date"
 msgstr "有効期限"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 654
 msgid "Login shell"
-msgstr ""
+msgstr "ログインシェル"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 613
 msgid "User comment, for your own information only"
-msgstr ""
+msgstr "ユーザコメント ( 自分用メモ )"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 604
 msgid "User's e-mail address, for your own information only"
-msgstr ""
+msgstr "ユーザのメールアドレス ( 自分用メモ )"
 
 msgid "User's full name, for your own information only"
 msgstr "ユーザの氏名 ( 自分用メモ )"
@@ -3026,10 +3010,9 @@ msgstr "本当にこの証明書の関連付けを削除しますか？"
 msgid "(Certificate will not be deleted)"
 msgstr "( 証明書は削除されません )"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 313
 msgid "Invalid login shell provided."
-msgstr ""
+msgstr "無効なログインシェルが提供されました。"
 
 msgid "Invalid internal Certificate Authority"
 msgstr "無効な内部認証局です"
