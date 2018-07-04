@@ -1794,7 +1794,6 @@ msgstr "エントリ %s は有効なネットワークではありません。"
 msgid "e.g. 192.168.1.0/24, 192.168.2.0/24"
 msgstr "例: 192.168.1.0/24、192.168.2.0/24"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 733
 msgid ""
 "Strongswan automatically creates SPD policies for the networks defined in "
@@ -1803,16 +1802,16 @@ msgid ""
 "network address translation to push packets through this tunnel from these "
 "networks."
 msgstr ""
+"strongSwan はこのフェーズ 2 においてネットワークを定義する SPD ポリシを自動作成します。もし他のネットワークに
+この IPsec トンネルの使用を許可する必要がある場合は、ここでコンマ区切りリスト形式で追加することができます。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 732
 msgid "Register additional Security Policy Database entries"
-msgstr ""
+msgstr "セキュリティポリシデータベースエントリを追加登録"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 728
 msgid "Manual SPD entries"
-msgstr ""
+msgstr "手動 SPD エントリ"
 
 msgid "Automatically ping host"
 msgstr "自動的に ping をするホスト"
@@ -1863,13 +1862,12 @@ msgstr ""
 msgid "Disable this phase2 entry"
 msgstr "このフェーズ 2 エントリを無効"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 360
 #, php-format
 msgid ""
 "SPD \"%s\" is not a valid network, it should match the tunnel type (IPv4/"
 "IPv6)."
-msgstr ""
+msgstr "SPD「%s」は有効なネットワークではありません。トンネルタイプ ( IPv4/IPv6 )に一致させてください。"
 
 msgid "The P2 lifetime must be an integer."
 msgstr "P2 有効期間は整数です。"
