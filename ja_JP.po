@@ -2010,7 +2010,7 @@ msgstr ""
 "れます。"
 
 msgid "Disable Reauth"
-msgstr "再認証 を無効"
+msgstr "再認証を無効"
 
 msgid "Whether a connection should be renegotiated when it is about to expire."
 msgstr "有効期限切れが間近な場合に、接続を再ネゴシエートすべきかどうかです。"
@@ -2665,7 +2665,6 @@ msgstr "保存してテスト"
 msgid "Require passwords to meet complexity rules"
 msgstr "複雑性規則に対応するパスワードを要求"
 
-#
 # File: /usr/core/src/www/system_usermanager_settings.php, line: 213
 msgid "Enable complexity requirements"
 msgstr "複雑性要件を有効"
@@ -2762,7 +2761,7 @@ msgstr "ユーザ設定"
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 97
 #, php-format
 msgid "Saved settings for user \"%s\""
-msgstr "ユーザ %s の設定を保存しました"
+msgstr "ユーザ「%s」の設定を保存しました"
 
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 72
 msgid "Sorry, you cannot change settings for a non-local user."
@@ -3331,10 +3330,9 @@ msgstr "ステートを同期"
 msgid "State Synchronization"
 msgstr "ステート同期"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 85
 msgid "The synchronize peer IP must be an IPv4 address or left empty."
-msgstr ""
+msgstr "同期ピア IP は IPv4 アドレスもしくは空白にしてください。"
 
 # File: /usr/core/src/www/system_groupmanager.php, line: 424
 msgid ""
@@ -3906,10 +3904,9 @@ msgstr "有効なゲートウェイ IP アドレスを指定してください"
 msgid "A valid gateway name must be specified."
 msgstr "有効なゲートウェイ名を指定してください。"
 
-#
 # File: /usr/core/src/www/system_gateways.php, line: 427
 msgid "Delete selected items"
-msgstr ""
+msgstr "選択した項目を削除"
 
 # File: src/www/system_gateways.php, line: 326
 msgid "Gateway is inactive because interface is missing"
@@ -4037,23 +4034,20 @@ msgstr ""
 "フィックがゲートウェイグループに直接流れるルールがないと、ロードバランシング"
 "等を使用できません。"
 
-#
 # File: /usr/core/src/www/system_gateway_groups.php, line: 215
 # File: /usr/core/src/www/system_gateways.php, line: 404
 msgid "Clone"
-msgstr ""
+msgstr "クローン"
 
-#
 # File: /usr/core/src/www/system_gateway_groups.php, line: 181
 # File: /usr/core/src/www/system_gateways.php, line: 371
 msgid "Warning (latency)"
-msgstr ""
+msgstr "警告 ( 遅延 )"
 
-#
 # File: /usr/core/src/www/system_gateway_groups.php, line: 178
 # File: /usr/core/src/www/system_gateways.php, line: 368
 msgid "Warning (packetloss)"
-msgstr ""
+msgstr "警告 ( パケットロス )"
 
 msgid "Offline"
 msgstr "オフライン"
@@ -4579,7 +4573,7 @@ msgid "Certificate data"
 msgstr "証明書データ"
 
 msgid "Additional authentication servers can be added here."
-msgstr "認証サーバは、ここで追加できます。"
+msgstr "認証サーバはここで追加できます。"
 
 # File: src/www/system_authservers.php, line: 695
 msgid "delete this server"
@@ -4603,7 +4597,7 @@ msgid ""
 "This value controls how long, in seconds, that the RADIUS server may take to "
 "respond to an authentication request."
 msgstr ""
-"RADIUS サーバが、認証要求に対する返答に要する時間を、秒単位で指定します。"
+"RADIUS サーバが認証要求に対する返答に要する時間を秒単位で指定します。"
 
 msgid "Authentication Timeout"
 msgstr "認証タイムアウト"
@@ -4658,7 +4652,7 @@ msgstr "検索範囲"
 
 # File: src/www/system_authservers.php, line: 525
 msgid "Leave empty to use anonymous binds to resolve distinguished names"
-msgstr "空白にすると、識別名の解決に匿名バインドを使用します"
+msgstr "空白にすると識別名の解決に匿名バインドを使用します"
 
 msgid "User DN:"
 msgstr "ユーザ DN: "
@@ -4772,13 +4766,14 @@ msgstr "ポート値"
 msgid "Edit system tunable"
 msgstr "システム調整パラメータの編集"
 
-#
 # File: /usr/core/src/www/system_advanced_sysctl.php, line: 190
 msgid ""
 "Tunables are composed of runtime settings for sysctl.conf which take effect "
 "immediately after apply and boot settings for loader.conf which require a "
 "reboot."
 msgstr ""
+"調整パラメータは、適用後直ぐに有効になる sysctl.conf のランタイム設定及び、再起動が必要"
+"となる loader.conf の起動設定を構成します。"
 
 msgid "Delete Tunable"
 msgstr "調整パラメータを削除"
@@ -4804,11 +4799,10 @@ msgstr "調整パラメータ"
 msgid "Add a new tunable"
 msgstr "新規調整パラメータを追加"
 
-#
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 318
 msgid ""
 "A test notification will be sent even if the service is marked as disabled."
-msgstr ""
+msgstr "テスト通知はサービスが無効になっている場合でも送信されます。"
 
 msgid "When this is checked, startup and shutdown sounds will no longer play."
 msgstr "これをチェックすると、起動とシャットダウンの音が鳴らなくなります。"
@@ -4965,22 +4959,19 @@ msgstr ""
 "これは、マシンを再起動するかインタフェース毎に再構成することで有効になりま"
 "す。"
 
-#
 # File: /usr/core/src/www/system_advanced_network.php, line: 277
 msgid "Insert the existing DUID here"
-msgstr ""
+msgstr "ここに既存の DUID を挿入"
 
-#
 # File: /usr/core/src/www/system_advanced_network.php, line: 276
 msgid ""
 "This field can be used to enter an explicit DUID for use by IPv6 DHCP "
 "clients."
-msgstr ""
+msgstr "このフィールドは IPv6 DHCP クライアントに使用されていることが明白な DUID を入力するために使用できます。"
 
-#
 # File: /usr/core/src/www/system_advanced_network.php, line: 272
 msgid "DHCP Unique Identifier"
-msgstr ""
+msgstr "DHCP 固有識別子"
 
 msgid ""
 "This option will suppress ARP log messages when multiple interfaces reside "
@@ -4995,12 +4986,13 @@ msgstr "ARP メッセージを抑制"
 msgid "ARP Handling"
 msgstr "ARP 処理"
 
-#
 # File: /usr/core/src/www/system_advanced_network.php, line: 257
 msgid ""
 "Set usage of VLAN hardware filtering. This hardware acceleration may be "
 "broken in a particular device driver, or may impact performance."
 msgstr ""
+"VLAN ハードウェアフィルタリングの使用法を設定します。このハードウェアアクセラレーションは"
+"特定のデバイスドライバでは動作しないか、パフォーマンスに影響する可能性があります。"
 
 # File: /usr/core/src/www/system_advanced_network.php, line: 152
 msgid "Leave default"
@@ -5069,10 +5061,9 @@ msgstr "ハードウェアチェックサムオフロードを無効"
 msgid "Hardware CRC"
 msgstr "ハードウェア CRC"
 
-#
 # File: /usr/core/src/www/system_advanced_network.php, line: 131
 msgid "A valid DUID must be specified."
-msgstr ""
+msgstr "有効な DUID を指定してください。"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 446
 msgid ""
@@ -5108,20 +5099,17 @@ msgstr "/var をメモリファイルシステムとして使用"
 msgid "/var RAM disk"
 msgstr "/var RAM ディスク"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 466
 msgid "Add a 2 GB swap file to the system"
-msgstr ""
+msgstr "2GB のスワップファイルをシステムに追加"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 463
 msgid "Swap file"
-msgstr ""
+msgstr "スワップファイル"
 
-#
 # File: /usr/core/src/www/system_advanced_misc.php, line: 460
 msgid "Disk / Memory Settings (reboot to apply changes)"
-msgstr ""
+msgstr "ディスク / メモリ設定 ( 再起動で変更が適用 )"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 422
 msgid ""
@@ -5403,7 +5391,6 @@ msgstr "エイリアス解決間隔"
 msgid "WAN"
 msgstr "WAN"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 636
 #, php-format
 msgid ""
@@ -5413,16 +5400,20 @@ msgid ""
 "only by the user-defined firewall rules. Ensure you have a firewall rule in "
 "place that allows you in, or you will lock yourself out."
 msgstr ""
+"チェックされていない場合、%s インタフェースの web GUI もしくは SSH へのアクセスはユーザが定義した"
+"ファイアウォールルールセットの内容に関わらず常に許可されます。"
+"このボックスをチェックすれば自動的に追加されるルールを無効にし、ユーザが定義したファイアウォールルールのみで"
+"アクセスはコントロールされます。"
+"自分に in 通信を許可するファイアウォールのルールが設定されていることを確認して下さい。さもなくば、自分自身が"
+"閉めだされてしまいます。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 634
 msgid "Disable administration anti-lockout rule"
-msgstr ""
+msgstr "アンチロックアウトルールの管理を無効"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 631
 msgid "Disable anti-lockout"
-msgstr ""
+msgstr "アンチロックアウトを無効"
 
 msgid ""
 "With Multi-WAN you generally want to ensure traffic leaves the same "
