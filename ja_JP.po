@@ -5454,12 +5454,12 @@ msgstr "静的ルートフィルタリング"
 msgid "On your system the default size is:"
 msgstr "システムデフォルトサイズ: "
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 597
 msgid ""
 "Maximum number of table entries for systems such as aliases, sshlockout, "
 "bogons, etc, combined."
 msgstr ""
+"エイリアス、SSH ロックアウト、bogon、等を結合したシステムのテーブルエントリの最大数です。"
 
 msgid "Firewall Maximum Table Entries"
 msgstr "ファイアウォールテーブルエントリの最大数"
@@ -5657,27 +5657,27 @@ msgstr ""
 msgid "Schedule States"
 msgstr "ステートのスケジュール"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 421
 msgid ""
 "Outgoing packets from this firewall on an interface which has a gateway will "
 "normally use the specified gateway for that interface. When this option is "
 "set, the default routing rules apply (automatic rules will be disabled)."
 msgstr ""
+"ゲートウェイ機能を持つインタフェースにあるこのファイアウォールからの外向きパケットは、"
+"通常そのインタフェースに対するゲートウェイを指定して使用されます。このオプションが設定されている場合は、"
+"デフォルトルーティングルールが適用 ( 自動ルールは無効化 ) されます。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 419
 msgid ""
 "Disable automatic rules which force local services to use the assigned "
 "interface gateway."
 msgstr ""
+"ローカルサービスに割当されたインタフェースゲートウェイの使用を強制する自動ルールを無効にします。"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 416
 msgid "Disable force gateway"
-msgstr ""
+msgstr "ゲートウェイ強制を無効"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 408
 msgid ""
 "Using policy routing in the packet filter rules causes packets to skip "
@@ -5685,6 +5685,9 @@ msgid ""
 "option enables the sharing of such forwarding decisions between all "
 "components to accomodate complex setups."
 msgstr ""
+"パケットフィルタルールでポリシルーティングを使用すると、トラフィックシェイパ及びキャプティブ
+"ポータルタスクに対するプロセスをパケットがスキップするようになります。このオプションを使用すると、"
+"そのような転送決定を全コンポーネント間で共有し、複雑な設定への対応を有効にします。"
 
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 404
 msgid ""
@@ -5739,12 +5742,13 @@ msgstr "スティッキー接続"
 msgid "Multi-WAN"
 msgstr "マルチ WAN"
 
-#
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 368
 msgid ""
 "If the link where the default gateway resides fails switch the default "
 "gateway to another available one."
 msgstr ""
+"もしデフォルトゲートウェイに存在するリンクが失敗した場合、デフォルトゲートウェイは"
+"もう一つの利用可能なものに切り替わります。"
 
 msgid "Allow default gateway switching"
 msgstr "デフォルトゲートウェイの切替えを許可"
@@ -6008,7 +6012,6 @@ msgstr "root ユーザログインを許可"
 msgid "Root Login"
 msgstr "root ログイン"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 598
 msgid ""
 "Select the allowed groups for remote login. The \"wheel\" group is always "
@@ -6016,11 +6019,13 @@ msgid ""
 "will. Do not yield remote access to non-adminstrators as every user can "
 "access system files using SSH or SFTP."
 msgstr ""
+"リモートログインを許可するグループを選択してください。「wheel」グループは常に復旧目的で設定されており、"
+"追加のローカルグループは任意で選択可能です。全てのユーザが SSH や SFTP を使用してシステムファイルに"
+"アクセスできるようになるため、非管理者によるリモートアクセスを譲歩してはいけません。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 587
 msgid "Login Group"
-msgstr ""
+msgstr "ログイングループ"
 
 msgid "Enable Secure Shell"
 msgstr "SSH を有効"
@@ -6053,19 +6058,19 @@ msgstr "HTTP_REFERER 強制確認を無効"
 msgid "HTTP_REFERER enforcement"
 msgstr "HTTP_REFERER 強制"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 553
 # File: /usr/core/src/www/system_advanced_admin.php, line: 646
 msgid ""
 "Only accept connections from the selected interfaces. Leave empty to listen "
 "globally. Use with care."
 msgstr ""
+"選択されたインタフェースからの接続のみを受け入れます。空白にすると全体をリスンします。"
+"注意して使用してください。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 545
 # File: /usr/core/src/www/system_advanced_admin.php, line: 638
 msgid "All (recommended)"
-msgstr ""
+msgstr "全て ( 推奨 )"
 
 #
 # File: /usr/core/src/www/system_advanced_admin.php, line: 538
