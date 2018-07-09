@@ -9464,10 +9464,9 @@ msgstr "RRD データは消去されました。"
 msgid "Are you sure you want to reboot the system?"
 msgstr "システムを再起動してもよろしいですか？"
 
-#
 # File: /usr/core/src/www/reboot.php, line: 52
 msgid "The system is rebooting now, please wait..."
-msgstr ""
+msgstr "システムは現在再起動しています。お待ち下さい..."
 
 msgid "Wireless clone configuration"
 msgstr "無線クローン構成"
@@ -9890,12 +9889,12 @@ msgstr ""
 "このポイントツーポイントリンクは削除できません。インタフェースとして使用され"
 "ています。"
 
-#
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 295
 msgid ""
 "If you leave this field blank, the smallest mtu of this laggs children will "
 "be used."
 msgstr ""
+"このフィールドを空白のままにすると、この LAGG の子は最小 MTU を使用します。"
 
 # File: /usr/core/src/www/interfaces_lagg_edit.php, line: 282
 msgid "Enable lacp fast-timeout on the interface."
@@ -10638,10 +10637,9 @@ msgstr "選択したインタフェースを追加"
 msgid "New interface:"
 msgstr "新規インタフェース: "
 
-#
 # File: /usr/core/src/www/interfaces_assign.php, line: 429
 msgid "Delete interface"
-msgstr ""
+msgstr "インタフェースを削除"
 
 msgid "Network port"
 msgstr "ネットワークポート"
@@ -11188,10 +11186,9 @@ msgstr "鍵情報"
 msgid "rdm"
 msgstr "RDM"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2621
 msgid "Algorithm"
-msgstr ""
+msgstr "アルゴリズム"
 
 # File: /usr/core/src/www/interfaces.php, line: 2583
 msgid "protocol"
@@ -11204,15 +11201,13 @@ msgstr "認証名"
 msgid "Authentication"
 msgstr "認証"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2610
 msgid "Site-Level Aggregation Length"
-msgstr ""
+msgstr "サイトレベルアグリゲーション長"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2608
 msgid "Site-Level Aggregation Identifier"
-msgstr ""
+msgstr "サイトレベルアグリゲーション識別子"
 
 msgid "Prefix Interface "
 msgstr "プレフィックスインタフェース "
@@ -11221,10 +11216,9 @@ msgstr "プレフィックスインタフェース "
 msgid "Prefix Interface"
 msgstr "プレフィックスインタフェース"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2595
 msgid "IPv6-Prefix"
-msgstr ""
+msgstr "IPv6 プレフィックス"
 
 msgid "Prefix"
 msgstr "プレフィックス"
@@ -11236,22 +11230,19 @@ msgstr "id-assoc pd"
 msgid "Prefix Delegation"
 msgstr "プレフィックスデリゲーション"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2583
 # File: /usr/core/src/www/interfaces.php, line: 2599
 msgid "Valid Time"
-msgstr ""
+msgstr "有効期間"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2581
 # File: /usr/core/src/www/interfaces.php, line: 2597
 msgid "Preferred Lifetime"
-msgstr ""
+msgstr "優先する有効期間"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2579
 msgid "IPv6-address"
-msgstr ""
+msgstr "IPv6 アドレス"
 
 # File: src/www/interfaces.php, line: 2264
 msgid "id-assoc na"
