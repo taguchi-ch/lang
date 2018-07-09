@@ -6072,22 +6072,20 @@ msgstr ""
 msgid "All (recommended)"
 msgstr "全て ( 推奨 )"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 538
 msgid ""
 "Enable access logging on the webinterface for debugging and analysis "
 "purposes."
 msgstr ""
+"デバックと解析のために Web インタフェースのアクセスログの記録を有効にします。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 536
 msgid "Enable access log"
-msgstr ""
+msgstr "アクセスログを有効"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 533
 msgid "Access log"
-msgstr ""
+msgstr "アクセスログ"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 510
 msgid ""
@@ -6095,15 +6093,14 @@ msgid ""
 msgstr ""
 "処理能力の追加コストに対して、クライアントにより小さいデータを転送します。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 527
 msgid "Enable compression of HTTP pages and dynamic content."
 msgstr ""
+"HTTP ページ及び動的コンテンツの圧縮を有効にします。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 510
 msgid "HTTP Compression"
-msgstr ""
+msgstr "HTTP 圧縮"
 
 msgid ""
 "Here you can specify alternate hostnames by which the router may be queried, "
@@ -6148,10 +6145,9 @@ msgstr ""
 msgid "Disable logging of web GUI successful logins"
 msgstr "web GUI ログイン成功のロギングを無効"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 477
 msgid "Login Messages"
-msgstr ""
+msgstr "ログインメッセージ"
 
 # File: /usr/core/src/www/system_advanced_admin.php, line: 416
 msgid ""
@@ -6219,57 +6215,50 @@ msgstr ""
 msgid "HTTPS"
 msgstr "HTTPS"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 337
 msgid "If the page does not reload go here:"
-msgstr ""
+msgstr "もしページがリロードされない場合はここに移動してください: "
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 335
 msgid "The web GUI is reloading at the moment, please wait..."
-msgstr ""
+msgstr "現在 web GUI をリロードしています、少しお待ち下さい..."
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 313
 msgid "Use the default"
-msgstr ""
+msgstr "デフォルトを使用"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 312
 msgid "I know what I am doing"
-msgstr ""
+msgstr "私は何をしているのか理解しています"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 307
 msgid ""
 "Changing the listen interfaces of the web GUI may prevent you from accessing "
 "this page if you continue. It is recommended to keep this set to the default "
 "unless you know what you are doing."
 msgstr ""
+"web GUI のリスンインタフェース変更を続行した場合、このページにアクセスできなくなる可能性があります。"
+"自分が何をしているのか理解しているのでなければ、この設定はデフォルトのままにすることを推奨します。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 306
 msgid "Warning!"
-msgstr ""
+msgstr "警告！"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 90
 msgid "You must specify a valid SSH port number."
-msgstr ""
+msgstr "有効な SSH ポート番号を指定してください。"
 
 #, php-format
 msgid "Alternate hostname %s is not a valid hostname."
 msgstr "代替ホスト名 %s は有効なホスト名ではありません"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 77
 msgid "You must specify a valid web GUI protocol."
-msgstr ""
+msgstr "有効な web GUI プロトコルを指定してください。"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 73
 msgid "You must specify a valid web GUI port number."
-msgstr ""
+msgstr "有効な web GUI ポート番号を指定してください。"
 
 # File: src/www/status_wireless.php, line: 192
 msgid ""
@@ -6457,45 +6446,37 @@ msgstr "RefID"
 msgid "Network Time Protocol Status"
 msgstr "NTP ステータス"
 
-#
 # File: /usr/core/src/www/status_ntpd.php, line: 64
 msgid "Outlier"
-msgstr ""
+msgstr "Outlier"
 
-#
 # File: /usr/core/src/www/status_ntpd.php, line: 61
 msgid "False Ticker"
-msgstr ""
+msgstr "False Ticker"
 
-#
 # File: /usr/core/src/www/status_ntpd.php, line: 58
 msgid "Excess Peer"
-msgstr ""
+msgstr "Excess Peer"
 
-#
 # File: /usr/core/src/www/status_ntpd.php, line: 55
 msgid "Selected"
-msgstr ""
+msgstr "Selected"
 
-#
 # File: /usr/core/src/www/status_ntpd.php, line: 52
 msgid "PPS Peer"
-msgstr ""
+msgstr "PPS Peer"
 
-#
 # File: /usr/core/src/www/status_ntpd.php, line: 49
 msgid "Candidate"
-msgstr ""
+msgstr "Candidate"
 
-#
 # File: /usr/core/src/www/status_ntpd.php, line: 46
 msgid "Active Peer"
-msgstr ""
+msgstr "Active Peer"
 
-#
 # File: /usr/core/src/www/status_ntpd.php, line: 43
 msgid "Unreach/Pending"
-msgstr ""
+msgstr "Unreach/Pending"
 
 msgid "Unknown"
 msgstr "不明"
@@ -6695,51 +6676,43 @@ msgstr "ホスト名または IP"
 msgid "Host IP"
 msgstr "ホスト IP"
 
-#
 # File: /usr/core/src/www/status_graph.php, line: 386
 msgid "50"
-msgstr ""
+msgstr "50"
 
-#
 # File: /usr/core/src/www/status_graph.php, line: 383
 msgid "40"
-msgstr ""
+msgstr "40"
 
-#
 # File: /usr/core/src/www/status_graph.php, line: 380
 msgid "30"
-msgstr ""
+msgstr "30"
 
-#
 # File: /usr/core/src/www/status_graph.php, line: 377
 msgid "20"
-msgstr ""
+msgstr "20"
 
 # File: src/www/status_graph.php, line: 235
 msgid "FQDN"
 msgstr "FQDN"
 
-#
 # File: /usr/core/src/www/status_graph.php, line: 343
 # File: /usr/core/src/www/status_graph.php, line: 407
 msgid "Total Out"
-msgstr ""
+msgstr "Total Out"
 
-#
 # File: /usr/core/src/www/status_graph.php, line: 340
 # File: /usr/core/src/www/status_graph.php, line: 406
 msgid "Total In"
-msgstr ""
+msgstr "Total In"
 
-#
 # File: /usr/core/src/www/status_graph.php, line: 337
 msgid "Bw Out Avg"
-msgstr ""
+msgstr "Bw Out Avg"
 
-#
 # File: /usr/core/src/www/status_graph.php, line: 334
 msgid "Bw In Avg"
-msgstr ""
+msgstr "Bw In Avg"
 
 # File: src/www/status_graph.php, line: 225
 msgid "Bw Out"
@@ -6749,10 +6722,9 @@ msgstr "Bw Out"
 msgid "Bw In"
 msgstr "Bw In"
 
-#
 # File: /usr/core/src/www/status_graph.php, line: 309
 msgid "Top"
-msgstr ""
+msgstr "Top"
 
 # File: src/www/status_graph.php, line: 209
 msgid "Display"
@@ -6860,11 +6832,10 @@ msgstr "MX ( メールサーバ )"
 msgid "A or AAAA (IPv4 or IPv6 address)"
 msgstr "A もしくは AAAA ( IPv4 もしくは IPv6 アドレス )"
 
-#
 # File: /usr/core/src/www/services_unbound_host_edit.php, line: 183
 msgid ""
 "Name of the host, without domain part. Use \"*\" to create a wildcard entry."
-msgstr ""
+msgstr "ドメインパートを除いたホスト名。「*」を使用するとワイルドカードエントリを作成します。"
 
 msgid "Edit DNS Resolver entry"
 msgstr "DNS リゾルバエントリを編集"
@@ -7356,7 +7327,6 @@ msgstr "転送モードを有効"
 msgid "DNSSEC"
 msgstr "DNSSEC"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 215
 #, php-format
 msgid ""
@@ -7364,11 +7334,12 @@ msgid ""
 "available under \"local-zone:\" in the %sunbound.conf(5)%s manual page. The "
 "default is 'transparent'."
 msgstr ""
+"システムドメインに使用するローカルゾーンタイプ。タイプの記述はマニュアルページ %sunbound.conf(5)%s "
+"の中にある「local-zone:」の下が利用可能です。"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 205
 msgid "Local Zone Type"
-msgstr ""
+msgstr "ローカルゾーンタイプ"
 
 msgid ""
 "Interface IPs used by the DNS Resolver for responding to queries from "
@@ -7394,11 +7365,10 @@ msgstr "DNS リゾルバ全般オプション"
 msgid "The configuration for the DNS Resolver, has been changed"
 msgstr "DNS リゾルバの構成は変更されました"
 
-#
 # File: /usr/core/src/www/services_unbound.php, line: 86
 #, php-format
 msgid "Local zone type \"%s\" is not known."
-msgstr ""
+msgstr "ローカルゾーンタイプ「%s」は不明です。"
 
 msgid "You must specify a valid port number."
 msgstr "有効なポート番号を指定してください。"
@@ -7512,7 +7482,6 @@ msgstr "低"
 msgid "Router Priority"
 msgstr "ルータ優先度"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 237
 msgid ""
 "Use \"Router Only\" to only advertise this router, \"Unmanaged\" for Router "
@@ -7521,14 +7490,17 @@ msgid ""
 "Stateless Autoconfig, or \"Stateless\" for Router Advertising with Statless "
 "Autoconfig and optional DHCPv6 Server queries."
 msgstr ""
+"「ルータのみ」を使用するとこのルータの広告のみを行います。「非管理」はステー"
+"トレスな自動構成のルータ広告、「管理」は DHCPv6 サーバ経由の割当て、「支援」"
+"は DHCPv6 サーバ割当てにステートレスな自動構成を組み合わせます。"
+"「ステートレス」はルータ広告をステートレスな自動構成及び、追加の DHCPv6 サーバクエリで行います。"
 
 msgid "Select the Operating Mode for the Router Advertisement (RA) Daemon."
 msgstr "ルータ広告 (RA) デーモンの動作モードを選択してください。"
 
-#
 # File: /usr/core/src/www/services_router_advertisements.php, line: 232
 msgid "Stateless"
-msgstr ""
+msgstr "ステートレス"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 242
 msgid "Assisted"
@@ -7716,25 +7688,21 @@ msgstr ""
 "パーセコンド時計参照としても使用できます。注意: USB GPS も動作可能ですが、"
 "USB バスタイミング問題により推奨されません。"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 518
 msgid "Please click the \"Calculate\" to get a result."
-msgstr ""
+msgstr "結果を得るには「計算」をクリックしてください。"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 518
 msgid "Checksum:"
-msgstr ""
+msgstr "チェックサム: "
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 513
 msgid "Calculate"
-msgstr ""
+msgstr "計算"
 
-#
 # File: /usr/core/src/www/services_ntpd_gps.php, line: 507
 msgid "Enter the text between \"$\" and \"*\" of a NMEA command string."
-msgstr ""
+msgstr "NMEA コマンド文字列のテキストは「$」と「*」の間に入力してください。"
 
 # File: src/www/services_ntpd_gps.php, line: 561
 msgid "NMEA checksum calculator"
@@ -7956,12 +7924,11 @@ msgstr "NTP シリアル GPS 構成"
 msgid "Clock stratum must be a number in the range 0..16"
 msgstr "時計の stratum は 0 - 16 の範囲の数字です。"
 
-#
 # File: /usr/core/src/www/services_ntpd.php, line: 414
 msgid ""
 "Enter any additional options you would like to add to the network time "
 "configuration here, separated by a space or newline."
-msgstr ""
+msgstr "NTP に追加したい追加オプションがあればここで入力します。空白もしくは改行区切りです。"
 
 msgid "select a file to upload:"
 msgstr "アップロードするファイルを選択してください: "
@@ -8109,19 +8076,20 @@ msgstr "( 0 - 15 )"
 msgid "Orphan mode"
 msgstr "orphan mode"
 
-#
 # File: /usr/core/src/www/services_ntpd.php, line: 285
 msgid ""
 "The \"do not use\" option indicates that NTP should not use this server for "
 "time, but stats for this server will be collected and displayed."
 msgstr ""
+"「使用しない」オプションは NTP が時刻用としてこのサーバを使用すべきではないことを意味しますが、"
+"このサーバの統計は収集及び表示されます。"
 
-#
 # File: /usr/core/src/www/services_ntpd.php, line: 283
 msgid ""
 "The \"prefer\" option indicates that NTP should favor the use of this server "
 "more than all others."
 msgstr ""
+"「優先」オプションは NTP がこのサーバを他の全てのものよりも優先的に使用すべきであることを意味します。"
 
 # File: src/www/services_ntpd.php, line: 296
 msgid "For best results three to five servers should be configured here."
