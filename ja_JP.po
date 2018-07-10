@@ -11311,17 +11311,16 @@ msgstr "情報のみ"
 msgid "Interface Statement"
 msgstr "インタフェースステートメント"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2570
 msgid ""
 "Certain ISPs may require that DHCPv6 requests are sent with a specific VLAN "
 "priority."
 msgstr ""
+"一部の ISP は DHCPv6 リクエストの送信に VLAN 優先度の指定を要求することがあります。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2559
 msgid "Use VLAN priority"
-msgstr ""
+msgstr "VLAN 優先度を使用"
 
 # File: src/www/interfaces.php, line: 2188
 msgid "Request a IPv6 prefix/information through the IPv4 connectivity link"
@@ -11335,17 +11334,17 @@ msgstr "DHCPv6 クライアントに対するデバッグモードを有効"
 msgid "Enable debug"
 msgstr "デバッグを有効"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2536
 msgid ""
 "Do not send a release message on client exit to prevent the release of an "
 "allocated address or prefix on the server."
 msgstr ""
+"クライアント終了時に開放メッセージを送信しないことで、サーバに割り当てられたアドレスもしくは"
+"プレフィックスの開放を抑制します。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2532
 msgid "Prevent release"
-msgstr ""
+msgstr "開放を抑制"
 
 # File: /usr/core/src/www/interfaces.php, line: 2471
 msgid ""
@@ -11376,10 +11375,9 @@ msgstr ""
 "このフィールドの値は、DHCPv6 サーバが提供する委譲されたプレフィックスの長さで"
 "す。通常は ISP が指定します。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2478
 msgid "Prefix delegation size"
-msgstr ""
+msgstr "プレフィックスデリゲーションサイズ"
 
 # File: src/www/interfaces.php, line: 2195
 msgid "Only request a IPv6 prefix, do not request a IPv6 address"
@@ -11407,10 +11405,9 @@ msgstr "新規 IPv6 ゲートウェイを追加: "
 msgid "IPv6 Upstream Gateway"
 msgstr "IPv6 アップストリームゲートウェイ"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2365
 msgid "Use the IPv4 connectivity link."
-msgstr ""
+msgstr "IPv4 接続リンクを使用します。"
 
 # File: src/www/interfaces.php, line: 2544
 msgid "Use IPv4 connectivity"
@@ -11478,17 +11475,15 @@ msgstr ""
 msgid "Enable Dial-On-Demand mode"
 msgstr "ダイヤルオンデマンドモードを有効"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2218
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 559
 msgid "This field can usually be left empty unless specified by the provider."
-msgstr ""
+msgstr "このフィールドはプロバイダから指定された場合を除き通常空白のままで構いません。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 2214
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 555
 msgid "Host-Uniq"
-msgstr ""
+msgstr "Host-Uniq"
 
 msgid "Hint: this field can usually be left empty"
 msgstr "ヒント: このフィールドは通常空白で構いません。"
@@ -11801,17 +11796,14 @@ msgstr ""
 "このフィールドを空白にすると、アダプタのデフォルト MTU が使用されます。通常"
 "は 1500 バイトですが、一部の環境では変更可能です。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1768
 msgid "Calculated PPP MTU"
-msgstr ""
+msgstr "計算した PPP MTU"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1757
 msgid "Insert my currently connected MAC address (use with care)"
-msgstr ""
+msgstr "自分が現在接続している MAC アドレスを挿入 ( 注意して使用してください )"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1748
 msgid ""
 "This field can be used to spoof the MAC address of the interface. Enter a "
@@ -11819,6 +11811,9 @@ msgid ""
 "unsure. This may only be required e.g. with certain cable connections on a "
 "WAN interface."
 msgstr ""
+"このフィールドはインタフェースの MAC アドレスのなりすましに使用可能です。xx:xx:xx:xx:xx:xx の形式で"
+"MAC アドレスを入力するか、確信がない場合は空白にしてください。これは WAN インタフェースに一部のケーブル接続を"
+"行っている場合等の場合のみ要求されます。"
 
 msgid "Track Interface"
 msgstr "インタフェースの追跡"
@@ -11878,15 +11873,13 @@ msgstr ""
 msgid "Enter a description (name) for the interface here."
 msgstr "ここにインタフェースの説明 ( 名前 ) を入力します。"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1669
 msgid "Prevent interface removal"
-msgstr ""
+msgstr "インタフェースの除去を抑制"
 
-#
 # File: /usr/core/src/www/interfaces.php, line: 1666
 msgid "Lock"
-msgstr ""
+msgstr "ロック"
 
 msgid "Enable Interface"
 msgstr "インタフェースを有効"
@@ -12242,10 +12235,9 @@ msgstr "広告周期"
 msgid "Enter the VHID group that the machines will share."
 msgstr "機器が共有する VHID グループを入力してください。"
 
-#
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 431
 msgid "Select an unassigned VHID"
-msgstr ""
+msgstr "割当されていない VHID を選択"
 
 msgid "VHID Group"
 msgstr "VHID グループ"
@@ -12268,12 +12260,13 @@ msgstr ""
 msgid "Expansion"
 msgstr "拡張"
 
-#
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 398
 msgid ""
 "For some interface types a gateway is required to configure an IP Alias (ppp/"
 "pppoe/tun), leave this field empty for all other interface types."
 msgstr ""
+"一部のインタフェースタイプでは、ゲートウェイは IP エイリアス ( ppp / pppoe / tun ) を構成する必要があります。"
+"このフィールドを空白にすると他の全インタフェースタイプに対して構成します。"
 
 msgid "Single address"
 msgstr "単一アドレス"
@@ -12315,19 +12308,17 @@ msgstr "ネットワークのサブネットマスクです。CIDR 範囲の指�
 msgid "Please provide a single IP address."
 msgstr "単一 IP アドレスを入力してください。"
 
-#
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 161
 #, php-format
 msgid "VHID %s must be defined on interface %s as a CARP VIP first."
-msgstr ""
+msgstr "VHID %s はまず CARP VIP としてインタフェースで定義してください。"
 
 msgid "For this type of vip localhost is not allowed."
 msgstr "このタイプの VIP は、ローカルホストには許可されていません。"
 
-#
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 146
 msgid "A VHID must be selected for this CARP VIP."
-msgstr ""
+msgstr "この CARP VIP に対する VHID を選択してください。"
 
 msgid ""
 "You must specify a CARP password that is shared between the two VHID members."
@@ -12923,10 +12914,9 @@ msgstr "現在の優先度を維持"
 msgid "Low Delay/TCP ACK"
 msgstr "Low Delay / TCP ACK"
 
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1281
 msgid "All packets"
-msgstr ""
+msgstr "全てのパケット"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1277
 msgid "Set priority"
@@ -13526,18 +13516,17 @@ msgstr ""
 "ファイアウォールルール構成は変更されました。<br />有効にするには、変更を適用"
 "してください。"
 
-#
 # File: /usr/core/src/www/firewall_rules.php, line: 276
 msgid "Select category"
-msgstr ""
+msgstr "カテゴリを選択"
 
-#
 # File: /usr/core/src/www/firewall_rules.php, line: 55
 # File: /usr/core/src/www/firewall_scrub.php, line: 44
 msgid ""
 "The settings have been applied and the rules are now reloading in the "
 "background."
 msgstr ""
+"設定は適用されました。ルールはバックグラウンドで現在リロードしています。"
 
 msgid "Static-port:"
 msgstr "静的ポート: "
@@ -13590,10 +13579,9 @@ msgstr "トランスレーションアドレス"
 msgid "Translation / target"
 msgstr "トランスレーション / ターゲット"
 
-#
 # File: /usr/core/src/www/firewall_nat_out_edit.php, line: 564
 msgid "Destination invert"
-msgstr ""
+msgstr "送信先反転"
 
 msgid "(leave blank for any)"
 msgstr " ( 任意の場合は空白にしてください )"
@@ -13604,10 +13592,9 @@ msgstr "外向き NAT マッピングの送信元ネットワークを入力し�
 msgid "This Firewall (self)"
 msgstr "このファイアウォール ( 本機 )"
 
-#
 # File: /usr/core/src/www/firewall_nat_out_edit.php, line: 481
 msgid "Source invert"
-msgstr ""
+msgstr "送信元反転"
 
 msgid "Hint: in most cases, you won't use this option."
 msgstr "ヒント: 通常はこのオプションは使用しません。"
@@ -13633,15 +13620,14 @@ msgid "A valid target IP address must be specified."
 msgstr "有効なターゲット IP アドレスを指定してください。"
 
 msgid "Negating destination address of \"any\" is invalid."
-msgstr "「任意」の送信先アドレスの否定は、無効です"
+msgstr "「任意」の送信先アドレスの否定は無効です"
 
 msgid "A valid destination must be specified."
 msgstr "有効な送信先を指定してください"
 
-#
 # File: /usr/core/src/www/firewall_nat_out_edit.php, line: 181
 msgid "Negating source address of \"any\" is invalid."
-msgstr ""
+msgstr "「任意」の送信元アドレスの否定は無効です。"
 
 msgid "A valid source must be specified."
 msgstr "有効な送信元を指定してください"
@@ -13677,19 +13663,17 @@ msgstr "ISAKMP ルールを自動作成"
 msgid "automatic outbound nat"
 msgstr "自動外向き NAT"
 
-#
 # File: /usr/core/src/www/firewall_nat_out.php, line: 525
 msgid "Source Networks"
-msgstr ""
+msgstr "送信元ネットワーク"
 
 msgid "Automatic rules:"
 msgstr "自動ルール: "
 
-#
 # File: /usr/core/src/www/firewall_nat_out.php, line: 507
 #, php-format
 msgid "%s networks"
-msgstr ""
+msgstr "%s ネットワーク"
 
 msgid "YES"
 msgstr "はい"
@@ -13761,11 +13745,10 @@ msgstr "モード: "
 msgid "Nat"
 msgstr "NAT"
 
-#
 # File: /usr/core/src/www/firewall_nat_out.php, line: 108
 #, php-format
 msgid "%s address"
-msgstr ""
+msgstr "%s アドレス"
 
 msgid "Enter the Global Unicast routable IPv6 prefix here"
 msgstr ""
@@ -13791,10 +13774,9 @@ msgstr "アドレス: "
 msgid "Internal IPv6 Prefix"
 msgstr "内部 IPv6 プレフィックス"
 
-#
 # File: /usr/core/src/www/firewall_nat_npt_edit.php, line: 147
 msgid "Edit NAT NPTv6 entry"
-msgstr ""
+msgstr "NAT NPTv6 エントリを編集"
 
 msgid "Destination prefix"
 msgstr "送信先プレフィックス"
@@ -14140,12 +14122,13 @@ msgid ""
 "destination."
 msgstr "1:1 マッピングは指定した送信先との送受信に対してのみ使用されます。"
 
-#
 # File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 356
 msgid ""
 "Enter the internal subnet for the 1:1 mapping. The subnet size specified for "
 "the source will be applied to the external subnet, when none is provided."
 msgstr ""
+"1:1 マッピングの内部サブネットを入力してください。「なし」を指定した場合、送信元に指定したサブネットサイズは"
+"外部サブネットにも適用されます。"
 
 # File: src/www/firewall_nat_1to1_edit.php, line: 349
 # File: src/www/firewall_nat_1to1_edit.php, line: 400
@@ -14170,28 +14153,25 @@ msgstr "このオプションを使用すると、一致する意味が逆にな
 msgid "Invert"
 msgstr "反転"
 
-#
 # File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 305
 msgid "This is the address or network the traffic will translate to/from."
-msgstr ""
+msgstr "これはトラフィックの to/from を変換するアドレスもしくはネットワークです。"
 
-#
 # File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 304
 msgid ""
 "The subnet mask from the internal address below will be applied to this IP "
 "address, when none is provided."
 msgstr ""
+"「なし」が指定された場合、この IP アドレスには下にある内部アドレスのサブネットマスクを適用されます。"
 
-#
 # File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 303
 msgid ""
 "Enter the external subnet's starting address for the 1:1 mapping or network."
-msgstr ""
+msgstr "1:1 マッピングもしくはネットワークに対する外部サブネットの開始アドレスを入力してください。"
 
-#
 # File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 299
 msgid "External network"
-msgstr ""
+msgstr "外部ネットワーク"
 
 #
 # File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 294
