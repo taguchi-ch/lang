@@ -14173,20 +14173,22 @@ msgstr "1:1 マッピングもしくはネットワークに対する外部サ�
 msgid "External network"
 msgstr "外部ネットワーク"
 
-#
 # File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 294
 msgid ""
 "A BINAT rule specifies a bidirectional mapping between an external and "
 "internal network and can be used from both ends, nat only applies in one "
 "direction."
 msgstr ""
+"BINAT ルールは外部と内部ネットワーク間の双方向マッピングを指定し、両端から使用可能です。"
+"NAT は一方向のみが適用されます。"
 
-#
 # File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 292
 msgid ""
 "Select BINAT (default) or NAT here, when nets are equally sized binat is "
 "usually the best option.Using NAT we can also map unequal sized networks."
 msgstr ""
+"BINAT ( デフォルト ) と NAT をここで選択します。ネットワークが等しいサイズである場合 BINET は"
+"通常最高のオプションです。NAT を使用することでネットワークのサイズが異なるマッピングも可能です。"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 756
 msgid "BINAT"
@@ -14222,11 +14224,10 @@ msgstr "有効な送信元ビット数を指定してください"
 msgid "%s is not a valid source IP address or alias."
 msgstr "%s は有効な送信元 IP アドレス、またはエイリアスではありません"
 
-#
 # File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 117
 #, php-format
 msgid "%s is not a valid source IP address."
-msgstr ""
+msgstr "%s は有効な送信元 IP アドレスではありません。"
 
 msgid "A valid external subnet must be specified."
 msgstr "有効な外部サブネットを指定してください"
@@ -14300,10 +14301,9 @@ msgstr "ルールを追加"
 msgid "Alias (click to view/edit)"
 msgstr "エイリアス ( クリックして表示 / 編集 )"
 
-#
 # File: /usr/core/src/www/firewall_nat.php, line: 477
 msgid "Linked rule"
-msgstr ""
+msgstr "ルールをリンク"
 
 # File: src/www/firewall_nat.php, line: 434
 msgid "No redirect"
@@ -14323,41 +14323,35 @@ msgstr "ルールを無効"
 msgid "Enabled rule"
 msgstr "ルールを有効"
 
-#
 # File: /usr/core/src/www/firewall_nat.php, line: 453
 # File: /usr/core/src/www/firewall_rules.php, line: 685
 msgid "Add new rule"
-msgstr ""
+msgstr "新規ルールを追加"
 
-#
 # File: /usr/core/src/www/firewall_nat.php, line: 447
 # File: /usr/core/src/www/firewall_nat.php, line: 449
 # File: /usr/core/src/www/firewall_rules.php, line: 682
 msgid "Delete selected rules"
-msgstr ""
+msgstr "選択したルールを削除"
 
-#
 # File: /usr/core/src/www/firewall_nat.php, line: 442
 # File: /usr/core/src/www/firewall_rules.php, line: 679
 msgid "Move selected rules to end"
-msgstr ""
+msgstr "選択したルールを末尾に移動"
 
-#
 # File: /usr/core/src/www/firewall_nat.php, line: 426
 # File: /usr/core/src/www/firewall_rules.php, line: 648
 msgid "Clone rule"
-msgstr ""
+msgstr "ルールをクローン"
 
-#
 # File: /usr/core/src/www/firewall_nat.php, line: 423
 # File: /usr/core/src/www/firewall_rules.php, line: 643
 msgid "Delete rule"
-msgstr ""
+msgstr "ルールを削除"
 
-#
 # File: /usr/core/src/www/firewall_nat.php, line: 417
 msgid "Move selected rules before this rule"
-msgstr ""
+msgstr "選択したルールをこのルールの前に移動"
 
 # File: src/www/firewall_nat.php, line: 333
 # File: src/www/firewall_nat.php, line: 347
@@ -14455,15 +14449,13 @@ msgstr ""
 msgid "%s is not an IP address. Please correct the error to continue"
 msgstr "%s は IP アドレスではありません。継続するにはエラーを修正してください"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 696
 msgid "toggle all"
-msgstr ""
+msgstr "全て切り替え"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 645
 msgid "Alias Expiration. (days + hours)"
-msgstr ""
+msgstr "エイリアスの有効期限。( 日数 + 時間数 )"
 
 #
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 630
@@ -14473,10 +14465,9 @@ msgid ""
 "leaves the contents alone"
 msgstr ""
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 623
 msgid "Select contries to be resolved to IPs. IPv4 and IPv6 can be mixed."
-msgstr ""
+msgstr "IP を解決する国を選択してください。IPv4 と IPv6 が混じっても構いません。"
 
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 521
 msgid ""
@@ -14526,11 +14517,10 @@ msgstr ""
 "イン名 (FQDN) で指定してください。FQDN ホスト名は、定期的に再名前解決して更新"
 "されます。複数の IP が DNS 照会で戻ってきた場合は、全てが使用されます。"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 581
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 627
 msgid "External (advanced)"
-msgstr ""
+msgstr "外部 ( 詳細 )"
 
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 458
 msgid "GeoIP"
@@ -14556,10 +14546,9 @@ msgstr "存在するエイリアスのエイリアスタイプは変更できま
 msgid "An alias with this name already exists."
 msgstr "同じ名前のエイリアスが既に存在します"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 267
 msgid "Expiration should be a number"
-msgstr ""
+msgstr "有効期間は数値です"
 
 #, php-format
 msgid "The name cannot be the internally reserved keyword \"%s\"."
@@ -14578,11 +14567,10 @@ msgstr "この名前のインタフェースの説明は、既に存在してい
 msgid "Cannot use a reserved keyword as alias name %s"
 msgstr "エイリアス名 %s として予約語を使用できません"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 153
 #, php-format
 msgid "Entry \"%s\" is not a valid network or IP address."
-msgstr ""
+msgstr "エントリ %s は有効なネットワークもしくは IP アドレスではありません。"
 
 #, php-format
 msgid "Entry \"%s\" is not a valid country code."
@@ -14598,18 +14586,18 @@ msgstr "エントリ %s は有効なポート番号ではありません。"
 msgid "Entry \"%s\" is not a valid hostname or IP address."
 msgstr "エントリ %s は有効なホスト名もしくは IP アドレスではありません。"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 137
 #, php-format
 msgid ""
 "Entry \"%s\" seems to contain a list of addresses, please use a network type "
 "alias to define ranges."
 msgstr ""
+"エントリ %s はアドレスリストを含んでいるようです。範囲の定義にはネットワークタイプエイリアスを"
+"使用してください。"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 195
 msgid "At least one alias entry must be supplied."
-msgstr ""
+msgstr "少なくとも 1 つのエイリアスエントリを入力してください。"
 
 #, php-format
 msgid "Entry added %s"
@@ -15316,15 +15304,13 @@ msgstr "VPN ( PPTP、IPsec、OpenVPN ) イベント"
 msgid "Portal Auth events"
 msgstr "ポータル認証イベント"
 
-#
 # File: /usr/core/src/www/diag_logs_settings.php, line: 516
 msgid "Mail service events"
-msgstr ""
+msgstr "メールサービスイベント"
 
-#
 # File: /usr/core/src/www/diag_logs_settings.php, line: 514
 msgid "DNS service events"
-msgstr ""
+msgstr "DNS サービスイベント"
 
 msgid "DHCP service events"
 msgstr "DHCP サービスイベント"
@@ -15718,10 +15704,9 @@ msgstr "出力バイト"
 msgid "Bytes in"
 msgstr "入力バイト"
 
-#
 # File: /usr/core/src/www/diag_ipsec.php, line: 213
 msgid "Routed"
-msgstr ""
+msgstr "ルート"
 
 # File: src/www/diag_ipsec.php, line: 151
 msgid "Stats"
@@ -15848,10 +15833,9 @@ msgstr "ホストには、有効なホスト名または IP アドレスが必�
 msgid "Are you sure you want to proceed?"
 msgstr "続行してもよろしいですか？"
 
-#
 # File: /usr/core/src/www/diag_defaults.php, line: 73
 msgid "Shut down after changes are complete"
-msgstr ""
+msgstr "変更完了後にシャットダウン"
 
 # File: /usr/core/src/www/diag_defaults.php, line: 57
 msgid "Admin user name and password will be reset"
@@ -15875,16 +15859,14 @@ msgstr "出荷時の規定値にリセット"
 msgid "If you click \"Yes\", the system will:"
 msgstr "「はい」をクリックすると、システムは次を実行します: "
 
-#
 # File: /usr/core/src/www/diag_defaults.php, line: 52
 msgid "The system has been reset to factory defaults and is shutting down."
-msgstr ""
+msgstr "システムは出荷時の規定値にリセットされました。シャットダウンしています。"
 
-#
 # File: /usr/core/src/www/diag_defaults.php, line: 48
 # File: /usr/core/src/www/diag_halt.php, line: 47
 msgid "Your device is powering off"
-msgstr ""
+msgstr "あなたのデバイスの電源を切っています"
 
 msgid "Download this backup"
 msgstr "このバックアップをダウンロード"
@@ -15973,11 +15955,10 @@ msgstr "タイムスタンプを %s に戻すことに成功しました: 説明
 msgid "Backup count must be greater than zero."
 msgstr "バックアップ数は 0 よりも大きい値です。"
 
-#
 # File: /usr/core/src/www/diag_backup.php, line: 468
 #, php-format
 msgid "Setup/Test %s"
-msgstr ""
+msgstr "セットアップ/テスト %s"
 
 # File: /usr/core/src/www/diag_backup.php, line: 603
 msgid ""
@@ -16028,10 +16009,9 @@ msgstr "RRD データをバックアップしない。"
 msgid "Backup successful, current file list:"
 msgstr "バックアップは成功しました。現在のファイルリスト: "
 
-#
 # File: /usr/core/src/www/diag_backup.php, line: 286
 msgid "communication failure"
-msgstr ""
+msgstr "通信エラー"
 
 msgid "The system is rebooting now. This may take one minute."
 msgstr "システムを再起動しています。1 分程かかります"
