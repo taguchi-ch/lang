@@ -14457,13 +14457,14 @@ msgstr "全て切り替え"
 msgid "Alias Expiration. (days + hours)"
 msgstr "エイリアスの有効期限。( 日数 + 時間数 )"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 630
 msgid ""
 "Managed externally, the contents of this alias type could be managed by "
 "other scripts or services. OPNsense only makes sure the alias exists and "
 "leaves the contents alone"
 msgstr ""
+"外部で管理する場合、このエイリアスタイプの内容は他のスクリプトもしくはサービスによって管理可能です。"
+"OPNsense はエイリアスが存在することを確認するだけで、内容に関しては何もしません。"
 
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 623
 msgid "Select contries to be resolved to IPs. IPv4 and IPv6 can be mixed."
@@ -14526,12 +14527,12 @@ msgstr "外部 ( 詳細 )"
 msgid "GeoIP"
 msgstr "GeoIP"
 
-#
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 556
 msgid ""
 "The name of the alias may only consist of the characters \"a-z, A-Z, 0-9 and "
 "_\". Aliases can be nested using this name."
 msgstr ""
+"エイリアス名には a-z、A-Z、0-9、_ の文字のみが使用できます。エイリアスはこの名前を使ってネストできます。"
 
 msgid "Alias Edit"
 msgstr "エイリアスの編集"
@@ -16137,10 +16138,9 @@ msgstr "認証サーバ"
 msgid "Authentication failed."
 msgstr "認証に失敗しました"
 
-#
 # File: /usr/core/src/www/diag_authentication.php, line: 69
 msgid "Attributes received from server"
-msgstr ""
+msgstr "サーバから受信した属性"
 
 msgid "This user is a member of these groups"
 msgstr "このユーザはこれらのグループのメンバーです"
@@ -16210,12 +16210,13 @@ msgstr "このレポートを破棄"
 msgid "Please consider submitting a crash report if the error persists."
 msgstr "エラーが解決しない場合は、クラッシュレポートの送信をお願いします。"
 
-#
 # File: /usr/core/src/www/crash_reporter.php, line: 198
 msgid ""
 "This crash report contains no actual crash information. If you want to "
 "submit a problem please fill out your e-mail and description below."
 msgstr ""
+"このクラッシュレポートには実際のクラッシュ情報は含まれていません。"
+"もし問題を送信したい場合は下にあなたのメールアドレスと詳細内容を記入してください。"
 
 # File: src/www/crash_reporter.php, line: 115
 msgid "Thank you for submitting this crash report."
@@ -16286,20 +16287,17 @@ msgstr "しばらくお待ち下さい..."
 msgid "Toggle navigation"
 msgstr "ナビゲーションを切り替え"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 182
 msgid "No results found!"
-msgstr ""
+msgstr "結果が見つかりませんでした！"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 181
 msgid "Loading..."
-msgstr ""
+msgstr "ロードしています..."
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 180
 msgid "Showing %s to %s of %s entries"
-msgstr ""
+msgstr "%1$s を %3$s エントリの %2$s に表示"
 
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 62
 msgid "An API exception occured"
@@ -16379,10 +16377,9 @@ msgstr ""
 msgid "Error reconfiguring trafficshaper"
 msgstr "トラフィックシェーパの再構成にエラーが発生しました"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Routes/index.volt, line: 101
 msgid "Edit route"
-msgstr ""
+msgstr "ルートを編集"
 
 # File: /usr/core/src/www/system_routes.php, line: 327
 msgid ""
@@ -16394,15 +16391,13 @@ msgstr ""
 "トを入力しないでください。静的ルートは、デフォルトゲートウェイ経由では到達で"
 "きず、異なるルータを経由することで到達可能なネットワークにのみ使用されます。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Routes/index.volt, line: 42
 msgid "Error reconfiguring routes"
-msgstr ""
+msgstr "ルートの再構成エラー"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 267
 msgid "Edit blacklist"
-msgstr ""
+msgstr "ブラックリストを編集"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 294
 msgid "Schedule with Cron"
@@ -16428,7 +16423,6 @@ msgstr ""
 "注意: カテゴリを変更した場合は新しい設定に適用する ACL をもう一度ダウンロード"
 "するのを忘れないで下さい。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 221
 msgid ""
 "Add an item to the table to fetch a remote acl for blacklisting.%s\n"
@@ -16436,6 +16430,10 @@ msgid ""
 "                      The active blacklists will be merged with the settings "
 "under %sForward Proxy -> Access Control List%s."
 msgstr ""
+"ブラックリストに登録するリモート ACL を取得して、テーブルに項目を追加します。%s\n"
+"                      ブラックリストにするリストは有効無効を選択できます。%s\n"
+"                      アクティブなブラックリストは%sプロキシ転送 -> アクセスコ"
+"ントロールリスト%sの下の設定とマージされます。\n"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 252
 msgid "Remote Blacklist"
@@ -16488,11 +16486,10 @@ msgstr "サービステスト設定"
 msgid "Alert Settings"
 msgstr "アラート設定"
 
-#
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 37
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 37
 msgid "Import System Notification"
-msgstr ""
+msgstr "システム通知をインポート"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 757
 msgid "Ruleset details"
@@ -16507,10 +16504,9 @@ msgstr "ルール詳細"
 msgid "Query"
 msgstr "クエリ"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 838
 msgid "Delete Alert Log"
-msgstr ""
+msgstr "アラートログを削除"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 540
 msgid "Info / Enabled"
@@ -16584,10 +16580,9 @@ msgstr "ログファイルを削除"
 msgid "Error reconfiguring IDS"
 msgstr "IDS 再構成エラー"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 473
 msgid "Alert info"
-msgstr ""
+msgstr "アラート情報"
 
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 134
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 167
@@ -16599,70 +16594,57 @@ msgstr "ペイロード"
 msgid "Changes will be active after apply (rules tab)"
 msgstr "変更は適用後にアクティブになります ( ルールタブ )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 436
 msgid "Configured action"
-msgstr ""
+msgstr "構成されたアクション"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 399
 msgid "tls notafter"
-msgstr ""
+msgstr "TLS 有効期間終了日時"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 398
 msgid "tls notbefore"
-msgstr ""
+msgstr "TLS 有効期間開始日時"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 397
 msgid "tls version"
-msgstr ""
+msgstr "TLS バージョン"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 396
 msgid "tls serial"
-msgstr ""
+msgstr "TLS シリアル"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 395
 msgid "tls fingerprint"
-msgstr ""
+msgstr "TLS フィンガープリント"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 394
 msgid "tls session resumed"
-msgstr ""
+msgstr "TLS セッション再開"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 393
 msgid "tls issuer"
-msgstr ""
+msgstr "TLS Issuer"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 392
 msgid "tls subject"
-msgstr ""
+msgstr "TLS Subject"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 391
 msgid "http content_type"
-msgstr ""
+msgstr "HTTP content_type"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 390
 msgid "http user_agent"
-msgstr ""
+msgstr "HTTP user_agent"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 389
 msgid "http url"
-msgstr ""
+msgstr "HTTP URL"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 388
 msgid "http hostname"
-msgstr ""
+msgstr "HTTP ホスト名"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 439
 msgid "Destination port"
@@ -16671,10 +16653,9 @@ msgstr "送信先ポート"
 msgid "Destination IP"
 msgstr "送信先 IP"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 381
 msgid "Alert sid"
-msgstr ""
+msgstr "アラート SID"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 301
 msgid "not installed"
@@ -16918,10 +16899,9 @@ msgstr "In"
 msgid "click on pie for details"
 msgstr "詳細は円でクリック"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 710
 msgid "Reverse lookup"
-msgstr ""
+msgstr "DNS 逆引き"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 666
 msgid "Top usage ports / sources (bytes)"
@@ -17034,15 +17014,13 @@ msgstr "プロトコル"
 msgid "Time"
 msgstr "時間"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_log.volt, line: 217
 msgid "Auto refresh"
-msgstr ""
+msgstr "自動更新"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_log.volt, line: 121
 msgid "Detailed rule info"
-msgstr ""
+msgstr "詳細ルール情報"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 100
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 94
@@ -17076,22 +17054,19 @@ msgstr "MAC"
 msgid "IP"
 msgstr "IP"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 69
 msgid ""
 "Flush the ARP cache manually, in case your ARP cache contains invalid data."
-msgstr ""
+msgstr "ARP キャッシュを手動で書き込みします。ARP キャッシュに不正なデータが含まれる可能性があります。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 68
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 75
 msgid "Flush ARP Table"
-msgstr ""
+msgstr "ARP テーブルに書き込み"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 158
 msgid "Edit job"
-msgstr ""
+msgstr "ジョブを編集"
 
 msgid "Edit"
 msgstr "編集"
@@ -17117,10 +17092,9 @@ msgstr "オリジン"
 msgid "Jobs"
 msgstr "ジョブ"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/not_found.volt, line: 8
 msgid "Go back to previous page"
-msgstr ""
+msgstr "前のページに戻る"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 451
 msgid ""
@@ -17141,15 +17115,13 @@ msgstr "サブスクリプション鍵を入力してください。"
 msgid "Subscription"
 msgstr "サブスクリプション"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 830
 msgid "Select the release type. Use with care."
-msgstr ""
+msgstr "リリースタイプを選択してください。注意して使用してください。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 825
 msgid "Release Type"
-msgstr ""
+msgstr "リリースタイプ"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 709
 msgid "Select the firmware cryptography flavour."
@@ -17170,20 +17142,17 @@ msgstr "ファームウェアミラー"
 msgid "Comment"
 msgstr "コメント"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 740
 msgid "The next major release is:"
-msgstr ""
+msgstr "次のメジャーリリース: "
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 651
 msgid "This software release has reached its designated end of life."
-msgstr ""
+msgstr "このソフトウェアリリースはサポート終了時期を迎えています。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 737
 msgid "Unlock this upgrade"
-msgstr ""
+msgstr "この更新をアンロック"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 207
 msgid "Upgrade now"
@@ -17201,20 +17170,17 @@ msgstr "更新を確認"
 msgid "Audit now"
 msgstr "今すぐ監査"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 655
 msgid "Update now"
-msgstr ""
+msgstr "今すぐ更新"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 560
 msgid "Unlock"
-msgstr ""
+msgstr "アンロック"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 498
 msgid "Upgrade instructions"
-msgstr ""
+msgstr "取扱説明書を更新"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 424
 msgid "Click to view full changelog history."
@@ -17260,10 +17226,9 @@ msgstr "デバイスを再起動しています"
 msgid "Upgrade done."
 msgstr "アップグレードが終了しました。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 325
 msgid "Action done."
-msgstr ""
+msgstr "アクションが終了しました。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 266
 msgid "Audit done."
