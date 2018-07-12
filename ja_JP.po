@@ -17234,36 +17234,34 @@ msgstr "アクションが終了しました。"
 msgid "Audit done."
 msgstr "監査が終了しました。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 219
 msgid ""
 "The firewall will download all firmware sets and reboot multiple times for "
 "this upgrade. All operating system files and packages will be reinstalled as "
 "a consequence. This may take several minutes to complete."
 msgstr ""
+"この更新で、ファイアウォールは全てのファームウェアセットをダウンロードし、複数回再起動します。"
+"全てのオペレーティング・システムファイル及びパッケージは結果として再インストールされます。"
+"終了まで数分かかる見込みです。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 217
 msgid "The firewall will reboot directly after this firmware update."
-msgstr ""
+msgstr "このファームウェア更新後そのままファイアウォールは再起動します。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 247
 msgid "Executing, please wait..."
-msgstr ""
+msgstr "実行しています。お待ち下さい..."
 
 msgid "Abort"
 msgstr "中止"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 224
 msgid "Reboot required"
-msgstr ""
+msgstr "再起動が必要です"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 213
 msgid "The firewall will reboot directly after this set reinstall."
-msgstr ""
+msgstr "このセットの再インストール後そのままファイアウォールは再起動します。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 155
 msgid "License details"
@@ -17274,25 +17272,21 @@ msgid "Sorry, the package does not have an associated license file."
 msgstr ""
 "申し訳ありませんが、そのパッケージに関連するライセンスファイルがありません。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 166
 msgid "Plugin details"
-msgstr ""
+msgstr "プラグイン詳細"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 162
 msgid "Sorry, plugin details are currently not available."
-msgstr ""
+msgstr "申し訳ありませんが、プラグイン詳細は現在利用できません。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 145
 msgid "Auditing, please wait..."
-msgstr ""
+msgstr "監査しています。お待ち下さい..."
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 122
 msgid "Updating, please wait..."
-msgstr ""
+msgstr "更新しています。お待ち下さい..."
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 77
 msgid "Required Action"
@@ -17310,10 +17304,9 @@ msgstr "現在のバージョン"
 msgid "Package Name"
 msgstr "パッケージ名"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 39
 msgid "Checking, please wait..."
-msgstr ""
+msgstr "チェックしています。お待ち下さい..."
 
 msgid "Generate"
 msgstr "生成"
@@ -17326,50 +17319,41 @@ msgstr "グループ名"
 msgid "Number of vouchers"
 msgstr "バウチャーの数"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 460
 msgid "Custom (hours)"
-msgstr ""
+msgstr "カスタム ( 時間 )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 459
 msgid "3 months"
-msgstr ""
+msgstr "3 ヶ月"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 458
 msgid "2 months"
-msgstr ""
+msgstr "2 ヶ月"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 457
 msgid "1 month"
-msgstr ""
+msgstr "1 ヶ月"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 456
 msgid "3 weeks"
-msgstr ""
+msgstr "3 週間"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 447
 msgid "12 hours"
-msgstr ""
+msgstr "12 時間"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 446
 msgid "6 hours"
-msgstr ""
+msgstr "6 時間"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 445
 msgid "never"
-msgstr ""
+msgstr "無期限"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 442
 msgid "Expires in"
-msgstr ""
+msgstr "有効期間: "
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 416
 msgid "Custom (minutes)"
@@ -17419,10 +17403,9 @@ msgstr "4 時間"
 msgid "Validity"
 msgstr "有効性"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 417
 msgid "Setting"
-msgstr ""
+msgstr "設定"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 276
 msgid "Generate vouchers"
@@ -17443,10 +17426,9 @@ msgstr "選択したバウチャーを有効期限切れにする"
 msgid "State"
 msgstr "ステート"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 365
 msgid "Expires at"
-msgstr ""
+msgstr "有効期間終了: "
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 241
 msgid "Valid to"
@@ -17471,11 +17453,10 @@ msgstr "このグループに含まれる有効期限の切れた全てのバウ
 msgid "Remove expired vouchers"
 msgstr "有効期限の切れたバウチャーを削除"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 187
 msgid ""
 "The validity, expiry time and the quantity of vouchers must be integers."
-msgstr ""
+msgstr "有効性はバウチャーの有効期間及び数量で数値で指定してください。"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 140
 msgid "All vouchers within this group will be deleted"
@@ -17504,10 +17485,9 @@ msgstr "テンプレート名"
 msgid "Upload file"
 msgstr "ファイルをアップロード"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 244
 msgid "Edit zone"
-msgstr ""
+msgstr "ゾーンを編集"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 111
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 505
@@ -17537,26 +17517,23 @@ msgstr "テンプレートのアップロード中にエラーが発生しまし
 msgid "Error reconfiguring captiveportal"
 msgstr "キャプティブポータルの再構成中にエラーが発生しました"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 183
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 287
 msgid "Do you want to remove the selected item?"
-msgstr ""
+msgstr "選択した項目を削除しますか？"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 182
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 286
 msgid "Confirm removal"
-msgstr ""
+msgstr "削除を確認"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 89
 msgid "Commands"
 msgstr "コマンド"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 137
 msgid "Connected since"
-msgstr ""
+msgstr "接続開始: "
 
 msgid "IP address"
 msgstr "IP アドレス"
@@ -17571,26 +17548,22 @@ msgstr "はい"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 99
 msgid "Do you want to disconnect the selected client?"
-msgstr ""
+msgstr "選択したクライアントを切断しますか？"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 98
 msgid "Confirm disconnect"
-msgstr ""
+msgstr "切断を確認"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/Menu/MenuSystem.php, line: 251
 msgid "Floating"
-msgstr ""
+msgstr "フローティング"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Base/Menu/MenuSystem.php, line: 244
 #, php-format
 msgid "%s Status"
-msgstr ""
+msgstr "%s ステータス"
 
 # File: /usr/core/src/etc/inc/config.lib.inc, line: 320
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Core/Config.php, line: 377
@@ -17610,70 +17583,57 @@ msgstr ""
 "有効な config.xml が見つかりません。確認できる最新設定からリストアしていま"
 "す。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 92
 msgid "Secure Copy"
-msgstr ""
+msgstr "セキュアコピー"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 76
 msgid "Set the remote directory to backup the config file to."
-msgstr ""
+msgstr "構成ファイルをバックアップするリモートディレクトリを設定してください。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 75
 msgid "Remote Directory"
-msgstr ""
+msgstr "リモートディレクトリ"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 70
 msgid "Set the remote username."
-msgstr ""
+msgstr "リモートユーザ名を設定してください。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 69
 msgid "Remote Username"
-msgstr ""
+msgstr "リモートユーザ名"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 64
 msgid "Set the remote port."
-msgstr ""
+msgstr "リモートポートを設定してください。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Scp.php, line: 58
 msgid "Set the remote hostname."
-msgstr ""
+msgstr "リモートホスト名を設定してください。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 97
 msgid "Nextcloud"
-msgstr ""
+msgstr "Nextcloud"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 80
 msgid "Directory Name"
-msgstr ""
+msgstr "ディレクトリ名"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 74
 msgid "The app password which has been generated for you"
-msgstr ""
+msgstr "あなたに生成された app パスワード"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 67
 msgid "The name you use for logging into your Nextcloud account"
-msgstr ""
+msgstr "Nextcloud アカウントにログインするのに使用している名前"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 66
 msgid "User Name"
-msgstr ""
+msgstr "ユーザ名"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 60
 msgid "The Base URL to Nextcloud. For example: https://cloud.example.com"
-msgstr ""
+msgstr "Nextcloud へのベース URL。例: https://cloud.example.com"
 
 msgid "The supplied 'Password' and 'Confirm' field values must match."
 msgstr ""
@@ -17683,45 +17643,43 @@ msgstr ""
 msgid "Google Drive"
 msgstr "Google ドライブ"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 104
 msgid "Confirm"
-msgstr ""
+msgstr "確認"
 
 msgid "Backup Count"
 msgstr "バックアップ数"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 85
 msgid ""
 "Normally the config xml will be written as config-stamp.xml, with this "
 "option set the filename will use the systems host and domain name."
 msgstr ""
+"通常構成 xml は config-stamp.xml として書き込まれます。このオプションはファイル名を"
+"システムのホストとドメイン名に使用するよう設定されます。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 84
 msgid "Prefix hostname to backupfile"
-msgstr ""
+msgstr "バックアップファイルのプレフィックスホスト名"
 
 # File: src/www/diag_backup.php, line: 760
 msgid "Folder ID"
 msgstr "フォルダ ID"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 67
 #, php-format
 msgid ""
 "You need a private key in p12 format to use Google Drive, instructions on "
 "how to aquire one can be found here %s "
 msgstr ""
+"Google ドライブで使用する P12 形式のプライベート鍵が必要です。どのように入手するかについては %s で解説されています"
 
 msgid "P12 key"
 msgstr "P12 鍵"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/GDrive.php, line: 59
 msgid "Client-ID in the Google cloud console"
-msgstr ""
+msgstr "Google Cloud Console の クライアント ID"
 
 msgid "Email Address"
 msgstr "電子メールアドレス"
@@ -17763,15 +17721,13 @@ msgstr "シンプルパスワードを使用 ( 非セキュア )"
 msgid "Voucher"
 msgstr "バウチャー"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 246
 msgid "Require the password in front of the token instead of behind it."
-msgstr ""
+msgstr "トークンの後ではなく直前でパスワードを要求します。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 245
 msgid "Reverse token order"
-msgstr ""
+msgstr "トークン順を反転"
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 224
 msgid "Please enter a valid grace period in seconds"
@@ -17820,48 +17776,43 @@ msgstr "トークンの長さ"
 msgid "Local + Timebased One Time Password"
 msgstr "Local + 時刻ベースワンタイムパスワード"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Local.php, line: 101
 msgid "The username may not be a part of the password"
-msgstr ""
+msgstr "ユーザ名をパスワードの一部分に使用することはできません"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Local.php, line: 98
 msgid ""
 "Password should contain at least 3 of the 4 different character groups "
 "(lowercase, uppercase, number, special)"
 msgstr ""
+"パスワードは少なくとも 3、4種類の異なる文字種で作成してください ( 大文字、小文字、数字、特殊文字 )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Local.php, line: 94
 msgid "Current password equals new password"
-msgstr ""
+msgstr "現在のパスワードは新規パスワードと同じです"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/Local.php, line: 82
 #, php-format
 msgid "Password must have at least %d characters"
-msgstr ""
+msgstr "パスワードは %d 文字以上にしてください"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Cron/Api/SettingsController.php, line: 80
 #, php-format
 msgid ""
 "This item has been created by another service, command and parameter may not "
 "be changed. (was: %s)"
 msgstr ""
+"この項目は他のサービスが作成したものです。コマンドとパラメータを変更することは出来ません。( 旧項目: %s )"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Cron/Api/SettingsController.php, line: 75
 msgid ""
 "This item has been created by another service, command and parameter may not "
 "be changed."
-msgstr ""
+msgstr "この項目は他のサービスが作成したものです。コマンドとパラメータを変更することは出来ません。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/IndexController.php, line: 44
 msgid "Page not found"
-msgstr ""
+msgstr "ページが見つかりません"
 
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 146
 msgid "Firmware status check was aborted internally. Please try again."
@@ -17920,10 +17871,9 @@ msgstr "新"
 msgid "N/A"
 msgstr "N/A"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 81
 msgid "The release type requires an update."
-msgstr ""
+msgstr "そのリリースタイプは更新が必要です。"
 
 msgid "WARNING: You must give a name as parameter to try_lock() function."
 msgstr "警告: 関数 try_lock() のパラメータとして「名前」が必要です。"
@@ -17953,15 +17903,13 @@ msgstr "シリアルコンソール"
 msgid "VGA Console"
 msgstr "VGA コンソール"
 
-#
 # File: /usr/core/src/etc/inc/system.inc, line: 232
 msgid "Turkish"
-msgstr ""
+msgstr "トルコ語"
 
-#
 # File: /usr/core/src/etc/inc/system.inc, line: 231
 msgid "Spanish"
-msgstr ""
+msgstr "スペイン語"
 
 # File: /usr/core/src/www/system_general.php, line: 51
 msgid "Russian"
@@ -17989,10 +17937,9 @@ msgstr "ドイツ語"
 msgid "French"
 msgstr "フランス語"
 
-#
 # File: /usr/core/src/etc/inc/system.inc, line: 223
 msgid "Dutch"
-msgstr ""
+msgstr "オランダ語"
 
 msgid "Chinese (Simplified)"
 msgstr "中国語 ( 簡体字 )"
@@ -18088,61 +18035,55 @@ msgid "The specified 'Local port' is in use. Please select another value."
 msgstr ""
 "指定した「ローカルポート」は既に使用されています。他の値を選択してください。"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 343
 msgid ""
 "Please enter a different name for the Certicicate. A Certificate with that "
 "name/common name already exists."
 msgstr ""
+"証明書に別の名前を入力してください。その名前もしくはコモンネームの証明書は既に存在しています。"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 336
 msgid "Please enter all information for the new certificate."
-msgstr ""
+msgstr "新規証明書の全ての情報を入力してください。"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 243
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 347
 msgid "Please enter only a two-letter ISO country code"
-msgstr ""
+msgstr "2 文字の ISO 国名コードのみを入力してください"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 239
 msgid ""
 "Please enter a different name for the Certicicate Authority. A Certificate "
 "Authority with that name already exists."
 msgstr ""
+"認証局に別の名前を入力してください。その名前の認証局は既に存在しています。"
 
 # File: src/etc/inc/openvpn_wizard.inc, line: 216
 # File: src/etc/inc/openvpn_wizard.inc, line: 315
 msgid "Please do not use special characters in Certificate field names."
 msgstr "証明書フィールド名に特殊文字を使用しないでください。"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 232
 msgid "Please enter all information for the new Certificate Authority."
-msgstr ""
+msgstr "新規認証局の全ての情報を入力してください。"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 120
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 184
 msgid ""
 "Please enter a valid IP address or hostname for the authentication server."
-msgstr ""
+msgstr "認証サーバの有効な IP アドレスもしくはホスト名を入力してください。"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 116
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 180
 msgid ""
 "Please choose a different name because an authentication server with this "
 "name already exists."
-msgstr ""
+msgstr "別の名前を選択してください。その名前の認証サーバが既に存在しています。"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 113
 # File: /usr/core/src/etc/inc/plugins.inc.d/openvpn/wizard.inc, line: 177
 msgid "Please enter all information for authentication server."
-msgstr ""
+msgstr "認証サーバの全ての情報を入力してください。"
 
 msgid "Please enter a valid port number."
 msgstr "有効なポート番号を入力してください。"
@@ -18240,15 +18181,13 @@ msgstr "SSH デーモン"
 msgid "Network Time Daemon"
 msgstr "ネットワークタイムデーモン"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/netflow.inc, line: 63
 msgid "Insight Aggregator"
-msgstr ""
+msgstr "分析アグリゲータ"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc.d/netflow.inc, line: 52
 msgid "NetFlow Distributor"
-msgstr ""
+msgstr "NetFlow ディストリビュータ"
 
 # File: /usr/plugins/sysutils/monit/src/etc/inc/plugins.inc.d/monit.inc, line: 39
 # File: /usr/plugins/sysutils/monit/src/etc/inc/plugins.inc.d/monit.inc, line: 60
@@ -18629,55 +18568,45 @@ msgstr ""
 msgid "You must specify at least one internal interface."
 msgstr "1 つ以上の内部インタフェースを指定してください。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 190
 msgid "Test Kerberos login"
-msgstr ""
+msgstr "Kerberos ログインをテスト"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 186
 msgid "Show Key Table"
-msgstr ""
+msgstr "鍵テーブルを表示"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 185
 msgid "Delete Key Table"
-msgstr ""
+msgstr "鍵テーブルを削除"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 184
 msgid "Create Key Table"
-msgstr ""
+msgstr "鍵テーブルを新規作成"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 164
 msgid "Kerberos Authentication"
-msgstr ""
+msgstr "Kerberos 認証"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 148
 msgid "Show dump"
-msgstr ""
+msgstr "ダンプを表示"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 85
 msgid "Proxy reconfigured"
-msgstr ""
+msgstr "プロキシを再構成しました"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 266
 msgid "LDAP server is not set in Web Proxy - Authentication Settings"
-msgstr ""
+msgstr "Web プロキシに LDAP サーバが設定されていません - 認証設定"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 260
 msgid "Do not set localhost as DNS server."
-msgstr ""
+msgstr "DNS サーバとして localhost を設定してはいけません。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 257
 msgid "LDAP server is not in DNS servers list."
-msgstr ""
+msgstr "LDAP サーバは DNS サーバリスト内ではありません。"
 
 #
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 238
