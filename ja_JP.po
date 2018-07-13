@@ -18608,69 +18608,56 @@ msgstr "DNS サーバとして localhost を設定してはいけません。"
 msgid "LDAP server is not in DNS servers list."
 msgstr "LDAP サーバは DNS サーバリスト内ではありません。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 238
 msgid "SSO is not enabled or kerberos configuration file has invalid content"
-msgstr ""
+msgstr "SSO が有効ではないか、Kerberos 構成ファイルに不正な内容があります"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 232
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 249
 #, php-format
 msgid "File %s does not exists."
-msgstr ""
+msgstr "ファイル %s は存在していません。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 213
 msgid "LDAP server DNS lookup is not equal to LDAP IP. "
-msgstr ""
+msgstr "LDAP サーバの DNS ルックアップが LDAP IP と等しくありません。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 211
 msgid "LDAP server DNS lookup error. "
-msgstr ""
+msgstr "LDAP サーバの DNS ルックアップエラーです。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 206
 msgid "Unknown LDAP server FQDN."
-msgstr ""
+msgstr "不明な LDAP サーバの FQDN です。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 194
 msgid "LDAP server reverse DNS lookup is not equal to LDAP server FQDN. "
-msgstr ""
+msgstr "LDAP サーバの DNS 逆引きが LDAP サーバの FQDN と等しくありません。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 192
 msgid "LDAP server IP reverse lookup error. "
-msgstr ""
+msgstr "LDAP サーバの DNS 逆引きエラーです。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 187
 msgid "Unknown LDAP server IP."
-msgstr ""
+msgstr "不明な LDAP サーバ IP です。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 177
 msgid "Hostname doesn't resolved to IP."
-msgstr ""
+msgstr "ホスト名が IP に解決できません。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 174
 msgid "Hostname doesn't resolved to host IP."
-msgstr ""
+msgstr "ホスト名がホスト IP に解決できません。"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/ProxySSO/Api/ServiceController.php, line: 153
 msgid "DNS server not found"
-msgstr ""
+msgstr "DNS サーバが見つかりません"
 
-#
 # File: /usr/plugins/www/web-proxy-sso/src/etc/inc/plugins.inc.d/proxy_sso.inc, line: 27
 msgid "Kerberos authentication module"
-msgstr ""
+msgstr "Kerberos 認証モジュール"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 470
 msgid ""
 "Add %sBackend Pools:%s Group the previously added servers to build a server "
@@ -18678,6 +18665,10 @@ msgid ""
 "Pool takes care of health monitoring and load distribution. A Backend Pool "
 "must be configured even if you only have a single server."
 msgstr ""
+"追加する %sバックエンドプール: %s グループは以前突合されたサーバでサーバファームを構築します。"
+"グループにある全てのサーバは通常同じコンテンツを配信します。バックエンドプールはヘルス監視及び、"
+"ディストリビューションのロードを処理します。例えあなたが所持しているのが単一サーバのみだったとしても、"
+"バックエンドプールを構成するべきです。"
 
 msgid "SMART Status"
 msgstr "SMART ステータス"
@@ -18691,10 +18682,9 @@ msgstr "ドライブ"
 msgid "Back"
 msgstr "戻る"
 
-#
 # File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 308
 msgid "No SMART devices."
-msgstr ""
+msgstr "SMART デバイスはありません。"
 
 msgid "Do you really want to abort the test?"
 msgstr "本当にテストを中止しますか？"
@@ -18741,10 +18731,9 @@ msgstr "失敗"
 msgid "PASSED"
 msgstr "成功"
 
-#
 # File: /usr/plugins/net/frr/src/etc/inc/plugins.inc.d/frr.inc, line: 91
 msgid "FRRouting Daemon"
-msgstr ""
+msgstr "FRRouting デーモン"
 
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 466
