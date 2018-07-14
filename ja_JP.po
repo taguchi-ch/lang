@@ -18735,7 +18735,6 @@ msgstr "成功"
 msgid "FRRouting Daemon"
 msgstr "FRRouting デーモン"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 466
 msgid ""
 "Welcome to the HAProxy plugin! This plugin is designed to offer all the "
@@ -18743,57 +18742,53 @@ msgid ""
 "the first time, please take some time to get familiar with it. The following "
 "information should help you to get started."
 msgstr ""
+"HAProxy プラグインにようこそ！このプラグインは HAProxy の著名な機能や順応性の全てを提供するようにデザインされています。"
+"あなたが初めて HAProxy を使うなら、少し時間をかけてこれを使って慣れてみてください。"
+"以下の情報はあなたが始める手助けになることでしょう。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 485
 msgid ""
 "%sFQDN or IP:%s The IP address or fully-qualified domain name that should be "
 "used when communicating with your server."
 msgstr ""
+"%sFQDN もしくは IP:%s あなたのサーバと通信する際に使用される IP アドレスもしくは完全修飾ドメイン名です。"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/info.volt, line: 67
 msgid "Onion Service Name"
-msgstr ""
+msgstr "Onion サービス名"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/info.volt, line: 59
 msgid "Onion Service Names"
-msgstr ""
+msgstr "Onion サービス名"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 296
 msgid "Edit Hidden Service Credentials"
-msgstr ""
+msgstr "秘匿サービス証明書を編集"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 295
 msgid "Edit Exit Node ACL"
-msgstr ""
+msgstr "出口ノード ACL を編集"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 294
 msgid "Edit Onion Service Route"
-msgstr ""
+msgstr "Onion サービスルートを編集"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 293
 msgid "Edit Onion Service"
-msgstr ""
+msgstr "Onion サービスを編集"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 292
 msgid "Edit ACL Entry"
-msgstr ""
+msgstr "ACL エントリを編集"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 261
 msgid ""
 "Running an exit node may be lead to legal issues and seized hardware. Be "
 "careful with your settings here."
 msgstr ""
+"出口ノードの実行は法的問題及びハードウェアの押収に繋がる可能性があります。"
+"ここでの設定に注意してください。"
 
-#
 # File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 100
 # File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 127
 # File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 154
@@ -18807,37 +18802,31 @@ msgstr ""
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 245
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 284
 msgid "Reload Service"
-msgstr ""
+msgstr "サービスをリロード"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 138
 msgid "Exit Node ACL"
-msgstr ""
+msgstr "出口ノード ACL"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 137
 msgid "Relaying"
-msgstr ""
+msgstr "リレー"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 136
 msgid "Onion Service Routing"
-msgstr ""
+msgstr "Onion サービスルーティング"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 135
 msgid "Onion Services"
-msgstr ""
+msgstr "Onion サービス"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 134
 msgid "SOCKS Proxy ACL"
-msgstr ""
+msgstr "SOCKS プロキシ ACL"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 133
 msgid "Onion Service Authentication"
-msgstr ""
+msgstr "Onion サービス認証"
 
 #
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/error.volt, line: 31
