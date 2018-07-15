@@ -18828,48 +18828,42 @@ msgstr "SOCKS プロキシ ACL"
 msgid "Onion Service Authentication"
 msgstr "Onion サービス認証"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/error.volt, line: 31
 msgid ""
 "This page is not available because Tor is not running or the control socket "
 "is not configured. Please go to the %sconfiguration page%s and enable Tor."
 msgstr ""
+"このページは利用できません。Tor が実行されていないか、コントロールソケットが構成されていません。"
+"%s構成ページ%sで Tor を有効にしてください。"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 102
 msgid "Destination Host"
-msgstr ""
+msgstr "送信先ホスト"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 101
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 113
 msgid "Circuit ID"
-msgstr ""
+msgstr "サーキット ID"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 100
 msgid "Stream Status"
-msgstr ""
+msgstr "ストリームステータス"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 99
 msgid "Stream ID"
-msgstr ""
+msgstr "ストリーム ID"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 91
 msgid "Circuits"
-msgstr ""
+msgstr "サーキット"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 90
 msgid "Streams"
-msgstr ""
+msgstr "ストリーム"
 
-#
 # File: /usr/plugins/security/tor/src/etc/inc/plugins.inc.d/tor.inc, line: 53
 msgid "The Onion Router"
-msgstr ""
+msgstr "The Onion Router"
 
 msgid "Interface Binding"
 msgstr "インタフェースバインティング"
@@ -18877,77 +18871,66 @@ msgstr "インタフェースバインティング"
 msgid "HAProxy config contains minor errors"
 msgstr "HAProxy 構成には些細なエラーがあります"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 378
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 387
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 400
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 414
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 454
 msgid "Introduction"
-msgstr ""
+msgstr "イントロダクション"
 
-#
 # File: /usr/plugins/security/clamav/src/www/diag_logs_clamav.php, line: 14
 msgid "Freshclam"
-msgstr ""
+msgstr "freshclam"
 
-#
 # File: /usr/plugins/security/clamav/src/www/diag_logs_clamav.php, line: 13
 msgid "Clamd"
-msgstr ""
+msgstr "clamd"
 
-#
 # File: /usr/plugins/security/clamav/src/opnsense/mvc/app/views/OPNsense/ClamAV/general.volt, line: 32
 msgid ""
 "No signature database found, please download before use. The download will "
 "take several minutes and this message will disappear when it has been "
 "completed."
 msgstr ""
+"署名データベースがありません。使用する前にダウンロードしてください。"
+"ダウンロードには数分かかります。このメッセージはダウンロード完了後に消えます。"
 
-#
 # File: /usr/plugins/security/clamav/src/opnsense/mvc/app/views/OPNsense/ClamAV/general.volt, line: 31
 msgid "Download signatures"
-msgstr ""
+msgstr "署名をダウンロード"
 
-#
 # File: /usr/plugins/security/clamav/src/etc/inc/plugins.inc.d/clamav.inc, line: 50
 msgid "freshclam daemon"
-msgstr ""
+msgstr "freshclam デーモン"
 
-#
 # File: /usr/plugins/security/clamav/src/etc/inc/plugins.inc.d/clamav.inc, line: 37
 msgid "ClamAV Daemon"
-msgstr ""
+msgstr "ClamAV デーモン"
 
-#
 # File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 49
 msgid "Peers"
-msgstr ""
+msgstr "ピア"
 
-#
 # File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 105
 msgid "Edit Zerotier Network"
-msgstr ""
+msgstr "ZeroTier ネットワークを編集"
 
-#
 # File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 80
 msgid "Network Id"
-msgstr ""
+msgstr "ネットワーク ID"
 
-#
 # File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 210
 msgid "Unable to obtain Zerotier information for network"
-msgstr ""
+msgstr "ZeroTier ネットワーク情報が取得できません"
 
-#
 # File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 210
 msgid "Is the network enabled?"
-msgstr ""
+msgstr "ネットワークは有効ですか？"
 
-#
 # File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 81
 msgid "Information on network"
-msgstr ""
+msgstr "ネットワーク情報"
 
 msgid "all currently connected sessions"
 msgstr "現在接続している全てのセッション"
@@ -19154,22 +19137,19 @@ msgstr "ユニバーサルプラグアンドプレイ"
 msgid "The Hostname contains invalid characters."
 msgstr "ホスト名に無効な文字が含まれています。"
 
-#
 # File: /usr/plugins/net/shadowsocks/src/etc/inc/plugins.inc.d/shadowsocks.inc, line: 50
 msgid "shadowsockslocal daemon"
-msgstr ""
+msgstr "shadowsockslocal デーモン"
 
-#
 # File: /usr/plugins/net/shadowsocks/src/etc/inc/plugins.inc.d/shadowsocks.inc, line: 37
 msgid "shadowsocks daemon"
-msgstr ""
+msgstr "shadowsocks デーモン"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 384
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 389
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 482
 msgid "Real Servers"
-msgstr ""
+msgstr "リアルサーバ"
 
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 151
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf6.volt, line: 113
@@ -19229,10 +19209,9 @@ msgstr "Dead タイマー: "
 msgid "Hello Timer:"
 msgstr "Hello タイマー: "
 
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 187
 msgid "AS Scoped"
-msgstr ""
+msgstr "AS スコープ"
 
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 153
 msgid "Interface Scoped Link Database"
@@ -19306,7 +19285,7 @@ msgstr "ネイバー"
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 410
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 298
 msgid "Adjacent Neighbor Count"
-msgstr "アジャセンシーネイバー数"
+msgstr "隣接関係ネイバー数"
 
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 409
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 297
@@ -19483,11 +19462,10 @@ msgstr "ルータ ID: "
 msgid "SPF Execution Count"
 msgstr "SPF 実行数"
 
-#
 # File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 126
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 126
 msgid "Fully Adjacent Neighbor Count"
-msgstr ""
+msgstr "完全な隣接関係ネイバー数"
 
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 122
 msgid "Interfaces: Active"
@@ -19946,10 +19924,9 @@ msgstr "L2TP VPN サービスを構成しています..."
 msgid "L2TP Server"
 msgstr "L2TP サーバ"
 
-#
 # File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 183
 msgid "Last update"
-msgstr ""
+msgstr "最終更新"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 286
 msgid "Used"
@@ -20021,87 +19998,73 @@ msgstr "ID"
 msgid "The statistics could not be fetched. Is HAProxy running?"
 msgstr "統計を取得できませんでした。HAProxy は動作していますか？"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 839
 msgid "Edit Error Message"
-msgstr ""
+msgstr "エラーメッセージを編集"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 656
 msgid "Edit Lua Script"
 msgstr "Lua スクリプトを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 837
 msgid "Edit Condition"
-msgstr ""
+msgstr "条件を編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 836
 msgid "Edit Rule"
-msgstr ""
+msgstr "ルールを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 835
 msgid "Edit Health Monitor"
-msgstr ""
+msgstr "ヘルス監視を編集"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 652
 msgid "Edit Server"
 msgstr "サーバを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 833
 msgid "Edit Backend Pool"
-msgstr ""
+msgstr "バックエンドプールを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 832
 msgid "Edit Public Service"
-msgstr ""
+msgstr "パブリックサービスを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 802
 msgid "Error Message Name"
-msgstr ""
+msgstr "メッセージ名エラー"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 801
 msgid "Error Message ID"
-msgstr ""
+msgstr "メッセージ ID エラー"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 586
 msgid "Lua Script Name"
 msgstr "Lua スクリプト名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 733
 msgid "Condition Name"
-msgstr ""
+msgstr "条件名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 732
 msgid "Condition ID"
-msgstr ""
+msgstr "条件 ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 699
 msgid "Rule Name"
-msgstr ""
+msgstr "ルール名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 698
 msgid "Rule ID"
-msgstr ""
+msgstr "ルール ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 665
 msgid "Health Monitor Name"
-msgstr ""
+msgstr "ヘルス監視名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 664
 msgid "Health Monitor ID"
-msgstr ""
+msgstr "ヘルス監視 ID"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 400
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 435
@@ -20114,30 +20077,27 @@ msgstr ""
 msgid "Test syntax"
 msgstr "テスト構文"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 560
 msgid "Public Service Name"
-msgstr ""
+msgstr "パブリックサービス名"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 559
 msgid "Public Service ID"
-msgstr ""
+msgstr "パブリックサービス ID"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 525
 msgid "Advanced Features"
-msgstr ""
+msgstr "詳細機能"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 515
 msgid ""
 "%sRules:%s Perform a large set of actions if one or more %sConditions%s "
 "match. These Rules may be used in %sBackend Pools%s as well as %sPublic "
 "Services%s."
 msgstr ""
+"%sルール:%s 1 つ以上の%s条件%sが一致した場合に実行する大きな一連のアクション。"
+"これらのルールは%sバックエンドプール%sや%sパブリックサービス%sでも同様に使用されます。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 514
 msgid ""
 "%sConditions:%s HAProxy is capable of extracting data from requests, "
@@ -20145,13 +20105,14 @@ msgid ""
 "patterns. Use these powerful patterns to compose a condition that may be "
 "used in multiple Rules."
 msgstr ""
+"%s条件:%s HAProxy は要求、応答、その他の接続データからデータ抽出をし、それを事前定義したパターンと"
+"一致させることができます。"
+"複数のルールで使用される条件を構成するのに、これらの強力なパターンを使用します。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 502
 msgid "Remember to add firewall rules for all configured Public Services."
-msgstr ""
+msgstr "構成した全てのパブリックサービスに対するファイアウォールルールの追加を忘れないでください。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 500
 msgid ""
 "%sPublic Services:%s The HAProxy frontend. The Public Service listens for "
@@ -20160,8 +20121,10 @@ msgid ""
 "Public Service needs to be connected to a %spreviously created Backend Pool"
 "%s."
 msgstr ""
+"%sパブリックサービス:%s HAProxy のフロントエンド。パブリックサービスはクライアント接続をリスンし、"
+"それに追加してルールの適用及び、ロードバランサもしくはプロキシの選択されたバックエンドプールに"
+"クライアント要求データの転送を行います。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 499
 msgid ""
 "%sBackend Pools:%s The HAProxy backend. Group the %spreviously added servers"
@@ -20170,8 +20133,12 @@ msgid ""
 "A Backend Pool must also be configured if you only have a single server. The "
 "same Backend Pool may be used for multiple Public Services."
 msgstr ""
+"%sバックエンドプール:%s HAProxy のバックエンド。%s以前追加されたサーバ%sのグループでサーバファームを構築します。"
+"グループにある全てのサーバは通常同じコンテンツを配信します。バックエンドプールはヘルス監視及び、"
+"負荷分散を処理します。例えあなたが所持しているのが単一サーバのみだったとしても、"
+"バックエンドプールを構成するべきです。"
+"複数のパブリックサービスに対して同じバックエンドプールが使用されます。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 489
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 503
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 518
@@ -20183,13 +20150,18 @@ msgid ""
 "It is strongly discouraged to rely on this feature. Please report missing "
 "features on our GitHub page!"
 msgstr ""
+"設定が複数の構成項目で有効になる「option pass-through」を使用することで HAProxy に直接オプション
+"追加が可能になることに注意してください。"
+"現在このプラグインで公式にはサポートされていない構成を実装することができるようになります。"
+"この機能を信頼することは全くもってお勧めできません。機能に漏れがある場合は、我々の GitHub ページで報告してください。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 483
 msgid ""
 "HAProxy needs to know which servers should be used to serve content. The "
 "following minimum information must be provided for each server:"
 msgstr ""
+"HAProxy はどのサーバがコンテンツの提供に使用されるのかを知る必要があります。"
+"次の最小限の情報はどのサーバに対しても入力される必要があります: "
 
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 475
