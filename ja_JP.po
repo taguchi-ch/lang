@@ -21504,62 +21504,56 @@ msgstr "(FQ-)CoDel target"
 msgid "(optional) user credentials."
 msgstr "( オプション ) ユーザ資格情報"
 
-#
 # File: /usr/lang/src/controllers.php, line: 34
 msgid ""
 "0: Log everything, Positive Value: Log events that take longer than "
 "specified, Negative Value: Log nothing."
 msgstr ""
+"0: 全てをログに記録、正の値: 指定以上のイベントをログに記録、負の値: 一切ログを記録しない。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 35
 msgid ""
 "A JSON document containing configuration options that apply to the local node"
-msgstr ""
+msgstr "JSON ドキュメントにはローカルノードに適用される構成オプションが含まれています"
 
-#
 # File: /usr/lang/src/controllers.php, line: 36
 msgid ""
 "A bridge is a private relay. It is not visible in the public directory. "
 "Uncheck this if you want to become a public relay."
 msgstr ""
+"ブリッジはプライベートリレーです。パブリックディレクトリには表示されません。"
+"パブリックリレーにしたい場合はこのチェックを外してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 40
 msgid ""
 "A name for this server. Used when displaying information about this server "
 "(logs, info service, etc)."
 msgstr ""
+"このサーバの名前。このサーバの情報を表示する際に使用されます ( ログ、サービス情報、その他 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 38
 msgid "AD Kerberos implementation"
-msgstr ""
+msgstr "AD Kerberos 実装"
 
-#
 # File: /usr/lang/src/controllers.php, line: 39
 msgid "AD admin login"
-msgstr ""
+msgstr "AD 管理者ログイン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 40
 msgid "AD admin password"
-msgstr ""
+msgstr "AD 管理者パスワード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 41
 msgid "API Access Token"
-msgstr ""
+msgstr "API アクセストークン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 41
 msgid "API Key"
-msgstr ""
+msgstr "API 鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 42
 msgid "API Token"
-msgstr ""
+msgstr "API トークン"
 
 # File: /usr/lang/src/controllers.php, line: 41
 msgid "API URL"
@@ -21589,34 +21583,31 @@ msgstr "AWS 秘密鍵"
 msgid "Access Control List"
 msgstr "アクセスコントロールリスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 51
 msgid "Access Token used for the Zerotier API service"
-msgstr ""
+msgstr "Zerotier API サービスに使用されるアクセストークン"
 
 # File: /usr/lang/src/controllers.php, line: 48
 msgid "According to the service type path can be a file or a directory."
 msgstr "サービスタイプによってパスはファイルもしくはディレクトリにできます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 53
 msgid "Act as a relay."
-msgstr ""
+msgstr "リレーとして動作します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 54
 msgid "Act as an exit."
-msgstr ""
+msgstr "出口として動作します。"
 
 msgid "Action"
 msgstr "動作"
 
-#
 # File: /usr/lang/src/controllers.php, line: 56
 msgid ""
 "Active (default) or passive mode, only switch to passive if you know what "
 "you are doing."
 msgstr ""
+"アクティブ ( デフォルト ) もしくはパッシブモード。何をしているのかわかっている場合のみパッシブに切り替えてください。"
 
 # File: /usr/lang/src/controllers.php, line: 52
 msgid "Active Check Refresh"
@@ -21626,34 +21617,31 @@ msgstr "アクティブチェック更新"
 msgid "Active Check Servers"
 msgstr "アクティブチェックサーバ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 59
 msgid ""
 "Active Directory user name with administrator rights (this value is not "
 "stored in configuration)."
 msgstr ""
+"管理者権限を持つアクティブディレクトリユーザ名 ( この値は構成に保存されません )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 60
 msgid ""
 "Active Directory user password (this value is not stored in configuration)."
-msgstr ""
+msgstr "アクティブディレクトリユーザパスワード ( この値は構成に保存されません )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 61
 msgid "Add a header containing a visible indicator of the spam level."
-msgstr ""
+msgstr "スパムレベルの可視インジケータを含むヘッダを追加します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 62
 msgid "Add delay in ms to this pipe."
-msgstr ""
+msgstr "このパイプに ms 単位の遅延を追加します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 63
 msgid ""
 "Add more than localhost IP addresses to listen IPs for SOCKS connections."
 msgstr ""
+"SOCKS 接続のリスン IP に複数のローカルホスト IP アドレスを追加します。"
 
 # File: /usr/lang/src/controllers.php, line: 36
 msgid "Add servers to this backend. Use TAB key to complete typing."
@@ -21670,10 +21658,9 @@ msgstr ""
 "チェック間隔に 0 から +/- 50% の間でランダム度を追加します。2 - 5 の値だと良"
 "い結果を表示するようです。デフォルト値は 0 です ( 無効 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 66
 msgid "Additional exceptions for TLD rules."
-msgstr ""
+msgstr "TLD ルールの追加例外です。"
 
 msgid "Address"
 msgstr "アドレス"
@@ -21698,10 +21685,9 @@ msgstr "管理者パスワード"
 msgid "Administrator's Email"
 msgstr "管理者のメール"
 
-#
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Advanced SSL settings"
-msgstr ""
+msgstr "詳細 SSL 設定"
 
 # File: /usr/lang/src/controllers.php, line: 61
 msgid "Advanced settings"
@@ -21712,29 +21698,25 @@ msgstr "詳細設定"
 msgid "Advertise Default Gateway"
 msgstr "デフォルトゲートウェイを広告"
 
-#
 # File: /usr/lang/src/controllers.php, line: 75
 msgid "Agent check"
-msgstr ""
+msgstr "エージェントチェック"
 
 # File: /usr/lang/src/controllers.php, line: 62
 msgid "Agent port"
 msgstr "エージェントポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 75
 msgid "Allow 204 responses"
-msgstr ""
+msgstr "204 応答を許可"
 
-#
 # File: /usr/lang/src/controllers.php, line: 78
 msgid "Allow Environment From Empty"
-msgstr ""
+msgstr "差出人が空の環境を許可"
 
-#
 # File: /usr/lang/src/controllers.php, line: 79
 msgid "Allow Exit using IPv6 protocol"
-msgstr ""
+msgstr "IPv6 プロトコルを使用した出口を許可"
 
 # File: /usr/lang/src/controllers.php, line: 39
 msgid ""
@@ -21744,25 +21726,21 @@ msgstr ""
 "HAProxy に完全ではない正常な接続に対して自動的にログレベルを上げることを許可"
 "しデバッグを補助します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 81
 msgid "Allow Header From Mismatch"
-msgstr ""
+msgstr "差出人が不一致のヘッダを許可"
 
-#
 # File: /usr/lang/src/controllers.php, line: 82
 msgid "Allow Header From Multiple"
-msgstr ""
+msgstr "差出人が複数のヘッダを許可"
 
-#
 # File: /usr/lang/src/controllers.php, line: 83
 msgid "Allow TLS Only"
-msgstr ""
+msgstr "TLS のみを許可"
 
-#
 # File: /usr/lang/src/controllers.php, line: 84
 msgid "Allow Username Mismatch"
-msgstr ""
+msgstr "ユーザ名の不一致を許可"
 
 # File: /usr/lang/src/controllers.php, line: 66
 msgid "Allow interface subnets"
