@@ -20163,7 +20163,6 @@ msgstr ""
 "HAProxy はどのサーバがコンテンツの提供に使用されるのかを知る必要があります。"
 "次の最小限の情報はどのサーバに対しても入力される必要があります: "
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 475
 msgid ""
 "Further information is available in our %sHAProxy plugin documentation%s and "
@@ -20171,57 +20170,55 @@ msgid ""
 "and request features on our %sGitHub issue page%s. Code contributions are "
 "also very welcome!"
 msgstr ""
+"我々が作成した %sHAProxy plugin documentation%s 及び、もちろん %sofficial HAProxy documentation%s "
+"でも更に詳細な情報を入手できます。バグ報告や機能リクエストについては我々の %sGitHub issue ページ%sでお願いします。"
+"コードによる貢献も非常に歓迎します！"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 474
 msgid ""
 "Please be aware that you need to %smanually%s add the required firewall "
 "rules for all configured services."
 msgstr ""
+"全ての構成されたサービスに対して%s手動で%sファイアウォールルールを追加する必要があることに注意してください。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 472
 msgid "Lastly, enable HAProxy using the %sService Settings%s."
-msgstr ""
+msgstr "最後に、HAProxy が使用する%sサービス設定%sを有効にします。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 471
 msgid ""
 "Add %sPublic Services:%s The Public Service listens for client connections, "
 "optionally applies rules and forwards client request data to the selected "
 "Backend Pool for load balancing or proxying."
 msgstr ""
+"追加する %sパブリックサービス: %s パブリックサービスはクライアント接続をリスンし、"
+"それに追加してルールの適用及び、ロードバランサもしくはプロキシの選択されたバックエンドプールに"
+"クライアント要求データの転送を行います。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 467
 msgid "Note that you should configure HAProxy in the following order:"
-msgstr ""
+msgstr "次の順番で HAProxy を構成するように注意してください: "
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 465
 msgid "Quick Start Guide"
-msgstr ""
+msgstr "クイックスタートガイド"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 417
 msgid "Conditions"
-msgstr ""
+msgstr "条件"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 403
 msgid "Public Services"
-msgstr ""
+msgstr "パブリックサービス"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 402
 msgid "Backend Pools"
-msgstr ""
+msgstr "バックエンドプール"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 397
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 496
 msgid "Virtual Services"
-msgstr ""
+msgstr "仮想サービス"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 177
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 206
@@ -20252,25 +20249,21 @@ msgstr "HAProxy ロードバランサ"
 msgid "Invalid character '#' in read community string"
 msgstr "コミュニティ文字列の読込みで無効な文字 '#' があります"
 
-#
 # File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 199
 msgid "Vendor"
-msgstr ""
+msgstr "ベンダ"
 
-#
 # File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 182
 msgid "Started"
-msgstr ""
+msgstr "開始しました"
 
-#
 # File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 161
 msgid "Scan is running"
-msgstr ""
+msgstr "スキャンを実行しています"
 
-#
 # File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 157
 msgid "Scan is stopped"
-msgstr ""
+msgstr "スキャンは停止しました"
 
 msgid "Service type"
 msgstr "サービスタイプ"
@@ -20386,47 +20379,39 @@ msgstr ""
 "タブ (\\t)、改行 (\\n)、キャリッジリターン (\\r) が、返される結果の先頭、もし"
 "くは、末尾にある場合は、比較する前に削除されます。"
 
-#
 # File: /usr/plugins/net-mgmt/collectd/src/etc/inc/plugins.inc.d/collectd.inc, line: 37
 msgid "collectd daemon"
-msgstr ""
+msgstr "collectd デーモン"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 70
 msgid "Local Host"
-msgstr ""
+msgstr "ローカルホスト"
 
-#
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/sender.volt, line: 110
 msgid "Edit Sender"
-msgstr ""
+msgstr "送信者を編集"
 
-#
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/recipient.volt, line: 110
 msgid "Edit Recipient"
-msgstr ""
+msgstr "受信者を編集"
 
-#
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/general.volt, line: 46
 msgid "No Rspamd plugin found, please install and come back."
-msgstr ""
+msgstr "Rspamd プラグインが見つかりません。インストールしてからもう一度試してください。"
 
-#
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/general.volt, line: 31
 msgid "Antispam"
-msgstr ""
+msgstr "アンチスパム"
 
-#
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/domain.volt, line: 110
 msgid "Edit Domain"
-msgstr ""
+msgstr "ドメインを編集"
 
-#
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/domain.volt, line: 63
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/recipient.volt, line: 63
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/sender.volt, line: 63
 msgid "Error reconfiguring Postfix"
-msgstr ""
+msgstr "Postfix 再構成エラー"
 
 msgid "Choose TTL for your dns record."
 msgstr "DNS レコードの TTL を選択してください。"
@@ -20566,70 +20551,57 @@ msgstr "MX に無効な文字が含まれています。"
 msgid "Update URL"
 msgstr "更新 URL"
 
-#
 # File: /usr/plugins/databases/redis/src/etc/inc/plugins.inc.d/redis.inc, line: 45
 msgid "Redis DB"
-msgstr ""
+msgstr "Redis DB"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/etc/inc/plugins.inc.d/iperf.inc, line: 40
 msgid "iperf Performance Test"
-msgstr ""
+msgstr "iperf パフォーマンステスト"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 47
 msgid "%sResult %s%s"
-msgstr ""
+msgstr "%s結果 %s%s"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 73
 msgid "Remote Port"
-msgstr ""
+msgstr "リモートポート"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 79
 msgid "Host User"
-msgstr ""
+msgstr "ホストユーザ"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 80
 msgid "Host System"
-msgstr ""
+msgstr "ホストシステム"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 81
 msgid "Remote Total"
-msgstr ""
+msgstr "リモート合計"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 82
 msgid "Remote User"
-msgstr ""
+msgstr "リモートユーザ"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 83
 msgid "Remote System"
-msgstr ""
+msgstr "リモートシステム"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 86
 msgid "Performance Data"
-msgstr ""
+msgstr "パフォーマンスデータ"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 93
 msgid "Bits Per Second"
-msgstr ""
+msgstr "BPS"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 134
 msgid "Create Instance"
-msgstr ""
+msgstr "インスタンスを新規作成"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 78
 msgid "Host Total"
-msgstr ""
+msgstr "ホスト合計"
 
 msgid "Cached IP"
 msgstr "キャッシュ済 IP"
@@ -20719,78 +20691,70 @@ msgstr ""
 msgid "Checking..."
 msgstr "チェックしています..."
 
-#
 # File: /usr/plugins/mail/rspamd/src/etc/inc/plugins.inc.d/rspamd.inc, line: 51
 msgid "Rapid Spamfilter Daemon"
-msgstr ""
+msgstr "Rapid Spamfilter デーモン"
 
-#
 # File: /usr/plugins/mail/rspamd/src/opnsense/mvc/app/views/OPNsense/Rspamd/index.volt, line: 94
 msgid ""
 "No ClamAV plugin found, please install via %sSystem > Firmware > Plugins%s. "
 "If the plugin is not installed and enabled, mails cannot be scanned for "
 "malware."
 msgstr ""
+"ClamAV プラグインが見つかりません。%sシステム > ファームウェア > プラグイン%sからインストールしてください。"
+"プラグインがインストールされず、かつ有効化されなかった場合、メールにマルウェア対策のスキャンが行われません。"
 
-#
 # File: /usr/plugins/mail/rspamd/src/opnsense/mvc/app/views/OPNsense/Rspamd/index.volt, line: 98
 msgid ""
 "The Redis plugin is configured to use but it is not installed. Please "
 "install it via %sSystem > Firmware > Plugins%s."
 msgstr ""
+"Redis プラグインを使用するように構成されましたが、インストールされていません。"
+"%sシステム > ファームウェア > プラグイン%sからインストールしてください。"
 
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 65
 msgid "Block Size"
-msgstr ""
+msgstr "ブロックサイズ"
 
-#
 # File: /usr/plugins/net-mgmt/lldpd/src/etc/inc/plugins.inc.d/lldpd.inc, line: 37
 msgid "lldpd daemon"
-msgstr ""
+msgstr "lldpd デーモン"
 
 # File: /usr/core/src/www/services_dyndns_edit.php, line: 298
 msgid "Enter the complete host/domain name. example: myhost.dyndns.org"
 msgstr "完全なホスト / ドメイン名を入力してください。例: myhost.dyndns.org"
 
-#
 # File: /usr/plugins/net-mgmt/telegraf/src/etc/inc/plugins.inc.d/telegraf.inc, line: 37
 msgid "telegraf agent"
-msgstr ""
+msgstr "telegraf エージェント"
 
-#
 # File: /usr/plugins/net-mgmt/telegraf/src/opnsense/mvc/app/views/OPNsense/Telegraf/input.volt, line: 31
 msgid "Inputs"
-msgstr ""
+msgstr "入力"
 
-#
 # File: /usr/plugins/net-mgmt/telegraf/src/opnsense/mvc/app/views/OPNsense/Telegraf/output.volt, line: 31
 msgid "Outputs"
-msgstr ""
+msgstr "出力"
 
 msgid "Dynamic DNS client"
 msgstr "ダイナミック DNS クライアント"
 
-#
 # File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 63
 # File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/user.volt, line: 63
 msgid "Error reconfiguring FreeRADIUS"
-msgstr ""
+msgstr "FreeRADIUS 再構成エラー"
 
-#
 # File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 90
 msgid "Shared secret"
-msgstr ""
+msgstr "共有秘密鍵"
 
-#
 # File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 91
 msgid "IP Address or Network"
-msgstr ""
+msgstr "IP アドレスもしくはネットワーク"
 
-#
 # File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 115
 msgid "Edit Client"
-msgstr ""
+msgstr "クライアントを編集"
 
 # File: /usr/plugins/net/ftp-proxy/src/etc/inc/plugins.inc.d/ftpproxy.inc, line: 62
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/controllers/OPNsense/FtpProxy/IndexController.php, line: 45
@@ -21112,111 +21076,92 @@ msgid ""
 "If you want the user to be assigned a specific IP address, enter it here."
 msgstr "ユーザに特定の IP アドレスを割当てる場合は、ここに入力してください。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 510
 msgid "Rules and Checks"
-msgstr ""
+msgstr "ルールとチェック"
 
-#
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 132
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 139
 #, php-format
 msgid "Scheduler \"%s\" not supported for redirects."
-msgstr ""
+msgstr "スケジューラ %s はリダイレクトをサポートしていません。"
 
-#
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 147
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 153
 #, php-format
 msgid "Scheduler \"%s\" not supported for relays."
-msgstr ""
+msgstr "スケジューラ %s はリレーをサポートしていません。"
 
-#
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 163
 msgid "Expect Pattern cannot be empty."
-msgstr ""
+msgstr "期待パターンは空にできません。"
 
-#
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 169
 msgid "Script path cannot be empty."
-msgstr ""
+msgstr "スクリプトパスは空にできません。"
 
-#
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 175
 msgid "Path cannot be empty."
-msgstr ""
+msgstr "パスは空にできません。"
 
-#
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 179
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 181
 msgid "Provide one of Response Code or Message Digest."
-msgstr ""
+msgstr "応答コードもしくはメッセージの概要を入力してください。"
 
-#
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 208
 msgid "Backend Hosts"
-msgstr ""
+msgstr "バックエンドホスト"
 
-#
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 209
 msgid "Table Checks"
-msgstr ""
+msgstr "テーブルチェック"
 
-#
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 212
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/status.volt, line: 137
 msgid "Virtual Server"
-msgstr ""
+msgstr "仮想サーバ"
 
-#
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/status.volt, line: 86
 msgid "The status could not be fetched. Is Relayd running?"
-msgstr ""
+msgstr "ステータスが取得できませんでした。Relayd は実行中ですか？"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 416
 msgid "Health Monitors"
-msgstr ""
+msgstr "ヘルス監視"
 
-#
 # File: /usr/plugins/net/siproxd/src/etc/inc/plugins.inc.d/siproxd.inc, line: 37
 msgid "Siproxd Daemon"
-msgstr ""
+msgstr "Siproxd デーモン"
 
-#
 # File: /usr/plugins/net/siproxd/src/opnsense/mvc/app/views/OPNsense/Siproxd/general.volt, line: 34
 msgid "Outbound Domains"
-msgstr ""
+msgstr "アウトバウンドドメイン"
 
-#
 # File: /usr/plugins/net/siproxd/src/opnsense/mvc/app/views/OPNsense/Siproxd/general.volt, line: 35
 msgid "Current registrations"
-msgstr ""
+msgstr "現在の登録"
 
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_users_edit.php, line: 162
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp_users_edit.php, line: 162
 msgid "Edit User"
 msgstr "ユーザを編集"
 
-#
 # File: /usr/plugins/net/siproxd/src/opnsense/mvc/app/views/OPNsense/Siproxd/general.volt, line: 107
 msgid "Edit Outbound Domain"
-msgstr ""
+msgstr "アウトバウンドドメインを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 594
 msgid "Backend Pool ID"
-msgstr ""
+msgstr "バックエンドプール ID"
 
-#
 # File: /usr/plugins/net/wol/src/opnsense/mvc/app/views/OPNsense/Wol/index.volt, line: 8
 msgid "Magic packet was sent successfully."
-msgstr ""
+msgstr "マジックパケットの送信に成功しました。"
 
-#
 # File: /usr/plugins/net/wol/src/opnsense/mvc/app/views/OPNsense/Wol/index.volt, line: 9
 msgid "The packet was not sent due to an error. Please consult the logs."
-msgstr ""
+msgstr "パケットはエラーにより送信できませんでした。ログを確認してください。"
 
 # File: src/www/services_wol.php, line: 57
 msgid ""
@@ -21226,20 +21171,17 @@ msgstr ""
 "%sシステムログ%sを確認してください。%s (%s) に対する WOL コマンドが完了しませ"
 "んでした。"
 
-#
 # File: /usr/plugins/net/wol/src/opnsense/mvc/app/views/OPNsense/Wol/index.volt, line: 102
 msgid "Wake up"
-msgstr ""
+msgstr "起動"
 
-#
 # File: /usr/plugins/net/wol/src/opnsense/mvc/app/views/OPNsense/Wol/index.volt, line: 124
 msgid "Wake All"
-msgstr ""
+msgstr "全て起動"
 
-#
 # File: /usr/plugins/net/wol/src/opnsense/mvc/app/views/OPNsense/Wol/index.volt, line: 132
 msgid "Edit WOL Host"
-msgstr ""
+msgstr "WOL ホストを編集"
 
 # File: /usr/core/src/www/widgets/include/wake_on_lan.inc, line: 3
 msgid "Wake On Lan"
@@ -21258,10 +21200,9 @@ msgstr "WOL アドレスは保存されていません"
 msgid "DHCP Leases Status"
 msgstr "DHCP リースステータス"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 767
 msgid "Lua Script ID"
-msgstr ""
+msgstr "Lua スクリプト ID"
 
 # File: /usr/plugins/security/acme-client/src/etc/inc/plugins.inc.d/acmeclient.inc, line: 62
 msgid "Let's Encrypt client"
@@ -21302,21 +21243,18 @@ msgstr "検証に失敗しました"
 msgid "internal error"
 msgstr "内部エラー"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 322
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 344
 msgid "Confirmation Required"
-msgstr ""
+msgstr "確認が必要です"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 323
 msgid "Forcefully (re-)issue the selected certificate?"
-msgstr ""
+msgstr "選択した証明書を強制的に ( 再 ) 割当しますか？"
 
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 345
 msgid "Revoke selected certificate?"
-msgstr ""
+msgstr "選択した証明書を無効化しますか？"
 
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 335
 msgid "Multi-Domain (SAN)"
@@ -21442,10 +21380,9 @@ msgstr "HAProxy 構成にエラーはありません。"
 msgid "HAProxy config test result"
 msgstr "HAProxy 構成テスト結果"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 411
 msgid "Rules & Checks"
-msgstr ""
+msgstr "ルールとチェック"
 
 # File: /usr/plugins/security/tinc/src/etc/inc/plugins.inc.d/tinc.inc, line: 70
 msgid "Tinc VPN Server"
@@ -21468,14 +21405,14 @@ msgstr "ネットワークを編集"
 msgid "Edit Host"
 msgstr "ホストを編集"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 486
 msgid ""
 "%sPort:%s The TCP or UDP port that should be used. If unset, the same port "
 "the client connected to will be used."
 msgstr ""
+"%sポート:%s TCP もしくは UDP ポートが使用されます。設定しない場合はクライアントが接続に使用したものと"
+"同じポートになります。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 513
 msgid ""
 "%sHealth Monitors:%s The HAProxy \"health checks\". Health Monitors are used "
@@ -21483,82 +21420,73 @@ msgid ""
 "client requests. If a server fails a health check it will automatically be "
 "removed from a Backend Pool and healthy servers are automatically re-added."
 msgstr ""
+"%sヘルス監視:%s HAProxy の「ヘルスチェック」。ヘルス監視は%sバックエンドプール%sによって使用され、サーバが現在"
+"クライアントの要求に応答可能かどうかを決定します。サーバがヘルスチェックに失敗した場合、自動的にバックエンドプール"
+"から削除され、稼働可能なサーバが自動的に補充されます。"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 469
 msgid ""
 "Add %sReal Servers:%s All physical or virtual servers that HAProxy should "
 "use to load balance between or proxy to."
 msgstr ""
+"追加する%sリアルサーバ:%s HAProxy がロードバランサもしくはプロキシに使用する全ての物理的もしくは仮想的なサーバ。"
 
-#
+
 # File: /usr/plugins/sysutils/nut/src/etc/inc/plugins.inc.d/nut.inc, line: 49
 msgid "Network UPS Tools"
-msgstr ""
+msgstr "ネットワーク UPS ツール"
 
-#
 # File: /usr/plugins/sysutils/nut/src/etc/inc/plugins.inc.d/nut.inc, line: 61
 msgid "Network UPS Monitor"
-msgstr ""
+msgstr "ネットワーク UPS 監視"
 
-#
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 595
 msgid "Backend Pool Name"
-msgstr ""
+msgstr "バックエンドプール名"
 
-#
 # File: /usr/plugins/www/c-icap/src/etc/inc/plugins.inc.d/cicap.inc, line: 37
 msgid "C-ICAP server"
-msgstr ""
+msgstr "C-ICAP サーバ"
 
-#
 # File: /usr/plugins/www/c-icap/src/opnsense/mvc/app/views/OPNsense/CICAP/general.volt, line: 30
 msgid "No ClamAV plugin found, please install via System > Firmware > Plugins."
-msgstr ""
+msgstr "ClamAV プラグインが見つかりません。%sシステム > ファームウェア > プラグイン%sからインストールしてください。"
 
-#
 # File: /usr/plugins/www/c-icap/src/opnsense/mvc/app/views/OPNsense/CICAP/general.volt, line: 34
 msgid "Antivirus"
-msgstr ""
+msgstr "アンチウィルス"
 
 msgid "Zone ID"
 msgstr "ゾーン ID"
 
-#
 # File: /usr/plugins/www/web-proxy-useracl/src/etc/inc/plugins.inc.d/proxy_useracl.inc, line: 59
 msgid "Group & User Squid ACL"
-msgstr ""
+msgstr "グループとユーザ Squid ACL"
 
-#
 # File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 292
 msgid "No authentication method selected"
-msgstr ""
+msgstr "認証メソッドが選択されていません"
 
-#
 # File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 298
 msgid "LDAP user name is not specified"
-msgstr ""
+msgstr "LDAP ユーザ名が指定されていません"
 
-#
 # File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 302
 msgid "LDAP user password is not specified"
-msgstr ""
+msgstr "LDAP ユーザパスワードが指定されていません"
 
-#
 # File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 314
 msgid "Error connecting to LDAP server"
-msgstr ""
+msgstr "LDAP サーバ接続エラー"
 
-#
 # File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/controllers/OPNsense/ProxyUserACL/Api/SettingsController.php, line: 339
 #, php-format
 msgid "The %s %s does not exist"
-msgstr ""
+msgstr "%s %s は存在しません"
 
-#
 # File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/index.volt, line: 155
 msgid "Edit user/group white and black lists"
-msgstr ""
+msgstr "ユーザ / グループのホワイト及びブラックリストを編集"
 
 # File: /usr/lang/src/controllers.php, line: 41
 msgid "(FQ-)CoDel ECN"
