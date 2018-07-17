@@ -22205,7 +22205,6 @@ msgstr "ChilliSpot 帯域幅最大値を下げる"
 msgid "ChilliSpot Bandwith Max UP"
 msgstr "ChilliSpot 帯域幅最大値を上げる"
 
-#
 # File: /usr/lang/src/controllers.php, line: 192
 msgid ""
 "Choose \"none\" to disable TLS for sending mail. Set encrypt to enforce TLS "
@@ -22213,13 +22212,16 @@ msgid ""
 "every server supports TLS yet. Default is \"may\" which will use TLS when "
 "offered."
 msgstr ""
+"「なし」を選択するとメール送信時の TLS を無効にします。暗号化で強化する TLS セキュリティ設定は、"
+"全てのサーバが未だ TLS をサポートしている訳ではないため、インターネット広域通信では使用しないでください。"
+"デフォルトは「許可」で要求された場合に TLS を使用します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 193
 msgid ""
 "Choose a HAProxy function that should be executed if the condition evaluates "
 "to true."
 msgstr ""
+"条件評価が真の場合に実行する HAProxy 機能を選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 44
 msgid ""
@@ -22229,51 +22231,42 @@ msgstr ""
 "ローカル統計ページで使用する TCP ポートを選択してください。デフォルト値は "
 "8822 です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 195
 msgid "Choose a load balancing algorithm."
-msgstr ""
+msgstr "ロードバランシングアルゴリズムを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 196
 msgid "Choose a logical operator."
-msgstr ""
+msgstr "ロジカルオペレータを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 197
 msgid "Choose a persistence type."
-msgstr ""
+msgstr "持続タイプを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 198
 msgid ""
 "Choose a secure value. It is recommended that you generate this password."
-msgstr ""
+msgstr "セキュア値を選択してください。あなたが生成したこのパスワードが推奨されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 199
 msgid "Choose a stick-table type."
-msgstr ""
+msgstr "スティックテーブルタイプを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 200
 msgid "Choose error messages to be included in this Backend Pool."
-msgstr ""
+msgstr "このバックエンドプールに組み込むエラーメッセージを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 201
 msgid "Choose error messages to be included in this Public Service."
-msgstr ""
+msgstr "このパブリックサービスに組み込むエラーメッセージを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 202
 msgid "Choose error messages."
-msgstr ""
+msgstr "エラーメッセージを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 137
 msgid "Choose for which file types to scan, if unsure select all."
-msgstr ""
+msgstr "どのタイプのファイルをスキャンするか選択してください。よくわからない場合は全てを選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 50
 msgid ""
@@ -22289,30 +22282,25 @@ msgid ""
 msgstr ""
 "24 標準 syslog 機能の 1 つを選択してください。デフォルト値は local0 です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 206
 msgid "Choose rules to be included in this Backend Pool."
-msgstr ""
+msgstr "このバックエンドプールに組み込むルールを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 207
 msgid "Choose rules to be included in this Public Service."
-msgstr ""
+msgstr "このパブリックサービスに組み込むルールを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 208
 msgid "Choose rules."
-msgstr ""
+msgstr "ルールを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 209
 msgid "Choose the Certificate Authority which signed your certificate."
-msgstr ""
+msgstr "あなたの証明書で署名した認証局を選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 210
 msgid "Choose the Root CA."
-msgstr ""
+msgstr "ルート CA を選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 134
 msgid ""
@@ -22326,26 +22314,22 @@ msgstr ""
 "動アクションを構成しない場合は、インメモリ証明書は有効期限切れとなり、セキュ"
 "リティ警告及びその他の問題を引き起こすことになる可能性があります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 212
 msgid "Choose the certificate the Radius service should use."
-msgstr ""
+msgstr "Radius サービスで使用する証明書を選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 213
 msgid ""
 "Choose the certificate to use when other servers want to do TLS with you."
-msgstr ""
+msgstr "他のサーバから TLS を要求された場合に使用する証明書を選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 214
 msgid "Choose the cipher to use for encryption."
-msgstr ""
+msgstr "暗号化に使用する暗号を選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 215
 msgid "Choose the interface on which the port should be opened."
-msgstr ""
+msgstr "ポートを開けるインタフェースを選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 135
 msgid ""
@@ -22373,29 +22357,25 @@ msgstr ""
 msgid "Cipher"
 msgstr "暗号"
 
-#
 # File: /usr/lang/src/controllers.php, line: 221
 msgid "Cipher List"
-msgstr ""
+msgstr "暗号リスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 222
 msgid "ClamAV engine version"
-msgstr ""
+msgstr "ClamAV エンジンバージョン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 144
 msgid "ClamAV will scan within archives and compressed files."
-msgstr ""
+msgstr "ClamAV はアーカイブと圧縮ファイルをスキャンします。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 570
 msgid "Classtype"
 msgstr "Classtype"
 
-#
 # File: /usr/lang/src/controllers.php, line: 146
 msgid "Client ID"
-msgstr ""
+msgstr "クライアント ID"
 
 # File: /usr/lang/src/controllers.php, line: 106
 msgid "Client Timeout"
@@ -22427,10 +22407,9 @@ msgstr "CloudXNS"
 msgid "Cloudflare"
 msgstr "Cloudflare"
 
-#
 # File: /usr/lang/src/controllers.php, line: 231
 msgid "Collect CPU Time"
-msgstr ""
+msgstr "CPU 時間を収集"
 
 # File: /usr/lang/src/controllers.php, line: 109
 msgid ""
@@ -22440,18 +22419,18 @@ msgstr ""
 "このファイアウォールで分析に使用する NetFlow データを収集します。ローカル"
 "キャッシュには最新 100MB のデータのみが保持されますので注意してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 233
 msgid "Collection Jitter"
-msgstr ""
+msgstr "ジッター収集"
 
-#
 # File: /usr/lang/src/controllers.php, line: 234
 msgid ""
 "Collection jitter is used to jitter the collection by a random amount. Each "
 "plugin will sleep for a random time within jitter before collecting. Input "
 "value are seconds."
 msgstr ""
+"ジッター収集はランダム量でジッターを収集するのに使用されます。どのプラグインも収集前にジッターの範囲内で"
+"ランダムな時間スリープします。入力値は秒数です。"
 
 # File: /usr/lang/src/controllers.php, line: 145
 msgid "Comma separated list of SMTP servers for alert delivery."
@@ -22464,15 +22443,13 @@ msgstr "コマンド"
 msgid "Common Name"
 msgstr "コモンネーム"
 
-#
 # File: /usr/lang/src/controllers.php, line: 156
 msgid "Common Name (CN) for this certificate."
-msgstr ""
+msgstr "この証明書のコモンネーム ( CN )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 239
 msgid "Comparison"
-msgstr ""
+msgstr "比較"
 
 msgid "Concurrent connections"
 msgstr "同時接続"
@@ -22486,10 +22463,9 @@ msgstr "同時ユーザログイン"
 msgid "Condition"
 msgstr "条件"
 
-#
 # File: /usr/lang/src/controllers.php, line: 243
 msgid "Condition type"
-msgstr ""
+msgstr "条件タイプ"
 
 # File: /usr/lang/src/controllers.php, line: 55
 msgid ""
