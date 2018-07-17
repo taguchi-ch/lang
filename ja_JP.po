@@ -21431,7 +21431,6 @@ msgid ""
 msgstr ""
 "追加する%sリアルサーバ:%s HAProxy がロードバランサもしくはプロキシに使用する全ての物理的もしくは仮想的なサーバ。"
 
-
 # File: /usr/plugins/sysutils/nut/src/etc/inc/plugins.inc.d/nut.inc, line: 49
 msgid "Network UPS Tools"
 msgstr "ネットワーク UPS ツール"
@@ -21778,29 +21777,28 @@ msgstr "常にデフォルトゲートウェイを広告"
 msgid "Alwaysdata"
 msgstr "alwaysdata"
 
-#
 # File: /usr/lang/src/controllers.php, line: 94
 msgid ""
 "An integer value corresponding to the TCP source port of the connection on "
 "the client side, which is the port the client connected from."
 msgstr ""
+"整数値はクライアントサイドで接続に使用する TCP 送信元ポートに対応します。クライアントが接続されるポートです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 95
 msgid ""
 "An optional custom reason text for the HTTP status code. If empty the "
 "default reason for the specified code will be used."
 msgstr ""
+"HTTP ステータスコードの任意のカスタムエラーメッセージ。"
+"空の場合は指定したコードが使用された場合のデフォルトエラーメッセージになります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 96
 msgid "Anti Malware"
-msgstr ""
+msgstr "アンチマルウェア"
 
-#
 # File: /usr/lang/src/controllers.php, line: 97
 msgid "Append a HTTP header field with the specified name."
-msgstr ""
+msgstr "指定した名前の HTTP ヘッダフィールドを追加します。"
 
 # File: /usr/lang/src/controllers.php, line: 73
 msgid "Application Key"
@@ -21826,44 +21824,38 @@ msgstr ""
 "ワイルドカードマスク形式のエリア ( 0.0.0.0 のような形式。0 は 10 進数ではあり"
 "ません  )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 90
 msgid "At least two interfaces must be selected."
-msgstr ""
+msgstr "2 つ以上のインタフェースを選択するようにしてください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 103
 msgid "Attempt to circumvent censorship."
-msgstr ""
+msgstr "センサーシップの回避を試みます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 104
 msgid "Auth Only"
-msgstr ""
+msgstr "認証のみ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 105
 msgid "Auth Realm"
-msgstr ""
+msgstr "認証レルム"
 
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Authenticate using"
 msgstr "使用している認証"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 205
 # File: /usr/lang/src/controllers.php, line: 107
 msgid "Authentication Cookie"
-msgstr ""
+msgstr "認証 Cookie"
 
 # File: /usr/lang/src/controllers.php, line: 88
 msgid "Authentication Key"
 msgstr "認証鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 109
 msgid "Authentication Password"
-msgstr ""
+msgstr "認証パスワード"
 
 # File: /usr/lang/src/controllers.php, line: 73
 msgid "Authentication Prompt"
@@ -21880,10 +21872,9 @@ msgstr "認証 TTL ( 時間 )"
 msgid "Authentication Type"
 msgstr "認証タイプ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 114
 msgid "Authentication Username"
-msgstr ""
+msgstr "認証ユーザ名"
 
 msgid "Authentication method"
 msgstr "認証方法"
@@ -21892,15 +21883,13 @@ msgstr "認証方法"
 msgid "Authentication processes"
 msgstr "認証プロセス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 117
 msgid "Authorization type"
-msgstr ""
+msgstr "認証タイプ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 118
 msgid "Authorized clients"
-msgstr ""
+msgstr "認証済クライアント"
 
 # File: /usr/lang/src/controllers.php, line: 81
 msgid "Auto Renewal"
@@ -21916,12 +21905,12 @@ msgstr ""
 "に ACME チャレンジを提供することができます。もちろん、構成を追加することで "
 "HAProxy サービスを短時間再起動する必要があります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 121
 msgid ""
 "Automatically register in M/Monit by sending Monit credentials (see Monit "
 "Access List above)."
 msgstr ""
+"Monit 資格情報を送信されることで M/Monit に自動的に登録します ( 上の Monit アクセスリスト参照 )。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 104
 msgid "Avoid authentication for addresses and subnets in this list"
@@ -21939,49 +21928,41 @@ msgstr "BGP AS 番号"
 msgid "BGP Neighbor"
 msgstr "BGP ネイバー"
 
-#
 # File: /usr/lang/src/controllers.php, line: 126
 msgid "Backend"
-msgstr ""
+msgstr "バックエンド"
 
-#
 # File: /usr/lang/src/controllers.php, line: 127
 msgid "Backup Check Interval"
-msgstr ""
+msgstr "バックアップチェック間隔"
 
-#
 # File: /usr/lang/src/controllers.php, line: 128
 msgid "Backup Check Timeout"
-msgstr ""
+msgstr "バックアップチェックタイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 129
 msgid "Backup Table"
-msgstr ""
+msgstr "バックアップテーブル"
 
-#
 # File: /usr/lang/src/controllers.php, line: 130
 msgid "Backup Table Check"
-msgstr ""
+msgstr "バックアップテーブルチェック"
 
-#
 # File: /usr/lang/src/controllers.php, line: 131
 msgid "Backup Table Scheduler"
-msgstr ""
+msgstr "バックアップテーブルスケジューラ"
 
 # File: /usr/lang/src/controllers.php, line: 79
 msgid "Balancing Algorithm"
 msgstr "分散アルゴリズム"
 
-#
 # File: /usr/lang/src/controllers.php, line: 133
 msgid "Bandwith Burst"
-msgstr ""
+msgstr "帯域幅バースト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 134
 msgid "Bandwith Rate"
-msgstr ""
+msgstr "帯域幅率"
 
 # File: /usr/lang/src/controllers.php, line: 80
 msgid "Banned host IP addresses"
@@ -21991,48 +21972,40 @@ msgstr "アクセス禁止済ホスト IP アドレス"
 msgid "Base DN"
 msgstr "ベース DN"
 
-#
 # File: /usr/lang/src/controllers.php, line: 137
 msgid "Bayes Learning"
-msgstr ""
+msgstr "ベイズ学習"
 
-#
 # File: /usr/lang/src/controllers.php, line: 138
 msgid "Begin of the port range or the port used by this ACL."
-msgstr ""
+msgstr "ポート範囲の起点もしくはこの ACL で使用されるポート。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 139
 msgid "Beginning of the port range RTP may use."
-msgstr ""
+msgstr "RTP が使用するポート範囲の起点。"
 
 msgid "Bind Password"
 msgstr "バインドパスワード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 141
 msgid "Bind User"
-msgstr ""
+msgstr "Bind ユーザ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 142
 msgid "Bind option pass-through"
-msgstr ""
+msgstr "Bind オプションパススルー"
 
-#
 # File: /usr/lang/src/controllers.php, line: 143
 msgid "Bind options"
-msgstr ""
+msgstr "Bind オプション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 144
 msgid "Black or White list"
-msgstr ""
+msgstr "ブラックもしくはホワイトリスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 145
 msgid "Black/White"
-msgstr ""
+msgstr "ブラック / ホワイト"
 
 # File: /usr/lang/src/controllers.php, line: 81
 msgid "Blacklist"
@@ -22042,49 +22015,41 @@ msgstr "ブラックリスト"
 msgid "Block browser/user-agents"
 msgstr "ブラウザ / ユーザエージェントを拒否"
 
-#
 # File: /usr/lang/src/controllers.php, line: 109
 msgid "Block encrypted archive"
-msgstr ""
+msgstr "暗号化されたアーカイブを拒否"
 
 # File: /usr/lang/src/controllers.php, line: 83
 msgid "Block specific MIME type reply"
 msgstr "特定の MIME タイプの応答を拒否"
 
-#
 # File: /usr/lang/src/controllers.php, line: 150
 msgid "Blocked File Extensions"
-msgstr ""
+msgstr "拒否したファイル拡張子"
 
-#
 # File: /usr/lang/src/controllers.php, line: 151
 msgid "Bounce Limit per IP: Mail Count"
-msgstr ""
+msgstr "IP 毎のバウンス制限: メール数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 152
 msgid "Bounce Limit per IP: Time"
-msgstr ""
+msgstr "IP 毎のバウンス制限: 時間"
 
-#
 # File: /usr/lang/src/controllers.php, line: 153
 msgid "Bounce Limit per IP: Time Unit"
-msgstr ""
+msgstr "IP 毎のバウンス制限: 時間単位"
 
-#
 # File: /usr/lang/src/controllers.php, line: 154
 msgid "Bounce Limit: Mail Count"
-msgstr ""
+msgstr "バウンス制限: メール数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 155
 msgid "Bounce Limit: Time"
-msgstr ""
+msgstr "バウンス制限: 時間"
 
-#
 # File: /usr/lang/src/controllers.php, line: 156
 msgid "Bounce Limit: Time Unit"
-msgstr ""
+msgstr "バウンス制限: 時間単位"
 
 msgid "Bridge"
 msgstr "ブリッジ"
@@ -22105,27 +22070,25 @@ msgstr "バッファ送信"
 msgid "BufferSize"
 msgstr "バッファサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 162
 msgid ""
 "By default, Telegraf gather stats for all mountpoints. Setting mountpoints "
 "will restrict the stats to the specified mountpoints."
 msgstr ""
+"デフォルトでは Telegraf は全てのマウントポイントから統計を収集します。"
+"マウントポイントを設定すると指定されたマウントポイントに限定して統計を取得します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 163
 msgid "Bytes in rate period"
-msgstr ""
+msgstr "期間内入力バイト率"
 
-#
 # File: /usr/lang/src/controllers.php, line: 164
 msgid "Bytes out rate period"
-msgstr ""
+msgstr "期間内出力バイト率"
 
-#
 # File: /usr/lang/src/controllers.php, line: 165
 msgid "CA Common-Name"
-msgstr ""
+msgstr "CA コモンネーム"
 
 # File: /usr/lang/src/controllers.php, line: 86
 msgid "CA to use"
@@ -22133,41 +22096,35 @@ msgstr "使用する CA"
 
 # File: /usr/lang/src/controllers.php, line: 93
 msgid "CF E-Mail"
-msgstr "CF E-Mail"
+msgstr "CF メール"
 
 # File: /usr/lang/src/controllers.php, line: 94
 msgid "CF Key"
 msgstr "CF 鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 169
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
-#
 # File: /usr/lang/src/controllers.php, line: 170
 msgid "CPU Statistics"
-msgstr ""
+msgstr "CPU 統計"
 
-#
 # File: /usr/lang/src/controllers.php, line: 171
 msgid "CRL"
-msgstr ""
+msgstr "CRL"
 
-#
 # File: /usr/lang/src/controllers.php, line: 172
 msgid "Cache Expiration"
-msgstr ""
+msgstr "キャッシュ有効期間"
 
-#
 # File: /usr/lang/src/controllers.php, line: 173
 msgid "Cache Expire"
-msgstr ""
+msgstr "キャッシュ有効期限切れ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 174
 msgid "Cache Size"
-msgstr ""
+msgstr "キャッシュサイズ"
 
 # File: /usr/lang/src/controllers.php, line: 95
 msgid "Cache directory location"
@@ -22220,38 +22177,33 @@ msgstr "確認間隔"
 msgid "Check Timeout"
 msgstr "確認タイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 185
 msgid "Check if the username should be sent to the ICAP server."
-msgstr ""
+msgstr "ICAP サーバに送信するユーザ名かどうか確認してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 186
 msgid "Check if you want to encode the username using base64."
-msgstr ""
+msgstr "ユーザ名に base64 を使用してエンコードしたいか確認してください。"
 
 # File: /usr/lang/src/controllers.php, line: 93
 msgid "Check interval"
 msgstr "確認間隔"
 
-#
 # File: /usr/lang/src/controllers.php, line: 188
 msgid "Check this to enable authentication against your Smarthost."
-msgstr ""
+msgstr "あなたの Smarthost に対してこれが認証可能か確認してください。"
 
 # File: /usr/lang/src/controllers.php, line: 94
 msgid "Check type"
 msgstr "確認タイプ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 190
 msgid "ChilliSpot Bandwith Max DOWN"
-msgstr ""
+msgstr "ChilliSpot 帯域幅最大値を下げる"
 
-#
 # File: /usr/lang/src/controllers.php, line: 191
 msgid "ChilliSpot Bandwith Max UP"
-msgstr ""
+msgstr "ChilliSpot 帯域幅最大値を上げる"
 
 #
 # File: /usr/lang/src/controllers.php, line: 192
