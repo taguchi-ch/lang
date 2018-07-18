@@ -22477,12 +22477,13 @@ msgstr ""
 "10.0.0.1:8080 もしくは haproxy.example.com:8999 を使用します。TAB キーを使う"
 "とリスンアドレスのタイピングをコンプリートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 245
 msgid ""
 "Configure listen addresses for this Public Service, i.e. 127.0.0.1:8080 or "
 "www.example.com:443. Use TAB key to complete typing a listen address."
 msgstr ""
+"このパブリックサービスのリスンアドレスを構成します。127.0.0.1:8080 もしくは www.example.com:443 のように指定します。"
+"TAB キーを使用するとリスンアドレスのタイピングをコンプリートします。"
 
 # File: /usr/lang/src/controllers.php, line: 116
 msgid "Connect To"
@@ -22495,16 +22496,14 @@ msgstr "このホストに接続"
 msgid "Connection Timeout"
 msgstr "接続タイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 249
 # File: /usr/lang/src/models.php, line: 136
 msgid "Connection rate"
-msgstr ""
+msgstr "接続率"
 
-#
 # File: /usr/lang/src/controllers.php, line: 250
 msgid "Connection rate period"
-msgstr ""
+msgstr "期間内の接続率"
 
 # File: /usr/lang/src/controllers.php, line: 57
 msgid ""
@@ -22514,35 +22513,33 @@ msgstr ""
 "リストされた国の ( 送信元 ) から来る、もしくは ( 送信先 )に行く接続。デフォル"
 "トでは両方を選択します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 252
 msgid "Connections count"
-msgstr ""
+msgstr "接続数"
 
 # File: /usr/lang/src/controllers.php, line: 131
 msgid "Consumer Key"
 msgstr "コンシューマ鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 254
 msgid "Contact Info"
-msgstr ""
+msgstr "連絡先情報"
 
 # File: /usr/lang/src/controllers.php, line: 120
 msgid "Content"
 msgstr "内容"
 
-#
 # File: /usr/lang/src/controllers.php, line: 256
 msgid "Control Port"
-msgstr ""
+msgstr "コントロールポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 257
 msgid ""
 "Control Port number on which tor should listen. The default is 9051. You "
 "should not change this unless you need the port."
 msgstr ""
+"tor がリスンするコントロールポート番号。デフォルトは 9051 です。"
+"このポートが必要ではない限り変更しないほうがいいでしょう。"
 
 # File: /usr/lang/src/controllers.php, line: 121
 msgid "Cookie length"
@@ -22572,20 +22569,17 @@ msgstr "コスト"
 msgid "Countries to alert or block using GeoIP."
 msgstr "GeoIP を使用して警告もしくは拒否する国。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 263
 msgid "Create a logfile"
-msgstr ""
+msgstr "ログファイルを新規作成"
 
-#
 # File: /usr/lang/src/controllers.php, line: 174
 msgid "Credentials"
-msgstr ""
+msgstr "資格情報"
 
-#
 # File: /usr/lang/src/controllers.php, line: 265
 msgid "Current Time Statistics"
-msgstr ""
+msgstr "現在時間の統計"
 
 # File: /usr/lang/src/controllers.php, line: 125
 msgid "Custom HTTP check"
@@ -22603,25 +22597,21 @@ msgstr "カスタムオプション"
 msgid "Custom template"
 msgstr "カスタムテンプレート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 179
 msgid "Customer"
-msgstr ""
+msgstr "カスタマ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 271
 msgid "DKIM"
-msgstr ""
+msgstr "DKIM"
 
-#
 # File: /usr/lang/src/controllers.php, line: 272
 msgid "DNS IP resolution for LDAP server name."
-msgstr ""
+msgstr "LDAP サーバ名の DNS IP 解決。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 273
 msgid "DNS IP resolution for hostname."
-msgstr ""
+msgstr "ホスト名の DNS IP 解決。"
 
 msgid "DNS Server"
 msgstr "DNS サーバ"
@@ -22642,45 +22632,38 @@ msgstr "DNS Made Easy"
 msgid "DNSPod"
 msgstr "DNSPod"
 
-#
 # File: /usr/lang/src/controllers.php, line: 185
 msgid "DNSimple"
-msgstr ""
+msgstr "DNSimple"
 
-#
 # File: /usr/lang/src/controllers.php, line: 280
 msgid "DSCP value to set for RTP packets."
-msgstr ""
+msgstr "RTP パケットに設定する DSCP 値。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 281
 msgid "DSCP value to set for SIP packets."
-msgstr ""
+msgstr "SIP パケットに設定する DSCP 値。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 282
 msgid "DTAG servers"
-msgstr ""
+msgstr "DTAG サーバ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 283
 msgid "Data received"
-msgstr ""
+msgstr "データ受信"
 
-#
 # File: /usr/lang/src/controllers.php, line: 284
 msgid "Data sent"
-msgstr ""
+msgstr "データ送信"
 
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 468
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 369
 msgid "Database"
 msgstr "データベース"
 
-#
 # File: /usr/lang/src/controllers.php, line: 286
 msgid "Database Count"
-msgstr ""
+msgstr "データベース数"
 
 # File: /usr/lang/src/controllers.php, line: 129
 msgid "Day of the month"
@@ -22690,15 +22673,13 @@ msgstr "月の日付"
 msgid "Days of the week"
 msgstr "週の日数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 289
 msgid "De-Jitter inbound packets in ms (default is disabled)."
-msgstr ""
+msgstr "ms 単位の De-Jitter インバウンドパケット ( デフォルトは無効 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 290
 msgid "De-Jitter outbound packets in ms (default is disabled)."
-msgstr ""
+msgstr "ms 単位の De-Jitter アウトバウンドパケット ( デフォルトは無効 )。"
 
 # File: /usr/lang/src/controllers.php, line: 175
 msgid "Dead Interval"
@@ -22724,20 +22705,17 @@ msgstr ""
 "デバッグレベルの範囲は 0 - 7 です。高いほうがより詳細です。デフォルトは 5 で"
 "す。( このレベルは syslog(3) のレベルに対応しています。)"
 
-#
 # File: /usr/lang/src/controllers.php, line: 193
 msgid "Decode mail files"
-msgstr ""
+msgstr "メールファイルをデコード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 297
 msgid "Default Backend Pool"
-msgstr ""
+msgstr "デフォルトバックエンドプール"
 
-#
 # File: /usr/lang/src/controllers.php, line: 298
 msgid "Default EAP Type"
-msgstr ""
+msgstr "デフォルト EAP タイプ"
 
 # File: /usr/lang/src/controllers.php, line: 135
 msgid "Default Options TTL"
@@ -22751,35 +22729,32 @@ msgstr "デフォルトパラメータ"
 msgid "Default certificate"
 msgstr "デフォルト証明書"
 
-#
 # File: /usr/lang/src/controllers.php, line: 302
 msgid "Default data collection interval for all inputs in seconds."
-msgstr ""
+msgstr "秒単位の全ての入力に対するデフォルトデータ収集間隔。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 303
 msgid ""
 "Default flushing interval for all outputs. You should not set this below "
 "interval."
 msgstr ""
+"全ての出力に対するデフォルト書き込み間隔。下の間隔をここに設定してはいけません。"
 
 # File: /usr/lang/src/controllers.php, line: 137
 msgid "Default for server"
 msgstr "サーバのデフォルト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 305
 msgid "Default is 1 Minute."
-msgstr ""
+msgstr "デフォルトは 1　分です。"
 
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "Default option for all server entries."
 msgstr "全てのサーバエントリに対するデフォルトオプションです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 307
 msgid "Default target account"
-msgstr ""
+msgstr "デフォルトターゲットアカウント"
 
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "Default ttl"
@@ -22791,24 +22766,21 @@ msgstr "遅延"
 msgid "Description"
 msgstr "説明"
 
-#
 # File: /usr/lang/src/controllers.php, line: 311
 msgid "Description for this Backend Pool."
-msgstr ""
+msgstr "このバックエンドプールの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 312
 msgid "Description for this Health Monitor."
-msgstr ""
+msgstr "このヘルス監視の説明。"
 
 # File: /usr/lang/src/controllers.php, line: 62
 msgid "Description for this Lua script."
 msgstr "この Lua スクリプトの説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 314
 msgid "Description for this Public Service."
-msgstr ""
+msgstr "このパブリックサービスの説明。"
 
 # File: /usr/lang/src/controllers.php, line: 173
 msgid "Description for this account."
@@ -22818,24 +22790,21 @@ msgstr "このアカウントの説明。"
 msgid "Description for this certificate."
 msgstr "この証明書の説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 317
 msgid "Description for this condition."
-msgstr ""
+msgstr "この条件の説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 318
 msgid "Description for this error message."
-msgstr ""
+msgstr "このエラーメッセージの説明。"
 
 # File: /usr/lang/src/controllers.php, line: 196
 msgid "Description for this restart action."
 msgstr "この再起動の説明。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 320
 msgid "Description for this rule."
-msgstr ""
+msgstr "このルールの説明。"
 
 # File: /usr/lang/src/controllers.php, line: 67
 msgid "Description for this server."
@@ -22868,79 +22837,67 @@ msgstr "送信先"
 msgid "Detailed Logging"
 msgstr "詳細なログ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 220
 msgid "Detect broken executables"
-msgstr ""
+msgstr "動作しない実行ファイルを検出"
 
-#
 # File: /usr/lang/src/controllers.php, line: 330
 msgid "Device Statistics"
-msgstr ""
+msgstr "デバイス統計"
 
-#
 # File: /usr/lang/src/controllers.php, line: 221
 msgid "DigitalOcean"
-msgstr ""
+msgstr "DigitalOcean"
 
-#
 # File: /usr/lang/src/controllers.php, line: 332
 msgid "Directory Port"
-msgstr ""
+msgstr "ディレクトリポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 222
 msgid ""
 "Disable 204 responses outside previews for virus_scan if your ICAP client "
 "does not support it."
 msgstr ""
+"あなたの ICAP クライアントがサポートしていない場合は、virus_scan の 204 外部プレビュー応答を無効にしてください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 334
 msgid "Disable Commands"
-msgstr ""
+msgstr "コマンドを無効"
 
 # File: /usr/lang/src/controllers.php, line: 187
 msgid "Disable SSL Verification"
 msgstr "SSL 検証を無効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 336
 msgid "Disable SSLv2 and SSLv3, only TLS allowed."
-msgstr ""
+msgstr "SSLv2 及び SSLv3 を無効にし、TLS のみを許可。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 337
 msgid "Disable Weak Ciphers And Algorithms"
-msgstr ""
+msgstr "弱い暗号とアルゴルズムを無効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 224
 msgid "Disable cache"
-msgstr ""
+msgstr "キャッシュを無効"
 
 msgid "Disabled"
 msgstr "無効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 340
 msgid "Disk"
-msgstr ""
+msgstr "ディスク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 341
 msgid "Disk IO"
-msgstr ""
+msgstr "ディスク IO"
 
-#
 # File: /usr/lang/src/controllers.php, line: 342
 msgid "Disk Ignore FS"
-msgstr ""
+msgstr "ディスク FS を無視"
 
-#
 # File: /usr/lang/src/controllers.php, line: 343
 msgid "Disk Mount Points"
-msgstr ""
+msgstr "ディスクマウントポイント"
 
 # File: /usr/lang/src/controllers.php, line: 206
 msgid "Do not keep data longer than N seconds in buffer."
@@ -22956,17 +22913,15 @@ msgstr ""
 msgid "Domain-Offensive"
 msgstr "Domain-Offensive"
 
-#
 # File: /usr/lang/src/controllers.php, line: 347
 msgid "Domainname"
-msgstr ""
+msgstr "ドメイン名"
 
-#
 # File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/index.volt, line: 127
 # File: /usr/lang/src/controllers.php, line: 348
 # File: /usr/lang/src/models.php, line: 180
 msgid "Domains"
-msgstr ""
+msgstr "ドメイン"
 
 # File: /usr/lang/src/controllers.php, line: 155
 msgid "Don't log normal"
@@ -22989,20 +22944,17 @@ msgstr ""
 msgid "Down Interval"
 msgstr "ダウン間隔"
 
-#
 # File: /usr/lang/src/controllers.php, line: 232
 msgid "DuckDNS.org"
-msgstr ""
+msgstr "DuckDNS.org"
 
-#
 # File: /usr/lang/src/controllers.php, line: 233
 msgid "Dyn Managed DNS API"
-msgstr ""
+msgstr "Dyn Managed DNS API"
 
-#
 # File: /usr/lang/src/controllers.php, line: 234
 msgid "Dynu"
-msgstr ""
+msgstr "Dynu"
 
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 66
 # File: /usr/lang/src/controllers.php, line: 193
@@ -23013,15 +22965,13 @@ msgstr "メール"
 msgid "E-Mail Address"
 msgstr "メールアドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 358
 msgid "ESMTP check"
-msgstr ""
+msgstr "ESMTP チェック"
 
-#
 # File: /usr/lang/src/controllers.php, line: 359
 msgid "ESMTP domain"
-msgstr ""
+msgstr "ESMTP ドメイン"
 
 # File: /usr/lang/src/controllers.php, line: 158
 msgid "Egress only"
@@ -23046,34 +22996,29 @@ msgstr "有効 / 無効"
 msgid "Enable Active Checks"
 msgstr "アクティブチェックを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 366
 msgid "Enable Advanced settings"
-msgstr ""
+msgstr "詳細設定を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 367
 msgid "Enable Authentication Result Headers"
-msgstr ""
+msgstr "認証結果ヘッダを有効"
 
 # File: /usr/lang/src/controllers.php, line: 221
 msgid "Enable Auto-Configuration"
 msgstr "自動構成を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 369
 msgid "Enable CDP"
-msgstr ""
+msgstr "CDP を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 370
 msgid "Enable ChilliSpot attributes"
-msgstr ""
+msgstr "ChilliSpot 属性を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 244
 msgid "Enable ClamAV"
-msgstr ""
+msgstr "ClamAV を有効"
 
 # File: /usr/lang/src/controllers.php, line: 161
 msgid "Enable CoDel"
@@ -23087,41 +23032,34 @@ msgstr "CoDel アクティブキュー管理を有効"
 msgid "Enable DNS v4 first"
 msgstr "DNS v4 優先を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 375
 msgid "Enable Daily Session Limit"
-msgstr ""
+msgstr "日次セッション制限を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 376
 msgid "Enable EDP"
-msgstr ""
+msgstr "EDP を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 377
 msgid "Enable Extended Spam Headers"
-msgstr ""
+msgstr "拡張スパムヘッダを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 378
 msgid "Enable FDP"
-msgstr ""
+msgstr "FDP を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 379
 msgid "Enable Graphite Output"
-msgstr ""
+msgstr "Graphite 出力を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 380
 msgid "Enable Graylog Output"
-msgstr ""
+msgstr "Graylog 出力を有効"
 
 # File: /usr/lang/src/controllers.php, line: 164
 msgid "Enable HAProxy"
 msgstr "HAProxy を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 249
 msgid ""
 "Enable HAProxy's graceful stop mode. In this mode HAProxy will continue to "
@@ -23131,15 +23069,18 @@ msgid ""
 "it immediately quits and all established connections are closed. Hard stop "
 "mode is recommended."
 msgstr ""
+"HAProxy の graceful stop モードを有効にします。このモードでは HAProxy は存在する接続が切断するまで"
+"プロセスを維持します。この設定は HAProxy のシャットダウンを酷く減速させる可能性があり、それは構成された"
+"タイムアウト値に依存します。graceful stop モードが有効ではない場合、HAProxy は hard stop モードを使用します。"
+"これは即座に終了し、全ての確立した接続は切断されます。hard stop モードが推奨です。"
 
 # File: /usr/lang/src/controllers.php, line: 71
 msgid "Enable HAProxy's statistics page."
 msgstr "HAProxy 統計ページを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 384
 msgid "Enable HSTS"
-msgstr ""
+msgstr "HSTS を有効"
 
 #
 # File: /usr/lang/src/controllers.php, line: 385
