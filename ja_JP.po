@@ -23082,80 +23082,67 @@ msgstr "HAProxy 統計ページを有効にします。"
 msgid "Enable HSTS"
 msgstr "HSTS を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 385
 msgid "Enable HTTP Strict Transport Security."
-msgstr ""
+msgstr "HTTP Strict Transport Security を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 386
 msgid "Enable HTTPD"
-msgstr ""
+msgstr "HTTPD を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 387
 msgid "Enable Health Checking"
-msgstr ""
+msgstr "ヘルスチェックを有効"
 
 # File: /usr/lang/src/controllers.php, line: 166
 msgid "Enable ICAP"
 msgstr "ICAP を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 389
 msgid "Enable Influx Output"
-msgstr ""
+msgstr "Influx 出力を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 390
 msgid "Enable Kerberos based Single Sign-On"
-msgstr ""
+msgstr "Kerberos ベースのシングルサインオンを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 391
 msgid "Enable LDAP"
-msgstr ""
+msgstr "LDAP を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 392
 msgid "Enable LLDP Daemon"
-msgstr ""
+msgstr "LLDP デーモンを有効"
 
 # File: /usr/lang/src/controllers.php, line: 228
 msgid "Enable Let's Encrypt plugin."
 msgstr "Let's Encrypt プラグインを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 394
 msgid "Enable Linux Package Cache"
-msgstr ""
+msgstr "Linux パッケージキャッシュを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 395
 msgid "Enable Nut"
-msgstr ""
+msgstr "Nut を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 396
 msgid "Enable Openphish"
-msgstr ""
+msgstr "Openphish を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 397
 msgid "Enable Openphish Premium"
-msgstr ""
+msgstr "Openphish Premium を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 398
 msgid "Enable Phishtank"
-msgstr ""
+msgstr "Phishtank を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 399
 msgid ""
 "Enable Phishtank collaborative clearing house for data and information about "
 "phishing on the Internet."
-msgstr ""
+msgstr "インターネット上のフィッシング情報及びデータの共同クリアリングハウスである Phishtank を有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 205
 msgid "Enable Plugin"
@@ -23165,54 +23152,45 @@ msgstr "プラグインを有効"
 msgid "Enable Preview"
 msgstr "プレビューを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 402
 msgid "Enable Protected Mode"
-msgstr ""
+msgstr "プロテクトモードを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 403
 msgid "Enable Proxy authentication"
-msgstr ""
+msgstr "プロキシ認証を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 404
 msgid "Enable Redis"
-msgstr ""
+msgstr "Redis を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 405
 msgid "Enable Redis Plugin"
-msgstr ""
+msgstr "Redis プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 406
 msgid "Enable Relayd"
-msgstr ""
+msgstr "Relayd を有効"
 
 # File: /usr/lang/src/controllers.php, line: 231
 msgid "Enable Remote Commands"
 msgstr "リモートコマンドを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 408
 msgid "Enable Rspamd Integration"
-msgstr ""
+msgstr "Rspamd 統合を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 409
 msgid "Enable SMTP Authentication"
-msgstr ""
+msgstr "SMTP 認証を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 410
 msgid "Enable SNMP Agent"
-msgstr ""
+msgstr "SNMP エージェントを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 411
 msgid "Enable SONMP"
-msgstr ""
+msgstr "SONMP を有効"
 
 # File: /usr/lang/src/controllers.php, line: 232
 msgid "Enable SSL inspection"
@@ -23222,78 +23200,65 @@ msgstr "SSL インスペクションを有効"
 msgid "Enable SSL offloading"
 msgstr "SSL オフロードを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 414
 msgid "Enable STUN plugin"
-msgstr ""
+msgstr "STUN プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 415
 msgid "Enable ShadowSocks Local"
-msgstr ""
+msgstr "ShadowSocks ローカルを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 416
 msgid "Enable ShadowSocks Server"
-msgstr ""
+msgstr "ShadowSocks サーバを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 417
 msgid "Enable Single Sign-On"
-msgstr ""
+msgstr "シングルサインオンを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 418
 msgid "Enable Spamd Bar"
-msgstr ""
+msgstr "Spamd Bar を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 419
 msgid "Enable Syslog"
-msgstr ""
+msgstr "Syslog を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 420
 msgid "Enable Syslog logging."
-msgstr ""
+msgstr "Syslog でログを記録することを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 258
 msgid "Enable TCP port"
-msgstr ""
+msgstr "TCP ポートを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 422
 msgid "Enable Telegraf Agent"
-msgstr ""
+msgstr "Telegraf エージェントを有効"
 
 # File: /usr/lang/src/controllers.php, line: 170
 msgid "Enable Transparent HTTP proxy"
 msgstr "透過 HTTP プロキシを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 424
 msgid "Enable Transparent Proxy"
-msgstr ""
+msgstr "透過プロキシを有効"
 
 # File: /usr/lang/src/controllers.php, line: 171
 msgid "Enable Transparent mode"
 msgstr "透過モードを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 261
 msgid "Enable VLAN assignment"
-msgstr ""
+msgstr "VLAN 割当を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 427
 msgid "Enable WISPr attributes"
-msgstr ""
+msgstr "WISPr アトリビュートを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 428
 msgid "Enable Windows Update Cache"
-msgstr ""
+msgstr "Windows アップデートキャッシュを有効"
 
 # File: /usr/lang/src/controllers.php, line: 236
 msgid "Enable Zabbix Agent service."
@@ -23310,10 +23275,9 @@ msgstr "アクセスログを有効にします。"
 msgid "Enable active checks."
 msgstr "アクティブチェックを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 433
 msgid "Enable advanced SSL settings."
-msgstr ""
+msgstr "詳細 SSL 設定を有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 240
 msgid "Enable alert"
@@ -23339,95 +23303,78 @@ msgstr ""
 msgid "Enable automatic renewal for this certificate to prevent expiration."
 msgstr "この証明書の期限切れを防ぐために自動更新を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 270
 msgid "Enable c-icap service"
-msgstr ""
+msgstr "c-icap サービスを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 271
 msgid "Enable clamd service"
-msgstr ""
+msgstr "clamd サービスを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 272
 msgid "Enable contextswitch plugin"
-msgstr ""
+msgstr "contextswitch プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 273
 msgid "Enable cpu plugin"
-msgstr ""
+msgstr "cpu プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 442
 msgid "Enable defaulttarget logging"
-msgstr ""
+msgstr "defaulttarget をログに記録を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 443
 msgid "Enable defaulttarget plugin"
-msgstr ""
+msgstr "defaulttarget プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 274
 msgid "Enable df plugin"
-msgstr ""
+msgstr "df プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 275
 msgid ""
 "Enable encryption for authentication against network collector (optional)."
-msgstr ""
+msgstr "ネットワークコレクタに対する認証の暗号化を有効にします ( オプション )。"
 
 # File: /usr/lang/src/controllers.php, line: 244
 msgid "Enable encryption."
 msgstr "暗号化を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 447
 msgid "Enable fbox_anoncall_networks plugin"
-msgstr ""
+msgstr "fbox_anoncall_networks プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 448
 msgid "Enable fix_DTAG_networks plugin"
-msgstr ""
+msgstr "fix_DTAG_networks プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 449
 msgid "Enable fix_bogus_via plugin"
-msgstr ""
+msgstr "fix_bogus_via プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 277
 msgid "Enable freshclam service"
-msgstr ""
+msgstr "freshclam サービスを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 451
 msgid "Enable global SSL default values."
-msgstr ""
+msgstr "グローバル SSL デフォルト値を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 278
 msgid "Enable graphite plugin"
-msgstr ""
+msgstr "graphite プラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 453
 msgid "Enable if all present and future subdomains will be HTTPS."
-msgstr ""
+msgstr "現在及び今後のサブドメインは全て HTTPS にするを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 454
 msgid "Enable if you like this domain to be included in the HSTS preload list."
-msgstr ""
+msgstr "HSTS プリロードリストにこのドメインを含めるを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 455
 msgid "Enable if you want to use previews."
-msgstr ""
+msgstr "プレビューの使用を有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 74
 msgid ""
@@ -23435,29 +23382,25 @@ msgid ""
 msgstr ""
 "サーバに送信されるリクエストに X-Forwarded-For ヘッダの挿入を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 280
 msgid "Enable interface plugin"
-msgstr ""
+msgstr "インタフェースプラグインを有効"
 
 # File: /usr/lang/src/controllers.php, line: 75
 msgid "Enable intrusion detection system."
 msgstr "侵入検知システムを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 282
 msgid "Enable load plugin"
-msgstr ""
+msgstr "ロードプラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 460
 msgid "Enable local cache"
-msgstr ""
+msgstr "ローカルキャッシュを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 461
 msgid "Enable logging of defaulttarget plugin."
-msgstr ""
+msgstr "defaulttarget プラグインのログを記録することを有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 248
 msgid ""
@@ -23467,32 +23410,30 @@ msgstr ""
 "実行されたシェルコマンドを警告としてログに記録することを有効にします。適切な"
 "デバッグレベルに設定されているか確認してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 285
 msgid "Enable memory plugin"
-msgstr ""
+msgstr "メモリプラグインを有効"
 
 # File: /usr/lang/src/controllers.php, line: 249
 msgid "Enable monit"
 msgstr "monit を有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 287
 msgid "Enable network plugin"
-msgstr ""
+msgstr "ネットワークプラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 466
 msgid ""
 "Enable or disable HAProxy peers. This will propagate entries of any data-"
 "types in stick-tables between several HAProxy instances over TCP connections "
 "in a multi-master fashion."
 msgstr ""
+"HAProxy ピアを有効もしくは無効にします。これは一部の HAProxy インスタンスをマルチマスタ方式の TCP 接続に乗せて、"
+"スティックテーブル間の全てのデータタイプのエントリをプロパゲートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 467
 msgid "Enable or disable Relayd."
-msgstr ""
+msgstr "Relayd を有効もしくは無効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 76
 msgid "Enable or disable SSL communication with this server."
@@ -23531,32 +23472,30 @@ msgstr "サービスチェックを有効もしくは無効にします。"
 msgid "Enable or disable session redistribution in case of connection failure."
 msgstr "接続に失敗した場合のセッション再割当てを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 477
 msgid "Enable or disable the FritzBox Anoncall plugin."
-msgstr ""
+msgstr "FritzBox Anoncall プラグインを有効もしくは無効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 82
 msgid "Enable or disable the HAProxy service."
 msgstr "HAProxy サービスを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 479
 msgid "Enable or disable the Redis service."
-msgstr ""
+msgstr "Redis サービスを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 480
 msgid "Enable or disable the STUN plugin."
-msgstr ""
+msgstr "STUN プラグインを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 481
 msgid ""
 "Enable or disable the caching of Windows updates. This makes sense if you "
 "don't have a WSUS server. If you can setup a WSUS server, this solution "
 "should be preferred."
 msgstr ""
+"Windows アップデートのキャッシュを有効もしくは無効にします。あなたが WSUS サーバを持っていない場合に意味があります。"
+"WSUS サーバをセットアップ可能なら、こちらの解決方法を選ぶべきでしょう。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 482
