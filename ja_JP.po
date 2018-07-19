@@ -23497,7 +23497,6 @@ msgstr ""
 "Windows アップデートのキャッシュを有効もしくは無効にします。あなたが WSUS サーバを持っていない場合に意味があります。"
 "WSUS サーバをセットアップ可能なら、こちらの解決方法を選ぶべきでしょう。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 482
 msgid ""
 "Enable or disable the caching of packages for linux distributions. This "
@@ -23505,21 +23504,21 @@ msgid ""
 "your own package mirror. This will reduce internet traffic usage but "
 "increase disk access."
 msgstr ""
+"linux ディストリビューション用のパッケージのキャッシュを有効もしくは無効にします。"
+"あなたのネットワークに複数のサーバがあり自前のパッケージミラーをホストしていない場合に意味があります。"
+"これはインターネットトラフィックの使用量を減少させますがディスクアクセスを増加させます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 483
 msgid "Enable or disable the defaulttarget plugin."
-msgstr ""
+msgstr "defaulttarget プラグインを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 484
 msgid "Enable or disable the fix_DTAG_networks plugin."
-msgstr ""
+msgstr "fix_DTAG_networks プラグインを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 485
 msgid "Enable or disable the fix_bogus_via plugin."
-msgstr ""
+msgstr "fix_bogus_via プラグインを有効もしくは無効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 226
 msgid ""
@@ -23532,23 +23531,20 @@ msgstr ""
 "ションを使用していない SD もしくは CF カードの組込みシステムでは有効にしない"
 "でください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 487
 msgid "Enable or disable the nut service."
-msgstr ""
+msgstr "nut サービスを有効もしくは無効にします。"
 
 msgid "Enable or disable the proxy service."
 msgstr "プロキシサービスを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 489
 msgid "Enable or disable the rspamd service."
-msgstr ""
+msgstr "rspamd サービスを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 490
 msgid "Enable or disable the squid SNMP Agent."
-msgstr ""
+msgstr "squid SNMP エージェントを有効もしくは無効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 186
 msgid "Enable or disable this ftp proxy."
@@ -23565,15 +23561,13 @@ msgid ""
 msgstr ""
 "詳細ログを有効もしくは無効にします。ログ行毎によりリッチな形式に変わります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 494
 msgid "Enable peers"
-msgstr ""
+msgstr "ピアを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 303
 msgid "Enable processes plugin"
-msgstr ""
+msgstr "プロセスプラグインを有効"
 
 # File: /usr/lang/src/controllers.php, line: 86
 msgid ""
@@ -23591,10 +23585,9 @@ msgstr "プロキシを有効"
 msgid "Enable remote access"
 msgstr "リモートアクセスを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 499
 msgid "Enable rspamd"
-msgstr ""
+msgstr "rspamd を有効"
 
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Enable ruleset"
@@ -23604,15 +23597,13 @@ msgstr "ルールセットを有効"
 msgid "Enable service checks"
 msgstr "サービスチェックを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 502
 msgid "Enable siproxd service"
-msgstr ""
+msgstr "siproxd サービスを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 503
 msgid "Enable sticky counters"
-msgstr ""
+msgstr "スティッキーカウンタを有効"
 
 # File: /usr/lang/src/controllers.php, line: 193
 msgid "Enable store logging"
@@ -23621,94 +23612,77 @@ msgstr "ログの保管を有効"
 msgid "Enable store logging."
 msgstr "ログの保管を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 506
 msgid "Enable the CPU collector."
-msgstr ""
+msgstr "CPU コレクタを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 507
 msgid "Enable the DEVSTAT collector."
-msgstr ""
+msgstr "DEVSTAT コレクタを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 508
 msgid "Enable the EXEC collector."
-msgstr ""
+msgstr "EXEC コレクタを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 509
 msgid "Enable the FILESYSTEM collector."
-msgstr ""
+msgstr "FILESYSTEM コレクタを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 510
 msgid "Enable the INTERRUPTS collector."
-msgstr ""
+msgstr "INTERRUPTS コレクタを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 511
 msgid "Enable the LOADAVG collector."
-msgstr ""
+msgstr "LOADAVG コレクタを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 512
 msgid "Enable the MEMINFO collector."
-msgstr ""
+msgstr "MEMINFO コレクタを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 513
 msgid "Enable the NETDEV collector."
-msgstr ""
+msgstr "NETDEV コレクタを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 514
 msgid "Enable the NTP collector."
-msgstr ""
+msgstr "NTP コレクタを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 515
 msgid "Enable the Netclient driver."
-msgstr ""
+msgstr "Netclient ドライバを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 516
 msgid "Enable the TIME collector."
-msgstr ""
+msgstr "TIME コレクタを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 517
 msgid "Enable the USBHID driver."
-msgstr ""
+msgstr "USBHID ドライバを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 518
 msgid "Enable the logging of authentication requests, including MAC addresses."
-msgstr ""
+msgstr "認証要求を MAC アドレスも含めてログに記録することを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 313
 msgid "Enable the repeater."
-msgstr ""
+msgstr "リピータを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 520
 msgid "Enable this Backend Pool"
-msgstr ""
+msgstr "このバックエンドプールを有効"
 
 # File: /usr/lang/src/controllers.php, line: 89
 msgid "Enable this Lua script."
 msgstr "この Lua スクリプトを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 522
 msgid "Enable this Onion service."
-msgstr ""
+msgstr "この Onion サービスを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 523
 msgid "Enable this Public Service."
-msgstr ""
+msgstr "このパブリックサービスを有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 240
 msgid "Enable this account"
