@@ -23700,20 +23700,17 @@ msgstr "この機能を有効"
 msgid "Enable this fingerprint rule."
 msgstr "このフィンガープリントルールを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 528
 msgid "Enable this if you want to enable bayes learning."
-msgstr ""
+msgstr "ベイズ学習を有効にしたい場合はこれを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 529
 msgid "Enable this if you want to enable fuzzy learning."
-msgstr ""
+msgstr "ファジィ学習を有効にしたい場合はこれを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 530
 msgid "Enable this if you want to enable the spam trap."
-msgstr ""
+msgstr "スパムトラップを有効にしたい場合はこれを有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 202
 msgid "Enable this network"
@@ -23731,25 +23728,26 @@ msgstr "この検証を有効"
 msgid "Enable this zone"
 msgstr "このゾーンを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 535
 msgid ""
 "Enable this, if you want to anonymize traffic originating from a network."
 msgstr ""
+"ネットワークからトラフィックの発信元を匿名にしたい場合はこれを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 536
 msgid ""
 "Enable this, if you want to map onion services to the IP pool configured "
 "above."
 msgstr ""
+"onion サービスを上で構成した IP プールにマップしたい場合はこれを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 537
 msgid ""
 "Enable to be able to retrieve values from sticky counters. If disabled, all "
 "values will return 0, rendering many conditions useless."
 msgstr ""
+"スティッキーカウンタからの値の読み出し許可を有効にします。無効の場合は、全ての値は 0 を返し、多くの条件の解釈は"
+"意味をなさなくなります。"
 
 # File: /usr/lang/src/controllers.php, line: 95
 msgid "Enable to log health check status updates."
@@ -23767,45 +23765,39 @@ msgstr ""
 "透過 ftp プロキシモードを有効にします。ポート 21 の送信先に対する全てのリクエ"
 "ストを、追加構成は一切なしでプロキシサーバに転送します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 328
 msgid "Enable uptime plugin"
-msgstr ""
+msgstr "アップタイムプラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 329
 msgid "Enable users plugin"
-msgstr ""
+msgstr "ユーザプラグインを有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 330
 msgid "Enable verbose logging."
-msgstr ""
+msgstr "詳細ログを有効にします。"
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 86
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 409
 msgid "Enabled"
 msgstr "有効"
 
-#
 # File: /usr/lang/src/controllers.php, line: 545
 msgid "Enabling this will write the policy to the config file."
-msgstr ""
+msgstr "これは構成ファイルへのポリシの書き込みを有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 208
 msgid "Encode Username"
 msgstr "ユーザ名をエンコード"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 271
 # File: /usr/lang/src/controllers.php, line: 547
 msgid "End Port"
-msgstr ""
+msgstr "最終ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 548
 msgid "Ending of the port range RTP may use."
-msgstr ""
+msgstr "RTP が使用するポート範囲の終わり。"
 
 # File: /usr/lang/src/controllers.php, line: 254
 msgid "Endpoint"
@@ -23815,30 +23807,28 @@ msgstr "エンドポイント"
 msgid "Enforce local group"
 msgstr "ローカルグループを強制"
 
-#
 # File: /usr/lang/src/controllers.php, line: 551
 msgid "Enter FQDN here. Finish with TAB."
-msgstr ""
+msgstr "FQDN を入力してください。TAB で完了します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 552
 msgid "Enter IP addresses here. Finish each with TAB."
-msgstr ""
+msgstr "IP アドレスを入力してください。どれも TAB で完了します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 553
 msgid ""
 "Enter a (partial) mail address, which should also receive extended headers. "
 "For example: user@example.com or @example.net."
 msgstr ""
+"メールアドレス ( の一部 ) を入力してください。拡張ヘッダも受信します。"
+"例: user@example.com、@example.net"
 
 msgid "Enter a MAC address in the following format: xx:xx:xx:xx:xx:xx"
 msgstr "次の形式で MAC アドレスを入力してください: xx:xx:xx:xx:xx:xx"
 
-#
 # File: /usr/lang/src/controllers.php, line: 555
 msgid "Enter a MAC address in the following format: xx:xx:xx:xx:xx:xx."
-msgstr ""
+msgstr "次の形式で MAC アドレスを入力してください: xx:xx:xx:xx:xx:xx"
 
 # File: lang/dynamic/helpers/controllers.php, line: 67
 msgid "Enter a description to explain what this blacklist is intended for."
@@ -23847,25 +23837,23 @@ msgstr "このブラックリストの使用目的に関する説明を入力し
 msgid "Enter a description to explain what this job is intended for."
 msgstr "このジョブの使用目的に関する説明を入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 558
 msgid ""
 "Enter a directory name for the Onion service. It may consist of lowercase "
 "and uppercase characters."
 msgstr ""
+"Onion サービスのディレクトリ名を入力してください。小文字と大文字で構成されます。"
 
 msgid "Enter a filename for storing the blacklist."
 msgstr "ブラックリストに保存するファイル名を入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 560
 msgid "Enter a name of user/group. Group name is case sensitive."
-msgstr ""
+msgstr "ユーザ / グループの名前を入力してください。グループ名は大文字と小文字を区別します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 561
 msgid "Enter a network which will be used as an IP Pool to map onion Hosts."
-msgstr ""
+msgstr "Onion ホストマップで IP プールとして使用されるネットワークを入力してください。"
 
 # File: /usr/lang/src/controllers.php, line: 100
 msgid ""
@@ -23892,10 +23880,9 @@ msgstr ""
 "に直接影響を与えます。エントリ毎に約 50 byte、もしあれば文字列のサイズを足し"
 "て計算してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 564
 msgid "Enter a valid TCP port."
-msgstr ""
+msgstr "有効な TCP ポートを入力してください。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 565
