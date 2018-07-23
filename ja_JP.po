@@ -9389,7 +9389,7 @@ msgstr "範囲開始"
 
 # File: /usr/core/src/www/reporting_settings.php, line: 202
 msgid "flush report"
-msgstr "レポートの書き込み"
+msgstr "レポートをフラッシュ"
 
 # File: /usr/core/src/www/reporting_settings.php, line: 194
 msgid "Reports"
@@ -14799,7 +14799,7 @@ msgstr "bogon を更新"
 
 # File: src/www/diag_tables.php, line: 130
 msgid "Do you really want to flush this table?"
-msgstr "本当にこのテーブルを書き込みしますか？"
+msgstr "本当にこのテーブルをフラッシュしますか？"
 
 msgid "Tables"
 msgstr "テーブル"
@@ -15019,10 +15019,10 @@ msgid "Firewall state table"
 msgstr "ファイアウォールステートテーブル"
 
 msgid "The source tracking table has been flushed successfully."
-msgstr "送信元追跡テーブルは正常に書き込みされました。"
+msgstr "送信元追跡テーブルは正常にフラッシュされました。"
 
 msgid "The state table has been flushed successfully."
-msgstr "ステートテーブルは正常に書き込みされました。"
+msgstr "ステートテーブルは正常にフラッシュされました。"
 
 msgid "Ping output"
 msgstr "ping 出力"
@@ -16370,7 +16370,7 @@ msgid ""
 "Are you sure you want to flush and reload all? this might have impact on "
 "other services using the same technology underneath (such as Captive portal)"
 msgstr ""
-"本当に全てを書き込みしてリロードしますか？同じテクノロジーの下で ( キャプティ"
+"本当に全てをフラッシュしてリロードしますか？同じテクノロジーの下で ( キャプティ"
 "ブポータル等 ) 使用しているその他のサービスにも影響を与える可能性があります。"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 88
@@ -17030,7 +17030,7 @@ msgstr "更新"
 
 # File: src/www/diag_tables.php, line: 164
 msgid "Flush"
-msgstr "書き込み"
+msgstr "フラッシュ"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 90
 msgid "NOTE: Local IPv6 peers use NDP instead of ARP."
@@ -17057,12 +17057,12 @@ msgstr "IP"
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 69
 msgid ""
 "Flush the ARP cache manually, in case your ARP cache contains invalid data."
-msgstr "ARP キャッシュを手動で書き込みします。ARP キャッシュに不正なデータが含まれる可能性があります。"
+msgstr "ARP キャッシュを手動でフラッシュします。ARP キャッシュに不正なデータが含まれる可能性があります。"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 68
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 75
 msgid "Flush ARP Table"
-msgstr "ARP テーブルに書き込み"
+msgstr "ARP テーブルにフラッシュ"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 158
 msgid "Edit job"
@@ -22738,7 +22738,7 @@ msgid ""
 "Default flushing interval for all outputs. You should not set this below "
 "interval."
 msgstr ""
-"全ての出力に対するデフォルト書き込み間隔。下の間隔をここに設定してはいけません。"
+"全ての出力に対するデフォルトフラッシュ間隔。下の間隔をここに設定してはいけません。"
 
 # File: /usr/lang/src/controllers.php, line: 137
 msgid "Default for server"
@@ -24228,12 +24228,12 @@ msgstr "この制限よりも大きいファイルはスキャンされません
 msgid "Filesystem Statistics"
 msgstr "ファイルシステム統計"
 
-#
 # File: /usr/lang/src/controllers.php, line: 635
 msgid ""
 "Filter for group objects, should match all available group objects a user "
 "might be a member of."
 msgstr ""
+"グループオブジェクトのフィルタです。ユーザがメンバである可能性がある全ての利用可能なグループオブジェクトが一致します。"
 
 # File: /usr/lang/src/controllers.php, line: 248
 msgid "Filter syslog level"
@@ -24260,47 +24260,41 @@ msgstr ""
 "るサーバに対してプロキシしたり、全ての接続を他のプロキシに転送することができ"
 "ます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 639
 msgid "Flush Interval"
-msgstr ""
+msgstr "間隔をフラッシュ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 640
 msgid "Flush Jitter"
-msgstr ""
+msgstr "ジッタをフラッシュ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 387
 msgid "Follow directory symlinks"
-msgstr ""
+msgstr "ディレクトリシムリンクを辿る"
 
-#
 # File: /usr/lang/src/controllers.php, line: 388
 msgid "Follow regular file symlinks"
-msgstr ""
+msgstr "通常ファイルシムリンクを辿る"
 
-#
 # File: /usr/lang/src/controllers.php, line: 643
 msgid "For example recipients without a domain or only a hostname."
-msgstr ""
+msgstr "例としてはドメインがない、もしくはホスト名のみの受信者です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 644
 msgid "For example senders without a domain or only a hostname."
-msgstr ""
+msgstr "例としてはドメインがない、もしくはホスト名のみの送信者です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 645
 msgid ""
 "For failed writes, Telegraf will cache metric_buffer_limit metrics for each "
 "output, and will flush this buffer on a successful write."
 msgstr ""
+"書き込みに失敗すると Telegraf は出力毎に metric_buffer_limit メトリックをキャッシュします。"
+"書き込みの成功時にこのバッファをフラッシュします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 646
 msgid "Force Reject"
-msgstr ""
+msgstr "拒絶を強制"
 
 # File: /usr/lang/src/controllers.php, line: 253
 msgid "Forward HTTP traffic to transparent proxy"
@@ -24328,32 +24322,28 @@ msgstr ""
 msgid "FreeDNS"
 msgstr "FreeDNS"
 
-#
 # File: /usr/lang/src/controllers.php, line: 395
 msgid "Freshclam connect timeout"
-msgstr ""
+msgstr "Freshclam 接続タイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 396
 msgid "Freshclam database mirror"
-msgstr ""
+msgstr "Freshclam データベースミラー"
 
-#
 # File: /usr/lang/src/controllers.php, line: 397
 msgid "Freshclam log verbose"
-msgstr ""
+msgstr "Freshclam 詳細ログ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 655
 msgid ""
 "Future requests to the domain should use only HTTPS for the specified time "
 "(in seconds): 15768000 = 6 months"
 msgstr ""
+"今後のドメインへの要求は、指定された期間 ( 秒単位 ) HTTPS のみを使用します。15768000 は 6 ヶ月です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 656
 msgid "Fuzzy Learning"
-msgstr ""
+msgstr "ファジィ学習"
 
 # File: /usr/lang/src/controllers.php, line: 346
 msgid "Gandi LiveDNS"
@@ -24362,33 +24352,29 @@ msgstr "Gandi LiveDNS"
 msgid "Gateway"
 msgstr "ゲートウェイ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 659
 msgid "General Anti Malware Settings"
-msgstr ""
+msgstr "全般アンチマルウェア設定"
 
 # File: /usr/lang/src/controllers.php, line: 305
 msgid "General Forward Settings"
 msgstr "全般転送設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 661
 msgid "General Nut Settings"
-msgstr ""
+msgstr "全般 Nut 設定"
 
 # File: /usr/lang/src/controllers.php, line: 306
 msgid "General Proxy Settings"
 msgstr "全般プロキシ設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 663
 msgid "General Redis Settings"
-msgstr ""
+msgstr "全般 Redis 設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 664
 msgid "General Rspamd Settings"
-msgstr ""
+msgstr "全般 Rspamd 設定"
 
 # File: /usr/lang/src/controllers.php, line: 307
 msgid "General Settings"
