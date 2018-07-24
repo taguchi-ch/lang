@@ -24388,55 +24388,47 @@ msgstr "GeoIP / 国"
 msgid "GeoIP/Direction"
 msgstr "GeoIP / 方向"
 
-#
 # File: /usr/lang/src/controllers.php, line: 668
 msgid "Get the number of processes and group them by status."
-msgstr ""
+msgstr "プロセス及びグループの番号をステータスにより取得します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 669
 msgid "Give a URL where to retrieve the Phishtank feed."
-msgstr ""
+msgstr "Phishtank フィードを読み出す URL を入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 670
 msgid ""
 "Give here a list of networks to replace the VIA-Header. Default should fit "
 "for most situations."
-msgstr ""
+msgstr "VIA ヘッダを置き換えるネットワークのリストをここに入力してください。デフォルトは殆どの状況に適合するものにすべきです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 404
 msgid "Given name, last name, or anything you need to describe."
-msgstr ""
+msgstr "名前、名字、もしくは説明に必要なことを記述します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 672
 msgid "Global Check Interval"
-msgstr ""
+msgstr "グローバルチェック間隔"
 
-#
 # File: /usr/lang/src/controllers.php, line: 673
 msgid "Global Check Timeout"
-msgstr ""
+msgstr "グローバルチェックタイムアウト"
 
 # File: /usr/lang/src/models.php, line: 104
 msgid "Global Parameters"
 msgstr "グローバルパラメータ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 406
 msgid "Global interval when to fetch values in seconds."
-msgstr ""
+msgstr "値を取得する秒単位のグローバル間隔です。"
 
 # File: /usr/lang/src/controllers.php, line: 353
 msgid "GoDaddy"
 msgstr "GoDaddy"
 
-#
 # File: /usr/lang/src/controllers.php, line: 408
 msgid "Graceful Stop"
-msgstr ""
+msgstr "Graceful Stop"
 
 # File: /usr/lang/src/controllers.php, line: 124
 msgid ""
@@ -24448,69 +24440,57 @@ msgstr ""
 "平文で入力してください。john:secret123 もしくは jdoe:anonymous のように使用し"
 "ます。TAB キーを使うと追加するユーザをコンプリートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 679
 msgid "Graphite Postfix"
-msgstr ""
+msgstr "Graphite Postfix"
 
-#
 # File: /usr/lang/src/controllers.php, line: 680
 msgid "Graphite Prefix"
-msgstr ""
+msgstr "Graphite プレフィックス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 681
 msgid "Graphite Server"
-msgstr ""
+msgstr "Graphite サーバ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 682
 msgid "Graphite Template"
-msgstr ""
+msgstr "Graphite テンプレート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 410
 msgid "Graphite collector host"
-msgstr ""
+msgstr "Graphite collector ホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 411
 msgid "Graphite collector node name"
-msgstr ""
+msgstr "Graphite collector ノード名"
 
-#
 # File: /usr/lang/src/controllers.php, line: 412
 msgid "Graphite collector port"
-msgstr ""
+msgstr "Graphite collector ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 686
 msgid "Graylisting"
-msgstr ""
+msgstr "グレイリスティング"
 
-#
 # File: /usr/lang/src/controllers.php, line: 687
 msgid "Graylog Server"
-msgstr ""
+msgstr "Graylog サーバ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 688
 msgid "Group Filter"
-msgstr ""
+msgstr "グループフィルタ"
 
 # File: /usr/lang/src/controllers.php, line: 258
 msgid "Group Id"
 msgstr "グループ ID"
 
-#
 # File: /usr/lang/src/controllers.php, line: 690
 msgid "Group or User ACL"
-msgstr ""
+msgstr "グループもしくはユーザ ACL"
 
-#
 # File: /usr/lang/src/controllers.php, line: 691
 msgid "Group/User"
-msgstr ""
+msgstr "グループ / ユーザ"
 
 # File: /usr/lang/src/models.php, line: 108
 msgid "HAProxy"
@@ -24524,127 +24504,109 @@ msgstr "HAProxy フロントエンド"
 msgid "HAProxy Integration"
 msgstr "HAProxy インテグレーション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 695
 msgid "HAProxy function"
-msgstr ""
+msgstr "HAProxy 機能"
 
 # File: /usr/lang/src/controllers.php, line: 259
 msgid "HAProxy processes"
 msgstr "HAProxy プロセス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 697
 msgid "HAProxy will use this backend pool if the condition evaluates to true."
-msgstr ""
+msgstr "条件評価が真の場合 HAProxy はこのバックエンドプールを使用します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 698
 msgid ""
 "HAProxy will use this server instead of other servers that are specified in "
 "the Backend Pool. The server must exist in the context where this rule is "
 "applied."
 msgstr ""
+"HAProxy はバックエンドプールで指定された他のサーバの代わりにこのサーバを使用します。"
+"サーバはこのルールが適用された状況で存在している必要があります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 699
 msgid "HSTS includeSubDomains"
-msgstr ""
+msgstr "HSTS includeSubDomains"
 
-#
 # File: /usr/lang/src/controllers.php, line: 700
 msgid "HSTS max-age"
-msgstr ""
+msgstr "HSTS max-age"
 
-#
 # File: /usr/lang/src/controllers.php, line: 701
 msgid "HSTS preload"
-msgstr ""
+msgstr "HSTS preload"
 
-#
 # File: /usr/lang/src/controllers.php, line: 702
 msgid "HTTP Header"
-msgstr ""
+msgstr "HTTP ヘッダ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 703
 msgid "HTTP Keep-Alive Timeout"
-msgstr ""
+msgstr "HTTP キープアライブタイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 704
 msgid "HTTP Reason Text"
-msgstr ""
+msgstr "HTTP エラーメッセージ"
 
-#
 # File: /usr/core/src/www/system_advanced_admin.php, line: 464
 # File: /usr/lang/src/controllers.php, line: 705
 msgid "HTTP Redirect"
-msgstr ""
+msgstr "HTTP リダイレクト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 706
 msgid "HTTP Request Timeout"
-msgstr ""
+msgstr "HTTP リクエストタイムアウト"
 
 # File: /usr/lang/src/controllers.php, line: 314
 msgid "HTTP Service"
 msgstr "HTTP サービス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 708
 msgid "HTTP Status Code"
-msgstr ""
+msgstr "HTTP ステータスコード"
 
 # File: /usr/lang/src/controllers.php, line: 260
 msgid "HTTP check options"
 msgstr "HTTP チェックオプション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 710
 # File: /usr/lang/src/models.php, line: 240
 msgid "HTTP error count"
-msgstr ""
+msgstr "HTTP エラー数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 711
 # File: /usr/lang/src/models.php, line: 241
 msgid "HTTP error rate"
-msgstr ""
+msgstr "HTTP エラー率"
 
-#
 # File: /usr/lang/src/controllers.php, line: 712
 msgid "HTTP error rate period"
-msgstr ""
+msgstr "期間内の HTTP エラー率"
 
 # File: /usr/lang/src/controllers.php, line: 261
 msgid "HTTP host"
 msgstr "HTTP ホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 714
 msgid "HTTP host header contains string (substring match)"
-msgstr ""
+msgstr "HTTP ホストヘッダに文字列を含む ( サブストリングが一致 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 715
 msgid "HTTP host header ends with string (suffix match)"
-msgstr ""
+msgstr "HTTP ホストヘッダが文字列で終わる ( サフィックスが一致 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 716
 msgid "HTTP host header matches exact string"
-msgstr ""
+msgstr "HTTP ホストヘッダが厳格な文字列と一致する"
 
-#
 # File: /usr/lang/src/controllers.php, line: 717
 msgid "HTTP host header matches regular expression"
-msgstr ""
+msgstr "HTTP ホストヘッダが正規表現と一致する"
 
-#
 # File: /usr/lang/src/controllers.php, line: 718
 msgid "HTTP host header starts with string (prefix match)"
-msgstr ""
+msgstr "HTTP ホストヘッダが文字列で始まる ( プレフィックスが一致 )"
 
 # File: /usr/lang/src/controllers.php, line: 262
 msgid "HTTP method"
