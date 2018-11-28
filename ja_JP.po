@@ -24590,83 +24590,73 @@ msgstr "HTTP ホスト"
 
 # File: /usr/lang/src/controllers.php, line: 714
 msgid "HTTP host header contains string (substring match)"
-msgstr "HTTP ホストヘッダに文字列を含む ( サブストリングが一致 )"
+msgstr "HTTP ホストヘッダを含む文字列 ( サブストリングが一致 )"
 
 # File: /usr/lang/src/controllers.php, line: 715
 msgid "HTTP host header ends with string (suffix match)"
-msgstr "HTTP ホストヘッダが文字列で終わる ( サフィックスが一致 )"
+msgstr "HTTP ホストヘッダの末尾文字列 ( サフィックスが一致 )"
 
 # File: /usr/lang/src/controllers.php, line: 716
 msgid "HTTP host header matches exact string"
-msgstr "HTTP ホストヘッダが厳格な文字列と一致する"
+msgstr "HTTP ホストヘッダが厳格な文字列と一致"
 
 # File: /usr/lang/src/controllers.php, line: 717
 msgid "HTTP host header matches regular expression"
-msgstr "HTTP ホストヘッダが正規表現と一致する"
+msgstr "HTTP ホストヘッダが正規表現と一致"
 
 # File: /usr/lang/src/controllers.php, line: 718
 msgid "HTTP host header starts with string (prefix match)"
-msgstr "HTTP ホストヘッダが文字列で始まる ( プレフィックスが一致 )"
+msgstr "HTTP ホストヘッダの先頭文字列 ( プレフィックスが一致 )"
 
 # File: /usr/lang/src/controllers.php, line: 262
 msgid "HTTP method"
 msgstr "HTTP メソッド"
 
-#
 # File: /usr/lang/src/controllers.php, line: 720
 msgid "HTTP request URL path contains directory (subdir match)"
-msgstr ""
+msgstr "HTTP リクエスト URL パスを含むディレクトリ ( サブディレクトリが一致 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 721
 msgid "HTTP request URL path contains string (substring match)"
-msgstr ""
+msgstr "HTTP リクエスト URL パスを含む文字列 ( サブストリングが一致 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 722
 msgid "HTTP request URL path ends with string (suffix match)"
-msgstr ""
+msgstr "HTTP リクエスト URL パスの末尾文字列 ( サフィックスが一致 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 723
 msgid "HTTP request URL path matches exact string"
-msgstr ""
+msgstr "HTTP ホストヘッダが厳格な文字列と一致"
 
-#
 # File: /usr/lang/src/controllers.php, line: 724
 msgid "HTTP request URL path matches regular expression"
-msgstr ""
+msgstr "HTTP リクエスト URL パスが正規表現と一致"
 
-#
 # File: /usr/lang/src/controllers.php, line: 725
 msgid "HTTP request URL path starts with string (prefix match)"
-msgstr ""
+msgstr "HTTP リクエスト URL パスの先頭文字列 ( プレフィックスが一致 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 726
 # File: /usr/lang/src/models.php, line: 242
 msgid "HTTP request count"
-msgstr ""
+msgstr "HTTP リクエスト数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 727
 # File: /usr/lang/src/models.php, line: 243
 msgid "HTTP request rate"
-msgstr ""
+msgstr "HTTP リクエスト率"
 
-#
 # File: /usr/lang/src/controllers.php, line: 728
 msgid "HTTP request rate period"
-msgstr ""
+msgstr "期間内の HTTP リクエスト率"
 
 # File: /usr/lang/src/controllers.php, line: 263
 msgid "HTTP version"
 msgstr "HTTP バージョン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 730
 msgid "HTTP(S) settings"
-msgstr ""
+msgstr "HTTP(S) 設定"
 
 # File: /usr/lang/src/controllers.php, line: 319
 msgid "HTTP-01"
@@ -24676,19 +24666,17 @@ msgstr "HTTP-01"
 msgid "Hard timeout (minutes)"
 msgstr "ハードタイムアウト ( 分 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 733
 msgid "Header Content"
-msgstr ""
+msgstr "ヘッダコンテンツ"
 
 # File: /usr/lang/src/controllers.php, line: 265
 msgid "Health Checking"
 msgstr "ヘルスチェック中"
 
-#
 # File: /usr/lang/src/controllers.php, line: 735
 msgid "Health Monitor"
-msgstr ""
+msgstr "ヘルス監視"
 
 # File: /usr/lang/src/controllers.php, line: 267
 msgid "Health check buffer size"
@@ -24698,86 +24686,76 @@ msgstr "ヘルスチェックバッファサイズ"
 msgid "Hello Interval"
 msgstr "Hello 間隔"
 
-#
 # File: /usr/lang/src/controllers.php, line: 738
 msgid "Here you can set the FQDN of your STUN server."
-msgstr ""
+msgstr "STUN サーバの FQDN を設定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 739
 msgid "Here you can set the port of your STUN server."
-msgstr ""
+msgstr "STUN サーバのポートを設定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 740
 msgid ""
 "Here you specify the devices allowed to do SIP connections to siproxd "
 "(internal and external). Format is CSV without spaces and CIDR, like "
 "192.168.0.0/24,10.0.0.0/8."
 msgstr ""
+"siproxd ( 内部及び外部 ) への SIP 接続の実行を許可するデバイスを指定します。CSV 形式 ( 空白を使用しない )。"
+"例: 192.168.0.0/24,10.0.0.0/8"
 
-#
 # File: /usr/lang/src/controllers.php, line: 741
 msgid ""
 "Here you specify the networks disallowed to do SIP connections to siproxd. "
 "It has a higher priority than 'Hosts to allow SIP'."
 msgstr ""
+"siproxd への SIP 接続の実行を拒否するネットワークを指定します。"
+"「SIP を許可するホスト」よりも優先順位が高くなります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 742
 msgid "History Cache Size"
-msgstr ""
+msgstr "履歴キャッシュサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 743
 msgid "History Index Cache Size"
-msgstr ""
+msgstr "履歴インデックスキャッシュサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 429
 msgid "Home networks"
-msgstr ""
+msgstr "ホームネットワーク"
 
 msgid "Host"
 msgstr "ホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 746
 msgid "Host Contains"
-msgstr ""
+msgstr "含まれるホスト"
 
 msgid "Host Name"
 msgstr "ホスト名"
 
-#
 # File: /usr/lang/src/controllers.php, line: 748
 msgid "Host Prefix"
-msgstr ""
+msgstr "ホストプレフィックス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 749
 msgid "Host Regex"
-msgstr ""
+msgstr "ホスト正規表現"
 
-#
 # File: /usr/lang/src/controllers.php, line: 750
 msgid "Host String"
-msgstr ""
+msgstr "ホスト文字列"
 
-#
 # File: /usr/lang/src/controllers.php, line: 751
 msgid "Host Suffix"
-msgstr ""
+msgstr "ホストサフィックス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 752
 msgid "Host outbound"
-msgstr ""
+msgstr "ホストアウトバウンド"
 
-#
 # File: /usr/lang/src/controllers.php, line: 753
 msgid "Host to deny SIP"
-msgstr ""
+msgstr "SIP を拒否するホスト"
 
 msgid "Hostname"
 msgstr "ホスト名"
@@ -24794,29 +24772,25 @@ msgstr ""
 "場所を名前解決する DNS にアクセスできるか確認してください。SSL 証明書を使用す"
 "る場合は、この名前と証明書名を同一にしてください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 756
 msgid "Hostname DNS lookup"
-msgstr ""
+msgstr "ホスト名 DNS ルックアップ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 757
 msgid "Hostname DNS reverse lookup"
-msgstr ""
+msgstr "ホスト名 DNS 逆引き"
 
 # File: src/www/firewall_aliases_edit.php, line: 442
 msgid "Hosts"
 msgstr "ホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 759
 msgid "Hosts to allow SIP"
-msgstr ""
+msgstr "SIP を許可するホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 760
 msgid "Hosts to allow registration"
-msgstr ""
+msgstr "登録を許可するホスト"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 340
 msgid "Hours"
@@ -24826,10 +24800,9 @@ msgstr "時間"
 msgid "How often list of active checks is refreshed, in seconds."
 msgstr "アクティブチェックのリストの更新頻度、秒単位です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 434
 msgid "Hurricane Electric"
-msgstr ""
+msgstr "Hurricane Electric"
 
 # File: /usr/lang/src/controllers.php, line: 328
 msgid "ICAP Settings"
@@ -24845,10 +24818,9 @@ msgstr "ID"
 msgid "IP Address"
 msgstr "IP アドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 439
 msgid "IP Address or Network with CIDR"
-msgstr ""
+msgstr "IP アドレスもしくは CIDR 表記のネットワークアドレス"
 
 # File: /usr/lang/src/controllers.php, line: 331
 msgid "IP Addresses"
@@ -24858,35 +24830,29 @@ msgstr "IP アドレス"
 msgid "IP Auto-Discovery"
 msgstr "IP オートディスカバリ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 771
 msgid "IP TTL"
-msgstr ""
+msgstr "IP TTL"
 
-#
 # File: /usr/lang/src/controllers.php, line: 772
 msgid "IP Version"
-msgstr ""
+msgstr "IP バージョン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 773
 msgid "IP address or hostname of Zabbix server."
-msgstr ""
+msgstr "IP アドレスもしくは Zabbix サーバのホスト名。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 774
 msgid "IP address or hostname of the remote ShadowSocks server."
-msgstr ""
+msgstr "IP アドレスもしくはリモート ShadowSocks サーバのホスト名。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 775
 msgid "IP address or hostname of the server."
-msgstr ""
+msgstr "IP アドレスもしくはサーバのホスト名。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 776
 msgid "IP address to listen to, this should be your LAN IP address."
-msgstr ""
+msgstr "リスンする IP アドレス。あなたの LAN IP アドレスを指定してください。"
 
 # File: /usr/lang/src/controllers.php, line: 272
 msgid "IPS mode"
@@ -24896,30 +24862,25 @@ msgstr "IPS モード"
 msgid "IPSConfig"
 msgstr "IPSConfig"
 
-#
 # File: /usr/lang/src/controllers.php, line: 779
 msgid "IPv4 Mask"
-msgstr ""
+msgstr "IPv4 マスク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 780
 msgid "IPv6 Exit"
-msgstr ""
+msgstr "IPv6 出口"
 
-#
 # File: /usr/lang/src/controllers.php, line: 781
 msgid "IPv6 Host"
-msgstr ""
+msgstr "IPv6 ホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 782
 msgid "IPv6 Mask"
-msgstr ""
+msgstr "IPv6 マスク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 783
 msgid "IPv6 Source"
-msgstr ""
+msgstr "IPv6 送信元"
 
 msgid "Idle timeout"
 msgstr "アイドルタイムアウト"
@@ -24928,25 +24889,25 @@ msgstr "アイドルタイムアウト"
 msgid "Idle timeout (minutes)"
 msgstr "アイドルタイムアウト ( 分 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 786
 msgid ""
 "If an attached file has a suffix in this list, the mail will be rejected via "
 "a hard reject, which means that the server will be immeadiately informed "
 "about the policy violation."
 msgstr ""
+"添付ファイルがこのリストのサフィックスに該当した場合、そのメールはハードリジェクトとして拒否されます。"
+"これはサーバがポリシー違反について即座に通知するということです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 787
 msgid "If checked, only attached files are scanned and images are omitted."
-msgstr ""
+msgstr "チェックされている場合、添付ファイルのスキャンと画像の削除だけを実行します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 788
 msgid ""
 "If configured, only clients that are listed here are authorized to access "
 "the Onion service."
 msgstr ""
+"構成されている場合、このリストにあるクライアントのみが Onion サービスにアクセスが認証されます。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 102
 msgid ""
@@ -24963,58 +24924,57 @@ msgstr ""
 "設定されている場合 ( デフォルト )、RFC2616 で必須となっている通り Squid はリ"
 "クエストとリプライに Via ヘッダを含めます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 791
 msgid "If set to true, do no set the \"host\" tag in the Telegraf agent."
-msgstr ""
+msgstr "真に設定する場合は Telegraf エージェントの「ホスト」タグを設定しないでください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 792
 msgid "If set, a message large than this size will not be scanned."
-msgstr ""
+msgstr "設定すると、このサイズよりも大きいメッセージはスキャンしません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 793
 msgid "If set, the mail will be rejected."
-msgstr ""
+msgstr "設定すると、そのメールを拒否します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 448
 msgid ""
 "If the hostname is determined automatically this setting controls whether or "
 "not the daemon should try to figure out the fully qualified domain name "
 "(FQDN). This is done by looking up the name by using gethostname."
 msgstr ""
+"ホスト名が自動判定された場合、この設定にコントロールされているか否かに関わらず、デーモンは完全修飾ドメイン名 ( FQDN ) "
+"を解明しようと試みます。名前解決には gethostname を使用します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 449
 msgid ""
 "If the number of the available threads is less than number, the c-icap "
 "server starts a new child."
 msgstr ""
+"この数よりも利用可能なスレッドの数が少ない場合は、c-icap サーバは子を新しく起動します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 450
 msgid ""
 "If the number of the available threads is more than number then the c-icap "
 "server kills a child."
 msgstr ""
+"この数よりも利用可能なスレッドの数が多い場合は、c-icap サーバは子をキルします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 797
 msgid ""
 "If the user is authenticated, the headers will not be added if this is "
 "enabled. If this is checked, your outgoing mails will very likely not leak "
 "information about the the scanner."
 msgstr ""
+"ユーザが認証済みの場合、これが有効の場合ヘッダが追加されません。チェックされている場合は発信メールから"
+"スキャナ情報が漏れることはまずありません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 798
 #, php-format
 msgid ""
 "If this amount of memory is reached, Tor will close circuits until 10% of "
 "this limit are free again."
 msgstr ""
+"メモリがこの量に達したら、Tor は制限値の 10% が再び空き状態になるまでサーキットを切断します。"
 
 # File: /usr/lang/src/controllers.php, line: 128
 msgid ""
@@ -25024,19 +24984,19 @@ msgstr ""
 "チェックボックスがチェックされている場合、フィルタもしくは内容の置換に ICAP "
 "サーバを使用できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 800
 msgid ""
 "If this checkbox is enabled, a header about the authentication state will be "
 "added."
 msgstr ""
+"チェックボックスが有効になっている場合、認証ステータスのヘッダが追加されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 801
 msgid ""
 "If this checkbox is enabled, a header containing the findings of the scan is "
 "added."
 msgstr ""
+"チェックボックスが有効になっている場合、スキャン結果を含むヘッダが追加されます。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 101
 msgid ""
@@ -25048,10 +25008,10 @@ msgstr ""
 "ます。サブシークエントログインが無効な場合、同じユーザ名で既にログインしてい"
 "るマシンは切断されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 803
 msgid "If true, collect raw CPU time metrics."
 msgstr ""
+"真なら、生 CPU 時間メトリックを収集します。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 804
