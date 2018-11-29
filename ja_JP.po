@@ -25013,17 +25013,18 @@ msgid "If true, collect raw CPU time metrics."
 msgstr ""
 "真なら、生 CPU 時間メトリックを収集します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 804
 msgid ""
 "If you check this box, the local Redis server will be available to the "
 "modules (some do not work without it)."
 msgstr ""
+"このボックスをチェックすると、ローカル Redis サーバをモジュールが利用可能になります"
+"（これがないとうまく機能しないものがあります）。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 805
 msgid "If you check this, a log file will be written to disk."
 msgstr ""
+"これをチェックすると、ログファイルをディスクに書き込みます。"
 
 # File: /usr/lang/src/controllers.php, line: 130
 msgid ""
@@ -25044,19 +25045,20 @@ msgstr ""
 "ます。ユーザ名ベースでトラフィックをフィルタしたい場合に便利です。ユーザ名を"
 "使用した認証が必須となりますので注意してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 808
 msgid ""
 "If you have a CARP setup, you may want to configure a router id in case of a "
 "conflict."
 msgstr ""
+"CARP を設定している場合、コンフリクトに備えてルータ ID を構成したいかもしれません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 455
 msgid ""
 "If you turn off this option, the original files will still be scanned, but "
 "without parsing individual messages/attachments."
 msgstr ""
+"このオプションをオフにした場合、オリジナルファイルはスキャンされますが、個別のメッセージや添付ファイルの"
+"解析は行われません。"
 
 # File: /usr/lang/src/controllers.php, line: 134
 msgid ""
@@ -25074,22 +25076,21 @@ msgstr "SSL 証明書検証を無視 ( 自己署名証明書用 )"
 msgid "Ignore hosts in access.log"
 msgstr "access.log のホストを無視"
 
-#
 # File: /usr/lang/src/controllers.php, line: 813
 msgid ""
 "Ignore some mountpoints by filesystem type. For example (dev)tmpfs (usually "
 "present on /run, /var/run, /dev/shm or /dev)."
 msgstr ""
+"ファイルシステムタイプで一部のマウントポイントを無視します。例: (dev)tmpfs "
+"（通常 /run、/var/run、/dev/shm、/dev に設定されます）"
 
-#
 # File: /usr/lang/src/controllers.php, line: 814
 msgid "Inbound interface"
-msgstr ""
+msgstr "インバウンドインタフェース"
 
-#
 # File: /usr/lang/src/controllers.php, line: 815
 msgid "Incoming bytes rate"
-msgstr ""
+msgstr "着信バイト率"
 
 # File: /usr/lang/src/controllers.php, line: 133
 msgid ""
@@ -25099,15 +25100,13 @@ msgstr ""
 "ログをどこに送信するかを示します。IPv4 もしくは IPv6 アドレスを取り、オプショ"
 "ンでコロン (:) と UDP ポートを後につけます。例 127.0.0.1、10.0.0.1:514"
 
-#
 # File: /usr/lang/src/controllers.php, line: 817
 msgid "Influx URL"
-msgstr ""
+msgstr "Influx URL"
 
-#
 # File: /usr/lang/src/controllers.php, line: 460
 msgid "Infoblox"
-msgstr ""
+msgstr "Infoblox"
 
 # File: /usr/lang/src/controllers.php, line: 285
 msgid "Input Filter"
@@ -25116,15 +25115,13 @@ msgstr "フィルタを入力"
 msgid "Interface"
 msgstr "インタフェース"
 
-#
 # File: /usr/lang/src/controllers.php, line: 821
 msgid "Interface Configuration"
-msgstr ""
+msgstr "インタフェース構成"
 
-#
 # File: /usr/lang/src/controllers.php, line: 822
 msgid "Interface where to find the networks logically linked to."
-msgstr ""
+msgstr "論理的にリンクされたネットワークの位置を探すインタフェース。"
 
 msgid "Interfaces"
 msgstr "インタフェース"
@@ -25133,10 +25130,9 @@ msgstr "インタフェース"
 msgid "Internal number used for this zone"
 msgstr "このゾーンで使用される内部番号"
 
-#
 # File: /usr/lang/src/controllers.php, line: 825
 msgid "Interrupts Statistics"
-msgstr ""
+msgstr "割り込み統計"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 136
 msgid "Interval"
@@ -25146,12 +25142,13 @@ msgstr "間隔"
 msgid "Interval before dropping packets (in ms), leave empty for default"
 msgstr "パケットを落とす前の間隔 ( ms 単位 )、空白はデフォルトになります"
 
-#
 # File: /usr/lang/src/controllers.php, line: 828
 msgid ""
 "It sets the default string describing the list of cipher algorithms "
 "(\"cipher suite\") that are negotiated during the SSL/TLS handshake."
 msgstr ""
+"暗号化アルゴリズム (「暗号スイート」) のリストに記述するデフォルト文字列を設定します。"
+"SSL/TLS ハンドシェーク中のネゴシエートに使用します。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 829
