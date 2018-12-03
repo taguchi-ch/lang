@@ -22421,7 +22421,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 233
 msgid "Collection Jitter"
-msgstr "ジッター収集"
+msgstr "ジッタ収集"
 
 # File: /usr/lang/src/controllers.php, line: 234
 msgid ""
@@ -22429,7 +22429,7 @@ msgid ""
 "plugin will sleep for a random time within jitter before collecting. Input "
 "value are seconds."
 msgstr ""
-"ジッター収集はランダム量でジッターを収集するのに使用されます。どのプラグインも収集前にジッターの範囲内で"
+"ジッタ収集はランダム量でジッターを収集するのに使用されます。どのプラグインも収集前にジッタの範囲内で"
 "ランダムな時間スリープします。入力値は秒数です。"
 
 # File: /usr/lang/src/controllers.php, line: 145
@@ -25150,110 +25150,97 @@ msgstr ""
 "暗号化アルゴリズム (「暗号スイート」) のリストに記述するデフォルト文字列を設定します。"
 "SSL/TLS ハンドシェーク中のネゴシエートに使用します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 829
 msgid ""
 "Jitter the flush interval by a random amount. This is primarily to avoid "
 "large write spikes for users running a large number of telegraf instances."
 msgstr ""
+"ジッタのフラッシュ間隔はランダム量です。大量の Telegraf インスタンスが実行されることで、"
+"ユーザに大量書き込みが急激に発生しないようにすることを優先します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 830
 msgid "Kerberos Account Name Of This Host In AD"
-msgstr ""
+msgstr "AD でのこのホストの Kerberos アカウント名"
 
-#
 # File: /usr/lang/src/controllers.php, line: 831
 msgid "Kerberos authentication check-list"
-msgstr ""
+msgstr "Kerberos 認証チェックリスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 832
 msgid "Kerberos configuration"
-msgstr ""
+msgstr "Kerberos 構成"
 
-#
 # File: /usr/lang/src/controllers.php, line: 833
 msgid "Kerberos configuration must exist and be valid."
-msgstr ""
+msgstr "Kerberos 構成が存在しておりかつ有効でなければなりません。"
 
 msgid "Key"
 msgstr "鍵"
 
-#
 # File: /usr/lang/src/controllers.php, line: 835
 msgid "Key Table creation"
-msgstr ""
+msgstr "キーテーブル作成"
 
-#
 # File: /usr/lang/src/controllers.php, line: 836
 msgid "Keytab file"
-msgstr ""
+msgstr "キータブファイル"
 
-#
 # File: /usr/lang/src/controllers.php, line: 837
 msgid "Keytab file must exist and be valid."
-msgstr ""
+msgstr "キータブファイルが存在しておりかつ有効でなければなりません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 838
 msgid "LDAP Server"
-msgstr ""
+msgstr "LDAP サーバ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 839
 msgid "LDAP Server accessible"
-msgstr ""
+msgstr "LDAP サーバにアクセス可能"
 
-#
 # File: /usr/lang/src/controllers.php, line: 840
 msgid "LDAP Server configuration"
-msgstr ""
+msgstr "LDAP サーバ構成"
 
-#
 # File: /usr/lang/src/controllers.php, line: 841
 msgid "LDAP server DNS lookup"
-msgstr ""
+msgstr "LDAP サーバ DNS ルックアップ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 842
 msgid "LDAP server DNS reverse lookup"
-msgstr ""
+msgstr "LDAP サーバ DNS 逆引き"
 
-#
 # File: /usr/lang/src/controllers.php, line: 843
 msgid "LDAP server ping check."
-msgstr ""
+msgstr "LDAP サーバ に ping チェックをします。"
 
 # File: /usr/lang/src/controllers.php, line: 400
 msgid "LE Account"
 msgstr "LE アカウント"
 
-#
 # File: /usr/lang/src/controllers.php, line: 845
 msgid ""
 "Leave at both when specifying network below, otherwise when using wildcards "
 "change to match desired network"
 msgstr ""
+"下記で指定されたネットワークの場合、もしくは一致する必要があるネットワークをワイルドカードを使用して変更した場合は"
+"両端とも切断します"
 
-#
 # File: /usr/lang/src/controllers.php, line: 846
 msgid "Let the Redis server listen on non-localhost interfaces."
-msgstr ""
+msgstr "Redis サーバでローカルホストではないインタフェースのリスンをさせます。"
 
 # File: /usr/lang/src/controllers.php, line: 352
 msgid "Let's Encrypt Environment"
 msgstr "Let's Encrypt 環境"
 
-#
+
 # File: /usr/lang/src/controllers.php, line: 848
 msgid "Lifetime of Redis cache - 1 day by default."
-msgstr ""
+msgstr "Redis キャッシュの有効期間。デフォルトは１日。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 849
 msgid "Limits"
-msgstr ""
+msgstr "リミット"
 
 # File: /usr/lang/src/controllers.php, line: 402
 msgid "Linode"
@@ -25293,31 +25280,31 @@ msgstr ""
 "ます。例: ServerActive=127.0.0.1:20051,zabbix.domain,[::1]:30051,::1,"
 "[12fc::1]"
 
-#
 # File: /usr/lang/src/controllers.php, line: 854
 msgid ""
 "List of comma delimited IP addresses that the trapper should listen on. "
 "Trapper will listen on all network interfaces if this parameter is missing."
 msgstr ""
+"トラッパがリスンする IP アドレスのカンマ区切りリスト。"
+"このパラメータが設定されていない場合トラッパは全てのネットワークインタフェースをリスンします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 855
 msgid "List of domains that are not checked by SURBL."
-msgstr ""
+msgstr "SURBL がチェックしないドメインのリスト。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 856
 msgid ""
 "List of networks where to apply the DTAG fix. Default should fit for most "
 "situations."
 msgstr ""
+"DTAG 調整を適用するネットワークのリスト。デフォルトは一般的な環境向けに調整してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 857
 msgid ""
 "List of networks where to apply the FritzBox Anoncall plugin. Default should "
 "fit for most situations."
 msgstr ""
+"FritzBox Anoncall プラグインを適用するネットワークのリスト。デフォルトは一般的な環境向けに調整してください。"
 
 # File: /usr/lang/src/controllers.php, line: 406
 msgid "List with events. Leave it empty for all events."
@@ -25331,29 +25318,25 @@ msgstr "リスンアドレス"
 msgid "Listen Addresses"
 msgstr "リスンアドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 861
 msgid "Listen End Port"
-msgstr ""
+msgstr "リスン最終ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 862
 msgid "Listen IP"
-msgstr ""
+msgstr "リスン IP"
 
 # File: /usr/lang/src/controllers.php, line: 408
 msgid "Listen IPs"
 msgstr "リスン IP"
 
-#
 # File: /usr/lang/src/controllers.php, line: 864
 msgid "Listen Interface"
-msgstr ""
+msgstr "リスンインタフェース"
 
-#
 # File: /usr/lang/src/controllers.php, line: 477
 msgid "Listen Interfaces"
-msgstr ""
+msgstr "リスンインタフェース"
 
 msgid "Listen Port"
 msgstr "リスンポート"
@@ -25362,44 +25345,38 @@ msgstr "リスンポート"
 msgid "Listen address"
 msgstr "リスンアドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 868
 msgid "Listen address (IP)"
-msgstr ""
+msgstr "リスンアドレス (IP)"
 
 # File: /usr/lang/src/controllers.php, line: 291
 msgid "Listen port"
 msgstr "リスンポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 870
 msgid "Listen port for trapper. Default is just fine."
-msgstr ""
+msgstr "トラッパ用リスンポート。デフォルトで問題ありません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 871
 msgid "Load Average Statistics"
-msgstr ""
+msgstr "ロードアベレージ統計"
 
-#
 # File: /usr/lang/src/controllers.php, line: 872
 msgid "Local Address"
-msgstr ""
+msgstr "ローカルアドレス"
 
 # File: /usr/lang/src/controllers.php, line: 356
 msgid "Local Cache Settings"
 msgstr "ローカルキャッシュ設定"
 
-#
 # File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 103
 # File: /usr/lang/src/controllers.php, line: 874
 msgid "Local Description"
-msgstr ""
+msgstr "ネットワークの説明"
 
-#
 # File: /usr/lang/src/controllers.php, line: 875
 msgid "Local Description to help identify this network"
-msgstr ""
+msgstr "このネットワークを識別するために使用する説明"
 
 # File: /usr/lang/src/controllers.php, line: 357
 msgid "Local HTTP Port"
@@ -25413,20 +25390,17 @@ msgstr "ローカルポート"
 msgid "Local stats TCP port"
 msgstr "ローカル統計 TCP ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 879
 msgid "Log Authentication Bad Password"
-msgstr ""
+msgstr "ログ認証 Bad Password"
 
-#
 # File: /usr/lang/src/controllers.php, line: 880
 msgid "Log Authentication Good Password"
-msgstr ""
+msgstr "ログ認証 Good Password"
 
-#
 # File: /usr/lang/src/controllers.php, line: 881
 msgid "Log Authentication Request"
-msgstr ""
+msgstr "ログ認証リクエスト"
 
 # File: lang/dynamic/helpers/models.php, line: 202
 # File: lang/dynamic/helpers/models.php, line: 211
@@ -25449,10 +25423,9 @@ msgstr "ログファイルサイズ"
 msgid "Log Host"
 msgstr "ログ収集ホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 885
 msgid "Log Level"
-msgstr ""
+msgstr "ログレベル"
 
 # File: /usr/lang/src/controllers.php, line: 417
 msgid "Log Remote Commands"
@@ -25466,33 +25439,29 @@ msgstr "SNI 情報のみをログに記録"
 msgid "Log Status Changes"
 msgstr "ログステータス変更"
 
-#
 # File: /usr/lang/src/controllers.php, line: 889
 msgid "Log Transactions Slower Than (microsecond)"
-msgstr ""
+msgstr "ログトランザクションが次よりも遅い (ms):"
 
 # File: /usr/lang/src/controllers.php, line: 295
 msgid "Log connections"
 msgstr "ログ接続"
 
-#
 # File: /usr/lang/src/controllers.php, line: 891
 msgid "Log package payload"
-msgstr ""
+msgstr "ログパッケージペイロード"
 
 # File: /usr/lang/src/controllers.php, line: 296
 msgid "Log target"
 msgstr "ログ対象"
 
-#
 # File: /usr/lang/src/controllers.php, line: 893
 msgid "Log to File or Syslog"
-msgstr ""
+msgstr "ファイルもしくは Syslog にログを記録"
 
-#
 # File: /usr/lang/src/controllers.php, line: 894
 msgid "Logfile level"
-msgstr ""
+msgstr "ログファイルレベル"
 
 # File: /usr/lang/src/models.php, line: 135
 msgid "Logging Configuration"
@@ -25502,57 +25471,48 @@ msgstr "ログ構成"
 msgid "Logging Options"
 msgstr "ロギングオプション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 897
 msgid "Logical operator for conditions"
-msgstr ""
+msgstr "条件に対するロジカルオペレータ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 898
 msgid "Logs password if it is correct."
-msgstr ""
+msgstr "正しいパスワードをログに記録します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 899
 msgid "Logs password if it is rejected."
-msgstr ""
+msgstr "拒絶されたパスワードをログに記録します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 900
 msgid "Lua function"
-msgstr ""
+msgstr "Lua 関数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 901
 msgid "Lua service"
-msgstr ""
+msgstr "Lua サービス"
 
 # File: /usr/lang/src/controllers.php, line: 425
 msgid "LuaDNS"
 msgstr "LuaDNS"
 
-#
 # File: /usr/lang/src/controllers.php, line: 903
 msgid "M/Monit Register Credentials"
-msgstr ""
+msgstr "M/Monit 登録資格情報"
 
-#
 # File: /usr/lang/src/controllers.php, line: 904
 msgid "M/Monit Timeout"
-msgstr ""
+msgstr "M/Monit タイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 905
 msgid "M/Monit URL"
-msgstr ""
+msgstr "M/Monit URL"
 
 msgid "MAC address"
 msgstr "MAC アドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 907
 msgid "MX Check"
-msgstr ""
+msgstr "MX チェック"
 
 # File: /usr/lang/src/controllers.php, line: 426
 msgid "Mail Server"
@@ -25566,10 +25526,9 @@ msgstr "メールサーバポート"
 msgid "Mail format"
 msgstr "メールフォーマット"
 
-#
 # File: /usr/lang/src/controllers.php, line: 911
 msgid "Mails from IPs entered here will not be scanned."
-msgstr ""
+msgstr "ここに入力された IP から来たメールはスキャンされません。"
 
 # File: /usr/lang/src/controllers.php, line: 429
 # File: /usr/lang/src/models.php, line: 154
@@ -25580,15 +25539,13 @@ msgstr "メイン設定"
 msgid "Make sure the script is executable by the Monit service."
 msgstr "Monit サービスでそのスクリプトが実行可能か確認してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 914
 msgid "Map Host To IP Pool"
-msgstr ""
+msgstr "IP プールにホストをマップ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 500
 msgid "Mark encrypted archives as viruses (Encrypted.Zip, Encrypted.RAR)."
-msgstr ""
+msgstr "ウイルスとして暗号化アーカイブをマーク ( Encrypted.Zip, Encrypted.RAR )"
 
 #
 # File: /usr/lang/src/controllers.php, line: 916
