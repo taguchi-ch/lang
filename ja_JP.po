@@ -25547,13 +25547,14 @@ msgstr "IP プールにホストをマップ"
 msgid "Mark encrypted archives as viruses (Encrypted.Zip, Encrypted.RAR)."
 msgstr "ウイルスとして暗号化アーカイブをマーク ( Encrypted.Zip, Encrypted.RAR )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 916
 msgid ""
 "Mask bits are used to limit the network range from which the message may be "
 "resent. This is used to avoid a rejection if another server sends the second "
 "mail."
 msgstr ""
+"マスクビットは再送信するメッセージの送信元ネットワーク範囲の制限に使用します。"
+"これは他のサーバが二番目のメールを送信した場合に拒絶することを避けるためです。"
 
 # File: /usr/lang/src/controllers.php, line: 501
 msgid "Match"
@@ -25567,152 +25568,130 @@ msgstr "パターンに一致"
 msgid "Match response"
 msgstr "応答に一致"
 
-#
 # File: /usr/lang/src/controllers.php, line: 920
 msgid ""
 "Matches the specified regular expression in all occurrences of header field."
 msgstr ""
+"ヘッダフィールドに存在するもの全てに、指定した正規表現を一致させます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 921
 msgid ""
 "Matches the specified regular expression in all occurrences of the header "
 "field."
 msgstr ""
+"そのヘッダフィールドに存在するもの全てに、指定した正規表現を一致させます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 922
 msgid "Max Daily Session"
-msgstr ""
+msgstr "最大日次セッション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 504
 msgid "Max directory recursion"
-msgstr ""
+msgstr "最大ディレクトリ再帰"
 
-#
 # File: /usr/lang/src/controllers.php, line: 505
 msgid "Max file size"
-msgstr ""
+msgstr "最大ファイルサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 506
 msgid "Max files"
-msgstr ""
+msgstr "最大ファイル"
 
-#
 # File: /usr/lang/src/controllers.php, line: 507
 msgid "Max keepalive requests"
-msgstr ""
+msgstr "最大キープアライブリクエスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 508
 msgid "Max keepalive timeout"
-msgstr ""
+msgstr "最大キープアライブタイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 509
 msgid "Max object size"
-msgstr ""
+msgstr "最大オブジェクトサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 510
 msgid "Max recursion"
-msgstr ""
+msgstr "最大再帰"
 
-#
 # File: /usr/lang/src/controllers.php, line: 511
 msgid "Max requests per child"
-msgstr ""
+msgstr "子毎の最大リクエスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 512
 msgid "Max scan size"
-msgstr ""
+msgstr "最大スキャンサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 513
 msgid "Max servers"
-msgstr ""
+msgstr "最大サーバ"
 
 # File: /usr/lang/src/controllers.php, line: 299
 msgid "Max sessions"
 msgstr "最大セッション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 515
 msgid "Max spare threads"
-msgstr ""
+msgstr "最大スペアスレッド"
 
 # File: /usr/lang/src/controllers.php, line: 300
 msgid "Max. Connections"
 msgstr "最大接続"
 
-#
 # File: /usr/lang/src/controllers.php, line: 936
 msgid "Max. data length"
-msgstr ""
+msgstr "最大データ長"
 
 # File: /usr/lang/src/controllers.php, line: 301
 msgid "Max. line length"
-msgstr "行の最大長"
+msgstr "最大行長"
 
 # File: /usr/lang/src/controllers.php, line: 437
 msgid "MaxLinesPerSecond"
 msgstr "秒毎の最大行"
 
-#
 # File: /usr/lang/src/controllers.php, line: 939
 msgid "Maximum Clients"
-msgstr ""
+msgstr "最大クライアント"
 
-#
 # File: /usr/lang/src/controllers.php, line: 940
 msgid "Maximum Data Length"
-msgstr ""
+msgstr "最大データ長"
 
-#
 # File: /usr/lang/src/controllers.php, line: 941
 msgid "Maximum Length"
-msgstr ""
+msgstr "最大長"
 
-#
 # File: /usr/lang/src/controllers.php, line: 942
 msgid "Maximum Memory"
-msgstr ""
+msgstr "最大メモリ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 943
 msgid "Maximum Memory In Queues (MB)"
-msgstr ""
+msgstr "キューの最大メモリ (MB)"
 
-#
 # File: /usr/lang/src/controllers.php, line: 944
 msgid "Maximum Memory Policy"
-msgstr ""
+msgstr "最大メモリポリシ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 945
 msgid "Maximum Memory Samples"
-msgstr ""
+msgstr "最大メモリサンプル"
 
 # File: /usr/lang/src/controllers.php, line: 302
 msgid "Maximum RAM per LUA process"
 msgstr "LUA プロセス毎の最大 RAM"
 
-#
 # File: /usr/lang/src/controllers.php, line: 947
 msgid "Maximum Recipients"
-msgstr ""
+msgstr "最大受信者"
 
 # File: /usr/lang/src/controllers.php, line: 303
 msgid "Maximum SSL DH Size"
 msgstr "最大 SSL DH サイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 949
 msgid "Maximum Size"
-msgstr ""
+msgstr "最大サイズ"
 
 # File: /usr/lang/src/controllers.php, line: 304
 msgid "Maximum connections"
