@@ -25697,10 +25697,9 @@ msgstr "最大サイズ"
 msgid "Maximum connections"
 msgstr "最大接続"
 
-#
 # File: /usr/lang/src/controllers.php, line: 522
 msgid "Maximum depth directories are scanned at."
-msgstr ""
+msgstr "スキャンするディレクトリの深さの最大値。"
 
 # File: /usr/lang/src/controllers.php, line: 305
 msgid "Maximum download size (kB)"
@@ -25724,28 +25723,26 @@ msgstr ""
 "Zabbix サーバもしくはプロキシの「log」及び「logrt」アクティブチェックプロセス"
 "に、エージェントが 1 秒毎に送信する新規行の最大数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 526
 msgid "Maximum number of queued items"
-msgstr ""
+msgstr "キューにある項目の最大数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 527
 msgid ""
 "Maximum number of queued items (including those being processed by "
 "MaxThreads threads). It is recommended to have this value at least twice "
 "MaxThreads if possible."
 msgstr ""
+"キューにある項目の最大数 ( MaxThreads のスレッドでプロセスとして存在しているものも含む )。"
+"可能なら最低でも MaxThreads の二倍の値に設定することを推奨します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 528
 msgid "Maximum number of threads running"
-msgstr ""
+msgstr "実行するスレッドの最大数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 529
 msgid "Maximum number of threads running at the same time."
-msgstr ""
+msgstr "同時に実行するスレッドの最大数"
 
 # File: /usr/lang/src/controllers.php, line: 444
 msgid ""
@@ -25771,53 +25768,45 @@ msgstr ""
 msgid "Maximum upload size (kB)"
 msgstr "最大アップロードサイズ ( KB )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 963
 msgid "Memory"
-msgstr ""
+msgstr "メモリ"
 
 # File: /usr/lang/src/controllers.php, line: 309
 msgid "Memory Cache size in Megabytes"
 msgstr "メモリキャッシュサイズ ( MB )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 965
 msgid "Memory Statistics"
-msgstr ""
+msgstr "メモリ統計"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 446
 msgid "Message"
 msgstr "メッセージ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 967
 msgid "Message Digest"
-msgstr ""
+msgstr "メッセージ概要"
 
-#
 # File: /usr/lang/src/controllers.php, line: 968
 msgid "Message Size Limit"
-msgstr ""
+msgstr "メッセージサイズ制限"
 
-#
 # File: /usr/lang/src/controllers.php, line: 969
 msgid "Metric Batch Size"
-msgstr ""
+msgstr "メトリックバッチサイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 970
 msgid "Metric Buffer Limit"
-msgstr ""
+msgstr "メトリックバッファ制限"
 
-#
 # File: /usr/lang/src/controllers.php, line: 971
 msgid "Milter Headers"
-msgstr ""
+msgstr "Milter ヘッダ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 536
 msgid "Min spare threads"
-msgstr ""
+msgstr "最小スペアスレッド"
 
 # File: /usr/lang/src/controllers.php, line: 136
 msgid ""
@@ -25832,44 +25821,37 @@ msgstr "分"
 msgid "Mode"
 msgstr "モード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 976
 msgid "Monit HTTPD Access List"
-msgstr ""
+msgstr "Monit HTTPD アクセスリスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 977
 msgid "Monit HTTPD Port"
-msgstr ""
+msgstr "Monit HTTPD ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 978
 msgid "Monitor Password"
-msgstr ""
+msgstr "モニタパスワード"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 129
 msgid "Months"
 msgstr "月"
 
-#
 # File: /usr/lang/src/controllers.php, line: 980
 msgid "Multimap Settings"
-msgstr ""
+msgstr "Multimap 設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 981
 msgid "MySQL 4.1+"
-msgstr ""
+msgstr "MySQL 4.1+"
 
-#
 # File: /usr/lang/src/controllers.php, line: 982
 msgid "MySQL check"
-msgstr ""
+msgstr "MySQL チェック"
 
-#
 # File: /usr/lang/src/controllers.php, line: 983
 msgid "MySQL user"
-msgstr ""
+msgstr "MySQL ユーザ"
 
 #
 # File: /usr/lang/src/controllers.php, line: 984
