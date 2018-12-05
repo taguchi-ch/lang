@@ -18666,7 +18666,7 @@ msgid ""
 "must be configured even if you only have a single server."
 msgstr ""
 "追加する %sバックエンドプール: %s グループは以前突合されたサーバでサーバファームを構築します。"
-"グループにある全てのサーバは通常同じコンテンツを配信します。バックエンドプールはヘルス監視及び、"
+"グループにある全てのサーバは通常同じコンテンツを配信します。バックエンドプールはヘルスモニタ及び、"
 "ディストリビューションのロードを処理します。例えあなたが所持しているのが単一サーバのみだったとしても、"
 "バックエンドプールを構成するべきです。"
 
@@ -20016,7 +20016,7 @@ msgstr "ルールを編集"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 835
 msgid "Edit Health Monitor"
-msgstr "ヘルス監視を編集"
+msgstr "ヘルスモニタを編集"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 652
 msgid "Edit Server"
@@ -20060,11 +20060,11 @@ msgstr "ルール ID"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 665
 msgid "Health Monitor Name"
-msgstr "ヘルス監視名"
+msgstr "ヘルスモニタ名"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 664
 msgid "Health Monitor ID"
-msgstr "ヘルス監視 ID"
+msgstr "ヘルスモニタ ID"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 400
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 435
@@ -20134,7 +20134,7 @@ msgid ""
 "same Backend Pool may be used for multiple Public Services."
 msgstr ""
 "%sバックエンドプール:%s HAProxy のバックエンド。%s以前追加されたサーバ%sのグループでサーバファームを構築します。"
-"グループにある全てのサーバは通常同じコンテンツを配信します。バックエンドプールはヘルス監視及び、"
+"グループにある全てのサーバは通常同じコンテンツを配信します。バックエンドプールはヘルスモニタ及び、"
 "負荷分散を処理します。例えあなたが所持しているのが単一サーバのみだったとしても、"
 "バックエンドプールを構成するべきです。"
 "複数のパブリックサービスに対して同じバックエンドプールが使用されます。"
@@ -21128,7 +21128,7 @@ msgstr "ステータスが取得できませんでした。Relayd は実行中�
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 416
 msgid "Health Monitors"
-msgstr "ヘルス監視"
+msgstr "ヘルスモニタ"
 
 # File: /usr/plugins/net/siproxd/src/etc/inc/plugins.inc.d/siproxd.inc, line: 37
 msgid "Siproxd Daemon"
@@ -21420,7 +21420,7 @@ msgid ""
 "client requests. If a server fails a health check it will automatically be "
 "removed from a Backend Pool and healthy servers are automatically re-added."
 msgstr ""
-"%sヘルス監視:%s HAProxy の「ヘルスチェック」。ヘルス監視は%sバックエンドプール%sによって使用され、サーバが現在"
+"%sヘルスモニタ:%s HAProxy の「ヘルスチェック」。ヘルスモニタは%sバックエンドプール%sによって使用され、サーバが現在"
 "クライアントの要求に応答可能かどうかを決定します。サーバがヘルスチェックに失敗した場合、自動的にバックエンドプール"
 "から削除され、稼働可能なサーバが自動的に補充されます。"
 
@@ -22772,7 +22772,7 @@ msgstr "このバックエンドプールの説明。"
 
 # File: /usr/lang/src/controllers.php, line: 312
 msgid "Description for this Health Monitor."
-msgstr "このヘルス監視の説明。"
+msgstr "このヘルスモニタの説明。"
 
 # File: /usr/lang/src/controllers.php, line: 62
 msgid "Description for this Lua script."
@@ -24676,7 +24676,7 @@ msgstr "ヘルスチェック中"
 
 # File: /usr/lang/src/controllers.php, line: 735
 msgid "Health Monitor"
-msgstr "ヘルス監視"
+msgstr "ヘルスモニタ"
 
 # File: /usr/lang/src/controllers.php, line: 267
 msgid "Health check buffer size"
@@ -25853,12 +25853,13 @@ msgstr "MySQL チェック"
 msgid "MySQL user"
 msgstr "MySQL ユーザ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 984
 msgid ""
 "NOTE: Define default parameters for ALL Public Services, Backend Pools and "
 "Servers here. They may still be overriden elsewhere."
 msgstr ""
+"注意: 全てのパブリックサービス、バックエンドプール、サーバに対するデフォルトパラメータをここで定義します。"
+"他の場所で定義されたものよりも優先される可能性があります。"
 
 # File: /usr/lang/src/controllers.php, line: 316
 msgid ""
@@ -25868,84 +25869,75 @@ msgstr ""
 "注意: HAProxy サービスのグローバルパラメータはここで定義します。この設定は上"
 "書きできません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 986
 msgid ""
 "NOTE: The specified server must be present in the Backend Pool where this "
 "rule is applied."
 msgstr ""
+"注意: 指定したサーバはこのルールが適用されるバックエンドプールに存在している必要があります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 544
 msgid "NS1.com"
-msgstr ""
+msgstr "NS1.com"
 
-#
 # File: /usr/lang/src/controllers.php, line: 988
 msgid "NTP Statistics"
-msgstr ""
+msgstr "NTP 統計"
 
 msgid "Name"
 msgstr "名前"
 
-#
 # File: /usr/lang/src/controllers.php, line: 990
 msgid "Name to identify this Backend Pool."
-msgstr ""
+msgstr "このバックエンドプールを識別する名前。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 991
 msgid "Name to identify this Health Monitor."
-msgstr ""
+msgstr "このヘルスモニタを識別する名前。"
 
 # File: /usr/lang/src/controllers.php, line: 138
 msgid "Name to identify this Lua script."
-msgstr "この Lua スクリプトを識別する名前です。"
+msgstr "この Lua スクリプトを識別する名前。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 993
 msgid "Name to identify this Public Service."
-msgstr ""
+msgstr "このパブリックサービスを識別する名前。"
 
 # File: /usr/lang/src/controllers.php, line: 390
 msgid "Name to identify this account."
 msgstr "このアカウントを識別する名前です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 995
 msgid "Name to identify this condition."
-msgstr ""
+msgstr "この条件を識別する名前。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 996
 msgid "Name to identify this error message."
-msgstr ""
+msgstr "このエラーメッセージを識別する名前。"
 
 # File: /usr/lang/src/controllers.php, line: 466
 msgid "Name to identify this restart action."
-msgstr "この再起動アクションを識別する名前です。"
+msgstr "この再起動アクションを識別する名前。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 998
 msgid "Name to identify this rule."
-msgstr ""
+msgstr "このルールを識別する名前。"
 
 # File: /usr/lang/src/controllers.php, line: 143
 msgid "Name to identify this server."
-msgstr "このサーバを識別する名前です。"
+msgstr "このサーバを識別する名前。"
 
 # File: /usr/lang/src/controllers.php, line: 397
 msgid "Name to identify this validation."
-msgstr "この検証を識別する名前です。"
+msgstr "この検証を識別する名前。"
 
 # File: /usr/lang/src/controllers.php, line: 326
 msgid "Name used for this network"
 msgstr "このネットワークで使用する名前"
 
-#
 # File: /usr/lang/src/controllers.php, line: 557
 msgid "Name.com"
-msgstr ""
+msgstr "Name.com"
 
 # File: /usr/lang/src/controllers.php, line: 328
 msgid "Negate condition"
@@ -25955,17 +25947,17 @@ msgstr "否定条件"
 msgid "Neighbor AS."
 msgstr "ネイバー AS です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 561
 msgid ""
 "Nested archives are scanned recursively, e.g. if a Zip archive contains a "
 "RAR file, all files within it will also be scanned."
 msgstr ""
+"ネストしたアーカイブは再帰的にスキャンされます。例えば Zip アーカイブに RAR ファイルが含まれている場合は"
+"その中にある全てのファイルもスキャンされます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1006
 msgid "Netclient"
-msgstr ""
+msgstr "Netclient"
 
 msgid "Network"
 msgstr "ネットワーク"
@@ -25975,15 +25967,13 @@ msgstr "ネットワーク"
 msgid "Network Address"
 msgstr "ネットワークアドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 564
 msgid "Network ID"
-msgstr ""
+msgstr "ネットワーク ID"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1010
 msgid "Network Interface Statistics"
-msgstr ""
+msgstr "ネットワークインタフェース統計"
 
 # File: /usr/lang/src/controllers.php, line: 475
 msgid "Network Mask"
@@ -26001,85 +25991,73 @@ msgstr "ネットワーク名"
 msgid "Network Type"
 msgstr "ネットワークタイプ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 568
 msgid "Network address that the c-icap server uses to listen to requests."
-msgstr ""
+msgstr "c-icap サーバがリクエストをリスンするのに使用するネットワークアドレス。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 569
 msgid "Network collector encryption"
-msgstr ""
+msgstr "ネットワークコレクタ暗号化"
 
-#
 # File: /usr/lang/src/controllers.php, line: 570
 msgid "Network collector host"
-msgstr ""
+msgstr "ネットワークコレクタホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 571
 msgid "Network collector password"
-msgstr ""
+msgstr "ネットワークコレクタパスワード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 572
 msgid "Network collector port"
-msgstr ""
+msgstr "ネットワークコレクタポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 573
 msgid "Network collector username"
-msgstr ""
+msgstr "ネットワークコレクタユーザ名"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1020
 msgid "Network list for fbox anoncall plugin"
-msgstr ""
+msgstr "fbox anoncall プラグインのネットワークリスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1021
 msgid "Network on which this ACL is appied."
-msgstr ""
+msgstr "この ACL を適用するネットワーク。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1022
 msgid ""
 "Network on which this ACL is appied. Enter 'any' to use wildcard adressing"
-msgstr ""
+msgstr "この ACL を適用するネットワーク。「任意」を入力するとワイルドカードアドレッシングを使用します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1023
 msgid "Network to probe"
-msgstr ""
+msgstr "プローブするネットワーク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1024
 msgid ""
 "Network to scan, default: localnet.\n"
 "      "
 msgstr ""
+"スキャンするネットワーク。デフォルト: localnet\n"
+"      "
 
 msgid "Networks"
 msgstr "ネットワーク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 575
 msgid "Networks to interpret as local"
-msgstr ""
+msgstr "ローカルとみなすネットワーク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1028
 msgid "Networks to replace VIA-Header"
-msgstr ""
+msgstr "VIA-Header を置換するネットワーク"
 
 # File: /usr/lang/src/controllers.php, line: 479
 msgid "Next-Hop-Self"
 msgstr "next-hop-self"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1030
 msgid "Nickname"
-msgstr ""
+msgstr "ニックネーム"
 
 # File: /usr/lang/src/controllers.php, line: 480
 msgid "Not on"
@@ -26088,17 +26066,16 @@ msgstr "Not on"
 msgid "Number"
 msgstr "数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1033
 msgid "Number Of Processes"
-msgstr ""
+msgstr "プロセス数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 579
 msgid ""
 "Number of files to be scanned within an archive, a document, or any other "
 "container file."
 msgstr ""
+"アーカイブ、ドキュメント、もしくは他の種類のコンテナファイルでスキャンするファイルの数。"
 
 # File: /usr/lang/src/controllers.php, line: 332
 msgid "Number of first-level subdirectories"
