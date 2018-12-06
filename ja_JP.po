@@ -24700,7 +24700,7 @@ msgid ""
 "(internal and external). Format is CSV without spaces and CIDR, like "
 "192.168.0.0/24,10.0.0.0/8."
 msgstr ""
-"siproxd ( 内部及び外部 ) への SIP 接続の実行を許可するデバイスを指定します。CSV 形式 ( 空白を使用しない )。"
+"siproxd ( 内部及び外部 ) への SIP 接続の実行を許可するデバイスを指定します。CSV 形式 ( 空白を使用しない ) の CIDR です。"
 "例: 192.168.0.0/24,10.0.0.0/8"
 
 # File: /usr/lang/src/controllers.php, line: 741
@@ -25285,8 +25285,8 @@ msgid ""
 "List of comma delimited IP addresses that the trapper should listen on. "
 "Trapper will listen on all network interfaces if this parameter is missing."
 msgstr ""
-"トラッパがリスンする IP アドレスのカンマ区切りリスト。"
-"このパラメータが設定されていない場合トラッパは全てのネットワークインタフェースをリスンします。"
+"トラッパーがリスンする IP アドレスのカンマ区切りリスト。"
+"このパラメータが設定されていない場合トラッパーは全てのネットワークインタフェースをリスンします。"
 
 # File: /usr/lang/src/controllers.php, line: 855
 msgid "List of domains that are not checked by SURBL."
@@ -25355,7 +25355,7 @@ msgstr "リスンポート"
 
 # File: /usr/lang/src/controllers.php, line: 870
 msgid "Listen port for trapper. Default is just fine."
-msgstr "トラッパ用リスンポート。デフォルトで問題ありません。"
+msgstr "トラッパー用リスンポート。デフォルトで問題ありません。"
 
 # File: /usr/lang/src/controllers.php, line: 871
 msgid "Load Average Statistics"
@@ -26085,44 +26085,40 @@ msgstr "ファーストレベルサブディレクトリの数"
 msgid "Number of logs to keep."
 msgstr "保持するログの数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1037
 msgid "Number of pre-forked instances of HTTP pollers."
-msgstr ""
+msgstr "HTTP poller の prefork されたインスタンス数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1038
 msgid "Number of pre-forked instances of ICMP pingers."
-msgstr ""
+msgstr "ICMP pinger の prefork されたインスタンス数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1039
 msgid "Number of pre-forked instances of IPMI pollers."
-msgstr ""
+msgstr "IPMI poller の prefork されたインスタンス数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1040
 msgid "Number of pre-forked instances of discoverers."
-msgstr ""
+msgstr "discoverer の prefork されたインスタンス数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1041
 msgid ""
 "Number of pre-forked instances of pollers for unreachable hosts (including "
 "IPMI and Java)."
 msgstr ""
+"到達できないホストに対する poller の prefork されたインスタンス数 ( IPMI と Java を含む )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1042
 msgid "Number of pre-forked instances of pollers."
-msgstr ""
+msgstr "poller の prefork されたインスタンス数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1043
 msgid ""
 "Number of pre-forked instances of trappers. Trappers accept incoming "
 "connections from Zabbix sender and active agents."
 msgstr ""
+"トラッパーの prefork されたインスタンス数。"
+"トラッパーは Zabbix sender とアクティブエージェントからの着信接続を受信します。"
 
 # File: /usr/lang/src/controllers.php, line: 484
 msgid ""
@@ -26149,103 +26145,94 @@ msgstr ""
 "これがデフォルトです。あまり低い値を設定しないようにしてください。通常、制御"
 "接続はサイズが大きいデータ転送が行われている時はアイドル状態だからです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1047
 msgid "Nut Account Settings"
-msgstr ""
+msgstr "Nut アカウント設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 585
 msgid "OAuth Token"
-msgstr ""
+msgstr "OAuth トークン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 586
 msgid "OLE2 block macros"
-msgstr ""
+msgstr "OLE2 ブロックマクロ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 587
 msgid "OPNsense Web Service"
-msgstr ""
+msgstr "OPNsense Web サービス"
 
 # File: /usr/lang/src/controllers.php, line: 488
 msgid "OVH"
 msgstr "OVH"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1052
 msgid "Omit Hostname"
-msgstr ""
+msgstr "ホスト名を削除"
 
 # File: /usr/lang/src/controllers.php, line: 489
 msgid "On system boot wait before Monit starts checking services."
 msgstr "システム起動時に Monit がチェックサービスを開始するのを待ちます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1054
 msgid "One of the neighbor IPs"
-msgstr ""
+msgstr "ネイバー IP の 1 つ"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 204
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 229
 # File: /usr/lang/src/controllers.php, line: 1055
 msgid "Onion Service"
-msgstr ""
+msgstr "Onion サービス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1056
 msgid "Only Scan Attachments"
-msgstr ""
+msgstr "添付ファイルのみをスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 590
 msgid ""
 "Only if the object is bigger than size then the percentage of data which "
 "defined by SendPercentData sent by the c-icap server before receiving the "
 "complete body of request."
 msgstr ""
+"オブジェクトがサイズよりも大きい場合のみ SendPercentData で定義されたパーセンテージのデータが"
+"リクエストのボディ全体を受信する前に c-icap サーバにより送信されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1058
 msgid ""
 "Only use in a double nat scenario where SIP don't know your external public "
 "address. Format is CSV without spaces and CIDR, like "
 "192.168.0.0/24,10.0.0.0/8."
 msgstr ""
+"ダブル NAT は SIP が外部パブリックアドレスを知らない状況でのみ使用してください。"
+"CSV 形式 ( 空白を使用しない ) の CIDR です。例: 192.168.0.0/24,10.0.0.0/8"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1059
 msgid "Open ports by the fascist firewall."
-msgstr ""
+msgstr "ファシストファイアウォールでポートを開けます"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1060
 msgid "Openphish Map"
-msgstr ""
+msgstr "Openphish Map"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1061
 msgid ""
 "Openphish Premium offers more services, please only activate if you have a "
 "current license."
 msgstr ""
+"Openphish Premium ではより多くのサービスを受けられます。現在お持ちのライセンスでのみアクティベートしてください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1062
 msgid ""
 "Openphish is a service where phishing URLs get collected and asked by rspamd."
 msgstr ""
+"Openphish は rspamd でフィッシング URL の収集と問合せを行うサービスです。"
 
 # File: /usr/lang/src/controllers.php, line: 336
 msgid "Option pass-through"
 msgstr "オプションパススルー"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1064
 msgid "Optional condition"
-msgstr ""
+msgstr "オプション条件"
 
 # File: /usr/lang/src/controllers.php, line: 408
 msgid "Optional e-mail address for this account."
@@ -26254,50 +26241,45 @@ msgstr "このアカウントのオプションのメールアドレスです。
 msgid "Options"
 msgstr "オプション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1067
 msgid "Originate all IPv6 traffic from this IP"
-msgstr ""
+msgstr "この IP から発生している全ての IPv6 トラフィック"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1068
 msgid "Originate all traffic from this IP"
-msgstr ""
+msgstr "この IP から発生している全てのトラフィック"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1069
 msgid "Outbound interface"
-msgstr ""
+msgstr "アウトバウンドインタフェース"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1070
 msgid "Outgoing bytes rate"
-msgstr ""
+msgstr "発信バイト率"
 
 # File: /usr/lang/src/controllers.php, line: 338
 msgid "Overall bandwidth throttling (kbps)"
 msgstr "全体の帯域制限 ( kbps )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1072
 msgid "Override default hostname, if empty use system hostname."
-msgstr ""
+msgstr "デフォルトホスト名を上書きします。空白の場合はシステムホスト名を使用します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 596
 msgid ""
 "PE stands for Portable Executable - it's an executable file format used in "
 "all 32 and 64-bit versions of Windows operating systems."
 msgstr ""
+"PE は Portable Executable を現しています。32 ビット及び 64 ビットバージョンの Windows オペレーションシステム全てで"
+"実行可能なファイル形式として使用されます。"
 
 # File: /usr/lang/src/controllers.php, line: 495
 msgid "PID File"
 msgstr "PID ファイル"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1075
 msgid "Parameter Value"
-msgstr ""
+msgstr "パラメータ値"
 
 # File: /usr/lang/src/controllers.php, line: 339
 msgid "Parameters"
@@ -26307,22 +26289,20 @@ msgstr "パラメータ"
 msgid "Partner ID"
 msgstr "パートナー ID"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1078
 msgid "Pass additional SSL parameters to the HAProxy configuration."
-msgstr ""
+msgstr "追加 SSL パラメータを HAProxy 構成に渡します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 600
 msgid "Pass on error"
-msgstr ""
+msgstr "エラー時は許可"
 
-#
 # File: /usr/lang/src/controllers.php, line: 601
 msgid ""
 "Pass the content instead of blocking it, in the case when the virus scanner "
 "or the virus_scan module finds an error."
 msgstr ""
+"内容を拒否せず許可します。ウイルススキャナもしくは virus_scan モジュールがエラーを発見した場合に使用します。"
 
 # File: /usr/lang/src/controllers.php, line: 498
 msgid "Passive Interfaces"
@@ -26331,173 +26311,147 @@ msgstr "パッシブインタフェース"
 msgid "Password"
 msgstr "パスワード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1083
 msgid "Password for the bind user."
-msgstr ""
+msgstr "バインドユーザに対するパスワード。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1084
 msgid "Password to authenticate against the server."
-msgstr ""
+msgstr "サーバ認証に対するパスワード。"
 
 # File: /usr/lang/src/controllers.php, line: 145
 msgid "Paste the content of your Lua script here."
 msgstr "Lua スクリプトの内容をここに貼り付けてください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1086
 msgid ""
 "Paste the content of your error messages here. The message must represent "
 "the full HTTP response and include required HTTP headers. It should not "
 "exceed the configured buffer size, which generally is 8 or 16 kB."
 msgstr ""
+"エラーメッセージの内容をここに貼り付けてください。"
+"メッセージには全ての HTTP レスポンスと要求された HTTP ヘッダが必要です。"
+"構成したバッファサイズを上回らないようにしてください。通常は 8 もしくは 16KB です。"
 
 msgid "Path"
 msgstr "パス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1088
 msgid "Path Contains"
-msgstr ""
+msgstr "パスに含む"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1089
 msgid "Path Matches"
-msgstr ""
+msgstr "パスに一致"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1090
 msgid "Path Prefix"
-msgstr ""
+msgstr "パスのプリフィックス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1091
 msgid "Path Regex"
-msgstr ""
+msgstr "パスの正規表現"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1092
 msgid "Path Suffix"
-msgstr ""
+msgstr "パスのサフィックス"
 
 # File: /usr/lang/src/controllers.php, line: 342
 msgid "Pattern matcher"
 msgstr "パターンマッチャー"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1094
 msgid "Peer 1"
-msgstr ""
+msgstr "ピア 1"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1095
 msgid "Peer 2"
-msgstr ""
+msgstr "ピア 2"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1096
 msgid "Peer name (FQDN)"
-msgstr ""
+msgstr "ピア名 (FQDN)"
 
 # File: /usr/lang/src/controllers.php, line: 504
 msgid "Peer-IP"
 msgstr "ピア IP"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1098
 # File: /usr/lang/src/models.php, line: 397
 msgid "Peers / Session Sync"
-msgstr ""
+msgstr "ピア / セッション同期"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1099
 msgid "Per IP Limit: Mail Count"
-msgstr ""
+msgstr "IP 毎の制限: メール数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1100
 msgid "Per IP Limit: Time"
-msgstr ""
+msgstr "IP 毎の制限: 時間"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1101
 msgid "Per IP Limit: Time Unit"
-msgstr ""
+msgstr "IP 毎の制限: 時間単位"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1102
 msgid "Per IP and From Limit: Mail Count"
-msgstr ""
+msgstr "IP と送信者毎の制限: メール数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1103
 msgid "Per IP and From Limit: Time"
-msgstr ""
+msgstr "IP と送信者毎の制限: 時間"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1104
 msgid "Per IP and From Limit: Time Unit"
-msgstr ""
+msgstr "IP と送信者毎の制限: 時間単位"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1105
 msgid "Per Recipient Limit: Mail Count"
-msgstr ""
+msgstr "受信者毎の制限: メール数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1106
 msgid "Per Recipient Limit: Time"
-msgstr ""
+msgstr "受信者毎の制限: 時間"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1107
 msgid "Per Recipient Limit: Time Unit"
-msgstr ""
+msgstr "受信者毎の制限: 時間単位"
 
 # File: /usr/lang/src/controllers.php, line: 343
 msgid "Per host bandwidth throttling (kbps)"
 msgstr "ホスト毎の帯域制限 ( kbps )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1109
 msgid "Per-CPU"
-msgstr ""
+msgstr "CPU 毎"
 
-#
 # File: /usr/lang/src/controllers.php, line: 610
 msgid "Perform HTML normalisation and decryption of MS Script Encoder code."
-msgstr ""
+msgstr "HTML 正規化を実行し、MS スクリプトエンコーダコードの復号をします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1111
 msgid "Performance and Monitoring"
-msgstr ""
+msgstr "パフォーマンスとモニタリング"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1112
 msgid "Permit SASL Authenticated"
-msgstr ""
+msgstr "SASL 認証を許可"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1113
 msgid "Permit TLS Client Certificate Authenticated Users"
-msgstr ""
+msgstr "TLS クライアント証明書の Authenticated Users を許可"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1114
 msgid "Permit Trusted Networks"
-msgstr ""
+msgstr "Trusted Network を許可"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1115
 msgid "Phishing"
-msgstr ""
+msgstr "フィッシング"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1116
 msgid "Phishtank Map URL"
-msgstr ""
+msgstr "Phishtank Map URL"
 
 # File: /usr/lang/src/controllers.php, line: 506
 msgid "Physical name of the interface facing the peer"
@@ -26506,27 +26460,27 @@ msgstr "ピアに面しているインタフェースの物理名"
 msgid "Ping"
 msgstr "Ping"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1119
 msgid "Ping Hosts"
-msgstr ""
+msgstr "ホストに Ping"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1120
 msgid "Ping Hosts and measure the metrics."
-msgstr ""
+msgstr "ホストに ping をしてメトリックを計測します。"
 
 # File: /usr/lang/src/controllers.php, line: 418
 msgid "PingTimeout"
 msgstr "Ping タイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1122
 msgid ""
 "Please specify the internal networks allowed to register here. Leave empty "
 "to allow every device. Format is CSV without spaces and CIDR, like "
 "192.168.0.0/24,10.0.0.0/8."
 msgstr ""
+"登録を許可する内部ネットワークを指定してください。空白の場合は全てのデバイスを許可します。"
+"CSV 形式 ( 空白を使用しない ) の CIDR です。"
+"例: 192.168.0.0/24,10.0.0.0/8"
 
 # File: /usr/lang/src/controllers.php, line: 508
 msgid "Polling Interval"
