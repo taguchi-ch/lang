@@ -26346,7 +26346,7 @@ msgstr "パスに一致"
 
 # File: /usr/lang/src/controllers.php, line: 1090
 msgid "Path Prefix"
-msgstr "パスのプリフィックス"
+msgstr "パスのプレフィックス"
 
 # File: /usr/lang/src/controllers.php, line: 1091
 msgid "Path Regex"
@@ -26493,42 +26493,44 @@ msgstr "ポーリング間隔 ( 秒単位 )"
 msgid "Port"
 msgstr "ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1126
 msgid ""
 "Port number on which the SOCKS server should listen. The default is 9050. "
 "You should not change this unless you need the port."
 msgstr ""
+"SOCKS サーバがリスンするポート番号。デフォルトは 9050 です。"
+"このポートが必要な場合以外は変更しないほうがいいでしょう。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1127
 msgid ""
 "Port number on which the transparent DNS server should listen. The default "
 "is 9053. You should not change this unless you need the port."
 msgstr ""
+"透過 DNS サーバがリスンするポート番号。デフォルトは 9053 です。"
+"このポートが必要な場合以外は変更しないほうがいいでしょう。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1128
 msgid ""
 "Port number on which the transparent proxy server should listen. The default "
 "is 9040. You should not change this unless you need the port."
 msgstr ""
+"透過プロキシサーバがリスンするポート番号。デフォルトは 9040 です。"
+"このポートが必要な場合以外は変更しないほうがいいでしょう。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1129
 msgid ""
 "Port of Zabbix trapper on Zabbix server. Default is fine for most scenarios."
 msgstr ""
+"Zabbix サーバの Zabbix トラッパーポート。デフォルトは殆どの状況に対応可能です。"
 
-#
+
 # File: /usr/lang/src/controllers.php, line: 1130
 msgid "Port of the remote server."
-msgstr ""
+msgstr "リモートサーバのポート。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1131
 msgid "Port of the server."
-msgstr ""
+msgstr "サーバのポート。"
 
 # File: /usr/lang/src/controllers.php, line: 345
 msgid "Port to check"
@@ -26542,15 +26544,13 @@ msgstr ""
 "プロキシがリダイレクトされた接続をリスンするポートです。デフォルトは 8021 で"
 "す。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1134
 msgid "PostgreSQL check"
-msgstr ""
+msgstr "PostgreSQL チェック"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1135
 msgid "PostgreSQL user"
-msgstr ""
+msgstr "PostgreSQL ユーザ"
 
 # File: /usr/lang/src/controllers.php, line: 513
 msgid "PowerDNS"
@@ -26564,12 +26564,12 @@ msgstr "プレフォークされたインスタンス"
 msgid "Pre-defined commands for this restart action."
 msgstr "この再起動アクションの事前定義されたコマンド。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1139
 msgid ""
 "Prefix to set before the hostname. If it ends with a dot it creates an own "
 "directory."
 msgstr ""
+"ホスト名の前につけるプレフィックス。終端にドットがある場合は自分自身のディレクトリを作成します。"
 
 # File: /usr/lang/src/controllers.php, line: 516
 msgid "Prefix-List In"
@@ -26602,10 +26602,9 @@ msgstr "秘密鍵"
 msgid "Private key for this host in the network (leave empty to generate)"
 msgstr "ネットワークで使用するこのホストの秘密鍵 ( 空白にすると生成します )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1148
 msgid "Processes"
-msgstr ""
+msgstr "プロセス"
 
 # File: /usr/lang/src/controllers.php, line: 524
 msgid "Processing Timeout"
@@ -26618,10 +26617,9 @@ msgstr "プロミスキャスモード"
 msgid "Protocol"
 msgstr "プロトコル"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1152
 msgid "Protocol Type"
-msgstr ""
+msgstr "プロトコルタイプ"
 
 # File: /usr/lang/src/controllers.php, line: 147
 msgid "Provide either the FQDN or the IP address of this server."
@@ -26631,27 +26629,27 @@ msgstr "このサーバの FQDN もしくは IP アドレスを入力してく�
 msgid "Provide the TCP communication port to use during check, i.e. 80 or 443."
 msgstr "チェック中に使用する TCP 通信ポートを入力してください。例 80、443"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1155
 msgid ""
 "Provide the TCP or UDP communication port for this server, i.e. 80 or 443. "
 "If set, all connections will be sent to this port. If unset, the same port "
 "the client connected to will be used."
 msgstr ""
+"このサーバの TCP もしくは UDP 通信ポートを入力してください。例 80、443"
+"設定されている場合は全ての接続をこのポートから送信します。"
+"設定されていない場合は接続されたクライアントと同じポートを使用します。"
 
 # File: /usr/lang/src/controllers.php, line: 429
 msgid "Provider"
 msgstr "プロバイダ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1157
 msgid "Proxy Mode"
-msgstr ""
+msgstr "プロキシモード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1158
 msgid "Proxy Protocol"
-msgstr ""
+msgstr "プロキシプロトコル"
 
 # File: /usr/lang/src/controllers.php, line: 354
 msgid "Proxy interfaces"
@@ -26672,178 +26670,150 @@ msgstr "ネットワークで使用するこのホストの公開鍵"
 msgid "Public key for this host in the network (leave empty to generate)"
 msgstr "ネットワークで使用するこのホストの公開鍵 ( 空白にすると生成します )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1164
 msgid "Publish Server Descriptor"
-msgstr ""
+msgstr "パブリッシュサーバ記述子"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1165
 msgid "RTP DSCP"
-msgstr ""
+msgstr "RTP DSCP"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1166
 msgid "RTP input dejitter"
-msgstr ""
+msgstr "RTP インプットデジッタ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1167
 msgid "RTP output dejitter"
-msgstr ""
+msgstr "RTP アウトプットデジッタ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1168
 msgid "RTP port high"
-msgstr ""
+msgstr "RTP ポート high"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1169
 msgid "RTP port low"
-msgstr ""
+msgstr "RTP ポート low"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1170
 msgid "RTP timeout"
-msgstr ""
+msgstr "RTP タイムアウト"
 
 # File: /usr/lang/src/controllers.php, line: 360
 msgid "Raise Log Level"
 msgstr "ログレベルを上げる"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1172
 msgid "Rate Limit"
-msgstr ""
+msgstr "レート制限"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1173
 msgid "Read metrics about CPU usage."
-msgstr ""
+msgstr "CPU 使用率のメトリックを読込みます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1174
 msgid "Read metrics about disk IO by device."
-msgstr ""
+msgstr "デバイスによるディスク IO のメトリックを読込みます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1175
 msgid "Read metrics about disk usage by mount point."
-msgstr ""
+msgstr "マウントポイントによるディスク使用率のメトリックを読込みます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1176
 msgid "Read metrics about memory usage."
-msgstr ""
+msgstr "メモリ使用率のメトリックを読込みます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1177
 msgid "Read metrics about swap memory usage."
-msgstr ""
+msgstr "スワップメモリ使用率のメトリックを読込みます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1178
 msgid "Read metrics about system load and uptime."
-msgstr ""
+msgstr "システムロードと稼働時間のメトリックを読込みます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1179
 msgid "Read network interface metrics."
-msgstr ""
+msgstr "ネットワークインタフェースメトリックを読込みます。"
 
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 268
 # File: /usr/lang/src/controllers.php, line: 537
 msgid "Recipient"
 msgstr "宛先"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1181
 # File: /usr/lang/src/models.php, line: 485
 msgid "Recipients"
-msgstr ""
+msgstr "宛先"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1182
 msgid ""
 "Redirect all incoming calls to a given SIP-URI with format sip:internal@ip:"
 "port."
 msgstr ""
+"sip:internal@ip:port 形式で SIP URI に与えられた全ての着信コールをリダイレクトします。"
 
 # File: /usr/lang/src/controllers.php, line: 361
 msgid "Reference"
 msgstr "参照"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1184
 msgid ""
 "Register the specified Lua service. You will most likely need to include/"
 "load your Lua code first."
 msgstr ""
+"指定した Lua サービスを登録します。"
+"通常は初めにあなたの Lua コードをインクルードもしくはロードする必要があります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1185
 msgid "Regular Expression"
-msgstr ""
+msgstr "正規表現"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1186
 msgid "Regular expressions are allowed."
-msgstr ""
+msgstr "正規表現は許可されています。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1187
 msgid "Reject Connections from other IP addresses than ::1 and 127.0.0.1."
-msgstr ""
+msgstr "::1 及び 127.0.0.1 以外の IP アドレスからの接続を拒絶します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1188
 msgid "Reject Local Interfaces IPs"
-msgstr ""
+msgstr "ローカルインタフェース IP を拒絶"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1189
 msgid "Reject Non FQDN Recipient"
-msgstr ""
+msgstr "FQDN ではない宛先を拒絶"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1190
 msgid "Reject Non FQDN Sender"
-msgstr ""
+msgstr "FQDN ではない送信者を拒絶"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1191
 msgid "Reject Private IPs"
-msgstr ""
+msgstr "プライベート IP を拒絶"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1192
 msgid "Reject Unauthenticated Destination"
-msgstr ""
+msgstr "認証されていない送信先を拒絶"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1193
 msgid "Reject Unauthenticated Pipelining"
-msgstr ""
+msgstr "認証されていないパイプラインを拒絶"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1194
 msgid "Reject Unknown Recipient Domain"
-msgstr ""
+msgstr "不明な宛先ドメインを拒絶"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1195
 msgid "Reject Unknown Sender Domain"
-msgstr ""
+msgstr "不明な送信者ドメインを拒絶"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1196
 msgid "Reject exiting to private IP space"
-msgstr ""
+msgstr "プライベート IP 空間に存在するものを拒絶"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1197
 msgid "Reject: Do not allow the connection; Accept: Pass the connection"
-msgstr ""
+msgstr "拒絶: 接続を許可しない、受信: 接続を許可する"
 
 # File: /usr/lang/src/controllers.php, line: 539
 msgid "Reminder"
@@ -26858,10 +26828,9 @@ msgstr "リモート AS"
 msgid "Remote listen addresses"
 msgstr "リモートリスンアドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1201
 msgid "Remote ports in VIA-Header"
-msgstr ""
+msgstr "VIA-Header のリモートポート"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1202
