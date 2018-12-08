@@ -26832,28 +26832,27 @@ msgstr "リモートリスンアドレス"
 msgid "Remote ports in VIA-Header"
 msgstr "VIA-Header のリモートポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1202
 msgid ""
 "Remove the HTTP header field with the specified name and add a new one with "
 "the same name. This is useful when passing security information to the "
 "server, where the header must not be manipulated by external users."
 msgstr ""
+"指定した名前の HTTP ヘッダフィールドを削除し、同じ名前の新しいものを追加します。"
+"これはサーバにセキュリティ情報を渡し、外部ユーザによるヘッダ操作を防ぐのに便利です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1203
 msgid "Remove the HTTP header field with the specified name."
-msgstr ""
+msgstr "指定した名前の HTTP ヘッダフィールドを削除します。"
 
 # File: /usr/lang/src/controllers.php, line: 439
 msgid "Renewal Interval"
 msgstr "更新間隔"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1205
 msgid ""
 "Replaces the response status code. Must be an integer between 100 and 999."
-msgstr ""
+msgstr "応答ステータスコードを置き換えます。100 - 999 の整数にしてください。"
 
 # File: /usr/lang/src/controllers.php, line: 363
 msgid "Request Modify URL"
@@ -26872,10 +26871,9 @@ msgid ""
 "Requires the the whole key file in a format that is compatible with nsupdate."
 msgstr "nsupdate と互換性のある形式の鍵ファイル全体が必要です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1210
 msgid "Response Code"
-msgstr ""
+msgstr "応答コード"
 
 # File: /usr/lang/src/controllers.php, line: 365
 msgid "Response Modify URL"
@@ -26895,10 +26893,9 @@ msgstr "再起動コマンド"
 msgid "Restart Timeout"
 msgstr "再起動タイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1215
 msgid "Restrictions"
-msgstr ""
+msgstr "制限"
 
 # File: /usr/lang/src/controllers.php, line: 551
 msgid "Retransmission Delay"
@@ -26912,20 +26909,17 @@ msgstr "再送間隔"
 msgid "Retries"
 msgstr "再試行"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1219
 msgid "Retry Number"
-msgstr ""
+msgstr "再試行数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1220
 msgid "Reverse DNS resolution for LDAP server IP."
-msgstr ""
+msgstr "LDAP サーバの IP を DNS 逆引きします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1221
 msgid "Reverse DNS resolution for host IP."
-msgstr ""
+msgstr "ホストの IP を DNS 逆引きします。"
 
 # File: /usr/lang/src/controllers.php, line: 367
 msgid "Reverse address"
@@ -26951,15 +26945,13 @@ msgstr ""
 "アクティブモードで送信元ポートを 20 に再書込みすると、この RFC のプロパティを"
 "要求する古いクライアントに適合します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1227
 msgid "Root CA"
-msgstr ""
+msgstr "ルート CA"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1228
 msgid "Root Certificate"
-msgstr ""
+msgstr "ルート証明書"
 
 # File: /usr/lang/src/controllers.php, line: 149
 msgid "Rotate alert logs at provided interval."
@@ -26969,22 +26961,20 @@ msgstr "入力した間隔で警告ログをローテートします。"
 msgid "Rotate log"
 msgstr "ログローテート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1231
 msgid "Round Interval"
-msgstr ""
+msgstr "ラウンド間隔"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1232
 msgid ""
 "Rounds collection interval to 'interval', e.g. if interval=\"10s\" then "
 "always collect on :00, :10, :20, etc."
 msgstr ""
+"収集間隔のラウンドを「interval」に設定します。例 interval=\"10s\" の場合は常に :00、:10、:20… に収集します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1233
 msgid "Route Priority"
-msgstr ""
+msgstr "ルート優先度"
 
 # File: /usr/lang/src/controllers.php, line: 561
 msgid "Route Redistribution"
@@ -27034,10 +27024,9 @@ msgstr "ルータ ID"
 msgid "Router ID as IPv4 Address"
 msgstr "IPv4 アドレスとしてのルータ IP"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1243
 msgid "Rule priority"
-msgstr ""
+msgstr "ルール優先度"
 
 msgid "Rules"
 msgstr "ルール"
@@ -27046,35 +27035,29 @@ msgstr "ルール"
 msgid "Run as root"
 msgstr "root として実行"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1246
 msgid "SIP DSCP"
-msgstr ""
+msgstr "SIP DSCP"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1247
 msgid "SIP listen port"
-msgstr ""
+msgstr "SIP リスンポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1248
 msgid "SIP port the service use, default of 5060 is perfectly fine."
-msgstr ""
+msgstr "サービスが使用する SIP ポート。デフォルトの 5060 が最もお勧めです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1249
 msgid "SMTP Banner"
-msgstr ""
+msgstr "SMTP バナー"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1250
 msgid "SMTP Client Security"
-msgstr ""
+msgstr "SMTP クライアントセキュリティ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1251
 msgid "SMTP check"
-msgstr ""
+msgstr "SMTP チェック"
 
 # File: /usr/lang/src/controllers.php, line: 375
 msgid "SMTP domain"
@@ -27084,45 +27067,37 @@ msgstr "SMTP ドメイン"
 msgid "SMTPHost"
 msgstr "SMTP ホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1254
 msgid "SNI Contains"
-msgstr ""
+msgstr "SNI に含む"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1255
 msgid "SNI Matches"
-msgstr ""
+msgstr "SNI に一致"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1256
 msgid "SNI Prefix"
-msgstr ""
+msgstr "SNI プレフィックス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1257
 msgid "SNI Suffix"
-msgstr ""
+msgstr "SNI サフィックス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1258
 msgid "SNMP Agent Settings"
-msgstr ""
+msgstr "SNMP エージェント設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1259
 msgid "SNMP password"
-msgstr ""
+msgstr "SNMP パスワード"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1260
 msgid "SNMP port"
-msgstr ""
+msgstr "SNMP ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1261
 msgid "SOCKS Port Number"
-msgstr ""
+msgstr "SOCKS ポート番号"
 
 # File: /usr/lang/src/controllers.php, line: 377
 msgid "SSL"
@@ -27132,10 +27107,9 @@ msgstr "SSL"
 msgid "SSL Client Certificate"
 msgstr "SSL クライアント証明書"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1264
 msgid "SSL Error ID"
-msgstr ""
+msgstr "SSL エラー ID"
 
 # File: /usr/lang/src/controllers.php, line: 380
 msgid "SSL Offloading"
@@ -27165,102 +27139,85 @@ msgstr "SSL 証明書ワーカー"
 msgid "SSL certificate"
 msgstr "SSL 証明書"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1272
 msgid "SSL default settings"
-msgstr ""
+msgstr "SSL デフォルト設定"
 
 # File: /usr/lang/src/controllers.php, line: 387
 msgid "SSL no bump sites"
 msgstr "SSL bump を使用しないサイト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1274
 msgid "SSL option pass-through"
-msgstr ""
+msgstr "SSL オプションパススルー"
 
 # File: /usr/lang/src/controllers.php, line: 388
 msgid "SSL/Fingerprint"
 msgstr "SSL / フィンガープリント"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1276
 msgid "STUN period"
-msgstr ""
+msgstr "STUN ピリオド"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1277
 msgid "STUN port"
-msgstr ""
+msgstr "STUN ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1278
 msgid "STUN server"
-msgstr ""
+msgstr "STUN サーバ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1279
 msgid "SURBL"
-msgstr ""
+msgstr "SURBL"
 
 # File: /usr/lang/src/controllers.php, line: 389
 msgid "Save logs"
 msgstr "ログを保存"
 
-#
 # File: /usr/lang/src/controllers.php, line: 690
 msgid "Scan HTML"
-msgstr ""
+msgstr "HTML をスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 691
 msgid "Scan HWP3"
-msgstr ""
+msgstr "HWP3 をスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 692
 msgid "Scan OLE2"
-msgstr ""
+msgstr "OLE2 をスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 693
 msgid "Scan PDF files"
-msgstr ""
+msgstr "PDF ファイルをスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 694
 msgid "Scan SWF"
-msgstr ""
+msgstr "SWF をスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 695
 msgid "Scan XMLDOCS"
-msgstr ""
+msgstr "XMLDOCS をスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 696
 msgid "Scan archives"
-msgstr ""
+msgstr "アーカイブをスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1288
 msgid "Scan executable and linking format"
-msgstr ""
+msgstr "実行可能でリンクしている形式をスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 698
 msgid "Scan for filetypes"
-msgstr ""
+msgstr "ファイルタイプでスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1290
 msgid "Scan portable executable"
-msgstr ""
+msgstr "portable executable をスキャン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1291
 msgid "Scheduler"
-msgstr ""
+msgstr "スケジューラ"
 
 # File: /usr/lang/src/controllers.php, line: 390
 msgid "Scheduler type"
@@ -27277,18 +27234,16 @@ msgstr "秘密鍵"
 msgid "Secure Connection"
 msgstr "セキュアな接続"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1296
 msgid "Security Settings"
-msgstr ""
+msgstr "セキュリティ設定"
 
 msgid "Select Authentication method"
 msgstr "認証方法を選択"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1298
 msgid "Select Error Messages"
-msgstr ""
+msgstr "エラーメッセージを選択"
 
 # File: /usr/lang/src/controllers.php, line: 151
 msgid "Select HTTP method for health check."
