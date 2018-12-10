@@ -27253,24 +27253,21 @@ msgstr "ヘルスチェックの HTTP メソッドを選択してください。
 msgid "Select HTTP version for a HTTP health check."
 msgstr "HTTP ヘルスチェックの HTTP バージョンを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1301
 msgid "Select Health Monitor for servers in this backend."
-msgstr ""
+msgstr "このバックエンドでのサーバのヘルスモニタを選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 153
 msgid "Select NetFlow version to use."
 msgstr "使用する NetFlow のバージョンを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1303
 msgid "Select Rules"
-msgstr ""
+msgstr "ルールを選択"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1304
 msgid "Select Windows Server version for AD controller"
-msgstr ""
+msgstr "AD コントローラの Windows サーババージョンを選択"
 
 # File: /usr/lang/src/controllers.php, line: 594
 msgid ""
@@ -27291,15 +27288,13 @@ msgstr ""
 "使用する認証方法を選択してください。認証が必要ではない場合は空白にしてくださ"
 "い。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1308
 msgid "Select condition type."
-msgstr ""
+msgstr "条件タイプを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1309
 msgid "Select conditions"
-msgstr ""
+msgstr "条件を選択"
 
 # File: /usr/lang/src/controllers.php, line: 155
 msgid ""
@@ -27313,11 +27308,10 @@ msgstr ""
 msgid "Select health check expression."
 msgstr "ヘルスチェック式を選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1312
 msgid ""
 "Select how detailed the logs should be debug is the most verbose setting."
-msgstr ""
+msgstr "デバッグするログの詳細度は、最も詳細な設定を選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 479
 msgid "Select how to look for a specific pattern in the response."
@@ -27328,10 +27322,9 @@ msgstr "応答の中で特定のパターンを検索する手法を選択して
 msgid "Select if job is enabled or not"
 msgstr "インタフェースジョブの有効無効を選択"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1315
 msgid "Select if you want to use ICAP."
-msgstr ""
+msgstr "ICAP を使用する場合は選択してください。"
 
 msgid "Select interface(s) the ftp proxy will bind to."
 msgstr "ftp プロキシをバインドするインタフェースを選択してください。"
@@ -27367,10 +27360,9 @@ msgid ""
 "Select interval (in milliseconds) between two consecutive health checks."
 msgstr "2 連続するヘルスチェック間の間隔を選択してください ( ms 単位 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1323
 msgid "Select one or more conditions to be used for this rule."
-msgstr ""
+msgstr "このルールに使用する 1 つ以上の条件を選択してください。"
 
 # File: /usr/lang/src/controllers.php, line: 610
 msgid ""
@@ -27390,15 +27382,13 @@ msgstr "このアカウントの認証局を選択してください。"
 msgid "Select the command that needs to be executed at given time frame."
 msgstr "指定された期間に実行する必要があるコマンドを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1328
 msgid "Select the interface where your SIP requests are going to."
-msgstr ""
+msgstr "あなたの SIP リクエストが向かうインタフェースを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1329
 msgid "Select the interface where your SIP requests come from."
-msgstr ""
+msgstr "あなたの SIP リクエストが来るインタフェースを選択してください。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1330
