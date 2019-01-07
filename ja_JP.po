@@ -27390,7 +27390,6 @@ msgstr "あなたの SIP リクエストが向かうインタフェースを選�
 msgid "Select the interface where your SIP requests come from."
 msgstr "あなたの SIP リクエストが来るインタフェースを選択してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1330
 msgid ""
 "Select the interfaces you want or you do not want LLDPd send and receive "
@@ -27402,6 +27401,12 @@ msgid ""
 "will use all interfaces, except interfaces starting by igb with the "
 "exception of igb1."
 msgstr ""
+"LLDPdにパケットを送受信したい、もしくはしたくないインタフェースを選択してください。"
+"設定するのは物理名で、UIから設定したインタフェース名ではありません。"
+"デフォルトは全てのインタフェースで使用します。"
+"ここで非常に複雑なルールを設定することができますが、正しい構文でなければ、LLDPd は起動しません。"
+"例えば、igb*,!igb1,!igb2 を使用した場合、LLDPd は igb1 と igb2 の例外で igb が起動した"
+"インタフェースのみを使用します。但し igb1 の例外で igb が起動したインタフェースを除きます。"
 
 # File: /usr/lang/src/controllers.php, line: 614
 msgid "Select the interfaces, where no OSPF packets should be sent to."
@@ -27435,10 +27440,9 @@ msgstr "X-Forwarded-For ヘッダで何をするのか選択してください�
 msgid "Send Client IP"
 msgstr "クライアント IP を送信"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1338
 msgid "Send Data"
-msgstr ""
+msgstr "データを送信"
 
 # File: /usr/lang/src/controllers.php, line: 621
 msgid "Send Defaultroute"
@@ -27450,12 +27454,11 @@ msgstr "ユーザ名を送信"
 
 # File: /usr/lang/src/controllers.php, line: 623
 msgid "Send a reminder after some cycles"
-msgstr "何周期か後にリマインダを送信"
+msgstr "数周期後にリマインダを送信"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1342
 msgid "Send checks compatible with MySQL server 4.1 and later."
-msgstr ""
+msgstr "MySQL サーバ 4.1 以降との互換性チェックを送信"
 
 # File: /usr/lang/src/controllers.php, line: 496
 msgid "Send data"
@@ -27465,35 +27468,29 @@ msgstr "データを送信"
 msgid "Send log data to the selected target."
 msgstr "選択した対象にログデータを送信します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1345
 msgid "Send log messages to syslog"
-msgstr ""
+msgstr "syslog にログメッセージを送信"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1346
 msgid "Send package payload to the log for further analyses."
-msgstr ""
+msgstr "継続解析用にパッケージペイロードをログに送信します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 741
 msgid "Send percentage data"
-msgstr ""
+msgstr "パーセンテージデータを送信"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1348
 msgid "Send the client IP address to the ICAP server."
-msgstr ""
+msgstr "クライアント IP アドレスを ICAP サーバに送信します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1349
 msgid "Sender Address"
-msgstr ""
+msgstr "送信者アドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1350
 msgid "Sender Policy Framework (SPF)"
-msgstr ""
+msgstr "送信者ポリシーフレームワーク (SPF)"
 
 # File: /usr/lang/src/controllers.php, line: 416
 msgid "Separate Statistics"
@@ -27516,10 +27513,9 @@ msgstr "サーバ証明書"
 msgid "Server ID"
 msgstr "サーバ ID"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1357
 msgid "Server Password"
-msgstr ""
+msgstr "サーバパスワード"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 449
 msgid "Server Port"
@@ -27529,28 +27525,24 @@ msgstr "サーバポート"
 msgid "Server Timeout"
 msgstr "サーバタイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1360
 msgid "Server Type"
-msgstr ""
+msgstr "サーバタイプ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 747
 msgid "Server admin"
-msgstr ""
+msgstr "サーバ管理者"
 
-#
 # File: /usr/lang/src/controllers.php, line: 748
 msgid "Servername"
-msgstr ""
+msgstr "サーバ名"
 
 msgid "Servers"
 msgstr "サーバ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1364
 msgid "Service Mode"
-msgstr ""
+msgstr "サービスモード"
 
 # File: /usr/lang/src/models.php, line: 234
 msgid "Service Settings"
@@ -27559,16 +27551,14 @@ msgstr "サービス設定"
 msgid "Session Timeout"
 msgstr "セッションタイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1367
 # File: /usr/lang/src/models.php, line: 562
 msgid "Session count"
-msgstr ""
+msgstr "セッション数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1368
 msgid "Session rate period"
-msgstr ""
+msgstr "期間内のセッション率"
 
 # File: /usr/lang/src/controllers.php, line: 419
 msgid "Session redistribution"
@@ -27579,52 +27569,47 @@ msgstr "セッション再分配"
 msgid "Set"
 msgstr "設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1371
 msgid "Set a name for your UPS."
-msgstr ""
+msgstr "UPS に名前を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1372
 msgid "Set a name for your outbound domain"
-msgstr ""
+msgstr "アウトバウンドドメインに名前を設定してください"
 
 # File: /usr/lang/src/controllers.php, line: 170
 msgid "Set action to perform here, only used when in IPS mode."
 msgstr "実行するアクションを設定してください。IPS モード時のみ使用されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1374
 msgid "Set an optional prefix to the metrics."
-msgstr ""
+msgstr "メトリックにオプションのプレフィックスを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1375
 msgid "Set extra arguments for this UPS, e.g. \"port=auto\"."
-msgstr ""
+msgstr "この UPS に追加引数を設定してください。例: port=auto"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1376
 msgid ""
 "Set node_exporter's listen address. By default, node_exporter will listen on "
 "0.0.0.0 (all interfaces)."
 msgstr ""
+"node_exporter のリスンアドレスを設定してください。デフォルトでは 0.0.0.0 ( 全インタフェース ) をリスンします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1377
 msgid ""
 "Set node_exporter's listen port. By default, node_exporter will listen on "
 "port 9100."
 msgstr ""
+"node_exporter のリスンポートを設定してください。デフォルトでは 9100 をリスンします。"
 
 # File: /usr/lang/src/controllers.php, line: 635
 msgid "Set permit for match or deny to negate the rule."
 msgstr "否定ルールでの一致もしくは拒否を許可設定します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 755
 msgid "Set the \"shortname\" for the client."
-msgstr ""
+msgstr "クライアントの「短縮名」を設定してください。"
 
 # File: /usr/lang/src/controllers.php, line: 421
 msgid ""
@@ -27634,65 +27619,58 @@ msgstr ""
 "FTP プロキシに委任された pf ルールに「ログ」フラグを設定します。デフォルトで"
 "は pf ルールはログを記録しません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1381
 msgid "Set the Base DN in format dc=example,dc=domain,dc=com"
-msgstr ""
+msgstr "ベース DN を設定してください。例: dc=example、dc=domain、dc=com"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1382
 msgid "Set the Hosts to ping in a CSV list."
-msgstr ""
+msgstr "ping をするホストを CSV リストに設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 757
 msgid "Set the IP address of the graphite collector."
-msgstr ""
+msgstr "Graphite collector の IP アドレスを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1384
 msgid "Set the IP address of the remote NUT server."
-msgstr ""
+msgstr "リモート NUT サーバの IP アドレスを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 758
 msgid ""
 "Set the IP address of the remote client or the complete network like "
 "10.10.10.0/24"
 msgstr ""
+"リモートクライアントの IP アドレスもしくは完全なネットワークアドレスを 10.10.10.0/24 のように設定してください"
 
-#
 # File: /usr/lang/src/controllers.php, line: 759
 msgid "Set the IP address or FQDN of the network collector."
-msgstr ""
+msgstr "ネットワークコレクタの IP アドレスもしくは FQDN を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1387
 msgid "Set the IP address or FQDN where all outgoung mails are sent to."
 msgstr ""
+"全ての発信メールが送信される IP アドレスもしくは FQDN を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 760
 msgid "Set the IP address the user should receive."
-msgstr ""
+msgstr "ユーザが受信する IP アドレスを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1389
 msgid "Set the IP and port where metrics shoud be sent to."
-msgstr ""
+msgstr "メトリックが送信される IP とポートを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1390
 msgid ""
 "Set the IP or FQDN to where to send the mails to. Empty means MX will be "
 "used. You can also add custom ports via :225 or disable MX lookup via "
 "squared brackets."
 msgstr ""
+"メールを送信する IP もしくは FQDN を設定してください。空の場合は MX が使用されます。"
+":225 経由のカスタムポートの追加や、角括弧経由の MX ルックアップを無効にすることも出来ます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1391
 msgid "Set the IP version to use."
-msgstr ""
+msgstr "使用する IP バージョンを設定してください。"
 
 # File: /usr/lang/src/controllers.php, line: 637
 msgid "Set the Let's Encrypt account to use for this certificate."
