@@ -27688,66 +27688,58 @@ msgstr ""
 msgid "Set the Let's Encrypt validation method for this certificate."
 msgstr "この証明書の Let's Encrypt 検証メソッドを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1395
 msgid "Set the URL of the Openphish map file."
-msgstr ""
+msgstr "Openphish map ファイルの URL を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1396
 msgid "Set the URL where metrics shoud be sent to."
-msgstr ""
+msgstr "メトリックを送信する URL を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1397
 msgid "Set the action for this address."
-msgstr ""
+msgstr "このアドレスに対するアクションを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1398
 msgid "Set the admin password."
-msgstr ""
+msgstr "管理者パスワードを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1399
 msgid "Set the default Backend Pool to use for this Public Service."
-msgstr ""
+msgstr "このパブリックサービスで使用するデフォルトバックエンドプールを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1400
 msgid "Set the default EAP type."
-msgstr ""
+msgstr "デフォルト EAP タイプを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1401
 msgid ""
 "Set the filter to search for users, for Active Directory change uid to "
 "samaccountname."
 msgstr ""
+"ユーザを検索するフィルタを設定してください。アクティブディレクトリ用の"
+"場合は uid を samaccountname に変更してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 765
 msgid "Set the hostname for this system."
-msgstr ""
+msgstr "このシステムのホスト名を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1403
 msgid "Set the hostname or IP address to connect to."
-msgstr ""
+msgstr "接続するホスト名もしくは IP アドレスを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1404
 msgid "Set the hostname or IP of the SIP server."
-msgstr ""
+msgstr "SIP サーバのホスト名もしくは IP を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1405
 msgid ""
 "Set the max size for messages to accept, default is 501200000 Byte which is "
 "50MB. Values must be entered in Bytes."
 msgstr ""
+"受信するメッセージの最大サイズを設定してください。デフォルトは 501200000 Byte で 50 MB です。"
+"値は Byte 単位で入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1406
 msgid ""
 "Set the maximum allowed time to wait for a complete HTTP request. In order "
@@ -27757,28 +27749,36 @@ msgid ""
 "nothing is sent. Defaults to milliseconds. Optionally the unit may be "
 "specified as either \"d\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"HTTP リクエスト完了までの待ち時間として許可する最大値を設定します。"
+"DoS プロテクションをするのであれば HTTP リクエスト完了の最大受信時間を"
+"クライアントタイムアウトに影響を与えないよう低めに設定する必要があります。"
+"これは何も送信しない接続の確立から防護する手助けになります。"
+"デフォルトはミリ秒単位です。オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1407
 msgid ""
 "Set the maximum allowed time to wait for a new HTTP request to appear. "
 "Defaults to milliseconds. Optionally the unit may be specified as either \"d"
 "\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"新規 HTTP リクエストが現れるまで待つ最大時間を設定します。デフォルトではミ"
+"リ秒単位です。オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1408
 msgid ""
 "Set the maximum download bandwith for ChilliSpot attribute. The value is "
 "treated as kbits/s."
 msgstr ""
+"ChilliSpot 属性に対する最大ダウンロード帯域を設定してください。"
+"値は kbit/s として扱われます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1409
 msgid ""
 "Set the maximum download bandwith for WISPr attribute. The value is treated "
 "as bits/s."
 msgstr ""
+"WISPr 属性に対する最大ダウンロード帯域を設定してください。"
+"値は bit/s として扱われます。"
 
 # File: /usr/lang/src/controllers.php, line: 423
 msgid ""
@@ -27786,8 +27786,8 @@ msgid ""
 "milliseconds. Optionally the unit may be specified as either \"d\", \"h\", "
 "\"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
-"クライアントサイドの最大アイドル時間を設定します。デフォルトではミリ秒単位に"
-"なります。オプションで単位を d、h、m、s、ms、us に指定できます。"
+"クライアントサイドの最大アイドル時間を設定します。デフォルトはミリ秒単位"
+"です。オプションで単位を d、h、m、s、ms、us に指定できます。"
 
 # File: /usr/lang/src/controllers.php, line: 424
 msgid ""
@@ -27795,14 +27795,14 @@ msgid ""
 "milliseconds. Optionally the unit may be specified as either \"d\", \"h\", "
 "\"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
-"サーバサイドの最大アイドル時間を設定します。デフォルトではミリ秒単位になりま"
-"す。オプションで単位を d、h、m、s、ms、us に指定できます。"
+"サーバサイドの最大アイドル時間を設定します。デフォルトはミリ秒単位です。"
+"オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1412
 msgid ""
 "Set the maximum number of concurrent connections for this Public Service."
 msgstr ""
+"このパブリックサービスに対する同時接続の最大数を設定してください。"
 
 # File: /usr/lang/src/controllers.php, line: 174
 msgid "Set the maximum number of concurrent connections for this frontend."
@@ -27813,12 +27813,12 @@ msgid "Set the maximum object size (default 4MB when left empty)."
 msgstr ""
 "最大オブジェクトサイズを設定してください ( 空白の場合はデフォルトの 4MB )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1415
 msgid ""
 "Set the maximum session limit in seconds. This can be used by the Captive "
 "Portal."
 msgstr ""
+"最大セッション制限を秒単位で設定してください。これはキャプティブポータルに使用することが出来ます。"
 
 # File: /usr/lang/src/controllers.php, line: 427
 msgid ""
@@ -27826,51 +27826,52 @@ msgid ""
 "succeed. Defaults to milliseconds. Optionally the unit may be specified as "
 "either \"d\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
-"サーバへの接続の試みが成功するのを待つ最大時間を設定します。デフォルトではミ"
-"リ秒単位になります。オプションで単位を d、h、m、s、ms、us に指定できます。"
+"サーバへの接続の試みが成功するのを待つ最大時間を設定します。デフォルトはミ"
+"リ秒単位です。オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1417
 msgid ""
 "Set the maximum upload bandwith for ChilliSpot attribute. The value is "
 "treated as kbits/s."
 msgstr ""
+"ChilliSpot 属性に対する最大アップロード帯域を設定してください。"
+"値は kbit/s として扱われます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1418
 msgid ""
 "Set the maximum upload bandwith for WISPr attribute. The value is treated as "
 "bits/s."
 msgstr ""
+"WISPr 属性に対する最大アップロード帯域を設定してください。"
+"値は bit/s として扱われます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1419
 msgid ""
 "Set the minimum download bandwith for WISPr attribute. The value is treated "
 "as bits/s."
 msgstr ""
+"WISPr 属性に対する最小ダウンロード帯域を設定してください。"
+"値は bit/s として扱われます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1420
 msgid ""
 "Set the minimum upload bandwith for WISPr attribute. The value is treated as "
 "bits/s."
 msgstr ""
+"WISPr 属性に対する最小アップロード帯域を設定してください。"
+"値は bit/s として扱われます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1421
 msgid "Set the monitor password."
-msgstr ""
+msgstr "モニタのパスワードを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1422
 msgid "Set the name of the database on InfluxDB."
-msgstr ""
+msgstr "InfluxDB のデータベース名を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 771
 msgid "Set the name of the graphite collector."
-msgstr ""
+msgstr "graphite collector の名前を設定してください。"
 
 # File: /usr/lang/src/controllers.php, line: 177
 msgid ""
@@ -27885,59 +27886,53 @@ msgid ""
 "Set the number of retries to perform on a server after a connection failure."
 msgstr "接続失敗後にサーバで実行する再試行の数を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1426
 msgid "Set the password for authentication."
-msgstr ""
+msgstr "認証用パスワードを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 774
 msgid "Set the password for the user."
-msgstr ""
+msgstr "ユーザのパスワードを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1428
 msgid ""
 "Set the password for the user. Allowed characters are 0-9, a-z, A-Z, and ,."
 "_-!$%/()+#= with up to 128 characters."
 msgstr ""
+"ユーザのパスワードを設定してください。使用できる文字は 0-9、a-z、A-Z、,._-!$%/()+#= で"
+" 128 文字までです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1429
 msgid "Set the password of the remote NUT server."
-msgstr ""
+msgstr "リモート NUT サーバのパスワードを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 775
 msgid "Set the password to authenticate against network collector (optional)."
-msgstr ""
+msgstr "ネットワークコレクタの認証用パスワードを設定してください。（オプション）"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1431
 msgid "Set the port for this host. Default should be fine for most cases."
-msgstr ""
+msgstr "このホストのポートを設定してください。デフォルトがお勧めです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 776
 msgid ""
 "Set the port of the graphite collector, Graphite is using 2003 per default."
 msgstr ""
+"graphite collector のポートを設定してください。Graphite はデフォルトで 2003 を使用します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 777
 msgid ""
 "Set the port of the network collector. Collectd is using 25826 per default."
 msgstr ""
+"ネットワークコレクタのポートを設定してください。Collectd はデフォルトで 25826 を使用します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1434
 msgid "Set the protocol to use."
-msgstr ""
+msgstr "使用するプロトコルを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1435
 msgid "Set the recipient address to match."
-msgstr ""
+msgstr "一致させる宛先アドレスを設定してください。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1436
@@ -28025,7 +28020,7 @@ msgid ""
 "\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
 "サーバで実行するヘルスチェックの追加読込みタイムアウトを設定します。デフォル"
-"トではミリ秒単位になります。オプションで単位を d、h、m、s、ms、us に指定でき"
+"トはミリ秒単位です。オプションで単位を d、h、m、s、ms、us に指定でき"
 "ます。"
 
 # File: /usr/lang/src/controllers.php, line: 522
