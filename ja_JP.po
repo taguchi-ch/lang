@@ -27934,72 +27934,67 @@ msgstr "使用するプロトコルを設定してください。"
 msgid "Set the recipient address to match."
 msgstr "一致させる宛先アドレスを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1436
 msgid "Set the running mode or protocol for this Public Service."
-msgstr ""
+msgstr "このパブリックサービスの動作モードもしくはプロトコルを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1437
 msgid ""
 "Set the running mode or protocol of the Backend Pool. Usually the Public "
 "Service and the Backend Pool are in the same mode."
 msgstr ""
+"バックエンドプールの動作モードもしくはプロトコルを設定してください。"
+"通常パブリックサービスとバックエンドプールは同じモードにします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1438
 msgid "Set the same mode for backend and frontend."
-msgstr ""
+msgstr "バックエンドとフロントエンドには同じモードを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1439
 msgid "Set the sender address to match."
-msgstr ""
+msgstr "一致させる送信者アドレスを設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1440
 msgid ""
 "Set the service mode. Currently only standalone and netclient are available."
 msgstr ""
+"サービスモードを設定してください。現在、スタンドアロンとネットクライアントのみが利用可能です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 780
 msgid "Set the shared secret for the client. Must match on both sides."
 msgstr ""
+"クライアントの共有秘密鍵を設定してください。どちらの側でも一致する必要があります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1442
 msgid "Set the unique domain name to relay for."
-msgstr ""
+msgstr "リレーする固有のドメイン名を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 781
 msgid ""
 "Set the unique username for the user. Allowed characters are 0-9, a-z, A-Z, "
 "and ,._-!$%/()+#= with up to 128 characters."
 msgstr ""
+"固有のユーザ名を設定してください。使用できる文字は 0-9、a-z、A-Z、,._-!$%/()+#= で"
+" 128 文字までです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1444
 msgid ""
 "Set the unique username for the user. Allowed characters are 0-9, a-z, A-Z, "
 "and ._-"
 msgstr ""
+"固有のユーザ名を設定してください。使用できる文字は 0-9、a-z、A-Z、._- です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1445
 msgid "Set the username for authentication."
-msgstr ""
+msgstr "認証用のユーザ名を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1446
 msgid "Set the username of the remote NUT server."
-msgstr ""
+msgstr "リモート NUT サーバのユーザ名を設定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 782
 msgid "Set the username to authenticate against network collector (optional)."
-msgstr ""
+msgstr "ネットワークコレクタに対して認証させるユーザ名を設定してください。（オプション）"
 
 msgid ""
 "Set this option to disable this static route without removing it from the "
@@ -28008,10 +28003,9 @@ msgstr ""
 "このオプションを設定すると、リストから削除せずに、この静的ルートを無効にしま"
 "す"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1449
 msgid "Set where to log radius requests, defaults to file."
-msgstr ""
+msgstr "radius リクエストのログを記録する場所を設定してください。デフォルトはファイルです。"
 
 # File: /usr/lang/src/controllers.php, line: 521
 msgid ""
@@ -28033,13 +28027,14 @@ msgstr ""
 "てください ( ms 単位 )。設定されていない場合は HAProxy は確認間隔を使用しま"
 "す。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 786
 msgid ""
 "Sets the interval (in milliseconds) for running health checks on this "
 "server. This setting takes precedence. If set, the interval in the "
 "healthcheck is ignored."
 msgstr ""
+"このサーバで実行するヘルスチェックの間隔を設定してください ( ms 単位 )。"
+"これは優先度が高い設定です。設定されている場合は、ヘルスチェックで設定した間隔は無視されます。"
 
 # File: /usr/lang/src/controllers.php, line: 182
 msgid ""
@@ -28069,78 +28064,74 @@ msgstr "サーバに接続している時に使用される送信元アドレス
 msgid "Settings"
 msgstr "設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1458
 msgid "Show introduction pages"
-msgstr ""
+msgstr "イントロダクションページを表示"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1459
 msgid "Sign Local"
-msgstr ""
+msgstr "ローカルで署名"
 
 # File: /usr/lang/src/controllers.php, line: 438
 msgid "Signature Id"
 msgstr "署名 ID"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1461
 msgid ""
 "Siproxd will masquerade the interal UAs to this given string (optional)."
 msgstr ""
+"Siproxd は内部 UA をここで与える文字列で偽装します。（オプション）"
 
 msgid "Size"
 msgstr "サイズ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1463
 msgid ""
 "Size of configuration cache, in bytes. Shared memory size, for storing hosts "
 "and items data. Range: 128K-8G"
 msgstr ""
+"構成キャッシュサイズをバイト単位で指定します。保管するホスト及び項目データに対する共有メモリサイズです。"
+"範囲: 128K-8G"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1464
 msgid ""
 "Size of history cache in bytes. Shared memory size for storing history data. "
 "Range: 128K-2G"
 msgstr ""
+"履歴キャッシュサイズをバイト単位で指定します。保管する履歴データに対する共有メモリサイズです。"
+"範囲: 128K-8G"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1465
 msgid ""
 "Size of history index cache in bytes. Shared memory size for indexing "
 "history cache. Range: 128K-2G"
 msgstr ""
+"履歴インデックスキャッシュサイズをバイト単位で指定します。インデックス化された履歴キャッシュに対する共有メモリサイズです。"
+"範囲: 128K-8G"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1466
 msgid "Skip Authenticated"
-msgstr ""
+msgstr "認証をスキップ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1467
 msgid "Skip Local"
-msgstr ""
+msgstr "ローカルをスキップ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1468
 msgid "Skip Multi"
-msgstr ""
+msgstr "マルチをスキップ"
 
 # File: /usr/lang/src/controllers.php, line: 530
 msgid "Sleep Time"
 msgstr "スリープタイム"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1470
 msgid "Slow Transactions"
-msgstr ""
+msgstr "スロートランザクション"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1471
 msgid "Smart Host"
-msgstr ""
+msgstr "スマートホスト"
 
 msgid "Source"
 msgstr "送信元"
@@ -28160,22 +28151,20 @@ msgstr "送信元アドレス"
 msgid "Source port"
 msgstr "送信元ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1477
 msgid "Spam Protection"
-msgstr ""
+msgstr "スパム保護"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1478
 msgid "Spam Trap"
-msgstr ""
+msgstr "スパムトラップ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1479
 msgid ""
 "Specifies how long we wait for agent, SNMP device or external check (in "
 "seconds)."
 msgstr ""
+"エージェントを待つ時間を指定します。SNMP デバイスもしくは外部チェックで使用します（秒単位）。"
 
 # File: /usr/lang/src/controllers.php, line: 535
 msgid "Specifies the days to renew the cert. The max value is 60 days."
@@ -28185,13 +28174,14 @@ msgstr "証明書を更新する日数を指定してください。最大値は
 msgid "Specifies the debug level for Zabbix agent."
 msgstr "Zabbix エージェントのデバッグレベルを指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1482
 msgid ""
 "Specifies the log level for acme.sh, default is \"normal\". All other log "
 "levels add information for debug purposes, but be aware that this will break "
 "the log formatting in the GUI."
 msgstr ""
+"acme.sh のログレベルを指定してください。デフォルトは「標準」です。"
+"他の全てのログレベルはデバッグ目的の情報を追加しますが、GUI のログフォーマットを崩しますのでご注意ください。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1483
