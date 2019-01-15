@@ -28183,19 +28183,19 @@ msgstr ""
 "acme.sh のログレベルを指定してください。デフォルトは「標準」です。"
 "他の全てのログレベルはデバッグ目的の情報を追加しますが、GUI のログフォーマットを崩しますのでご注意ください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1483
 msgid ""
 "Specifies the size of the hash table used for storing the various dynamic "
 "pipes configured with the mask setting"
 msgstr ""
+"マスク設定で構成された各種の動的パイプを保管するのに使用するハッシュテーブルのサイズを指定してください"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1484
 msgid ""
 "Specifies the size of the hash table used for storing the various dynamic "
 "queues configured with the mask setting"
 msgstr ""
+"マスク設定で構成された各種の動的キューを保管するのに使用するハッシュテーブルのサイズを指定してください"
 
 # File: /usr/lang/src/controllers.php, line: 184
 msgid "Specify HTTP host to use for health check. Requires HTTP/1.1."
@@ -28206,16 +28206,15 @@ msgstr ""
 msgid "Specify HTTP request URI for health check."
 msgstr "ヘルスチェックの HTTP リクエスト URI を指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1487
 msgid ""
 "Specify a HAProxy condition/ACL that is currently not supported by the GUI."
 msgstr ""
+"HAProxy 条件/ACL の指定は現在 GUI ではサポートしていません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1488
 msgid "Specify a HAProxy rule/ACL that is currently not supported by the GUI."
-msgstr ""
+msgstr "HAProxy ルール/ACL の指定は現在 GUI ではサポートしていません。"
 
 # File: /usr/lang/src/controllers.php, line: 448
 msgid ""
