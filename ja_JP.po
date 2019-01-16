@@ -28233,13 +28233,14 @@ msgstr ""
 msgid "Specify the IP of your neighbor."
 msgstr "ネイバーの IP を指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1491
 msgid ""
 "Specify the SSL/TLS error ID that should be checked for the incoming "
 "connection. Please refer to your SSL library's documentation for an "
 "exhaustive list of error codes."
 msgstr ""
+"着信接続でチェックする SSL/TLS エラー ID を指定してください。"
+"完全に網羅されたエラーコードリストはあなたの SSL ライブラリのドキュメントを参照してください。"
 
 # File: /usr/lang/src/controllers.php, line: 541
 msgid "Specify the Server ID of your PowerDNS server, i.e. localhost."
@@ -28255,30 +28256,30 @@ msgid ""
 msgstr ""
 "PowerDNS サーバの URL を指定してください。例: http://ns.example.com:8081"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1495
 msgid "Specify the URL parameter to be checked for the value specified below."
 msgstr ""
+"下で指定した値をチェックされる URL パラメータを指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1496
 msgid ""
 "Specify the domain name to present to the server for ESMTP health checks."
-msgstr ""
+msgstr "ESMTP ヘルスチェックでサーバに渡すドメイン名を指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1497
 msgid ""
 "Specify the domain name to present to the server for SMTP health checks."
-msgstr ""
+msgstr "SMTP ヘルスチェックでサーバに渡すドメイン名を指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1498
 msgid ""
 "Specify the maximum length for a value in the stick-table. If the value is "
 "larger than this value it will be truncated before being stored. Depending "
 "on the stick-table type this repesents either characters or bytes."
 msgstr ""
+"スティックテーブルにある値の最大長を指定してください。"
+"値がこの値よりも大きい場合、保管される前に切り詰められます。"
+"この表記はスティックテーブルタイプが文字もしくはバイトなのかに依存します。"
 
 # File: /usr/lang/src/controllers.php, line: 545
 msgid ""
@@ -28297,10 +28298,9 @@ msgstr "使用するスケジューリングアルゴリズムを指定してく
 msgid "Specify the username to be used for database health checks."
 msgstr "データベースヘルスチェックで使用されるユーザ名を指定してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1502
 msgid "Specify the value for the URL parameter."
-msgstr ""
+msgstr "URL パラメータの値を指定してください。"
 
 # File: /usr/lang/src/controllers.php, line: 681
 msgid "Spend no more than N seconds on processing."
@@ -28317,71 +28317,58 @@ msgstr "開始"
 msgid "Start Delay"
 msgstr "開始遅延"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1507
 msgid "Start Discoverers"
-msgstr ""
+msgstr "Discoverer を開始"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1508
 msgid "Start HTTP Pollers"
-msgstr ""
+msgstr "HTTP Poller を開始"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1509
 msgid "Start IPMI Pollers"
-msgstr ""
+msgstr "IPMI Poller を開始"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1510
 msgid "Start Pingers"
-msgstr ""
+msgstr "Pinger を開始"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1511
 msgid "Start Pollers"
-msgstr ""
+msgstr "Poller を開始"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1512
 msgid "Start Pollers Unreachable"
-msgstr ""
+msgstr "Unreachable Poller を開始"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 270
 # File: /usr/lang/src/controllers.php, line: 1513
 msgid "Start Port"
-msgstr ""
+msgstr "開始ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1514
 msgid "Start Trappers"
-msgstr ""
+msgstr "トラッパーを開始"
 
-#
 # File: /usr/lang/src/controllers.php, line: 818
 msgid "Start send pecerantage data"
-msgstr ""
+msgstr "割合データ送信を開始"
 
-#
 # File: /usr/lang/src/controllers.php, line: 819
 msgid "Start servers"
-msgstr ""
+msgstr "サーバを起動"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1517
 msgid "Start the Monit httpd service."
-msgstr ""
+msgstr "Monit httpd サービスを起動します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1518
 msgid "State File"
-msgstr ""
+msgstr "ステートファイル"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1519
 msgid "State Notification"
-msgstr ""
+msgstr "ステート通知"
 
 # File: /usr/lang/src/models.php, line: 257
 msgid "Statistics Configuration"
@@ -28399,20 +28386,17 @@ msgstr "ユーザの統計"
 msgid "Stick-table persistence"
 msgstr "スティックテーブル持続時間"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1524
 msgid "Stickiness table"
-msgstr ""
+msgstr "スティックテーブル"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1525
 msgid "Sticky Address"
-msgstr ""
+msgstr "スティッキーアドレス"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1526
 msgid "Sticky counter key"
-msgstr ""
+msgstr "スティッキー counter key"
 
 msgid "Stop"
 msgstr "停止"
