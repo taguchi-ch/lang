@@ -28401,35 +28401,31 @@ msgstr "スティッキー counter key"
 msgid "Stop"
 msgstr "停止"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1528
 msgid "Stored data types"
-msgstr ""
+msgstr "保管されたデータタイプ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1529
 msgid ""
 "String to set after the hostname. For compatibility reason default is "
 "collectd, but you can also simply remove it."
 msgstr ""
+"ホスト名の後に設定する文字列。互換性のためにデフォルトは collectd ですが、これを単に削除することも出来ます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1530
 msgid "Subdir matches"
-msgstr ""
+msgstr "一致するサブディレクトリ"
 
 msgid "Subnet"
 msgstr "サブネット"
 
-#
 # File: /usr/lang/src/controllers.php, line: 826
 msgid "Subnet to receive, e.g. 255.255.255.0"
-msgstr ""
+msgstr "受信するサブネット。例 255.255.255.0"
 
-#
 # File: /usr/lang/src/controllers.php, line: 827
 msgid "Subnetmask"
-msgstr ""
+msgstr "サブネットマスク"
 
 # File: lang/dynamic/helpers/controllers.php, line: 42
 msgid ""
@@ -28440,32 +28436,30 @@ msgstr "HTTP ヘッダと HTML エラーページで Squid バージョン情報
 msgid "Suppress version string"
 msgstr "バージョン文字列を抑制"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1536
 msgid "Swap"
-msgstr ""
+msgstr "スワップ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1537
 msgid "Syslog Facility"
-msgstr ""
+msgstr "syslog ファシリティ"
 
 # File: /usr/lang/src/controllers.php, line: 460
 msgid "Syslog facility"
 msgstr "syslog ファシリティ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1539
 msgid ""
 "Syslog is a service which is made to collect log messages from different "
 "software and maybe to a central logging server. Check this box if you have "
 "such a setup."
 msgstr ""
+"syslog は異なるソフトウェアからのログメッセージを収集し、通常ロギングサーバで一括管理することが出来るサービスです。"
+"このボックスをチェックすればそのように設定されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1540
 msgid "Syslog level"
-msgstr ""
+msgstr "syslog レベル"
 
 msgid "System"
 msgstr "システム"
@@ -28474,78 +28468,68 @@ msgstr "システム"
 msgid "System Command"
 msgstr "システムコマンド"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1543
 msgid "System Domain"
-msgstr ""
+msgstr "システムドメイン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1544
 msgid "System Hostname"
-msgstr ""
+msgstr "システムホスト名"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1545
 msgid "System Origin"
-msgstr ""
+msgstr "システムオリジン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1546
 msgid "TCP Listen Port"
-msgstr ""
+msgstr "TCP リスンポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1547
 msgid "TCP Port"
-msgstr ""
+msgstr "TCP ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1548
 msgid "TCP connect timeout"
-msgstr ""
+msgstr "TCP 接続タイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1549
 msgid "TCP keepalive"
-msgstr ""
+msgstr "TCP キープアライブ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1550
 msgid "TCP timeout"
-msgstr ""
+msgstr "TCP タイムアウト"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 283
 msgid "Table"
 msgstr "テーブル"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1552
 msgid "Table Check"
-msgstr ""
+msgstr "テーブルチェック"
 
 # File: /usr/lang/src/controllers.php, line: 461
 msgid "Table type"
 msgstr "テーブルタイプ"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 231
 # File: /usr/lang/src/controllers.php, line: 1554
 msgid "Target Host"
-msgstr ""
+msgstr "ターゲットホスト"
 
-#
 # File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 232
 # File: /usr/lang/src/controllers.php, line: 1555
 msgid "Target Port"
-msgstr ""
+msgstr "ターゲットポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1556
 msgid ""
 "Telegraf will send metrics to outputs in batches of at most "
 "metric_batch_size metrics. This controls the size of writes that Telegraf "
 "sends to output plugins."
 msgstr ""
+"Telegraf は metric_batch_size metrics を限度としてバッチにメトリックの出力を送信します。"
+"これは Telegraf が出力プラグインに送信する書き込みサイズをコントロールします。"
 
 msgid "Test type"
 msgstr "テストタイプ"
@@ -28554,12 +28538,13 @@ msgstr "テストタイプ"
 msgid "Tests"
 msgstr "テスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1559
 msgid ""
 "The 'Listen IPs' parameter specifies the IP address to listen to. Default is "
 "to listen on all interfaces."
 msgstr ""
+"「リスン IP」パラメータにはリスンする IP アドレスを指定します。"
+"デフォルトは全てのインタフェースでリスンします。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1560
