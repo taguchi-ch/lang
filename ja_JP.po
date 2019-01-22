@@ -28546,15 +28546,16 @@ msgstr ""
 "「リスン IP」パラメータにはリスンする IP アドレスを指定します。"
 "デフォルトは全てのインタフェースでリスンします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1560
 msgid ""
 "The 'System Domain' parameter specifies the local internet domain name. The "
 "default is to use 'System Hostname' minus the first component. It is used as "
 "a default value for many other configuration parameters."
 msgstr ""
+"「システムドメイン」パラメータはローカルインターネットドメイン名を指定します。"
+"デフォルトは「システムホスト名」から最初の構成要素を差し引いたものを使用します。"
+"他の多くの構成パラメータでデフォルト値として使用されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1561
 msgid ""
 "The 'System Hostname' parameter specifies the internet hostname of this mail "
@@ -28562,16 +28563,19 @@ msgid ""
 "gethostname(). It is used as a default value for many other configuration "
 "parameters."
 msgstr ""
+"「システムホスト名」パラメータはこのメールシステムのインターネットホスト名を指定します。"
+"デフォルトは gethostname() で取得した完全修飾ドメイン名を使用します。"
+"他の多くの構成パラメータでデフォルト値として使用されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1562
 msgid ""
 "The 'System Origin' parameter specifies the domain that locally-posted mail "
 "appears to come from. The default is to append 'System Hostname', which is "
 "fine for small sites."
 msgstr ""
+"「システムオリジン」パラメータはローカルでポストされたメールが何処から来たのかを示すドメインを指定します。"
+"デフォルトは「システムホスト名」を追加したもので、小さなサイトには適しています。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1563
 msgid ""
 "The 'Trusted Networks' parameter specifies the list of trusted SMTP clients. "
@@ -28579,6 +28583,10 @@ msgid ""
 "Postfix. Please use CIDR notation like 192.168.0.0/24 separated by spaces. "
 "IPv6 addresses have to be in square brackets like [::1]/128."
 msgstr ""
+"「Trusted Networks」パラメータは信頼する SMTP クライアントのリストを指定します。"
+"特に、信頼する SMTP クライアントは Postfix を経由したメールのリレーを許可されます。"
+"スペース区切りの CIDR 表記（例: 192.168.0.0/24）を使用してください。"
+"IPv6 アドレスは角括弧を使用してください（例: [::1]/128）。"
 
 # File: /usr/lang/src/controllers.php, line: 698
 msgid ""
@@ -28594,70 +28602,74 @@ msgstr ""
 msgid "The ACL sequence number (10-99)"
 msgstr "ACL シーケンス番号 ( 10 - 99 )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 837
 msgid ""
 "The AS pattern you want to match, regexp allowed (e.g. .$ or _1$). It's not "
 "validated so please be careful!"
 msgstr ""
+""
+"一致させたい AS パターン。正規表現を使用できます（例: .$、_1$）。"
+"確認は行われませんので、取扱いには注意してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 838
 msgid ""
 "The Administrator of this server. Used when displaying information about "
 "this server."
 msgstr ""
+"このサーバの管理者。"
+"このサーバの情報を表示する際に使用されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 839
 msgid ""
 "The CPU plugin collects the amount of time spent by the CPU in various "
 "states, most notably executing user code, executing system code, waiting for "
 "IO-operations and being idle."
 msgstr ""
+"CPU プラグインは様々な状態の CPU が消費する時間の量を収集します。"
+"中でも注目すべきは実行しているユーザのコード、実行しているシステムコード、IO オペレーションの待ち時間、"
+"アイドル状態です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 840
 msgid ""
 "The ContextSwitch plugin collects the number of context switches done by the "
 "operating system."
 msgstr ""
+"ContextSwitch プラグインはオペレーティングシステムによって切り替えが終了したコンテキストの数を収集します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 841
 msgid ""
 "The DF plugin collects file system usage information, i. e. basically how "
 "much space on a mounted partition is used and how much is available."
 msgstr ""
+"DF プラグインはファイルシステム使用率情報を収集します。"
+"基本的にマウントされているパーティションにあるスペースがどのくらい使用されていて、"
+"あとどのくらい利用可能なのかということです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1571
 msgid "The FQDN or IP address of the VPN server."
-msgstr ""
+msgstr "VPN サーバの FQDN もしくは IP アドレス。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 842
 msgid ""
 "The Graphite plugin stores values in Carbon, the storage layer of Graphite."
-msgstr ""
+msgstr "Graphite プラグインは Graphite の ストレージレイヤである Carbon に値を保管します。"
 
 # File: /usr/lang/src/controllers.php, line: 701
 msgid "The Interface for 'Network' checks."
 msgstr "「ネットワーク」チェックのインタフェース。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 844
 msgid ""
 "The Interface plugin collects information about the traffic, packets per "
 "second and errors of interfaces."
 msgstr ""
+"インタフェースプラグインはトラフィック、秒単位のパケット数、インタフェースのエラーに関する情報を"
+"収集します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 845
 msgid "The Load plugin collects the system load."
-msgstr ""
+msgstr "ロードプラグインはシステムロードを収集します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1576
 msgid ""
 "The MX Check module checks if the domain in a messages SMTP FROM addresses "
@@ -28665,29 +28677,31 @@ msgid ""
 "connectable MX. If a connectable MX is found this information is cached in "
 "Redis."
 msgstr ""
+"MX チェックモジュールはメッセージの SMTP FROM アドレスにあるドメイン（もしくは SMTP FROM が空の場合は HELO のドメイン）"
+"が最低でも一つは接続可能な MX であることをかチェックします。"
+"もし接続可能な MX が見つかった場合、この情報は Redis にキャッシュされます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 846
 msgid ""
 "The Memory plugin collects physical memory utilization (Used, buffered, "
 "cached and free)."
 msgstr ""
+"メモリプラグインは物理メモリの利用状況（使用済、バッファ済、キャッシュ済、空き）を収集します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 847
 msgid "The Network plugin can send values to other instances"
-msgstr ""
+msgstr "ネットワークプラグインは他のインスタンスに値を送信できます"
 
 # File: /usr/lang/src/controllers.php, line: 702
 msgid "The PID file of the process."
 msgstr "プロセスの PID ファイル。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 849
 msgid ""
 "The Processes plugin collects the number of processes, grouped by their "
 "state (e. g. running, sleeping, zombies, etc.)."
 msgstr ""
+"プロセスプラグインはプロセスの数、状態毎のグループ（例: 動作中、スリープ中、ゾンビ、他）を収集します。"
 
 # File: /usr/lang/src/controllers.php, line: 194
 msgid ""
@@ -28697,19 +28711,20 @@ msgstr ""
 "SSL フィンガープリント。例 B5:E1:B3:70:5E:7C:FF:EB:92:C4:29:E5:5B:AC:2F:"
 "AE:70:17:E9:9E"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1582
 msgid ""
 "The TCP port that should be used for connections to this peer. It must not "
 "be used by any other service."
 msgstr ""
+"このピアへの接続に使用する TCP ポート。他のどのようなサービスでも使用されてはいけません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1583
 msgid ""
 "The Target host. Be careful when using localhost as some services may bypass "
 "ACLs when connecting from \"127.0.0.1\" or \"::1\"."
 msgstr ""
+"ターゲットホスト。localhost を使用した場合、一部のサービスは「127.0.0.1」もしくは「::1」からの"
+"接続をバイパスする可能性があるため注意してください。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 851
