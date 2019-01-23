@@ -28726,99 +28726,86 @@ msgstr ""
 "ターゲットホスト。localhost を使用した場合、一部のサービスは「127.0.0.1」もしくは「::1」からの"
 "接続をバイパスする可能性があるため注意してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 851
 msgid ""
 "The Uptime plugin keeps track of the system uptime, providing informations "
 "such as the average running time or the maximum reached uptime over a "
 "certain period of time."
 msgstr ""
+"稼働時間プラグインはシステム稼働時間を記録し、平均実行時間や一定期間での最大稼働時間といった情報を提供します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 852
 msgid ""
 "The Users plugin counts the number of users currently logged into the system "
 "(SSH)."
-msgstr ""
+msgstr "ユーザプラグインは現在（SSHで）システムにログインしているユーザの数を数えます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1586
 msgid "The average bytes rate from the incoming connection's source address."
-msgstr ""
+msgstr "着信接続の送信元アドレスからの平均バイト率。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1587
 msgid "The average bytes rate to the incoming connection's source address."
-msgstr ""
+msgstr "着信接続の送信元アドレスへの平均バイト率。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1588
 msgid ""
 "The average connection rate from the incoming connection's source address."
-msgstr ""
+msgstr "着信接続の送信元アドレスからの平均接続率。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1589
 msgid ""
 "The average rate of HTTP errors from the incoming connection's source "
 "address."
-msgstr ""
+msgstr "着信接続の送信元アドレスからの平均 HTTP エラー率。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1590
 msgid ""
 "The average rate of HTTP requests from the incoming connection's source "
 "address."
-msgstr ""
+msgstr "着信接続の送信元アドレスからの平均 HTTP リクエスト率。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1591
 msgid "The commands here will be disabled and cannot be used anymore."
-msgstr ""
+msgstr "ここにあるコマンドは無効化されており、使用することは一切出来ません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1592
 msgid ""
 "The cumulative number of HTTP errors from the incoming connection's source "
 "address."
-msgstr ""
+msgstr "着信接続の送信元アドレスからの累積 HTTP エラー数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1593
 msgid ""
 "The cumulative number of HTTP requests from the incoming connection's source "
 "address."
-msgstr ""
+msgstr "着信接続の送信元アドレスからの累積 HTTP リクエスト数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1594
 msgid ""
 "The cumulative number of connections initiated from the current incoming "
 "connection's source address."
-msgstr ""
+msgstr "現在の着信接続の送信元アドレスから開始された累積接続数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1595
 msgid ""
 "The cumulative number of connections initiated from the incoming "
 "connection's source address."
-msgstr ""
+msgstr "着信接続の送信元アドレスから開始された累積接続数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1596
 msgid ""
 "The current amount of concurrent connections initiated from the current "
 "incoming connection's source address."
-msgstr ""
+msgstr "現在の着信接続の送信元アドレスから開始された現在の同時接続数。"
 
 # File: /usr/lang/src/controllers.php, line: 704
 msgid "The email address to send alerts to."
 msgstr "アラートを送る電子メールアドレス。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1598
 msgid "The external FQDN of this host."
-msgstr ""
+msgstr "このホストの外部 FQDN。"
 
 # File: /usr/lang/src/controllers.php, line: 195
 msgid ""
@@ -28841,14 +28828,13 @@ msgstr "ネットワークで選択したマシンにつけるホスト名"
 msgid "The hostname for this machine in the network"
 msgstr "ネットワークでこのマシンにつけるホスト名"
 
-#
 # File: /usr/lang/src/controllers.php, line: 858
 msgid ""
 "The initial number of server processes. Each server process generates a "
 "number of threads, which serve the requests."
 msgstr ""
+"サーバプロセスの初期番号。どのサーバプロセスもリクエストを扱うスレッド番号を生成します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1604
 msgid ""
 "The length of the period over which the average is measured. It reports the "
@@ -28856,8 +28842,9 @@ msgid ""
 "Defaults to milliseconds. Optionally the unit may be specified as either \"d"
 "\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"平均を測定する期間の長さ。その期間の平均 HTTP リクエストエラー率をレポートします。"
+"デフォルトはミリ秒単位です。オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1605
 msgid ""
 "The length of the period over which the average is measured. It reports the "
@@ -28865,8 +28852,9 @@ msgid ""
 "to milliseconds. Optionally the unit may be specified as either \"d\", \"h"
 "\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"平均を測定する期間の長さ。その期間の平均 HTTP リクエスト率をレポートします。"
+"デフォルトはミリ秒単位です。オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1606
 msgid ""
 "The length of the period over which the average is measured. It reports the "
@@ -28874,8 +28862,9 @@ msgid ""
 "to milliseconds. Optionally the unit may be specified as either \"d\", \"h"
 "\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"平均を測定する期間の長さ。その期間の平均着信バイト率をレポートします。"
+"デフォルトはミリ秒単位です。オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1607
 msgid ""
 "The length of the period over which the average is measured. It reports the "
@@ -28883,8 +28872,9 @@ msgid ""
 "period. Defaults to milliseconds. Optionally the unit may be specified as "
 "either \"d\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"平均を測定する期間の長さ。その期間の平均着信接続率をレポートします。"
+"デフォルトはミリ秒単位です。オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1608
 msgid ""
 "The length of the period over which the average is measured. It reports the "
@@ -28892,8 +28882,9 @@ msgid ""
 "Defaults to milliseconds. Optionally the unit may be specified as either \"d"
 "\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"平均を測定する期間の長さ。その期間の平均着信セッション率をレポートします。"
+"デフォルトはミリ秒単位です。オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1609
 msgid ""
 "The length of the period over which the average is measured. It reports the "
@@ -28901,31 +28892,28 @@ msgid ""
 "to milliseconds. Optionally the unit may be specified as either \"d\", \"h"
 "\", \"m\", \"s\", \"ms\" or \"us\"."
 msgstr ""
+"平均を測定する期間の長さ。その期間の平均発信バイト率をレポートします。"
+"デフォルトはミリ秒単位です。オプションで単位を d、h、m、s、ms、us に指定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1610
 msgid "The limit of the length of data to hash."
-msgstr ""
+msgstr "ハッシュ化するデータ長の制限。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1611
 msgid "The listen address of the local peer or the address of the remote peer."
-msgstr ""
+msgstr "ローカルピアのリスンアドレスもしくはリモートピアのアドレス。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1612
 msgid "The listen port of the Monit httpd service."
-msgstr ""
+msgstr "Monit httpd サービスのリスンポート。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1613
 msgid "The local port of the daemon, default is fine."
-msgstr ""
+msgstr "デーモンのローカルポート。デフォルトがお勧めです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 859
 msgid "The maximum allowed number of server processes."
-msgstr ""
+msgstr "許可する最大サーバプロセス数。"
 
 # File: /usr/lang/src/controllers.php, line: 197
 msgid ""
