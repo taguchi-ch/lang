@@ -28454,7 +28454,7 @@ msgid ""
 "software and maybe to a central logging server. Check this box if you have "
 "such a setup."
 msgstr ""
-"syslog は異なるソフトウェアからのログメッセージを収集し、通常ロギングサーバで一括管理することが出来るサービスです。"
+"syslog は異なるソフトウェアからのログメッセージを収集し、通常セントラルロギングサーバで一括管理することが出来るサービスです。"
 "このボックスをチェックすればそのように設定されます。"
 
 # File: /usr/lang/src/controllers.php, line: 1540
@@ -28923,24 +28923,24 @@ msgstr ""
 "スティックテーブルに保管される文字の最大数 ( 適切なテーブルタイプが選択されて"
 "いる場合 )。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 861
 msgid "The maximum number of requests can be served by one connection"
-msgstr ""
+msgstr "一つの接続で扱うことが出来るリクエストの最大数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 862
 msgid ""
 "The maximum number of requests that a child process can serve. After this "
 "number has been reached, process dies."
 msgstr ""
+"子プロセスが扱うことが出来るリクエストの最大数。この数に到達後、プロセスは死にます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 863
 msgid ""
 "The maximum size of files which will be scanned by antivirus service. You "
 "can use K and M indicators to define size in kilobytes or megabytes."
 msgstr ""
+"アンチウィルスサービスがスキャンするファイルの最大サイズ。キロバイト単位もしくはメガバイト単位のサイズの定義に"
+" K と M のインジケータを使用できます。"
 
 # File: /usr/lang/src/controllers.php, line: 710
 msgid ""
@@ -28951,25 +28951,23 @@ msgstr ""
 "再起動アクションが完了するのを待つ最大秒数。タイムアウトになると、コマンドは"
 "強制終了させられます。デフォルトは 600 秒です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 865
 msgid ""
 "The maximum time in seconds waiting for a new requests before a connection "
 "will be closed."
-msgstr ""
+msgstr "接続が終了する前に新規リクエストをまつ秒単位の最大時間。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1621
 msgid "The name of the HTTP header field."
-msgstr ""
+msgstr "HTTP ヘッダフィールドの名前。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1622
 msgid ""
 "The name of the peer. This is usually the full hostname to make it possible "
 "for HAProxy to recognize the local peer. If HAProxy is unable to find the "
 "local peer it will fail to start."
 msgstr ""
+"ピアの名前。これは通常 HAProxy がローカルピアを認識することが可能になるフルホスト名です。"
 
 # File: /usr/lang/src/controllers.php, line: 711
 msgid "The name of the service."
@@ -28979,12 +28977,12 @@ msgstr "サービスの名前。"
 msgid "The name of the test."
 msgstr "テストの名前。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1625
 msgid ""
 "The name of this Zabbix instance. It has to match with the defined name in "
 "the central Zabbix server."
 msgstr ""
+"この Zabbix インスタンスの名前。セントラル Zabbix サーバのデフォルト名と一致する必要があります。"
 
 # File: /usr/lang/src/controllers.php, line: 713
 msgid ""
@@ -28997,12 +28995,12 @@ msgstr ""
 msgid "The network for this host"
 msgstr "このホストに対するネットワーク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 870
 msgid ""
 "The network pattern you want to match. It's not validated so please be "
 "careful!"
 msgstr ""
+"一致させたいネットワークパターン。検証はされないので注意して使用して下さい！"
 
 # File: /usr/lang/src/controllers.php, line: 715
 msgid ""
@@ -29021,15 +29019,13 @@ msgstr ""
 "古いキューリストの末尾に移動される前に保持可能なキューのバイト数 ( byte )、空"
 "白にするとデフォルトになります"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1631
 msgid "The number of databases you would like to have."
-msgstr ""
+msgstr "使用したいデータベースの数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1632
 msgid "The number of eventqueue slots."
-msgstr ""
+msgstr "イベントキュースロットの数。"
 
 # File: /usr/lang/src/controllers.php, line: 199
 msgid ""
@@ -29050,38 +29046,33 @@ msgstr ""
 "それが通知されます。\n"
 "        "
 
-#
 # File: /usr/lang/src/controllers.php, line: 877
 msgid "The number of threads per child process."
-msgstr ""
+msgstr "子プロセス毎のスレッド数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1638
 msgid "The password for access to SNMP agent"
-msgstr ""
+msgstr "SNMP エージェントにアクセスするパスワード"
 
 # File: /usr/lang/src/controllers.php, line: 721
 msgid "The password for authentication."
 msgstr "認証用パスワード。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1640
 msgid ""
 "The password name for this connection. Be aware that it will stored in "
 "cleartext on this device."
 msgstr ""
+"この接続用のパスワード名。このデバイス上にクリアテキストで保管されますので注意してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1641
 msgid "The password to use for SMTP authentication."
-msgstr ""
+msgstr "SMTP 認証に使用するパスワード。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1642
 msgid "The path to the eventqueue directory."
-msgstr ""
+msgstr "イベントキューディレクトリへのパス。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 879
 msgid ""
 "The percentage of data that can be sent by the c-icap server before "
@@ -29089,6 +29080,9 @@ msgid ""
 "the folowing can be useful because if the download of the object takes a lot "
 "of time the connection of web client to proxy can be expired."
 msgstr ""
+"リクエストのボディの受信が完了する前に c-icap サーバが送信できるデータの比率。"
+"この同時接続機能は、オブジェクトのダウンロードで web クライアントの接続に非常に時間がかかる過ぎて、"
+"プロキシが有効期限切れになるような場合に便利です。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1644
