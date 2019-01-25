@@ -29084,13 +29084,14 @@ msgstr ""
 "この同時接続機能は、オブジェクトのダウンロードで web クライアントの接続に非常に時間がかかる過ぎて、"
 "プロキシが有効期限切れになるような場合に便利です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1644
 msgid ""
 "The port number where Squid listens for SNMP requests. To enable SNMP "
 "support set this to a suitable port number. Port number 3401 is often used "
 "for the Squid SNMP agent."
 msgstr ""
+"Squid が SNMP リクエストをリスンするポート番号。SNMP サポートを有効にするには、ここに適切なポート番号"
+"を設定します。ポート番号 3401 が Squid SNMP エージェントとして通常使用されます。"
 
 # File: lang/dynamic/helpers/controllers.php, line: 36
 msgid ""
@@ -29101,10 +29102,9 @@ msgstr ""
 "Squid が近隣キャッシュの ICP クエリを送受信するポート番号。無効にする場合は空"
 "白にしてください ( デフォルト )。ICP の標準 UDP ポートは 3130 です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1646
 msgid "The port number which is exposed in the Tor network."
-msgstr ""
+msgstr "Tor ネットワークで使用するポート番号。"
 
 # File: /usr/lang/src/controllers.php, line: 723
 msgid ""
@@ -29135,22 +29135,22 @@ msgstr "プロキシはサーバへの制御接続の送信元アドレスとし
 msgid "The service check type."
 msgstr "サービスチェックタイプ。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1653
 msgid ""
 "The smtpd_banner parameter specifies the text that follows the 220 code in "
 "the SMTP server's greeting banner. Default is \"'System Hostname' ESMTP "
 "Postfix\"."
 msgstr ""
+"smtpd_banner パラメータは SMTP サーバのグリーティングバナーの 220 コードで表示される"
+"テキストを指定します。デフォルトは「システムホスト名 ESMTP Postfix」です。"
 
 # File: /usr/lang/src/controllers.php, line: 729
 msgid "The start skript of the service."
 msgstr "サービスのスクリプトを開始します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1655
 msgid "The state file of the Monit process."
-msgstr ""
+msgstr "Monit プロセスのステートファイル。"
 
 # File: /usr/lang/src/controllers.php, line: 730
 msgid "The stop skript of the service."
@@ -29176,12 +29176,12 @@ msgstr ""
 msgid "The target IP address for 'Remote Host' and 'Network' checks."
 msgstr "「リモートホスト」と「ネットワーク」チェックの対象 IP アドレス。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 895
 msgid ""
 "The time in seconds after which a connection without activity can be "
 "cancelled."
 msgstr ""
+"アクティビティがない接続をキャンセル可能となるまでの秒数。"
 
 # File: /usr/lang/src/controllers.php, line: 737
 msgid ""
@@ -29191,107 +29191,105 @@ msgstr ""
 "DNS API に 全ての TXT レコードを追加してから結果を得られるまでの秒数。デフォ"
 "ルトは 120 秒。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1665
 msgid ""
 "The total amount of data received from the incoming connection's source "
 "address (in kilobytes)."
 msgstr ""
+"着信接続の送信元アドレスから受信したデータの合計量（KB 単位）"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1666
 msgid ""
 "The total amount of data sent to the incoming connection's source address "
 "(in kilobytes)."
 msgstr ""
+"着信接続の送信元アドレスへ送信したデータの合計量（KB 単位）"
 
 # File: lang/dynamic/helpers/controllers.php, line: 63
 msgid "The total number of authenticator processes to spawn."
 msgstr "生成する認証プロセスの合計数。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1668
 msgid ""
 "The type can either be 'Basic' for a general-purpose authorization protocol "
 "or 'Stealth' for a less scalable protocol that also hides service activity "
 "from unauthorized clients."
 msgstr ""
+"タイプには、一般的な目的の認証プロトコルである「基本」、もしくは未認証クライアントからサービスのアクティビティを
+"隠すより拡張性が低い「ステルス」を設定できます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1669
 msgid "The user name for this connection."
-msgstr ""
+msgstr "この接続のユーザ名。"
 
 # File: /usr/lang/src/controllers.php, line: 739
 msgid "The username for authentication."
 msgstr "認証用のユーザ名。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1671
 msgid "The username to use for SMTP authentication."
-msgstr ""
+msgstr "SMTP 認証で使用するユーザ名。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1672
 msgid ""
 "The value of the Server Name TLS extension sent by a client contains the "
 "specified string (substring match)."
 msgstr ""
+"クライアントが送信する指定された文字列を含む TLS 拡張サーバ名の値（サブストリングが一致）。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1673
 msgid ""
 "The value of the Server Name TLS extension sent by a client ends with the "
 "specified string (suffix match)."
 msgstr ""
+"クライアントが送信する指定された文字列で終わる TLS 拡張サーバ名の値（サフィックスが一致）。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1674
 msgid ""
 "The value of the Server Name TLS extension sent by a client matches the "
 "exact string."
 msgstr ""
+"クライアントが送信する厳格な文字列と一致する TLS 拡張サーバ名の値。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1675
 msgid ""
 "The value of the Server Name TLS extension sent by a client starts with the "
 "specified string (prefix match)."
 msgstr ""
+"クライアントが送信する指定された文字列で始まる TLS 拡張サーバ名の値（プレフィックスが一致）。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1676
 msgid "These lines will be added to the HAProxy backend configuration."
-msgstr ""
+msgstr "これらの行は HAProxy バックエンド構成に追加されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1677
 msgid "These lines will be added to the HAProxy frontend configuration."
-msgstr ""
+msgstr "これらの行は HAProxy フロントエンド構成に追加されます。"
 
 # File: /usr/lang/src/controllers.php, line: 478
 msgid "This Host"
 msgstr "このホスト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1679
 msgid ""
 "This allows you to bind to an external LDAP server. Be aware that FreeRADIUS "
 "will not start if there is no further configuration."
 msgstr ""
+"これは外部 LDAP サーバとのバインドを許可します。これ以外の構成がない場合 FreeRADIUS は起動しませんので"
+"注意してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 900
 msgid ""
 "This allows you to dynamically assign VLANs on your physical switch ports."
 msgstr ""
+"これはあなたの物理スイッチポートに VLAN を動的に割当することを許可します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1681
 msgid ""
 "This enables CRL checking, please restart this service with every change to "
 "the CRL."
 msgstr ""
+"これは CRL チェックを有効にします。CRL に何らかの変更をしたらこのサービスを再起動してください。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1682
