@@ -29291,20 +29291,17 @@ msgid ""
 msgstr ""
 "これは CRL チェックを有効にします。CRL に何らかの変更をしたらこのサービスを再起動してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1682
 msgid "This enables the ChilliSpot attributes assignment via users tab."
-msgstr ""
+msgstr "これはユーザタブ経由での ChilliSpot 属性割当を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1683
 msgid "This enables the Max-Daily-Session attribute assignment via users tab."
-msgstr ""
+msgstr "これはユーザタブ経由での Max-Daily-Session 属性割当を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1684
 msgid "This enables the WISPr attributes assignment via users tab."
-msgstr ""
+msgstr "これはユーザタブ経由での WISPr 属性割当を有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 479
 msgid ""
@@ -29323,20 +29320,21 @@ msgstr ""
 msgid "This is a list with service tests."
 msgstr "これはサービステストのリストです。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1687
 msgid ""
 "This is suited for all header fields which are allowed to carry more than "
 "one value: Matches the specified regular expression against every comma-"
 "delimited value of the header field."
 msgstr ""
+"これは１つ以上の値を持つことを許可する全てのヘッダフィールドに適しています。"
+"全てのカンマ区切りのヘッダフィールドの値は、指定した正規表現と一致します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1688
 msgid ""
 "This is the detail level of the log. A higher level means more data is "
 "logged."
 msgstr ""
+"これはログの詳細レベルです。高いレベルになる程、多くのデータのログを記録します。"
 
 # File: /usr/lang/src/controllers.php, line: 205
 msgid "This is the email address displayed in error messages to the users."
@@ -29365,45 +29363,40 @@ msgstr ""
 msgid "This machines part of the network"
 msgstr "このマシンが属するネットワーク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1695
 msgid ""
 "This may only consist of characters and numbers and is used to identifiy "
 "your host."
 msgstr ""
+"これは数字と文字のみで構成され、あなたのホストを識別するのに使用されます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 909
 msgid "This option allows you to disable the caching feature of the engine."
-msgstr ""
+msgstr "このオプションはエンジンのキャッシュ機能を無効に出来るようになります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 910
 msgid "This option enables scanning of HWP3 files."
-msgstr ""
+msgstr "このオプションは HWP3 ファイルのスキャンを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 911
 msgid ""
 "This option enables scanning of OLE2 files, such as Microsoft Office "
 "documents and .msi files."
 msgstr ""
+"このオプションは Microsoft Office ドキュメントや .msi ファイルのような OLE2 ファイルのスキャンを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 912
 msgid "This option enables scanning within PDF files."
-msgstr ""
+msgstr "このオプションは PDF ファイルのスキャンを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 913
 msgid "This option enables scanning within SWF files."
-msgstr ""
+msgstr "このオプションは SWF ファイルのスキャンを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 914
 msgid ""
 "This option enables scanning xml-based document files supported by libclamav."
-msgstr ""
+msgstr "このオプションは libclamav でサポートしている xml ベースのドキュメントファイルのスキャンを有効にします。"
 
 # File: /usr/lang/src/controllers.php, line: 749
 msgid "This option selects the way packets are routed to other daemons"
