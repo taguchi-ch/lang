@@ -26202,7 +26202,7 @@ msgid ""
 "address. Format is CSV without spaces and CIDR, like "
 "192.168.0.0/24,10.0.0.0/8."
 msgstr ""
-"ダブル NAT は SIP が外部パブリックアドレスを知らない状況でのみ使用してください。"
+"ダブル NAT 機能は SIP が外部パブリックアドレスを知らない状況でのみ使用してください。"
 "CSV 形式 ( 空白を使用しない ) の CIDR です。例: 192.168.0.0/24,10.0.0.0/8"
 
 # File: /usr/lang/src/controllers.php, line: 1059
@@ -29402,68 +29402,62 @@ msgstr "このオプションは libclamav でサポートしている xml ベ�
 msgid "This option selects the way packets are routed to other daemons"
 msgstr "このオプションはパケットが他のデーモンに配送される方法を選択します"
 
-#
 # File: /usr/lang/src/controllers.php, line: 916
 msgid ""
 "This option sets the maximum amount of data to be scanned for each input "
 "file. Archives and other containers are recursively extracted and scanned up "
 "to this value."
 msgstr ""
+"このオプションは入力ファイル毎にスキャンされるデータの最大量を設定します。"
+"アーカイブやその他のコンテナは再帰的に解凍し、この値までスキャンされます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1704
 msgid ""
 "This setting is only relevant for double nat scenarios, where default port "
 "5060 would be replaced by a NAT device."
 msgstr ""
+"この設定はダブル NAT 機能が NAT デバイスによりデフォルトポート 5060 が置き換えられる場合にのみ関係があります。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 917
 msgid "This will activate ClamAV"
-msgstr ""
+msgstr "これは ClamAV をアクティベートします"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1706
 msgid "This will activate OpenConnect Client."
-msgstr ""
+msgstr "これは OpenConnect クライアントをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1707
 msgid ""
 "This will activate certificate based authentication (EAP-TLS) and validation "
 "(EAP-TTLS). Please choose CA and Certificate below and do not forget to roll "
 "out certificates to the clients."
 msgstr ""
+"これは証明書ベースの認証 (EAP-TLS) 及び検証 (EAP-TTLS) をアクティベートします。"
+"CA 及び証明書を下から選択し、クライアントにロールアウトするのを忘れないでください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1708
 msgid "This will activate the Cisco Discovery Protocol."
-msgstr ""
+msgstr "これは Cisco ディスカバリプロトコルをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 918
 msgid "This will activate the Collectd service."
-msgstr ""
+msgstr "これは Collectd サービスをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1710
 msgid "This will activate the Extreme Discovery Protocol."
-msgstr ""
+msgstr "これは Extreme ディスカバリプロトコルをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1711
 msgid "This will activate the Foundry Discovery Protocol."
-msgstr ""
+msgstr "これは Foundry ディスカバリプロトコルをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 919
 msgid "This will activate the FreeRADIUS service."
-msgstr ""
+msgstr "これは FreeRADIUS サービスをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1713
 msgid "This will activate the LLDPD service."
-msgstr ""
+msgstr "これは LLDPD サービスをアクティベートします。"
 
 # File: /usr/lang/src/controllers.php, line: 750
 msgid ""
@@ -29481,10 +29475,9 @@ msgstr ""
 "「全般」でルーティングプロトコルが有効化されている場合に OSPFv3 を有効化しま"
 "す。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1716
 msgid "This will activate the Postfix daemon."
-msgstr ""
+msgstr "これは Postfix デーモンをアクティベートします。"
 
 # File: /usr/lang/src/controllers.php, line: 752
 msgid ""
@@ -29494,81 +29487,73 @@ msgstr ""
 "「全般」でルーティングプロトコルが有効化されている場合に RIPサービスを有効化"
 "します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1718
 msgid "This will activate the SONMP Protocol by Nortel."
-msgstr ""
+msgstr "これは Nortel で SONMP プロトコルをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1719
 msgid ""
 "This will activate the ShadowSocks Local instance. This lets you tunnel your "
 "application to a public ShadowSocks server."
 msgstr ""
+"これは ShadowSocks ローカルインスタンスをアクティベートします。"
+"あなたのアプリケーションにパブリック ShadowSocks サーバへのトンネルを使うようにさせます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1720
 msgid ""
 "This will activate the ShadowSocks Server. This lets people around the world "
 "connect via ss-local to your server."
 msgstr ""
+"これは ShadowSocks サーバをアクティベートします。"
+"世界中の人々にあなたのサーバへの接続を ss-local 経由で行うようにさせます。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1721
 msgid "This will activate the Zabbix Proxy service."
-msgstr ""
+msgstr "これは Zabbix プロキシサービスをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1722
 msgid "This will activate the Zerotier service"
-msgstr ""
+msgstr "これは Zerotier サービスをアクティベートします。"
 
 # File: /usr/lang/src/controllers.php, line: 753
 msgid "This will activate the bgp service."
 msgstr "これは BGP サービスを有効化します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 924
 msgid "This will activate the c-icap service."
-msgstr ""
+msgstr "これは c-icap サービスをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 925
 msgid "This will activate the clamd service."
-msgstr ""
+msgstr "これは clamd サービスをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 926
 msgid "This will activate the freshclam service."
-msgstr ""
+msgstr "これは freshclam サービスをアクティベートします。"
 
 # File: /usr/lang/src/controllers.php, line: 754
 msgid "This will activate the isis service."
 msgstr "これは isis サービスを有効化します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1728
 msgid "This will activate the node_exporter plugin."
-msgstr ""
+msgstr "これは node_exporter プラグインをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1729
 msgid "This will activate the onion router."
-msgstr ""
+msgstr "これは onion ルータをアクティベートします。"
 
 # File: /usr/lang/src/controllers.php, line: 755
 msgid "This will activate the routing service."
 msgstr "これはルーティングサービスを有効化します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1731
 msgid "This will activate the siproxd service."
-msgstr ""
+msgstr "これは siproxd サービスをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1732
 msgid "This will activate the telegraf agent."
-msgstr ""
+msgstr "これは telegraf エージェントをアクティベートします。"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1733
