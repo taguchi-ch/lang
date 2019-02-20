@@ -26443,7 +26443,7 @@ msgstr "TLS クライアント証明書の Authenticated Users を許可"
 
 # File: /usr/lang/src/controllers.php, line: 1114
 msgid "Permit Trusted Networks"
-msgstr "Trusted Network を許可"
+msgstr "トラステッドネットワークを許可"
 
 # File: /usr/lang/src/controllers.php, line: 1115
 msgid "Phishing"
@@ -28583,8 +28583,8 @@ msgid ""
 "Postfix. Please use CIDR notation like 192.168.0.0/24 separated by spaces. "
 "IPv6 addresses have to be in square brackets like [::1]/128."
 msgstr ""
-"「Trusted Networks」パラメータは信頼する SMTP クライアントのリストを指定します。"
-"特に、信頼する SMTP クライアントは Postfix を経由したメールのリレーを許可されます。"
+"「トラステッドネットワーク」パラメータはトラステッドな SMTP クライアントのリストを指定します。"
+"トラステッド SMTP クライアントは特別に Postfix を経由したメールのリレーを許可されます。"
 "スペース区切りの CIDR 表記（例: 192.168.0.0/24）を使用してください。"
 "IPv6 アドレスは角括弧を使用してください（例: [::1]/128）。"
 
@@ -29555,93 +29555,81 @@ msgstr "これは siproxd サービスをアクティベートします。"
 msgid "This will activate the telegraf agent."
 msgstr "これは telegraf エージェントをアクティベートします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1733
 msgid "This will allow Postfix to connect to rspamd via milter protocol."
-msgstr ""
+msgstr "これは milter プロトコル経由で Postfix が rspamd に接続することを許可します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1734
 msgid "This will allow to take settings user name from local squid"
-msgstr ""
+msgstr "これはローカル squid からユーザ名の設定を取得することを許可します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1735
 msgid "This will disable known weak ciphers like DES, RC4 or MD5."
-msgstr ""
+msgstr "これは DES、RC4、MD5 のように強度の低いことが知られている暗号を無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1736
 msgid ""
 "This will enable Graphite as output. Format is without square brackets, just "
 "like localhost:2003."
 msgstr ""
+"これは出力として Graphite を有効にします。localhost:2003 のような形式で角括弧を使用せずに記述します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1737
 msgid ""
 "This will enable Graylog as output. Format is without square brackets, just "
 "like localhost:12201."
 msgstr ""
+"これは出力として Graylog を有効にします。localhost:12201 のような形式で角括弧を使用せずに記述します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1738
 msgid ""
 "This will enable InfluxDB as output. Format is without square brackets, just "
 "like http://192.168.0.1:8086."
 msgstr ""
+"これは出力として InfluxDB を有効にします。http://192.168.0.1:8086 のような形式で角括弧を使用せずに記述します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 929
 msgid "This will enable TCP port 3310 in addition to the local socket."
-msgstr ""
+msgstr "これはローカルソケット用に TCP ポート 3310 を有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1740
 msgid "This will enable logging of access log."
-msgstr ""
+msgstr "これはアクセスログのロギングを有効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1741
 msgid "This will enable or disable domain routing for this entry."
-msgstr ""
+msgstr "これはこのエントリに対するドメインルーティングを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 930
 msgid "This will enable or disable the client config."
-msgstr ""
+msgstr "これはクライアント構成を有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1743
 msgid "This will enable or disable the domain account."
-msgstr ""
+msgstr "これはドメインアカウントを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1744
 msgid "This will enable or disable the recipient rule in this entry."
-msgstr ""
+msgstr "これはこのエントリの宛先ルールを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1745
 msgid "This will enable or disable the sender address to match for."
-msgstr ""
+msgstr "これはこのエントリの宛先ルールを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1746
 msgid "This will enable or disable the user account."
-msgstr ""
+msgstr "これはユーザアカウントを有効もしくは無効にします。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 931
 msgid ""
 "This will enable or disable the user account. Allowed characters are 0-9, a-"
 "z, A-Z, and ._-"
 msgstr ""
+"これはユーザアカウントを有効もしくは無効にします。使用できる文字は 0-9、a-z、A-Z、._- です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1748
 msgid "This will reject mails from domains which do not exist."
-msgstr ""
+msgstr "これは存在しないドメインからのメールを拒絶します。"
 
 # File: /usr/lang/src/controllers.php, line: 756
 msgid ""
@@ -29655,92 +29643,82 @@ msgstr ""
 msgid "This will send the information that we have a default gateway."
 msgstr "デフォルトゲートウェイを持っているという情報を送信します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1751
 msgid ""
 "This will skip adding headers for local IPs. If this is unchecked, headers "
 "will also be added anyway but if it is checked, the headers will not be "
 "added for local IPs."
 msgstr ""
+"これはローカル IP に対するヘッダ追加をスキップします。これをチェックしていない場合は"
+"必ずヘッダが追加されますが、チェックされていればローカル IP に対してヘッダを追加しません。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 934
 msgid "Threads per child"
-msgstr ""
+msgstr "子毎のスレッド"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1753
 msgid "Time Jitter"
-msgstr ""
+msgstr "時間ジッタ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1754
 msgid "Time after which the graylist state expires in days. Default is 1 day."
-msgstr ""
+msgstr "グレイリストステートが有効期限切れになる時間で単位は日です。デフォルトは 1 日。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1755
 msgid ""
 "Time in milli seconds siproxd should wait until the connection is "
 "established."
-msgstr ""
+msgstr "siproxd が接続が確立までに待つべき時間で、単位はミリ秒です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1756
 msgid ""
 "Time in seconds how often siproxd should send an empty Sip-Keep-Alive to "
 "hold the connection."
 msgstr ""
+"siproxd が接続を保持するために空の Sip-Keep-Alive を送信する頻度で、単位は秒です。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1757
 msgid "Time in seconds when an inactive TCP session will be disconnected."
-msgstr ""
+msgstr "非アクティブな TCP セッションを切断する時間で、単位は秒です。"
 
 # File: src/www/interfaces.php, line: 2003
 msgid "Timeout"
 msgstr "タイムアウト"
 
-#
 # File: /usr/lang/src/controllers.php, line: 936
 msgid "Timeout in seconds when connecting to database server."
-msgstr ""
+msgstr "データベースサーバに接続する場合のタイムアウトで、単位は秒です。"
 
 # File: /usr/lang/src/controllers.php, line: 587
 msgid "Token"
 msgstr "トークン"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1761
 msgid "Total CPU"
-msgstr ""
+msgstr "CPU 合計"
 
 msgid "Total bandwidth for this pipe"
 msgstr "このパイプの合計帯域幅"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1763
 msgid "Total number of signatures"
-msgstr ""
+msgstr "署名の合計数"
 
 # File: /usr/lang/src/controllers.php, line: 589
 msgid "Traffic Management Settings"
 msgstr "トラフィック管理設定"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1765
 msgid "Transparent DNS Port"
-msgstr ""
+msgstr "透過 DNS ポート"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1766
 msgid "Transparent IP Pool"
-msgstr ""
+msgstr "透過 IP プール"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1767
 msgid "Transparent Port"
-msgstr ""
+msgstr "透過ポート"
 
 # File: /usr/lang/src/controllers.php, line: 487
 msgid "Transparent proxy (HTTP)"
@@ -29750,20 +29728,17 @@ msgstr "透過プロキシ ( HTTP )"
 msgid "Transparent proxy (HTTPS)"
 msgstr "透過プロキシ ( HTTPS )"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1770
 msgid "Transport Type"
-msgstr ""
+msgstr "転送タイプ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1771
 msgid "Trusted Networks"
-msgstr ""
+msgstr "トラステッドネットワーク"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1772
 msgid "Trusted Only"
-msgstr ""
+msgstr "トラステッドのみ"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1773
