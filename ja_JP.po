@@ -29740,10 +29740,9 @@ msgstr "トラステッドネットワーク"
 msgid "Trusted Only"
 msgstr "トラステッドのみ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1773
 msgid "Try Fallback"
-msgstr ""
+msgstr "フォールバックを試す"
 
 # File: /usr/lang/src/controllers.php, line: 489
 msgid "Tuning Options"
@@ -29757,90 +29756,76 @@ msgstr "調整パラメータ"
 msgid "Type"
 msgstr "タイプ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1777
 msgid "Type CA name or choose from list."
-msgstr ""
+msgstr "CA 名を入力するかリストから選択します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1778
 msgid "Type CRL name or choose from list."
-msgstr ""
+msgstr "CRL 名を入力するかリストから選択します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1779
 msgid "Type IP addresses (ex. 192.168.1.100)"
-msgstr ""
+msgstr "IP アドレスを入力します（例: 192.168.1.100）"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1780
 msgid "Type IP addresses, followed by Enter or comma."
-msgstr ""
+msgstr "IP アドレスを入力し、その後エンターもしくはカンマを入力してください。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1781
 msgid "Type certificate name or choose from list."
-msgstr ""
+msgstr "証明書名を入力するかリストから選択します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1782
 msgid "Type or select a route source."
-msgstr ""
+msgstr "経路送信元を入力するか選択します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1783
 msgid "Type or select destinations."
-msgstr ""
+msgstr "送信先を入力するか選択します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1784
 msgid "Type or select interface (Leave blank to disable ftp proxy)."
-msgstr ""
+msgstr "インタフェースを入力するか選択します（空白にすると FTP プロキシは無効になります）。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1785
 msgid "Type or select interface."
-msgstr ""
+msgstr "インタフェースを入力するか選択します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1786
 msgid "Type port number or range."
-msgstr ""
+msgstr "ポート番号もしくは範囲を入力します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1787
 msgid "Type server name or choose from list."
-msgstr ""
+msgstr "サーバ名を入力するかリストから選択します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1788
 msgid "Type subnet addresses (ex. 192.168.2.0/24)"
-msgstr ""
+msgstr "サブネットアドレスを入力します（例: 192.168.2.0/24）"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1789
 msgid "UPS Type"
-msgstr ""
+msgstr "UPS タイプ"
 
 msgid "URL"
 msgstr "URL"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1791
 msgid "URL Parameter"
-msgstr ""
+msgstr "URL パラメータ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1792
 msgid "USBHID-Driver"
-msgstr ""
+msgstr "USB HID ドライバ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1793
 msgid ""
 "Uncheck to hide all additional introduction pages. Requires a manual page "
 "reload for the change to take effect."
 msgstr ""
+"チェックを外すと追加のイントロダクションページを全て隠します。"
+"変更を適用するには手動でページをリロードしてください。"
 
 # File: /usr/lang/src/controllers.php, line: 493
 msgid "Unrestricted IP addresses"
@@ -29850,15 +29835,13 @@ msgstr "無制約 IP アドレス"
 msgid "Update-Source Interface"
 msgstr "更新 - 送信元インタフェース"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1796
 msgid "Usable Servers"
-msgstr ""
+msgstr "使用可能なサーバ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1797
 msgid "Use Domain"
-msgstr ""
+msgstr "ドメインを使用"
 
 # File: /usr/lang/src/controllers.php, line: 494
 msgid "Use Frontend port"
@@ -29868,51 +29851,49 @@ msgstr "フロントエンドポートを使用"
 msgid "Use Via header"
 msgstr "Via ヘッダを使用"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1800
 msgid ""
 "Use a specific output template. For usage see https://github.com/influxdata/"
 "telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md"
 msgstr ""
+"指定した出力テンプレートを使用します。使い方は次の URL を参照してください: https://github.com/influxdata/"
+"telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md"
 
 # File: /usr/lang/src/controllers.php, line: 496
 msgid "Use alternate DNS-servers"
 msgstr "代替 DNS サーバを使用"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1802
 msgid "Use backend pool"
-msgstr ""
+msgstr "バックエンドプールを使用"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1803
 msgid "Use c-icap with local squid"
-msgstr ""
+msgstr "ローカル squid で c-icap を使用"
 
 # File: lang/dynamic/helpers/controllers.php, line: 106
 msgid "Use custom template package for user login"
 msgstr "ユーザログインにカスタムテンプレートパッケージを使用"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1805
 msgid "Use eSLD"
-msgstr ""
+msgstr "eSLD を使用"
 
 # File: /usr/lang/src/controllers.php, line: 499
 msgid "Use server"
 msgstr "サーバを使用"
 
-#
 # File: /usr/lang/src/controllers.php, line: 956
 msgid "Use the following format: username:password"
-msgstr ""
+msgstr "次の形式を使用してください: username:password"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1808
 msgid ""
 "Use the specified backend to count usable servers. Leave empty to use the "
 "current backend."
 msgstr ""
+"使用可能なサーバとしてカウントするには、指定されたバックエンドを使用してください。"
+"現在のバックエンドを使用するなら空白のままにしてください。"
 
 # File: /usr/lang/src/controllers.php, line: 209
 msgid "Use this option if your usernames need to be encoded."
@@ -29923,38 +29904,32 @@ msgstr ""
 msgid "Use this to invert the meaning of the expression."
 msgstr "これを使用すると式の意味を反転します。"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1811
 msgid "Used to enforce or disable certain SSL options."
-msgstr ""
+msgstr "特定の SSL オプションを強制もしくは無効にするのに使用されます。"
 
 msgid "User"
 msgstr "ユーザ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1813
 msgid "User Filter"
-msgstr ""
+msgstr "ユーザフィルタ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1814
 msgid "User Limit: Mail Count"
-msgstr ""
+msgstr "ユーザ制限: メール数"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1815
 msgid "User Limit: Time"
-msgstr ""
+msgstr "ユーザ制限: 時間"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1816
 msgid "User Limit: Time Unit"
-msgstr ""
+msgstr "ユーザ制限: 時間単位"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1817
 msgid "Useragent string"
-msgstr ""
+msgstr "ユーザエージェント文字列"
 
 msgid "Username"
 msgstr "ユーザ名"
@@ -29963,10 +29938,9 @@ msgstr "ユーザ名"
 msgid "Username Header"
 msgstr "ユーザ名ヘッダ"
 
-#
 # File: /usr/lang/src/controllers.php, line: 1820
 msgid "Username to bind to LDAP, same format as in Base DN."
-msgstr ""
+msgstr "LDAP にバインドするユーザ名。ベース DN のものと同じフォーマットです。"
 
 # File: /usr/lang/src/controllers.php, line: 782
 msgid ""
@@ -29976,11 +29950,10 @@ msgstr ""
 "通常は FQDN。アクティブチェックを要求し、Zabbix サーバとして構成したホスト名"
 "に一致しなければなりません。"
 
-#
 # File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/user.volt, line: 94
 # File: /usr/lang/src/controllers.php, line: 963
 msgid "VLAN ID"
-msgstr ""
+msgstr "VLAN ID"
 
 #
 # File: /usr/lang/src/controllers.php, line: 964
