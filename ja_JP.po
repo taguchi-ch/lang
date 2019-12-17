@@ -31,10 +31,9 @@ msgstr "In (bps)"
 msgid "You can configure a proper Thermal Sensor / Module %shere%s."
 msgstr "適正な温度センサ / モジュールは%sここ%sで構成できます。"
 
-#
 # File: /usr/core/src/www/widgets/widgets/thermal_sensors.widget.php, line: 179
 msgid "Only show first found CPU core temperature"
-msgstr ""
+msgstr "最初に発見した CPU コア温度のみを表示"
 
 msgid "Core Critical:"
 msgstr "コア重篤: "
@@ -87,10 +86,9 @@ msgstr "CPU タイプ"
 msgid "Versions"
 msgstr "バージョン"
 
-#
 # File: /usr/core/src/www/widgets/widgets/services_status.widget.php, line: 52
 msgid "Comma-separated list of services to NOT display in the widget"
-msgstr ""
+msgstr "ウィジェットで表示しないサービスのカンマ区切りリスト"
 
 msgid "Show how many characters from story:"
 msgstr "ストーリーから表示する文字数: "
@@ -139,43 +137,36 @@ msgstr "時計の位置"
 msgid "No active peers available"
 msgstr "利用可能なアクティブピアがありません"
 
-#
 # File: /usr/core/src/www/widgets/widgets/monit.widget.php, line: 180
 msgid "Rows"
-msgstr ""
+msgstr "列"
 
-#
 # File: /usr/core/src/www/widgets/widgets/monit.widget.php, line: 123
 msgid "Not changed"
-msgstr ""
+msgstr "未変更"
 
-#
 # File: /usr/core/src/www/widgets/widgets/monit.widget.php, line: 122
 msgid "Changed"
-msgstr ""
+msgstr "変更済"
 
-#
 # File: /usr/core/src/www/widgets/widgets/monit.widget.php, line: 121
 msgid "Failed"
-msgstr ""
+msgstr "失敗"
 
 msgid "Act"
 msgstr "動作"
 
-#
 # File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 197
 msgid "Interfaces to display:"
-msgstr ""
+msgstr "表示するインタフェース"
 
-#
 # File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 191
 msgid "Update interval in seconds:"
-msgstr ""
+msgstr "更新間隔 ( 秒単位 ):"
 
-#
 # File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 185
 msgid "Number of log entries:"
-msgstr ""
+msgstr "ログエントリの数:"
 
 msgid "Note: There are no configured IPsec Tunnels"
 msgstr "注意: IPsec トンネルは構成されていません"
@@ -213,19 +204,17 @@ msgstr "出力パケット"
 msgid "Packets In"
 msgstr "入力パケット"
 
-#
 # File: /usr/core/src/www/widgets/widgets/gateways.widget.php, line: 105
 # File: /usr/core/src/www/widgets/widgets/interface_list.widget.php, line: 101
 # File: /usr/core/src/www/widgets/widgets/interface_statistics.widget.php, line: 102
 msgid "Show"
-msgstr ""
+msgstr "表示"
 
-#
 # File: /usr/core/src/www/widgets/widgets/gateways.widget.php, line: 104
 # File: /usr/core/src/www/widgets/widgets/interface_list.widget.php, line: 100
 # File: /usr/core/src/www/widgets/widgets/interface_statistics.widget.php, line: 101
 msgid "Hide"
-msgstr ""
+msgstr "非表示"
 
 #, php-format
 msgid "No CARP Interfaces Defined. Click %shere%s to configure CARP."
@@ -270,15 +259,13 @@ msgstr "新規サーバの設定にウィザードを使用"
 msgid "Protocol / Port"
 msgstr "プロトコル/ポート"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1611
 msgid "Use username instead of common name to match client specfic override."
-msgstr ""
+msgstr "クライアント固有の上書きの一致にコモンネームではなくユーザ名を使用します。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1606
 msgid "Force CSO Login Matching"
-msgstr ""
+msgstr "ログイン一致にクライアント固有の上書き ( CSO ) を強制"
 
 #, php-format
 msgid ""
@@ -542,12 +529,11 @@ msgstr ""
 "全てのクライアントを一致するよう設定する場合を除き、この設定は SHA1 にしてく"
 "ださい。SHA1 は OpenVPN のデフォルトです。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 948
 # File: /usr/core/src/www/wizard.php, line: 675
 #, php-format
 msgid "%s bit"
-msgstr ""
+msgstr "%s ビット"
 
 msgid "No Certificate Revocation Lists (CRLs) defined."
 msgstr "証明書失効リスト ( CRL ) が定義されていません。"
@@ -599,7 +585,7 @@ msgstr ""
 #
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 285
 msgid "Client management port"
-msgstr ""
+msgstr "クライアント管理ポート"
 
 msgid ""
 "You must select a Backend for Authentication if the server mode requires "
