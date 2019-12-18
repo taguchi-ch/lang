@@ -582,7 +582,6 @@ msgid ""
 msgstr ""
 "トンネルネットワーク及びサーバブリッジ設定を併せて使用することはできません。"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 285
 msgid "Client management port"
 msgstr "クライアント管理ポート"
@@ -776,11 +775,10 @@ msgstr "「NTP サーバ #4」フィールドには、有効な IP アドレス�
 msgid "The field 'NTP Server #3' must contain a valid IP address"
 msgstr "「NTP サーバ #3」フィールドには、有効な IP アドレスが必要です"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 1228
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 731
 msgid "Move selected items to end"
-msgstr ""
+msgstr "選択した項目を末尾に移動"
 
 msgid "clone client"
 msgstr "クライアントをクローン"
@@ -788,11 +786,10 @@ msgstr "クライアントをクローン"
 msgid "delete client"
 msgstr "クライアントを削除"
 
-#
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 1208
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 713
 msgid "Move selected before this item"
-msgstr ""
+msgstr "選択した項目をこの項目の前に移動"
 
 #, php-format
 msgid "%s6%s-%s11%s -- Debug info range."
@@ -1218,7 +1215,6 @@ msgstr "エントリ %s は有効なネットワークではありません。"
 msgid "e.g. 192.168.1.0/24, 192.168.2.0/24"
 msgstr "例: 192.168.1.0/24、192.168.2.0/24"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 797
 msgid ""
 "Strongswan automatically creates SPD policies for the networks defined in "
@@ -1227,6 +1223,9 @@ msgid ""
 "network address translation to push packets through this tunnel from these "
 "networks."
 msgstr ""
+"strongSwan はこのフェーズ 2 で定義されたネットワークに対する SPD ポリシを自動的に作成します。"
+"この ipsec トンネルを他のネットワークに使用許可する必要がある場合、ここでカンマ区切りリストに追加できます。"
+"構成後、これらのネットワークからこのトンネルを通るようにプッシュされたパケットのネットワークアドレス変換が使用可能になります。"
 
 msgid "Register additional Security Policy Database entries"
 msgstr "セキュリティポリシデータベースエントリを追加登録"
@@ -1273,15 +1272,13 @@ msgstr "%s サブネット"
 msgid "Local Network"
 msgstr "ローカルネットワーク"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 572
 msgid "Remote Address"
-msgstr ""
+msgstr "リモートアドレス"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 563
 msgid "Tunnel network"
-msgstr ""
+msgstr "トンネルネットワーク"
 
 msgid "You may enter a description here for your reference (not parsed)"
 msgstr "参照用の説明を入力できます ( 自由形式 )"
@@ -1342,17 +1339,15 @@ msgstr "有効なリモートネットワークの IP アドレスを指定し�
 msgid "A valid remote network bit count must be specified."
 msgstr "有効なリモートネットワークビット数を指定してください"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 250
 #, php-format
 msgid "Invalid local network: %s has no valid IPv6 network."
-msgstr ""
+msgstr "無効なローカルネットワーク: %s には有効な IPv6 ネットワークがありません。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 245
 #, php-format
 msgid "Invalid local network: %s has no valid IPv4 network."
-msgstr ""
+msgstr "無効なローカルネットワーク: %s には有効な IPv4 ネットワークがありません。"
 
 msgid ""
 "A valid local network IPv6 address must be specified or you need to change "
@@ -1448,18 +1443,18 @@ msgstr "有効期限切れが間近な場合に、接続を再ネゴシエート
 msgid "Disable Rekey"
 msgstr "リキーを無効"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1019
 msgid ""
 "Decides whether IPsec policies are installed in the kernel by the charon "
 "daemon for a given connection. When using route-based mode (VTI) this needs "
 "to be disabled."
 msgstr ""
+"与えられた接続に対して charon daemon がカーネルにインストールするポリシーをどちらにするか選択してください。"
+"ルートベースモード ( VTI ) を使用する場合は、これを無効にする必要があります。
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1015
 msgid "Install policy"
-msgstr ""
+msgstr "インストールポリシ"
 
 msgid "DH key group"
 msgstr "DH 鍵グループ"
