@@ -1449,7 +1449,7 @@ msgid ""
 "daemon for a given connection. When using route-based mode (VTI) this needs "
 "to be disabled."
 msgstr ""
-"与えられた接続に対して charon daemon がカーネルにインストールするポリシーをどちらにするか選択してください。"
+"与えられた接続に対して charon daemon がカーネルにインストールするポリシをどちらにするか選択してください。"
 "ルートベースモード ( VTI ) を使用する場合は、これを無効にする必要があります。
 
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1015
@@ -1536,27 +1536,24 @@ msgstr "リモート側で選択された設定は一致しなければいけま
 msgid "Phase 1 proposal (Authentication)"
 msgstr "フェーズ 1 プロポーザル ( 認証 )"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 715
 msgid ""
 "Recommended for dynamic IP addresses that can be resolved by DynDNS at IPsec "
 "startup or update time."
 msgstr ""
+"IPsec の起動もしくは更新時には DynDNS で解決可能なダイナミック IP アドレスを推奨します。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 713
 msgid "Allow any remote gateway to connect"
-msgstr ""
+msgstr "全てのリモートゲートウェイへの接続を許可"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 710
 msgid "Dynamic gateway"
-msgstr ""
+msgstr "ダイナミックゲートウェイ"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 705
 msgid "Enter the public IP address or host name of the remote gateway."
-msgstr ""
+msgstr "リモートゲートウェイのパブリック IP アドレスかホスト名を入力してください。"
 
 msgid "Select the interface for the local endpoint of this phase1 entry."
 msgstr ""
@@ -1743,15 +1740,13 @@ msgstr "クライアントにログインバナーを提供"
 msgid "Login Banner"
 msgstr "ログインバナー"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 512
 msgid "Provide the selected phase 2 PFS group to all mobile clients."
-msgstr ""
+msgstr "選択されたフェーズ 2 PFS グループを全てのモバイルクライアントに提供します。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 477
 msgid "Phase 2 PFS Group"
-msgstr ""
+msgstr "フェーズ 2 PFS グループ"
 
 msgid "Provide a WINS server list to clients"
 msgstr "クライアントに WINS サーバリストを提供"
@@ -1765,17 +1760,17 @@ msgstr "クライアントに DNS サーバリストを提供"
 msgid "DNS Servers"
 msgstr "DNS サーバ"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 442
 msgid ""
 "Enter a comma-separated list. If left blank, and a default domain is set, it "
 "will be used for this value."
 msgstr ""
+"カンマ区切りリストを入力してください。空白にする場合、デフォルトドメインが設定されていれば、"
+"それをこの値として使用します。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 439
 msgid "Provide a list of split DNS domain names to clients"
-msgstr ""
+msgstr "スプリット DNS ドメイン名のリストをクライアントに提供します。"
 
 msgid "Split DNS"
 msgstr "スプリット DNS"
@@ -1783,17 +1778,16 @@ msgstr "スプリット DNS"
 msgid "Provide a default domain name to clients"
 msgstr "クライアントにデフォルトドメイン名を提供"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 423
 msgid ""
 "With iPhone clients, this does not work when deployed via the iPhone "
 "configuration utility, only by manual entry."
 msgstr ""
+"iPhone クライアントで iPhone 構成ユーティリティを使用してデプロイするとこれは機能しません。手動でエントリしてください。"
 
-#
 # File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 421
 msgid "Allow clients to save Xauth passwords (Cisco VPN client only)"
-msgstr ""
+msgstr "クライアントに Xauth パスワードの保存を許可 ( Cisco VPN クライアントのみ )"
 
 msgid "Save Xauth Password"
 msgstr "Xauth パスワードを保存"
@@ -1919,10 +1913,9 @@ msgstr "新規フェーズ 1 エントリを追加"
 msgid "delete selected phase 1 entries"
 msgstr "選択したフェーズ 1 エントリを削除"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 626
 msgid "Move selected phase 1 entries to end"
-msgstr ""
+msgstr "選択したフェーズ 1 エントリを末尾に移動"
 
 msgid "add phase 2 entry"
 msgstr "フェーズ 2 エントリを追加"
@@ -1930,10 +1923,9 @@ msgstr "フェーズ 2 エントリを追加"
 msgid "delete selected phase 2 entries"
 msgstr "選択したフェーズ 2 エントリを削除"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 595
 msgid "Move selected phase 2 entries to end"
-msgstr ""
+msgstr "選択したフェーズ 2 エントリを末尾に移動"
 
 msgid "Enable phase 2 entry"
 msgstr "フェーズ 2 エントリを有効"
@@ -1960,11 +1952,10 @@ msgstr "ローカルサブネット"
 msgid "Show %s Phase-2 entries"
 msgstr "%s フェーズ 2 エントリを表示"
 
-#
 # File: /usr/core/src/www/vpn_ipsec.php, line: 436
 # File: /usr/core/src/www/vpn_ipsec.php, line: 566
 msgid "Move selected entries before this"
-msgstr ""
+msgstr "選択したエントリをこの前に移動"
 
 msgid "DH Group"
 msgstr "DH グループ"
@@ -2027,12 +2018,12 @@ msgstr "ユーザ「%s」の設定を保存しました"
 msgid "Sorry, you cannot change settings for a non-local user."
 msgstr "申し訳ありませんが、あなたは非ローカルユーザの設定を変更できません。"
 
-#
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 51
 msgid ""
 "Your password does not match the selected security policies. Please provide "
 "a new one."
 msgstr ""
+"あなたのパスワードは選択されたセキュリティポリシに合いません。入力し直してください。"
 
 msgid "Please select users to import:"
 msgstr "インポートするユーザを選択してください: "
@@ -2059,22 +2050,20 @@ msgstr "許可済"
 msgid "System Privileges"
 msgstr "システム権限"
 
-#
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 169
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
-#
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 168
 msgid ""
 "Please be aware that this option does not cover all areas of the system and "
 "will be removed in a future release."
 msgstr ""
+"このオプションはシステムの全ての場所を対象としておらず、将来のリリースで削除予定であることに注意してください。"
 
-#
 # File: /usr/core/src/www/system_usermanager_addprivs.php, line: 167
 msgid "Privileges"
-msgstr ""
+msgstr "権限"
 
 msgid "Import"
 msgstr "インポート"
