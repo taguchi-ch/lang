@@ -15729,16 +15729,15 @@ msgid "Grace period"
 msgstr "猶予期間"
 
 msgid "Please enter a valid time window in seconds"
-msgstr "有効な時間枠を秒単位で入力してください。"
+msgstr "有効なタイムウィンドウを秒単位で入力してください。"
 
-#
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 232
 msgid ""
 "The time period in which the token will be valid, default is 30 seconds."
-msgstr ""
+msgstr "トークンが有効な期間で、デフォルトは 30 秒です。"
 
 msgid "Time window"
-msgstr "時間枠"
+msgstr "タイムウィンドウ"
 
 msgid "Only token lengths of 6 or 8 characters are supported"
 msgstr "トークンの長さは 6 もしくは 8 文字のみがサポートされています。"
@@ -16202,11 +16201,10 @@ msgstr ""
 msgid "Router Advertisement Daemon"
 msgstr "ルータ広告デーモン"
 
-#
 # File: /usr/core/src/etc/inc/plugins.inc, line: 264
 #, php-format
 msgid "Synchronize the %s configuration to the other HA host."
-msgstr ""
+msgstr "%s 構成を他の HA ホストに同期します。"
 
 msgid "INIT"
 msgstr "初期状態"
