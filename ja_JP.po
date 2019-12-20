@@ -2177,15 +2177,13 @@ msgstr "有効期限"
 msgid "Login shell"
 msgstr "ログインシェル"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 658
 msgid "Preferred landing page after login or authentication failure"
-msgstr ""
+msgstr "ログインもしくは認証失敗後に優先するランディングページ"
 
-#
 # File: /usr/core/src/www/system_usermanager.php, line: 654
 msgid "Preferred landing page"
-msgstr ""
+msgstr "優先するランディングページ"
 
 msgid "User comment, for your own information only"
 msgstr "ユーザコメント ( 自分用メモ )"
@@ -2274,73 +2272,64 @@ msgstr "ユーザ「%s」の削除に成功しました。"
 msgid "You cannot delete yourself."
 msgstr "自分自身を削除することはできません。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 330
 msgid "Synchronize the CARP Virtual IPs to the other HA host."
-msgstr ""
+msgstr "CARP 仮想 IP を他の HA ホストに同期します。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 321
 msgid "Synchronize the Static Route configuration to the other HA host."
-msgstr ""
+msgstr "静的ルート構成を他の HA ホストに同期します。"
 
 msgid "Static Routes"
 msgstr "静的ルート"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 312
 msgid ""
 "Synchronize the DHCP Server settings over to the other HA host. This only "
 "applies to DHCP for IPv4."
 msgstr ""
+"DHCP サーバ設定を他の HA ホストに同期します。IPv4 に対する DHCP のみに適用されます。"
 
 msgid "DHCPD"
 msgstr "DHCPD"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 303
 msgid "Synchronize the NAT rules over to the other HA host."
-msgstr ""
+msgstr "NAT ルールを他の HA ホストに同期します。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 294
 msgid "Synchronize the aliases over to the other HA host."
-msgstr ""
+msgstr "エイリアスを他の HA ホストに同期します。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 285
 msgid "Synchronize the firewall schedules to the other HA host."
-msgstr ""
+msgstr "ファイアウォールスケジュールを他の HA ホストに同期します。"
 
 msgid "Firewall Schedules"
 msgstr "ファイアウォールスケジュール"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 276
 msgid "Synchronize the firewall rules to the other HA host."
-msgstr ""
+msgstr "ファイアウォールルールを他の HA ホストに同期します。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 267
 msgid ""
 "Synchronize the Certificate Authorities, Certificates, and Certificate "
 "Revocation Lists over to the other HA host."
-msgstr ""
+msgstr "認証局、証明書、証明書失効リストを他の HA ホストに同期します。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 258
 msgid ""
 "Synchronize the authentication servers (e.g. LDAP, RADIUS) over to the other "
 "HA host."
-msgstr ""
+msgstr "認証サーバ ( 例: LDAP、RADIUS )を他の HA ホストに同期します。"
 
 msgid "Auth Servers"
 msgstr "認証サーバ"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 249
 msgid "Synchronize the users and groups over to the other HA host."
-msgstr ""
+msgstr "ユーザとグループを他の HA ホストに同期します。"
 
 msgid ""
 "Do not use the Synchronize Config to IP and password option on backup "
@@ -2401,10 +2390,9 @@ msgstr ""
 msgid "Synchronize Config to IP"
 msgstr "IP に構成を同期"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 202
 msgid "Perform synchronization"
-msgstr ""
+msgstr "同期の実行"
 
 msgid "Configuration Synchronization Settings (XMLRPC Sync)"
 msgstr "同期設定の構成 ( XMLRPC 同期 )"
@@ -2451,13 +2439,15 @@ msgstr "ループバック"
 msgid "Synchronize Interface"
 msgstr "同期するインタフェース"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 153
 msgid ""
 "When this device is configured as CARP master it will try to switch to "
 "master when powering up, this option will keep this one slave if there "
 "already is a master on the network. A reboot is required to take effect."
 msgstr ""
+"デバイスが CARP マスターとして構成されている場合、電源が入るとマスターへの切り替えを試みますが、"
+"このオプションは、ネットワークに既にマスターがある場合、このデバイスをスレーブのままにするものです。"
+"有効にするには再起動が必要です。"
 
 msgid "Disable preempt"
 msgstr "preempt を無効"
@@ -2495,15 +2485,13 @@ msgstr "ステート同期"
 msgid "The synchronize peer IP must be an IPv4 address or left empty."
 msgstr "同期ピア IP は IPv4 アドレスもしくは空白にしてください。"
 
-#
 # File: /usr/core/src/www/system_groupmanager.php, line: 414
 msgid "Normal group"
-msgstr ""
+msgstr "一般グループ"
 
-#
 # File: /usr/core/src/www/system_groupmanager.php, line: 412
 msgid "Superuser group"
-msgstr ""
+msgstr "スーパーユーザグループ"
 
 msgid "Member Count"
 msgstr "メンバ数"
@@ -2567,7 +2555,6 @@ msgstr "デフォルトゲートウェイの切替えを許可"
 msgid "Gateway switching"
 msgstr "ゲートウェイ切替え"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 432
 msgid ""
 "By default localhost (127.0.0.1) will be used as the first nameserver when e."
@@ -2575,19 +2562,22 @@ msgid ""
 "perform lookups. Checking this box omits localhost from the list of DNS "
 "servers."
 msgstr ""
+"デフォルトでは Dnsmasq や Unbound といったものが有効な場合、localhost (127.0.0.1) を第1ネームサーバとして使用するため、"
+"システムは検索の実行にローカル DNS サービスを使用できます。"
+"このボックスをチェックすると DNS サーバリストから localhost を削除します。"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 430
 msgid "Do not use the local DNS service as a nameserver for this system"
-msgstr ""
+msgstr "このシステムのネームサーバとしてローカル DNS サービスを使用しない"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 418
 msgid ""
 "If this option is set, DNS servers assigned by a DHCP/PPP server on WAN will "
 "be used for their own purposes (including the DNS services). However, they "
 "will not be assigned to DHCP and PPTP VPN clients."
 msgstr ""
+"このオプションが設定されると WAN の DHCP/PPP サーバによって DNS サーバを割り当て、それぞれの目的 ( DNS サービスを含む ) で"
+"使用されます。しかし DHCP 及び PPTP VPN クライアントには割り当てられません。"
 
 msgid "Allow DNS server list to be overridden by DHCP/PPP on WAN"
 msgstr "WAN の DHCP/PPP による DNS サーバリストの無効化を許可"
@@ -2604,12 +2594,13 @@ msgstr ""
 "WAN 接続を使用する場合に、ゲートウェイ毎に最低 1 つの固有の DNS サーバが必要"
 "になります。"
 
-#
 # File: /usr/core/src/www/system_general.php, line: 403
 msgid ""
 "Enter IP addresses to be used by the system for DNS resolution. These are "
 "also used for the DHCP service, DNS services and for PPTP VPN clients."
 msgstr ""
+"システムで DNS 解決に使用する IP アドレスを入力してください。これは DHCP サービス、"
+"DNS サービス、PPTP VPN クライアントでも使用されます。"
 
 msgid "Use gateway"
 msgstr "ゲートウェイを使用"
@@ -2626,7 +2617,7 @@ msgid "Prefer to use IPv4 even if IPv6 is available"
 msgstr "IPv6 が利用可能でも IPv4 の使用を優先"
 
 msgid "Prefer IPv4 over IPv6"
-msgstr "IPv4 over IPv6 を優先"
+msgstr "IPv6 より IPv4 を優先"
 
 msgid "Networking"
 msgstr "ネットワーキング"
@@ -2672,38 +2663,32 @@ msgstr ""
 msgid "The hostname may only contain the characters a-z, 0-9 and '-'."
 msgstr "ホスト名には、a-z、0-9、- のみが使用できます。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 733
 #, php-format
 msgid "Time interval before packets are treated as lost. Default is %d."
-msgstr ""
+msgstr "パケットをロスト扱いにする前の時間間隔。デフォルトは %d です。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 729
 msgid "Loss Interval"
-msgstr ""
+msgstr "ロス間隔"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 724
 #, php-format
 msgid "The time period over which results are averaged. Default is %d."
-msgstr ""
+msgstr "結果の平均を出す期間。デフォルトは %d です。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 720
 msgid "Time Period"
-msgstr ""
+msgstr "時間間隔"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 715
 #, php-format
 msgid "Time interval between alerts. Default is %d."
-msgstr ""
+msgstr "アラートの間隔。デフォルトは %d です。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 711
 msgid "Alert Interval"
-msgstr ""
+msgstr "アラート間隔"
 
 #, php-format
 msgid "How often that an ICMP probe will be sent in seconds. Default is %d."
@@ -2743,10 +2728,9 @@ msgstr "ゲートウェイグループ使用時に、このゲートウェイの
 msgid " - Show advanced option"
 msgstr " - 詳細オプションを表示"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 619
 msgid "This will force this gateway to be considered \"down\"."
-msgstr ""
+msgstr "このゲートウェイを強制的に「ダウン」と見なします。"
 
 msgid "Mark Gateway as Down"
 msgstr "ゲートウェイをダウンにマーク"
@@ -2760,10 +2744,9 @@ msgstr ""
 "ロードバランサエントリに使用されます。ゲートウェイが ICMP エコー要求 "
 "( ping ) に応答しない場合に使用してください。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 599
 msgid "This will consider this gateway as always being \"up\"."
-msgstr ""
+msgstr "このゲートウェイを常に「アップ」と見なすようにします。"
 
 msgid "Disable Gateway Monitoring"
 msgstr "ゲートウェイ監視を無効"
@@ -2774,10 +2757,9 @@ msgstr "インタフェースサブネットの外側に存在するゲートウ
 msgid "Far Gateway"
 msgstr "Far Gateway"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 581
 msgid "This will select the above gateway as the default gateway."
-msgstr ""
+msgstr "上記のゲートウェイをデフォルトゲートウェイとして選択します。"
 
 msgid "Default Gateway"
 msgstr "デフォルトゲートウェイ"
@@ -2797,46 +2779,39 @@ msgstr ""
 msgid "Edit gateway"
 msgstr "ゲートウェイの編集"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 299
 msgid "The loss interval needs to be positive."
-msgstr ""
+msgstr "ロス間隔は正の値です。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 297
 msgid "The loss interval needs to be a numeric value."
-msgstr ""
+msgstr "ロス間隔は数値です。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 291
 msgid "The time period needs at least 2.1 times that of the probe interval."
-msgstr ""
+msgstr "時間間隔はプローブ間隔の 2.1 倍以上である必要があります。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 289
 msgid "The time period needs to be positive."
-msgstr ""
+msgstr "時間間隔は正の値です。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 287
 msgid "The time period needs to be a numeric value."
-msgstr ""
+msgstr "時間間隔は数値です。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 281
 msgid "The alert interval needs to be positive."
-msgstr ""
+msgstr "アラート間隔は正の値です。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 279
 msgid "The alert interval needs to be a numeric value."
-msgstr ""
+msgstr "アラート間隔は数値です。"
 
 msgid "The probe interval needs to be positive."
-msgstr "プローブ間隔は、正の値です。"
+msgstr "プローブ間隔は正の値です。"
 
 msgid "The probe interval needs to be a numeric value."
-msgstr "プローブ間隔は、数値です。"
+msgstr "プローブ間隔は数値です。"
 
 #, php-format
 msgid ""
@@ -2851,21 +2826,21 @@ msgid ""
 "The low Packet Loss threshold needs to be less than the default high Packet "
 "Loss threshold (%d)"
 msgstr ""
-"低パケットロスしきい値は、デフォルト高パケットロスしきい値 ( %d ) よりも低い"
+"低パケットロスしきい値はデフォルト高パケットロスしきい値 ( %d ) よりも低い"
 "値にしてください。"
 
 msgid ""
 "The high Packet Loss threshold needs to be higher than the low Packet Loss "
 "threshold"
 msgstr ""
-"高パケットロスしきい値は、低パケットロスしきい値よりも高い値にしてください。"
+"高パケットロスしきい値は低パケットロスしきい値よりも高い値にしてください。"
 
 #, php-format
 msgid ""
 "The high latency threshold needs to be higher than the default low latency "
 "threshold (%d)"
 msgstr ""
-"高遅延しきい値は、デフォルト低遅延しきい値 ( %d ) よりも高い値にしてくださ"
+"高遅延しきい値はデフォルト低遅延しきい値 ( %d ) よりも高い値にしてくださ"
 "い。"
 
 #, php-format
@@ -2873,7 +2848,7 @@ msgid ""
 "The low latency threshold needs to be less than the default high latency "
 "threshold (%d)"
 msgstr ""
-"低遅延しきい値は、デフォルト高遅延しきい値 ( %d ) よりも低い値にしてくださ"
+"低遅延しきい値はデフォルト高遅延しきい値 ( %d ) よりも低い値にしてくださ"
 "い。"
 
 msgid ""
@@ -2881,34 +2856,34 @@ msgid ""
 msgstr "高遅延しきい値は、低遅延しきい値よりも高い値にしてください。"
 
 msgid "The high Packet Loss threshold needs to be 100 or less."
-msgstr "高パケットロスしきい値は、100 以下です。"
+msgstr "高パケットロスしきい値は 100 以下です。"
 
 msgid "The high Packet Loss threshold needs to be positive."
-msgstr "高パケットロスしきい値は、正の値です。"
+msgstr "高パケットロスしきい値は正の値です。"
 
 msgid "The high Packet Loss threshold needs to be a numeric value."
-msgstr "高パケットロスしきい値は、数値です。"
+msgstr "高パケットロスしきい値は数値です。"
 
 msgid "The low Packet Loss threshold needs to be less than 100."
-msgstr "低パケットロスしきい値は、100 未満です。"
+msgstr "低パケットロスしきい値は 100 未満です。"
 
 msgid "The low Packet Loss threshold needs to be positive."
-msgstr "低パケットロスしきい値は、正の値です。"
+msgstr "低パケットロスしきい値は正の値です。"
 
 msgid "The low Packet Loss threshold needs to be a numeric value."
-msgstr "低パケットロスしきい値は、数値です。"
+msgstr "低パケットロスしきい値は数値です。"
 
 msgid "The high latency threshold needs to be positive."
-msgstr "高遅延しきい値は、正の値です。"
+msgstr "高遅延しきい値は正の値です。"
 
 msgid "The high latency threshold needs to be a numeric value."
-msgstr "高遅延しきい値は、数値です。"
+msgstr "高遅延しきい値は数値です。"
 
 msgid "The low latency threshold needs to be positive."
-msgstr "低遅延しきい値は、正の値です。"
+msgstr "低遅延しきい値は正の値です。"
 
 msgid "The low latency threshold needs to be a numeric value."
-msgstr "低遅延しきい値は、数値です。"
+msgstr "低遅延しきい値は数値です。"
 
 #, php-format
 msgid ""
