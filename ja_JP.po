@@ -2413,11 +2413,10 @@ msgid ""
 msgstr ""
 "全ての同期ノードに参加しているインタフェースに IP を割り当ててください。"
 
-#
 # File: /usr/core/src/www/system_hasync.php, line: 177
 msgid ""
 "You must define an IP on each machine participating in this failover group."
-msgstr ""
+msgstr "このフェイルオーバグループに参加している全てのマシンに IP を定義してください。"
 
 msgid ""
 "We recommend setting this to a interface other than LAN! A dedicated "
@@ -2904,29 +2903,25 @@ msgstr "ゲートウェイ名 %s は既に存在しています"
 msgid "Changing name on a gateway is not allowed."
 msgstr "ゲートウェイの名前変更はできません"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 169
 #, php-format
 msgid "The IPv4 monitor address \"%s\" can not be used on an IPv6 gateway."
-msgstr ""
+msgstr "IPv4 モニタアドレス %s は IPv6 ゲートウェイでは使用できません。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 166
 #, php-format
 msgid "The IPv6 monitor address \"%s\" can not be used on an IPv4 gateway."
-msgstr ""
+msgstr "IPv6 モニタアドレス %s は IPv4 ゲートウェイでは使用できません。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 160
 #, php-format
 msgid "The IPv4 gateway address \"%s\" can not be used as an IPv6 gateway."
-msgstr ""
+msgstr "IPv4 ゲートウェイアドレス %s は IPv6 ゲートウェイとして使用できません。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 157
 #, php-format
 msgid "The IPv6 gateway address \"%s\" cannot be used as an IPv4 gateway."
-msgstr ""
+msgstr "IPv6 ゲートウェイアドレス %s は IPv4 ゲートウェイとして使用できません。"
 
 msgid "A valid monitor IP address must be specified."
 msgstr "有効な監視 IP アドレスを指定してください。"
@@ -2941,13 +2936,12 @@ msgid ""
 "configuration."
 msgstr "動的ゲートウェイ値は、静的 IPv4 構成のインタフェースには指定できません"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 134
 #, php-format
 msgid ""
 "The gateway address \"%s\" does not lie within one of the chosen interface's "
 "IPv6 subnets."
-msgstr ""
+msgstr "ゲートウェイアドレス %s は 選択されたインタフェースの IPv6 サブネットの中に存在していません。"
 
 msgid ""
 "Cannot add IPv6 Gateway Address because no IPv6 address could be found on "
@@ -2956,13 +2950,12 @@ msgstr ""
 "IPv6 ゲートウェイアドレスを追加できません。そのインタフェースには IPv6 アドレ"
 "スが設定されていません。"
 
-#
 # File: /usr/core/src/www/system_gateways_edit.php, line: 101
 #, php-format
 msgid ""
 "The gateway address \"%s\" does not lie within one of the chosen interface's "
 "IPv4 subnets."
-msgstr ""
+msgstr "ゲートウェイアドレス %s は 選択されたインタフェースの IPv4 サブネットの中に存在していません。"
 
 msgid ""
 "Cannot add IPv4 Gateway Address because no IPv4 address could be found on "
@@ -2983,17 +2976,16 @@ msgstr "ゲートウェイは非アクティブです。インタフェースが
 msgid "Loss"
 msgstr "損失"
 
-#
 # File: /usr/core/src/www/system_gateways.php, line: 300
 # File: /usr/core/src/www/widgets/widgets/gateways.widget.php, line: 124
 msgid "RTTd"
-msgstr ""
+msgstr "RTTd"
 
 msgid "RTT"
 msgstr "RTT"
 
 msgid "Monitor IP"
-msgstr "監視 IP"
+msgstr "モニタ IP"
 
 msgid "The gateway configuration has been changed."
 msgstr "ゲートウェイの設定が変更されました。"
@@ -3270,10 +3262,9 @@ msgstr "OpenVPN サーバ"
 msgid "User Cert"
 msgstr "ユーザ証明書"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 2004
 msgid "No private key here"
-msgstr ""
+msgstr "ここは秘密鍵ではありません"
 
 msgid "Revoked"
 msgstr "失効済"
@@ -3290,37 +3281,31 @@ msgstr "外部 - 署名申請中"
 msgid "In Use"
 msgstr "使用中"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1920
 msgid "Go back"
-msgstr ""
+msgstr "戻る"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1914
 msgid "Download Certificate"
-msgstr ""
+msgstr "証明書のダウンロード"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1913
 msgid "You can download, revise, or add to CRL later."
-msgstr ""
+msgstr "後から CRL へのダウンロード、修正、追加が可能です。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1905
 msgid "Download Private Key"
-msgstr ""
+msgstr "秘密鍵のダウンロード"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1903
 msgid ""
 "The private key is not saved and no longer downloadable after closing this "
 "window."
-msgstr ""
+msgstr "秘密鍵は保存されていません。このウィンドウを閉じるとダウンロード出来なくなります。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1895
 msgid "Certificate has been issued."
-msgstr ""
+msgstr "証明書が発行されました。"
 
 msgid "Update"
 msgstr "更新"
@@ -3366,35 +3351,32 @@ msgstr "外部署名要求"
 msgid "Alternative Names"
 msgstr "代替名"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1525
 msgid ""
 "If the certificate is for use by a device other than this firewall, and you "
 "can download private key soon after Saving, choose this. By this option you "
 "can download the private key, which is not saved onto this firewall."
 msgstr ""
+"証明書がこのファイアウォール以外のデバイスによって使用されるもので、保存後にすぐ秘密鍵をダウンロード出来る場合は"
+"これを選択してください。このオプションを使うことで、このファイアウォールに保存されていない秘密鍵をダウンロードできます。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1524
 msgid "Normally choose this."
-msgstr ""
+msgstr "通常はこれを選択します。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1521
 # File: /usr/core/src/www/system_certmanager.php, line: 1525
 msgid "Download and do not save"
-msgstr ""
+msgstr "ダウンロードするが保存しない"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1520
 # File: /usr/core/src/www/system_certmanager.php, line: 1524
 msgid "Save on this firewall"
-msgstr ""
+msgstr "このファイアウォールに保存"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1517
 msgid "Private key location"
-msgstr ""
+msgstr "秘密鍵の場所"
 
 msgid ""
 "Choose the type of certificate to generate here, the type defines it's "
@@ -3406,95 +3388,80 @@ msgstr ""
 msgid "Internal Certificate"
 msgstr "内部証明書"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1418
 msgid "Select extendedKeyUsage"
-msgstr ""
+msgstr "extendedKeyUsage を選択"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1416
 msgid "extendedKeyUsage"
-msgstr ""
+msgstr "extendedKeyUsage"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1410
 # File: /usr/core/src/www/system_certmanager.php, line: 1433
 msgid "None. Just add CA option in basicConstraits."
-msgstr ""
+msgstr "なし。basicConstraits で CA オプションを追加するだけです。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1409
 # File: /usr/core/src/www/system_certmanager.php, line: 1432
 # File: /usr/core/src/www/system_certmanager.php, line: 1473
 msgid "Combined Client/Server Certificate"
-msgstr ""
+msgstr "クライアント / サーバ証明書を結合"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1405
 # File: /usr/core/src/www/system_certmanager.php, line: 1428
 msgid "Practical examples:"
-msgstr ""
+msgstr "実例: "
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1395
 msgid "Select keyUsage"
-msgstr ""
+msgstr "keyUsage の選択"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1393
 msgid "keyUsage"
-msgstr ""
+msgstr "keyUsage"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1388
 msgid ""
 "Define the maximum number of non-self-issued intermediate certificates that "
 "may follow this certificate in a valid certification path."
 msgstr ""
+"有効な証明書パスで、この証明書の上位になる自己発行証明書ではない中間証明書の最大数"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1386
 # File: /usr/core/src/www/system_certmanager.php, line: 1388
 msgid "Maximum Path Length"
-msgstr ""
+msgstr "最大パス長"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1385
 msgid "is CA"
-msgstr ""
+msgstr "は CA です。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1383
 msgid "basicConstraints"
-msgstr ""
+msgstr "basicConstraints"
 
 msgid "URI"
 msgstr "URI"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1343
 msgid "subjectAltName"
-msgstr ""
+msgstr "subjectAltName"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1339
 msgid "Subject"
-msgstr ""
+msgstr "サブジェクト"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1334
 msgid "Subject of the certificate"
-msgstr ""
+msgstr "証明書のサブジェクト"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1318
 msgid "Paste the CSR file here."
-msgstr ""
+msgstr "CSR ファイルをここに貼り付けます。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1316
 msgid "Show Detail"
-msgstr ""
+msgstr "詳細を表示"
 
 #, php-format
 msgid ""
@@ -3504,10 +3471,9 @@ msgstr ""
 "内部認証局が定義されていません。内部証明書を作成する前に、内部 CA を%s追加%s"
 "してください。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1267
 msgid "Sign CSR"
-msgstr ""
+msgstr "CSR の署名"
 
 msgid "Paste a private key in X.509 PEM format here."
 msgstr "X.509 PEM 形式の秘密鍵をここに貼り付けてください"
@@ -3518,49 +3484,41 @@ msgstr "秘密鍵データ"
 msgid "Import Certificate"
 msgstr "証明書のインポート"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1004
 msgid "Unknown error occured. Try again."
-msgstr ""
+msgstr "不明なエラーが発生しました。再試行してください。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 1003
 msgid "Unknown Error"
-msgstr ""
+msgstr "不明なエラー"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 920
 msgid "Certificate Request"
-msgstr ""
+msgstr "証明書要求"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 839
 msgid "Optionally use a password to protect your export"
-msgstr ""
+msgstr "オプションでエクスポートの保護にパスワードを使用"
 
 msgid "Do you really want to delete this Certificate?"
 msgstr "本当にこの証明書を削除しますか？"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 645
 msgid "Please select a valid extendedKeyUsage."
-msgstr ""
+msgstr "有効な extendedKeyUsage を選択してください。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 630
 msgid "Please select a valid keyUsage."
-msgstr ""
+msgstr "有効な KeyUsage を選択してください。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 575
 msgid "Please select a valid Type."
-msgstr ""
+msgstr "有効な Type を選択してください。"
 
-#
 # File: /usr/core/src/www/system_certmanager.php, line: 537
 # File: /usr/core/src/www/system_certmanager.php, line: 1313
 msgid "CSR file"
-msgstr ""
+msgstr "CSR ファイル"
 
 msgid "Existing Certificate Choice"
 msgstr "既存の証明書の選択"
